@@ -1,0 +1,45 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.84,Default,,0,0,0,,{\c&H00FFFF&}The{\c&HFFFFFF&} forest has
+Dialogue: 0,0:00:00.84,0:00:01.19,Default,,0,0,0,,The {\c&H00FFFF&}forest{\c&HFFFFFF&} has grown
+Dialogue: 0,0:00:01.19,0:00:01.53,Default,,0,0,0,,The forest {\c&H00FFFF&}has{\c&HFFFFFF&} grown back.
+Dialogue: 0,0:00:01.53,0:00:01.88,Default,,0,0,0,,forest has {\c&H00FFFF&}grown{\c&HFFFFFF&} back. The
+Dialogue: 0,0:00:01.88,0:00:02.23,Default,,0,0,0,,has grown {\c&H00FFFF&}back.{\c&HFFFFFF&} The wolves
+Dialogue: 0,0:00:02.23,0:00:02.57,Default,,0,0,0,,grown back. {\c&H00FFFF&}The{\c&HFFFFFF&} wolves have
+Dialogue: 0,0:00:02.57,0:00:02.92,Default,,0,0,0,,back. The {\c&H00FFFF&}wolves{\c&HFFFFFF&} have returned.
+Dialogue: 0,0:00:02.92,0:00:03.26,Default,,0,0,0,,The wolves {\c&H00FFFF&}have{\c&HFFFFFF&} returned. The
+Dialogue: 0,0:00:03.26,0:00:03.61,Default,,0,0,0,,wolves have {\c&H00FFFF&}returned.{\c&HFFFFFF&} The radiation
+Dialogue: 0,0:00:03.61,0:00:03.96,Default,,0,0,0,,have returned. {\c&H00FFFF&}The{\c&HFFFFFF&} radiation will
+Dialogue: 0,0:00:03.96,0:00:04.30,Default,,0,0,0,,returned. The {\c&H00FFFF&}radiation{\c&HFFFFFF&} will outlast
+Dialogue: 0,0:00:04.30,0:00:04.65,Default,,0,0,0,,The radiation {\c&H00FFFF&}will{\c&HFFFFFF&} outlast everything
+Dialogue: 0,0:00:04.65,0:00:04.99,Default,,0,0,0,,radiation will {\c&H00FFFF&}outlast{\c&HFFFFFF&} everything you
+Dialogue: 0,0:00:04.99,0:00:05.34,Default,,0,0,0,,will outlast {\c&H00FFFF&}everything{\c&HFFFFFF&} you have
+Dialogue: 0,0:00:05.34,0:00:05.69,Default,,0,0,0,,outlast everything {\c&H00FFFF&}you{\c&HFFFFFF&} have ever
+Dialogue: 0,0:00:05.69,0:00:06.03,Default,,0,0,0,,everything you {\c&H00FFFF&}have{\c&HFFFFFF&} ever known.
+Dialogue: 0,0:00:06.03,0:00:06.38,Default,,0,0,0,,you have {\c&H00FFFF&}ever{\c&HFFFFFF&} known. You
+Dialogue: 0,0:00:06.38,0:00:06.72,Default,,0,0,0,,have ever {\c&H00FFFF&}known.{\c&HFFFFFF&} You will
+Dialogue: 0,0:00:06.72,0:00:07.07,Default,,0,0,0,,ever known. {\c&H00FFFF&}You{\c&HFFFFFF&} will not
+Dialogue: 0,0:00:07.07,0:00:07.42,Default,,0,0,0,,known. You {\c&H00FFFF&}will{\c&HFFFFFF&} not be
+Dialogue: 0,0:00:07.42,0:00:07.76,Default,,0,0,0,,You will {\c&H00FFFF&}not{\c&HFFFFFF&} be remembered
+Dialogue: 0,0:00:07.76,0:00:08.11,Default,,0,0,0,,will not {\c&H00FFFF&}be{\c&HFFFFFF&} remembered for
+Dialogue: 0,0:00:08.11,0:00:08.45,Default,,0,0,0,,not be {\c&H00FFFF&}remembered{\c&HFFFFFF&} for even
+Dialogue: 0,0:00:08.45,0:00:08.80,Default,,0,0,0,,be remembered {\c&H00FFFF&}for{\c&HFFFFFF&} even one
+Dialogue: 0,0:00:08.80,0:00:09.15,Default,,0,0,0,,remembered for {\c&H00FFFF&}even{\c&HFFFFFF&} one of
+Dialogue: 0,0:00:09.15,0:00:09.49,Default,,0,0,0,,for even {\c&H00FFFF&}one{\c&HFFFFFF&} of those
+Dialogue: 0,0:00:09.49,0:00:09.84,Default,,0,0,0,,even one {\c&H00FFFF&}of{\c&HFFFFFF&} those twenty
+Dialogue: 0,0:00:09.84,0:00:10.18,Default,,0,0,0,,one of {\c&H00FFFF&}those{\c&HFFFFFF&} twenty thousand
+Dialogue: 0,0:00:10.18,0:00:10.53,Default,,0,0,0,,of those {\c&H00FFFF&}twenty{\c&HFFFFFF&} thousand years.
+Dialogue: 0,0:00:10.53,0:00:10.88,Default,,0,0,0,,those twenty {\c&H00FFFF&}thousand{\c&HFFFFFF&} years.
+Dialogue: 0,0:00:10.88,0:00:11.22,Default,,0,0,0,,twenty thousand {\c&H00FFFF&}years.{\c&HFFFFFF&}

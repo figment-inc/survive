@@ -1,0 +1,50 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.83,Default,,0,0,0,,{\c&H00FFFF&}From{\c&HFFFFFF&} the roof
+Dialogue: 0,0:00:00.83,0:00:01.16,Default,,0,0,0,,From {\c&H00FFFF&}the{\c&HFFFFFF&} roof you
+Dialogue: 0,0:00:01.16,0:00:01.50,Default,,0,0,0,,From the {\c&H00FFFF&}roof{\c&HFFFFFF&} you can
+Dialogue: 0,0:00:01.50,0:00:01.83,Default,,0,0,0,,the roof {\c&H00FFFF&}you{\c&HFFFFFF&} can see
+Dialogue: 0,0:00:01.83,0:00:02.17,Default,,0,0,0,,roof you {\c&H00FFFF&}can{\c&HFFFFFF&} see directly
+Dialogue: 0,0:00:02.17,0:00:02.50,Default,,0,0,0,,you can {\c&H00FFFF&}see{\c&HFFFFFF&} directly into
+Dialogue: 0,0:00:02.50,0:00:02.83,Default,,0,0,0,,can see {\c&H00FFFF&}directly{\c&HFFFFFF&} into the
+Dialogue: 0,0:00:02.83,0:00:03.17,Default,,0,0,0,,see directly {\c&H00FFFF&}into{\c&HFFFFFF&} the reactor.
+Dialogue: 0,0:00:03.17,0:00:03.50,Default,,0,0,0,,directly into {\c&H00FFFF&}the{\c&HFFFFFF&} reactor. The
+Dialogue: 0,0:00:03.50,0:00:03.84,Default,,0,0,0,,into the {\c&H00FFFF&}reactor.{\c&HFFFFFF&} The core
+Dialogue: 0,0:00:03.84,0:00:04.17,Default,,0,0,0,,the reactor. {\c&H00FFFF&}The{\c&HFFFFFF&} core is
+Dialogue: 0,0:00:04.17,0:00:04.50,Default,,0,0,0,,reactor. The {\c&H00FFFF&}core{\c&HFFFFFF&} is burning
+Dialogue: 0,0:00:04.50,0:00:04.84,Default,,0,0,0,,The core {\c&H00FFFF&}is{\c&HFFFFFF&} burning at
+Dialogue: 0,0:00:04.84,0:00:05.17,Default,,0,0,0,,core is {\c&H00FFFF&}burning{\c&HFFFFFF&} at two
+Dialogue: 0,0:00:05.17,0:00:05.51,Default,,0,0,0,,is burning {\c&H00FFFF&}at{\c&HFFFFFF&} two thousand
+Dialogue: 0,0:00:05.51,0:00:05.84,Default,,0,0,0,,burning at {\c&H00FFFF&}two{\c&HFFFFFF&} thousand degrees.
+Dialogue: 0,0:00:05.84,0:00:06.17,Default,,0,0,0,,at two {\c&H00FFFF&}thousand{\c&HFFFFFF&} degrees. The
+Dialogue: 0,0:00:06.17,0:00:06.51,Default,,0,0,0,,two thousand {\c&H00FFFF&}degrees.{\c&HFFFFFF&} The air
+Dialogue: 0,0:00:06.51,0:00:06.84,Default,,0,0,0,,thousand degrees. {\c&H00FFFF&}The{\c&HFFFFFF&} air tastes
+Dialogue: 0,0:00:06.84,0:00:07.18,Default,,0,0,0,,degrees. The {\c&H00FFFF&}air{\c&HFFFFFF&} tastes like
+Dialogue: 0,0:00:07.18,0:00:07.51,Default,,0,0,0,,The air {\c&H00FFFF&}tastes{\c&HFFFFFF&} like metal.
+Dialogue: 0,0:00:07.51,0:00:07.85,Default,,0,0,0,,air tastes {\c&H00FFFF&}like{\c&HFFFFFF&} metal. Your
+Dialogue: 0,0:00:07.85,0:00:08.18,Default,,0,0,0,,tastes like {\c&H00FFFF&}metal.{\c&HFFFFFF&} Your skin
+Dialogue: 0,0:00:08.18,0:00:08.51,Default,,0,0,0,,like metal. {\c&H00FFFF&}Your{\c&HFFFFFF&} skin is
+Dialogue: 0,0:00:08.51,0:00:08.85,Default,,0,0,0,,metal. Your {\c&H00FFFF&}skin{\c&HFFFFFF&} is already
+Dialogue: 0,0:00:08.85,0:00:09.18,Default,,0,0,0,,Your skin {\c&H00FFFF&}is{\c&HFFFFFF&} already turning
+Dialogue: 0,0:00:09.18,0:00:09.52,Default,,0,0,0,,skin is {\c&H00FFFF&}already{\c&HFFFFFF&} turning red.
+Dialogue: 0,0:00:09.52,0:00:09.85,Default,,0,0,0,,is already {\c&H00FFFF&}turning{\c&HFFFFFF&} red. You
+Dialogue: 0,0:00:09.85,0:00:10.18,Default,,0,0,0,,already turning {\c&H00FFFF&}red.{\c&HFFFFFF&} You have
+Dialogue: 0,0:00:10.18,0:00:10.52,Default,,0,0,0,,turning red. {\c&H00FFFF&}You{\c&HFFFFFF&} have minutes
+Dialogue: 0,0:00:10.52,0:00:10.85,Default,,0,0,0,,red. You {\c&H00FFFF&}have{\c&HFFFFFF&} minutes before
+Dialogue: 0,0:00:10.85,0:00:11.19,Default,,0,0,0,,You have {\c&H00FFFF&}minutes{\c&HFFFFFF&} before the
+Dialogue: 0,0:00:11.19,0:00:11.52,Default,,0,0,0,,have minutes {\c&H00FFFF&}before{\c&HFFFFFF&} the vomiting
+Dialogue: 0,0:00:11.52,0:00:11.85,Default,,0,0,0,,minutes before {\c&H00FFFF&}the{\c&HFFFFFF&} vomiting starts.
+Dialogue: 0,0:00:11.85,0:00:12.19,Default,,0,0,0,,before the {\c&H00FFFF&}vomiting{\c&HFFFFFF&} starts.
+Dialogue: 0,0:00:12.19,0:00:12.52,Default,,0,0,0,,the vomiting {\c&H00FFFF&}starts.{\c&HFFFFFF&}

@@ -1,0 +1,40 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.89,Default,,0,0,0,,{\c&H00FFFF&}They{\c&HFFFFFF&} build a
+Dialogue: 0,0:00:00.89,0:00:01.28,Default,,0,0,0,,They {\c&H00FFFF&}build{\c&HFFFFFF&} a sarcophagus.
+Dialogue: 0,0:00:01.28,0:00:01.68,Default,,0,0,0,,They build {\c&H00FFFF&}a{\c&HFFFFFF&} sarcophagus. Concrete
+Dialogue: 0,0:00:01.68,0:00:02.07,Default,,0,0,0,,build a {\c&H00FFFF&}sarcophagus.{\c&HFFFFFF&} Concrete and
+Dialogue: 0,0:00:02.07,0:00:02.47,Default,,0,0,0,,a sarcophagus. {\c&H00FFFF&}Concrete{\c&HFFFFFF&} and steel.
+Dialogue: 0,0:00:02.47,0:00:02.86,Default,,0,0,0,,sarcophagus. Concrete {\c&H00FFFF&}and{\c&HFFFFFF&} steel. They
+Dialogue: 0,0:00:02.86,0:00:03.26,Default,,0,0,0,,Concrete and {\c&H00FFFF&}steel.{\c&HFFFFFF&} They say
+Dialogue: 0,0:00:03.26,0:00:03.65,Default,,0,0,0,,and steel. {\c&H00FFFF&}They{\c&HFFFFFF&} say it
+Dialogue: 0,0:00:03.65,0:00:04.05,Default,,0,0,0,,steel. They {\c&H00FFFF&}say{\c&HFFFFFF&} it will
+Dialogue: 0,0:00:04.05,0:00:04.44,Default,,0,0,0,,They say {\c&H00FFFF&}it{\c&HFFFFFF&} will last
+Dialogue: 0,0:00:04.44,0:00:04.84,Default,,0,0,0,,say it {\c&H00FFFF&}will{\c&HFFFFFF&} last thirty
+Dialogue: 0,0:00:04.84,0:00:05.23,Default,,0,0,0,,it will {\c&H00FFFF&}last{\c&HFFFFFF&} thirty years.
+Dialogue: 0,0:00:05.23,0:00:05.63,Default,,0,0,0,,will last {\c&H00FFFF&}thirty{\c&HFFFFFF&} years. It
+Dialogue: 0,0:00:05.63,0:00:06.02,Default,,0,0,0,,last thirty {\c&H00FFFF&}years.{\c&HFFFFFF&} It lasted
+Dialogue: 0,0:00:06.02,0:00:06.42,Default,,0,0,0,,thirty years. {\c&H00FFFF&}It{\c&HFFFFFF&} lasted twenty-nine.
+Dialogue: 0,0:00:06.42,0:00:06.81,Default,,0,0,0,,years. It {\c&H00FFFF&}lasted{\c&HFFFFFF&} twenty-nine. The
+Dialogue: 0,0:00:06.81,0:00:07.21,Default,,0,0,0,,It lasted {\c&H00FFFF&}twenty-nine.{\c&HFFFFFF&} The thing
+Dialogue: 0,0:00:07.21,0:00:07.60,Default,,0,0,0,,lasted twenty-nine. {\c&H00FFFF&}The{\c&HFFFFFF&} thing inside
+Dialogue: 0,0:00:07.60,0:00:08.00,Default,,0,0,0,,twenty-nine. The {\c&H00FFFF&}thing{\c&HFFFFFF&} inside will
+Dialogue: 0,0:00:08.00,0:00:08.39,Default,,0,0,0,,The thing {\c&H00FFFF&}inside{\c&HFFFFFF&} will be
+Dialogue: 0,0:00:08.39,0:00:08.78,Default,,0,0,0,,thing inside {\c&H00FFFF&}will{\c&HFFFFFF&} be dangerous
+Dialogue: 0,0:00:08.78,0:00:09.18,Default,,0,0,0,,inside will {\c&H00FFFF&}be{\c&HFFFFFF&} dangerous for
+Dialogue: 0,0:00:09.18,0:00:09.57,Default,,0,0,0,,will be {\c&H00FFFF&}dangerous{\c&HFFFFFF&} for twenty
+Dialogue: 0,0:00:09.57,0:00:09.97,Default,,0,0,0,,be dangerous {\c&H00FFFF&}for{\c&HFFFFFF&} twenty thousand.
+Dialogue: 0,0:00:09.97,0:00:10.36,Default,,0,0,0,,dangerous for {\c&H00FFFF&}twenty{\c&HFFFFFF&} thousand.
+Dialogue: 0,0:00:10.36,0:00:10.76,Default,,0,0,0,,for twenty {\c&H00FFFF&}thousand.{\c&HFFFFFF&}

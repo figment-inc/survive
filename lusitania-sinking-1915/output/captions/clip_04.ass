@@ -1,0 +1,30 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.81,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} rush to
+Dialogue: 0,0:00:00.81,0:00:01.13,Default,,0,0,0,,You {\c&H00FFFF&}rush{\c&HFFFFFF&} to the
+Dialogue: 0,0:00:01.13,0:00:01.44,Default,,0,0,0,,You rush {\c&H00FFFF&}to{\c&HFFFFFF&} the deck.
+Dialogue: 0,0:00:01.44,0:00:01.76,Default,,0,0,0,,rush to {\c&H00FFFF&}the{\c&HFFFFFF&} deck. Point
+Dialogue: 0,0:00:01.76,0:00:02.08,Default,,0,0,0,,to the {\c&H00FFFF&}deck.{\c&HFFFFFF&} Point at
+Dialogue: 0,0:00:02.08,0:00:02.39,Default,,0,0,0,,the deck. {\c&H00FFFF&}Point{\c&HFFFFFF&} at the
+Dialogue: 0,0:00:02.39,0:00:02.71,Default,,0,0,0,,deck. Point {\c&H00FFFF&}at{\c&HFFFFFF&} the water.
+Dialogue: 0,0:00:02.71,0:00:03.03,Default,,0,0,0,,Point at {\c&H00FFFF&}the{\c&HFFFFFF&} water. A
+Dialogue: 0,0:00:03.03,0:00:03.34,Default,,0,0,0,,at the {\c&H00FFFF&}water.{\c&HFFFFFF&} A white
+Dialogue: 0,0:00:03.34,0:00:03.66,Default,,0,0,0,,the water. {\c&H00FFFF&}A{\c&HFFFFFF&} white wake.
+Dialogue: 0,0:00:03.66,0:00:03.98,Default,,0,0,0,,water. A {\c&H00FFFF&}white{\c&HFFFFFF&} wake. Cutting
+Dialogue: 0,0:00:03.98,0:00:04.29,Default,,0,0,0,,A white {\c&H00FFFF&}wake.{\c&HFFFFFF&} Cutting straight
+Dialogue: 0,0:00:04.29,0:00:04.61,Default,,0,0,0,,white wake. {\c&H00FFFF&}Cutting{\c&HFFFFFF&} straight toward
+Dialogue: 0,0:00:04.61,0:00:04.92,Default,,0,0,0,,wake. Cutting {\c&H00FFFF&}straight{\c&HFFFFFF&} toward you.
+Dialogue: 0,0:00:04.92,0:00:05.24,Default,,0,0,0,,Cutting straight {\c&H00FFFF&}toward{\c&HFFFFFF&} you.
+Dialogue: 0,0:00:05.24,0:00:05.56,Default,,0,0,0,,straight toward {\c&H00FFFF&}you.{\c&HFFFFFF&}

@@ -1,0 +1,27 @@
+Cinematic vertical 9:16 video, 1080p.
+
+Wide interior shot, slight Dutch angle tilting five degrees right, handheld shake increasing throughout — camera captures the full width of the control room as the explosions tear through the building over seven seconds. Shot motivation: the apocalyptic moment — two detonations destroy the reactor and nearly kill everyone in the room. The Dutch angle creates disorientation, the handheld shake conveys the physical violence of the event. The figure is positioned center-left, thrown against the console by the blast force.
+
+Transition from close-up AZ-5 button press to wide destruction — the intimate act of pressing a button has unleashed building-scale violence. The camera rips back to show the full scope of devastation.
+
+Continuity: continue seamlessly from the previous clip. Maintain the same character appearance, lighting, and environmental composition. Character lock: translucent figure with visible skeleton, pale orb eyes, no hair, no clothing — same appearance throughout.
+
+EXPLOSION lighting — a sequence of three distinct light states in seven seconds: (1) a blinding white flash from above, overexposing the entire frame for half a second, washing out all detail; (2) hot orange firelight pouring through the ruptured ceiling, casting violent flickering shadows that swing wildly across walls and bodies; (3) near-darkness punctuated only by electrical sparks, small fires, and the faint orange glow filtering through dust and debris from the destroyed reactor above. The figure's skeleton becomes starkly visible during the white flash, every bone illuminated through the translucent skin like an x-ray.
+
+Foreground: Debris falling through frame — ceiling panels, concrete fragments, shattered fluorescent tube glass, sparking electrical cables whipping free from their conduits. A shower of white plaster dust. Slightly soft-focused particles closest to the lens.
+
+Midground: The control room in catastrophic destruction — during the seven seconds: (1) the first detonation — a massive concussive blast from above, the ceiling buckling inward, a blinding white flash filling every window and ceiling seam; (2) the figure is knocked sideways against the main control console by the shockwave, the translucent body sliding to the floor; (3) the second detonation — heavier, deeper, the far wall of the control room physically buckling inward, concrete cracking in jagged lines, rebar bending visible through the fractures; (4) ceiling panels collapsing in sheets, sparking electrical cables dropping and writhing like snakes, instrument screens imploding with small pops of glass; (5) dust and pulverized concrete pouring through the cracked ceiling in thick grey curtains, an orange glow visible through the ruptures — the open sky where the reactor hall roof used to be; (6) workers on the floor — an operator crawling on hands and knees toward the door, another shielding their head under fallen ceiling tiles, a third staggering upright covered in grey dust.
+
+Background: The far wall fractured and bowing inward, pipes burst and spraying water in high-pressure jets that catch the firelight and create brief rainbows in the dust. Steam hissing from ruptured lines. The orange glow of fire visible through every crack and opening in the ceiling, illuminating the dust cloud from above.
+
+Thick grey concrete dust filling the air like fog, reducing visibility to meters. Water spraying from burst pipes. Sparks cascading from severed electrical conduits. Small fires burning on fallen paperwork and debris.
+
+The synoptic mimic board — cracked across its face, half its lights dead, the remaining ones still red, the illuminated reactor schematic now showing a system that no longer exists. Shattered glass from instrument faces scattered across the console surface like diamonds.
+
+Water pipes burst along the ceiling — pressurized jets spraying horizontally, catching firelight. A worker crawling through the ankle-deep water pooling on the floor, heading for the corridor door. Another worker stumbling through debris, shielding their eyes. The emergency exit sign flickering, half its letters dead.
+
+No dialogue. No speech. No talking. The figure reacts silently through physical gestures and body language only. No voiceover. No narration. No music. Ambient environmental sound and sound effects only.
+
+Audio direction:
+- SFX: The first explosion — a sharp percussive crack from above like thunder inside a building, followed immediately by the roar of collapsing concrete and steel; the second explosion — a deeper, heavier detonation that shakes the camera, a bass-frequency boom that compresses the air; ceiling panels crashing to the floor, glass shattering in sequence across the instrument bank, electrical cables sparking with sharp zapping cracks, water pipes bursting with high-pressure hissing, the figure's body impacting the console with a dull thud, debris raining on linoleum
+- Ambience: The aftermath settling — concrete dust hissing as it falls, water spraying and pooling, small fires crackling, the deep structural groaning of a building that has lost its integrity, electrical shorts buzzing intermittently, steam venting at high pressure, the reactor's hum replaced by an awful hollow roaring from above — the sound of an open nuclear core exposed to the sky

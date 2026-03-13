@@ -1,0 +1,28 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.84,Default,,0,0,0,,{\c&H00FFFF&}The{\c&HFFFFFF&} January air
+Dialogue: 0,0:00:00.84,0:00:01.18,Default,,0,0,0,,The {\c&H00FFFF&}January{\c&HFFFFFF&} air does
+Dialogue: 0,0:00:01.18,0:00:01.53,Default,,0,0,0,,The January {\c&H00FFFF&}air{\c&HFFFFFF&} does its
+Dialogue: 0,0:00:01.53,0:00:01.87,Default,,0,0,0,,January air {\c&H00FFFF&}does{\c&HFFFFFF&} its work.
+Dialogue: 0,0:00:01.87,0:00:02.22,Default,,0,0,0,,air does {\c&H00FFFF&}its{\c&HFFFFFF&} work. The
+Dialogue: 0,0:00:02.22,0:00:02.56,Default,,0,0,0,,does its {\c&H00FFFF&}work.{\c&HFFFFFF&} The flood
+Dialogue: 0,0:00:02.56,0:00:02.91,Default,,0,0,0,,its work. {\c&H00FFFF&}The{\c&HFFFFFF&} flood thickens.
+Dialogue: 0,0:00:02.91,0:00:03.25,Default,,0,0,0,,work. The {\c&H00FFFF&}flood{\c&HFFFFFF&} thickens. You
+Dialogue: 0,0:00:03.25,0:00:03.60,Default,,0,0,0,,The flood {\c&H00FFFF&}thickens.{\c&HFFFFFF&} You cannot
+Dialogue: 0,0:00:03.60,0:00:03.94,Default,,0,0,0,,flood thickens. {\c&H00FFFF&}You{\c&HFFFFFF&} cannot move
+Dialogue: 0,0:00:03.94,0:00:04.29,Default,,0,0,0,,thickens. You {\c&H00FFFF&}cannot{\c&HFFFFFF&} move your
+Dialogue: 0,0:00:04.29,0:00:04.63,Default,,0,0,0,,You cannot {\c&H00FFFF&}move{\c&HFFFFFF&} your legs.
+Dialogue: 0,0:00:04.63,0:00:04.98,Default,,0,0,0,,cannot move {\c&H00FFFF&}your{\c&HFFFFFF&} legs.
+Dialogue: 0,0:00:04.98,0:00:05.32,Default,,0,0,0,,move your {\c&H00FFFF&}legs.{\c&HFFFFFF&}

@@ -1,0 +1,48 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.87,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} wake up
+Dialogue: 0,0:00:00.87,0:00:01.24,Default,,0,0,0,,You {\c&H00FFFF&}wake{\c&HFFFFFF&} up on
+Dialogue: 0,0:00:01.24,0:00:01.62,Default,,0,0,0,,You wake {\c&H00FFFF&}up{\c&HFFFFFF&} on cobblestones.
+Dialogue: 0,0:00:01.62,0:00:01.99,Default,,0,0,0,,wake up {\c&H00FFFF&}on{\c&HFFFFFF&} cobblestones. The
+Dialogue: 0,0:00:01.99,0:00:02.37,Default,,0,0,0,,up on {\c&H00FFFF&}cobblestones.{\c&HFFFFFF&} The air
+Dialogue: 0,0:00:02.37,0:00:02.74,Default,,0,0,0,,on cobblestones. {\c&H00FFFF&}The{\c&HFFFFFF&} air is
+Dialogue: 0,0:00:02.74,0:00:03.11,Default,,0,0,0,,cobblestones. The {\c&H00FFFF&}air{\c&HFFFFFF&} is thick
+Dialogue: 0,0:00:03.11,0:00:03.49,Default,,0,0,0,,The air {\c&H00FFFF&}is{\c&HFFFFFF&} thick and
+Dialogue: 0,0:00:03.49,0:00:03.86,Default,,0,0,0,,air is {\c&H00FFFF&}thick{\c&HFFFFFF&} and sweet.
+Dialogue: 0,0:00:03.86,0:00:04.24,Default,,0,0,0,,is thick {\c&H00FFFF&}and{\c&HFFFFFF&} sweet. It's
+Dialogue: 0,0:00:04.24,0:00:04.61,Default,,0,0,0,,thick and {\c&H00FFFF&}sweet.{\c&HFFFFFF&} It's January
+Dialogue: 0,0:00:04.61,0:00:04.99,Default,,0,0,0,,and sweet. {\c&H00FFFF&}It's{\c&HFFFFFF&} January in
+Dialogue: 0,0:00:04.99,0:00:05.36,Default,,0,0,0,,sweet. It's {\c&H00FFFF&}January{\c&HFFFFFF&} in Boston,
+Dialogue: 0,0:00:05.36,0:00:05.73,Default,,0,0,0,,It's January {\c&H00FFFF&}in{\c&HFFFFFF&} Boston, and
+Dialogue: 0,0:00:05.73,0:00:06.11,Default,,0,0,0,,January in {\c&H00FFFF&}Boston,{\c&HFFFFFF&} and something
+Dialogue: 0,0:00:06.11,0:00:06.48,Default,,0,0,0,,in Boston, {\c&H00FFFF&}and{\c&HFFFFFF&} something is
+Dialogue: 0,0:00:06.48,0:00:06.86,Default,,0,0,0,,Boston, and {\c&H00FFFF&}something{\c&HFFFFFF&} is very
+Dialogue: 0,0:00:06.86,0:00:07.23,Default,,0,0,0,,and something {\c&H00FFFF&}is{\c&HFFFFFF&} very wrong.
+Dialogue: 0,0:00:07.23,0:00:07.61,Default,,0,0,0,,something is {\c&H00FFFF&}very{\c&HFFFFFF&} wrong. That
+Dialogue: 0,0:00:07.61,0:00:07.98,Default,,0,0,0,,is very {\c&H00FFFF&}wrong.{\c&HFFFFFF&} That steel
+Dialogue: 0,0:00:07.98,0:00:08.35,Default,,0,0,0,,very wrong. {\c&H00FFFF&}That{\c&HFFFFFF&} steel tank
+Dialogue: 0,0:00:08.35,0:00:08.73,Default,,0,0,0,,wrong. That {\c&H00FFFF&}steel{\c&HFFFFFF&} tank above
+Dialogue: 0,0:00:08.73,0:00:09.10,Default,,0,0,0,,That steel {\c&H00FFFF&}tank{\c&HFFFFFF&} above you
+Dialogue: 0,0:00:09.10,0:00:09.48,Default,,0,0,0,,steel tank {\c&H00FFFF&}above{\c&HFFFFFF&} you holds
+Dialogue: 0,0:00:09.48,0:00:09.85,Default,,0,0,0,,tank above {\c&H00FFFF&}you{\c&HFFFFFF&} holds two
+Dialogue: 0,0:00:09.85,0:00:10.23,Default,,0,0,0,,above you {\c&H00FFFF&}holds{\c&HFFFFFF&} two million
+Dialogue: 0,0:00:10.23,0:00:10.60,Default,,0,0,0,,you holds {\c&H00FFFF&}two{\c&HFFFFFF&} million gallons.
+Dialogue: 0,0:00:10.60,0:00:10.97,Default,,0,0,0,,holds two {\c&H00FFFF&}million{\c&HFFFFFF&} gallons. It's
+Dialogue: 0,0:00:10.97,0:00:11.35,Default,,0,0,0,,two million {\c&H00FFFF&}gallons.{\c&HFFFFFF&} It's been
+Dialogue: 0,0:00:11.35,0:00:11.72,Default,,0,0,0,,million gallons. {\c&H00FFFF&}It's{\c&HFFFFFF&} been leaking
+Dialogue: 0,0:00:11.72,0:00:12.10,Default,,0,0,0,,gallons. It's {\c&H00FFFF&}been{\c&HFFFFFF&} leaking for
+Dialogue: 0,0:00:12.10,0:00:12.47,Default,,0,0,0,,It's been {\c&H00FFFF&}leaking{\c&HFFFFFF&} for years.
+Dialogue: 0,0:00:12.47,0:00:12.85,Default,,0,0,0,,been leaking {\c&H00FFFF&}for{\c&HFFFFFF&} years.
+Dialogue: 0,0:00:12.85,0:00:13.22,Default,,0,0,0,,leaking for {\c&H00FFFF&}years.{\c&HFFFFFF&}

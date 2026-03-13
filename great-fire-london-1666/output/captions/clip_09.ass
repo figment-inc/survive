@@ -1,0 +1,39 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.89,Default,,0,0,0,,{\c&H00FFFF&}The{\c&HFFFFFF&} bridge itself
+Dialogue: 0,0:00:00.89,0:00:01.29,Default,,0,0,0,,The {\c&H00FFFF&}bridge{\c&HFFFFFF&} itself catches
+Dialogue: 0,0:00:01.29,0:00:01.68,Default,,0,0,0,,The bridge {\c&H00FFFF&}itself{\c&HFFFFFF&} catches fire.
+Dialogue: 0,0:00:01.68,0:00:02.08,Default,,0,0,0,,bridge itself {\c&H00FFFF&}catches{\c&HFFFFFF&} fire. Massive
+Dialogue: 0,0:00:02.08,0:00:02.47,Default,,0,0,0,,itself catches {\c&H00FFFF&}fire.{\c&HFFFFFF&} Massive timber
+Dialogue: 0,0:00:02.47,0:00:02.87,Default,,0,0,0,,catches fire. {\c&H00FFFF&}Massive{\c&HFFFFFF&} timber beams
+Dialogue: 0,0:00:02.87,0:00:03.26,Default,,0,0,0,,fire. Massive {\c&H00FFFF&}timber{\c&HFFFFFF&} beams glow
+Dialogue: 0,0:00:03.26,0:00:03.66,Default,,0,0,0,,Massive timber {\c&H00FFFF&}beams{\c&HFFFFFF&} glow red-hot.
+Dialogue: 0,0:00:03.66,0:00:04.06,Default,,0,0,0,,timber beams {\c&H00FFFF&}glow{\c&HFFFFFF&} red-hot. You
+Dialogue: 0,0:00:04.06,0:00:04.45,Default,,0,0,0,,beams glow {\c&H00FFFF&}red-hot.{\c&HFFFFFF&} You slide
+Dialogue: 0,0:00:04.45,0:00:04.85,Default,,0,0,0,,glow red-hot. {\c&H00FFFF&}You{\c&HFFFFFF&} slide toward
+Dialogue: 0,0:00:04.85,0:00:05.24,Default,,0,0,0,,red-hot. You {\c&H00FFFF&}slide{\c&HFFFFFF&} toward the
+Dialogue: 0,0:00:05.24,0:00:05.64,Default,,0,0,0,,You slide {\c&H00FFFF&}toward{\c&HFFFFFF&} the Thames
+Dialogue: 0,0:00:05.64,0:00:06.03,Default,,0,0,0,,slide toward {\c&H00FFFF&}the{\c&HFFFFFF&} Thames forty
+Dialogue: 0,0:00:06.03,0:00:06.43,Default,,0,0,0,,toward the {\c&H00FFFF&}Thames{\c&HFFFFFF&} forty feet
+Dialogue: 0,0:00:06.43,0:00:06.83,Default,,0,0,0,,the Thames {\c&H00FFFF&}forty{\c&HFFFFFF&} feet below,
+Dialogue: 0,0:00:06.83,0:00:07.22,Default,,0,0,0,,Thames forty {\c&H00FFFF&}feet{\c&HFFFFFF&} below, still
+Dialogue: 0,0:00:07.22,0:00:07.62,Default,,0,0,0,,forty feet {\c&H00FFFF&}below,{\c&HFFFFFF&} still reaching
+Dialogue: 0,0:00:07.62,0:00:08.01,Default,,0,0,0,,feet below, {\c&H00FFFF&}still{\c&HFFFFFF&} reaching for
+Dialogue: 0,0:00:08.01,0:00:08.41,Default,,0,0,0,,below, still {\c&H00FFFF&}reaching{\c&HFFFFFF&} for help
+Dialogue: 0,0:00:08.41,0:00:08.80,Default,,0,0,0,,still reaching {\c&H00FFFF&}for{\c&HFFFFFF&} help that
+Dialogue: 0,0:00:08.80,0:00:09.20,Default,,0,0,0,,reaching for {\c&H00FFFF&}help{\c&HFFFFFF&} that never
+Dialogue: 0,0:00:09.20,0:00:09.60,Default,,0,0,0,,for help {\c&H00FFFF&}that{\c&HFFFFFF&} never comes.
+Dialogue: 0,0:00:09.60,0:00:09.99,Default,,0,0,0,,help that {\c&H00FFFF&}never{\c&HFFFFFF&} comes.
+Dialogue: 0,0:00:09.99,0:00:10.39,Default,,0,0,0,,that never {\c&H00FFFF&}comes.{\c&HFFFFFF&}

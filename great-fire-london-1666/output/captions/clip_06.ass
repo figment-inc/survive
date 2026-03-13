@@ -1,0 +1,39 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.89,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} join thousands
+Dialogue: 0,0:00:00.89,0:00:01.28,Default,,0,0,0,,You {\c&H00FFFF&}join{\c&HFFFFFF&} thousands fleeing
+Dialogue: 0,0:00:01.28,0:00:01.68,Default,,0,0,0,,You join {\c&H00FFFF&}thousands{\c&HFFFFFF&} fleeing toward
+Dialogue: 0,0:00:01.68,0:00:02.07,Default,,0,0,0,,join thousands {\c&H00FFFF&}fleeing{\c&HFFFFFF&} toward London
+Dialogue: 0,0:00:02.07,0:00:02.46,Default,,0,0,0,,thousands fleeing {\c&H00FFFF&}toward{\c&HFFFFFF&} London Bridge.
+Dialogue: 0,0:00:02.46,0:00:02.86,Default,,0,0,0,,fleeing toward {\c&H00FFFF&}London{\c&HFFFFFF&} Bridge. The
+Dialogue: 0,0:00:02.86,0:00:03.25,Default,,0,0,0,,toward London {\c&H00FFFF&}Bridge.{\c&HFFFFFF&} The medieval
+Dialogue: 0,0:00:03.25,0:00:03.65,Default,,0,0,0,,London Bridge. {\c&H00FFFF&}The{\c&HFFFFFF&} medieval city
+Dialogue: 0,0:00:03.65,0:00:04.04,Default,,0,0,0,,Bridge. The {\c&H00FFFF&}medieval{\c&HFFFFFF&} city burns
+Dialogue: 0,0:00:04.04,0:00:04.43,Default,,0,0,0,,The medieval {\c&H00FFFF&}city{\c&HFFFFFF&} burns behind
+Dialogue: 0,0:00:04.43,0:00:04.83,Default,,0,0,0,,medieval city {\c&H00FFFF&}burns{\c&HFFFFFF&} behind you
+Dialogue: 0,0:00:04.83,0:00:05.22,Default,,0,0,0,,city burns {\c&H00FFFF&}behind{\c&HFFFFFF&} you in
+Dialogue: 0,0:00:05.22,0:00:05.61,Default,,0,0,0,,burns behind {\c&H00FFFF&}you{\c&HFFFFFF&} in a
+Dialogue: 0,0:00:05.61,0:00:06.01,Default,,0,0,0,,behind you {\c&H00FFFF&}in{\c&HFFFFFF&} a crescent
+Dialogue: 0,0:00:06.01,0:00:06.40,Default,,0,0,0,,you in {\c&H00FFFF&}a{\c&HFFFFFF&} crescent of
+Dialogue: 0,0:00:06.40,0:00:06.80,Default,,0,0,0,,in a {\c&H00FFFF&}crescent{\c&HFFFFFF&} of orange
+Dialogue: 0,0:00:06.80,0:00:07.19,Default,,0,0,0,,a crescent {\c&H00FFFF&}of{\c&HFFFFFF&} orange fire.
+Dialogue: 0,0:00:07.19,0:00:07.58,Default,,0,0,0,,crescent of {\c&H00FFFF&}orange{\c&HFFFFFF&} fire. Surely
+Dialogue: 0,0:00:07.58,0:00:07.98,Default,,0,0,0,,of orange {\c&H00FFFF&}fire.{\c&HFFFFFF&} Surely stone
+Dialogue: 0,0:00:07.98,0:00:08.37,Default,,0,0,0,,orange fire. {\c&H00FFFF&}Surely{\c&HFFFFFF&} stone is
+Dialogue: 0,0:00:08.37,0:00:08.77,Default,,0,0,0,,fire. Surely {\c&H00FFFF&}stone{\c&HFFFFFF&} is safer
+Dialogue: 0,0:00:08.77,0:00:09.16,Default,,0,0,0,,Surely stone {\c&H00FFFF&}is{\c&HFFFFFF&} safer than
+Dialogue: 0,0:00:09.16,0:00:09.55,Default,,0,0,0,,stone is {\c&H00FFFF&}safer{\c&HFFFFFF&} than wood.
+Dialogue: 0,0:00:09.55,0:00:09.95,Default,,0,0,0,,is safer {\c&H00FFFF&}than{\c&HFFFFFF&} wood.
+Dialogue: 0,0:00:09.95,0:00:10.34,Default,,0,0,0,,safer than {\c&H00FFFF&}wood.{\c&HFFFFFF&}

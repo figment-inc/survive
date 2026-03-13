@@ -1,0 +1,20 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.94,Default,,0,0,0,,{\c&H00FFFF&}Nobody{\c&HFFFFFF&} believes you.
+Dialogue: 0,0:00:00.94,0:00:01.38,Default,,0,0,0,,Nobody {\c&H00FFFF&}believes{\c&HFFFFFF&} you. Seasickness,
+Dialogue: 0,0:00:01.38,0:00:01.82,Default,,0,0,0,,Nobody believes {\c&H00FFFF&}you.{\c&HFFFFFF&} Seasickness, they
+Dialogue: 0,0:00:01.82,0:00:02.26,Default,,0,0,0,,believes you. {\c&H00FFFF&}Seasickness,{\c&HFFFFFF&} they say.
+Dialogue: 0,0:00:02.26,0:00:02.70,Default,,0,0,0,,you. Seasickness, {\c&H00FFFF&}they{\c&HFFFFFF&} say.
+Dialogue: 0,0:00:02.70,0:00:03.14,Default,,0,0,0,,Seasickness, they {\c&H00FFFF&}say.{\c&HFFFFFF&}

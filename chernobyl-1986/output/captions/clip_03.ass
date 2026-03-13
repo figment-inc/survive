@@ -1,0 +1,52 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.86,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} press the
+Dialogue: 0,0:00:00.86,0:00:01.23,Default,,0,0,0,,You {\c&H00FFFF&}press{\c&HFFFFFF&} the emergency
+Dialogue: 0,0:00:01.23,0:00:01.60,Default,,0,0,0,,You press {\c&H00FFFF&}the{\c&HFFFFFF&} emergency button.
+Dialogue: 0,0:00:01.60,0:00:01.97,Default,,0,0,0,,press the {\c&H00FFFF&}emergency{\c&HFFFFFF&} button. AZ-5.
+Dialogue: 0,0:00:01.97,0:00:02.34,Default,,0,0,0,,the emergency {\c&H00FFFF&}button.{\c&HFFFFFF&} AZ-5. The
+Dialogue: 0,0:00:02.34,0:00:02.71,Default,,0,0,0,,emergency button. {\c&H00FFFF&}AZ-5.{\c&HFFFFFF&} The one
+Dialogue: 0,0:00:02.71,0:00:03.08,Default,,0,0,0,,button. AZ-5. {\c&H00FFFF&}The{\c&HFFFFFF&} one that
+Dialogue: 0,0:00:03.08,0:00:03.45,Default,,0,0,0,,AZ-5. The {\c&H00FFFF&}one{\c&HFFFFFF&} that is
+Dialogue: 0,0:00:03.45,0:00:03.82,Default,,0,0,0,,The one {\c&H00FFFF&}that{\c&HFFFFFF&} is supposed
+Dialogue: 0,0:00:03.82,0:00:04.19,Default,,0,0,0,,one that {\c&H00FFFF&}is{\c&HFFFFFF&} supposed to
+Dialogue: 0,0:00:04.19,0:00:04.55,Default,,0,0,0,,that is {\c&H00FFFF&}supposed{\c&HFFFFFF&} to shut
+Dialogue: 0,0:00:04.55,0:00:04.92,Default,,0,0,0,,is supposed {\c&H00FFFF&}to{\c&HFFFFFF&} shut everything
+Dialogue: 0,0:00:04.92,0:00:05.29,Default,,0,0,0,,supposed to {\c&H00FFFF&}shut{\c&HFFFFFF&} everything down.
+Dialogue: 0,0:00:05.29,0:00:05.66,Default,,0,0,0,,to shut {\c&H00FFFF&}everything{\c&HFFFFFF&} down. The
+Dialogue: 0,0:00:05.66,0:00:06.03,Default,,0,0,0,,shut everything {\c&H00FFFF&}down.{\c&HFFFFFF&} The control
+Dialogue: 0,0:00:06.03,0:00:06.40,Default,,0,0,0,,everything down. {\c&H00FFFF&}The{\c&HFFFFFF&} control rods
+Dialogue: 0,0:00:06.40,0:00:06.77,Default,,0,0,0,,down. The {\c&H00FFFF&}control{\c&HFFFFFF&} rods jam.
+Dialogue: 0,0:00:06.77,0:00:07.14,Default,,0,0,0,,The control {\c&H00FFFF&}rods{\c&HFFFFFF&} jam. The
+Dialogue: 0,0:00:07.14,0:00:07.51,Default,,0,0,0,,control rods {\c&H00FFFF&}jam.{\c&HFFFFFF&} The power
+Dialogue: 0,0:00:07.51,0:00:07.88,Default,,0,0,0,,rods jam. {\c&H00FFFF&}The{\c&HFFFFFF&} power does
+Dialogue: 0,0:00:07.88,0:00:08.25,Default,,0,0,0,,jam. The {\c&H00FFFF&}power{\c&HFFFFFF&} does not
+Dialogue: 0,0:00:08.25,0:00:08.61,Default,,0,0,0,,The power {\c&H00FFFF&}does{\c&HFFFFFF&} not drop.
+Dialogue: 0,0:00:08.61,0:00:08.98,Default,,0,0,0,,power does {\c&H00FFFF&}not{\c&HFFFFFF&} drop. It
+Dialogue: 0,0:00:08.98,0:00:09.35,Default,,0,0,0,,does not {\c&H00FFFF&}drop.{\c&HFFFFFF&} It spikes.
+Dialogue: 0,0:00:09.35,0:00:09.72,Default,,0,0,0,,not drop. {\c&H00FFFF&}It{\c&HFFFFFF&} spikes. Thirty
+Dialogue: 0,0:00:09.72,0:00:10.09,Default,,0,0,0,,drop. It {\c&H00FFFF&}spikes.{\c&HFFFFFF&} Thirty thousand
+Dialogue: 0,0:00:10.09,0:00:10.46,Default,,0,0,0,,It spikes. {\c&H00FFFF&}Thirty{\c&HFFFFFF&} thousand megawatts.
+Dialogue: 0,0:00:10.46,0:00:10.83,Default,,0,0,0,,spikes. Thirty {\c&H00FFFF&}thousand{\c&HFFFFFF&} megawatts. One
+Dialogue: 0,0:00:10.83,0:00:11.20,Default,,0,0,0,,Thirty thousand {\c&H00FFFF&}megawatts.{\c&HFFFFFF&} One hundred
+Dialogue: 0,0:00:11.20,0:00:11.57,Default,,0,0,0,,thousand megawatts. {\c&H00FFFF&}One{\c&HFFFFFF&} hundred times
+Dialogue: 0,0:00:11.57,0:00:11.94,Default,,0,0,0,,megawatts. One {\c&H00FFFF&}hundred{\c&HFFFFFF&} times what
+Dialogue: 0,0:00:11.94,0:00:12.31,Default,,0,0,0,,One hundred {\c&H00FFFF&}times{\c&HFFFFFF&} what this
+Dialogue: 0,0:00:12.31,0:00:12.67,Default,,0,0,0,,hundred times {\c&H00FFFF&}what{\c&HFFFFFF&} this reactor
+Dialogue: 0,0:00:12.67,0:00:13.04,Default,,0,0,0,,times what {\c&H00FFFF&}this{\c&HFFFFFF&} reactor was
+Dialogue: 0,0:00:13.04,0:00:13.41,Default,,0,0,0,,what this {\c&H00FFFF&}reactor{\c&HFFFFFF&} was built
+Dialogue: 0,0:00:13.41,0:00:13.78,Default,,0,0,0,,this reactor {\c&H00FFFF&}was{\c&HFFFFFF&} built for.
+Dialogue: 0,0:00:13.78,0:00:14.15,Default,,0,0,0,,reactor was {\c&H00FFFF&}built{\c&HFFFFFF&} for.
+Dialogue: 0,0:00:14.15,0:00:14.52,Default,,0,0,0,,was built {\c&H00FFFF&}for.{\c&HFFFFFF&}

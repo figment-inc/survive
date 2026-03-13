@@ -1,0 +1,28 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.81,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} run below
+Dialogue: 0,0:00:00.81,0:00:01.12,Default,,0,0,0,,You {\c&H00FFFF&}run{\c&HFFFFFF&} below deck.
+Dialogue: 0,0:00:01.12,0:00:01.43,Default,,0,0,0,,You run {\c&H00FFFF&}below{\c&HFFFFFF&} deck. Maybe
+Dialogue: 0,0:00:01.43,0:00:01.74,Default,,0,0,0,,run below {\c&H00FFFF&}deck.{\c&HFFFFFF&} Maybe warn
+Dialogue: 0,0:00:01.74,0:00:02.05,Default,,0,0,0,,below deck. {\c&H00FFFF&}Maybe{\c&HFFFFFF&} warn the
+Dialogue: 0,0:00:02.05,0:00:02.37,Default,,0,0,0,,deck. Maybe {\c&H00FFFF&}warn{\c&HFFFFFF&} the engine
+Dialogue: 0,0:00:02.37,0:00:02.68,Default,,0,0,0,,Maybe warn {\c&H00FFFF&}the{\c&HFFFFFF&} engine room.
+Dialogue: 0,0:00:02.68,0:00:02.99,Default,,0,0,0,,warn the {\c&H00FFFF&}engine{\c&HFFFFFF&} room. But
+Dialogue: 0,0:00:02.99,0:00:03.30,Default,,0,0,0,,the engine {\c&H00FFFF&}room.{\c&HFFFFFF&} But it's
+Dialogue: 0,0:00:03.30,0:00:03.61,Default,,0,0,0,,engine room. {\c&H00FFFF&}But{\c&HFFFFFF&} it's already
+Dialogue: 0,0:00:03.61,0:00:03.92,Default,,0,0,0,,room. But {\c&H00FFFF&}it's{\c&HFFFFFF&} already too
+Dialogue: 0,0:00:03.92,0:00:04.24,Default,,0,0,0,,But it's {\c&H00FFFF&}already{\c&HFFFFFF&} too late.
+Dialogue: 0,0:00:04.24,0:00:04.55,Default,,0,0,0,,it's already {\c&H00FFFF&}too{\c&HFFFFFF&} late.
+Dialogue: 0,0:00:04.55,0:00:04.86,Default,,0,0,0,,already too {\c&H00FFFF&}late.{\c&HFFFFFF&}

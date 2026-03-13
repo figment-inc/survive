@@ -1,0 +1,26 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.81,Default,,0,0,0,,{\c&H00FFFF&}What{\c&HFFFFFF&} happens if
+Dialogue: 0,0:00:00.81,0:00:01.12,Default,,0,0,0,,What {\c&H00FFFF&}happens{\c&HFFFFFF&} if you
+Dialogue: 0,0:00:01.12,0:00:01.44,Default,,0,0,0,,What happens {\c&H00FFFF&}if{\c&HFFFFFF&} you wake
+Dialogue: 0,0:00:01.44,0:00:01.75,Default,,0,0,0,,happens if {\c&H00FFFF&}you{\c&HFFFFFF&} wake up
+Dialogue: 0,0:00:01.75,0:00:02.06,Default,,0,0,0,,if you {\c&H00FFFF&}wake{\c&HFFFFFF&} up on
+Dialogue: 0,0:00:02.06,0:00:02.38,Default,,0,0,0,,you wake {\c&H00FFFF&}up{\c&HFFFFFF&} on history's
+Dialogue: 0,0:00:02.38,0:00:02.69,Default,,0,0,0,,wake up {\c&H00FFFF&}on{\c&HFFFFFF&} history's most
+Dialogue: 0,0:00:02.69,0:00:03.00,Default,,0,0,0,,up on {\c&H00FFFF&}history's{\c&HFFFFFF&} most doomed
+Dialogue: 0,0:00:03.00,0:00:03.32,Default,,0,0,0,,on history's {\c&H00FFFF&}most{\c&HFFFFFF&} doomed passenger
+Dialogue: 0,0:00:03.32,0:00:03.63,Default,,0,0,0,,history's most {\c&H00FFFF&}doomed{\c&HFFFFFF&} passenger ship?
+Dialogue: 0,0:00:03.63,0:00:03.94,Default,,0,0,0,,most doomed {\c&H00FFFF&}passenger{\c&HFFFFFF&} ship?
+Dialogue: 0,0:00:03.94,0:00:04.26,Default,,0,0,0,,doomed passenger {\c&H00FFFF&}ship?{\c&HFFFFFF&}

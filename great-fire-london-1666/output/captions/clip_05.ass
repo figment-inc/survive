@@ -1,0 +1,22 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.80,Default,,0,0,0,,{\c&H00FFFF&}The{\c&HFFFFFF&} flames spread
+Dialogue: 0,0:00:00.80,0:00:01.10,Default,,0,0,0,,The {\c&H00FFFF&}flames{\c&HFFFFFF&} spread faster
+Dialogue: 0,0:00:01.10,0:00:01.40,Default,,0,0,0,,The flames {\c&H00FFFF&}spread{\c&HFFFFFF&} faster than
+Dialogue: 0,0:00:01.40,0:00:01.70,Default,,0,0,0,,flames spread {\c&H00FFFF&}faster{\c&HFFFFFF&} than you
+Dialogue: 0,0:00:01.70,0:00:02.00,Default,,0,0,0,,spread faster {\c&H00FFFF&}than{\c&HFFFFFF&} you can
+Dialogue: 0,0:00:02.00,0:00:02.31,Default,,0,0,0,,faster than {\c&H00FFFF&}you{\c&HFFFFFF&} can run.
+Dialogue: 0,0:00:02.31,0:00:02.61,Default,,0,0,0,,than you {\c&H00FFFF&}can{\c&HFFFFFF&} run.
+Dialogue: 0,0:00:02.61,0:00:02.91,Default,,0,0,0,,you can {\c&H00FFFF&}run.{\c&HFFFFFF&}

@@ -1,0 +1,30 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.84,Default,,0,0,0,,{\c&H00FFFF&}What{\c&HFFFFFF&} happens if
+Dialogue: 0,0:00:00.84,0:00:01.19,Default,,0,0,0,,What {\c&H00FFFF&}happens{\c&HFFFFFF&} if you're
+Dialogue: 0,0:00:01.19,0:00:01.54,Default,,0,0,0,,What happens {\c&H00FFFF&}if{\c&HFFFFFF&} you're working
+Dialogue: 0,0:00:01.54,0:00:01.89,Default,,0,0,0,,happens if {\c&H00FFFF&}you're{\c&HFFFFFF&} working the
+Dialogue: 0,0:00:01.89,0:00:02.24,Default,,0,0,0,,if you're {\c&H00FFFF&}working{\c&HFFFFFF&} the night
+Dialogue: 0,0:00:02.24,0:00:02.58,Default,,0,0,0,,you're working {\c&H00FFFF&}the{\c&HFFFFFF&} night shift
+Dialogue: 0,0:00:02.58,0:00:02.93,Default,,0,0,0,,working the {\c&H00FFFF&}night{\c&HFFFFFF&} shift at
+Dialogue: 0,0:00:02.93,0:00:03.28,Default,,0,0,0,,the night {\c&H00FFFF&}shift{\c&HFFFFFF&} at Chernobyl
+Dialogue: 0,0:00:03.28,0:00:03.63,Default,,0,0,0,,night shift {\c&H00FFFF&}at{\c&HFFFFFF&} Chernobyl thirty
+Dialogue: 0,0:00:03.63,0:00:03.98,Default,,0,0,0,,shift at {\c&H00FFFF&}Chernobyl{\c&HFFFFFF&} thirty seconds
+Dialogue: 0,0:00:03.98,0:00:04.33,Default,,0,0,0,,at Chernobyl {\c&H00FFFF&}thirty{\c&HFFFFFF&} seconds before
+Dialogue: 0,0:00:04.33,0:00:04.67,Default,,0,0,0,,Chernobyl thirty {\c&H00FFFF&}seconds{\c&HFFFFFF&} before Reactor
+Dialogue: 0,0:00:04.67,0:00:05.02,Default,,0,0,0,,thirty seconds {\c&H00FFFF&}before{\c&HFFFFFF&} Reactor Four
+Dialogue: 0,0:00:05.02,0:00:05.37,Default,,0,0,0,,seconds before {\c&H00FFFF&}Reactor{\c&HFFFFFF&} Four explodes?
+Dialogue: 0,0:00:05.37,0:00:05.72,Default,,0,0,0,,before Reactor {\c&H00FFFF&}Four{\c&HFFFFFF&} explodes?
+Dialogue: 0,0:00:05.72,0:00:06.07,Default,,0,0,0,,Reactor Four {\c&H00FFFF&}explodes?{\c&HFFFFFF&}

@@ -1,0 +1,32 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.86,Default,,0,0,0,,{\c&H00FFFF&}And{\c&HFFFFFF&} in 1982,
+Dialogue: 0,0:00:00.86,0:00:01.23,Default,,0,0,0,,And {\c&H00FFFF&}in{\c&HFFFFFF&} 1982, they
+Dialogue: 0,0:00:01.23,0:00:01.59,Default,,0,0,0,,And in {\c&H00FFFF&}1982,{\c&HFFFFFF&} they find
+Dialogue: 0,0:00:01.59,0:00:01.96,Default,,0,0,0,,in 1982, {\c&H00FFFF&}they{\c&HFFFFFF&} find you.
+Dialogue: 0,0:00:01.96,0:00:02.33,Default,,0,0,0,,1982, they {\c&H00FFFF&}find{\c&HFFFFFF&} you. Exactly
+Dialogue: 0,0:00:02.33,0:00:02.69,Default,,0,0,0,,they find {\c&H00FFFF&}you.{\c&HFFFFFF&} Exactly where
+Dialogue: 0,0:00:02.69,0:00:03.06,Default,,0,0,0,,find you. {\c&H00FFFF&}Exactly{\c&HFFFFFF&} where you
+Dialogue: 0,0:00:03.06,0:00:03.43,Default,,0,0,0,,you. Exactly {\c&H00FFFF&}where{\c&HFFFFFF&} you fell.
+Dialogue: 0,0:00:03.43,0:00:03.79,Default,,0,0,0,,Exactly where {\c&H00FFFF&}you{\c&HFFFFFF&} fell. Still
+Dialogue: 0,0:00:03.79,0:00:04.16,Default,,0,0,0,,where you {\c&H00FFFF&}fell.{\c&HFFFFFF&} Still reaching
+Dialogue: 0,0:00:04.16,0:00:04.52,Default,,0,0,0,,you fell. {\c&H00FFFF&}Still{\c&HFFFFFF&} reaching for
+Dialogue: 0,0:00:04.52,0:00:04.89,Default,,0,0,0,,fell. Still {\c&H00FFFF&}reaching{\c&HFFFFFF&} for the
+Dialogue: 0,0:00:04.89,0:00:05.26,Default,,0,0,0,,Still reaching {\c&H00FFFF&}for{\c&HFFFFFF&} the boats
+Dialogue: 0,0:00:05.26,0:00:05.62,Default,,0,0,0,,reaching for {\c&H00FFFF&}the{\c&HFFFFFF&} boats that
+Dialogue: 0,0:00:05.62,0:00:05.99,Default,,0,0,0,,for the {\c&H00FFFF&}boats{\c&HFFFFFF&} that never
+Dialogue: 0,0:00:05.99,0:00:06.36,Default,,0,0,0,,the boats {\c&H00FFFF&}that{\c&HFFFFFF&} never came.
+Dialogue: 0,0:00:06.36,0:00:06.72,Default,,0,0,0,,boats that {\c&H00FFFF&}never{\c&HFFFFFF&} came.
+Dialogue: 0,0:00:06.72,0:00:07.09,Default,,0,0,0,,that never {\c&H00FFFF&}came.{\c&HFFFFFF&}

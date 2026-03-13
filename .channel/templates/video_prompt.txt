@@ -1,0 +1,38 @@
+Cinematic vertical 9:16 video, {{RESOLUTION — 1080p for scene clips, 720p for establishing}}.
+
+{{CAMERA — angle + movement + motivation:
+  Shot type: [medium shot / close-up / low-angle dread / high-angle vulnerability / wide environmental / tracking]
+  Movement: [Steadicam / dolly push-in / locked-off tripod / tracking / camera shake for catastrophe]
+  Shot motivation: [WHY this angle — what emotional function does it serve in this beat?]
+  Composition: [rule of thirds, character blocking, leading lines, depth staging]
+}}.
+
+{{VISUAL TRANSITION — how this clip's visual connects to the previous clip:
+  e.g., "Tightening from medium to close-up — building dread"
+  e.g., "NEW location — all continuity anchors deliberately broken"
+  e.g., "Same angle but push-in adds urgency — disaster imminent"
+}}.
+
+{{LIGHTING SETUP — name from playbook (see cinematography.md): PERIOD AMBIENT / OMINOUS BUILDUP / HIGH CONTRAST CATASTROPHE / AFTERMATH GREY.
+  Light direction, quality, shadow depth, color temperature. Motivate any shift from the previous clip.
+}}.
+
+{{DEPTH LAYERS:
+  Foreground: [object or texture between camera and character, slightly out of focus]
+  Midground: [character and immediate surroundings]
+  Background: [historical setting at scale — what's happening behind/around them]
+}}.
+
+{{ATMOSPHERE — haze, dust, smoke, ash, steam, fog. Specify what's in the air.}}
+
+{{PERIOD TEXTURE — one specific detail that anchors the time and place.}}
+
+{{BACKGROUND ACTIVITY — other people/events happening in the scene.}}
+
+{{CHARACTER_DESCRIPTION — A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes, ribcage, spine, limb bones all defined beneath semi-transparent surface. No hair, no clothing. Specify posture, gesture, expression, body angle for this specific clip — describe their PHYSICAL REACTIONS, not speech.}}
+
+No dialogue. No speech. No talking. The character reacts silently through physical gestures, facial expressions, and body language only. All audio is ambient environmental sound and sound effects.
+
+Audio direction:
+- SFX: {{specific sound events tied to on-screen actions — not generic}}
+- Ambience: {{continuous environmental sounds matching the visual background}}

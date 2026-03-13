@@ -1,0 +1,30 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.88,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} scramble upward
+Dialogue: 0,0:00:00.88,0:00:01.27,Default,,0,0,0,,You {\c&H00FFFF&}scramble{\c&HFFFFFF&} upward as
+Dialogue: 0,0:00:01.27,0:00:01.66,Default,,0,0,0,,You scramble {\c&H00FFFF&}upward{\c&HFFFFFF&} as freezing
+Dialogue: 0,0:00:01.66,0:00:02.05,Default,,0,0,0,,scramble upward {\c&H00FFFF&}as{\c&HFFFFFF&} freezing Atlantic
+Dialogue: 0,0:00:02.05,0:00:02.44,Default,,0,0,0,,upward as {\c&H00FFFF&}freezing{\c&HFFFFFF&} Atlantic water
+Dialogue: 0,0:00:02.44,0:00:02.83,Default,,0,0,0,,as freezing {\c&H00FFFF&}Atlantic{\c&HFFFFFF&} water rushes
+Dialogue: 0,0:00:02.83,0:00:03.22,Default,,0,0,0,,freezing Atlantic {\c&H00FFFF&}water{\c&HFFFFFF&} rushes in.
+Dialogue: 0,0:00:03.22,0:00:03.61,Default,,0,0,0,,Atlantic water {\c&H00FFFF&}rushes{\c&HFFFFFF&} in. The
+Dialogue: 0,0:00:03.61,0:00:04.00,Default,,0,0,0,,water rushes {\c&H00FFFF&}in.{\c&HFFFFFF&} The ship's
+Dialogue: 0,0:00:04.00,0:00:04.38,Default,,0,0,0,,rushes in. {\c&H00FFFF&}The{\c&HFFFFFF&} ship's dying.
+Dialogue: 0,0:00:04.38,0:00:04.77,Default,,0,0,0,,in. The {\c&H00FFFF&}ship's{\c&HFFFFFF&} dying. And
+Dialogue: 0,0:00:04.77,0:00:05.16,Default,,0,0,0,,The ship's {\c&H00FFFF&}dying.{\c&HFFFFFF&} And so
+Dialogue: 0,0:00:05.16,0:00:05.55,Default,,0,0,0,,ship's dying. {\c&H00FFFF&}And{\c&HFFFFFF&} so are
+Dialogue: 0,0:00:05.55,0:00:05.94,Default,,0,0,0,,dying. And {\c&H00FFFF&}so{\c&HFFFFFF&} are you.
+Dialogue: 0,0:00:05.94,0:00:06.33,Default,,0,0,0,,And so {\c&H00FFFF&}are{\c&HFFFFFF&} you.
+Dialogue: 0,0:00:06.33,0:00:06.72,Default,,0,0,0,,so are {\c&H00FFFF&}you.{\c&HFFFFFF&}

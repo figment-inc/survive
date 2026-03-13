@@ -1,0 +1,40 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+
+# Generated output (large media files)
+**/output/images/
+**/output/videos/
+**/output/audio/
+**/output/mixed/
+
+# Reference images (generated, potentially large)
+.channel/reference_images/*.png
+# Keep the source image
+!.channel/reference_images/skeleton_front_neutral.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp files
+*.tmp
+concat_list.txt

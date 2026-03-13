@@ -1,0 +1,37 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.87,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} wake up
+Dialogue: 0,0:00:00.87,0:00:01.25,Default,,0,0,0,,You {\c&H00FFFF&}wake{\c&HFFFFFF&} up in
+Dialogue: 0,0:00:01.25,0:00:01.62,Default,,0,0,0,,You wake {\c&H00FFFF&}up{\c&HFFFFFF&} in Thomas
+Dialogue: 0,0:00:01.62,0:00:02.00,Default,,0,0,0,,wake up {\c&H00FFFF&}in{\c&HFFFFFF&} Thomas Farriner's
+Dialogue: 0,0:00:02.00,0:00:02.37,Default,,0,0,0,,up in {\c&H00FFFF&}Thomas{\c&HFFFFFF&} Farriner's bakery.
+Dialogue: 0,0:00:02.37,0:00:02.75,Default,,0,0,0,,in Thomas {\c&H00FFFF&}Farriner's{\c&HFFFFFF&} bakery. The
+Dialogue: 0,0:00:02.75,0:00:03.12,Default,,0,0,0,,Thomas Farriner's {\c&H00FFFF&}bakery.{\c&HFFFFFF&} The bread
+Dialogue: 0,0:00:03.12,0:00:03.50,Default,,0,0,0,,Farriner's bakery. {\c&H00FFFF&}The{\c&HFFFFFF&} bread ovens
+Dialogue: 0,0:00:03.50,0:00:03.88,Default,,0,0,0,,bakery. The {\c&H00FFFF&}bread{\c&HFFFFFF&} ovens glow
+Dialogue: 0,0:00:03.88,0:00:04.25,Default,,0,0,0,,The bread {\c&H00FFFF&}ovens{\c&HFFFFFF&} glow with
+Dialogue: 0,0:00:04.25,0:00:04.63,Default,,0,0,0,,bread ovens {\c&H00FFFF&}glow{\c&HFFFFFF&} with banked
+Dialogue: 0,0:00:04.63,0:00:05.00,Default,,0,0,0,,ovens glow {\c&H00FFFF&}with{\c&HFFFFFF&} banked coals.
+Dialogue: 0,0:00:05.00,0:00:05.38,Default,,0,0,0,,glow with {\c&H00FFFF&}banked{\c&HFFFFFF&} coals. It's
+Dialogue: 0,0:00:05.38,0:00:05.75,Default,,0,0,0,,with banked {\c&H00FFFF&}coals.{\c&HFFFFFF&} It's two
+Dialogue: 0,0:00:05.75,0:00:06.13,Default,,0,0,0,,banked coals. {\c&H00FFFF&}It's{\c&HFFFFFF&} two in
+Dialogue: 0,0:00:06.13,0:00:06.50,Default,,0,0,0,,coals. It's {\c&H00FFFF&}two{\c&HFFFFFF&} in the
+Dialogue: 0,0:00:06.50,0:00:06.88,Default,,0,0,0,,It's two {\c&H00FFFF&}in{\c&HFFFFFF&} the morning,
+Dialogue: 0,0:00:06.88,0:00:07.26,Default,,0,0,0,,two in {\c&H00FFFF&}the{\c&HFFFFFF&} morning, September
+Dialogue: 0,0:00:07.26,0:00:07.63,Default,,0,0,0,,in the {\c&H00FFFF&}morning,{\c&HFFFFFF&} September second,
+Dialogue: 0,0:00:07.63,0:00:08.01,Default,,0,0,0,,the morning, {\c&H00FFFF&}September{\c&HFFFFFF&} second, sixteen
+Dialogue: 0,0:00:08.01,0:00:08.38,Default,,0,0,0,,morning, September {\c&H00FFFF&}second,{\c&HFFFFFF&} sixteen sixty-six.
+Dialogue: 0,0:00:08.38,0:00:08.76,Default,,0,0,0,,September second, {\c&H00FFFF&}sixteen{\c&HFFFFFF&} sixty-six.
+Dialogue: 0,0:00:08.76,0:00:09.13,Default,,0,0,0,,second, sixteen {\c&H00FFFF&}sixty-six.{\c&HFFFFFF&}

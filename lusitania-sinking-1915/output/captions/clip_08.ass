@@ -1,0 +1,19 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.94,Default,,0,0,0,,{\c&H00FFFF&}The{\c&HFFFFFF&} torpedo hits.
+Dialogue: 0,0:00:00.94,0:00:01.39,Default,,0,0,0,,The {\c&H00FFFF&}torpedo{\c&HFFFFFF&} hits. Lunch
+Dialogue: 0,0:00:01.39,0:00:01.83,Default,,0,0,0,,The torpedo {\c&H00FFFF&}hits.{\c&HFFFFFF&} Lunch time.
+Dialogue: 0,0:00:01.83,0:00:02.28,Default,,0,0,0,,torpedo hits. {\c&H00FFFF&}Lunch{\c&HFFFFFF&} time.
+Dialogue: 0,0:00:02.28,0:00:02.72,Default,,0,0,0,,hits. Lunch {\c&H00FFFF&}time.{\c&HFFFFFF&}

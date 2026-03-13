@@ -1,0 +1,28 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.86,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} wake up
+Dialogue: 0,0:00:00.86,0:00:01.22,Default,,0,0,0,,You {\c&H00FFFF&}wake{\c&HFFFFFF&} up in
+Dialogue: 0,0:00:01.22,0:00:01.59,Default,,0,0,0,,You wake {\c&H00FFFF&}up{\c&HFFFFFF&} in luxury.
+Dialogue: 0,0:00:01.59,0:00:01.95,Default,,0,0,0,,wake up {\c&H00FFFF&}in{\c&HFFFFFF&} luxury. First
+Dialogue: 0,0:00:01.95,0:00:02.32,Default,,0,0,0,,up in {\c&H00FFFF&}luxury.{\c&HFFFFFF&} First class
+Dialogue: 0,0:00:02.32,0:00:02.68,Default,,0,0,0,,in luxury. {\c&H00FFFF&}First{\c&HFFFFFF&} class dining
+Dialogue: 0,0:00:02.68,0:00:03.05,Default,,0,0,0,,luxury. First {\c&H00FFFF&}class{\c&HFFFFFF&} dining room.
+Dialogue: 0,0:00:03.05,0:00:03.41,Default,,0,0,0,,First class {\c&H00FFFF&}dining{\c&HFFFFFF&} room. White
+Dialogue: 0,0:00:03.41,0:00:03.78,Default,,0,0,0,,class dining {\c&H00FFFF&}room.{\c&HFFFFFF&} White linen
+Dialogue: 0,0:00:03.78,0:00:04.14,Default,,0,0,0,,dining room. {\c&H00FFFF&}White{\c&HFFFFFF&} linen and
+Dialogue: 0,0:00:04.14,0:00:04.51,Default,,0,0,0,,room. White {\c&H00FFFF&}linen{\c&HFFFFFF&} and crystal
+Dialogue: 0,0:00:04.51,0:00:04.87,Default,,0,0,0,,White linen {\c&H00FFFF&}and{\c&HFFFFFF&} crystal glasses.
+Dialogue: 0,0:00:04.87,0:00:05.24,Default,,0,0,0,,linen and {\c&H00FFFF&}crystal{\c&HFFFFFF&} glasses.
+Dialogue: 0,0:00:05.24,0:00:05.60,Default,,0,0,0,,and crystal {\c&H00FFFF&}glasses.{\c&HFFFFFF&}

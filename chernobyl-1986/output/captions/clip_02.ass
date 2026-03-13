@@ -1,0 +1,44 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.83,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} are standing
+Dialogue: 0,0:00:00.83,0:00:01.16,Default,,0,0,0,,You {\c&H00FFFF&}are{\c&HFFFFFF&} standing at
+Dialogue: 0,0:00:01.16,0:00:01.49,Default,,0,0,0,,You are {\c&H00FFFF&}standing{\c&HFFFFFF&} at the
+Dialogue: 0,0:00:01.49,0:00:01.83,Default,,0,0,0,,are standing {\c&H00FFFF&}at{\c&HFFFFFF&} the controls
+Dialogue: 0,0:00:01.83,0:00:02.16,Default,,0,0,0,,standing at {\c&H00FFFF&}the{\c&HFFFFFF&} controls of
+Dialogue: 0,0:00:02.16,0:00:02.49,Default,,0,0,0,,at the {\c&H00FFFF&}controls{\c&HFFFFFF&} of an
+Dialogue: 0,0:00:02.49,0:00:02.82,Default,,0,0,0,,the controls {\c&H00FFFF&}of{\c&HFFFFFF&} an RBMK
+Dialogue: 0,0:00:02.82,0:00:03.16,Default,,0,0,0,,controls of {\c&H00FFFF&}an{\c&HFFFFFF&} RBMK reactor.
+Dialogue: 0,0:00:03.16,0:00:03.49,Default,,0,0,0,,of an {\c&H00FFFF&}RBMK{\c&HFFFFFF&} reactor. You
+Dialogue: 0,0:00:03.49,0:00:03.82,Default,,0,0,0,,an RBMK {\c&H00FFFF&}reactor.{\c&HFFFFFF&} You are
+Dialogue: 0,0:00:03.82,0:00:04.16,Default,,0,0,0,,RBMK reactor. {\c&H00FFFF&}You{\c&HFFFFFF&} are running
+Dialogue: 0,0:00:04.16,0:00:04.49,Default,,0,0,0,,reactor. You {\c&H00FFFF&}are{\c&HFFFFFF&} running a
+Dialogue: 0,0:00:04.49,0:00:04.82,Default,,0,0,0,,You are {\c&H00FFFF&}running{\c&HFFFFFF&} a safety
+Dialogue: 0,0:00:04.82,0:00:05.15,Default,,0,0,0,,are running {\c&H00FFFF&}a{\c&HFFFFFF&} safety test.
+Dialogue: 0,0:00:05.15,0:00:05.49,Default,,0,0,0,,running a {\c&H00FFFF&}safety{\c&HFFFFFF&} test. The
+Dialogue: 0,0:00:05.49,0:00:05.82,Default,,0,0,0,,a safety {\c&H00FFFF&}test.{\c&HFFFFFF&} The power
+Dialogue: 0,0:00:05.82,0:00:06.15,Default,,0,0,0,,safety test. {\c&H00FFFF&}The{\c&HFFFFFF&} power has
+Dialogue: 0,0:00:06.15,0:00:06.49,Default,,0,0,0,,test. The {\c&H00FFFF&}power{\c&HFFFFFF&} has dropped
+Dialogue: 0,0:00:06.49,0:00:06.82,Default,,0,0,0,,The power {\c&H00FFFF&}has{\c&HFFFFFF&} dropped to
+Dialogue: 0,0:00:06.82,0:00:07.15,Default,,0,0,0,,power has {\c&H00FFFF&}dropped{\c&HFFFFFF&} to two
+Dialogue: 0,0:00:07.15,0:00:07.48,Default,,0,0,0,,has dropped {\c&H00FFFF&}to{\c&HFFFFFF&} two hundred
+Dialogue: 0,0:00:07.48,0:00:07.82,Default,,0,0,0,,dropped to {\c&H00FFFF&}two{\c&HFFFFFF&} hundred megawatts.
+Dialogue: 0,0:00:07.82,0:00:08.15,Default,,0,0,0,,to two {\c&H00FFFF&}hundred{\c&HFFFFFF&} megawatts. Someone
+Dialogue: 0,0:00:08.15,0:00:08.48,Default,,0,0,0,,two hundred {\c&H00FFFF&}megawatts.{\c&HFFFFFF&} Someone behind
+Dialogue: 0,0:00:08.48,0:00:08.82,Default,,0,0,0,,hundred megawatts. {\c&H00FFFF&}Someone{\c&HFFFFFF&} behind you
+Dialogue: 0,0:00:08.82,0:00:09.15,Default,,0,0,0,,megawatts. Someone {\c&H00FFFF&}behind{\c&HFFFFFF&} you says
+Dialogue: 0,0:00:09.15,0:00:09.48,Default,,0,0,0,,Someone behind {\c&H00FFFF&}you{\c&HFFFFFF&} says keep
+Dialogue: 0,0:00:09.48,0:00:09.81,Default,,0,0,0,,behind you {\c&H00FFFF&}says{\c&HFFFFFF&} keep going.
+Dialogue: 0,0:00:09.81,0:00:10.15,Default,,0,0,0,,you says {\c&H00FFFF&}keep{\c&HFFFFFF&} going.
+Dialogue: 0,0:00:10.15,0:00:10.48,Default,,0,0,0,,says keep {\c&H00FFFF&}going.{\c&HFFFFFF&}

@@ -1,0 +1,48 @@
+# Narration Script — {{EPISODE TITLE}} ({{YEAR}})
+
+**Voice**: ElevenLabs TTS — darkly amused British male narrator
+**Style**: Second person, wry gallows humor, like a morbidly fascinated history professor
+**Pacing**: ~3 words/second, ~15-18 words per 8s clip
+**Address**: Direct "you" — pulling the viewer into the skeleton's situation
+
+---
+
+## Clip 01 (0:00–0:04) — Establishing
+[No narration — ambient audio only]
+
+## Clip 02 (0:04–0:12) — {{BEAT LABEL}}
+"{{NARRATION TEXT — ~15-18 words, second person, sets the hook. 'So. You've just arrived in [place]. It is [year]...'}}"
+
+## Clip 03 (0:12–0:20) — {{BEAT LABEL}}
+"{{NARRATION TEXT — building context, layering historically accurate details}}"
+
+## Clip 04 (0:20–0:28) — {{BEAT LABEL}}
+"{{NARRATION TEXT — things getting worse, each fact another nail in the coffin}}"
+
+## Clip 05 (0:28–0:36) — {{BEAT LABEL}}
+"{{NARRATION TEXT — approaching the disaster, mounting dread}}"
+
+## Clip 06 (0:36–0:44) — {{BEAT LABEL}}
+"{{NARRATION TEXT — the catastrophe, delivered with clinical precision}}"
+
+## Clip 07 (0:44–0:52) — {{BEAT LABEL}}
+"{{NARRATION TEXT — aftermath, why it mattered, final horrible detail}}"
+
+## Clip 08 (0:52–0:55) — {{BEAT LABEL}} (if needed)
+"{{NARRATION TEXT — wry sign-off, may be shorter}}"
+
+---
+
+## Writing Guidelines
+
+- Every clip except the establishing shot gets narration
+- Hook in clip 02 — "So. You've just arrived in..." or variant
+- Second person throughout: "you", "your", "you've just..."
+- Each fact should make the viewer think "oh no, it gets worse"
+- Build dread through historically accurate details — real numbers, real names, real consequences
+- Peak horror at The Catastrophe — the narrator delivers the worst details clinically
+- End with a gut-punch fact followed by a wry sign-off
+- Dark humor through understatement: "suboptimal", "considerably worse", "not ideal"
+- Max 3-4 dark-humor phrases per episode, placed at key moments
+- Keep it conversational — contractions, short sentences, spoken storytelling cadence
+- Real victims are treated with respect — the skeleton absorbs all comedic punishment

@@ -1,0 +1,312 @@
+{
+  "id": "f25efe5ed30c49f6",
+  "meta": {
+    "instanceId": "a92c2c1c-93bb-4021-b2d3-86276091d368"
+  },
+  "name": "You Wouldn't Wanna Be \u2014 Automated Pipeline (Every 6 Hours)",
+  "tags": [],
+  "nodes": [
+    {
+      "id": "c1b86bdc-15dc-4288-b1ef-51dbfc51236d",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "position": [
+        -800,
+        400
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 6
+            }
+          ]
+        }
+      },
+      "typeVersion": 1.2
+    },
+    {
+      "id": "a92ef61e-d139-448b-baba-84273f9ca2d6",
+      "name": "Set Environment",
+      "type": "n8n-nodes-base.set",
+      "position": [
+        -520,
+        400
+      ],
+      "parameters": {
+        "options": {},
+        "assignments": {
+          "assignments": [
+            {
+              "id": "d8b6a4d5-c95f-42c9-9d9a-71e57bcf0101",
+              "name": "ANTHROPIC_API_KEY",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "id": "1d679666-b447-404e-acc9-29fe86c507ae",
+              "name": "GEMINI_API_KEY",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "id": "7aa1b4b5-65f2-423a-b9c3-2f4389478ac1",
+              "name": "NANOBANANA_API_KEY",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "id": "fce25f0f-158e-4029-85ec-d1457d90b147",
+              "name": "NANOBANANA_MODEL",
+              "type": "string",
+              "value": "nano-banana-pro"
+            },
+            {
+              "id": "29dd1b37-8d6b-46eb-9368-797769fab9e2",
+              "name": "ELEVENLABS_API_KEY",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "id": "319766c1-8e33-42d3-a5d9-8b1707b9aee3",
+              "name": "ELEVENLABS_VOICE_ID",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "id": "b4e11a64-d736-412b-b2bf-db38cabcb21a",
+              "name": "METRICOOL_USER_TOKEN",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "id": "bb3cdfe9-c1d4-4518-a553-5daf11816e7b",
+              "name": "METRICOOL_BLOG_ID",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "id": "e7b2488d-6f16-461e-8338-6c024842a703",
+              "name": "METRICOOL_USER_ID",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "id": "4370fe73-f1d0-4288-9bf7-039bb59187cb",
+              "name": "METRICOOL_PUBLISH_ENABLED",
+              "type": "string",
+              "value": "true"
+            },
+            {
+              "id": "fd6f2b4f-dcdd-4e9d-9342-2d352b3f7796",
+              "name": "REPO_DIR",
+              "type": "string",
+              "value": "/path/to/survive.history"
+            },
+            {
+              "id": "9313cfa2-afa1-43d0-8c2d-bc0398e09a68",
+              "name": "DISCORD_WEBHOOK_URL",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        }
+      },
+      "typeVersion": 3.4,
+      "notesInFlow": true,
+      "notes": "SET ALL VALUES BEFORE STARTING"
+    },
+    {
+      "id": "a458b8ba-fa13-4ed1-b254-d8b501fcd75f",
+      "name": "Run Pipeline",
+      "type": "n8n-nodes-base.executeCommand",
+      "position": [
+        -200,
+        400
+      ],
+      "parameters": {
+        "command": "=cd {{ $json.REPO_DIR }} && ANTHROPIC_API_KEY={{ $json.ANTHROPIC_API_KEY }} GEMINI_API_KEY={{ $json.GEMINI_API_KEY }} NANOBANANA_API_KEY={{ $json.NANOBANANA_API_KEY }} NANOBANANA_MODEL={{ $json.NANOBANANA_MODEL }} ELEVENLABS_API_KEY={{ $json.ELEVENLABS_API_KEY }} ELEVENLABS_VOICE_ID={{ $json.ELEVENLABS_VOICE_ID }} METRICOOL_USER_TOKEN={{ $json.METRICOOL_USER_TOKEN }} METRICOOL_BLOG_ID={{ $json.METRICOOL_BLOG_ID }} METRICOOL_USER_ID={{ $json.METRICOOL_USER_ID }} METRICOOL_PUBLISH_ENABLED={{ $json.METRICOOL_PUBLISH_ENABLED }} python3 n8n/run_pipeline.py --publish 2>&1"
+      },
+      "typeVersion": 1
+    },
+    {
+      "id": "7505e3d0-91fc-4615-874b-513c2a611ebb",
+      "name": "Pipeline Succeeded?",
+      "type": "n8n-nodes-base.if",
+      "position": [
+        100,
+        400
+      ],
+      "parameters": {
+        "options": {},
+        "conditions": {
+          "combinator": "and",
+          "conditions": [
+            {
+              "id": "f22fb350-26f1-4191-9a24-72edfff729bc",
+              "operator": {
+                "type": "number",
+                "operation": "equals"
+              },
+              "leftValue": "={{ $json.exitCode }}",
+              "rightValue": 0
+            }
+          ],
+          "options": {
+            "version": 2,
+            "leftValue": "",
+            "caseSensitive": true,
+            "typeValidation": "strict"
+          }
+        }
+      },
+      "typeVersion": 2.2
+    },
+    {
+      "id": "fc2ece8c-871c-4380-b6a3-90b710eb0dce",
+      "name": "Discord Success",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        400,
+        300
+      ],
+      "parameters": {
+        "url": "={{ $('Set Environment').item.json.DISCORD_WEBHOOK_URL }}",
+        "method": "POST",
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={\"content\": \"New You Wouldn't Wanna Be episode generated and published!\\n```\\n{{ $('Run Pipeline').item.json.stdout.slice(-500) }}\\n```\"}",
+        "options": {}
+      },
+      "typeVersion": 4.2
+    },
+    {
+      "id": "3b07eb68-ac53-4c0a-a6fa-861fd585a3fe",
+      "name": "Discord Failure",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        400,
+        500
+      ],
+      "parameters": {
+        "url": "={{ $('Set Environment').item.json.DISCORD_WEBHOOK_URL }}",
+        "method": "POST",
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={\"content\": \"FAILED: You Wouldn't Wanna Be pipeline error!\\nExit code: {{ $('Run Pipeline').item.json.exitCode }}\\n```\\n{{ $('Run Pipeline').item.json.stderr.slice(-500) }}\\n```\"}",
+        "options": {}
+      },
+      "typeVersion": 4.2
+    },
+    {
+      "id": "7a096415-b765-42c3-9cc5-e6d3bec277ad",
+      "name": "Sticky Note - Setup",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -860,
+        180
+      ],
+      "parameters": {
+        "width": 700,
+        "height": 400,
+        "color": 3,
+        "content": "# You Wouldn't Wanna Be \u2014 Automated Pipeline\n\n## Before you start:\n1. Set ALL API keys in the 'Set Environment' node\n2. Set REPO_DIR to the absolute path of the survive.history repo\n3. Ensure Python 3.10+, ffmpeg, and gh CLI are installed on the n8n host\n4. Install Python deps: `pip install -r requirements.txt`\n5. Place skeleton reference image at `.channel/reference_images/skeleton_front_neutral.jpg`\n6. (Optional) Set DISCORD_WEBHOOK_URL for notifications\n\n## How it works:\n- Runs every 6 hours (or manual trigger)\n- Claude picks a new historical disaster topic\n- Claude generates all prompts (image, video, narration)\n- NanoBanana Pro generates keyframe images\n- Veo 3.1 generates video clips with ambient audio\n- ElevenLabs generates narrator TTS + background music\n- ffmpeg mixes audio, burns captions, stitches final video\n- Publishes via GitHub Release + Metricool (IG Reel + YT Short)"
+      },
+      "typeVersion": 1
+    },
+    {
+      "id": "a4da6743-2c09-4ce0-a498-99fc66856452",
+      "name": "Sticky Note - Pipeline",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -260,
+        180
+      ],
+      "parameters": {
+        "width": 300,
+        "height": 120,
+        "color": 5,
+        "content": "## Pipeline Execution\nRuns `n8n/run_pipeline.py --publish`\n~30-45 min per episode"
+      },
+      "typeVersion": 1
+    },
+    {
+      "id": "d2390df7-f7cf-4076-b813-2c2840b6aaa6",
+      "name": "Sticky Note - Notifications",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        340,
+        180
+      ],
+      "parameters": {
+        "width": 300,
+        "height": 120,
+        "color": 7,
+        "content": "## Notifications\nDiscord webhook on success/failure\nIncludes pipeline output tail"
+      },
+      "typeVersion": 1
+    }
+  ],
+  "active": false,
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "26eb84f0-ca00-4c5e-92d4-a0bbfdbc78ec",
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Set Environment",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Environment": {
+      "main": [
+        [
+          {
+            "node": "Run Pipeline",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Pipeline": {
+      "main": [
+        [
+          {
+            "node": "Pipeline Succeeded?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pipeline Succeeded?": {
+      "main": [
+        [
+          {
+            "node": "Discord Success",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Discord Failure",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

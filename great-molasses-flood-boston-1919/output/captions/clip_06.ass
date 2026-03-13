@@ -1,0 +1,46 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.87,Default,,0,0,0,,{\c&H00FFFF&}A{\c&HFFFFFF&} wave of
+Dialogue: 0,0:00:00.87,0:00:01.25,Default,,0,0,0,,A {\c&H00FFFF&}wave{\c&HFFFFFF&} of molasses
+Dialogue: 0,0:00:01.25,0:00:01.63,Default,,0,0,0,,A wave {\c&H00FFFF&}of{\c&HFFFFFF&} molasses fifteen
+Dialogue: 0,0:00:01.63,0:00:02.01,Default,,0,0,0,,wave of {\c&H00FFFF&}molasses{\c&HFFFFFF&} fifteen feet
+Dialogue: 0,0:00:02.01,0:00:02.39,Default,,0,0,0,,of molasses {\c&H00FFFF&}fifteen{\c&HFFFFFF&} feet high
+Dialogue: 0,0:00:02.39,0:00:02.77,Default,,0,0,0,,molasses fifteen {\c&H00FFFF&}feet{\c&HFFFFFF&} high surges
+Dialogue: 0,0:00:02.77,0:00:03.15,Default,,0,0,0,,fifteen feet {\c&H00FFFF&}high{\c&HFFFFFF&} surges at
+Dialogue: 0,0:00:03.15,0:00:03.53,Default,,0,0,0,,feet high {\c&H00FFFF&}surges{\c&HFFFFFF&} at thirty-five
+Dialogue: 0,0:00:03.53,0:00:03.90,Default,,0,0,0,,high surges {\c&H00FFFF&}at{\c&HFFFFFF&} thirty-five miles
+Dialogue: 0,0:00:03.90,0:00:04.28,Default,,0,0,0,,surges at {\c&H00FFFF&}thirty-five{\c&HFFFFFF&} miles per
+Dialogue: 0,0:00:04.28,0:00:04.66,Default,,0,0,0,,at thirty-five {\c&H00FFFF&}miles{\c&HFFFFFF&} per hour.
+Dialogue: 0,0:00:04.66,0:00:05.04,Default,,0,0,0,,thirty-five miles {\c&H00FFFF&}per{\c&HFFFFFF&} hour. You
+Dialogue: 0,0:00:05.04,0:00:05.42,Default,,0,0,0,,miles per {\c&H00FFFF&}hour.{\c&HFFFFFF&} You run.
+Dialogue: 0,0:00:05.42,0:00:05.80,Default,,0,0,0,,per hour. {\c&H00FFFF&}You{\c&HFFFFFF&} run. It's
+Dialogue: 0,0:00:05.80,0:00:06.18,Default,,0,0,0,,hour. You {\c&H00FFFF&}run.{\c&HFFFFFF&} It's faster.
+Dialogue: 0,0:00:06.18,0:00:06.56,Default,,0,0,0,,You run. {\c&H00FFFF&}It's{\c&HFFFFFF&} faster. It
+Dialogue: 0,0:00:06.56,0:00:06.93,Default,,0,0,0,,run. It's {\c&H00FFFF&}faster.{\c&HFFFFFF&} It swallows
+Dialogue: 0,0:00:06.93,0:00:07.31,Default,,0,0,0,,It's faster. {\c&H00FFFF&}It{\c&HFFFFFF&} swallows the
+Dialogue: 0,0:00:07.31,0:00:07.69,Default,,0,0,0,,faster. It {\c&H00FFFF&}swallows{\c&HFFFFFF&} the railway,
+Dialogue: 0,0:00:07.69,0:00:08.07,Default,,0,0,0,,It swallows {\c&H00FFFF&}the{\c&HFFFFFF&} railway, the
+Dialogue: 0,0:00:08.07,0:00:08.45,Default,,0,0,0,,swallows the {\c&H00FFFF&}railway,{\c&HFFFFFF&} the buildings,
+Dialogue: 0,0:00:08.45,0:00:08.83,Default,,0,0,0,,the railway, {\c&H00FFFF&}the{\c&HFFFFFF&} buildings, the
+Dialogue: 0,0:00:08.83,0:00:09.21,Default,,0,0,0,,railway, the {\c&H00FFFF&}buildings,{\c&HFFFFFF&} the street.
+Dialogue: 0,0:00:09.21,0:00:09.59,Default,,0,0,0,,the buildings, {\c&H00FFFF&}the{\c&HFFFFFF&} street. Twenty-one
+Dialogue: 0,0:00:09.59,0:00:09.96,Default,,0,0,0,,buildings, the {\c&H00FFFF&}street.{\c&HFFFFFF&} Twenty-one people
+Dialogue: 0,0:00:09.96,0:00:10.34,Default,,0,0,0,,the street. {\c&H00FFFF&}Twenty-one{\c&HFFFFFF&} people will
+Dialogue: 0,0:00:10.34,0:00:10.72,Default,,0,0,0,,street. Twenty-one {\c&H00FFFF&}people{\c&HFFFFFF&} will not
+Dialogue: 0,0:00:10.72,0:00:11.10,Default,,0,0,0,,Twenty-one people {\c&H00FFFF&}will{\c&HFFFFFF&} not go
+Dialogue: 0,0:00:11.10,0:00:11.48,Default,,0,0,0,,people will {\c&H00FFFF&}not{\c&HFFFFFF&} go home
+Dialogue: 0,0:00:11.48,0:00:11.86,Default,,0,0,0,,will not {\c&H00FFFF&}go{\c&HFFFFFF&} home tonight.
+Dialogue: 0,0:00:11.86,0:00:12.24,Default,,0,0,0,,not go {\c&H00FFFF&}home{\c&HFFFFFF&} tonight.
+Dialogue: 0,0:00:12.24,0:00:12.62,Default,,0,0,0,,go home {\c&H00FFFF&}tonight.{\c&HFFFFFF&}

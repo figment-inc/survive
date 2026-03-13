@@ -1,0 +1,50 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.87,Default,,0,0,0,,{\c&H00FFFF&}They{\c&HFFFFFF&} send you
+Dialogue: 0,0:00:00.87,0:00:01.24,Default,,0,0,0,,They {\c&H00FFFF&}send{\c&HFFFFFF&} you to
+Dialogue: 0,0:00:01.24,0:00:01.61,Default,,0,0,0,,They send {\c&H00FFFF&}you{\c&HFFFFFF&} to the
+Dialogue: 0,0:00:01.61,0:00:01.98,Default,,0,0,0,,send you {\c&H00FFFF&}to{\c&HFFFFFF&} the roof.
+Dialogue: 0,0:00:01.98,0:00:02.35,Default,,0,0,0,,you to {\c&H00FFFF&}the{\c&HFFFFFF&} roof. Clear
+Dialogue: 0,0:00:02.35,0:00:02.72,Default,,0,0,0,,to the {\c&H00FFFF&}roof.{\c&HFFFFFF&} Clear the
+Dialogue: 0,0:00:02.72,0:00:03.09,Default,,0,0,0,,the roof. {\c&H00FFFF&}Clear{\c&HFFFFFF&} the graphite.
+Dialogue: 0,0:00:03.09,0:00:03.46,Default,,0,0,0,,roof. Clear {\c&H00FFFF&}the{\c&HFFFFFF&} graphite. You
+Dialogue: 0,0:00:03.46,0:00:03.83,Default,,0,0,0,,Clear the {\c&H00FFFF&}graphite.{\c&HFFFFFF&} You get
+Dialogue: 0,0:00:03.83,0:00:04.20,Default,,0,0,0,,the graphite. {\c&H00FFFF&}You{\c&HFFFFFF&} get ninety
+Dialogue: 0,0:00:04.20,0:00:04.57,Default,,0,0,0,,graphite. You {\c&H00FFFF&}get{\c&HFFFFFF&} ninety seconds.
+Dialogue: 0,0:00:04.57,0:00:04.94,Default,,0,0,0,,You get {\c&H00FFFF&}ninety{\c&HFFFFFF&} seconds. The
+Dialogue: 0,0:00:04.94,0:00:05.31,Default,,0,0,0,,get ninety {\c&H00FFFF&}seconds.{\c&HFFFFFF&} The radiation
+Dialogue: 0,0:00:05.31,0:00:05.68,Default,,0,0,0,,ninety seconds. {\c&H00FFFF&}The{\c&HFFFFFF&} radiation up
+Dialogue: 0,0:00:05.68,0:00:06.05,Default,,0,0,0,,seconds. The {\c&H00FFFF&}radiation{\c&HFFFFFF&} up here
+Dialogue: 0,0:00:06.05,0:00:06.42,Default,,0,0,0,,The radiation {\c&H00FFFF&}up{\c&HFFFFFF&} here is
+Dialogue: 0,0:00:06.42,0:00:06.79,Default,,0,0,0,,radiation up {\c&H00FFFF&}here{\c&HFFFFFF&} is twelve
+Dialogue: 0,0:00:06.79,0:00:07.16,Default,,0,0,0,,up here {\c&H00FFFF&}is{\c&HFFFFFF&} twelve thousand
+Dialogue: 0,0:00:07.16,0:00:07.53,Default,,0,0,0,,here is {\c&H00FFFF&}twelve{\c&HFFFFFF&} thousand roentgen
+Dialogue: 0,0:00:07.53,0:00:07.90,Default,,0,0,0,,is twelve {\c&H00FFFF&}thousand{\c&HFFFFFF&} roentgen per
+Dialogue: 0,0:00:07.90,0:00:08.27,Default,,0,0,0,,twelve thousand {\c&H00FFFF&}roentgen{\c&HFFFFFF&} per hour.
+Dialogue: 0,0:00:08.27,0:00:08.64,Default,,0,0,0,,thousand roentgen {\c&H00FFFF&}per{\c&HFFFFFF&} hour. A
+Dialogue: 0,0:00:08.64,0:00:09.01,Default,,0,0,0,,roentgen per {\c&H00FFFF&}hour.{\c&HFFFFFF&} A lethal
+Dialogue: 0,0:00:09.01,0:00:09.38,Default,,0,0,0,,per hour. {\c&H00FFFF&}A{\c&HFFFFFF&} lethal dose
+Dialogue: 0,0:00:09.38,0:00:09.75,Default,,0,0,0,,hour. A {\c&H00FFFF&}lethal{\c&HFFFFFF&} dose takes
+Dialogue: 0,0:00:09.75,0:00:10.12,Default,,0,0,0,,A lethal {\c&H00FFFF&}dose{\c&HFFFFFF&} takes forty-five
+Dialogue: 0,0:00:10.12,0:00:10.49,Default,,0,0,0,,lethal dose {\c&H00FFFF&}takes{\c&HFFFFFF&} forty-five seconds.
+Dialogue: 0,0:00:10.49,0:00:10.86,Default,,0,0,0,,dose takes {\c&H00FFFF&}forty-five{\c&HFFFFFF&} seconds. You
+Dialogue: 0,0:00:10.86,0:00:11.23,Default,,0,0,0,,takes forty-five {\c&H00FFFF&}seconds.{\c&HFFFFFF&} You are
+Dialogue: 0,0:00:11.23,0:00:11.60,Default,,0,0,0,,forty-five seconds. {\c&H00FFFF&}You{\c&HFFFFFF&} are on
+Dialogue: 0,0:00:11.60,0:00:11.97,Default,,0,0,0,,seconds. You {\c&H00FFFF&}are{\c&HFFFFFF&} on the
+Dialogue: 0,0:00:11.97,0:00:12.34,Default,,0,0,0,,You are {\c&H00FFFF&}on{\c&HFFFFFF&} the roof
+Dialogue: 0,0:00:12.34,0:00:12.71,Default,,0,0,0,,are on {\c&H00FFFF&}the{\c&HFFFFFF&} roof for
+Dialogue: 0,0:00:12.71,0:00:13.08,Default,,0,0,0,,on the {\c&H00FFFF&}roof{\c&HFFFFFF&} for ninety.
+Dialogue: 0,0:00:13.08,0:00:13.45,Default,,0,0,0,,the roof {\c&H00FFFF&}for{\c&HFFFFFF&} ninety.
+Dialogue: 0,0:00:13.45,0:00:13.82,Default,,0,0,0,,roof for {\c&H00FFFF&}ninety.{\c&HFFFFFF&}

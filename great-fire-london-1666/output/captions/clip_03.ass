@@ -1,0 +1,23 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.81,Default,,0,0,0,,{\c&H00FFFF&}Sparks{\c&HFFFFFF&} drift from
+Dialogue: 0,0:00:00.81,0:00:01.12,Default,,0,0,0,,Sparks {\c&H00FFFF&}drift{\c&HFFFFFF&} from the
+Dialogue: 0,0:00:01.12,0:00:01.44,Default,,0,0,0,,Sparks drift {\c&H00FFFF&}from{\c&HFFFFFF&} the ovens.
+Dialogue: 0,0:00:01.44,0:00:01.75,Default,,0,0,0,,drift from {\c&H00FFFF&}the{\c&HFFFFFF&} ovens. This
+Dialogue: 0,0:00:01.75,0:00:02.07,Default,,0,0,0,,from the {\c&H00FFFF&}ovens.{\c&HFFFFFF&} This is
+Dialogue: 0,0:00:02.07,0:00:02.38,Default,,0,0,0,,the ovens. {\c&H00FFFF&}This{\c&HFFFFFF&} is not
+Dialogue: 0,0:00:02.38,0:00:02.70,Default,,0,0,0,,ovens. This {\c&H00FFFF&}is{\c&HFFFFFF&} not good.
+Dialogue: 0,0:00:02.70,0:00:03.01,Default,,0,0,0,,This is {\c&H00FFFF&}not{\c&HFFFFFF&} good.
+Dialogue: 0,0:00:03.01,0:00:03.33,Default,,0,0,0,,is not {\c&H00FFFF&}good.{\c&HFFFFFF&}

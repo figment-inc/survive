@@ -1,0 +1,27 @@
+Cinematic vertical 9:16 video, 1080p.
+
+Close-up on the figure's translucent hand pressing the red AZ-5 emergency button, pulling back to medium shot over seven seconds — camera begins tight on the hand and button, then racks focus and widens as chaos erupts. Shot motivation: the decisive moment — the emergency shutdown that triggers the catastrophe. The close-up creates intimacy with the act, then the pull-back reveals the consequences spreading through the room. Shallow depth of field snapping to deep focus as the camera pulls back.
+
+Transition from slow Steadicam push-in to sudden close-up and rapid pull-back — the pace shatters. The measured tension of the previous clip detonates into kinetic panic.
+
+Continuity: continue seamlessly from the previous clip. Maintain the same character appearance, lighting, and environmental composition. Character lock: translucent figure with visible skeleton, pale orb eyes, no hair, no clothing — same appearance throughout.
+
+INTERIOR CRISIS lighting — the green phosphor glow from instrument screens intensifying, then flickering violently as the overhead fluorescent tubes stutter and die. Rapid shifts between green instrument light, fluorescent strobe, and near-darkness. The figure's skeleton flashing in and out of visibility with each light change, the bones appearing stark white during the dark intervals.
+
+Foreground: The AZ-5 emergency shutdown button in sharp focus — a large red mushroom-cap button under a hinged clear protective cover, the cover already flipped open. Cyrillic label beneath. The figure's translucent hand pressing down firmly, finger bones visible through the pale skin compressing against the red surface. The tea glass in the podstakannik sliding across the console from deep vibration, reaching the edge, tipping, and shattering on the linoleum floor.
+
+Midground: The figure pulling back from the console as the room erupts — during the seven seconds: (1) the translucent hand presses AZ-5, the button depressing with mechanical resistance; (2) a beat of nothing — one terrible second of silence; (3) the power gauge needle, previously at 200 MW, swings violently to the right — past 500, past 1000, past 10000, the needle slamming to 30000 MW and beyond the gauge's range, pinning against the stop; (4) the synoptic mimic board behind erupts from mostly green to entirely red, hundreds of indicator lights flipping in a cascading wave from bottom to top; (5) the overhead fluorescents flicker wildly and die, plunging the room into green instrument glow and red warning light; (6) a deep vibration shakes the entire room — the floor trembling, loose items rattling; (7) operators leap from their chairs, one man stumbling backward over his seat.
+
+Background: The control room in full panic — the synoptic board blazing solid red, operators grabbing consoles for balance, cigarette smoke whipping in turbulent air, ceiling tiles rattling. A man in the deep background shouting, mouth open, face contorted with terror.
+
+Fluorescent tubes dying in sequence. Green phosphor screens flickering with data overload. The red emergency indicators creating a hellish wash across every surface.
+
+The protective cover of the AZ-5 button — hinged clear plastic, now flipped fully open, scratched and yellowed with age. The Cyrillic warning label beneath the button, partially obscured by years of grime.
+
+A logbook sliding off a secondary console. A chair toppling backward. The civil defense poster on the far wall vibrating visibly. Ceiling dust shaking loose in thin streams.
+
+No dialogue. No speech. No talking. The figure reacts silently through physical gestures and body language only. No voiceover. No narration. No music. Ambient environmental sound and sound effects only.
+
+Audio direction:
+- SFX: The mechanical click-thunk of the AZ-5 button depressing, one second of awful silence, then the power gauge needle slamming to its stop with a metallic ping, indicator lights clicking over in rapid cascading sequence like a wave of dominoes, the fluorescent tubes buzzing violently then dying with electrical pops, the tea glass shattering on linoleum, chairs scraping and toppling, the logbook hitting the floor, a deep structural groan from the building itself, ceiling tiles rattling in their frames
+- Ambience: The reactor's hum surging from subliminal drone to overwhelming low-frequency roar — a sound felt in the chest and teeth more than heard, the entire building vibrating at its resonant frequency, metal fixtures buzzing sympathetically, the air itself pressurizing, a catastrophic mechanical crescendo building beneath the floor

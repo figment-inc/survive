@@ -1,0 +1,54 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.89,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} lie at
+Dialogue: 0,0:00:00.89,0:00:01.28,Default,,0,0,0,,You {\c&H00FFFF&}lie{\c&HFFFFFF&} at the
+Dialogue: 0,0:00:01.28,0:00:01.67,Default,,0,0,0,,You lie {\c&H00FFFF&}at{\c&HFFFFFF&} the flood's
+Dialogue: 0,0:00:01.67,0:00:02.06,Default,,0,0,0,,lie at {\c&H00FFFF&}the{\c&HFFFFFF&} flood's edge.
+Dialogue: 0,0:00:02.06,0:00:02.45,Default,,0,0,0,,at the {\c&H00FFFF&}flood's{\c&HFFFFFF&} edge. A
+Dialogue: 0,0:00:02.45,0:00:02.84,Default,,0,0,0,,the flood's {\c&H00FFFF&}edge.{\c&HFFFFFF&} A doorway,
+Dialogue: 0,0:00:02.84,0:00:03.23,Default,,0,0,0,,flood's edge. {\c&H00FFFF&}A{\c&HFFFFFF&} doorway, ten
+Dialogue: 0,0:00:03.23,0:00:03.63,Default,,0,0,0,,edge. A {\c&H00FFFF&}doorway,{\c&HFFFFFF&} ten feet
+Dialogue: 0,0:00:03.63,0:00:04.02,Default,,0,0,0,,A doorway, {\c&H00FFFF&}ten{\c&HFFFFFF&} feet ahead,
+Dialogue: 0,0:00:04.02,0:00:04.41,Default,,0,0,0,,doorway, ten {\c&H00FFFF&}feet{\c&HFFFFFF&} ahead, stands
+Dialogue: 0,0:00:04.41,0:00:04.80,Default,,0,0,0,,ten feet {\c&H00FFFF&}ahead,{\c&HFFFFFF&} stands open.
+Dialogue: 0,0:00:04.80,0:00:05.19,Default,,0,0,0,,feet ahead, {\c&H00FFFF&}stands{\c&HFFFFFF&} open. Your
+Dialogue: 0,0:00:05.19,0:00:05.58,Default,,0,0,0,,ahead, stands {\c&H00FFFF&}open.{\c&HFFFFFF&} Your hand
+Dialogue: 0,0:00:05.58,0:00:05.97,Default,,0,0,0,,stands open. {\c&H00FFFF&}Your{\c&HFFFFFF&} hand reaches
+Dialogue: 0,0:00:05.97,0:00:06.36,Default,,0,0,0,,open. Your {\c&H00FFFF&}hand{\c&HFFFFFF&} reaches for
+Dialogue: 0,0:00:06.36,0:00:06.76,Default,,0,0,0,,Your hand {\c&H00FFFF&}reaches{\c&HFFFFFF&} for it.
+Dialogue: 0,0:00:06.76,0:00:07.15,Default,,0,0,0,,hand reaches {\c&H00FFFF&}for{\c&HFFFFFF&} it. You
+Dialogue: 0,0:00:07.15,0:00:07.54,Default,,0,0,0,,reaches for {\c&H00FFFF&}it.{\c&HFFFFFF&} You never
+Dialogue: 0,0:00:07.54,0:00:07.93,Default,,0,0,0,,for it. {\c&H00FFFF&}You{\c&HFFFFFF&} never arrive.
+Dialogue: 0,0:00:07.93,0:00:08.32,Default,,0,0,0,,it. You {\c&H00FFFF&}never{\c&HFFFFFF&} arrive. For
+Dialogue: 0,0:00:08.32,0:00:08.71,Default,,0,0,0,,You never {\c&H00FFFF&}arrive.{\c&HFFFFFF&} For thirty
+Dialogue: 0,0:00:08.71,0:00:09.10,Default,,0,0,0,,never arrive. {\c&H00FFFF&}For{\c&HFFFFFF&} thirty years,
+Dialogue: 0,0:00:09.10,0:00:09.49,Default,,0,0,0,,arrive. For {\c&H00FFFF&}thirty{\c&HFFFFFF&} years, on
+Dialogue: 0,0:00:09.49,0:00:09.89,Default,,0,0,0,,For thirty {\c&H00FFFF&}years,{\c&HFFFFFF&} on hot
+Dialogue: 0,0:00:09.89,0:00:10.28,Default,,0,0,0,,thirty years, {\c&H00FFFF&}on{\c&HFFFFFF&} hot summer
+Dialogue: 0,0:00:10.28,0:00:10.67,Default,,0,0,0,,years, on {\c&H00FFFF&}hot{\c&HFFFFFF&} summer days,
+Dialogue: 0,0:00:10.67,0:00:11.06,Default,,0,0,0,,on hot {\c&H00FFFF&}summer{\c&HFFFFFF&} days, the
+Dialogue: 0,0:00:11.06,0:00:11.45,Default,,0,0,0,,hot summer {\c&H00FFFF&}days,{\c&HFFFFFF&} the North
+Dialogue: 0,0:00:11.45,0:00:11.84,Default,,0,0,0,,summer days, {\c&H00FFFF&}the{\c&HFFFFFF&} North End
+Dialogue: 0,0:00:11.84,0:00:12.23,Default,,0,0,0,,days, the {\c&H00FFFF&}North{\c&HFFFFFF&} End smells
+Dialogue: 0,0:00:12.23,0:00:12.62,Default,,0,0,0,,the North {\c&H00FFFF&}End{\c&HFFFFFF&} smells of
+Dialogue: 0,0:00:12.62,0:00:13.02,Default,,0,0,0,,North End {\c&H00FFFF&}smells{\c&HFFFFFF&} of molasses.
+Dialogue: 0,0:00:13.02,0:00:13.41,Default,,0,0,0,,End smells {\c&H00FFFF&}of{\c&HFFFFFF&} molasses. A
+Dialogue: 0,0:00:13.41,0:00:13.80,Default,,0,0,0,,smells of {\c&H00FFFF&}molasses.{\c&HFFFFFF&} A sweet
+Dialogue: 0,0:00:13.80,0:00:14.19,Default,,0,0,0,,of molasses. {\c&H00FFFF&}A{\c&HFFFFFF&} sweet ghost.
+Dialogue: 0,0:00:14.19,0:00:14.58,Default,,0,0,0,,molasses. A {\c&H00FFFF&}sweet{\c&HFFFFFF&} ghost. Just
+Dialogue: 0,0:00:14.58,0:00:14.97,Default,,0,0,0,,A sweet {\c&H00FFFF&}ghost.{\c&HFFFFFF&} Just like
+Dialogue: 0,0:00:14.97,0:00:15.36,Default,,0,0,0,,sweet ghost. {\c&H00FFFF&}Just{\c&HFFFFFF&} like you.
+Dialogue: 0,0:00:15.36,0:00:15.75,Default,,0,0,0,,ghost. Just {\c&H00FFFF&}like{\c&HFFFFFF&} you.
+Dialogue: 0,0:00:15.75,0:00:16.15,Default,,0,0,0,,Just like {\c&H00FFFF&}you.{\c&HFFFFFF&}

@@ -1,0 +1,28 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.87,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} grab the
+Dialogue: 0,0:00:00.87,0:00:01.24,Default,,0,0,0,,You {\c&H00FFFF&}grab{\c&HFFFFFF&} the lifeboats.
+Dialogue: 0,0:00:01.24,0:00:01.61,Default,,0,0,0,,You grab {\c&H00FFFF&}the{\c&HFFFFFF&} lifeboats. The
+Dialogue: 0,0:00:01.61,0:00:01.98,Default,,0,0,0,,grab the {\c&H00FFFF&}lifeboats.{\c&HFFFFFF&} The mechanism
+Dialogue: 0,0:00:01.98,0:00:02.35,Default,,0,0,0,,the lifeboats. {\c&H00FFFF&}The{\c&HFFFFFF&} mechanism won't
+Dialogue: 0,0:00:02.35,0:00:02.72,Default,,0,0,0,,lifeboats. The {\c&H00FFFF&}mechanism{\c&HFFFFFF&} won't budge.
+Dialogue: 0,0:00:02.72,0:00:03.10,Default,,0,0,0,,The mechanism {\c&H00FFFF&}won't{\c&HFFFFFF&} budge. Eighteen
+Dialogue: 0,0:00:03.10,0:00:03.47,Default,,0,0,0,,mechanism won't {\c&H00FFFF&}budge.{\c&HFFFFFF&} Eighteen minutes.
+Dialogue: 0,0:00:03.47,0:00:03.84,Default,,0,0,0,,won't budge. {\c&H00FFFF&}Eighteen{\c&HFFFFFF&} minutes. That's
+Dialogue: 0,0:00:03.84,0:00:04.21,Default,,0,0,0,,budge. Eighteen {\c&H00FFFF&}minutes.{\c&HFFFFFF&} That's all
+Dialogue: 0,0:00:04.21,0:00:04.58,Default,,0,0,0,,Eighteen minutes. {\c&H00FFFF&}That's{\c&HFFFFFF&} all you
+Dialogue: 0,0:00:04.58,0:00:04.95,Default,,0,0,0,,minutes. That's {\c&H00FFFF&}all{\c&HFFFFFF&} you have.
+Dialogue: 0,0:00:04.95,0:00:05.32,Default,,0,0,0,,That's all {\c&H00FFFF&}you{\c&HFFFFFF&} have.
+Dialogue: 0,0:00:05.32,0:00:05.70,Default,,0,0,0,,all you {\c&H00FFFF&}have.{\c&HFFFFFF&}

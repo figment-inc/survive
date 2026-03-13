@@ -1,0 +1,39 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.94,Default,,0,0,0,,{\c&H00FFFF&}But{\c&HFFFFFF&} the bridge
+Dialogue: 0,0:00:00.94,0:00:01.39,Default,,0,0,0,,But {\c&H00FFFF&}the{\c&HFFFFFF&} bridge gatehouse
+Dialogue: 0,0:00:01.39,0:00:01.84,Default,,0,0,0,,But the {\c&H00FFFF&}bridge{\c&HFFFFFF&} gatehouse becomes
+Dialogue: 0,0:00:01.84,0:00:02.29,Default,,0,0,0,,the bridge {\c&H00FFFF&}gatehouse{\c&HFFFFFF&} becomes a
+Dialogue: 0,0:00:02.29,0:00:02.73,Default,,0,0,0,,bridge gatehouse {\c&H00FFFF&}becomes{\c&HFFFFFF&} a trap.
+Dialogue: 0,0:00:02.73,0:00:03.18,Default,,0,0,0,,gatehouse becomes {\c&H00FFFF&}a{\c&HFFFFFF&} trap. The
+Dialogue: 0,0:00:03.18,0:00:03.63,Default,,0,0,0,,becomes a {\c&H00FFFF&}trap.{\c&HFFFFFF&} The portcullis
+Dialogue: 0,0:00:03.63,0:00:04.08,Default,,0,0,0,,a trap. {\c&H00FFFF&}The{\c&HFFFFFF&} portcullis jammed
+Dialogue: 0,0:00:04.08,0:00:04.52,Default,,0,0,0,,trap. The {\c&H00FFFF&}portcullis{\c&HFFFFFF&} jammed shut
+Dialogue: 0,0:00:04.52,0:00:04.97,Default,,0,0,0,,The portcullis {\c&H00FFFF&}jammed{\c&HFFFFFF&} shut decades
+Dialogue: 0,0:00:04.97,0:00:05.42,Default,,0,0,0,,portcullis jammed {\c&H00FFFF&}shut{\c&HFFFFFF&} decades ago.
+Dialogue: 0,0:00:05.42,0:00:05.87,Default,,0,0,0,,jammed shut {\c&H00FFFF&}decades{\c&HFFFFFF&} ago. Medieval
+Dialogue: 0,0:00:05.87,0:00:06.31,Default,,0,0,0,,shut decades {\c&H00FFFF&}ago.{\c&HFFFFFF&} Medieval crowd
+Dialogue: 0,0:00:06.31,0:00:06.76,Default,,0,0,0,,decades ago. {\c&H00FFFF&}Medieval{\c&HFFFFFF&} crowd control
+Dialogue: 0,0:00:06.76,0:00:07.21,Default,,0,0,0,,ago. Medieval {\c&H00FFFF&}crowd{\c&HFFFFFF&} control fails
+Dialogue: 0,0:00:07.21,0:00:07.66,Default,,0,0,0,,Medieval crowd {\c&H00FFFF&}control{\c&HFFFFFF&} fails completely.
+Dialogue: 0,0:00:07.66,0:00:08.11,Default,,0,0,0,,crowd control {\c&H00FFFF&}fails{\c&HFFFFFF&} completely. You
+Dialogue: 0,0:00:08.11,0:00:08.55,Default,,0,0,0,,control fails {\c&H00FFFF&}completely.{\c&HFFFFFF&} You realize
+Dialogue: 0,0:00:08.55,0:00:09.00,Default,,0,0,0,,fails completely. {\c&H00FFFF&}You{\c&HFFFFFF&} realize safety
+Dialogue: 0,0:00:09.00,0:00:09.45,Default,,0,0,0,,completely. You {\c&H00FFFF&}realize{\c&HFFFFFF&} safety is
+Dialogue: 0,0:00:09.45,0:00:09.90,Default,,0,0,0,,You realize {\c&H00FFFF&}safety{\c&HFFFFFF&} is always
+Dialogue: 0,0:00:09.90,0:00:10.34,Default,,0,0,0,,realize safety {\c&H00FFFF&}is{\c&HFFFFFF&} always an
+Dialogue: 0,0:00:10.34,0:00:10.79,Default,,0,0,0,,safety is {\c&H00FFFF&}always{\c&HFFFFFF&} an illusion.
+Dialogue: 0,0:00:10.79,0:00:11.24,Default,,0,0,0,,is always {\c&H00FFFF&}an{\c&HFFFFFF&} illusion.
+Dialogue: 0,0:00:11.24,0:00:11.69,Default,,0,0,0,,always an {\c&H00FFFF&}illusion.{\c&HFFFFFF&}

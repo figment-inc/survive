@@ -1,0 +1,27 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.80,Default,,0,0,0,,{\c&H00FFFF&}What{\c&HFFFFFF&} happens if
+Dialogue: 0,0:00:00.80,0:00:01.11,Default,,0,0,0,,What {\c&H00FFFF&}happens{\c&HFFFFFF&} if two
+Dialogue: 0,0:00:01.11,0:00:01.42,Default,,0,0,0,,What happens {\c&H00FFFF&}if{\c&HFFFFFF&} two million
+Dialogue: 0,0:00:01.42,0:00:01.72,Default,,0,0,0,,happens if {\c&H00FFFF&}two{\c&HFFFFFF&} million gallons
+Dialogue: 0,0:00:01.72,0:00:02.03,Default,,0,0,0,,if two {\c&H00FFFF&}million{\c&HFFFFFF&} gallons of
+Dialogue: 0,0:00:02.03,0:00:02.34,Default,,0,0,0,,two million {\c&H00FFFF&}gallons{\c&HFFFFFF&} of molasses
+Dialogue: 0,0:00:02.34,0:00:02.65,Default,,0,0,0,,million gallons {\c&H00FFFF&}of{\c&HFFFFFF&} molasses chase
+Dialogue: 0,0:00:02.65,0:00:02.95,Default,,0,0,0,,gallons of {\c&H00FFFF&}molasses{\c&HFFFFFF&} chase you
+Dialogue: 0,0:00:02.95,0:00:03.26,Default,,0,0,0,,of molasses {\c&H00FFFF&}chase{\c&HFFFFFF&} you down
+Dialogue: 0,0:00:03.26,0:00:03.57,Default,,0,0,0,,molasses chase {\c&H00FFFF&}you{\c&HFFFFFF&} down a
+Dialogue: 0,0:00:03.57,0:00:03.87,Default,,0,0,0,,chase you {\c&H00FFFF&}down{\c&HFFFFFF&} a street?
+Dialogue: 0,0:00:03.87,0:00:04.18,Default,,0,0,0,,you down {\c&H00FFFF&}a{\c&HFFFFFF&} street?
+Dialogue: 0,0:00:04.18,0:00:04.49,Default,,0,0,0,,down a {\c&H00FFFF&}street?{\c&HFFFFFF&}

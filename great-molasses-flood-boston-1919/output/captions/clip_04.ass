@@ -1,0 +1,43 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.88,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} try to
+Dialogue: 0,0:00:00.88,0:00:01.26,Default,,0,0,0,,You {\c&H00FFFF&}try{\c&HFFFFFF&} to warn
+Dialogue: 0,0:00:01.26,0:00:01.64,Default,,0,0,0,,You try {\c&H00FFFF&}to{\c&HFFFFFF&} warn them.
+Dialogue: 0,0:00:01.64,0:00:02.02,Default,,0,0,0,,try to {\c&H00FFFF&}warn{\c&HFFFFFF&} them. The
+Dialogue: 0,0:00:02.02,0:00:02.40,Default,,0,0,0,,to warn {\c&H00FFFF&}them.{\c&HFFFFFF&} The longshoremen
+Dialogue: 0,0:00:02.40,0:00:02.78,Default,,0,0,0,,warn them. {\c&H00FFFF&}The{\c&HFFFFFF&} longshoremen laugh.
+Dialogue: 0,0:00:02.78,0:00:03.16,Default,,0,0,0,,them. The {\c&H00FFFF&}longshoremen{\c&HFFFFFF&} laugh. The
+Dialogue: 0,0:00:03.16,0:00:03.54,Default,,0,0,0,,The longshoremen {\c&H00FFFF&}laugh.{\c&HFFFFFF&} The children
+Dialogue: 0,0:00:03.54,0:00:03.93,Default,,0,0,0,,longshoremen laugh. {\c&H00FFFF&}The{\c&HFFFFFF&} children keep
+Dialogue: 0,0:00:03.93,0:00:04.31,Default,,0,0,0,,laugh. The {\c&H00FFFF&}children{\c&HFFFFFF&} keep playing.
+Dialogue: 0,0:00:04.31,0:00:04.69,Default,,0,0,0,,The children {\c&H00FFFF&}keep{\c&HFFFFFF&} playing. A
+Dialogue: 0,0:00:04.69,0:00:05.07,Default,,0,0,0,,children keep {\c&H00FFFF&}playing.{\c&HFFFFFF&} A grandmother
+Dialogue: 0,0:00:05.07,0:00:05.45,Default,,0,0,0,,keep playing. {\c&H00FFFF&}A{\c&HFFFFFF&} grandmother walks
+Dialogue: 0,0:00:05.45,0:00:05.83,Default,,0,0,0,,playing. A {\c&H00FFFF&}grandmother{\c&HFFFFFF&} walks right
+Dialogue: 0,0:00:05.83,0:00:06.21,Default,,0,0,0,,A grandmother {\c&H00FFFF&}walks{\c&HFFFFFF&} right past
+Dialogue: 0,0:00:06.21,0:00:06.59,Default,,0,0,0,,grandmother walks {\c&H00FFFF&}right{\c&HFFFFFF&} past you.
+Dialogue: 0,0:00:06.59,0:00:06.97,Default,,0,0,0,,walks right {\c&H00FFFF&}past{\c&HFFFFFF&} you. Only
+Dialogue: 0,0:00:06.97,0:00:07.36,Default,,0,0,0,,right past {\c&H00FFFF&}you.{\c&HFFFFFF&} Only the
+Dialogue: 0,0:00:07.36,0:00:07.74,Default,,0,0,0,,past you. {\c&H00FFFF&}Only{\c&HFFFFFF&} the horse
+Dialogue: 0,0:00:07.74,0:00:08.12,Default,,0,0,0,,you. Only {\c&H00FFFF&}the{\c&HFFFFFF&} horse understands.
+Dialogue: 0,0:00:08.12,0:00:08.50,Default,,0,0,0,,Only the {\c&H00FFFF&}horse{\c&HFFFFFF&} understands. It
+Dialogue: 0,0:00:08.50,0:00:08.88,Default,,0,0,0,,the horse {\c&H00FFFF&}understands.{\c&HFFFFFF&} It pulls
+Dialogue: 0,0:00:08.88,0:00:09.26,Default,,0,0,0,,horse understands. {\c&H00FFFF&}It{\c&HFFFFFF&} pulls at
+Dialogue: 0,0:00:09.26,0:00:09.64,Default,,0,0,0,,understands. It {\c&H00FFFF&}pulls{\c&HFFFFFF&} at its
+Dialogue: 0,0:00:09.64,0:00:10.02,Default,,0,0,0,,It pulls {\c&H00FFFF&}at{\c&HFFFFFF&} its rope,
+Dialogue: 0,0:00:10.02,0:00:10.40,Default,,0,0,0,,pulls at {\c&H00FFFF&}its{\c&HFFFFFF&} rope, nostrils
+Dialogue: 0,0:00:10.40,0:00:10.79,Default,,0,0,0,,at its {\c&H00FFFF&}rope,{\c&HFFFFFF&} nostrils flared.
+Dialogue: 0,0:00:10.79,0:00:11.17,Default,,0,0,0,,its rope, {\c&H00FFFF&}nostrils{\c&HFFFFFF&} flared.
+Dialogue: 0,0:00:11.17,0:00:11.55,Default,,0,0,0,,rope, nostrils {\c&H00FFFF&}flared.{\c&HFFFFFF&}

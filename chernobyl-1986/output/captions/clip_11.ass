@@ -1,0 +1,50 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.91,Default,,0,0,0,,{\c&H00FFFF&}Six{\c&HFFFFFF&} hundred thousand
+Dialogue: 0,0:00:00.91,0:00:01.33,Default,,0,0,0,,Six {\c&H00FFFF&}hundred{\c&HFFFFFF&} thousand men.
+Dialogue: 0,0:00:01.33,0:00:01.75,Default,,0,0,0,,Six hundred {\c&H00FFFF&}thousand{\c&HFFFFFF&} men. They
+Dialogue: 0,0:00:01.75,0:00:02.16,Default,,0,0,0,,hundred thousand {\c&H00FFFF&}men.{\c&HFFFFFF&} They call
+Dialogue: 0,0:00:02.16,0:00:02.58,Default,,0,0,0,,thousand men. {\c&H00FFFF&}They{\c&HFFFFFF&} call them
+Dialogue: 0,0:00:02.58,0:00:03.00,Default,,0,0,0,,men. They {\c&H00FFFF&}call{\c&HFFFFFF&} them liquidators.
+Dialogue: 0,0:00:03.00,0:00:03.41,Default,,0,0,0,,They call {\c&H00FFFF&}them{\c&HFFFFFF&} liquidators. Sent
+Dialogue: 0,0:00:03.41,0:00:03.83,Default,,0,0,0,,call them {\c&H00FFFF&}liquidators.{\c&HFFFFFF&} Sent to
+Dialogue: 0,0:00:03.83,0:00:04.25,Default,,0,0,0,,them liquidators. {\c&H00FFFF&}Sent{\c&HFFFFFF&} to clean
+Dialogue: 0,0:00:04.25,0:00:04.66,Default,,0,0,0,,liquidators. Sent {\c&H00FFFF&}to{\c&HFFFFFF&} clean a
+Dialogue: 0,0:00:04.66,0:00:05.08,Default,,0,0,0,,Sent to {\c&H00FFFF&}clean{\c&HFFFFFF&} a disaster
+Dialogue: 0,0:00:05.08,0:00:05.50,Default,,0,0,0,,to clean {\c&H00FFFF&}a{\c&HFFFFFF&} disaster that
+Dialogue: 0,0:00:05.50,0:00:05.91,Default,,0,0,0,,clean a {\c&H00FFFF&}disaster{\c&HFFFFFF&} that cannot
+Dialogue: 0,0:00:05.91,0:00:06.33,Default,,0,0,0,,a disaster {\c&H00FFFF&}that{\c&HFFFFFF&} cannot be
+Dialogue: 0,0:00:06.33,0:00:06.75,Default,,0,0,0,,disaster that {\c&H00FFFF&}cannot{\c&HFFFFFF&} be cleaned.
+Dialogue: 0,0:00:06.75,0:00:07.16,Default,,0,0,0,,that cannot {\c&H00FFFF&}be{\c&HFFFFFF&} cleaned. The
+Dialogue: 0,0:00:07.16,0:00:07.58,Default,,0,0,0,,cannot be {\c&H00FFFF&}cleaned.{\c&HFFFFFF&} The robots
+Dialogue: 0,0:00:07.58,0:00:08.00,Default,,0,0,0,,be cleaned. {\c&H00FFFF&}The{\c&HFFFFFF&} robots they
+Dialogue: 0,0:00:08.00,0:00:08.41,Default,,0,0,0,,cleaned. The {\c&H00FFFF&}robots{\c&HFFFFFF&} they send
+Dialogue: 0,0:00:08.41,0:00:08.83,Default,,0,0,0,,The robots {\c&H00FFFF&}they{\c&HFFFFFF&} send in
+Dialogue: 0,0:00:08.83,0:00:09.25,Default,,0,0,0,,robots they {\c&H00FFFF&}send{\c&HFFFFFF&} in break
+Dialogue: 0,0:00:09.25,0:00:09.66,Default,,0,0,0,,they send {\c&H00FFFF&}in{\c&HFFFFFF&} break down
+Dialogue: 0,0:00:09.66,0:00:10.08,Default,,0,0,0,,send in {\c&H00FFFF&}break{\c&HFFFFFF&} down from
+Dialogue: 0,0:00:10.08,0:00:10.50,Default,,0,0,0,,in break {\c&H00FFFF&}down{\c&HFFFFFF&} from radiation.
+Dialogue: 0,0:00:10.50,0:00:10.91,Default,,0,0,0,,break down {\c&H00FFFF&}from{\c&HFFFFFF&} radiation. So
+Dialogue: 0,0:00:10.91,0:00:11.33,Default,,0,0,0,,down from {\c&H00FFFF&}radiation.{\c&HFFFFFF&} So they
+Dialogue: 0,0:00:11.33,0:00:11.75,Default,,0,0,0,,from radiation. {\c&H00FFFF&}So{\c&HFFFFFF&} they send
+Dialogue: 0,0:00:11.75,0:00:12.16,Default,,0,0,0,,radiation. So {\c&H00FFFF&}they{\c&HFFFFFF&} send men
+Dialogue: 0,0:00:12.16,0:00:12.58,Default,,0,0,0,,So they {\c&H00FFFF&}send{\c&HFFFFFF&} men instead.
+Dialogue: 0,0:00:12.58,0:00:13.00,Default,,0,0,0,,they send {\c&H00FFFF&}men{\c&HFFFFFF&} instead. The
+Dialogue: 0,0:00:13.00,0:00:13.41,Default,,0,0,0,,send men {\c&H00FFFF&}instead.{\c&HFFFFFF&} The men
+Dialogue: 0,0:00:13.41,0:00:13.83,Default,,0,0,0,,men instead. {\c&H00FFFF&}The{\c&HFFFFFF&} men call
+Dialogue: 0,0:00:13.83,0:00:14.25,Default,,0,0,0,,instead. The {\c&H00FFFF&}men{\c&HFFFFFF&} call themselves
+Dialogue: 0,0:00:14.25,0:00:14.66,Default,,0,0,0,,The men {\c&H00FFFF&}call{\c&HFFFFFF&} themselves bio-robots.
+Dialogue: 0,0:00:14.66,0:00:15.08,Default,,0,0,0,,men call {\c&H00FFFF&}themselves{\c&HFFFFFF&} bio-robots.
+Dialogue: 0,0:00:15.08,0:00:15.50,Default,,0,0,0,,call themselves {\c&H00FFFF&}bio-robots.{\c&HFFFFFF&}

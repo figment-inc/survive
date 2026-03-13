@@ -1,0 +1,42 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.86,Default,,0,0,0,,{\c&H00FFFF&}Two{\c&HFFFFFF&} explosions. The
+Dialogue: 0,0:00:00.86,0:00:01.23,Default,,0,0,0,,Two {\c&H00FFFF&}explosions.{\c&HFFFFFF&} The thousand-ton
+Dialogue: 0,0:00:01.23,0:00:01.60,Default,,0,0,0,,Two explosions. {\c&H00FFFF&}The{\c&HFFFFFF&} thousand-ton reactor
+Dialogue: 0,0:00:01.60,0:00:01.97,Default,,0,0,0,,explosions. The {\c&H00FFFF&}thousand-ton{\c&HFFFFFF&} reactor lid
+Dialogue: 0,0:00:01.97,0:00:02.34,Default,,0,0,0,,The thousand-ton {\c&H00FFFF&}reactor{\c&HFFFFFF&} lid launches
+Dialogue: 0,0:00:02.34,0:00:02.70,Default,,0,0,0,,thousand-ton reactor {\c&H00FFFF&}lid{\c&HFFFFFF&} launches into
+Dialogue: 0,0:00:02.70,0:00:03.07,Default,,0,0,0,,reactor lid {\c&H00FFFF&}launches{\c&HFFFFFF&} into the
+Dialogue: 0,0:00:03.07,0:00:03.44,Default,,0,0,0,,lid launches {\c&H00FFFF&}into{\c&HFFFFFF&} the air
+Dialogue: 0,0:00:03.44,0:00:03.81,Default,,0,0,0,,launches into {\c&H00FFFF&}the{\c&HFFFFFF&} air like
+Dialogue: 0,0:00:03.81,0:00:04.18,Default,,0,0,0,,into the {\c&H00FFFF&}air{\c&HFFFFFF&} like a
+Dialogue: 0,0:00:04.18,0:00:04.55,Default,,0,0,0,,the air {\c&H00FFFF&}like{\c&HFFFFFF&} a coin.
+Dialogue: 0,0:00:04.55,0:00:04.91,Default,,0,0,0,,air like {\c&H00FFFF&}a{\c&HFFFFFF&} coin. The
+Dialogue: 0,0:00:04.91,0:00:05.28,Default,,0,0,0,,like a {\c&H00FFFF&}coin.{\c&HFFFFFF&} The building
+Dialogue: 0,0:00:05.28,0:00:05.65,Default,,0,0,0,,a coin. {\c&H00FFFF&}The{\c&HFFFFFF&} building tears
+Dialogue: 0,0:00:05.65,0:00:06.02,Default,,0,0,0,,coin. The {\c&H00FFFF&}building{\c&HFFFFFF&} tears open
+Dialogue: 0,0:00:06.02,0:00:06.39,Default,,0,0,0,,The building {\c&H00FFFF&}tears{\c&HFFFFFF&} open above
+Dialogue: 0,0:00:06.39,0:00:06.75,Default,,0,0,0,,building tears {\c&H00FFFF&}open{\c&HFFFFFF&} above you.
+Dialogue: 0,0:00:06.75,0:00:07.12,Default,,0,0,0,,tears open {\c&H00FFFF&}above{\c&HFFFFFF&} you. You
+Dialogue: 0,0:00:07.12,0:00:07.49,Default,,0,0,0,,open above {\c&H00FFFF&}you.{\c&HFFFFFF&} You are
+Dialogue: 0,0:00:07.49,0:00:07.86,Default,,0,0,0,,above you. {\c&H00FFFF&}You{\c&HFFFFFF&} are on
+Dialogue: 0,0:00:07.86,0:00:08.23,Default,,0,0,0,,you. You {\c&H00FFFF&}are{\c&HFFFFFF&} on the
+Dialogue: 0,0:00:08.23,0:00:08.60,Default,,0,0,0,,You are {\c&H00FFFF&}on{\c&HFFFFFF&} the floor.
+Dialogue: 0,0:00:08.60,0:00:08.96,Default,,0,0,0,,are on {\c&H00FFFF&}the{\c&HFFFFFF&} floor. You
+Dialogue: 0,0:00:08.96,0:00:09.33,Default,,0,0,0,,on the {\c&H00FFFF&}floor.{\c&HFFFFFF&} You cannot
+Dialogue: 0,0:00:09.33,0:00:09.70,Default,,0,0,0,,the floor. {\c&H00FFFF&}You{\c&HFFFFFF&} cannot hear
+Dialogue: 0,0:00:09.70,0:00:10.07,Default,,0,0,0,,floor. You {\c&H00FFFF&}cannot{\c&HFFFFFF&} hear anything.
+Dialogue: 0,0:00:10.07,0:00:10.44,Default,,0,0,0,,You cannot {\c&H00FFFF&}hear{\c&HFFFFFF&} anything.
+Dialogue: 0,0:00:10.44,0:00:10.80,Default,,0,0,0,,cannot hear {\c&H00FFFF&}anything.{\c&HFFFFFF&}

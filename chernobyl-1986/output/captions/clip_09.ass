@@ -1,0 +1,38 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.92,Default,,0,0,0,,{\c&H00FFFF&}Three{\c&HFFFFFF&} kilometers away,
+Dialogue: 0,0:00:00.92,0:00:01.35,Default,,0,0,0,,Three {\c&H00FFFF&}kilometers{\c&HFFFFFF&} away, Pripyat.
+Dialogue: 0,0:00:01.35,0:00:01.78,Default,,0,0,0,,Three kilometers {\c&H00FFFF&}away,{\c&HFFFFFF&} Pripyat. Forty-nine
+Dialogue: 0,0:00:01.78,0:00:02.21,Default,,0,0,0,,kilometers away, {\c&H00FFFF&}Pripyat.{\c&HFFFFFF&} Forty-nine thousand
+Dialogue: 0,0:00:02.21,0:00:02.64,Default,,0,0,0,,away, Pripyat. {\c&H00FFFF&}Forty-nine{\c&HFFFFFF&} thousand people.
+Dialogue: 0,0:00:02.64,0:00:03.07,Default,,0,0,0,,Pripyat. Forty-nine {\c&H00FFFF&}thousand{\c&HFFFFFF&} people. Children
+Dialogue: 0,0:00:03.07,0:00:03.50,Default,,0,0,0,,Forty-nine thousand {\c&H00FFFF&}people.{\c&HFFFFFF&} Children are
+Dialogue: 0,0:00:03.50,0:00:03.93,Default,,0,0,0,,thousand people. {\c&H00FFFF&}Children{\c&HFFFFFF&} are playing
+Dialogue: 0,0:00:03.93,0:00:04.36,Default,,0,0,0,,people. Children {\c&H00FFFF&}are{\c&HFFFFFF&} playing outside.
+Dialogue: 0,0:00:04.36,0:00:04.79,Default,,0,0,0,,Children are {\c&H00FFFF&}playing{\c&HFFFFFF&} outside. No
+Dialogue: 0,0:00:04.79,0:00:05.22,Default,,0,0,0,,are playing {\c&H00FFFF&}outside.{\c&HFFFFFF&} No one
+Dialogue: 0,0:00:05.22,0:00:05.65,Default,,0,0,0,,playing outside. {\c&H00FFFF&}No{\c&HFFFFFF&} one has
+Dialogue: 0,0:00:05.65,0:00:06.08,Default,,0,0,0,,outside. No {\c&H00FFFF&}one{\c&HFFFFFF&} has been
+Dialogue: 0,0:00:06.08,0:00:06.51,Default,,0,0,0,,No one {\c&H00FFFF&}has{\c&HFFFFFF&} been told.
+Dialogue: 0,0:00:06.51,0:00:06.94,Default,,0,0,0,,one has {\c&H00FFFF&}been{\c&HFFFFFF&} told. The
+Dialogue: 0,0:00:06.94,0:00:07.37,Default,,0,0,0,,has been {\c&H00FFFF&}told.{\c&HFFFFFF&} The evacuation
+Dialogue: 0,0:00:07.37,0:00:07.80,Default,,0,0,0,,been told. {\c&H00FFFF&}The{\c&HFFFFFF&} evacuation will
+Dialogue: 0,0:00:07.80,0:00:08.23,Default,,0,0,0,,told. The {\c&H00FFFF&}evacuation{\c&HFFFFFF&} will not
+Dialogue: 0,0:00:08.23,0:00:08.66,Default,,0,0,0,,The evacuation {\c&H00FFFF&}will{\c&HFFFFFF&} not come
+Dialogue: 0,0:00:08.66,0:00:09.09,Default,,0,0,0,,evacuation will {\c&H00FFFF&}not{\c&HFFFFFF&} come for
+Dialogue: 0,0:00:09.09,0:00:09.52,Default,,0,0,0,,will not {\c&H00FFFF&}come{\c&HFFFFFF&} for thirty-six
+Dialogue: 0,0:00:09.52,0:00:09.95,Default,,0,0,0,,not come {\c&H00FFFF&}for{\c&HFFFFFF&} thirty-six hours.
+Dialogue: 0,0:00:09.95,0:00:10.38,Default,,0,0,0,,come for {\c&H00FFFF&}thirty-six{\c&HFFFFFF&} hours.
+Dialogue: 0,0:00:10.38,0:00:10.80,Default,,0,0,0,,for thirty-six {\c&H00FFFF&}hours.{\c&HFFFFFF&}

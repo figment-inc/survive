@@ -1,0 +1,44 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.86,Default,,0,0,0,,{\c&H00FFFF&}The{\c&HFFFFFF&} helicopters come.
+Dialogue: 0,0:00:00.86,0:00:01.22,Default,,0,0,0,,The {\c&H00FFFF&}helicopters{\c&HFFFFFF&} come. They
+Dialogue: 0,0:00:01.22,0:00:01.58,Default,,0,0,0,,The helicopters {\c&H00FFFF&}come.{\c&HFFFFFF&} They drop
+Dialogue: 0,0:00:01.58,0:00:01.94,Default,,0,0,0,,helicopters come. {\c&H00FFFF&}They{\c&HFFFFFF&} drop sand
+Dialogue: 0,0:00:01.94,0:00:02.31,Default,,0,0,0,,come. They {\c&H00FFFF&}drop{\c&HFFFFFF&} sand and
+Dialogue: 0,0:00:02.31,0:00:02.67,Default,,0,0,0,,They drop {\c&H00FFFF&}sand{\c&HFFFFFF&} and boron
+Dialogue: 0,0:00:02.67,0:00:03.03,Default,,0,0,0,,drop sand {\c&H00FFFF&}and{\c&HFFFFFF&} boron into
+Dialogue: 0,0:00:03.03,0:00:03.39,Default,,0,0,0,,sand and {\c&H00FFFF&}boron{\c&HFFFFFF&} into the
+Dialogue: 0,0:00:03.39,0:00:03.76,Default,,0,0,0,,and boron {\c&H00FFFF&}into{\c&HFFFFFF&} the open
+Dialogue: 0,0:00:03.76,0:00:04.12,Default,,0,0,0,,boron into {\c&H00FFFF&}the{\c&HFFFFFF&} open core.
+Dialogue: 0,0:00:04.12,0:00:04.48,Default,,0,0,0,,into the {\c&H00FFFF&}open{\c&HFFFFFF&} core. The
+Dialogue: 0,0:00:04.48,0:00:04.84,Default,,0,0,0,,the open {\c&H00FFFF&}core.{\c&HFFFFFF&} The pilots
+Dialogue: 0,0:00:04.84,0:00:05.20,Default,,0,0,0,,open core. {\c&H00FFFF&}The{\c&HFFFFFF&} pilots fly
+Dialogue: 0,0:00:05.20,0:00:05.57,Default,,0,0,0,,core. The {\c&H00FFFF&}pilots{\c&HFFFFFF&} fly directly
+Dialogue: 0,0:00:05.57,0:00:05.93,Default,,0,0,0,,The pilots {\c&H00FFFF&}fly{\c&HFFFFFF&} directly through
+Dialogue: 0,0:00:05.93,0:00:06.29,Default,,0,0,0,,pilots fly {\c&H00FFFF&}directly{\c&HFFFFFF&} through the
+Dialogue: 0,0:00:06.29,0:00:06.65,Default,,0,0,0,,fly directly {\c&H00FFFF&}through{\c&HFFFFFF&} the plume.
+Dialogue: 0,0:00:06.65,0:00:07.02,Default,,0,0,0,,directly through {\c&H00FFFF&}the{\c&HFFFFFF&} plume. They
+Dialogue: 0,0:00:07.02,0:00:07.38,Default,,0,0,0,,through the {\c&H00FFFF&}plume.{\c&HFFFFFF&} They will
+Dialogue: 0,0:00:07.38,0:00:07.74,Default,,0,0,0,,the plume. {\c&H00FFFF&}They{\c&HFFFFFF&} will be
+Dialogue: 0,0:00:07.74,0:00:08.10,Default,,0,0,0,,plume. They {\c&H00FFFF&}will{\c&HFFFFFF&} be dead
+Dialogue: 0,0:00:08.10,0:00:08.46,Default,,0,0,0,,They will {\c&H00FFFF&}be{\c&HFFFFFF&} dead within
+Dialogue: 0,0:00:08.46,0:00:08.83,Default,,0,0,0,,will be {\c&H00FFFF&}dead{\c&HFFFFFF&} within weeks.
+Dialogue: 0,0:00:08.83,0:00:09.19,Default,,0,0,0,,be dead {\c&H00FFFF&}within{\c&HFFFFFF&} weeks. The
+Dialogue: 0,0:00:09.19,0:00:09.55,Default,,0,0,0,,dead within {\c&H00FFFF&}weeks.{\c&HFFFFFF&} The sand
+Dialogue: 0,0:00:09.55,0:00:09.91,Default,,0,0,0,,within weeks. {\c&H00FFFF&}The{\c&HFFFFFF&} sand does
+Dialogue: 0,0:00:09.91,0:00:10.28,Default,,0,0,0,,weeks. The {\c&H00FFFF&}sand{\c&HFFFFFF&} does almost
+Dialogue: 0,0:00:10.28,0:00:10.64,Default,,0,0,0,,The sand {\c&H00FFFF&}does{\c&HFFFFFF&} almost nothing.
+Dialogue: 0,0:00:10.64,0:00:11.00,Default,,0,0,0,,sand does {\c&H00FFFF&}almost{\c&HFFFFFF&} nothing.
+Dialogue: 0,0:00:11.00,0:00:11.36,Default,,0,0,0,,does almost {\c&H00FFFF&}nothing.{\c&HFFFFFF&}

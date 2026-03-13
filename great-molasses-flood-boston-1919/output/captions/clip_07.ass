@@ -1,0 +1,49 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.82,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} duck into
+Dialogue: 0,0:00:00.82,0:00:01.15,Default,,0,0,0,,You {\c&H00FFFF&}duck{\c&HFFFFFF&} into an
+Dialogue: 0,0:00:01.15,0:00:01.47,Default,,0,0,0,,You duck {\c&H00FFFF&}into{\c&HFFFFFF&} an alley.
+Dialogue: 0,0:00:01.47,0:00:01.80,Default,,0,0,0,,duck into {\c&H00FFFF&}an{\c&HFFFFFF&} alley. The
+Dialogue: 0,0:00:01.80,0:00:02.13,Default,,0,0,0,,into an {\c&H00FFFF&}alley.{\c&HFFFFFF&} The molasses
+Dialogue: 0,0:00:02.13,0:00:02.45,Default,,0,0,0,,an alley. {\c&H00FFFF&}The{\c&HFFFFFF&} molasses follows.
+Dialogue: 0,0:00:02.45,0:00:02.78,Default,,0,0,0,,alley. The {\c&H00FFFF&}molasses{\c&HFFFFFF&} follows. It
+Dialogue: 0,0:00:02.78,0:00:03.11,Default,,0,0,0,,The molasses {\c&H00FFFF&}follows.{\c&HFFFFFF&} It rises
+Dialogue: 0,0:00:03.11,0:00:03.43,Default,,0,0,0,,molasses follows. {\c&H00FFFF&}It{\c&HFFFFFF&} rises to
+Dialogue: 0,0:00:03.43,0:00:03.76,Default,,0,0,0,,follows. It {\c&H00FFFF&}rises{\c&HFFFFFF&} to your
+Dialogue: 0,0:00:03.76,0:00:04.09,Default,,0,0,0,,It rises {\c&H00FFFF&}to{\c&HFFFFFF&} your waist.
+Dialogue: 0,0:00:04.09,0:00:04.41,Default,,0,0,0,,rises to {\c&H00FFFF&}your{\c&HFFFFFF&} waist. You
+Dialogue: 0,0:00:04.41,0:00:04.74,Default,,0,0,0,,to your {\c&H00FFFF&}waist.{\c&HFFFFFF&} You jump
+Dialogue: 0,0:00:04.74,0:00:05.06,Default,,0,0,0,,your waist. {\c&H00FFFF&}You{\c&HFFFFFF&} jump for
+Dialogue: 0,0:00:05.06,0:00:05.39,Default,,0,0,0,,waist. You {\c&H00FFFF&}jump{\c&HFFFFFF&} for a
+Dialogue: 0,0:00:05.39,0:00:05.72,Default,,0,0,0,,You jump {\c&H00FFFF&}for{\c&HFFFFFF&} a fire
+Dialogue: 0,0:00:05.72,0:00:06.04,Default,,0,0,0,,jump for {\c&H00FFFF&}a{\c&HFFFFFF&} fire escape.
+Dialogue: 0,0:00:06.04,0:00:06.37,Default,,0,0,0,,for a {\c&H00FFFF&}fire{\c&HFFFFFF&} escape. You
+Dialogue: 0,0:00:06.37,0:00:06.70,Default,,0,0,0,,a fire {\c&H00FFFF&}escape.{\c&HFFFFFF&} You miss.
+Dialogue: 0,0:00:06.70,0:00:07.02,Default,,0,0,0,,fire escape. {\c&H00FFFF&}You{\c&HFFFFFF&} miss. Here's
+Dialogue: 0,0:00:07.02,0:00:07.35,Default,,0,0,0,,escape. You {\c&H00FFFF&}miss.{\c&HFFFFFF&} Here's the
+Dialogue: 0,0:00:07.35,0:00:07.68,Default,,0,0,0,,You miss. {\c&H00FFFF&}Here's{\c&HFFFFFF&} the thing
+Dialogue: 0,0:00:07.68,0:00:08.00,Default,,0,0,0,,miss. Here's {\c&H00FFFF&}the{\c&HFFFFFF&} thing about
+Dialogue: 0,0:00:08.00,0:00:08.33,Default,,0,0,0,,Here's the {\c&H00FFFF&}thing{\c&HFFFFFF&} about molasses
+Dialogue: 0,0:00:08.33,0:00:08.66,Default,,0,0,0,,the thing {\c&H00FFFF&}about{\c&HFFFFFF&} molasses —
+Dialogue: 0,0:00:08.66,0:00:08.98,Default,,0,0,0,,thing about {\c&H00FFFF&}molasses{\c&HFFFFFF&} — the
+Dialogue: 0,0:00:08.98,0:00:09.31,Default,,0,0,0,,about molasses {\c&H00FFFF&}—{\c&HFFFFFF&} the colder
+Dialogue: 0,0:00:09.31,0:00:09.63,Default,,0,0,0,,molasses — {\c&H00FFFF&}the{\c&HFFFFFF&} colder it
+Dialogue: 0,0:00:09.63,0:00:09.96,Default,,0,0,0,,— the {\c&H00FFFF&}colder{\c&HFFFFFF&} it gets,
+Dialogue: 0,0:00:09.96,0:00:10.29,Default,,0,0,0,,the colder {\c&H00FFFF&}it{\c&HFFFFFF&} gets, the
+Dialogue: 0,0:00:10.29,0:00:10.61,Default,,0,0,0,,colder it {\c&H00FFFF&}gets,{\c&HFFFFFF&} the harder
+Dialogue: 0,0:00:10.61,0:00:10.94,Default,,0,0,0,,it gets, {\c&H00FFFF&}the{\c&HFFFFFF&} harder it
+Dialogue: 0,0:00:10.94,0:00:11.27,Default,,0,0,0,,gets, the {\c&H00FFFF&}harder{\c&HFFFFFF&} it holds.
+Dialogue: 0,0:00:11.27,0:00:11.59,Default,,0,0,0,,the harder {\c&H00FFFF&}it{\c&HFFFFFF&} holds.
+Dialogue: 0,0:00:11.59,0:00:11.92,Default,,0,0,0,,harder it {\c&H00FFFF&}holds.{\c&HFFFFFF&}

@@ -1,0 +1,57 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.80,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} stagger outside.
+Dialogue: 0,0:00:00.80,0:00:01.10,Default,,0,0,0,,You {\c&H00FFFF&}stagger{\c&HFFFFFF&} outside. The
+Dialogue: 0,0:00:01.10,0:00:01.41,Default,,0,0,0,,You stagger {\c&H00FFFF&}outside.{\c&HFFFFFF&} The reactor
+Dialogue: 0,0:00:01.41,0:00:01.71,Default,,0,0,0,,stagger outside. {\c&H00FFFF&}The{\c&HFFFFFF&} reactor core
+Dialogue: 0,0:00:01.71,0:00:02.02,Default,,0,0,0,,outside. The {\c&H00FFFF&}reactor{\c&HFFFFFF&} core is
+Dialogue: 0,0:00:02.02,0:00:02.32,Default,,0,0,0,,The reactor {\c&H00FFFF&}core{\c&HFFFFFF&} is open.
+Dialogue: 0,0:00:02.32,0:00:02.63,Default,,0,0,0,,reactor core {\c&H00FFFF&}is{\c&HFFFFFF&} open. It
+Dialogue: 0,0:00:02.63,0:00:02.93,Default,,0,0,0,,core is {\c&H00FFFF&}open.{\c&HFFFFFF&} It is
+Dialogue: 0,0:00:02.93,0:00:03.24,Default,,0,0,0,,is open. {\c&H00FFFF&}It{\c&HFFFFFF&} is glowing
+Dialogue: 0,0:00:03.24,0:00:03.54,Default,,0,0,0,,open. It {\c&H00FFFF&}is{\c&HFFFFFF&} glowing blue.
+Dialogue: 0,0:00:03.54,0:00:03.85,Default,,0,0,0,,It is {\c&H00FFFF&}glowing{\c&HFFFFFF&} blue. There
+Dialogue: 0,0:00:03.85,0:00:04.15,Default,,0,0,0,,is glowing {\c&H00FFFF&}blue.{\c&HFFFFFF&} There are
+Dialogue: 0,0:00:04.15,0:00:04.45,Default,,0,0,0,,glowing blue. {\c&H00FFFF&}There{\c&HFFFFFF&} are graphite
+Dialogue: 0,0:00:04.45,0:00:04.76,Default,,0,0,0,,blue. There {\c&H00FFFF&}are{\c&HFFFFFF&} graphite blocks
+Dialogue: 0,0:00:04.76,0:00:05.06,Default,,0,0,0,,There are {\c&H00FFFF&}graphite{\c&HFFFFFF&} blocks on
+Dialogue: 0,0:00:05.06,0:00:05.37,Default,,0,0,0,,are graphite {\c&H00FFFF&}blocks{\c&HFFFFFF&} on the
+Dialogue: 0,0:00:05.37,0:00:05.67,Default,,0,0,0,,graphite blocks {\c&H00FFFF&}on{\c&HFFFFFF&} the ground.
+Dialogue: 0,0:00:05.67,0:00:05.98,Default,,0,0,0,,blocks on {\c&H00FFFF&}the{\c&HFFFFFF&} ground. You
+Dialogue: 0,0:00:05.98,0:00:06.28,Default,,0,0,0,,on the {\c&H00FFFF&}ground.{\c&HFFFFFF&} You pick
+Dialogue: 0,0:00:06.28,0:00:06.59,Default,,0,0,0,,the ground. {\c&H00FFFF&}You{\c&HFFFFFF&} pick one
+Dialogue: 0,0:00:06.59,0:00:06.89,Default,,0,0,0,,ground. You {\c&H00FFFF&}pick{\c&HFFFFFF&} one up.
+Dialogue: 0,0:00:06.89,0:00:07.20,Default,,0,0,0,,You pick {\c&H00FFFF&}one{\c&HFFFFFF&} up. It
+Dialogue: 0,0:00:07.20,0:00:07.50,Default,,0,0,0,,pick one {\c&H00FFFF&}up.{\c&HFFFFFF&} It burns
+Dialogue: 0,0:00:07.50,0:00:07.80,Default,,0,0,0,,one up. {\c&H00FFFF&}It{\c&HFFFFFF&} burns your
+Dialogue: 0,0:00:07.80,0:00:08.11,Default,,0,0,0,,up. It {\c&H00FFFF&}burns{\c&HFFFFFF&} your hand.
+Dialogue: 0,0:00:08.11,0:00:08.41,Default,,0,0,0,,It burns {\c&H00FFFF&}your{\c&HFFFFFF&} hand. You
+Dialogue: 0,0:00:08.41,0:00:08.72,Default,,0,0,0,,burns your {\c&H00FFFF&}hand.{\c&HFFFFFF&} You do
+Dialogue: 0,0:00:08.72,0:00:09.02,Default,,0,0,0,,your hand. {\c&H00FFFF&}You{\c&HFFFFFF&} do not
+Dialogue: 0,0:00:09.02,0:00:09.33,Default,,0,0,0,,hand. You {\c&H00FFFF&}do{\c&HFFFFFF&} not know
+Dialogue: 0,0:00:09.33,0:00:09.63,Default,,0,0,0,,You do {\c&H00FFFF&}not{\c&HFFFFFF&} know it
+Dialogue: 0,0:00:09.63,0:00:09.94,Default,,0,0,0,,do not {\c&H00FFFF&}know{\c&HFFFFFF&} it yet.
+Dialogue: 0,0:00:09.94,0:00:10.24,Default,,0,0,0,,not know {\c&H00FFFF&}it{\c&HFFFFFF&} yet. But
+Dialogue: 0,0:00:10.24,0:00:10.55,Default,,0,0,0,,know it {\c&H00FFFF&}yet.{\c&HFFFFFF&} But you
+Dialogue: 0,0:00:10.55,0:00:10.85,Default,,0,0,0,,it yet. {\c&H00FFFF&}But{\c&HFFFFFF&} you have
+Dialogue: 0,0:00:10.85,0:00:11.15,Default,,0,0,0,,yet. But {\c&H00FFFF&}you{\c&HFFFFFF&} have just
+Dialogue: 0,0:00:11.15,0:00:11.46,Default,,0,0,0,,But you {\c&H00FFFF&}have{\c&HFFFFFF&} just received
+Dialogue: 0,0:00:11.46,0:00:11.76,Default,,0,0,0,,you have {\c&H00FFFF&}just{\c&HFFFFFF&} received a
+Dialogue: 0,0:00:11.76,0:00:12.07,Default,,0,0,0,,have just {\c&H00FFFF&}received{\c&HFFFFFF&} a lethal
+Dialogue: 0,0:00:12.07,0:00:12.37,Default,,0,0,0,,just received {\c&H00FFFF&}a{\c&HFFFFFF&} lethal dose
+Dialogue: 0,0:00:12.37,0:00:12.68,Default,,0,0,0,,received a {\c&H00FFFF&}lethal{\c&HFFFFFF&} dose of
+Dialogue: 0,0:00:12.68,0:00:12.98,Default,,0,0,0,,a lethal {\c&H00FFFF&}dose{\c&HFFFFFF&} of radiation.
+Dialogue: 0,0:00:12.98,0:00:13.29,Default,,0,0,0,,lethal dose {\c&H00FFFF&}of{\c&HFFFFFF&} radiation.
+Dialogue: 0,0:00:13.29,0:00:13.59,Default,,0,0,0,,dose of {\c&H00FFFF&}radiation.{\c&HFFFFFF&}

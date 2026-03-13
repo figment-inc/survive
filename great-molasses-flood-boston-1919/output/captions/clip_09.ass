@@ -1,0 +1,43 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.90,Default,,0,0,0,,{\c&H00FFFF&}Sailors{\c&HFFFFFF&} from the
+Dialogue: 0,0:00:00.90,0:00:01.31,Default,,0,0,0,,Sailors {\c&H00FFFF&}from{\c&HFFFFFF&} the USS
+Dialogue: 0,0:00:01.31,0:00:01.72,Default,,0,0,0,,Sailors from {\c&H00FFFF&}the{\c&HFFFFFF&} USS Nantucket
+Dialogue: 0,0:00:01.72,0:00:02.12,Default,,0,0,0,,from the {\c&H00FFFF&}USS{\c&HFFFFFF&} Nantucket wade
+Dialogue: 0,0:00:02.12,0:00:02.53,Default,,0,0,0,,the USS {\c&H00FFFF&}Nantucket{\c&HFFFFFF&} wade in
+Dialogue: 0,0:00:02.53,0:00:02.94,Default,,0,0,0,,USS Nantucket {\c&H00FFFF&}wade{\c&HFFFFFF&} in wearing
+Dialogue: 0,0:00:02.94,0:00:03.34,Default,,0,0,0,,Nantucket wade {\c&H00FFFF&}in{\c&HFFFFFF&} wearing white.
+Dialogue: 0,0:00:03.34,0:00:03.75,Default,,0,0,0,,wade in {\c&H00FFFF&}wearing{\c&HFFFFFF&} white. They
+Dialogue: 0,0:00:03.75,0:00:04.16,Default,,0,0,0,,in wearing {\c&H00FFFF&}white.{\c&HFFFFFF&} They leave
+Dialogue: 0,0:00:04.16,0:00:04.56,Default,,0,0,0,,wearing white. {\c&H00FFFF&}They{\c&HFFFFFF&} leave wearing
+Dialogue: 0,0:00:04.56,0:00:04.97,Default,,0,0,0,,white. They {\c&H00FFFF&}leave{\c&HFFFFFF&} wearing brown.
+Dialogue: 0,0:00:04.97,0:00:05.38,Default,,0,0,0,,They leave {\c&H00FFFF&}wearing{\c&HFFFFFF&} brown. One
+Dialogue: 0,0:00:05.38,0:00:05.78,Default,,0,0,0,,leave wearing {\c&H00FFFF&}brown.{\c&HFFFFFF&} One hundred
+Dialogue: 0,0:00:05.78,0:00:06.19,Default,,0,0,0,,wearing brown. {\c&H00FFFF&}One{\c&HFFFFFF&} hundred fifty
+Dialogue: 0,0:00:06.19,0:00:06.60,Default,,0,0,0,,brown. One {\c&H00FFFF&}hundred{\c&HFFFFFF&} fifty people
+Dialogue: 0,0:00:06.60,0:00:07.00,Default,,0,0,0,,One hundred {\c&H00FFFF&}fifty{\c&HFFFFFF&} people are
+Dialogue: 0,0:00:07.00,0:00:07.41,Default,,0,0,0,,hundred fifty {\c&H00FFFF&}people{\c&HFFFFFF&} are trapped.
+Dialogue: 0,0:00:07.41,0:00:07.82,Default,,0,0,0,,fifty people {\c&H00FFFF&}are{\c&HFFFFFF&} trapped. Rescue
+Dialogue: 0,0:00:07.82,0:00:08.22,Default,,0,0,0,,people are {\c&H00FFFF&}trapped.{\c&HFFFFFF&} Rescue takes
+Dialogue: 0,0:00:08.22,0:00:08.63,Default,,0,0,0,,are trapped. {\c&H00FFFF&}Rescue{\c&HFFFFFF&} takes four
+Dialogue: 0,0:00:08.63,0:00:09.04,Default,,0,0,0,,trapped. Rescue {\c&H00FFFF&}takes{\c&HFFFFFF&} four days.
+Dialogue: 0,0:00:09.04,0:00:09.44,Default,,0,0,0,,Rescue takes {\c&H00FFFF&}four{\c&HFFFFFF&} days. The
+Dialogue: 0,0:00:09.44,0:00:09.85,Default,,0,0,0,,takes four {\c&H00FFFF&}days.{\c&HFFFFFF&} The smell
+Dialogue: 0,0:00:09.85,0:00:10.26,Default,,0,0,0,,four days. {\c&H00FFFF&}The{\c&HFFFFFF&} smell will
+Dialogue: 0,0:00:10.26,0:00:10.66,Default,,0,0,0,,days. The {\c&H00FFFF&}smell{\c&HFFFFFF&} will linger
+Dialogue: 0,0:00:10.66,0:00:11.07,Default,,0,0,0,,The smell {\c&H00FFFF&}will{\c&HFFFFFF&} linger for
+Dialogue: 0,0:00:11.07,0:00:11.48,Default,,0,0,0,,smell will {\c&H00FFFF&}linger{\c&HFFFFFF&} for decades.
+Dialogue: 0,0:00:11.48,0:00:11.88,Default,,0,0,0,,will linger {\c&H00FFFF&}for{\c&HFFFFFF&} decades.
+Dialogue: 0,0:00:11.88,0:00:12.29,Default,,0,0,0,,linger for {\c&H00FFFF&}decades.{\c&HFFFFFF&}

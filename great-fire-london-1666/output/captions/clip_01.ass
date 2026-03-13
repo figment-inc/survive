@@ -1,0 +1,25 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.84,Default,,0,0,0,,{\c&H00FFFF&}What{\c&HFFFFFF&} happens if
+Dialogue: 0,0:00:00.84,0:00:01.18,Default,,0,0,0,,What {\c&H00FFFF&}happens{\c&HFFFFFF&} if you
+Dialogue: 0,0:00:01.18,0:00:01.52,Default,,0,0,0,,What happens {\c&H00FFFF&}if{\c&HFFFFFF&} you find
+Dialogue: 0,0:00:01.52,0:00:01.86,Default,,0,0,0,,happens if {\c&H00FFFF&}you{\c&HFFFFFF&} find yourself
+Dialogue: 0,0:00:01.86,0:00:02.20,Default,,0,0,0,,if you {\c&H00FFFF&}find{\c&HFFFFFF&} yourself in
+Dialogue: 0,0:00:02.20,0:00:02.55,Default,,0,0,0,,you find {\c&H00FFFF&}yourself{\c&HFFFFFF&} in history's
+Dialogue: 0,0:00:02.55,0:00:02.89,Default,,0,0,0,,find yourself {\c&H00FFFF&}in{\c&HFFFFFF&} history's most
+Dialogue: 0,0:00:02.89,0:00:03.23,Default,,0,0,0,,yourself in {\c&H00FFFF&}history's{\c&HFFFFFF&} most famous
+Dialogue: 0,0:00:03.23,0:00:03.57,Default,,0,0,0,,in history's {\c&H00FFFF&}most{\c&HFFFFFF&} famous inferno?
+Dialogue: 0,0:00:03.57,0:00:03.91,Default,,0,0,0,,history's most {\c&H00FFFF&}famous{\c&HFFFFFF&} inferno?
+Dialogue: 0,0:00:03.91,0:00:04.26,Default,,0,0,0,,most famous {\c&H00FFFF&}inferno?{\c&HFFFFFF&}
