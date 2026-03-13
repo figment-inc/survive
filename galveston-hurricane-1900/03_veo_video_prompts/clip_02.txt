@@ -1,0 +1,35 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. A flooded residential street in Galveston's east end fills the frame — Victorian houses on both sides, murky brown water knee-deep. Classic adult animated comedy medium shot staging.
+
+NEW location — cut from the beachfront establishing shot to a residential street already flooding. The character appears for the first time.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over clip duration: The figure stands in the center of the flooded street, initially frozen in confusion — skull tilted, arms slightly raised. Over the first three seconds, the figure slowly looks down at the knee-deep water around its legs, then back up at the houses. At the four-second mark, the figure does a slow cartoon head-turn to the left, then the right, taking in the flooded street. From seconds five through seven, the figure takes a tentative step forward and stumbles slightly as the current pushes against its legs. In the final second, the figure's orb eyes widen as the water visibly rises to mid-thigh — a dawning realization of danger.
+
+STORM DAYLIGHT — flat overcast lighting, grey-green cast. Murky brown floodwater reflecting the dark sky. Pastel Victorian houses muted under storm light.
+
+Foreground: Murky brown floodwater with debris — a child's wooden hoop, a straw hat, a section of white picket fence floating past. A cast-iron hitching post half-submerged. Ripples from the figure's movements.
+
+Midground: The figure in the flooded street. Victorian cottages on both sides — pale blue, butter yellow, dusty pink — with water lapping at their bottom porch steps. A woman in a high-collared dress wringing her hands on her porch. Oleander bushes bending, pink flowers scattering.
+
+Background: More Victorian houses in forced perspective. Dark grey-green sky. A church steeple with a tilting cross. Diagonal rain beginning to streak across the scene.
+
+Over the eight seconds: the water level rises visibly from knee to mid-thigh. Debris increases — more floating objects enter the frame. Wind picks up, bending the oleanders further. The woman on the porch retreats inside, slamming the door. A cat leaps from a porch railing.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: You wake up on a sand island. The water is already at your knees. This is Galveston, Texas. It is September eighth, nineteen hundred.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor, measured and precise delivery. "Sand island" delivered with slight emphasis — the geography IS the danger. The date delivered with grim finality. Second person address ("you").
+
+Audio direction:
+- Music: Low ominous strings building slowly, a dark waltz-like motif in a minor key — genteel Southern charm curdling into dread. Barely there, just under the ambience.
+- SFX: Water sloshing and gurgling around the figure's legs, the creak and groan of wooden house frames under wind stress, a screen door slamming, the splash of debris floating into the frame, oleander branches scraping against clapboard siding, a distant church bell ringing erratically in the wind
+- Ambience: A Texas Gulf Coast city flooding — the constant rush of rising water, wind building from a whistle to a moan, rain intensifying from pattering to hammering on wooden rooftops, the creak of strained timber

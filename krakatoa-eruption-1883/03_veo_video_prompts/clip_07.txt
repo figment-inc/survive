@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium-wide shot, eye level. Locked camera, flat composition, no movement. The figure is mid-sprint across the exposed seabed toward camera with a massive dark tsunami wall rising behind. Classic adult animated comedy action staging with dramatic scale contrast.
+
+Same setting — cut from the figure's dawning realization to full sprint as the tsunami approaches. The water is returning.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure is running at full cartoon sprint directly toward camera — knees pumping high, arms flailing, skull turned to look over its shoulder at the approaching wave. Classic cartoon running pose — body leaned forward, limbs a blur of exaggerated motion. At second 3, it stumbles in the mud — one foot sinks, the figure pitches forward, catches itself with one hand in the muck. At second 4-5, it scrambles upright, slipping, mud flying. At second 6, it resumes sprinting, now even more panicked — the wave is closer, the sound louder. By second 7-8, the figure is still running but the wave shadow is falling across it — the light dims as the wall of water looms directly behind.
+
+Flat even lighting on figure. Color palette: dark brown mud, dark teal-black wave, bright white foam crest, charcoal-black sky, intense orange volcanic backlight, pale translucent figure, flat brown and cream running figures.
+
+Foreground: Mud and silt kicked up by the figure's feet in flat brown splatter shapes. A stranded jellyfish in flat pink. Puddles reflecting the orange volcanic sky.
+
+Midground: The figure sprinting. Other flat-color figures also running — a man with a child, a woman stumbling, a colonial officer pointing inland.
+
+Background: The tsunami — a massive dark teal-black wall of water stretching across the entire frame width. White foam as a flat bright line along its crest. Lit from behind by volcanic glow. The wave is over thirty meters high. Above it, the churning ash sky. A torn Dutch flag tumbling across the mud.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- Off-screen narrator says: "You run. You run harder than you've ever run. The wave behind you is thirty meters tall. It is moving at the speed of a jetliner. You cannot outrun this. Nobody can outrun this."
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent. Pace accelerating — matching the urgency. "You run" is clipped. "Thirty meters tall" delivered with precise clinical wonder. "Speed of a jetliner" — a modern comparison dropped casually into 1883, making it visceral. "You cannot outrun this" — slowing down, suddenly calm, almost tender. "Nobody can outrun this" — quiet finality.
+
+Audio direction:
+- Music: Full dramatic orchestral swell — brass, strings, timpani all hitting together in a massive rising chord. The heartbeat bass drum from the previous clip is now thunderous and rapid. This is the catastrophe peak. Horns blaring a descending dissonant phrase.
+- SFX: The deep bass roar of the approaching tsunami — not like ocean waves but like a freight train crossed with thunder, a continuous grinding roar that swallows all other sound. Mud squelching under frantic footsteps. The wet slap of the figure falling. A massive wind — the air displacement ahead of the wave — howling past.
+- Ambience: Screaming — distant panicked voices overlapping, carried on the wind. The ground vibrating. The roar of the wave growing louder with each second, becoming the dominant sound, drowning everything else. The air pressure changing — a popping sensation rendered as audio distortion.

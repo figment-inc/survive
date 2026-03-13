@@ -3,16 +3,17 @@
 You Wouldn't Wanna Be — Automated Episode Pipeline
 
 End-to-end from autonomous topic selection to published YouTube Short + Instagram Reel.
+Family Guy animation style with Veo 3.1 native audio (speech, SFX, music).
 
 Phases:
   0. Topic generation (Claude — picks history's worst moments, avoids duplicates)
-  1. Episode content generation (Claude — image prompts, video prompts, narration)
+  1. Episode content generation (Claude — image prompts, video prompts with dialogue/audio direction)
   1b. Write prompts to disk
-  2. Audio generation (ElevenLabs — narration TTS + background music, runs FIRST)
-  3. Image generation (NanoBanana Pro — keyframe images with skeleton reference)
-  4. Video generation (Veo 3.1 — ambient/SFX clips with reference images)
-  5. Mix + Captions + Stitch (ffmpeg — adaptive audio mixing, word-by-word captions, concat)
-  6. Publish (GitHub Release upload + Metricool API → IG Reel + YT Short)
+  2. Image generation (NanoBanana Pro — keyframe images with skeleton reference, Family Guy style)
+  3. Video generation (Veo 3.1 — clips with native speech, SFX, ambience, music)
+  4. Stitch + LUFS normalize (ffmpeg — concat + loudnorm to -14 LUFS)
+  4b. Remotion karaoke captions (Whisper transcription + Remotion render + ffmpeg composite)
+  5. Publish (GitHub Release upload + Metricool API → IG Reel + YT Short)
 
 Usage:
   python n8n/run_pipeline.py                          # autonomous topic + local only
@@ -25,8 +26,7 @@ import json
 import os
 import subprocess
 import sys
-from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 
 REPO_DIR = Path(__file__).resolve().parent.parent
@@ -156,24 +156,27 @@ def generate_episode_content(topic):
         )
         system_prompt += examples
 
-    model = load_env_key("ANTHROPIC_MODEL") or "claude-sonnet-4-20250514"
-    gen_model = "claude-sonnet-4-20250514"
+    model = load_env_key("ANTHROPIC_MODEL") or "claude-opus-4-6"
 
     print(f"  [{ts()}] Sending topic to Claude: {topic}")
-    print(f"  [{ts()}] Model: {gen_model}")
+    print(f"  [{ts()}] Model: {model}")
 
     max_retries = 2
     for attempt in range(max_retries + 1):
-        response = client.messages.create(
-            model=gen_model,
-            max_tokens=16000,
+        collected = []
+        with client.messages.stream(
+            model=model,
+            max_tokens=32000,
             temperature=1.0,
             system=system_prompt,
             messages=[{"role": "user", "content": topic}],
-        )
+        ) as stream:
+            for text in stream.text_stream:
+                collected.append(text)
+        response = stream.get_final_message()
 
         stop_reason = response.stop_reason
-        raw = response.content[0].text.strip()
+        raw = "".join(collected).strip()
 
         if stop_reason == "max_tokens":
             print(f"  [{ts()}] WARNING: Response truncated (max_tokens). "
@@ -248,7 +251,7 @@ def write_episode_files(episode):
     vid_dir = ep_dir / "03_veo_video_prompts"
     out_dirs = [
         ep_dir / "output" / d
-        for d in ["images", "videos", "audio/narration", "audio/music", "mixed", "captions", "captioned"]
+        for d in ["images", "videos", "mixed"]
     ]
 
     for d in [img_dir, vid_dir] + out_dirs:
@@ -262,8 +265,8 @@ def write_episode_files(episode):
         clip_id = f"{i + 1:02d}"
         (vid_dir / f"clip_{clip_id}.txt").write_text(prompt)
 
-    if episode.get("narration_script"):
-        (ep_dir / "04_narration_script.txt").write_text(episode["narration_script"])
+    if episode.get("dialogue_script"):
+        (ep_dir / "04_dialogue_script.txt").write_text(episode["dialogue_script"])
 
     storyboard = (
         f"# {episode['title']}\n\n"
@@ -286,58 +289,19 @@ def write_episode_files(episode):
     return ep_dir, slug
 
 
-# ── Phase 2: Audio generation (ElevenLabs — runs FIRST) ──
-
-
-def run_audio_phase(episode, ep_dir):
-    phase_banner("PHASE 2: AUDIO GENERATION (ElevenLabs)")
-
-    from lib.elevenlabs import generate_narration, generate_music
-
-    api_key = load_env_key("ELEVENLABS_API_KEY")
-    voice_id = load_env_key("ELEVENLABS_VOICE_ID")
-
-    if not api_key:
-        print(f"  [{ts()}] ERROR: ELEVENLABS_API_KEY not found.")
-        return False
-    if not voice_id:
-        print(f"  [{ts()}] ERROR: ELEVENLABS_VOICE_ID not set.")
-        return False
-
-    narr_dir = ep_dir / "output" / "audio" / "narration"
-    music_dir = ep_dir / "output" / "audio" / "music"
-    narr_dir.mkdir(parents=True, exist_ok=True)
-    music_dir.mkdir(parents=True, exist_ok=True)
-
-    narration_lines = episode.get("narration_lines", {})
-    for clip_id, text in narration_lines.items():
-        narr_path = narr_dir / f"narration_{clip_id}.mp3"
-        generate_narration(api_key, voice_id, text, narr_path)
-
-    music_prompt = episode.get("music_prompt", (
-        "Dark cinematic underscore. Ominous low strings, building tension, "
-        "orchestral intensity, resolving into melancholy. No vocals. Instrumental only."
-    ))
-    music_path = music_dir / "background_music.mp3"
-    generate_music(api_key, music_prompt, music_path, duration_ms=75000)
-
-    print(f"  [{ts()}] Audio phase complete.")
-    return True
-
-
-# ── Phase 3: Image generation (NanoBanana Pro) ──
+# ── Phase 2: Image generation (NanoBanana Pro) ──
 
 
 def run_images_phase(episode, ep_dir):
-    phase_banner("PHASE 3: IMAGE GENERATION (NanoBanana Pro)")
+    phase_banner("PHASE 2: IMAGE GENERATION (NanoBanana Pro)")
 
     from lib.nanobanana import generate_image
 
-    api_key = load_env_key("NANOBANANA_API_KEY")
-    model = load_env_key("NANOBANANA_MODEL") or "nano-banana-pro"
+    api_key = load_env_key("NANOBANANA_API_KEY") or load_env_key("GEMINI_API_KEY")
+    model = load_env_key("NANOBANANA_MODEL") or "gemini-3-pro-image-preview"
 
     if not api_key:
-        print(f"  [{ts()}] ERROR: NANOBANANA_API_KEY not found.")
+        print(f"  [{ts()}] ERROR: NANOBANANA_API_KEY / GEMINI_API_KEY not found.")
         return False
 
     ref_dir = CHANNEL_DIR / "reference_images"
@@ -376,13 +340,13 @@ def run_images_phase(episode, ep_dir):
     return True
 
 
-# ── Phase 4: Video generation (Veo 3.1) ──
+# ── Phase 3: Video generation (Veo 3.1) ──
 
 
 def run_videos_phase(episode, ep_dir):
-    phase_banner("PHASE 4: VIDEO GENERATION (Veo 3.1)")
+    phase_banner("PHASE 3: VIDEO GENERATION (Veo 3.1)")
 
-    from lib.veo import get_client, load_reference_images, generate_video
+    from lib.veo import get_client, load_reference_images, select_refs_for_prompt, generate_video
 
     gemini_key = load_env_key("GEMINI_API_KEY")
     if not gemini_key:
@@ -390,7 +354,7 @@ def run_videos_phase(episode, ep_dir):
         return False
 
     client = get_client(gemini_key)
-    ref_images = load_reference_images(CHANNEL_DIR)
+    all_refs = load_reference_images(CHANNEL_DIR)
 
     videos_dir = ep_dir / "output" / "videos"
     images_dir = ep_dir / "output" / "images"
@@ -413,6 +377,8 @@ def run_videos_phase(episode, ep_dir):
         use_reference = clip_meta.get("has_character", True)
         first_frame = images_dir / f"clip_{clip_id}_frame.png"
 
+        ref_images = select_refs_for_prompt(all_refs, prompt) if use_reference else None
+
         print(f"\n  --- Clip {clip_id} ({duration}s @ {resolution}) ---")
 
         max_safety_retries = 3
@@ -423,7 +389,7 @@ def run_videos_phase(episode, ep_dir):
                 output_path=output_path,
                 duration=duration,
                 resolution=resolution,
-                ref_images=ref_images if use_reference else None,
+                ref_images=ref_images,
                 first_frame_path=first_frame if first_frame.exists() else None,
                 use_reference=use_reference,
             )
@@ -436,103 +402,28 @@ def run_videos_phase(episode, ep_dir):
     return True
 
 
-# ── Phase 5: Mix + Captions + Stitch ──
+# ── Phase 4: Stitch + LUFS normalize ──
 
 
 def run_post_phase(episode, ep_dir):
-    phase_banner("PHASE 5: MIX + CAPTIONS + STITCH (ffmpeg)")
+    phase_banner("PHASE 4: STITCH + LUFS NORMALIZE (ffmpeg)")
 
-    from lib.mixer import (
-        mix_clip_audio, probe_audio_duration, generate_word_captions,
-        burn_captions, stitch_clips, NARRATION_DELAY,
-    )
+    from lib.mixer import stitch_clips
 
     slug = episode["episode_slug"]
     clips = episode.get("clips", [])
-    narration_lines = episode.get("narration_lines", {})
 
     videos_dir = ep_dir / "output" / "videos"
-    narr_dir = ep_dir / "output" / "audio" / "narration"
-    music_dir = ep_dir / "output" / "audio" / "music"
     mixed_dir = ep_dir / "output" / "mixed"
-    captions_dir = ep_dir / "output" / "captions"
-    captioned_dir = ep_dir / "output" / "captioned"
 
-    for d in [mixed_dir, captions_dir, captioned_dir]:
-        d.mkdir(parents=True, exist_ok=True)
-
-    music_path = music_dir / "background_music.mp3"
-
-    narr_durations = {}
-    for clip_id in narration_lines:
-        narr_path = narr_dir / f"narration_{clip_id}.mp3"
-        if narr_path.exists():
-            narr_durations[clip_id] = probe_audio_duration(narr_path)
-
-    music_volume_map = {
-        "01": 0.25, "02": 0.20, "03": 0.20, "04": 0.20, "05": 0.20,
-        "06": 0.20, "07": 0.25, "08": 0.25, "09": 0.25, "10": 0.35,
-    }
-
-    effective_durations = {}
-    for clip_meta in clips:
-        clip_id = clip_meta["id"]
-        clip_duration = float(clip_meta["duration"])
-
-        video_path = videos_dir / f"clip_{clip_id}.mp4"
-        mixed_path = mixed_dir / f"clip_{clip_id}.mp4"
-        narr_path = narr_dir / f"narration_{clip_id}.mp3"
-
-        music_offset = sum(
-            effective_durations.get(c["id"], float(c["duration"]))
-            for c in clips if c["id"] < clip_id
-        )
-
-        success, eff_dur = mix_clip_audio(
-            video_path=video_path,
-            output_path=mixed_path,
-            narration_path=narr_path if narr_path.exists() else None,
-            music_path=music_path if music_path.exists() else None,
-            clip_duration=clip_duration,
-            narration_duration=narr_durations.get(clip_id, 0.0),
-            music_offset=music_offset,
-            music_volume=music_volume_map.get(clip_id, 0.20),
-        )
-        effective_durations[clip_id] = eff_dur
-
-    print(f"\n  [{ts()}] Generating captions...")
-    for clip_id, text in narration_lines.items():
-        caption_path = captions_dir / f"clip_{clip_id}.ass"
-        mixed_path = mixed_dir / f"clip_{clip_id}.mp4"
-        captioned_path = captioned_dir / f"clip_{clip_id}.mp4"
-
-        clip_meta = next((c for c in clips if c["id"] == clip_id), None)
-        clip_dur = float(clip_meta["duration"]) if clip_meta else 8.0
-        narr_dur = narr_durations.get(clip_id, clip_dur - NARRATION_DELAY)
-
-        generate_word_captions(
-            narration_text=text,
-            narration_duration=narr_dur,
-            output_path=caption_path,
-        )
-        burn_captions(
-            video_path=mixed_path,
-            captions_path=caption_path,
-            output_path=captioned_path,
-        )
+    mixed_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"\n  [{ts()}] Stitching final video...")
     clip_paths = []
     for clip_meta in clips:
         clip_id = clip_meta["id"]
-        captioned = captioned_dir / f"clip_{clip_id}.mp4"
-        mixed = mixed_dir / f"clip_{clip_id}.mp4"
         raw = videos_dir / f"clip_{clip_id}.mp4"
-        if captioned.exists():
-            clip_paths.append(captioned)
-        elif mixed.exists():
-            clip_paths.append(mixed)
-        elif raw.exists():
+        if raw.exists():
             clip_paths.append(raw)
         else:
             print(f"  WARNING: Missing clip_{clip_id}.mp4, skipping")
@@ -543,12 +434,40 @@ def run_post_phase(episode, ep_dir):
     return final_path
 
 
-# ── Phase 6: Publish ──
+# ── Phase 4b: Remotion captions ──
+
+
+def run_captions_phase(final_path, ep_dir):
+    phase_banner("PHASE 4b: REMOTION KARAOKE CAPTIONS (Whisper + Remotion)")
+
+    from lib.captions import run_captions_pipeline
+
+    openai_key = load_env_key("OPENAI_API_KEY")
+    if not openai_key:
+        print(f"  [{ts()}] WARNING: OPENAI_API_KEY not found — skipping captions")
+        return final_path
+
+    captioned_path = final_path.with_stem(final_path.stem + "_captioned")
+    result = run_captions_pipeline(
+        video_path=final_path,
+        output_path=captioned_path,
+        openai_api_key=openai_key,
+    )
+
+    if result and result.exists():
+        print(f"  [{ts()}] Captioned video ready: {result}")
+        return result
+
+    print(f"  [{ts()}] Captions failed — using uncaptioned video")
+    return final_path
+
+
+# ── Phase 5: Publish ──
 
 
 def create_github_release(slug, title, final_path):
     """Create a GitHub Release and upload the final MP4. Return the asset download URL."""
-    phase_banner("PHASE 6a: GITHUB RELEASE")
+    phase_banner("PHASE 5a: GITHUB RELEASE")
 
     tag = f"episode-{slug}"
     print(f"  [{ts()}] Creating release: {tag}")
@@ -590,12 +509,12 @@ def create_github_release(slug, title, final_path):
     return None
 
 
-def publish_to_metricool_api(episode, asset_url):
-    """Publish to YouTube Shorts + Instagram Reels via Metricool API."""
-    phase_banner("PHASE 6b: METRICOOL PUBLISH")
+def publish_to_metricool_with_upload(episode, final_path, asset_url=None):
+    """Upload video to Metricool S3 then publish to YouTube Shorts + Instagram Reels + TikTok."""
+    phase_banner("PHASE 5b: METRICOOL PUBLISH")
 
     from lib.config import load_settings
-    from lib.metricool import publish_to_metricool
+    from lib.metricool import publish_to_metricool, upload_media_file
 
     settings = load_settings()
 
@@ -609,45 +528,22 @@ def publish_to_metricool_api(episode, asset_url):
         f"#LearnOnTikTok #HistoryTok #DarkHistory #Education"
     )
 
-    result = publish_to_metricool(
-        settings=settings,
-        media_url=asset_url,
-        title=title[:100],
-        caption=caption,
-        caption_instagram=caption,
-        caption_youtube=caption,
-    )
-
-    print(f"  [{ts()}] Publish status: {result.status}")
-    if result.error_message:
-        print(f"  [{ts()}] Error: {result.error_message}")
-    return result.status == "published"
-
-
-def publish_to_metricool_direct(episode, final_path):
-    """Publish to Metricool via direct file upload (no GitHub Release needed)."""
-    phase_banner("PHASE 6b: METRICOOL PUBLISH (Direct Upload)")
-
-    from lib.config import load_settings
-    from lib.metricool import publish_to_metricool
-
-    settings = load_settings()
-
-    title = episode.get("title", "You Wouldn't Wanna Be")
-    hook = episode.get("hook", "")
-
-    caption = (
-        f"{title}\n\n"
-        f"{hook}\n\n"
-        f"#YouWouldntWannaBe #History #Shorts #HistoryFacts "
-        f"#LearnOnTikTok #HistoryTok #DarkHistory #Education"
-    )
-
-    print(f"  [{ts()}] Uploading {final_path.name} ({final_path.stat().st_size / (1024*1024):.1f} MB)...")
+    print(f"  [{ts()}] Uploading {final_path.name} ({final_path.stat().st_size / (1024*1024):.1f} MB) to Metricool S3...")
+    try:
+        media_url = upload_media_file(settings, str(final_path))
+        print(f"  [{ts()}] S3 upload complete: {media_url[:80]}")
+    except Exception as e:
+        print(f"  [{ts()}] S3 upload failed: {e}")
+        if asset_url:
+            print(f"  [{ts()}] Falling back to GitHub Release URL")
+            media_url = asset_url
+        else:
+            print(f"  [{ts()}] No fallback URL available, cannot publish")
+            sys.exit(1)
 
     result = publish_to_metricool(
         settings=settings,
-        media_file_path=str(final_path),
+        media_url=media_url,
         title=title[:100],
         caption=caption,
         caption_instagram=caption,
@@ -662,6 +558,49 @@ def publish_to_metricool_direct(episode, final_path):
     return True
 
 
+def validate_word_counts(episode):
+    """Check that narration word counts fit within clip durations.
+
+    Veo 3.1 delivers speech at ~2.5 words/sec. If narration exceeds
+    the clip duration budget, audio will be truncated.
+    """
+    import re
+
+    WORDS_PER_SEC = 2.5
+    clips = episode.get("clips", [])
+    script = episode.get("dialogue_script", "")
+
+    clip_lines: dict[str, str] = {}
+    current_clip = None
+    for line in script.splitlines():
+        clip_match = re.match(r"##\s*Clip\s+(\d+)", line)
+        if clip_match:
+            current_clip = clip_match.group(1).zfill(2)
+            clip_lines[current_clip] = ""
+            continue
+        narr_match = re.match(r"NARRATOR:\s*[\"']?(.+?)[\"']?\s*$", line)
+        if narr_match and current_clip:
+            clip_lines[current_clip] = narr_match.group(1)
+
+    total_words = 0
+    any_over = False
+    for clip_meta in clips:
+        clip_id = clip_meta["id"]
+        duration = clip_meta.get("duration", 8)
+        max_words = int(duration * WORDS_PER_SEC)
+        narration = clip_lines.get(clip_id, "")
+        word_count = len(narration.split()) if narration else 0
+        total_words += word_count
+        status = "OK" if word_count <= max_words else "OVER"
+        if status == "OVER":
+            any_over = True
+        print(f"  Clip {clip_id} ({duration}s): {word_count}/{max_words} words [{status}]")
+
+    print(f"  Total narration: {total_words} words")
+    if any_over:
+        print(f"  [{ts()}] WARNING: Some clips exceed word budget — audio may be cut off")
+
+
 # ── Main ──
 
 
@@ -669,10 +608,10 @@ def main():
     parser = argparse.ArgumentParser(description="You Wouldn't Wanna Be — Automated Pipeline")
     parser.add_argument("topic", nargs="*", help="Episode topic (omit for autonomous selection)")
     parser.add_argument("--publish", action="store_true", help="Publish to YouTube + Instagram via Metricool")
-    parser.add_argument("--skip-audio", action="store_true", help="Skip audio generation phase")
     parser.add_argument("--skip-images", action="store_true", help="Skip image generation phase")
     parser.add_argument("--skip-videos", action="store_true", help="Skip video generation phase")
-    parser.add_argument("--skip-post", action="store_true", help="Skip mix/captions/stitch phase")
+    parser.add_argument("--skip-post", action="store_true", help="Skip stitch phase")
+    parser.add_argument("--skip-captions", action="store_true", help="Skip Remotion captions phase")
     args = parser.parse_args()
 
     topic = " ".join(args.topic) if args.topic else None
@@ -692,10 +631,8 @@ def main():
         topic = generate_topic()
 
     episode = generate_episode_content(topic)
+    validate_word_counts(episode)
     ep_dir, slug = write_episode_files(episode)
-
-    if not args.skip_audio:
-        run_audio_phase(episode, ep_dir)
 
     if not args.skip_images:
         run_images_phase(episode, ep_dir)
@@ -710,6 +647,9 @@ def main():
     if final_path is None:
         final_path = ep_dir / "output" / "mixed" / f"final_{slug}.mp4"
 
+    if final_path.exists() and not args.skip_captions:
+        final_path = run_captions_phase(final_path, ep_dir)
+
     phase_banner("GENERATION COMPLETE")
     if final_path.exists():
         size_mb = final_path.stat().st_size / (1024 * 1024)
@@ -723,18 +663,12 @@ def main():
 
     images = list((ep_dir / "output" / "images").glob("*.png"))
     videos = list((ep_dir / "output" / "videos").glob("*.mp4"))
-    narrations = list((ep_dir / "output" / "audio" / "narration").glob("*.mp3"))
     print(f"  Images: {len(images)}")
     print(f"  Videos: {len(videos)}")
-    print(f"  Narrations: {len(narrations)}")
 
     if args.publish and final_path.exists():
         asset_url = create_github_release(slug, episode["title"], final_path)
-        if asset_url:
-            publish_to_metricool_api(episode, asset_url)
-        else:
-            print(f"  [{ts()}] GitHub Release failed, trying direct file upload to Metricool...")
-            publish_to_metricool_direct(episode, final_path)
+        publish_to_metricool_with_upload(episode, final_path, asset_url)
 
     phase_banner("ALL DONE")
     print(f"  Episode: {episode['title']}")

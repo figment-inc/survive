@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 720p.
+
+Camera: Static wide establishing shot. Locked camera, flat composition, no movement. The Galveston beachfront fills the frame — boardwalk structures in the lower third, the Gulf and massive bruised sky filling the upper two-thirds. Classic adult animated comedy wide establishing staging.
+
+Opening shot — no previous clip. The series begins with the setting.
+
+No character in this shot.
+
+DAYLIGHT STORM APPROACH lighting — flat sickly yellow-green cast across everything. The sky is a wall of layered greys and purples. The Gulf water is dark grey-green with oversized white-capped swells.
+
+Foreground: Victorian bathhouse with scalloped awning, the painted sign rattling. Sand blowing across boardwalk planks. A newspaper pinned against a post, pages fluttering violently in strengthening wind.
+
+Midground: The beach — abnormally high tide, waves lapping at boardwalk pilings where they should be twenty yards distant. Wooden beach carts tipped on sides. A few beachgoers in period wool bathing costumes standing ankle-deep, pointing at the swells with curiosity.
+
+Background: The Gulf of Mexico under a massive bruised sky — charcoal grey, sickly yellow-green, deep purple clouds stacked in an unnatural wall. Long rolling swells with white foam streaks. A distant cargo steamer listing in the chop.
+
+Over the four seconds: wind intensifies — the bathhouse awning flaps harder, sand streams increase, the newspaper tears free and flies off-frame. Waves visibly creep higher up the pilings. The beachgoers' bathing costumes ripple in the gusting wind. A beach cart rolls a few feet in the surge.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: What happens if the ocean swallows an entire city?
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor, slow deliberate delivery, each word landing with weight. The question is posed with genuine dark curiosity. Second person address ("you").
+
+Audio direction:
+- Music: A single sustained low cello note, ominous, barely audible, with a faint high-pitched violin harmonic hovering above it — tension before the storm.
+- SFX: Wind gusting with increasing force, wooden structures creaking and groaning, boardwalk planks rattling, the snap of fabric in wind, waves crashing with unusual force against pilings, the metallic rattle of the bathhouse sign
+- Ambience: The Gulf Coast before a hurricane — the air pressure dropping audibly, a deep atmospheric throb, seagulls crying with agitation, the constant rush of surf louder than it should be

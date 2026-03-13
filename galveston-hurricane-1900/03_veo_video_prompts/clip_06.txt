@@ -1,0 +1,35 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The camera captures St. Mary's Orphan Asylum — a two-story wooden building on the beachfront — with water at the second-floor windows. Classic adult animated comedy wide tableau staging.
+
+NEW location — cut from the house-climbing failure to St. Mary's Orphan Asylum. The philosophical beat and emotional gut-punch.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over clip duration: The figure is perched on the roof peak of a neighboring building, legs straddling the ridge beam. For the first three seconds, the figure stares at the orphanage, skull turned toward it, body rigid. At second four, one translucent arm reaches out toward the building in a futile gesture. From seconds five through seven, the figure's arm slowly drops — the gesture of helplessness, of realizing there is nothing to be done. In the final second, the figure's skull drops, chin to chest, orb eyes closing. A posture of grief.
+
+NEAR-DARKNESS — almost no ambient light. Lightning provides the only illumination in staccato flashes. Between flashes, near-silhouette.
+
+Foreground: Churning dark water with massive debris — fence sections, a piano lid, swirling shingles. Foam and spray.
+
+Midground: St. Mary's Orphan Asylum tilting visibly, its wooden pilings cracking. Silhouettes of nuns and children in the upper windows. The building's cross tilting.
+
+Background: The storm surge — a wall of grey-brown water where sky and sea merge. Other buildings as dark half-submerged shapes. Lightning in jagged flat white lines.
+
+Over eight seconds: the orphanage tilts further — a visible lean developing. A section of its roof peels away. The building begins to break apart. The silhouettes in the windows disappear as the structure fails. Lightning flashes three times, each illuminating a progressive stage of collapse.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: The nuns tied themselves to the children with clothesline. So they wouldn't be separated. They weren't.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, but here the amusement drains entirely. This is the one moment of genuine quiet gravity. "So they wouldn't be separated" — a pause — then "They weren't" delivered softly, with devastating understatement. The darkest humor. Second person address drops — this is stated as fact.
+
+Audio direction:
+- Music: A single solo violin playing a slow, descending phrase — mournful, delicate, the only moment of melodic clarity in the episode. No bass, no percussion. Just the violin against the storm.
+- SFX: The deep crack of the orphanage's wooden pilings giving way, timber splintering in a long sustained break, the splash and groan of a building settling into water, a muffled crash as the roof section tears free, the creak of the ridge beam under the figure
+- Ambience: The storm continues at full force around this quiet human moment — wind, rain, water — but mixed slightly lower to let the violin and the narrator's words breathe. The effect is a pocket of terrible stillness inside the chaos.

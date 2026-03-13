@@ -19,6 +19,7 @@ venv/
 **/output/videos/
 **/output/audio/
 **/output/mixed/
+**/output/captioned/
 
 # Reference images (generated, potentially large)
 .channel/reference_images/*.png

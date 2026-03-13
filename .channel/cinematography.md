@@ -1,248 +1,113 @@
 # You Wouldn't Wanna Be — Cinematography Bible
 
-This document defines the visual language of the series. Every storyboard, image prompt, and video prompt must reference this guide. The goal: every clip should look like a frame from a dark-comedy period drama — moody, atmospheric, historically grounded, with a hint of the macabre.
+This document defines the visual language of the series. Every storyboard, image prompt, and video prompt must reference this guide. The goal: every clip should look like a frame from a classic American adult animated comedy — flat cel-shaded art, thick outlines, darkly comic staging, historically grounded settings.
 
 ---
 
-## 1. Film DNA
+## 1. Animation DNA
 
-The visual identity of You Wouldn't Wanna Be is rooted in dark historical drama meets dark comedy — think the atmosphere of *Chernobyl* (2019) crossed with the absurdist framing of *What We Do in the Shadows*.
+The visual identity of You Wouldn't Wanna Be is rooted in classic American adult animated comedy (Family Guy seasons 10-20 aesthetic) applied to dark historical scenarios.
 
 ### The Look
 
-- **Desaturated period palettes**: each era gets its own muted color world. Ancient Rome is dusty ochre and terracotta. Medieval plague is grey-green and brown. Victorian London is sooty amber and gas-lamp gold.
-- **Natural film grain**: visible grain, slightly heavier than the animal project — the texture of Kodak 5218 pushed a stop, documentary-adjacent.
-- **Atmospheric haze in every shot**: dust, smoke, fog, volcanic ash, plague miasma, cannon smoke, steam — the air is always thick with something ominous.
-- **Deep shadows**: pools of darkness in every frame. The skeleton's translucent form catches light in unsettling ways.
-- **Motivated practical lighting**: torches, candles, fires, explosions, lightning — light sources that belong to the era, not studio lights.
-- **Low angles for dread, high angles for vulnerability**: the camera makes the skeleton feel small against the scale of historical catastrophe.
-- **Locked-off tripod for reaction beats**: the skeleton's physical comedy lands harder when the camera is still.
-- **Handheld energy for chaos**: when the disaster hits, the camera gets unstable — not found-footage shaky, but stressed.
-- **Wide enough to read the silhouette**: since the skeleton never speaks, framing must be generous enough to capture full-body physical reactions.
+- **Flat cel-shaded coloring**: ZERO gradients. Clean flat colors on all characters, objects, and backgrounds. Every element has a single flat fill color.
+- **Thick uniform black outlines**: On ALL elements — characters, props, architecture, landscape. Consistent line weight throughout.
+- **Simplified features**: Dot eyes, simplified hands, clean vector rendering. No photorealistic detail.
+- **No 3D**: No depth-of-field blur, no lighting effects, no shading variation, no volumetric atmosphere. All atmosphere conveyed through color and composition, not rendering effects.
+- **Static locked camera**: Every shot is a locked-off composition. No handheld, no shaky-cam, no camera drift. Camera movements are clean pans or cuts only.
+- **Flat 2D compositions**: Painted layered backgrounds with minimal parallax. Foreground, midground, and background as distinct 2D planes.
+- **Period-accurate settings in animation style**: Historical architecture, costumes (on background characters), and environments rendered with flat colors and thick outlines.
 
-### Cross-Reference Films
+### Color Approach
 
-| Film | Borrow For |
-|------|-----------|
-| *Chernobyl* (2019, DP Jakob Ihre) | Oppressive atmosphere, institutional dread, muted palettes, natural light |
-| *Gladiator* (2000, DP John Mathieson) | Ancient world scale, dust and heat haze, arena spectacle |
-| *The Favourite* (2018, DP Robbie Ryan) | Wide-angle distortion for comedy, natural candlelight, dark period interiors |
-| *1917* (2019, DP Roger Deakins) | Continuous movement through destruction, war atmosphere, practical fire light |
-| *What We Do in the Shadows* (2014) | Dark comedy framing, supernatural character in mundane settings |
+Each era gets its own distinctive flat color palette:
+- **Ancient Rome**: Warm terracotta, dusty ochre, olive green — flat warm tones
+- **Medieval plague**: Grey-green, brown, muted purple — flat cool/muted tones
+- **Victorian London**: Sooty amber, gas-lamp gold, dark teal — flat warm/dark tones
+- **Nuclear disaster**: Cold grey-blue, hazard yellow, clinical white — flat cold tones
 
-### What We Are NOT
-
-- NOT bright and warm (that's the animal project — this series is darker)
-- NOT handheld documentary / found footage (no shaky-cam, no "authentic" raw look)
-- NOT modern horror (no blue-tinted jump-scare lighting, no supernatural glow)
-- NOT selfie / vlog (no arm's-length, no looking-down-at-phone angle)
+Characters always use their fixed color palette regardless of setting.
 
 ---
 
-## 2. Shot Grammar by Narrative Beat
+## 2. Shot Grammar
 
-### Beat 1: The Drop
+### Shot Types (all static, locked camera)
 
-**Purpose**: The skeleton materializes. Immediate visual hook. Where are we? When are we? Why is this bad?
+| Shot | When to Use | Emotional Function |
+|------|------------|-------------------|
+| **Wide establishing** | Opening shots, scene transitions | Scale of the setting, character dwarfed by history |
+| **Medium two-shot** | Character interacting with environment | Grounding, neutral observation |
+| **Medium close-up** | Reaction beats, dramatic moments | Emotional weight, reading the character's reaction |
+| **Close-up** | Peak horror, peak comedy | Maximum emotional impact |
+| **Low-angle** | Disaster approaching, scale of threat | Dread, intimidation, the figure feels small |
+| **High-angle** | Character in peril, vulnerability | Helplessness, the viewer looks down on the doomed figure |
+| **Over-shoulder** | The figure watching something terrible unfold | POV alignment, shared dread |
 
-**Visual arc**: Wide → Medium → Tight
+### Camera Rules
 
-| Clip Position | Shot Type | Movement | Lighting | Why |
-|--------------|-----------|----------|----------|-----|
-| First clip | Wide establishing | Slow dolly-in or crane | Natural ambient for the era, slightly ominous | Geography — where and when are we? |
-| Second clip | Medium shot of skeleton | Steadicam, gentle push-in | Era-appropriate, the skeleton lit from behind or side | Ground the character — the skeleton looks around, confused |
-| Third clip | Close-up reaction | Locked-off tripod, shallow DOF | Same as previous (continuity) | The skeleton realizes where it is — visible dread |
-
-### Beat 2: The Buildup
-
-**Purpose**: Build tension through context. The narrator explains what's about to happen. Each detail makes it worse.
-
-**Visual arc**: Medium → Tightening → Wide environmental (scale) → Medium (reset)
-
-| Clip Position | Shot Type | Movement | Lighting | Why |
-|--------------|-----------|----------|----------|-----|
-| Opening clips | Medium variations | Slow push-ins, Steadicam | Consistent era palette | Narration lands over comfortable framing — skeleton wandering, unaware |
-| Mid-beat | Close-up on skeleton | Locked-off, shallow DOF | Same palette, tighter | The skeleton starts sensing something is wrong |
-| Scale moment | Wide environmental | Tripod or slow tracking | Same palette, wider frame | Context — show the scale of what's about to happen |
-| Reset | New medium (new position) | Steadicam or dolly | Slight shift (moved, different shadow) | Transition — tension building |
-
-### Beat 3: The Catastrophe
-
-**Purpose**: The climax. Maximum visual spectacle. The event happens. The skeleton is in the middle of it.
-
-**Visual arc**: Dynamic disruption → Tight reaction
-
-| Clip Position | Shot Type | Movement | Lighting | Why |
-|--------------|-----------|----------|----------|-----|
-| The event | Wide or environmental | Camera shake, handheld energy | SHIFT — high contrast, dramatic, smoke/haze | The event transforms the frame — skeleton reacts with full-body panic |
-| The reaction | Close or tight medium | Locked-off, imperceptible push-in | SHIFT — new palette (fire-lit, ash-grey, blood-red) | The skeleton's panic sells the moment |
-
-### Beat 4: The Aftermath
-
-**Purpose**: Reflect on what happened. Why it mattered. The skeleton's terrible fate.
-
-**Visual arc**: Tracking → Low-angle → Sky tilt
-
-| Clip Position | Shot Type | Movement | Lighting | Why |
-|--------------|-----------|----------|----------|-----|
-| Aftermath | Medium-wide tracking | Steadicam, moving through destruction | Post-catastrophe light — grey, muted, dust settling | The skeleton surveys the damage |
-| Closing | Low-angle or high-angle | Slow tilt | Same muted light, the skeleton small in frame | The "well, that's that" composition — the skeleton's fate is sealed |
+- **ALWAYS static**: Locked camera, flat composition. No handheld.
+- **No parallax**: Minimal depth motion. Flat 2D staging.
+- **Clean cuts between clips**: Hard cuts, no dissolves or transitions.
+- **Flat framing**: Characters and environment on the same visual plane. Classic animated comedy staging.
 
 ---
 
-## 3. Camera Angle Library
+## 3. Composition Rules
 
-| Angle | Emotional Function | When to Use | Prompt Language |
-|-------|-------------------|-------------|-----------------|
-| **Medium shot, eye level** | Neutral, grounding, trust | Default for setup clips | "Medium shot at eye level, visible from waist up" |
-| **Close-up reaction** | Emotional weight, dread | Reserve for 2–3 biggest beats | "Close-up, head and shoulders, shallow depth of field" |
-| **Low-angle dread** | Scale, intimidation, doom | When the event/setting should feel overwhelming | "Low-angle shot, camera below eye level looking up" |
-| **High-angle vulnerability** | Smallness, helplessness | When the skeleton is dwarfed by catastrophe | "High-angle looking down, figure small in the frame" |
-| **Wide environmental** | Scale, the skeleton vs. history | When the setting IS the point | "Wide environmental shot, full surroundings visible" |
-| **Tracking / Steadicam** | Movement, narrative transition | Moving through destruction, fleeing | "Tracking shot, Steadicam following the figure" |
-| **Dutch angle** | Chaos, instability | Disaster moments only, max 1 per episode | "Slight Dutch angle, tilted frame, disorientation" |
+### Rule of Thirds (adapted for animation)
+- Character typically at 1/3 from left or right
+- Important environmental elements (the disaster, the landmark) fill the opposing 2/3
+- Flat 2D staging — no converging perspective lines
 
-### Angles That Are BANNED
+### Depth Layers (as 2D planes)
+Every shot must explicitly define three layers:
+1. **Foreground**: Props, debris, environmental details closest to camera. Drawn larger, sometimes overlapping character.
+2. **Midground**: The figure and immediate surroundings. The action zone.
+3. **Background**: Historical setting at scale — architecture, crowds, landscapes. Painted flat.
 
-- **Selfie angle / arm's-length**: Looks like a vlog
-- **Ring-lit frontal**: Looks like a YouTube thumbnail
-- **Extreme wide-angle distortion**: Looks like a GoPro
-- **Static center-frame symmetry**: Looks like a passport photo
-
----
-
-## 4. Composition Rules
-
-### Depth Layering (Mandatory)
-
-Every frame must describe at least three layers of depth:
-
-1. **Foreground** — Something between the camera and the character: a railing, debris, smoke, a passing figure, foliage, flames.
-2. **Midground** — The skeleton and its immediate environment. This is where the action happens.
-3. **Background** — The historical setting at scale: the volcano, the walls, the ship, the plague city, the battlefield.
-
-### Character Blocking
-
-- **The skeleton**: centered or slightly off-center (rule of thirds). Since there's only one character, blocking is simpler than the animal project.
-- **Body language in the prompt**: Always specify posture, gesture, and expression. "Standing" is not enough. "Crouching behind a market stall, translucent hands gripping the edge, skull tilted upward in panic" gives the AI something to work with.
-
-### Reaction Shot Guidance
-
-Since the skeleton never speaks, physical reactions carry all the comedy and emotion:
-
-- **Panic**: Arms thrown up, stumbling backward, running with flailing limbs
-- **Confusion**: Looking left and right rapidly, head tilted, hands open at sides
-- **Dread**: Frozen stiff, slow turn to face the disaster, hands slowly rising to cover the skull
-- **Fleeing**: Full sprint, arms pumping, looking back over shoulder
-- **Resignation**: Shoulders slumped, head drooped, arms hanging limp — the "well, I'm dead" pose
-- **Flinching**: Full-body cringe, arms crossed over head, ducking low
+### Character Staging
+- The figure should be clearly readable even in wide shots — the translucent skeleton silhouette with thick outlines is always recognizable
+- Cartoon physical comedy requires clear silhouette — no poses where limbs overlap confusingly
+- Background characters are simplified animated figures (even simpler than the main character)
 
 ---
 
-## 5. Lighting Design Playbook
+## 4. Lighting Playbook (adapted for animation)
 
-### PERIOD AMBIENT (Default)
+Animation lighting is conveyed through **color palette shifts**, not through realistic light/shadow rendering. All lighting remains flat — no volumetric effects, no cast shadows, no rim lighting.
 
-**Era-appropriate natural light.** Use for most setup clips.
+| Setup | Color Approach | When to Use |
+|-------|---------------|-------------|
+| **PERIOD AMBIENT** | Warm natural palette — era-appropriate flat colors, medium saturation | Normal scene establishment, immersion beats |
+| **OMINOUS BUILDUP** | Same palette but darker and cooler — desaturated, blue/grey undertones creeping in | Pre-disaster tension, "something is wrong" |
+| **HIGH CONTRAST CATASTROPHE** | Extreme warm/cool contrast — fire oranges against dark backgrounds, or bright flash whites | The disaster itself, maximum dramatic impact |
+| **AFTERMATH GREY** | Nearly monochrome flat grey/brown palette — dust, ash, muted everything | Post-catastrophe, the cliffhanger, quiet horror |
 
-- Natural light source for the time period: torchlight, candlelight, daylight, oil lamps
-- Slightly desaturated, muted palette — the colors of the era, not modern vibrancy
-- Visible atmosphere: dust, haze, humidity
-- Works for: exposition, setup, establishing context
+### How to Direct Animation Lighting in Prompts
 
-**Prompt language**: "Natural [era] lighting, muted palette, [light source] casting soft shadows. Atmospheric [dust/haze/smoke] visible in the air."
-
-### OMINOUS BUILDUP
-
-**Tension before the disaster.** Use when the narrator is explaining why this is about to go very wrong.
-
-- Same era lighting but subtly darker — shadows deeper, highlights dimmer
-- Overcast quality even in daylight scenes — the sun feels weaker
-- The palette cools slightly — warmth draining from the scene
-- Works for: Beat 2, pre-catastrophe tension
-
-**Prompt language**: "Natural [era] lighting growing subdued, shadows deepening, the palette cooling. The warmth is draining from the scene — something feels wrong."
-
-### HIGH CONTRAST CATASTROPHE
-
-**The event itself.** Use for Beat 3 when the disaster hits.
-
-- Extreme contrast — deep blacks and blown-out whites
-- Motivated by the event: fire, explosion, volcanic eruption, lightning, cannon fire
-- Smoke, haze, dust, ash diffusing through the frame
-- The skeleton's translucent form lit dramatically — bones casting shadows through flesh
-- Works for: The Catastrophe beat only, max 1–2 clips per episode
-
-**Prompt language**: "HIGH CONTRAST — [event] illuminating the scene from [direction]. Blown-out highlights, deep shadows, [smoke/ash/dust] diffusing through the frame. The figure's translucent form is dramatically lit."
-
-### AFTERMATH GREY
-
-**Post-disaster stillness.** Use for Beat 4 closing shots.
-
-- Flat, muted light — the dust has settled, the fires are dying
-- Desaturated almost to monochrome in the most devastating moments
-- Soft diffused quality — everything feels quiet and final
-- Works for: The Aftermath beat, closing shots
-
-**Prompt language**: "Flat post-disaster light, muted and desaturated. Dust settling, fires dying. The palette is nearly monochrome — everything feels quiet and final."
+Instead of describing light sources (torches, sun angle), describe the **flat color palette**:
+- "Warm flat amber palette with ochre and terracotta tones" (not "golden hour sunlight")
+- "Dark desaturated blue-grey palette with cold undertones" (not "moonlit scene")
+- "High contrast: bright orange fire glow against dark navy sky" (not "backlighting from flames")
 
 ---
 
-## 6. Environment Design Checklist
+## 5. Visual Pacing
 
-### Mandatory Elements
+### Energy Arc
+Every episode follows this visual energy arc:
 
-- [ ] **Three depth layers described** — foreground, midground, background
-- [ ] **Period-specific texture** — at least one detail unique to this exact time and place
-- [ ] **Atmospheric element** — haze, dust, steam, smoke, ash, fog. Air is never clear.
-- [ ] **Human activity** — people doing things in the background. History is populated.
-- [ ] **Ominous foreshadowing** — at least one visual detail that hints at the coming disaster
-- [ ] **Time-of-day consistency** — shadow direction and light quality match across clips
+| Beat | Energy | Visual Approach |
+|------|--------|----------------|
+| Hook (clip 01) | 3/5 | Wide establishing shot, warm palette, curiosity |
+| Immersion (02-04) | 3/5 → 4/5 | Medium shots, character exploring, palette starts shifting |
+| Attempt (05-07) | 4/5 → 5/5 | Tighter framing, faster cuts, palette darkening |
+| Catastrophe (08-09) | 5/5 | Close-ups, high contrast, maximum visual intensity |
+| Cliffhanger (10) | 2/5 | Wide or medium, aftermath palette, still and haunting |
 
----
-
-## 7. Fast-Cut Pacing Rules
-
-Viral shorts demand rapid visual stimulus changes. The cinematography must support this:
-
-### Shot Duration Targets
-
-- **No clip should feel static.** Every 3–4 seconds the viewer needs new visual information — a camera move, a cut, a reaction, a new element entering frame.
-- **Prefer 4s clips over 8s clips** when the narrative beat is short. Two 4s clips with different angles beat one slow 8s push-in.
-- **8s clips** are reserved for sequences with continuous motion: tracking shots, eruptions, crowd panic, the character running.
-- **Mix durations aggressively.** A 4s–4s–8s–4s–8s–4s rhythm creates energy. Uniform 8s clips feel sluggish.
-
-### Camera Energy by Beat
-
-| Beat | Energy Level | Shot Style |
-|------|-------------|-----------|
-| Hook | HIGH — immediate grab | Dynamic angle, character already in action or dramatic wide |
-| Immersion | MEDIUM — grounding | Quick medium shots, Steadicam, environment reveals |
-| Attempt | RISING — escalation | Tightening shots, push-ins, tracking, faster cuts |
-| Catastrophe | MAXIMUM — chaos | Handheld, Dutch angle, fast tracking, camera shake |
-| Cliffhanger | DROP to stillness | Slow crane or locked-off, deliberate contrast with chaos |
-
-### Cut Rhythm
-
-- **Never repeat the same angle in consecutive clips.** Every cut must change either: angle, distance, or camera movement.
-- **Alternate between character and environment.** CU reaction → wide chaos → medium character running → CU debris.
-- **Match cut on action where possible.** The character starts running in one clip; the next clip continues the run from a different angle.
-
----
-
-## 8. Quick Reference Card
-
-### Per-Clip Checklist
-
-- [ ] Camera angle chosen for emotional function, not randomly
-- [ ] Camera movement specified (or explicitly "locked-off tripod")
-- [ ] Lighting setup named from the playbook
-- [ ] Three depth layers described
-- [ ] At least one period-specific texture detail
-- [ ] Atmospheric element present
-- [ ] Background human activity described
-- [ ] Character blocking specified (posture, gesture, expression)
-- [ ] Composition follows rule of thirds
-- [ ] Shot flows from previous clip (not a repeated angle or energy level)
-- [ ] Duration justified — 4s unless continuous motion requires 8s
-- [ ] Visual energy matches the current narrative beat
+### Pacing Rules
+- **Visual change every 3-4 seconds**: New angle, new information, new framing
+- **Tighten across the episode**: Start wide, end close — the disaster closes in
+- **The figure gets physically smaller** as the catastrophe grows larger
+- **Final clip is the quietest**: Wide framing, aftermath palette, lingering stillness

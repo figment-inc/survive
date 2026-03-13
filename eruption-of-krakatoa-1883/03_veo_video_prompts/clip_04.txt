@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, slightly high angle looking down on a crowded dock. Locked camera, flat composition, no movement. Classic adult animated comedy wide tableau staging.
+
+NEW location — cut from Krakatoa's shore to the coastal village of Merak on Java, across the strait. Time has advanced to evening.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure stands at the pier's edge facing the crowd (0-2s), then extends both arms outward in an exaggerated cartoon warning gesture — waving its arms overhead like an airport ground crew directing traffic, skull turning rapidly between the crowd and the volcano across the water (2-5s). Nobody pays attention. The figure grabs a passing villager by the shoulder — the villager brushes past without slowing (5-7s). The figure slumps its shoulders, arms dropping, skull tilted in defeated exasperation (7-8s).
+
+Warm evening color palette — yellows and ambers from oil lanterns, dark teal-blue water, ochre-brown volcanic sky, bright batik patterns on villagers (indigo, rust red, white). The figure's pale translucent form stands out against the warm-toned crowd.
+
+Foreground: Rough-hewn teak pier planks, hemp mooring ropes on wooden bollards, a tipped rattan basket spilling dried fish, a brass oil lantern with a warm yellow flame.
+
+Midground: The figure on the pier surrounded by Javanese villagers — men in sarongs and peci caps, women in batik kebaya, children. Some point at the eruption, some carry bundles, some push past the figure. A Dutch colonial official in white linen and pith helmet stands near a warehouse, unimpressed.
+
+Background: Across the dark strait, Krakatoa as a dark silhouette against a roiling ochre-brown-charcoal sky. The eruption column has expanded enormously. Volcanic lightning flashes bright yellow-white within. The village — stilt houses, thatched roofs, a white Dutch colonial church — lit by oil lanterns.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- Off-screen narrator says: "Somehow you've crossed the strait to Merak. Thirty-six thousand people live along these shores. You try to warn them. They smile politely. The volcano has been grumbling for months. They're used to it."
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent. "Thirty-six thousand" delivered with precise, clinical weight — let the number land. "They smile politely" with warm irony. "They're used to it" with a sigh of dark resignation — the narrator knows what's coming. Second person address ("you").
+
+Audio direction:
+- Music: A shift to a warmer, almost gentle melody — a solo gamelan-influenced metallophone over low strings, creating a false sense of calm. The warmth makes the coming horror worse.
+- SFX: Wooden pier creaking under footsteps, the bustle of the crowd — sandals slapping on teak, rattan baskets bumping, a goat bleating, the splash of a mooring rope hitting water. Distant volcanic booms — now a regular rhythm, like a heartbeat.
+- Ambience: A busy Southeast Asian fishing village at dusk — overlapping Javanese voices, children playing, the call to evening prayer from a mosque, dogs barking, chickens clucking — all underscored by the continuous volcanic rumble across the water

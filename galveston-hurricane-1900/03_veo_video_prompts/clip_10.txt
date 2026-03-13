@@ -1,0 +1,35 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, high angle looking down. Locked camera, flat composition, no movement. Bird's-eye view of the devastated island at dawn — a vast debris field stretching to every horizon with the figure lying in it. Classic adult animated comedy wide establishing staging.
+
+NEW time — cut from the darkness inside the debris wall to dawn. Hours have passed. The storm is over. The city is gone.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over clip duration: The figure lies face-down in the debris field, perfectly still. One translucent arm is extended forward, fingers reaching. The skull is turned to one side, one pale orb eye visible, staring blankly. For the entire eight seconds, the figure does not move. This is the stillness of the aftermath. The only motion is around the figure — clearing clouds, distant figures moving. The outstretched arm is the haunting detail — the figure was reaching for something in its final moment. Was it help? Was it someone? We never know.
+
+DAWN LIGHT — pale yellow-pink sunrise breaking through clearing clouds. Warm light on a cold scene. The first real color in the episode — the sky clears for the first time, too late.
+
+Foreground: The debris field — splintered lumber, furniture, clothing, personal belongings in a uniform carpet several feet thick. A porcelain teacup sitting upright, intact. A brass picture frame. A child's shoe.
+
+Midground: The figure lying face-down, arm outstretched. Around it, the flat expanse of destruction. Lone brick chimneys standing where houses vanished. Foundation outlines as geometric lines in rubble.
+
+Background: The full devastation at dawn. Pale pink-yellow sky. The Gulf now calm, retreating. The few survivors: Ursuline Convent, Tremont Hotel, a few Strand buildings — standing like broken teeth. Flat and empty where 37,000 people lived.
+
+Over eight seconds: clouds continue to clear, the light slowly warming. In the far distance, tiny figures begin to emerge from wreckage — the first survivors, moving with stunned slowness. A single American flag flutters on a tilted pole. The camera holds, holds, holds on the still figure with its outstretched arm. The teacup catches the dawn light.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: They find bodies for months. Some they never find at all. But they do find our unfortunate friend. Still reaching.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, returning to quiet dark warmth. "They find bodies for months" — matter-of-fact, the aftermath as ongoing horror. "Some they never find at all" — a pause, letting the absence land. Then, with dark affection: "But they do find our unfortunate friend. Still reaching." The final two words delivered slowly, with a tenderness that is almost unbearable. This is the narrator's farewell to the figure — not mocking, but acknowledging. Second person drops entirely. The figure is now third person — "our unfortunate friend" — because it is no longer a participant. It is a memorial.
+
+Audio direction:
+- Music: A gentle, sustained major chord — warm strings, a flute — the first major tonality in the episode. It should feel like sunrise sounds. Beautiful and devastating in context. Slowly fading to silence by the end of the clip.
+- SFX: The soft lapping of receding water on debris. A distant seagull cry — the first bird. The creak of settling wreckage. Wind, gentle now, passing through the rubble. The flap of the American flag. The tiny clink of the porcelain teacup shifting in the breeze.
+- Ambience: Post-hurricane dawn silence — the profound, ringing quiet after twelve hours of maximum noise. The absence of sound is the sound. Wind gentle and steady. Small water sounds. The creak and tick of a destroyed city cooling and settling. An occasional distant human voice — survivors calling out — too far to understand the words.

@@ -1,38 +1,41 @@
-Cinematic vertical 9:16 video, {{RESOLUTION — 1080p for scene clips, 720p for establishing}}.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-{{CAMERA — angle + movement + motivation:
-  Shot type: [medium shot / close-up / low-angle dread / high-angle vulnerability / wide environmental / tracking]
-  Movement: [Steadicam / dolly push-in / locked-off tripod / tracking / camera shake for catastrophe]
-  Shot motivation: [WHY this angle — what emotional function does it serve in this beat?]
-  Composition: [rule of thirds, character blocking, leading lines, depth staging]
+Classic American adult animated comedy scene, vertical 9:16, {{RESOLUTION — 1080p for scene clips, 720p for establishing}}.
+
+Camera: Static {{SHOT TYPE — medium shot / close-up / low-angle / high-angle / wide environmental}}. Locked camera, flat composition, no movement. {{Composition notes: rule of thirds, character blocking, staging}}. Classic adult animated comedy {{wide tableau / medium shot / close-up}} staging.
+
+{{VISUAL TRANSITION — how this clip connects to the previous:
+  e.g., "NEW location — all continuity anchors broken"
+  e.g., "Same setting, tighter framing — building tension"
+  e.g., "Cut to reaction shot"
 }}.
 
-{{VISUAL TRANSITION — how this clip's visual connects to the previous clip:
-  e.g., "Tightening from medium to close-up — building dread"
-  e.g., "NEW location — all continuity anchors deliberately broken"
-  e.g., "Same angle but push-in adds urgency — disaster imminent"
-}}.
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
-{{LIGHTING SETUP — name from playbook (see cinematography.md): PERIOD AMBIENT / OMINOUS BUILDUP / HIGH CONTRAST CATASTROPHE / AFTERMATH GREY.
-  Light direction, quality, shadow depth, color temperature. Motivate any shift from the previous clip.
-}}.
+{{CHARACTER ACTION — describe the physical performance beat-by-beat over the clip duration. What the figure DOES physically: specific gestures, posture changes, reactions. Use cartoon-physical vocabulary: "stumbling backward", "arms thrown up defensively", "frozen stiff with shock", "running with exaggerated arm flailing", "slow cartoon head-turn", "double-take". The figure reacts silently through physical comedy ONLY.}}
+
+Flat even lighting. {{PALETTE — name the specific color palette for this setting. Atmosphere can shift (smoke, haze, fire glow) but character rendering stays flat.}}
 
 {{DEPTH LAYERS:
-  Foreground: [object or texture between camera and character, slightly out of focus]
+  Foreground: [props and environmental details closest to camera]
   Midground: [character and immediate surroundings]
-  Background: [historical setting at scale — what's happening behind/around them]
+  Background: [historical setting with activity and architectural detail]
 }}.
-
-{{ATMOSPHERE — haze, dust, smoke, ash, steam, fog. Specify what's in the air.}}
 
 {{PERIOD TEXTURE — one specific detail that anchors the time and place.}}
 
-{{BACKGROUND ACTIVITY — other people/events happening in the scene.}}
+{{BACKGROUND ACTIVITY — other people/events happening in the scene, rendered in flat 2D animation.}}
 
-{{CHARACTER_DESCRIPTION — A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes, ribcage, spine, limb bones all defined beneath semi-transparent surface. No hair, no clothing. Specify posture, gesture, expression, body angle for this specific clip — describe their PHYSICAL REACTIONS, not speech.}}
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
 
-No dialogue. No speech. No talking. The character reacts silently through physical gestures, facial expressions, and body language only. All audio is ambient environmental sound and sound effects.
+Dialogue direction:
+- Off-screen narrator says: "{{EXACT NARRATION LINE for this clip}}"
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor, {{specific delivery notes — pace, tone, emotional color for THIS clip}}. Second person address ("you").
 
 Audio direction:
-- SFX: {{specific sound events tied to on-screen actions — not generic}}
-- Ambience: {{continuous environmental sounds matching the visual background}}
+- Music: {{Dark cinematic underscore — specific instruments, intensity level, mood for this beat}}
+- SFX: {{3-5 specific sound events with sensory texture — material, quality, spatial position}}
+- Ambience: {{continuous environmental sounds with intensity and character}}

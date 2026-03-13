@@ -1,30 +1,30 @@
-Vertical 9:16 cinematic frame. {{LOCATION — specific place name, not generic}}, {{TIME_PERIOD — year, season, time of day}}.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. {{LOCATION — specific place name}}, {{TIME_PERIOD — year, season, time of day}}.
+
+{{CAMERA — angle chosen for emotional function:
+  Shot type: medium shot / close-up reaction / low-angle dread / high-angle vulnerability / wide environmental
+  Composition: rule of thirds placement, character blocking, depth staging
+  Always: static locked composition, flat 2D framing
+}}.
+
+{{IF CHARACTER: 2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.}}
+
+{{CHARACTER BLOCKING — specify posture, gesture, expression, body angle. Describe the physical reaction using cartoon vocabulary: crouching in panic, stumbling backward, frozen in dread, running with exaggerated flailing arms, slow cartoon head-turn, double-take.}}
 
 {{DEPTH LAYERS:
-  Foreground: [object or texture between camera and character — railing, debris, smoke, flames, rubble, foliage]
-  Midground: [character and immediate surroundings — what's at arm's reach, the ground they stand on]
+  Foreground: [object or texture between camera and character — railing, debris, smoke, flames, rubble]
+  Midground: [character and immediate surroundings — what's at arm's reach]
   Background: [historical setting at scale — the landmark, the crowd, the architecture, the disaster]
+  All elements rendered in flat 2D animation style with thick black outlines.
 }}
 
-{{ATMOSPHERE — haze, dust, smoke, ash, steam, fog, fire glow, humidity. Air is never perfectly clear. This is a disaster zone.}}
+Flat even lighting. {{PALETTE — specific bright flat animated color palette for this scene. Environment can have atmospheric color shifts appropriate to disaster context.}}
 
 {{PERIOD TEXTURE — at least one detail that could only exist in this exact time and place. Not "Roman street" but "cracked terracotta amphora leaking olive oil onto worn flagstones."}}
 
-{{BACKGROUND ACTIVITY — people doing things: fleeing, working, panicking, praying, marching. History is populated.}}
+{{BACKGROUND ACTIVITY — people doing things: fleeing, working, panicking, praying, marching. All figures rendered in flat 2D animation style.}}
 
 {{OMINOUS DETAIL — one visual element foreshadowing the coming disaster: a crack in the wall, smoke on the horizon, rats fleeing, dark clouds gathering.}}
 
-{{IF CHARACTER: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. The figure has an eerie, anatomical quality.}}
-
-{{CHARACTER BLOCKING — specify posture, gesture, expression, body angle. "Standing" is not enough. Describe the physical reaction: crouching in panic, stumbling backward, frozen in dread, running with flailing arms, looking around in confusion.}}
-
-{{CAMERA — angle chosen for emotional function (see cinematography.md):
-  Shot type: medium shot / close-up reaction / low-angle dread / high-angle vulnerability / wide environmental / tracking shot
-  Movement: Steadicam / dolly push-in / locked-off tripod / tracking / slow crane
-  Lens: shallow depth of field / deep focus / 50mm natural perspective
-  Composition: rule of thirds placement, leading lines from environment, depth staging
-}}.
-
-{{LIGHTING SETUP — name from playbook: PERIOD AMBIENT / OMINOUS BUILDUP / HIGH CONTRAST CATASTROPHE / AFTERMATH GREY. Describe the specific light: direction, quality, shadow depth, color temperature, motivated source.}}
-
-Dark atmospheric cinematography. Natural film grain, period-accurate palette — muted, desaturated, historically grounded. {{LENS CHARACTERISTICS — visible atmosphere diffusing light, deep shadows, practical light sources of the era}}. NO text, NO watermarks, NO logos, NO captions, NO overlays.
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

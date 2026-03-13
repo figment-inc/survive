@@ -4,17 +4,13 @@ You Wouldn't Wanna Be — Episode Generation Pipeline (TEMPLATE)
 
 Copy this file into a new episode directory and customize EPISODE_CONFIG.
 
-Narration-over format: Veo generates ambient/SFX clips, ElevenLabs provides
-narrator voiceover + music, ffmpeg mixes audio layers in post. Veo native
-audio (ambient/SFX) is kept in the final mix. Animated captions burned in.
+Family Guy animation style. Veo 3.1 generates all audio natively (narrator
+speech, SFX, ambience, music). No ElevenLabs. No captions.
 
-Pipeline phases (audio-first ordering):
-  audio    — narrator TTS + music via ElevenLabs (runs first to probe durations)
-  images   — keyframe images via NanoBanana Pro
-  videos   — ambient/SFX video clips via Veo 3.1
-  mix      — adaptive audio/video mixing with ffmpeg
-  captions — burn animated word-by-word captions into mixed clips
-  stitch   — concatenate captioned clips into final video
+Pipeline phases:
+  images   — keyframe images via NanoBanana Pro (Family Guy style)
+  videos   — video clips via Veo 3.1 (native speech + SFX + music)
+  stitch   — concatenate clips + LUFS normalize to -14 LUFS
   publish  — multi-platform post via Metricool
   all      — run full pipeline
 
@@ -22,9 +18,6 @@ Usage:
   python generate.py                         # full pipeline
   python generate.py --phase images          # keyframe images only
   python generate.py --phase videos          # videos only
-  python generate.py --phase audio           # ElevenLabs audio only
-  python generate.py --phase mix             # ffmpeg audio mix only
-  python generate.py --phase captions        # burn captions only
   python generate.py --phase stitch          # final concat only
   python generate.py --phase publish         # publish via Metricool
   python generate.py --clip 02              # single clip
@@ -46,26 +39,20 @@ sys.path.insert(0, str(REPO_DIR))
 from lib.config import load_settings, CHANNEL_DIR
 from lib.nanobanana import generate_image as nb_generate_image
 from lib.veo import (
-    get_client as veo_get_client, load_reference_images, generate_video,
+    get_client as veo_get_client, load_reference_images, select_refs_for_prompt,
+    generate_video,
     generate_initial, extend_video, save_chain_video,
     INITIAL_DURATION, EXTENSION_DURATION,
 )
-from lib.elevenlabs import generate_narration, generate_music
 from lib.mixer import (
-    mix_clip_audio, stitch_clips, probe_audio_duration, extract_last_frame,
-    generate_word_captions, burn_captions, split_chain_video, trim_video,
-    NARRATION_DELAY,
+    stitch_clips, extract_last_frame,
+    split_chain_video, trim_video,
 )
-from lib.metricool import publish_to_metricool
 
 OUTPUT_DIR = EPISODE_DIR / "output"
 IMAGES_DIR = OUTPUT_DIR / "images"
 VIDEOS_DIR = OUTPUT_DIR / "videos"
-NARRATION_DIR = OUTPUT_DIR / "audio" / "narration"
-MUSIC_DIR = OUTPUT_DIR / "audio" / "music"
 MIXED_DIR = OUTPUT_DIR / "mixed"
-CAPTIONS_DIR = OUTPUT_DIR / "captions"
-CAPTIONED_DIR = OUTPUT_DIR / "captioned"
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -103,46 +90,6 @@ CLIPS = [
 CLIP_IDS = [c.id for c in CLIPS]
 CLIP_MAP = {c.id: c for c in CLIPS}
 
-# Narration lines per clip (clip_id -> narrator text)
-# Voice starts on clip 01 (the hook) — every clip has narration, no silent clips
-NARRATION_LINES: dict[str, str] = {
-    # "01": "What happens if you wake up in ... three hours before ... ?",
-    # "02": "You wake up on ... The air tastes like ... ",
-    # "03": "...",
-    # "04": "...",
-    # "05": "...",
-    # "06": "...",
-    # "07": "...",
-    # "08": "...",
-    # "09": "...",
-    # "10": "...",
-}
-
-# Music prompt for the episode
-MUSIC_PROMPT = (
-    "Dark cinematic underscore for a short documentary about a historical disaster. "
-    "Begins with quiet, ominous low strings and a single piano note. "
-    "Builds slowly with tension — deeper strings, subtle ticking percussion. "
-    "Peaks with dramatic orchestral intensity during the catastrophe. "
-    "Resolves into a melancholy, resigned cello melody for the aftermath. "
-    "The overall feel is darkly comic yet respectful — dread mixed with dry wit. "
-    "No vocals. Instrumental only."
-)
-
-# Per-clip music volume (lower during narration-heavy clips, higher during catastrophe)
-MUSIC_VOLUME_MAP: dict[str, float] = {
-    "01": 0.25,
-    "02": 0.20,
-    "03": 0.20,
-    "04": 0.20,
-    "05": 0.20,
-    "06": 0.20,
-    "07": 0.25,
-    "08": 0.25,
-    "09": 0.25,
-    "10": 0.35,
-}
-
 
 # ═══════════════════════════════════════════════════════════════
 # Pipeline Implementation
@@ -157,38 +104,6 @@ def load_prompt(subdir, filename):
     if not path.exists():
         return None
     return path.read_text().strip()
-
-
-# ---------------------------------------------------------------------------
-# Phase: Audio (ElevenLabs — narration + music, no SFX)
-# ---------------------------------------------------------------------------
-
-def run_audio_phase(settings, clip_ids, force=False):
-    print(f"\n{'=' * 60}")
-    print(f"  PHASE: AUDIO GENERATION (ElevenLabs)")
-    print(f"{'=' * 60}")
-
-    if not settings.elevenlabs_api_key:
-        print("  ERROR: ELEVENLABS_API_KEY not found.")
-        return
-    if not settings.elevenlabs_voice_id:
-        print("  ERROR: ELEVENLABS_VOICE_ID not set.")
-        return
-
-    for clip_id in clip_ids:
-        if clip_id not in NARRATION_LINES:
-            continue
-        narr_path = NARRATION_DIR / f"narration_{clip_id}.mp3"
-        generate_narration(
-            settings.elevenlabs_api_key,
-            settings.elevenlabs_voice_id,
-            NARRATION_LINES[clip_id],
-            narr_path,
-            force=force,
-        )
-
-    music_path = MUSIC_DIR / "background_music.mp3"
-    generate_music(settings.elevenlabs_api_key, MUSIC_PROMPT, music_path, force=force)
 
 
 # ---------------------------------------------------------------------------
@@ -245,7 +160,7 @@ def run_images_phase(settings, clip_ids, force=False, chain=False):
 
 def run_videos_phase(settings, clip_ids, force=False, chain=False):
     print(f"\n{'=' * 60}")
-    print(f"  PHASE: VIDEO GENERATION (Veo 3.1 — native SFX/ambient)")
+    print(f"  PHASE: VIDEO GENERATION (Veo 3.1 — native speech/SFX/music)")
     if chain:
         print(f"  Chain mode: last-frame extraction between clips")
     print(f"{'=' * 60}")
@@ -255,7 +170,7 @@ def run_videos_phase(settings, clip_ids, force=False, chain=False):
         return
 
     client = veo_get_client(settings.gemini_api_key)
-    ref_images = load_reference_images(CHANNEL_DIR)
+    all_refs = load_reference_images(CHANNEL_DIR)
 
     clips_to_run = [CLIP_MAP[cid] for cid in clip_ids]
 
@@ -273,13 +188,15 @@ def run_videos_phase(settings, clip_ids, force=False, chain=False):
         print(f"\n  --- Clip {clip.id} ({clip.clip_type}, {clip.duration}s @ {clip.resolution}) ---")
         first_frame = IMAGES_DIR / f"clip_{clip.id}_frame.png"
 
+        ref_images = select_refs_for_prompt(all_refs, prompt) if clip.use_reference else None
+
         generate_video(
             client=client,
             prompt=prompt,
             output_path=output_path,
             duration=clip.duration,
             resolution=clip.resolution,
-            ref_images=ref_images if clip.use_reference else None,
+            ref_images=ref_images,
             first_frame_path=first_frame if first_frame.exists() else None,
             use_reference=clip.use_reference,
         )
@@ -301,7 +218,7 @@ def run_videos_chain_extend_phase(settings, clip_ids, force=False):
     1. generate_initial() for the first clip (8s)
     2. extend_video() for each subsequent clip (+7s each)
     3. Save the accumulated video, trim to target duration
-    4. Split into per-clip segments for the mix/caption pipeline
+    4. Split into per-clip segments for the stitch pipeline
     """
     print(f"\n{'=' * 60}")
     print(f"  PHASE: VIDEO GENERATION — EXTENSION CHAIN (Veo 3.1)")
@@ -325,7 +242,8 @@ def run_videos_chain_extend_phase(settings, clip_ids, force=False):
         return
 
     client = veo_get_client(settings.gemini_api_key)
-    ref_images = load_reference_images(CHANNEL_DIR)
+    all_refs = load_reference_images(CHANNEL_DIR)
+    front_refs = all_refs.get("front", [])
 
     prompts: list[tuple[str, str]] = []
     for clip_id in clip_ids:
@@ -346,7 +264,7 @@ def run_videos_chain_extend_phase(settings, clip_ids, force=False):
                 handle = generate_initial(
                     client=client,
                     prompt=prompt,
-                    ref_images=ref_images if clip.use_reference else None,
+                    ref_images=front_refs if clip.use_reference else None,
                     duration=INITIAL_DURATION,
                     resolution=clip.resolution,
                 )
@@ -380,103 +298,6 @@ def run_videos_chain_extend_phase(settings, clip_ids, force=False):
 
 
 # ---------------------------------------------------------------------------
-# Phase: Mix (ffmpeg — keep Veo audio + narration + music)
-# ---------------------------------------------------------------------------
-
-def run_mix_phase(clip_ids, force=False):
-    print(f"\n{'=' * 60}")
-    print(f"  PHASE: AUDIO MIXING (ffmpeg — Veo audio + narration + music)")
-    print(f"{'=' * 60}")
-
-    narr_durations: dict[str, float] = {}
-    for clip_id in clip_ids:
-        narr_path = NARRATION_DIR / f"narration_{clip_id}.mp3"
-        if narr_path.exists():
-            dur = probe_audio_duration(narr_path)
-            narr_durations[clip_id] = dur
-
-    if narr_durations:
-        print(f"\n  Narration durations (probed):")
-        for cid, dur in sorted(narr_durations.items()):
-            clip_dur = CLIP_MAP[cid].duration
-            needed = dur + 0.5 + 0.3
-            status = "OK" if needed <= clip_dur else f"+{needed - clip_dur:.1f}s over"
-            print(f"    clip {cid}: {dur:.1f}s narration vs {clip_dur}s video — {status}")
-        print()
-
-    effective_durations: dict[str, float] = {}
-    music_path = MUSIC_DIR / "background_music.mp3"
-
-    for clip_id in clip_ids:
-        clip = CLIP_MAP[clip_id]
-        video_path = VIDEOS_DIR / f"clip_{clip_id}.mp4"
-        mixed_path = MIXED_DIR / f"clip_{clip_id}.mp4"
-        narr_path = NARRATION_DIR / f"narration_{clip_id}.mp3"
-
-        music_offset = sum(effective_durations.get(c.id, c.duration) for c in CLIPS if c.id < clip_id)
-
-        success, eff_dur = mix_clip_audio(
-            video_path=video_path,
-            output_path=mixed_path,
-            narration_path=narr_path if narr_path.exists() else None,
-            music_path=music_path if music_path.exists() else None,
-            clip_duration=float(clip.duration),
-            narration_duration=narr_durations.get(clip_id, 0.0),
-            music_offset=music_offset,
-            music_volume=MUSIC_VOLUME_MAP.get(clip_id, 0.20),
-            force=force,
-        )
-        effective_durations[clip_id] = eff_dur
-
-    total = sum(effective_durations.get(c.id, c.duration) for c in CLIPS)
-    print(f"\n  Total episode duration: {total:.1f}s", end="")
-    if total > 180:
-        print(f" — WARNING: exceeds 3min Shorts limit")
-    elif total > 75:
-        print(f" — long (target 60-75s)")
-    else:
-        print(f" — OK")
-
-
-# ---------------------------------------------------------------------------
-# Phase: Captions (ffmpeg — burn animated word-by-word captions)
-# ---------------------------------------------------------------------------
-
-def run_captions_phase(clip_ids, force=False):
-    print(f"\n{'=' * 60}")
-    print(f"  PHASE: ANIMATED CAPTIONS (word-by-word)")
-    print(f"{'=' * 60}")
-
-    narr_durations: dict[str, float] = {}
-    for clip_id in clip_ids:
-        narr_path = NARRATION_DIR / f"narration_{clip_id}.mp3"
-        if narr_path.exists():
-            narr_durations[clip_id] = probe_audio_duration(narr_path)
-
-    for clip_id in clip_ids:
-        if clip_id not in NARRATION_LINES:
-            continue
-
-        caption_path = CAPTIONS_DIR / f"clip_{clip_id}.ass"
-        mixed_path = MIXED_DIR / f"clip_{clip_id}.mp4"
-        captioned_path = CAPTIONED_DIR / f"clip_{clip_id}.mp4"
-
-        narr_dur = narr_durations.get(clip_id, float(CLIP_MAP[clip_id].duration) - NARRATION_DELAY)
-        generate_word_captions(
-            narration_text=NARRATION_LINES[clip_id],
-            narration_duration=narr_dur,
-            output_path=caption_path,
-        )
-
-        burn_captions(
-            video_path=mixed_path,
-            captions_path=caption_path,
-            output_path=captioned_path,
-            force=force,
-        )
-
-
-# ---------------------------------------------------------------------------
 # Phase: Stitch (ffmpeg)
 # ---------------------------------------------------------------------------
 
@@ -487,17 +308,9 @@ def run_stitch_phase(clip_ids):
 
     clip_paths = []
     for cid in clip_ids:
-        captioned = CAPTIONED_DIR / f"clip_{cid}.mp4"
-        mixed = MIXED_DIR / f"clip_{cid}.mp4"
         raw = VIDEOS_DIR / f"clip_{cid}.mp4"
-        if captioned.exists():
-            clip_paths.append(captioned)
-        elif mixed.exists():
-            clip_paths.append(mixed)
-            print(f"  WARNING: Using uncaptioned video for clip {cid}")
-        elif raw.exists():
+        if raw.exists():
             clip_paths.append(raw)
-            print(f"  WARNING: Using unmixed video for clip {cid}")
         else:
             print(f"  WARNING: Missing clip_{cid}.mp4, skipping")
 
@@ -535,7 +348,7 @@ def main():
     )
     parser.add_argument(
         "--phase",
-        choices=["images", "videos", "audio", "mix", "captions", "stitch", "publish", "all"],
+        choices=["images", "videos", "stitch", "publish", "all"],
         default="all",
     )
     parser.add_argument("--clip", type=str, choices=CLIP_IDS, help="Run a single clip only")
@@ -548,7 +361,7 @@ def main():
 
     settings = load_settings()
 
-    for d in [IMAGES_DIR, VIDEOS_DIR, NARRATION_DIR, MUSIC_DIR, MIXED_DIR, CAPTIONS_DIR, CAPTIONED_DIR]:
+    for d in [IMAGES_DIR, VIDEOS_DIR, MIXED_DIR]:
         d.mkdir(parents=True, exist_ok=True)
 
     if args.phase == "stitch":
@@ -560,29 +373,24 @@ def main():
         run_publish_phase(settings, args.schedule)
         return
 
-    phases = ["audio", "images", "videos", "mix", "captions"] if args.phase == "all" else [args.phase]
+    phases = ["images", "videos"] if args.phase == "all" else [args.phase]
     clip_ids = [args.clip] if args.clip else CLIP_IDS
 
     print(f"\n{'=' * 60}")
     print(f"  You Wouldn't Wanna Be — {EPISODE_TITLE}")
-    print(f"  Narration-Over Format")
+    print(f"  Family Guy Style | Veo 3.1 Native Audio")
     print(f"{'=' * 60}")
     print(f"  Episode:       {EPISODE_SLUG}")
     print(f"  Clips:         {clip_ids}")
     print(f"  Phases:        {phases}")
     print(f"  Image model:   NanoBanana Pro ({settings.nanobanana_model})")
-    print(f"  Video model:   Veo 3.1")
-    print(f"  TTS:           ElevenLabs ({settings.elevenlabs_voice_id or 'NOT SET'})")
+    print(f"  Video model:   Veo 3.1 (native speech + SFX + music)")
     print(f"  NanoBanana:    {'SET' if settings.nanobanana_api_key else 'MISSING'}")
     print(f"  Gemini key:    {'SET' if settings.gemini_api_key else 'MISSING'}")
-    print(f"  ElevenLabs:    {'SET' if settings.elevenlabs_api_key else 'MISSING'}")
     print(f"  Chain mode:    {'ON' if args.chain else 'OFF'}")
     print(f"  Chain extend:  {'ON' if args.chain_extend else 'OFF'}")
     print(f"  Output:        {OUTPUT_DIR}")
     print(f"{'=' * 60}")
-
-    if "audio" in phases:
-        run_audio_phase(settings, clip_ids, args.force)
 
     if "images" in phases:
         run_images_phase(settings, clip_ids, args.force, args.chain)
@@ -593,12 +401,6 @@ def main():
         else:
             run_videos_phase(settings, clip_ids, args.force, args.chain)
 
-    if "mix" in phases:
-        run_mix_phase(clip_ids, args.force)
-
-    if "captions" in phases:
-        run_captions_phase(clip_ids, args.force)
-
     if args.phase == "all" and not args.clip:
         run_stitch_phase(clip_ids)
 
@@ -608,12 +410,8 @@ def main():
 
     images = list(IMAGES_DIR.glob("clip_*.png"))
     videos = list(VIDEOS_DIR.glob("clip_*.mp4"))
-    narrations = list(NARRATION_DIR.glob("narration_*.mp3"))
-    mixed = list(MIXED_DIR.glob("clip_*.mp4"))
     print(f"  Images:     {len(images)}")
     print(f"  Videos:     {len(videos)}")
-    print(f"  Narrations: {len(narrations)}")
-    print(f"  Mixed:      {len(mixed)}")
 
     final = MIXED_DIR / f"final_{EPISODE_SLUG}.mp4"
     if final.exists():

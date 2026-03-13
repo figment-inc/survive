@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, slightly high angle. Locked camera, flat composition, no movement. The figure stands on the dock reaching desperately toward a departing boat. Classic adult animated comedy high-angle vulnerability staging.
+
+NEW location — cut from the street to the Anjer harbor dock. The figure has reached the water. The last boat is leaving.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 4 seconds: The figure lunges forward on the dock with both arms outstretched toward the departing boat. Classic cartoon reaching pose — body leaning forward at an impossible angle, one foot lifted behind for counterbalance, fingers straining. The boat pulls away. The figure's arms drop slowly to its sides. The skull lowers. A defeated cartoon slump — shoulders dropping, spine curving, the universal posture of too late.
+
+Flat even lighting on the figure. Color palette: dark teal and black water, warm orange volcanic glow, charcoal grey ash surfaces, flat yellow lightning, dark brown dock wood, cream and brown boat hull.
+
+Foreground: Weathered teak dock planks, coiled hemp ropes, a rusted iron bollard. Volcanic ash coating everything in flat grey. Dark churning water between the dock and the departing vessel.
+
+Midground: The figure on the dock. The wooden prahu packed with flat-color figures — families, a Dutch merchant — pulling away. A boatman pushing off with a bamboo pole.
+
+Background: The Sunda Strait in total darkness lit by orange volcanic glow. Multiple distant vessels fleeing. The eruption column covering the entire sky with constant flat yellow lightning. The water reflecting hellish orange.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- Off-screen narrator says: "You reach the harbor. The last boat is already gone. You are now stuck on a beach with a volcano."
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent. Clipped, staccato delivery — three short declarative sentences. "Already gone" has a note of mock sympathy. "Stuck on a beach with a volcano" — delivered with dry, almost conversational understatement, as if describing a minor inconvenience.
+
+Audio direction:
+- Music: The orchestral pulse drops out suddenly — a moment of near-silence that is worse than the music. Just a single held violin note, thin and high, like a wire about to snap.
+- SFX: The creak and splash of the departing boat's hull moving through water. The bamboo pole pushing off the dock with a hollow knock. Water slapping against dock pilings. The distant shouting of people on the boat.
+- Ambience: The constant volcanic roar now louder — a deep sustained thunder that never peaks and never fades. Ash pattering onto the dock like rain. The water churning against the pilings with increasing agitation.

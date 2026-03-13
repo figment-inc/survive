@@ -10,13 +10,11 @@
 
 - **Idea** — Topic selected, no content yet
 - **Storyboard** — `01_storyboard.md` written
-- **Storyboard + prompts written** — Image prompts, video prompts, and narration script created
+- **Storyboard + prompts written** — Image prompts, video prompts, and dialogue script created
 - **Images generated** — Keyframe PNGs in `output/images/`
 - **Videos in progress** — Some clips generated in `output/videos/`
-- **Videos generated** — All clips generated
-- **Audio generated** — Narration and music from ElevenLabs
-- **Mixed** — Audio layered onto video clips
-- **Stitched** — Final video assembled via ffmpeg
+- **Videos generated** — All clips generated (with native audio)
+- **Stitched** — Final video assembled + LUFS normalized via ffmpeg
 - **Published** — Posted via Metricool
 - **Reference implementation** — Canonical example of the current workflow
 

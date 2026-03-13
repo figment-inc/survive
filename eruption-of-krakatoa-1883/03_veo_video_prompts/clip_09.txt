@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static dramatic low-angle dread shot, looking upward. Locked camera, flat composition, no movement. The figure is in the lower third, the tsunami wave fills the upper two-thirds. Classic adult animated comedy low-angle intimidation staging — scale IS the point.
+
+NEW framing — cut from blast wave close-up to the coast. The figure has ended up at the waterfront. The water has retreated. Then it returns.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure stands on exposed muddy seabed, looking around at stranded fish and debris in confusion (0-2s). It bends down and picks up a flopping fish, holding it at arm's length, skull tilted in puzzlement (2-4s). Then a shadow falls across it from above — it looks up. Slowly. The fish drops from its hand (4-6s). It sees the wave. Both hands rise in a feeble, almost polite defensive gesture — palms out, fingers spread. A classic cartoon freeze of absolute dread (6-8s). It doesn't run. There's nowhere to run.
+
+Dark teal-blue wave, white foam, dark brown exposed seabed, deep shadow, pale luminous figure. The color palette contracts to almost monochrome — water and darkness.
+
+Foreground: Muddy exposed seabed — dark brown mud with stranded flopping fish, broken boat hulls, coral chunks, tangled fishing nets. Puddles of dark water.
+
+Midground: The figure on the seabed. A few other flat-colored villager figures — people who came to collect stranded fish — now frozen, staring up.
+
+Background: A wall of dark blue-black water thirty meters high filling the upper frame. Dark teal-blue base, churning white foam lip, carrying uprooted palm trees, house sections, boat fragments, and the hull of the Dutch steamship Berouw within its mass. The wave curls forward, casting everything below in deep shadow.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- Off-screen narrator says: "The ocean pulls back. People walk out onto the empty seabed. To collect fish. You know what comes next. A wall of water. Thirty meters tall. Carrying a steamship."
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent. "To collect fish" — heartbreaking understatement, delivered quietly, almost tenderly. "You know what comes next" — a beat, direct address, letting the viewer's imagination work. "Thirty meters tall" — clinical. "Carrying a steamship" — the absurd detail that makes it real, delivered with a slight uptick of disbelief. Second person address ("you").
+
+Audio direction:
+- Music: Complete silence for the first four seconds — no music at all. Just the obscene quiet of the retreated ocean. Then, as the shadow falls, a single deep bass note begins — growing, swelling, filling the frequency range. Low brass and timpani building to overwhelming volume.
+- SFX: Wet squelching footsteps on mud, fish flopping and gasping, the drip of water from exposed coral, then — the deep hydraulic roar of the approaching wave, a sound like a thousand rivers, the groan and screech of the steamship's iron hull being dragged within the water mass, wood and debris cracking and grinding inside the wave
+- Ambience: First — eerie, unnatural silence. The absence of ocean where ocean should be. Then — the approaching tsunami generates its own wind, a howling gale preceding the water wall, growing from whisper to roar across the clip duration

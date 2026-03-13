@@ -1,0 +1,35 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static low-angle dread shot, looking up from water level. Locked camera, flat composition, no movement. The camera tilts up at the massive debris wall bearing down — two stories tall, filling the entire upper frame. Classic adult animated comedy low-angle dread staging.
+
+Same storm, new threat — cut from the high-angle floating shot to the approaching debris wall. The catastrophe peaks.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over clip duration: The figure is in the lower-left corner, neck craned back, skull tilted up at the debris wall. Over the first two seconds, the figure's arms rise slowly in a defensive position over the skull. The orb eyes stretch to their maximum width. In seconds three and four, the debris wall reaches the figure — the shadow falls across the frame — and the figure is engulfed. The figure disappears into the mass of wreckage.
+
+NIGHT — pitch black with lightning as the only light source. One major flash at second two illuminates the full debris wall.
+
+Foreground: Dark water and foam at camera level. An iron railing tumbling.
+
+Midground: The figure and the debris wall — a grinding mass of destroyed houses, furniture, telegraph poles, wooden beams, tangled wire, bricks, all compressed by the surge into a single moving barrier. Two stories tall.
+
+Background: Night sky, pitch black, lightning flash revealing the wall's full width extending beyond the frame on both sides.
+
+Over four seconds: the debris wall advances toward camera. Lightning flash at second two reveals its terrifying scale and texture. By second four, it has reached and consumed the figure's position. The pale glow of the figure vanishes into the dark mass.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: Then the debris wall finds you. Two stories of houses. Moving.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, clipped and urgent now. "Then the debris wall finds you" — the verb "finds" gives agency to the wall, making it a predator. "Two stories of houses. Moving." — two flat statements, delivered with clinical horror. Second person address ("you").
+
+Audio direction:
+- Music: Full orchestral hit on the lightning flash — brass, strings, and timpani in a single stabbing chord. Then low rumbling sustain beneath the grinding.
+- SFX: A deep grinding roar like nothing natural — thousands of tons of wood, brick, metal, and debris being compressed and pushed by water. Individual sounds within the mass: nails screaming out of timber, glass shattering, the crack of heavy beams, iron bending. The lightning crack — deafening, close. Then the impact — a massive, complex crunch.
+- Ambience: The debris wall IS the ambience now — it fills the sonic space, drowning out the wind and rain. An industrial, geological sound. The end of architecture.

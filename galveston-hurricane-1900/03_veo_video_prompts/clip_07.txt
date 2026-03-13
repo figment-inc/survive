@@ -1,0 +1,35 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static high-angle shot, looking down. Locked camera, flat composition, no movement. Bird's-eye view looking straight down at the figure clinging to debris in a vast dark water expanse. Classic adult animated comedy high-angle vulnerability staging.
+
+Same storm, new perspective — cut from the orphanage to a god's-eye view of the figure adrift. The scale of total destruction becomes clear.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over clip duration: The figure is spread-eagled on a section of house floor floating in open water, clinging with all limbs. For the first three seconds, the figure is pressed flat, motionless, gripping the edges of the debris raft. At second four, a large wave tilts the debris at a sharp angle and the figure slides toward the edge, scrambling with exaggerated cartoon panic — arms and legs windmilling. From seconds five through seven, the figure manages to grab a protruding nail and hauls itself back to center, pressing its skull flat against the wood. In the final second, the figure looks up toward the camera — directly at us — orb eyes enormous and pleading.
+
+NIGHT — near-total darkness except for lightning flashes every two seconds. The figure is a pale glow against dark water. Between flashes, silhouette.
+
+Foreground: The debris raft — recognizable as a section of floor with Victorian floral wallpaper peeling from one edge. Nails protruding. A child's porcelain doll wedged in the planks.
+
+Midground: Dark floodwater stretching in all directions. Other debris — house sections, furniture, a church bell.
+
+Background: From above, the drowned cityscape — only the tallest structures visible as dark shapes. The Ursuline Convent roof. Strand building tops. Everything else underwater. Featureless dark sky.
+
+Over eight seconds: the debris raft rotates slowly in the current. Waves tilt and rock it. Lightning flashes illuminate the full scope — an entire city underwater. The figure's pale form is the only point of life visible.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: You cling to someone's living room floor. Below you, a city of thirty-seven thousand people is gone.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, awed and quiet. "Someone's living room floor" — the specificity is the cruelty. "Thirty-seven thousand" delivered with weight on each syllable. "Is gone" — flatly, irrevocably. Second person address ("you").
+
+Audio direction:
+- Music: Low sustained orchestral chord — cellos, basses, and a bass clarinet holding a single dissonant cluster. No melody. Just pressure.
+- SFX: Water slapping against the underside of the debris raft in a hollow rhythmic thump, the creak of wet wood flexing, the scrape of the figure's body shifting on planks, a distant enormous crash of a building collapsing — muffled by distance and water, the clink of the porcelain doll shifting
+- Ambience: Open water in a hurricane — the wind is different out here, less shrieking and more a deep sustained howl without obstacles to break it. Waves in all directions. Rain hammering the flat water surface. An oceanic, elemental sound — the island has become the sea.

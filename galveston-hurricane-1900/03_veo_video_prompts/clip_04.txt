@@ -1,0 +1,35 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The Strand commercial district — Galveston's famous boulevard — now a river of floodwater rushing between ornate Victorian commercial buildings. Classic adult animated comedy wide tableau staging.
+
+NEW location — cut from the residential street close-up to the Strand commercial district. The scope of the disaster becomes clear.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over clip duration: The figure is chest-deep in rushing floodwater in the center of the Strand. In the first two seconds, the figure pushes forward against the current with great effort, arms cutting through the water. At seconds three and four, a large piece of debris — a barrel — slams into the figure from the right, knocking it sideways. The figure flails, arms windmilling to regain balance. From seconds five through seven, the figure manages to grab onto a cast-iron lamppost, clinging to it with both arms wrapped around the pole, legs swept horizontal by the current. In the final second, the figure looks up at a family on a second-story balcony, reaching one arm up toward them in a plea for help.
+
+STORM DUSK — darker flat lighting, grey-brown. Lightning flashes illuminate in brief flat white bursts. All building ground floors submerged.
+
+Foreground: Rushing floodwater carrying debris left-to-right — a wooden barrel, a shop sign reading "DRY GOODS," tangled telegraph wire. Dark brown water with white foam streaks.
+
+Midground: The figure struggling in the current. Strand buildings with submerged ground floors. Awnings torn to ribbons. A cast-iron balcony where a family huddles, father's arm reaching down.
+
+Background: The Strand disappearing into sheets of rain. Iron facades — arched windows, cornices — half-submerged. A wooden wagon tumbling in the current. Lightning flashes.
+
+Over eight seconds: the water level rises from chest to neck on the figure. Debris increases in size and frequency. Lightning flashes twice — at seconds two and six — illuminating the devastation. The family on the balcony retreats as the water reaches their floor.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: The storm surge is fifteen feet. The entire island is underwater. You grab a lamppost. You hold on.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, quickening pace now — urgency entering the voice for the first time. "Fifteen feet" delivered with the stunned precision of someone reading an impossible number. "You hold on" delivered quietly, almost tenderly — dark affection. Second person address ("you").
+
+Audio direction:
+- Music: Full low string section now — cellos and basses in a churning ostinato pattern, rising tension. Timpani rumbles on each lightning flash.
+- SFX: Rushing water roaring like a river, the heavy thud of the barrel striking the figure, metal creaking as the lamppost bends under pressure, the crack of a shop sign tearing free, a deep structural groan from a building, lightning crack — sharp and close, the splash and gurgle of water pouring into building windows
+- Ambience: Category 4 hurricane at full fury — a wall of sound, wind shrieking, water roaring, rain hammering, wood cracking and snapping continuously, the deep bass thrum of atmospheric pressure so low the air itself vibrates

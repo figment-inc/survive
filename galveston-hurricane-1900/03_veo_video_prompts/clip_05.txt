@@ -1,0 +1,35 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, low angle looking up. Locked camera, flat composition, no movement. The camera is at water level, looking up at the figure attempting to climb a partially submerged Victorian house. Classic adult animated comedy low-angle dread staging.
+
+Same storm, new action — cut from the Strand to the figure attempting to climb to safety. The attempt-and-fail beat.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over clip duration: The figure is halfway up the side of a white Victorian house, clinging to a second-story windowsill. Over the first two seconds, the figure pulls itself upward with exaggerated cartoon effort — arms straining, legs scrabbling against clapboard siding. At the two-second mark, the figure gets one hand onto the roof edge. Then — at second three — the entire house shudders violently, tilting. The figure's grip slips. In the final second, the figure slides back down, arms flailing, splashing back into the water.
+
+STORM DUSK — near darkness, flat grey-green with periodic lightning flashes providing stark illumination.
+
+Foreground: Dark churning water filling the bottom third. Debris swirling — planks, a rocking chair. Spray and foam.
+
+Midground: The figure on the house. White clapboard, green shutters — one torn off and spinning. Gingerbread trim cracking and peeling.
+
+Background: Horizontal rain obscuring everything past fifty feet. A house silhouette tilting at an impossible angle. Dark sky.
+
+Over four seconds: the house shudders and tilts as the figure climbs. The figure reaches the roof edge, then the house lurches and the figure falls back into the water with a large splash.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: You climb. The house has other plans.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, dry dark humor at its peak. "You climb" is simple, direct. "The house has other plans" — delivered with dark amusement, a raised eyebrow audible in the voice. Second person address ("you").
+
+Audio direction:
+- Music: Strings drop out momentarily for the physical comedy beat — silence makes the fall funnier and more horrible.
+- SFX: Fingernails scraping on wet wood, the figure's body thumping against clapboard siding, a deep structural crack as the house tilts, nails popping from timber, the whoosh of the figure sliding down, a heavy splash as the figure hits the water, a section of gingerbread trim clattering down
+- Ambience: Hurricane wind unrelenting — the constant deep roar with higher-pitched harmonics whistling through broken windows and gaps in structures, rain hammering wood and water surfaces

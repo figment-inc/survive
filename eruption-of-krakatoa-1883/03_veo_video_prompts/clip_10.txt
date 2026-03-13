@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static high-angle vulnerability shot, looking straight down at the water's surface. Locked camera, flat composition, no movement. The figure floats face-up in the center of frame among debris. Classic adult animated comedy high-angle staging — smallness, aftermath, the haunting final image.
+
+NEW framing — cut from the wave's arrival to the aftermath. Time has jumped. Everything is over.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure floats on its back in the water, arms spread wide, legs slightly apart — a starfish pose (0-4s). Completely still. Its pale orb eyes are open, staring straight up at the camera. A faint trail of grey pumice dust drifts from its form. Then — one hand slowly, barely perceptibly, rises from the water. Fingers reaching upward toward the camera. Not waving. Just reaching (4-7s). The hand holds, trembles slightly, then slowly sinks back beneath the surface (7-8s). The debris continues its slow drift.
+
+Muted, desaturated color palette — grey-green water, grey pumice, dark teal depths, brown-grey sky. The figure's pale translucent form is the brightest element, almost luminous against the grey water.
+
+Foreground: Murky dark teal and grey-green water surface choked with floating debris — thick rafts of grey pumice, broken timber, shredded palm fronds, a child's wooden toy boat, batik fabric fragments, coconut husks. All flat cartoon objects.
+
+Midground: The figure floating among debris. A large thatched roof section drifts nearby. The water is opaque with volcanic sediment.
+
+Background: In every direction — the same grey-green water choked with pumice and wreckage. The horizon is a flat layer of dark grey-brown volcanic haze — no sun visible. A single flat-colored seabird circles high above as a tiny dark shape.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- Off-screen narrator says: "The tsunamis reach South America. The ash turns sunsets red in London. The Berouw is found two miles inland, in a jungle. And our friend? Still floating. Among the pumice. The sea won't let go."
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent. The global facts — South America, London, the Berouw — delivered with quiet wonder at the scale. Then the shift to "our friend" — the voice softens, becomes almost tender. "Still floating" is simple, flat, without embellishment. "The sea won't let go" — the final line delivered slowly, gently, with the faintest note of something that could be sadness. A pause after the last word. Let the silence land. Second person implied through "our friend."
+
+Audio direction:
+- Music: A single sustained note — a solo cello, high and fragile, holding one long tone that slowly fades. Beneath it, the faintest echo of the gamelan melody from clip 04 — distorted, underwater, barely there. The music thins to almost nothing by the clip's end.
+- SFX: Water lapping gently against pumice. The soft creak of waterlogged wood. The barely audible thump of debris bumping against debris. The figure's hand breaking the water surface — a tiny, intimate splash. Then silence.
+- Ambience: Vast, empty ocean. The volcanic roar is gone. In its place — an enormous, oppressive quiet. Wind across flat water. The distant cry of a single seabird. The soft hiss of pumice rafts rubbing together. A world that has just ended, settling into its new, terrible stillness.

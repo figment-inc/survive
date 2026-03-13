@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands shin-deep in shallow water on the beach of Anjer, centered in frame with the trading post and volcano visible behind. Classic adult animated comedy medium shot staging.
+
+NEW location — cut from wide establishing of Krakatoa to ground-level arrival on the Anjer beach. The figure has materialized in the shallows.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure starts disoriented — swaying slightly, skull turning left then right, orb eyes blinking in confusion. At second 2, it looks down at its feet in the water, lifting one foot with a cartoon shake to flick off seawater. At second 4, it looks up and notices the volcanic eruption column across the strait — a slow cartoon head-tilt upward, the orb eyes tracking to the sky. At second 6, the body stiffens, arms dropping to sides, a classic cartoon freeze of recognition. The skull stays locked on the eruption column for the remaining seconds. Subtle cartoon tremble begins in the hands.
+
+Flat even lighting on the figure. Color palette: turquoise and jade water, pale gold sand, dark brown palm trunks, flat emerald fronds, whitewashed cream trading post, terracotta orange roof, dirty orange-grey sky, charcoal eruption column.
+
+Foreground: Flat turquoise water with simple wave patterns lapping around the figure's shins. A child's wooden toy boat floating past. Wet dark sand with scattered white coral fragments and a half-buried Dutch East Indies copper coin.
+
+Midground: The figure standing in the shallows. The beach behind — pale gold sand, coconut palms, the Dutch colonial trading post with whitewashed walls and terracotta roof. Wooden barrels stamped with Dutch text stacked outside.
+
+Background: Krakatoa across the strait — dark silhouette with the enormous eruption column rising. The sky stained dirty orange and yellow. Villagers in flat-color sarongs gathering on the beach, pointing. A Dutch official on the veranda with a spyglass.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- Off-screen narrator says: "You wake up ankle-deep in warm water. The air smells like rotten eggs. Across the strait, a mountain you've never heard of is clearing its throat. This is Krakatoa. It is August twenty-sixth, eighteen eighty-three."
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor. Measured pace — each sentence deliberate. "Warm water" is almost pleasant. "Rotten eggs" delivered with mild distaste. "Clearing its throat" — wry, anthropomorphizing the volcano. The date delivered with ominous weight, a slight pause before the year.
+
+Audio direction:
+- Music: Low sustained strings — cellos holding a single dark chord, barely audible, creating a bed of unease beneath the tropical sounds. A faint high violin harmonic enters on "Krakatoa."
+- SFX: Gentle lapping of warm tropical water around the figure's shins. The creak of the wooden toy boat. A distant deep volcanic boom — like faraway thunder but lower, more sustained, felt in the chest. The flutter of palm fronds in hot wind.
+- Ambience: Tropical coastal village — overlapping Javanese voices in concerned murmur, chickens clucking, a dog barking once, the rhythm of waves on sand. Beneath it all, a deep subsonic volcanic hum that never stops, a pressure in the air.

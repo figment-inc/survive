@@ -1,0 +1,35 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static close-up reaction shot, slightly low angle. Locked camera, flat composition, no movement. The figure is framed from chest up, churning water at waist level. Classic adult animated comedy close-up reaction staging.
+
+Same setting, tighter framing — cut from the medium shot of the flooded street to a close-up of the figure's dawning horror as the water rises faster.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over clip duration: The figure's skull snaps sharply to the right — a sudden alarmed reaction to something off-frame. Over the four seconds, one translucent arm shoots out in a warning gesture, fingers splayed. The orb eyes stretch impossibly wide. The figure's jaw drops open in a silent scream of alarm. The ribcage heaves with a sharp intake of breath. Water splashes up against the figure's torso.
+
+STORM LIGHT — flat grey-green, darker than previous clip. Higher contrast. Spray whipping horizontally.
+
+Foreground: Churning brown water with forming whitecaps. A wooden shutter spinning in the current. Horizontal spray.
+
+Midground: The figure's upper body against driving rain. Wind distorting the translucent skin.
+
+Background: Blurred impression of a collapsing fence and a palm tree bent horizontal. Dark grey-green sky.
+
+Over four seconds: water rises visibly at the figure's torso. A large wave splashes against the figure, rocking it. The shutter in the foreground tumbles past.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: The highest point on the island is eight feet above sea level.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, clinical precision delivered with dark relish. "Eight feet" lands like a verdict. Slight pause before "above sea level" for maximum impact. Second person address ("you").
+
+Audio direction:
+- Music: The low strings from the previous clip now joined by a single held French horn note — foreboding, heavy, unresolved.
+- SFX: A sharp crack of wood breaking, the splash of the shutter hitting water, wind roaring past the microphone, water slapping hard against the figure's body, the distant crash of something heavy collapsing
+- Ambience: Hurricane-force wind building — a deep sustained roar punctuated by higher-pitched whistling through architectural gaps, rain hammering on every surface, the constant angry churn of floodwater

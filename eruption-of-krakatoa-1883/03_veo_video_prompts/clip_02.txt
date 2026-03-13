@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands ankle-deep in surf on a black volcanic beach. Classic adult animated comedy medium shot staging.
+
+NEW location — cut from wide ocean establishing to the island's shore. The figure has arrived.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure stands dazed in the warm surf (0-2s), then slowly looks down at the black sand, then up at the jungle, then turns its skull upward to look at the ash column in the sky (2-5s). Its posture shifts from confused slouch to rigid alarm — spine straightening, shoulders tensing, one hand rising to shade its eye sockets as it stares upward (5-7s). Finally it takes one cautious step backward, foot splashing in the surf, as a chunk of pumice the size of a grapefruit lands on the sand nearby with a soft thud (7-8s).
+
+Flat bright tropical color palette with ominous overlay — turquoise water, jet-black volcanic sand, vivid greens in the jungle, dirty ochre-brown sky where the ash spreads. The figure's pale translucent form contrasts sharply against the dark volcanic landscape.
+
+Foreground: Jet-black volcanic sand with bleached coral fragments and pumice stones. A dead coconut palm trunk lies half-submerged in the surf. Ghost crabs scuttle across the sand in simple animated loops.
+
+Midground: The figure on the beach. Dense tropical jungle climbing steeply behind — banana leaves, palm fronds, thick ferns in flat greens. Pale yellow sulfur steam seeps from cracks in dark rock between sand and treeline.
+
+Background: The volcanic slope rising steeply through jungle to bare dark rock. A massive dark ash column rising from the hidden summit, casting the upper frame in dirty ochre shadow. Lightning flashing as bright yellow zigzags within the cloud.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- Off-screen narrator says: "You wake up on black sand. It's warm. Not sun-warm. The earth itself is feverish. The air smells of rotten eggs and the sky is the wrong color."
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor. Measured, sensory delivery — savoring each detail. "Feverish" lingers slightly. "Wrong color" delivered with dry emphasis, as if noting an interesting but concerning wine. Second person address ("you").
+
+Audio direction:
+- Music: Low sustained strings — viola and cello in a minor key, slow and creeping, with a barely audible high-pitched harmonic suggesting something about to break. Tension without resolution.
+- SFX: Warm tropical surf lapping on volcanic sand, the soft thud of the pumice stone landing nearby, the figure's foot splashing in shallow water, a distant deep volcanic boom — muffled by distance but physically heavy, like a cannon fired underwater
+- Ambience: Tropical island with volcanic menace — buzzing insects, rustling palm fronds, bird calls that suddenly stop mid-clip as a volcanic rumble intensifies, the continuous hiss of sulfur gas escaping from rock fissures

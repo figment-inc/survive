@@ -1,7 +1,7 @@
-"""Veo 3.1 video generation — keeps native audio (ambient/SFX).
+"""Veo 3.1 video generation — Family Guy animation with native audio (speech, SFX, music).
 
 Supports two modes:
-  1. Independent clips via generate_video() (original)
+  1. Independent clips via generate_video() with angle-aware ASSET reference selection
   2. Extension chain via generate_initial() + extend_video() for cohesive long-form video
 """
 
@@ -21,6 +21,28 @@ VIDEO_MODEL = "veo-3.1-generate-preview"
 INITIAL_DURATION = 8
 EXTENSION_DURATION = 7
 
+STYLE_ENFORCEMENT = (
+    "CRITICAL: This must be flat 2D cel-shaded animation with thick black outlines. "
+    "ZERO photorealistic elements. ZERO gradients. ZERO 3D shading. "
+    "Match the art style of the attached character reference sheet exactly.\n\n"
+)
+
+NO_TEXT_PREFIX = (
+    "CRITICAL: Generate ZERO on-screen text, titles, captions, subtitles, "
+    "watermarks, labels, or typography of any kind in the video. "
+    "The frame must be purely visual with no rendered text.\n\n"
+)
+
+NO_TEXT_SUFFIX = (
+    "\n\nREMINDER: No text, titles, captions, or written words "
+    "should appear anywhere in the video frame at any time."
+)
+
+
+def _wrap_prompt(prompt: str) -> str:
+    """Prepend style enforcement + no-text instructions and append no-text reminder."""
+    return f"{NO_TEXT_PREFIX}{STYLE_ENFORCEMENT}{prompt}{NO_TEXT_SUFFIX}"
+
 
 @dataclass
 class VeoVideoHandle:
@@ -31,10 +53,10 @@ class VeoVideoHandle:
     extension_count: int = 0
 
 SAFETY_SETTINGS = [
-    types.SafetySetting(category="HARM_CATEGORY_DANGEROUS_CONTENT", threshold="BLOCK_ONLY_HIGH"),
-    types.SafetySetting(category="HARM_CATEGORY_HARASSMENT", threshold="BLOCK_ONLY_HIGH"),
-    types.SafetySetting(category="HARM_CATEGORY_HATE_SPEECH", threshold="BLOCK_ONLY_HIGH"),
-    types.SafetySetting(category="HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold="BLOCK_ONLY_HIGH"),
+    types.SafetySetting(category="HARM_CATEGORY_DANGEROUS_CONTENT", threshold="BLOCK_NONE"),
+    types.SafetySetting(category="HARM_CATEGORY_HARASSMENT", threshold="BLOCK_NONE"),
+    types.SafetySetting(category="HARM_CATEGORY_HATE_SPEECH", threshold="BLOCK_NONE"),
+    types.SafetySetting(category="HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold="BLOCK_NONE"),
 ]
 
 
@@ -46,38 +68,82 @@ def get_client(api_key: str) -> genai.Client:
     return genai.Client(api_key=api_key)
 
 
-def load_reference_images(channel_dir: Path) -> list[bytes]:
-    """Load canonical skeleton reference images for Veo conditioning.
+def load_reference_images(channel_dir: Path) -> dict[str, list[bytes]]:
+    """Load skeleton reference images for angle-aware Veo conditioning.
 
-    Returns up to 3 images (Veo 3.1 max):
-      1. skeleton_front_neutral — full-body primary anchor
-      2. skeleton_headshot — close-up for skull detail
-      3. skeleton_side — 3/4 angle for depth
+    Returns a dict keyed by angle: 'front', 'side', 'threequarter', 'back'.
+    Each value is a list of image bytes for that angle.
+    Falls back to the single canonical reference if multi-angle images don't exist.
     """
     ref_dir = channel_dir / "reference_images"
-    refs: list[bytes] = []
 
-    for name in ["skeleton_front_neutral.jpg", "skeleton_front_neutral.png"]:
-        path = ref_dir / name
-        if path.exists():
-            data = path.read_bytes()
-            print(f"  Loaded ref (full-body): {name} ({len(data) / 1024:.0f} KB)")
-            refs.append(data)
-            break
+    angle_map = {
+        "front": [
+            "skeleton_familyguy_front.png",
+            "skeleton_front_neutral.jpg",
+            "skeleton_front_neutral.png",
+        ],
+        "threequarter": [
+            "skeleton_familyguy_threequarter.png",
+        ],
+        "side": [
+            "skeleton_familyguy_side.png",
+        ],
+        "back": [
+            "skeleton_familyguy_back.png",
+        ],
+    }
 
-    for name in ["skeleton_headshot.png", "skeleton_side.png"]:
-        path = ref_dir / name
-        if path.exists():
-            data = path.read_bytes()
-            print(f"  Loaded ref: {name} ({len(data) / 1024:.0f} KB)")
-            refs.append(data)
+    all_refs: dict[str, list[bytes]] = {}
+    for angle, filenames in angle_map.items():
+        refs = []
+        for name in filenames:
+            path = ref_dir / name
+            if path.exists():
+                data = path.read_bytes()
+                print(f"  Loaded ref ({angle}): {name} ({len(data) / 1024:.0f} KB)")
+                refs.append(data)
+        if refs:
+            all_refs[angle] = refs
 
-    if not refs:
+    total = sum(len(v) for v in all_refs.values())
+    if not all_refs:
         print("  WARNING: No channel reference images found.")
     else:
-        print(f"  Total reference images: {len(refs)}/3 (Veo 3.1 max)")
+        print(f"  Total reference images: {total} across {len(all_refs)} angles")
 
-    return refs
+    return all_refs
+
+
+def select_refs_for_prompt(all_refs: dict[str, list[bytes]], prompt_text: str) -> list[bytes]:
+    """Select the best reference images based on camera angle keywords in the prompt.
+
+    Parses the prompt for angle keywords and returns up to 3 refs for that angle.
+    Falls back to front-facing refs if no angle is detected.
+    """
+    prompt_lower = prompt_text.lower()
+
+    if any(kw in prompt_lower for kw in ["from behind", "from the back", "back view", "rear"]):
+        angle = "back"
+    elif any(kw in prompt_lower for kw in ["three-quarter", "three quarter", "3/4"]):
+        angle = "threequarter"
+    elif any(kw in prompt_lower for kw in ["side view", "from the side", "profile"]):
+        angle = "side"
+    else:
+        angle = "front"
+
+    refs = list(all_refs.get(angle, []))
+    if not refs:
+        refs = list(all_refs.get("front", []))
+        angle = "front (fallback)"
+
+    front_primary = all_refs.get("front", [None])[0] if all_refs.get("front") else None
+    if front_primary and front_primary not in refs:
+        refs = [front_primary] + refs
+
+    selected = refs[:3]
+    print(f"  [{_ts()}] Ref selection: angle={angle}, count={len(selected)}/3")
+    return selected
 
 
 def _wait_for_video(client: genai.Client, operation) -> object:
@@ -131,6 +197,7 @@ def generate_video(
     Falls back through: ASSET refs -> first-frame -> text-only.
     """
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    prompt = _wrap_prompt(prompt)
     base_config = {
         "aspect_ratio": "9:16",
         "duration_seconds": duration,
@@ -241,6 +308,7 @@ def generate_initial(
         "duration_seconds": duration,
         "resolution": resolution,
     }
+    prompt = _wrap_prompt(prompt)
     gen_kwargs: dict[str, Any] = {"model": VIDEO_MODEL, "prompt": prompt}
 
     if ref_images:
@@ -286,6 +354,7 @@ def extend_video(
     """
     ext_num = handle.extension_count + 1
     new_duration = handle.duration_seconds + EXTENSION_DURATION
+    prompt = _wrap_prompt(prompt)
 
     # Brief delay to let the server finish processing the previous video
     print(f"  [{_ts()}] Waiting 10s for server-side video processing...")

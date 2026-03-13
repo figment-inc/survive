@@ -81,118 +81,88 @@ def _metricool_normalize_media_url(settings: Settings, media_url: str) -> str:
 def upload_media_file(settings: Settings, file_path: str) -> str:
     """Upload a local video file to Metricool via S3 presigned upload and return the hosted URL.
 
-    3-step flow:
-      1. Create upload transaction (get presigned URL)
-      2. Upload file to S3 via presigned PUT
-      3. Complete transaction (get final hosted URL)
+    Uses the same pattern as excellenthistory: sha256 hash, fileExtension field.
     """
     from pathlib import Path
     import hashlib
+    import base64
 
     p = Path(file_path)
     if not p.exists():
         raise FileNotFoundError(f"Media file not found: {file_path}")
 
     file_size = p.stat().st_size
-    mime = "video/mp4" if p.suffix.lower() == ".mp4" else "application/octet-stream"
     base_url = settings.metricool_api_url.rstrip("/")
     auth_params = _metricool_auth_query(settings)
-    headers_auth = {"X-Mc-Auth": settings.metricool_user_token}
+    headers = {
+        "X-Mc-Auth": settings.metricool_user_token,
+        "Content-Type": "application/json",
+    }
 
-    file_data = p.read_bytes()
-    md5_hash = hashlib.md5(file_data).hexdigest()
+    LOGGER.info("Uploading %s (%d bytes) to Metricool S3...", p.name, file_size)
 
-    LOGGER.info("Creating upload transaction for %s (%d bytes)", p.name, file_size)
+    with open(file_path, "rb") as f:
+        file_bytes = f.read()
 
-    create_resp = requests.put(
+    sha256_hash = base64.b64encode(hashlib.sha256(file_bytes).digest()).decode()
+
+    tx_body = {
+        "resourceType": "planner",
+        "contentType": "video/mp4",
+        "fileExtension": "mp4",
+        "parts": [{
+            "size": file_size,
+            "startByte": 0,
+            "endByte": file_size,
+            "hash": sha256_hash,
+        }],
+    }
+
+    tx_resp = requests.put(
         f"{base_url}/v2/media/s3/upload-transactions",
         params=auth_params,
-        headers={**headers_auth, "Content-Type": "application/json"},
-        json={
-            "resourceType": "planner",
-            "contentType": mime,
-            "parts": [{
-                "size": file_size,
-                "startByte": 0,
-                "endByte": file_size,
-                "hash": md5_hash,
-            }],
-        },
-        timeout=60,
+        headers=headers,
+        json=tx_body,
+        timeout=30,
     )
-    create_resp.raise_for_status()
-    upload_info = create_resp.json()
+    LOGGER.info("Create transaction status: %d", tx_resp.status_code)
 
-    upload_type = upload_info.get("uploadType", "SIMPLE")
-    s3_key = upload_info.get("key", "")
+    if tx_resp.status_code not in (200, 201):
+        raise RuntimeError(f"Failed to create upload transaction: {tx_resp.status_code} {tx_resp.text[:300]}")
 
-    if upload_type == "SIMPLE":
-        presigned_url = upload_info.get("fileUrl", "")
-        if not presigned_url:
-            raise RuntimeError(f"No presigned URL in upload response: {upload_info}")
+    tx_data = tx_resp.json()
+    file_url = tx_data.get("fileUrl")
 
-        LOGGER.info("Uploading to S3 (simple): %s", presigned_url[:80])
-        put_resp = requests.put(
-            presigned_url,
-            data=file_data,
-            headers={"Content-Type": mime},
-            timeout=300,
-        )
-        put_resp.raise_for_status()
+    presigned_url = tx_data.get("presignedUrl")
+    if not presigned_url and tx_data.get("parts"):
+        presigned_url = tx_data["parts"][0].get("presignedUrl")
 
-        complete_resp = requests.patch(
-            f"{base_url}/v2/media/s3/upload-transactions",
-            params=auth_params,
-            headers={**headers_auth, "Content-Type": "application/json"},
-            json={"simple": {"fileUrl": presigned_url.split("?")[0]}},
-            timeout=60,
-        )
-        complete_resp.raise_for_status()
-        complete_data = complete_resp.json()
-        final_url = complete_data.get("fileUrl") or complete_data.get("url", presigned_url.split("?")[0])
+    if not presigned_url:
+        raise RuntimeError(f"No presigned URL in response: {tx_data}")
 
-    else:
-        parts_info = upload_info.get("parts", [])
-        upload_id = upload_info.get("uploadId", "")
-        completed_parts = []
+    LOGGER.info("Uploading to S3 presigned URL...")
+    upload_resp = requests.put(
+        presigned_url,
+        data=file_bytes,
+        headers={"Content-Type": "video/mp4"},
+        timeout=600,
+    )
 
-        for part in parts_info:
-            part_url = part.get("presignedUrl", "")
-            part_num = part.get("partNumber", 1)
-            start = part.get("startByte", 0)
-            end = part.get("endByte", file_size)
-            chunk = file_data[start:end]
+    if upload_resp.status_code not in (200, 201):
+        raise RuntimeError(f"S3 upload failed: {upload_resp.status_code} {upload_resp.text[:200]}")
 
-            LOGGER.info("Uploading part %d (%d bytes)", part_num, len(chunk))
-            put_resp = requests.put(
-                part_url,
-                data=chunk,
-                headers={"Content-Type": mime},
-                timeout=300,
-            )
-            put_resp.raise_for_status()
-            etag = put_resp.headers.get("ETag", "")
-            completed_parts.append({"partNumber": part_num, "etag": etag})
+    if file_url:
+        LOGGER.info("Metricool S3 file URL: %s", file_url[:80])
+        return file_url
 
-        complete_resp = requests.patch(
-            f"{base_url}/v2/media/s3/upload-transactions",
-            params=auth_params,
-            headers={**headers_auth, "Content-Type": "application/json"},
-            json={
-                "multipart": {
-                    "uploadId": upload_id,
-                    "key": s3_key,
-                    "parts": completed_parts,
-                }
-            },
-            timeout=60,
-        )
-        complete_resp.raise_for_status()
-        complete_data = complete_resp.json()
-        final_url = complete_data.get("fileUrl") or complete_data.get("url", "")
+    s3_key = tx_data.get("key")
+    s3_bucket = tx_data.get("bucket")
+    if s3_key and s3_bucket:
+        constructed_url = f"https://{s3_bucket}.s3.eu-west-1.amazonaws.com/{s3_key}"
+        LOGGER.info("Constructed S3 URL: %s", constructed_url[:80])
+        return constructed_url
 
-    LOGGER.info("Upload complete: %s", final_url[:80] if final_url else "(no URL)")
-    return final_url
+    raise RuntimeError("No file URL available after upload")
 
 
 def _extract_post_id(response_payload: dict) -> Optional[str]:
@@ -285,7 +255,7 @@ def publish_to_metricool(
         "firstCommentText": first_comment,
         "providers": providers,
         "autoPublish": True,
-        "saveExternalMediaFiles": False,
+        "saveExternalMediaFiles": True,
         "shortener": False,
         "draft": False,
         "media": [normalized_media_url] if normalized_media_url else [],
@@ -310,8 +280,8 @@ def publish_to_metricool(
             request_payload["youtubeData"] = {
                 "title": video_title,
                 "type": "SHORT",
-                "category": "27",
-                "privacyStatus": "public",
+                "category": "EDUCATION",
+                "privacy": "public",
                 "madeForKids": False,
             }
         if provider_name == "tiktok":

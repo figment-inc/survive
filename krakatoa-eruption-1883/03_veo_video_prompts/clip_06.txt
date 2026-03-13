@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, low angle from exposed seabed. Locked camera, flat composition, no movement. The figure stands on the revealed ocean floor, tiny against the vast exposed strait. Classic adult animated comedy wide environmental staging for maximum vulnerability.
+
+Same setting, dramatically transformed — cut from the dock to the exposed seabed. The water has retreated. The ocean floor is visible.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure stands on the exposed seabed, looking down at its feet in bewilderment — skull tilted down, arms hanging loose. At second 2, it looks up and around slowly, taking in the impossibility — the ocean is gone. A slow 180-degree cartoon head pan. At second 4, it notices villagers around it picking up stranded fish and looks at them with confused orb eyes. At second 5, it sees the old woman pointing and gesturing urgently inland. At second 6, the figure looks seaward — toward where the water went. A beat of stillness. At second 7, the orb eyes go very, very wide. The skull tilts slightly as it recognizes what this means. The philosophical beat — a moment of terrible understanding frozen on its face.
+
+Flat even lighting on characters. Color palette: dark brown-grey mud, glistening dark teal puddles, flat silver fish, charcoal-black sky, intense orange-red volcanic glow, dark brown exposed pilings, pale pink coral.
+
+Foreground: Exposed seabed — dark brown-grey mud. Stranded fish flopping in flat silver and blue. A beached coral formation in flat pinks and whites. Shells, starfish, seaweed. An anchor draped in kelp.
+
+Midground: The figure on the seabed. Villagers around it — some collecting fish, others staring. The Anjer dock standing absurdly high on exposed pilings.
+
+Background: The waterline retreated hundreds of meters. Flat glistening mud to the horizon. The sky completely black with intense orange-red volcanic glow. The eruption column impossibly massive.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- Off-screen narrator says: "Then the sea disappears. The ocean floor lies naked and gasping. Fish flop in the mud. People are collecting them. Our unfortunate friend, you understand something they don't. When the sea leaves, it always comes back."
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent. "The sea disappears" — stated simply, as if reporting the weather. "Naked and gasping" — almost poetic, savoring the image. "People are collecting them" — casual, observational, horrifying in its normality. A pause before the philosophical beat. "When the sea leaves, it always comes back" — slower, quieter, dropping to a near-whisper. Dark affection for "our unfortunate friend."
+
+Audio direction:
+- Music: Near silence — the orchestral elements withdraw to a single sustained low cello note. Then slowly, almost imperceptibly, a deep bass drum begins a slow pulse — boom... boom... boom — like a distant heartbeat or approaching footsteps. Building dread through absence.
+- SFX: The wet slap of fish flopping on mud. Squelching footsteps in silt. The creak of the dock pilings now exposed to air. Water dripping from seaweed. A distant deep rumble from the volcano.
+- Ambience: An eerie, unnatural quiet — the sound of a world with its ocean removed. Wind across the exposed mud flat. Confused voices — Javanese murmurs. The wet organic sounds of the exposed seabed. Beneath it all, a deep subsonic vibration growing stronger.

@@ -4,6 +4,16 @@
 
 A hapless skeleton gets teleported into history's most horrific moments — plagues, sieges, volcanic eruptions, sinkings, collapses, and catastrophes of every kind. A darkly amused narrator tells the story in second person ("you") while the skeleton stumbles through each scenario with wide-eyed physical comedy. Every episode ends terribly. The skeleton never survives. But the history is always real.
 
+## Visual Style
+
+Classic American adult animation (Family Guy seasons 10-20 aesthetic):
+- **Flat cel-shaded coloring** with ZERO gradients
+- **Thick uniform black outlines** on ALL elements (characters, objects, backgrounds)
+- **Simplified features**, clean vector rendering
+- **No 3D rendering**, no photorealistic elements, no shading variation
+- **Static locked camera** — no handheld, no shaky-cam, no drift
+- **Flat 2D compositions** — painted layered backgrounds, minimal parallax
+
 ## Tone
 
 - **Immersive thriller, never lecture.** The viewer IS the skeleton — they make decisions, try to survive, and fail. The script reads like a first-person survival story, not a documentary.
@@ -17,11 +27,13 @@ A hapless skeleton gets teleported into history's most horrific moments — plag
 - Vertical 9:16 short-form video optimized for YouTube Shorts
 - **60–75 seconds per episode** (target 65s — Shorts supports up to 3 minutes)
 - **200–230 words of narration** at ~3 words/second — dense narrative, no dead air
-- Narration-over format: the skeleton appears on camera but never speaks — all audio is narrator voiceover + Veo ambient/SFX + music from ElevenLabs
+- Classic American adult animation style (flat cel-shaded, thick outlines)
+- The skeleton appears on camera but never speaks — narration is off-screen voiceover
+- **ALL audio generated natively by Veo 3.1**: narrator speech + SFX + ambience + music
+- No ElevenLabs. No external TTS. No external music generation.
+- No captions burned into video.
 - **9–12 clips** (mix of 4s and 8s) — target visual change every 3–4 seconds
-- Veo generates clips with native ambient audio and SFX (no speech, no dialogue)
-- Audio layers mixed in post: narrator voiceover (ElevenLabs TTS) + Veo native audio (ambient/SFX) + background music (ElevenLabs Music)
-- **Animated word-by-word captions** burned into video (bold white, black outline, center-bottom)
+- Static locked camera throughout — flat 2D animated compositions
 - Native Veo output durations only — NEVER crop or trim video
 
 ## Episode Structure (5 Narrative Beats)
@@ -46,13 +58,15 @@ Each beat spans 2–3 clips. The viewer drives the story through their (failed) 
 - Pacing: ~3 words per second, **200–230 words per episode**
 - **Sentence length**: target 5–8 words average, with frequent 3–4 word punches ("They laugh.", "You are not running.", "No one listens.")
 - **Micro-cliffhangers**: every 10–15 seconds, something shifts — a failure, a twist, a new threat
-- Produced via ElevenLabs TTS API
+- Generated via **Veo 3.1 native speech** as off-screen voiceover (directed via dialogue + voice blocks in video prompts)
 
 ## Naming Rules (for Veo prompts)
 
 - NEVER use the word "skeleton" in Veo prompts if it triggers safety filters
+- NEVER reference copyrighted show names (Family Guy, Simpsons, South Park) in prompts
 - In prompts: refer to the character as **the figure** or **the translucent character**
-- The character NEVER speaks in Veo prompts. All prompts must include: "No dialogue. No speech."
+- Use "classic American adult animation style" for style enforcement
+- The character NEVER speaks in Veo prompts. All prompts must include: "The on-screen character does NOT speak. Silent physical reactions only."
 - The reference image handles visual identity — detailed descriptions reinforce it
 
 ## Script Writing Rules
@@ -71,6 +85,5 @@ Each beat spans 2–3 clips. The viewer drives the story through their (failed) 
 - **Voice on frame 1.** The "What happens if..." hook plays over the very first visual. ZERO seconds of silence.
 - Target **60–75 seconds** total (9–12 clips)
 - **Visual change every 3–4 seconds** — fast cuts, angle changes, new information in every shot
-- **Animated captions** — word-by-word highlighting, always on. 85% of viewers watch without sound.
 - Narrator fills EVERY clip — no silent clips, no dead air
 - End with an open question or haunting image that drives comments and shares

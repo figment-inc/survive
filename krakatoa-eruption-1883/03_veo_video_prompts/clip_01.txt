@@ -1,0 +1,31 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 720p.
+
+Camera: Static wide establishing shot. Locked camera, flat composition, no movement. The volcanic island of Krakatoa fills the midground, with the Sunda Strait in the lower third and the eruption column in the upper third. Classic adult animated comedy wide tableau staging.
+
+Opening shot — no previous clip. This is the cold open hook establishing the location and threat.
+
+No character in this shot.
+
+Flat even lighting across the entire scene. Color palette: turquoise and jade water, dark grey-brown volcanic rock, dirty yellow-green sky, charcoal and dark grey eruption column, bright emerald vegetation, bright yellow lightning flashes within the cloud.
+
+Foreground: Turquoise-green strait water rendered in flat bands of color. A traditional Javanese outrigger prahu with a triangular lateen sail and weathered teak hull painted in faded red. Coiled hemp rope and woven rattan fish traps visible on its deck. Simple flat wave patterns lapping at the hull.
+
+Midground: The volcanic island of Krakatoa — three distinct peaks: Rakata, Danan, and Perboewatan. Dense tropical vegetation in flat emerald bands covering the lower slopes. A thin orange glow tracing the rim of Perboewatan crater. Steam and dark ash beginning to rise.
+
+Background: The eruption column growing upward — stacked flat layers of dark grey, charcoal, and dirty brown. Flat yellow lightning zigzags crackling within. The sky transitioning from sickly yellow near the column to pale blue at the edges. A second distant sail on the strait.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- Off-screen narrator says: "What happens if you're standing on an island that's about to erase itself from the map?"
+- No on-screen character in this clip.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor. Delivery starts immediately on frame 1 — intrigued, conspiratorial, as if sharing a terrible secret. Rising inflection on "erase itself from the map" for dramatic hook.
+
+Audio direction:
+- Music: Low ominous brass drone — a single sustained tuba note with a faint tremolo, barely perceptible, building unease beneath the narration. Sparse, minimal, tension-setting.
+- SFX: Distant deep volcanic rumble — a subsonic bass growl felt more than heard. The wooden creak of the prahu's hull against the water. A faint crack of volcanic lightning from within the distant ash column.
+- Ambience: Tropical sea ambience — lapping waves, warm wind, the cry of a distant seabird — all slightly wrong, too quiet, the animals already sensing something. An oppressive atmospheric pressure, the air heavy and waiting.

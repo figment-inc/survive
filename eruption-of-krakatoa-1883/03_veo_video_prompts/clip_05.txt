@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure mid-sprint along the ash-covered dock. Classic adult animated comedy medium action staging.
+
+Same location, time advanced — evening has turned to premature total darkness as volcanic ash blots out the sky.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 4 seconds: The figure is in full cartoon sprint from right to left (0-2s) — exaggerated running pose, legs stretched, arms pumping, skull turned to look back over its shoulder with wide terrified orb eyes. Then it skids on the ash-covered dock (2-3s), one foot sliding out, arms pinwheeling for balance in a classic animated comedy slip. It catches itself and keeps running (3-4s).
+
+Near-monochrome color palette — dark greys, charcoal blacks, flat ash grey everywhere, punctuated by bright orange-red fire and warm yellow lantern glow. The figure's pale translucent form practically glows against the darkness.
+
+Foreground: Thick grey volcanic ash falling like heavy snow — flat grey ovals drifting across the frame. Ash accumulated on every surface. A tipped wooden cart with spinning wheels.
+
+Midground: The figure sprinting. Villagers fleeing on both sides — flat-colored figures running with bundles, a woman carrying a child, a man dragging a goat.
+
+Background: Total darkness where sky should be. Scattered oil lanterns and a building on fire from a fallen lamp — flat orange-red flames. The Dutch colonial church coated grey, its bell swinging wildly.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- Off-screen narrator says: "By nightfall, it's raining hot stones. The sky turns black. Not dark. Black. Noon looks like midnight."
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent. Quick, urgent pace — matching the running. "Not dark. Black." delivered as two sharp, distinct punches with a beat between them. "Noon looks like midnight" with grim wonder. Second person address ("you").
+
+Audio direction:
+- Music: Tempo increases — urgent staccato strings, low brass pulses, building dread. The gentle gamelan melody is gone.
+- SFX: Running footsteps crunching through volcanic ash, the skid-slip on the ash surface, pumice stones impacting wooden dock planks with hollow thuds, the crackle and roar of the burning building, the church bell clanging wildly, a goat's panicked bleating
+- Ambience: A village in chaos — screaming, running footsteps everywhere, the continuous roar of volcanic activity across the strait, the hiss of hot pumice stones hitting water, ash falling with a soft constant susurration like sand in an hourglass

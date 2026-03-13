@@ -1,4 +1,4 @@
-"""ffmpeg audio mixing and caption generation — keeps Veo native audio, layers narration + music, burns captions."""
+"""ffmpeg video utilities — stitching with LUFS normalization, frame extraction, chain splitting."""
 
 from __future__ import annotations
 
@@ -383,7 +383,12 @@ def trim_video(video_path: Path, output_path: Path, target_seconds: float) -> bo
 
 
 def stitch_clips(clip_paths: list[Path], output_path: Path) -> bool:
-    """Concatenate clips into a final video via ffmpeg concat demuxer."""
+    """Concatenate clips into a final video with LUFS normalization.
+
+    Two-pass approach:
+      1. ffmpeg concat demuxer to join all clips
+      2. loudnorm filter to normalize audio to -14 LUFS / -1.0 dBTP
+    """
     if not clip_paths:
         print("  ERROR: No clips to stitch.")
         return False
@@ -392,23 +397,40 @@ def stitch_clips(clip_paths: list[Path], output_path: Path) -> bool:
     concat_file = output_path.parent / "concat_list.txt"
     concat_file.write_text("\n".join(f"file '{p}'" for p in clip_paths))
 
-    cmd = [
+    raw_concat = output_path.parent / f"raw_concat_{output_path.stem}.mp4"
+    cmd_concat = [
         "ffmpeg", "-y",
         "-f", "concat", "-safe", "0",
         "-i", str(concat_file),
         "-c:v", "copy",
-        "-c:a", "aac",
-        "-b:a", "192k",
-        str(output_path),
+        "-c:a", "aac", "-b:a", "192k",
+        str(raw_concat),
     ]
 
     print(f"\n  [{_ts()}] Stitching {len(clip_paths)} clips...")
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    result = subprocess.run(cmd_concat, capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"  ERROR: concat failed: {result.stderr[:500]}")
+        concat_file.unlink(missing_ok=True)
+        return False
+
+    cmd_norm = [
+        "ffmpeg", "-y",
+        "-i", str(raw_concat),
+        "-c:v", "copy",
+        "-af", "loudnorm=I=-14:TP=-1.0:LRA=11",
+        "-c:a", "aac", "-b:a", "192k",
+        str(output_path),
+    ]
+
+    print(f"  [{_ts()}] Normalizing to -14 LUFS...")
+    result = subprocess.run(cmd_norm, capture_output=True, text=True)
 
     concat_file.unlink(missing_ok=True)
+    raw_concat.unlink(missing_ok=True)
 
     if result.returncode != 0:
-        print(f"  ERROR: ffmpeg stitch failed: {result.stderr[:500]}")
+        print(f"  ERROR: normalization failed: {result.stderr[:500]}")
         return False
 
     size_mb = output_path.stat().st_size / (1024 * 1024)

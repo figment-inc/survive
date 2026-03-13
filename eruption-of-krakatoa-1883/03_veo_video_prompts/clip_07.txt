@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide environmental shot, eye level. Locked camera, flat composition, no movement. The figure is small in the frame, dwarfed by the apocalyptic sky and the explosion across the water. Classic adult animated comedy wide tableau staging — emphasizing scale and helplessness.
+
+Same location, time advanced — 10:02 AM, August 27. The final cataclysmic explosion. Cut from crouching to standing — the figure has risen to witness what cannot be survived.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure stands frozen at the terrace edge, arms limp, skull tilted upward (0-3s). It slowly turns to look at the water below — the sea is retreating, exposing dark muddy seabed (3-5s). It turns back to the explosion. Its arms slowly rise, reaching out toward the horizon in a gesture that could be awe or surrender or both (5-7s). Then it simply stands still, arms extended, facing the blast (7-8s). Complete stillness in maximum chaos.
+
+White-hot explosion, dark exposed seabed, churning black-brown sky, grey ash. The figure tiny and pale against the apocalyptic backdrop.
+
+Foreground: Stone terrace wall, ash-covered rice paddies, fallen banana palm. Pumice everywhere. Ash falling like snow.
+
+Midground: The figure standing still. The collapsed lean-to. The family has fled uphill.
+
+Background: Where Krakatoa stood — a massive flat white-hot hemisphere expanding across the water with bright orange edges. The sea displaced, dark seabed exposed. The hull of a sunken Dutch vessel visible in the exposed mud. Solid churning dark brown-black sky. Trees bending in the blast wave direction. Villagers on higher terraces falling to their knees.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- Off-screen narrator says: "At ten-oh-two AM, two-thirds of the island simply ceases to exist. The explosion is heard three thousand miles away. It is the loudest sound in recorded human history. You don't hear it. You feel it."
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent. Clinical precision for the facts — "ten-oh-two AM" crisp and exact. "The loudest sound in recorded human history" delivered with restrained awe — the narrator genuinely marvels. "You don't hear it. You feel it." — slow, deliberate, each word weighted. A shift from narrator to something almost intimate. Second person address ("you").
+
+Audio direction:
+- Music: Full dramatic orchestral swell — brass, timpani, high strings in a dissonant major chord that suggests both grandeur and annihilation. This is the catastrophe peak. The music should feel enormous.
+- SFX: A building low-frequency rumble that becomes a single overwhelming BOOM — not sharp, but massive, deep, physical, rattling everything. Then a beat of near-silence. Then the pressure wave — a wall of compressed air that distorts the ambient sound. Wood splintering. Stone cracking.
+- Ambience: After the initial boom, a strange ringing silence — the kind of quiet that follows when a sound is so loud it temporarily overwhelms all other input. Then slowly, the roar returns — wind, debris, the ocean surging back.

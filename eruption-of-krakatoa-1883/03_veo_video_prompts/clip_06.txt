@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium-wide shot, low angle looking up at the figure on a terraced hillside. Locked camera, flat composition, no movement. The volcanic sky looms massive behind. Classic adult animated comedy low-angle dread staging.
+
+NEW framing — cut from dock to hillside. The figure has climbed to higher ground. Time advanced to pre-dawn, August 27.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure crouches on a terrace wall, one hand gripping the stone edge, the other pressed flat against its skull (0-3s). A massive volcanic lightning bolt flashes across the sky behind — the figure flinches hard, shoulders hunching, spine compressing in a full-body cartoon cringe (3-5s). It slowly turns its skull to look across the strait at the volcanic glow, then back to the huddling family nearby, then back to the volcano — a slow, helpless three-point cartoon head-turn (5-8s). Its posture sinks lower with each look.
+
+Near-total darkness color palette — deep charcoal, dirty brown sky, sickly yellow-green cloud edges, bright white-yellow lightning, orange-red volcanic glow, grey ash on everything. The figure's pale form ghostly against the dark hillside.
+
+Foreground: Terraced rice paddy walls of stacked volcanic stone coated in grey ash. Rice stalks bent flat under pumice. A shattered ceramic water vessel. Hot pumice stones faintly glowing orange.
+
+Midground: The figure crouching on the terrace. Nearby, a Javanese family huddles under a bamboo lean-to — a man, woman, and two children in flat colors, batik cloth wrapped over their heads.
+
+Background: Solid wall of churning dark volcanic cloud filling the upper two-thirds. Brilliant volcanic lightning arcing in jagged zigzags. Krakatoa replaced by a glowing orange-red column of fire and ash. The sea churning in dark agitated wave shapes.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- Off-screen narrator says: "You climb. Higher ground, you think. Clever. Except the mountain you're hiding behind is made of the same stuff that's trying to end you. The earth doesn't care about your plan."
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent. "Clever" delivered with fond, patronizing irony — the way you'd praise a dog for a trick that won't help. The philosophical beat — "The earth doesn't care about your plan" — delivered slower, quieter, almost gentle. A moment of genuine reflection amid gallows humor. Second person address ("you").
+
+Audio direction:
+- Music: Deep, sustained low brass — trombones and tubas holding a dissonant chord. A single high violin note trembles above. This is the contemplative beat — the music pulls back from urgency into something heavier, more existential.
+- SFX: The massive crack-boom of volcanic lightning — a sound like the sky splitting, reverberating off the hillside. Pumice stones thudding into mud. The lean-to's bamboo frame creaking under ash weight. A child crying, muffled under cloth.
+- Ambience: Continuous volcanic roar — not explosions now, but a sustained freight-train sound of superheated gas and rock being forced through the earth's crust at impossible volume. Wind gusting ash in swirling patterns. The ground vibrating — a low hum transmitted through stone.

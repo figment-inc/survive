@@ -1,0 +1,35 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static extreme close-up, Dutch angle (tilted frame). Locked camera, flat composition, no movement. Only the figure's skull and upper ribcage visible, surrounded by pressing debris. Claustrophobic framing. Classic adult animated comedy close-up staging.
+
+Same moment, inside the debris wall — cut from the external view to the figure trapped within the grinding mass.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over clip duration: The figure's skull is pressed into a tiny pocket within the debris. For the first three seconds, the orb eyes dart frantically — left, right, up — searching for a way out. One translucent hand presses flat against a section of wallpapered wall. At seconds four and five, the debris compresses further — wooden beams shift closer, the space shrinking. The figure's expression shifts from panic to a slow, terrible stillness. From seconds six through eight, the orb eyes stop darting. The figure's hand relaxes against the wallpaper. The jaw slowly closes. A quiet, resigned final expression — not peace, just acceptance. The faintest dimming of the orb eyes.
+
+NEAR-TOTAL DARKNESS — only a single lightning flash at second three provides illumination through a gap in the debris. Between flashes, the pale glow of the figure's translucent skin is the only light.
+
+Foreground: Splintered wood pressing in from frame edges. Tin roofing bent sharp. Muddy water seeping. A lace curtain fragment.
+
+Midground: The figure's skull and upper body in the tiny space. Wooden beams crossing inches from the skull.
+
+Background: Darkness. One lightning flash through a gap, then black again.
+
+Over eight seconds: the debris compresses slowly, the pocket shrinking. The beams shift incrementally closer. Water seeps in higher. The space that barely existed becomes even smaller.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: Eight thousand people perish tonight. One in every five residents. The deadliest natural disaster in American history.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, but all humor is gone. This is delivered as eulogy. "Eight thousand" — heavy, deliberate. "One in every five" — the mathematics of catastrophe, precise and unbearable. "The deadliest natural disaster in American history" — stated as historical record, the narrator's authority at its most sober. Slow pace. Second person drops to third person — the scope is too large for "you."
+
+Audio direction:
+- Music: The solo violin returns from the orphanage scene, but now it plays a single sustained high note that slowly bends flat — a pitch going wrong, beauty decaying. Then silence.
+- SFX: Wood grinding and creaking in the compressed debris — intimate, close sounds. The wet squelch of water seeping through gaps. A single nail slowly bending with a high metallic whine. The muffled thump of something heavy settling. Then gradually, the individual sounds merge into a deep ambient groan — the voice of the debris wall as a single organism.
+- Ambience: Muffled — the figure is inside the wall now, so the hurricane sounds are filtered through layers of wood and debris. The wind is a distant moan. The water is a gurgle. An underwater-in-wreckage quality — suffocated sound.
