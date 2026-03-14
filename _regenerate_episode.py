@@ -3,14 +3,13 @@
 Regenerate an existing episode from its on-disk files.
 
 Reconstructs the episode dict from storyboard + dialogue script + prompts,
-then runs: audio -> mix -> stitch -> captions -> publish.
+then runs: audio -> mix -> stitch -> publish.
 
 Keeps existing images and video clips intact (only regenerates audio-dependent artifacts).
 
 Usage:
   python _regenerate_episode.py mount-pelee-martinique-1902
   python _regenerate_episode.py mount-pelee-martinique-1902 --publish
-  python _regenerate_episode.py mount-pelee-martinique-1902 --publish --skip-captions
 """
 
 import argparse
@@ -25,7 +24,6 @@ from n8n.run_pipeline import (
     run_audio_phase,
     run_mix_phase,
     run_post_phase,
-    run_captions_phase,
     create_github_release,
     publish_to_metricool_with_upload,
     validate_word_counts,
@@ -111,7 +109,6 @@ def main():
     parser = argparse.ArgumentParser(description="Regenerate existing episode from disk files")
     parser.add_argument("slug", help="Episode slug (directory name)")
     parser.add_argument("--publish", action="store_true", help="Publish via Metricool after generation")
-    parser.add_argument("--skip-captions", action="store_true", help="Skip Remotion captions phase")
     parser.add_argument("--skip-audio", action="store_true", help="Skip audio regeneration (reuse existing narration)")
     args = parser.parse_args()
 
@@ -144,9 +141,6 @@ def main():
 
     if final_path is None:
         final_path = ep_dir / "output" / "mixed" / f"final_{args.slug}.mp4"
-
-    if final_path.exists() and not args.skip_captions:
-        final_path = run_captions_phase(final_path, ep_dir)
 
     phase_banner("REGENERATION COMPLETE")
     if final_path and final_path.exists():

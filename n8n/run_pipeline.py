@@ -14,7 +14,6 @@ Phases:
   3. Video generation (Veo 3.1 — silent clips with SFX/ambience only, NO speech)
   3b. Per-clip audio mixing (ffmpeg — Veo SFX 40% + narration 100% + music 20%)
   4. Stitch + LUFS normalize (ffmpeg — concat mixed clips + loudnorm to -14 LUFS)
-  4b. Remotion karaoke captions (Whisper transcription + Remotion render + ffmpeg composite)
   5. Publish (GitHub Release upload + Metricool API → IG Reel + YT Short + TikTok)
 
 Usage:
@@ -86,11 +85,18 @@ def generate_topic():
     system = (
         "You generate episode topics for 'You Wouldn't Wanna Be', a dark-comedy short-form "
         "video series where a hapless skeleton gets teleported into history's worst moments.\n\n"
-        "Pick ONE specific, visually dramatic historical disaster/catastrophe that would make "
-        "a great 45-second short. The event must be:\n"
+        "Pick ONE specific historical disaster or catastrophe. Prioritize events that:\n"
+        "- Most people have HEARD OF but don't know the full story\n"
+        "- Are taught in schools or referenced in popular culture (movies, TV, books)\n"
+        "- Have high search interest on YouTube and TikTok\n"
+        "- Have a specific, dramatic moment that can anchor a 45-second video\n\n"
+        "Good examples: the Titanic sinking, Pompeii, Chernobyl, the Black Death, "
+        "the Hindenburg, the Great Fire of London, the sinking of the Lusitania, "
+        "the Triangle Shirtwaist fire, the Challenger disaster, Hiroshima, the San "
+        "Francisco earthquake, the Halifax explosion, the Donner Party, the "
+        "Spanish Flu, the Dust Bowl, the eruption of Mount St. Helens.\n\n"
+        "The event must be:\n"
         "- A real, well-documented historical event with a specific date/year\n"
-        "- The WORST possible time and place to be alive — plagues, disasters, sieges, "
-        "eruptions, sinkings, collapses, famines, nuclear incidents\n"
         "- Visually spectacular and cinematically compelling\n"
         "- NOT primarily about explicit torture or sexual content\n"
         "- Safe for AI image/video generation (avoid content filter triggers)\n"
@@ -771,7 +777,6 @@ def main():
     parser.add_argument("--skip-post", action="store_true", help="Skip stitch phase")
     parser.add_argument("--skip-audio", action="store_true", help="Skip ElevenLabs audio generation phase")
     parser.add_argument("--skip-mix", action="store_true", help="Skip per-clip audio mixing phase")
-    parser.add_argument("--skip-captions", action="store_true", help="Skip Remotion captions phase")
     args = parser.parse_args()
 
     topic = " ".join(args.topic) if args.topic else None
@@ -812,9 +817,6 @@ def main():
 
     if final_path is None:
         final_path = ep_dir / "output" / "mixed" / f"final_{slug}.mp4"
-
-    if final_path.exists() and not args.skip_captions:
-        final_path = run_captions_phase(final_path, ep_dir)
 
     phase_banner("GENERATION COMPLETE")
     if final_path.exists():
