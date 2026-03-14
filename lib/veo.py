@@ -36,6 +36,7 @@ NO_TEXT_PREFIX = (
 
 NO_SPEECH_PREFIX = (
     "CRITICAL: Generate ZERO spoken dialogue, narration, voiceover, or character speech. "
+    "No crowd dialogue, no background conversations, no character vocalizations of any kind. "
     "The video must be COMPLETELY SILENT except for environmental SFX and ambient sounds. "
     "No character should move their mouth or appear to speak.\n\n"
 )

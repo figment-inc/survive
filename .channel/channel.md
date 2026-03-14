@@ -27,14 +27,14 @@ Classic American adult animation (Family Guy seasons 10-20 aesthetic):
 
 - Vertical 9:16 short-form video optimized for YouTube Shorts, TikTok, and Instagram Reels
 - **45–50 seconds per episode** (target 48s video — narration MUST finish under 30 seconds)
-- **80–95 words of narration** at ~3 words/second — punchy, dense, every word earns its place
+- **60–72 words of narration** at ~2.3 words/second (measured ElevenLabs pacing) — punchy, dense, every word earns its place
 - Classic American adult animation style (flat cel-shaded, thick outlines)
 - The skeleton appears on camera but never speaks — narration is off-screen voiceover
 - **Split audio pipeline**:
   - **Veo 3.1**: Generates SILENT video with environmental SFX + ambient sounds only
   - **ElevenLabs TTS**: Generates narrator voiceover (Dan — British Documentary Narrator, voice ID `BHr135B5EUBtaWheVj8S`)
   - **ElevenLabs Music**: Generates cinematic nature documentary underscore
-  - **ffmpeg**: Mixes per clip: Veo audio 40% + narration 100% + music 20%
+  - **ffmpeg**: Mixes per clip: Veo audio 15% + narration 100% + music 20%
 - Remotion-rendered karaoke captions (Whisper transcription + transparent overlay)
 - **8 clips** (mix of 4s and 8s) — target visual change every 4–6 seconds
 - Static locked camera throughout — flat 2D animated compositions
@@ -60,7 +60,7 @@ Each beat spans 1–2 clips. The viewer drives the story through their (failed) 
 - The horror comes from the steady, composed delivery of devastating facts — not from humor or theatrics
 - Scientific precision: specific numbers, temperatures, distances, chemical reactions
 - Addresses the viewer directly in second person present tense: "you wake up", "you feel the ground shift"
-- Pacing: ~3 words per second, **80–95 words per episode** (HARD CEILING — narration must finish under 30 seconds)
+- Pacing: ~2.3 words per second (measured ElevenLabs output), **60–72 words per episode** (HARD CEILING — narration must finish under 30 seconds)
 - **Sentence structure**: Short, punchy sentences. Average 5-10 words. Staccato rhythm for catastrophe beats, slightly more flowing for immersion.
 - **Sensory specificity**: Visceral, concrete details. Not "the fire is hot" but "eighteen hundred degrees — hot enough to melt your fillings."
 - Generated via **ElevenLabs TTS** (Dan — British Documentary Narrator, voice ID `BHr135B5EUBtaWheVj8S`)
@@ -89,7 +89,7 @@ Each beat spans 1–2 clips. The viewer drives the story through their (failed) 
 - **One moment of genuine scientific awe per episode.** A fact so extraordinary it creates wonder.
 - **Callback endings.** The cliffhanger should echo or invert the hook for structural satisfaction.
 - **Open-loop endings.** End with an unresolved fact that drives comments: "The real number may never be known."
-- **80–95 words total. HARD CEILING.** The entire narration must finish under 30 seconds of spoken audio.
+- **60–72 words total. HARD CEILING.** The entire narration must finish under 30 seconds of spoken audio.
 
 ## TikTok / YouTube Shorts Optimization
 

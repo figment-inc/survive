@@ -91,7 +91,7 @@ def mix_clip_audio(
     narration_duration: float = 0.0,
     music_offset: float = 0.0,
     music_volume: float = 0.20,
-    veo_audio_volume: float = 0.40,
+    veo_audio_volume: float = 0.15,
     force: bool = False,
 ) -> tuple[bool, float]:
     """Mix a single clip: keep Veo native audio + layer narration + music.
@@ -111,46 +111,51 @@ def mix_clip_audio(
     has_narration = narration_path and narration_path.exists()
     has_music = music_path and music_path.exists()
 
-    needed = narration_duration + NARRATION_DELAY + NARRATION_BUFFER if narration_duration > 0 else 0.0
+    max_narr_dur = clip_duration - NARRATION_DELAY - NARRATION_BUFFER
     video_dur = clip_duration
-
     speedup = 1.0
-    extend_to = 0.0
-    actual_video_path = video_path
+    actual_narration_path = narration_path
 
-    if needed > video_dur and narration_duration > 0:
-        ratio = needed / video_dur
+    if has_narration and narration_duration > max_narr_dur:
+        ratio = (narration_duration + NARRATION_DELAY + NARRATION_BUFFER) / video_dur
         if ratio <= MAX_ATEMPO:
             speedup = ratio
             print(f"  [{_ts()}] Narration {narration_duration:.1f}s > clip {video_dur:.0f}s — "
                   f"speeding up narration {speedup:.2f}x")
         else:
-            extend_to = needed
-            print(f"  [{_ts()}] Narration {narration_duration:.1f}s >> clip {video_dur:.0f}s — "
-                  f"extending video to {extend_to:.1f}s via freeze-frame")
-            extended_path = output_path.parent / f"{output_path.stem}_extended.mp4"
-            if not _extend_video_with_freeze(video_path, extend_to, extended_path):
-                print(f"  WARNING: freeze failed, falling back to atempo clamp")
-                speedup = MAX_ATEMPO
+            trimmed_path = narration_path.parent / f"{narration_path.stem}_trimmed.mp3"
+            trim_cmd = [
+                "ffmpeg", "-y",
+                "-i", str(narration_path),
+                "-t", f"{max_narr_dur:.3f}",
+                "-c", "copy",
+                str(trimmed_path),
+            ]
+            result = subprocess.run(trim_cmd, capture_output=True, text=True)
+            if result.returncode == 0 and trimmed_path.exists():
+                print(f"  [{_ts()}] Narration {narration_duration:.1f}s >> clip {video_dur:.0f}s — "
+                      f"trimmed to {max_narr_dur:.1f}s (last words may be cut)")
+                actual_narration_path = trimmed_path
+                narration_duration = max_narr_dur
             else:
-                actual_video_path = extended_path
-                video_dur = extend_to
+                print(f"  [{_ts()}] WARNING: trim failed, clamping atempo to {MAX_ATEMPO}x")
+                speedup = MAX_ATEMPO
 
-    effective_dur = video_dur if extend_to == 0 else extend_to
+    effective_dur = clip_duration
 
-    inputs = ["-i", str(actual_video_path)]
+    inputs = ["-i", str(video_path)]
     filter_parts: list[str] = []
     audio_streams: list[str] = []
     stream_idx = 1
 
-    has_veo_audio = (actual_video_path == video_path)
+    has_veo_audio = True
     if has_veo_audio:
-        veo_vol = veo_audio_volume if has_narration else 0.60
+        veo_vol = veo_audio_volume if has_narration else 0.30
         filter_parts.append(f"[0:a]volume={veo_vol},apad[veo]")
         audio_streams.append("[veo]")
 
     if has_narration:
-        inputs.extend(["-i", str(narration_path)])
+        inputs.extend(["-i", str(actual_narration_path)])
         narr_filters = f"adelay={int(NARRATION_DELAY * 1000)}|{int(NARRATION_DELAY * 1000)}"
         if speedup > 1.0:
             narr_filters += f",atempo={speedup:.4f}"
@@ -173,16 +178,13 @@ def mix_clip_audio(
     filter_parts.append(f"{streams_str}amix=inputs={mix_count}:duration=first:normalize=0[a]")
     filter_complex = ";".join(filter_parts)
 
-    use_copy = (actual_video_path == video_path)
-
     cmd = [
         "ffmpeg", "-y",
         *inputs,
         "-filter_complex", filter_complex,
         "-map", "0:v",
         "-map", "[a]",
-        "-c:v", "copy" if use_copy else "libx264",
-        *([] if use_copy else ["-preset", "fast", "-crf", "18"]),
+        "-c:v", "copy",
         "-c:a", "aac",
         "-b:a", "192k",
         "-t", f"{effective_dur:.2f}",
@@ -192,8 +194,8 @@ def mix_clip_audio(
     mode = "normal"
     if speedup > 1.0:
         mode = f"atempo {speedup:.2f}x"
-    elif extend_to > 0:
-        mode = f"extended to {extend_to:.1f}s"
+    elif actual_narration_path != narration_path:
+        mode = "narration trimmed"
 
     print(f"  [{_ts()}] Mixing {output_path.stem}: "
           f"veo={'yes'} narr={'yes' if has_narration else 'no'} "
@@ -205,8 +207,8 @@ def mix_clip_audio(
         print(f"  ERROR mixing: {result.stderr[-500:]}")
         return False, clip_duration
 
-    if actual_video_path != video_path and actual_video_path.exists():
-        actual_video_path.unlink()
+    if actual_narration_path and actual_narration_path != narration_path and actual_narration_path.exists():
+        actual_narration_path.unlink()
 
     size_mb = output_path.stat().st_size / (1024 * 1024)
     print(f"  [{_ts()}] Mixed: {output_path.name} ({size_mb:.1f} MB)")

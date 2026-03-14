@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. A narrow medieval street fills the frame, buildings closing in from both sides. The figure walks toward camera down the center of the street. Classic adult animated comedy medium shot staging.
+
+Visual transition: NEW location — cut from the harbor to inside the walled city. Same oppressive palette.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-3, the figure walks cautiously down the narrow street toward camera, head swiveling side to side, taking in the dark crosses painted on doors. At second 4, the figure stops and looks down — a dead rat lies at its feet, belly-up. At seconds 5-6, the figure steps gingerly over the rat and continues, then freezes as a wooden cart loaded with wrapped bundles is pushed past in the background by a hooded figure. At seconds 7-8, the figure presses its back against the stone wall to let the cart pass, orb eyes tracking it with growing unease, arms pressed flat against the wall.
+
+Flat even lighting. Putrid olive green walls, ashen grey cobblestones, bruised plum in doorway shadows. Greenish-yellow miasma haze hangs in the air, thicker at street level. Candle glow — flat warm amber — from a few windows.
+
+Foreground: Dead rat silhouette on the cobblestones. An overturned clay chamber pot. Flies as small black dots. A dried herb bundle — wormwood — hanging from a doorframe.
+
+Midground: The figure in the street. Timber-framed buildings leaning inward, upper stories jutting out. Dark painted crosses on wooden doors. Stained linen hanging from windows.
+
+Background: The street receding into greenish-yellow haze. The wooden cart with wrapped bundles being pushed by a hooded figure. Smoke rising from a clay brazier burning rosemary. The church bell tower above the rooftops.
+
+Audio direction:
+- SFX: The figure's footsteps on cobblestones — a light, hollow tap-tap, the slow creak of the wooden cart's ungreased wheel axle grinding, rats scrabbling inside walls — scratching behind timber, the buzz of flies, a distant church bell tolling a single low note, a door slamming shut somewhere nearby
+- Ambience: Medieval city under plague — an eerie quiet broken by sporadic sounds, distant weeping filtering through shuttered windows, the low murmur of prayer from behind a door, wind channeling through the narrow street carrying the acrid smell-suggesting sound of crackling burning herbs, an oppressive stillness between sounds
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

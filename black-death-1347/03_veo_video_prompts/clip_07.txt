@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide high-angle shot, looking down. Locked camera, flat composition, no movement. A large rectangular plague pit dominates the center of frame, the Sicilian hillside stretching behind. The figure lies small and curled at the trench's edge. Classic adult animated comedy high-angle vulnerability staging.
+
+Visual transition: NEW location — cut from the street to the plague pit outside the city walls. The widest, most desolate framing of the episode.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-2, the figure lies curled on its side at the edge of the trench, barely moving, orb eyes half-open, plague splotches covering the visible translucent skin. At second 3, one hand weakly grasps at the loose earth at the trench rim, fingers dragging slowly. Seconds 4-5, the earth crumbles under the hand and the figure slides slightly — inches — toward the pit. At seconds 6-7, the figure makes no effort to stop the slide, the orb eyes closing further. At second 8, the figure is still — half on the rim, half over the edge — a gravedigger approaches from the background with a shovel of quicklime, not yet seeing the figure, about to pour.
+
+Flat diffuse lighting at its darkest. Deep bruised plum sky, dark olive-brown earth, ashen grey quicklime patches. The palette is fully desaturated — the sickness has drained the color from the world.
+
+Foreground: Mounds of turned earth. A wooden shovel upright in a dirt pile. White quicklime patches on the ground.
+
+Midground: The trench with rows of linen-wrapped forms layered inside, quicklime dusted over them. The figure at the edge.
+
+Background: Messina's walls in the distance with smoke rising. Hooded gravediggers carrying stretchers. A priest in black reading from a book. Crows — flat black silhouettes — perched on earth mounds.
+
+Audio direction:
+- SFX: The soft scrape of fingers dragging through loose earth, the dry crumble of soil giving way at the trench edge, the dull thud of a shovel being driven into a dirt pile, the raspy scatter of quicklime being poured — a dry hissing granular sound, crow caws — harsh and sharp, the distant rhythmic thud of gravediggers' shovels
+- Ambience: Open-air burial ground — wind across the Sicilian hillside, low and steady, the faint crackle of distant fires within the city walls, the murmur of the priest's Latin reading carried by the wind as an indistinct drone, the profound absence of city-life sounds — no market noise, no children, no laughter — just wind, crows, and shovels
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

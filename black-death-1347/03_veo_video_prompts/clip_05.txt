@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, slightly high angle looking down. Locked camera, flat composition, no movement. The interior of a Romanesque church nave — the figure slumped against a stone pillar in the center of frame. Classic adult animated comedy medium vulnerability staging.
+
+Visual transition: NEW location — cut from the city gate exterior to the church interior. Darker, more enclosed.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure sits slumped against the stone column, knees drawn up. At second 1, the figure slowly raises one hand to its neck and touches a dark splotch — a bubo — visible beneath the translucent skin. At second 2-3, the figure pulls its hand away and stares at it, then lets the hand drop limply to the floor. At second 4, the figure's head slowly lowers, chin to chest, orb eyes dimming with resignation.
+
+Flat even lighting. Ashen grey stone interior with warm amber candle-point accents. The figure's translucent skin shows the dark bruised-plum plague splotch on the neck clearly. Olive-yellow incense haze drifts between the columns.
+
+Foreground: Scattered straw on stone floor with dark stains. A dropped wooden rosary. A water bucket with a ladle.
+
+Midground: The figure against the pillar. Other ill townspeople on straw pallets around the nave — some motionless under linen, some curled up. A Benedictine monk in black robes tending to someone.
+
+Background: Romanesque arches receding down the nave. A gold-and-blue mosaic apse. Candles and oil lamps. A thurible swinging slowly, trailing olive-yellow incense smoke.
+
+Audio direction:
+- SFX: The soft rustle of straw as the figure shifts, the faint wet sound of fingertips touching swollen skin, a wooden rosary bead clicking against stone floor, the metallic creak and chain-clink of the swinging thurible, a candle guttering and sputtering
+- Ambience: Church interior under plague — ragged breathing from multiple unseen people, low murmured Latin prayer echoing off stone walls, the occasional moan filtering through the nave, dripping water from somewhere in the ceiling, a profound hollow acoustic — every small sound amplified by stone
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static close-up reaction shot, slightly low angle. Locked camera, flat composition, no movement. The figure's upper body and skull fill the lower two-thirds of frame, the street visible over the figure's shoulder. Classic adult animated comedy close-up horror-reaction staging.
+
+Visual transition: NEW location — cut from church interior back to the street. Same city, worse conditions. Tighter framing on the figure's deteriorating state.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: At second 1, the figure stands facing camera, orb eyes wide, multiple dark bruised-plum plague splotches visible on neck, chest, and arms beneath the translucent skin. At second 2, the figure recoils — head snapping back, one hand rising palm-out in a defensive cartoon gesture — as something passes behind it. At second 3, a black rat silhouette lands on the figure's shoulder from above and the figure flinches but doesn't have the energy to shake it off. At second 4, the figure's orb eyes slowly close halfway, body swaying slightly, knees beginning to buckle.
+
+Flat even lighting on the figure. Behind, the street is rendered in the most saturated version of the palette — dark olive green, deep bruised plum, thick greenish-yellow miasma. The figure's translucent skin looks more pallid than before.
+
+Foreground: The figure's upper body close to camera. The rat on the shoulder.
+
+Midground: Over the figure's shoulder — the flagellant procession passing in a line, hooded figures in torn hemp robes, arms raised.
+
+Background: Buildings with dark crosses on every door. Thick smoke columns rising. The sky bruised plum-grey.
+
+Audio direction:
+- SFX: A wet thud as the rat lands on the figure's shoulder, the rustling shuffle of the flagellant procession — bare feet on stone in rhythm, the crack-snap of leather striking fabric, a gust of wind carrying the hiss of burning herbs, a clay pot shattering somewhere nearby
+- Ambience: Peak plague city — the overlapping low chanting of the flagellant procession, an atonal rhythmic murmur, distant wailing and keening from multiple directions echoing off stone, the crackle and pop of multiple fires burning, a thick oppressive soundscape where human suffering blends into a continuous low drone
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

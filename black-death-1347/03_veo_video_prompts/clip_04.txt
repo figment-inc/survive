@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The massive stone city gate fills the center-right of frame, the figure runs toward it from the left. Classic adult animated comedy wide action staging.
+
+Visual transition: NEW location — cut from close-up flea to the city gate. Wider framing, higher stakes.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-3, the figure sprints from the left side of frame toward the city gate with exaggerated cartoon running — arms pumping, legs cycling. At second 4, the figure reaches the gate and grabs the timber crossbar, pulling and pushing frantically. Seconds 5-6, the figure braces a foot against the wall and heaves at the crossbar — it doesn't budge. At second 7, the figure steps back and looks up at the guard on the wall above, arms spread in a pleading gesture. At second 8, the guard shakes his head and turns away, and the figure's arms drop to its sides, shoulders slumping in defeat.
+
+Flat even lighting. Ashen grey stone walls, olive-green haze in the street behind the figure, bruised plum shadow in the gate archway. The jaundiced sky visible above the wall.
+
+Foreground: Abandoned belongings on the cobblestones — a dropped basket, scattered flat-colored fruits, a torn burlap sack. Black rat silhouettes darting between debris. A broken cartwheel.
+
+Midground: The figure at the gate. The massive Romanesque stone arch sealed with oak timber crossbars and iron brackets. A crude dark cross painted on a sign nailed to the gate. Smoke from a rosemary brazier beside the gate.
+
+Background: The guard atop the wall in kettle helmet and gambeson, spear in hand. Behind the figure, the street receding into the city — crowds of townspeople pressing forward, some kneeling in prayer, some gesturing angrily. Herb-burning smoke rising from multiple braziers.
+
+Audio direction:
+- SFX: The figure's rapid footsteps slapping on cobblestones, the heavy dull thud of palms hitting oak timber, the rattle and strain of the figure pulling at the crossbar — wood groaning against iron, the clang of the iron brackets, a spear butt thumping on stone above as the guard signals refusal, the crowd behind surging with shuffling feet
+- Ambience: A city in panic — overlapping agitated voices echoing off stone walls, a church bell tolling in rapid succession — alarm bells, the crackle of burning herbs in the braziers, wind gusting through the gate arch with a low moan, distant wailing filtering from side streets
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

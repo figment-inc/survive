@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static close-up, eye level. Locked camera, flat composition, no movement. The figure's forearm fills the left of frame, with the exaggerated flea on the translucent skin. Classic adult animated comedy close-up detail staging.
+
+Visual transition: Same location, tighter framing — cut from street medium shot to extreme close-up on the figure's arm.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure's forearm is held up in frame. At second 1, the figure notices the flea on its arm — the skull edge-of-frame tilts down to look. At second 2, the figure's other hand reaches in from the right side of frame, index finger extended to flick the flea. At second 3, the figure flicks — but the flea hops away, landing on the other arm just out of reach. At second 4, the figure's orb eyes narrow with cartoon irritation, the skull pulling back slightly.
+
+Flat even lighting. The figure's translucent pale skin dominates the frame. The flea is dark brown with thick black outlines — an exaggerated cartoon insect with visible segmented legs and a needle proboscis. The background is a soft flat olive-green blur of the street.
+
+Foreground: The flea — large, detailed, flat 2D rendering of Xenopsylla cheopis. Dark brown body, spiny legs, beady black eye.
+
+Midground: The figure's arm showing the radius and ulna bones through translucent skin. The figure's skull partially visible at frame edge.
+
+Background: Soft flat olive-green and ashen grey — the out-of-focus street suggestion. Black rat silhouettes visible as small shapes on a wall ledge.
+
+Audio direction:
+- SFX: A tiny high-pitched tick as the flea hops — barely audible, insect-scale, the soft whoosh of the figure's finger flicking through air, another tiny tick as the flea lands on the other arm, the ambient buzz of flies nearby
+- Ambience: The continued muffled atmosphere of the plague street — distant bell tolling faintly, wind in the narrow alley, the scratching of rats behind walls, a low persistent unease
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

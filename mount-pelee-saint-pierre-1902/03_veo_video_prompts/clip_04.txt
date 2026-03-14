@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, high camera angle looking down at the road. Locked camera, flat composition, no movement. A dirt road clogged with fleeing people converging on a narrow stone bridge. Classic adult animated comedy wide tableau staging — high angle for vulnerability.
+
+Visual transition: Cut to new location — the southern road out of town. Higher angle emphasizes smallness and helplessness.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure runs down the road toward the bridge with exaggerated cartoon arm-pumping, weaving between slower-moving civilians. At 3 seconds, the figure reaches the bottleneck at the bridge and hits the wall of bodies — a cartoon collision, stumbling backward from the mass of people. From 4-6 seconds, the figure tries to push through, arms pressing forward against the crowd, but makes no progress — pushed back by the press of bodies. At 7 seconds, the figure turns its skull back to look up the road toward the mountain — and freezes. The figure holds this frozen backward-looking pose through second 8, body language conveying the realization that escape is cut off.
+
+Lighting + palette: Flat grey-olive light. The furnace-orange glow from the descending pyroclastic cloud is now distinctly visible at the top of the frame, casting a warm tone on the upper portion. Ash thicker in the air — a visible grey haze. Colors: brown dirt road, grey ash, olive-green vegetation coated in grey, charcoal-and-orange cloud.
+
+Foreground: From above — tropical vegetation framing corners, palm fronds and breadfruit leaves coated in grey ash. Ash particles thick in the air.
+
+Midground: The dirt road packed with fleeing people — women with bundles, men pushing handcarts, a mule dragging a loaded cart. The figure weaving through them. The narrow stone bridge creating a chokepoint — a single arch barely wide enough for one cart.
+
+Background: Saint-Pierre visible on the hillside through thickening haze. Mount Pelée above — the pyroclastic cloud now visibly larger and descending, its leading edge cascading down the Rivière Blanche gorge. Flat layers of charcoal, dark orange, and black.
+
+Audio direction:
+- SFX: Dozens of footfalls on packed dirt — a rumbling stampede of bare feet, shoes, hooves. Cart wheels grinding and squeaking on stone. The mule braying in panic. Bodies pressing together — cloth rustling, grunts of exertion. A wooden cart cracking under pressure. The stone bridge groaning faintly. A distant massive explosion from the mountain — a deep bass boom that rolls across the landscape.
+- Ambience: Mass panic — overlapping voices calling, screaming, praying in French and Creole, echoing off the hillsides. The volcanic rumble now a continuous roar, deeper and louder. Hot gusting wind carrying ash and the smell of sulfur. The sound of a crowd compressed into a space too small — a wall of human sound.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

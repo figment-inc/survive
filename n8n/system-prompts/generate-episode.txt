@@ -51,7 +51,7 @@ Every episode = 8 clips (mix of 4s and 8s durations), target 48 seconds total vi
 | 07 | 8s | Catastrophe | SCENE |
 | 08 | 8s | Cliffhanger | SCENE |
 
-Total: 48 seconds video. ~80-95 words narration (~27-32 seconds at 3 wps).
+Total: 48 seconds video. ~60-72 words narration (~26-31 seconds at ~2.3 wps).
 
 ---
 
@@ -232,7 +232,7 @@ NARRATOR: You stand on a sandbar eight feet above sea level. Thirty-seven thousa
 - **Educational depth.** Every clip must include at least one specific, verifiable fact: temperatures, distances, death tolls, chemical reactions, geological forces, engineering failures, wind speeds, pressures, dates. Not "the ground shakes" but "the earth's crust fractures along a 300-mile fault line."
 - **Present tense ONLY.** "You wake up" not "You've arrived." Immediacy is everything.
 - **Short punchy sentences.** Average 5-10 words. Staccato rhythm for catastrophe beats. Slightly more flowing for immersion. Less "As the first tremors ripple through the limestone, you feel the ground beneath you shift" and more "The ground shifts. Limestone cracks beneath your feet."
-- **Total: 80-90 words** at ~3 words/second across 8 clips. This is a HARD CEILING — the entire narration MUST finish under 30 seconds of spoken audio. Count your words. If your total exceeds 90, cut words until it doesn't.
+- **Total: 60-72 words** at ~2.3 words/second (measured ElevenLabs pacing) across 8 clips. This is a HARD CEILING — the entire narration MUST finish under 30 seconds of spoken audio. Count your words. If your total exceeds 72, cut words until it doesn't.
 - **Voice on frame 1.** Clip 01 (the hook) starts with a devastating statement — NO silent openings. NEVER a question.
 - **Second person throughout**: "you", "your" — the viewer IS the skeleton.
 - **Agency verbs**: "You run", "You grab", "You shout" — not passive observation.
@@ -244,22 +244,22 @@ NARRATOR: You stand on a sandbar eight feet above sea level. Thirty-seven thousa
 - **Historical accuracy**: Real dates, real numbers, real consequences. Every fact checkable.
 - The narration in the dialogue script is produced as separate ElevenLabs audio — it does NOT appear in Veo video prompts.
 
-### WORD-COUNT LIMITS (ElevenLabs pacing — ~3 words/sec):
+### WORD-COUNT LIMITS (ElevenLabs pacing — ~2.3 words/sec measured):
 
-CRITICAL: The entire episode narration MUST total 80-90 words. This is a HARD CEILING. At ~3 words/sec, 90 words = 30 seconds. Every word over 90 pushes the narration past 30 seconds. COUNT YOUR WORDS BEFORE RETURNING THE JSON. If your total exceeds 90, cut words from the longest clips until you are at or below 90.
+CRITICAL: The entire episode narration MUST total 60-72 words. This is a HARD CEILING. ElevenLabs TTS with the Dan voice runs at ~2.3 words/sec (NOT 3 — measured from actual output). At 2.3 wps, 72 words = ~31 seconds. Every word over 72 risks pushing past 30 seconds. COUNT YOUR WORDS BEFORE RETURNING THE JSON. If your total exceeds 72, cut words from the longest clips until you are at or below 72.
 
 | Clip | Duration | MAXIMUM Words | Notes |
 |------|----------|---------------|-------|
-| 01 (4s) | 4s | **8 words MAX** | The hook — devastating fact, NEVER a question |
-| 02 (8s) | 8s | **14 words MAX** | Sensory arrival — place, time, one killer scientific detail |
-| 03 (4s) | 4s | **8 words MAX** | Second immersion detail — tighten the trap |
-| 04 (8s) | 8s | **14 words MAX** | First attempt and failure — teaches a real fact |
-| 05 (4s) | 4s | **8 words MAX** | Second attempt — escalation, no escape |
-| 06 (4s) | 4s | **8 words MAX** | The event hits — devastating fact, clinical precision |
-| 07 (8s) | 8s | **14 words MAX** | Peak chaos — specific numbers at maximum intensity |
-| 08 (8s) | 8s | **14 words MAX** | Open-loop cliffhanger — echoes the hook, drives comments |
+| 01 (4s) | 4s | **6 words MAX** | The hook — devastating fact, NEVER a question |
+| 02 (8s) | 8s | **12 words MAX** | Sensory arrival — place, time, one killer scientific detail |
+| 03 (4s) | 4s | **6 words MAX** | Second immersion detail — tighten the trap |
+| 04 (8s) | 8s | **12 words MAX** | First attempt and failure — teaches a real fact |
+| 05 (4s) | 4s | **6 words MAX** | Second attempt — escalation, no escape |
+| 06 (4s) | 4s | **6 words MAX** | The event hits — devastating fact, clinical precision |
+| 07 (8s) | 8s | **12 words MAX** | Peak chaos — specific numbers at maximum intensity |
+| 08 (8s) | 8s | **12 words MAX** | Open-loop cliffhanger — echoes the hook, drives comments |
 
-Total: 80-90 words. HARD CEILING. Count every word. If your count exceeds 90, rewrite until it doesn't.
+Total: 60-72 words. HARD CEILING. Count every word. If your count exceeds 72, rewrite until it doesn't.
 
 ---
 
@@ -300,6 +300,6 @@ Then reference your `style_description` when writing each prompt's lighting/pale
 - Animation uses static locked camera (no handheld, no shaky-cam, no drift)
 - Flat 2D animation — no gradients, no 3D, no photorealistic elements
 - CROSS-CLIP VISUAL CONSISTENCY: All 10 prompts must use the same named color palette from style_description. No clip should introduce colors or lighting that contradicts the episode's visual identity.
-- HARD CEILING: 8 clips, 80-90 words total narration, under 30 seconds of spoken audio. Count every word. If over 90, rewrite.
+- HARD CEILING: 8 clips, 60-72 words total narration, under 30 seconds of spoken audio. Count every word. If over 72, rewrite.
 - IMPORTANT: If few-shot examples below show Clip 01 without the character (e.g. "No character in this shot"), IGNORE that pattern. Clip 01 MUST include the figure. The character is present in ALL 8 clips.
 - Return ONLY the JSON object, no markdown wrapping, no explanation

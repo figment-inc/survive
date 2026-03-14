@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, eye level, looking across the harbor from the waterfront promenade. Locked camera, flat composition, no movement. The harbor, ships, and city hillside visible. Classic adult animated comedy wide tableau staging.
+
+Visual transition: Cut to new location — harbor waterfront. Same diffused grey-olive lighting, heavier ash fall.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands at the stone seawall, hands resting on it, looking out at the harbor. At 2 seconds, the figure's skull slowly turns to look at the city climbing the hillside — scanning the dense colonial architecture. At 4 seconds, the figure looks down at the harbor water and notices floating pumice stones bobbing on the dark surface — a slow cartoon double-take, skull tilting down then pulling back slightly. From 5-8 seconds, the figure straightens up and looks back toward the mountain, shoulders tensing, body language shifting from observation to growing alarm.
+
+Lighting + palette: Flat diffused grey light. Ash haze reducing visibility. Dull orange glow from Pelée faintly visible through the haze at the top of frame. Flat even lighting on the figure. Colors: stone grey quay, dark grey-green harbor water, muted coral and turquoise colonial facades under ash, olive-grey sky.
+
+Foreground: Stone seawall with iron mooring rings, coiled rope, grey ash in every crack. A brass telescope lying on the wall. A wooden rowboat half-submerged at the quay edge. Floating pumice stones on the harbor surface — small grey rocks bobbing gently.
+
+Midground: The figure at the seawall. Waterfront warehouses with arched doorways. Barrels and cargo under ash-dusted tarps. Dockworkers moving cargo despite the conditions.
+
+Background: Saint-Pierre climbing the hillside — cathedral spire, government buildings, dense residential blocks with ash-muted terracotta roofs. Mount Pelée's summit obscured by the growing dark ash column. Ships at anchor in the harbor — wooden schooners and the steamship Roraima — all coated in ash.
+
+Audio direction:
+- SFX: Harbor water lapping against the stone quay with a sluggish, ash-thickened quality. Pumice stones clinking against each other on the water surface. Distant church bells ringing — a single bell, slow and irregular. Rope creaking on mooring bollards. A cargo barrel being rolled across stone — hollow wooden rumble. A ship's hull groaning against its anchor chain.
+- Ambience: The harbor soundscape under volcanic stress — water sounds muffled by floating ash and pumice. The continuous low rumble from the mountain, slightly louder than clip 01. Muffled voices of dockworkers calling to each other in French Creole. The hiss of ash falling on water. A hot sulfurous breeze.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

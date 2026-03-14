@@ -542,7 +542,7 @@ def run_mix_phase(episode, ep_dir):
             narration_duration=narr_dur,
             music_offset=music_offset,
             music_volume=0.20,
-            veo_audio_volume=0.40,
+            veo_audio_volume=0.15,
         )
         music_offset += duration
 
@@ -710,12 +710,16 @@ def publish_to_metricool_with_upload(episode, final_path, asset_url=None):
 def validate_word_counts(episode):
     """Check that narration word counts fit within clip durations.
 
-    ElevenLabs TTS delivers speech at ~3 words/sec. If narration exceeds
-    the clip duration budget, audio will extend beyond the clip.
+    ElevenLabs TTS with the Dan voice delivers speech at ~2.3 words/sec
+    (measured from actual output). If narration exceeds the clip duration
+    budget, audio will be trimmed during mixing.
     """
     import re
 
-    WORDS_PER_SEC = 3.0
+    WORDS_PER_SEC = 2.3
+    WORD_CEILING = 75
+    NARRATION_DELAY = 0.5
+    NARRATION_BUFFER = 0.3
     clips = episode.get("clips", [])
     script = episode.get("dialogue_script", "")
 
@@ -736,7 +740,7 @@ def validate_word_counts(episode):
     for clip_meta in clips:
         clip_id = clip_meta["id"]
         duration = clip_meta.get("duration", 8)
-        max_words = int(duration * WORDS_PER_SEC)
+        max_words = int((duration - NARRATION_DELAY - NARRATION_BUFFER) * WORDS_PER_SEC)
         narration = clip_lines.get(clip_id, "")
         word_count = len(narration.split()) if narration else 0
         total_words += word_count
@@ -747,12 +751,12 @@ def validate_word_counts(episode):
 
     print(f"  Total narration: {total_words} words")
     narration_seconds = total_words / WORDS_PER_SEC
-    print(f"  Estimated narration duration: {narration_seconds:.1f}s")
-    if total_words > 90:
-        print(f"  [{ts()}] WARNING: Total {total_words} words exceeds 90-word ceiling "
-              f"(~{narration_seconds:.0f}s) — narration may exceed 30 seconds")
+    print(f"  Estimated narration duration: {narration_seconds:.1f}s (at {WORDS_PER_SEC} wps)")
+    if total_words > WORD_CEILING:
+        print(f"  [{ts()}] WARNING: Total {total_words} words exceeds {WORD_CEILING}-word ceiling "
+              f"(~{narration_seconds:.0f}s) — narration may be trimmed during mixing")
     if any_over:
-        print(f"  [{ts()}] WARNING: Some clips exceed per-clip word budget — audio may be cut off")
+        print(f"  [{ts()}] WARNING: Some clips exceed per-clip word budget — audio may be trimmed")
 
 
 # ── Main ──
