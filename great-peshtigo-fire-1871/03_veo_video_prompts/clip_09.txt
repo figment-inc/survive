@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level from the water surface. Locked camera, flat composition, no movement. The translucent character is neck-deep in the river, struggling to stay submerged while surrounded by others in varying states of distress. Classic adult animated comedy medium shot staging.
+
+Visual transition: Same location — the Peshtigo River. Slightly wider framing than the close-up, showing more of the surrounding survivors and the burning banks.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure is neck-deep, only the skull and the top of the ribcage above water. One arm pushes down into the water to keep submerged, the other arm is raised above the surface — the hand held up defensively against the radiant heat coming from above. The skull dips below the waterline — fully submerging for two seconds — then breaks the surface again, the orb-eyes squinting against the searing brightness. The figure looks left — a person near them has gone motionless, floating face-down. The figure recoils, backing away through the water. Looks right — more people struggling. The figure dips under again, comes back up. A burning branch crashes into the water nearby and the figure throws both arms over its skull protectively, ducking. Slowly raises the skull again. The orb-eyes are dimmer — exhaustion and heat taking their toll. The figure's movements are slower, heavier.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Lighting and palette: Blinding orange-white from all sides. The river is the only dark element — deep blue-grey water against overwhelming orange. The figure saturated in warm orange reflected light. Steam rises from the water in flat white wisps. Both banks — solid flat orange-white flame with no structures visible.
+
+Foreground: Water surface dominates the lower half — dark grey-blue with bright orange reflections. Floating ash forms grey scum. A dead fish belly-up. Embers hiss as they land — flat orange dots meeting flat white steam puffs.
+
+Midground: The figure center frame. Packed survivors — shoulder to shoulder. A man holds a child above his head. The woman with the washtub clings to it. Some people have gone still.
+
+Background: Both banks — unrecognizable solid walls of flat bright orange-white flame. The vortex continues overhead — concentric circular flame patterns. Massive embers arc across the sky. Heat shimmer rendered as wavy flat lines of orange and yellow.
+
+Background animated elements: People dunking heads. Embers raining down continuously. Steam rising from water. Burning debris floating downstream. The fire vortex rotating slowly overhead. The motionless person drifting slowly.
+
+Audio direction:
+- SFX: The splash of the figure submerging and resurfacing, the heavy sizzle of a burning branch hitting the water nearby, water bubbling around the floating debris, the metallic groan of iron expanding somewhere on the bank — twisted rail tracks warping at 1500 degrees
+- Ambience: The sustained roar of the firestorm — now an omnidirectional wall of sound with no variation, just constant overwhelming volume. Steam hissing from the water surface continuously. The water itself making strange sounds — bubbling, gurgling — as its temperature rises. The eerie absence of human voices — people are too exhausted and too focused on breathing to make sound
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

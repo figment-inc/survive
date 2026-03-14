@@ -1,0 +1,26 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static low-angle shot, tilted upward. Locked camera, flat composition, no movement. The figure stands on the narrow axial catwalk inside the Hindenburg's interior, looking upward into the vast gas cell compartment. Classic adult animated comedy low-angle dread staging.
+
+NEW location — interior of the Hindenburg's structural interior, the axial corridor. Cut from exterior to deep interior.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: At second 0, the figure stands on the narrow aluminum mesh catwalk, gripping both handrails, skull tilted upward, pale orb eyes scanning the enormous interior. At second 2, the figure takes a hesitant step forward, the catwalk flexing slightly under its weight. At second 3, the figure stops and reaches out with one hand to touch one of the goldbeater's skin gas cells — the enormous translucent membrane bulging with hydrogen. At second 5, the figure jerks its hand back as if the membrane is warm or pulsing, then wraps both arms around its own ribcage in a self-protective hug. At second 6, the figure takes a slow step backward, skull still tilted up, orb eyes enormous, overwhelmed by the cathedral-like scale. At second 7, the figure bumps into the handrail behind it and grabs on with both hands, body rigid with apprehension. THE FIGURE'S MOUTH MUST REMAIN CLOSED AT ALL TIMES. The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Flat even lighting on the character. Interior palette: muted aluminum silver for structural elements, pale translucent amber-gold for the goldbeater's skin gas cells, warm grey diffused light filtering through the outer skin, dark shadows in the upper reaches. The figure's ghostly translucence contrasting with the warm organic tones of the gas cells. All flat cel-shaded.
+
+Foreground: The aluminum mesh catwalk with lightweight railing, bolted and riveted joints. A canvas tool bag hanging from a structural ring. Electrical wiring running along conduit brackets. A small brass plaque reading "Luftschiffbau Zeppelin GmbH."
+
+Midground: The figure on the catwalk. The lower gas cells — enormous translucent goldbeater's skin bags, each containing thousands of cubic feet of hydrogen, bulging and shifting subtly. Cotton netting holds them against the duralumin ring frames. Handwritten maintenance tags in German script tied to valve fittings.
+
+Background: The vast interior — duralumin ring frames forming a ribcage-like lattice of triangulated girders, bracing wires taut as harp strings. Sixteen gas cells filling nearly the entire volume. The space is 135 feet in diameter, cathedral-like. The outer cotton skin filters grey daylight into a diffuse glow. A crew member further up the catwalk is barely visible as a small figure in the distance, emphasizing the enormous scale.
+
+Audio direction:
+- SFX: The aluminum catwalk flexing with a metallic creak under the figure's weight; the soft organic rustle of the goldbeater's skin gas cells shifting and breathing as pressure changes; the taut ping of a bracing wire vibrating; a distant metallic valve mechanism clicking; the figure's footstep on the aluminum mesh — a hollow ringing tap
+- Ambience: The deep interior of the airship — an enormous enclosed space with a resonant, almost submarine quality; the constant low-frequency vibration of the diesel engines transmitted through the framework; the gas cells making soft, organic sounds like breathing — expanding, contracting, pressing against their netting; wind audible through the outer skin as a muffled roar; the eerie quiet of 7 million cubic feet of hydrogen surrounding you on all sides
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

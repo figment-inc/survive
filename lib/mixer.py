@@ -24,8 +24,8 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
-Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Default,Montserrat,90,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,5,2,5,40,40,480,1
+Style: Highlight,Montserrat,90,&H0000D5FF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,5,2,5,40,40,480,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -228,10 +228,10 @@ def generate_word_captions(
     output_path: Path,
     narration_delay: float = NARRATION_DELAY,
 ) -> bool:
-    """Generate an ASS subtitle file with word-by-word karaoke-style captions.
+    """Generate an ASS subtitle file with TikTok-style word-by-word captions.
 
-    Words are evenly distributed across the narration duration with a highlight
-    effect: the current word is shown in yellow, surrounding words in white.
+    Shows 1-3 words at a time centered on screen, with the active word
+    highlighted in yellow/orange and text in uppercase for punchy readability.
     """
     words = narration_text.split()
     if not words:
@@ -246,14 +246,15 @@ def generate_word_captions(
         start_time = narration_delay + i * word_duration
         end_time = narration_delay + (i + 1) * word_duration
 
-        context_start = max(0, i - 2)
-        context_end = min(len(words), i + 3)
+        context_start = max(0, i - 1)
+        context_end = min(len(words), i + 2)
         parts: list[str] = []
         for j in range(context_start, context_end):
+            w = words[j].upper()
             if j == i:
-                parts.append(r"{\c&H00FFFF&}" + words[j] + r"{\c&HFFFFFF&}")
+                parts.append(r"{\c&H00D5FF&}" + w + r"{\c&HFFFFFF&}")
             else:
-                parts.append(words[j])
+                parts.append(w)
 
         display_text = " ".join(parts)
         ass_start = _format_ass_time(start_time)

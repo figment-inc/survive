@@ -1,0 +1,26 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static close-up, slightly low angle. Locked camera, flat composition, no movement. The figure is visible through one of the Hindenburg's observation windows, face pressed to the glass, looking down toward the camera. Classic adult animated comedy close-up staging.
+
+Same setting, tighter framing — cut from interior medium shot to exterior close-up of the figure through the window.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 4 seconds: The figure's skull is pressed against the window glass, both skeletal hands splayed flat on either side. At second 1, the figure's pale orb eyes shift to look directly down — directly at the camera — registering the enormous height. At second 2, the figure pulls back slightly from the glass in a subtle recoil, fingers curling. At second 3, the figure presses back against the glass, one hand moving to the top of its skull in a cartoon gesture of anxiety. THE FIGURE'S MOUTH MUST REMAIN CLOSED AT ALL TIMES. The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Flat even lighting on the character. Exterior palette: silver-grey airship cotton skin, flat red tail markings, pale grey overcast sky, dark charcoal storm clouds in the distance, rain streaks far off. The figure's ghostly translucence visible through the cellon window pane. All flat cel-shaded.
+
+Foreground: The underside of the Hindenburg's hull — silver-grey doped cotton fabric stretched over the duralumin frame, rivets in neat rows. Mooring ropes dangling down, swaying gently. Water beading on the doped cotton skin from recent rain.
+
+Midground: The observation window with the figure visible behind it. The gondola structure beneath the passenger deck with streamlined aluminum fairings.
+
+Background: Grey overcast sky with dark cumulus clouds gathering to the west — the passing thunderstorm that has delayed this landing. Diagonal rain streaks visible in the far distance. The flat New Jersey landscape below.
+
+Audio direction:
+- SFX: Wind buffeting the hull cotton skin with a deep taut drumming; the creak of mooring ropes swaying; a metallic ping as the duralumin frame contracts slightly in the cooling evening air; water droplets running off the hull surface
+- Ambience: High-altitude wind — a constant low howl around the airship's profile, the cotton skin rippling, the aerodynamic whistle of the ventilation stack, the muffled throb of the diesel engines from inside the nacelles below
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

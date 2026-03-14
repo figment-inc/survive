@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. The telegraph office interior with the figure leaning urgently over the counter toward the dismissive operator. Classic adult animated comedy dialogue-scene staging — two characters across a counter.
+
+Visual transition: NEW interior location — cut from hillside panorama to cramped telegraph office. Tighter framing increases claustrophobia.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Seconds 1-2: The figure slams both hands on the telegraph counter — a sharp, emphatic cartoon gesture — leaning forward with urgency, skull thrust toward the operator. Seconds 3-4: The telegraph operator waves a dismissive hand without looking up, shaking his head. The figure recoils slightly, straightening up, orb eyes darting to the window where rain lashes the glass and brown water streams past in the street beyond. The hands slide off the counter. Defeat in the shoulders.
+
+Lighting + palette: Flat interior lighting in warm amber tones from an oil lamp on the counter — rendered as flat color zones, not gradients. Institutional green walls, warm oak-brown wood surfaces, dull brass telegraph equipment. Through the rain-streaked window, the exterior is slate grey and muddy brown. The interior warmth contrasts with the cold threatening exterior.
+
+Foreground: The oak telegraph counter fills the lower frame — ink stains, yellow telegraph forms, a brass bell, a glass inkwell. A crumpled telegraph warning message on the counter surface.
+
+Midground: The figure at the counter, the telegraph operator behind it. The operator is a middle-aged man with muttonchop sideburns, wire spectacles, white shirt with sleeve garters, dark vest — his expression is tired and dismissive. A pendulum clock on the wall reads 3:10 PM.
+
+Background: Tongue-and-groove wooden walls painted institutional green. A potbellied stove with a chimney pipe. The rain-streaked window showing the flooded grey street outside — water is visibly higher than in clip 01. A framed daguerreotype on the wall.
+
+Audio direction:
+- SFX: Two sharp palm-slaps on the wooden counter, the telegraph key clicking intermittently with incoming messages, the pendulum clock ticking steadily, rain lashing against the windowpane in gusts, the creak of the wooden floor under the figure's shifting weight
+- Ambience: The muffled roar of rain outside filtered through the walls, the gurgle of water flowing past the building exterior, the warm crackle of coal in the potbellied stove, distant muffled shouts from the street outside
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

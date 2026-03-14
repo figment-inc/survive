@@ -75,7 +75,7 @@ class Clip:
 
 # Define clips — mix of 4s and 8s for visual rhythm (9-12 clips, 60-75s total)
 CLIPS = [
-    Clip("01", 4, "HOOK", "720p", False, False),
+    Clip("01", 4, "HOOK", "720p", True, True),
     Clip("02", 8, "SCENE", "1080p", True, True),
     Clip("03", 4, "SCENE", "1080p", True, True),
     Clip("04", 8, "SCENE", "1080p", True, True),

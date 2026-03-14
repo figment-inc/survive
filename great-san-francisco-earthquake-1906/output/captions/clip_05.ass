@@ -1,0 +1,31 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.90,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} find a
+Dialogue: 0,0:00:00.90,0:00:01.31,Default,,0,0,0,,You {\c&H00FFFF&}find{\c&HFFFFFF&} a firefighter.
+Dialogue: 0,0:00:01.31,0:00:01.72,Default,,0,0,0,,You find {\c&H00FFFF&}a{\c&HFFFFFF&} firefighter. He
+Dialogue: 0,0:00:01.72,0:00:02.12,Default,,0,0,0,,find a {\c&H00FFFF&}firefighter.{\c&HFFFFFF&} He opens
+Dialogue: 0,0:00:02.12,0:00:02.53,Default,,0,0,0,,a firefighter. {\c&H00FFFF&}He{\c&HFFFFFF&} opens a
+Dialogue: 0,0:00:02.53,0:00:02.94,Default,,0,0,0,,firefighter. He {\c&H00FFFF&}opens{\c&HFFFFFF&} a hydrant.
+Dialogue: 0,0:00:02.94,0:00:03.34,Default,,0,0,0,,He opens {\c&H00FFFF&}a{\c&HFFFFFF&} hydrant. Nothing.
+Dialogue: 0,0:00:03.34,0:00:03.75,Default,,0,0,0,,opens a {\c&H00FFFF&}hydrant.{\c&HFFFFFF&} Nothing. Not
+Dialogue: 0,0:00:03.75,0:00:04.16,Default,,0,0,0,,a hydrant. {\c&H00FFFF&}Nothing.{\c&HFFFFFF&} Not a
+Dialogue: 0,0:00:04.16,0:00:04.57,Default,,0,0,0,,hydrant. Nothing. {\c&H00FFFF&}Not{\c&HFFFFFF&} a drop.
+Dialogue: 0,0:00:04.57,0:00:04.97,Default,,0,0,0,,Nothing. Not {\c&H00FFFF&}a{\c&HFFFFFF&} drop. Three
+Dialogue: 0,0:00:04.97,0:00:05.38,Default,,0,0,0,,Not a {\c&H00FFFF&}drop.{\c&HFFFFFF&} Three hundred
+Dialogue: 0,0:00:05.38,0:00:05.79,Default,,0,0,0,,a drop. {\c&H00FFFF&}Three{\c&HFFFFFF&} hundred water
+Dialogue: 0,0:00:05.79,0:00:06.19,Default,,0,0,0,,drop. Three {\c&H00FFFF&}hundred{\c&HFFFFFF&} water mains,
+Dialogue: 0,0:00:06.19,0:00:06.60,Default,,0,0,0,,Three hundred {\c&H00FFFF&}water{\c&HFFFFFF&} mains, shattered.
+Dialogue: 0,0:00:06.60,0:00:07.01,Default,,0,0,0,,hundred water {\c&H00FFFF&}mains,{\c&HFFFFFF&} shattered.
+Dialogue: 0,0:00:07.01,0:00:07.41,Default,,0,0,0,,water mains, {\c&H00FFFF&}shattered.{\c&HFFFFFF&}

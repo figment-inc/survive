@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, slightly low angle. Locked camera, flat composition, no movement. The translucent character faces a group of men, gesturing desperately while they look past with misplaced confidence. Classic adult animated comedy medium two-shot staging.
+
+Visual transition: Same location, tighter framing — cutting from wide street shot to medium interaction between the figure and townspeople.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 4 seconds: The figure faces camera-right toward three men. Both arms are raised and waving in exaggerated alarm — big sweeping arcs of the arms, like cartoon semaphore. The figure bounces on its feet with desperate urgency. One of the men waves a dismissive hand toward the figure, then points at a small rooftop fire on a nearby building as if to say 'we've got it handled.' The figure's arms drop. The skull tilts in a classic cartoon 'are you serious?' double-take. Shoulders slump.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Lighting and palette: Deep red-orange saturation. Dark silhouette buildings against bright crimson sky. Ember dots in bright orange and yellow scattered through the air.
+
+Foreground: A tipped wooden barrel spilling sawdust. Glowing embers landing on the sawdust — flat orange dots on pale tan. A leather fire bucket on its side, empty.
+
+Midground: The figure center-left. Three men center-right — one in a foreman's cap holding a fire rake, one wiping soot with a kerchief, one pointing at a rooftop fire. Their posture is confident, upright.
+
+Background: Multiple rooftops with flat orange flame shapes. Entirely crimson sky. Heavy ember fall. The orange wall glow behind the treeline visibly closer and brighter than in clip 04.
+
+Audio direction:
+- SFX: Embers crackling as they land on dry sawdust, the wooden thunk of the fire rake being planted on the ground, a rooftop shingle popping as it ignites, the rattle of the empty leather bucket rolling
+- Ambience: The roar from the forest is louder now — a continuous deep rumble, crackle of multiple small fires around town, the wind gusting hot and erratic, the sound of a town beginning to burn from its edges inward
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

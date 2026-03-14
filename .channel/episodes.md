@@ -12,9 +12,12 @@
 - **Storyboard** — `01_storyboard.md` written
 - **Storyboard + prompts written** — Image prompts, video prompts, and dialogue script created
 - **Images generated** — Keyframe PNGs in `output/images/`
+- **Audio generated** — ElevenLabs narration + music in `output/audio/`
 - **Videos in progress** — Some clips generated in `output/videos/`
-- **Videos generated** — All clips generated (with native audio)
+- **Videos generated** — All SILENT clips generated (SFX/ambience only)
+- **Mixed** — Per-clip audio mixing complete (Veo SFX + narration + music)
 - **Stitched** — Final video assembled + LUFS normalized via ffmpeg
+- **Captioned** — Remotion karaoke captions composited
 - **Published** — Posted via Metricool
 - **Reference implementation** — Canonical example of the current workflow
 

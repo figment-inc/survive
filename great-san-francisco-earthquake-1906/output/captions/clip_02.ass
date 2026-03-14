@@ -1,0 +1,44 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.96,Default,,0,0,0,,{\c&H00FFFF&}You{\c&HFFFFFF&} wake in
+Dialogue: 0,0:00:00.96,0:00:01.42,Default,,0,0,0,,You {\c&H00FFFF&}wake{\c&HFFFFFF&} in darkness.
+Dialogue: 0,0:00:01.42,0:00:01.88,Default,,0,0,0,,You wake {\c&H00FFFF&}in{\c&HFFFFFF&} darkness. The
+Dialogue: 0,0:00:01.88,0:00:02.34,Default,,0,0,0,,wake in {\c&H00FFFF&}darkness.{\c&HFFFFFF&} The bed
+Dialogue: 0,0:00:02.34,0:00:02.80,Default,,0,0,0,,in darkness. {\c&H00FFFF&}The{\c&HFFFFFF&} bed is
+Dialogue: 0,0:00:02.80,0:00:03.26,Default,,0,0,0,,darkness. The {\c&H00FFFF&}bed{\c&HFFFFFF&} is moving.
+Dialogue: 0,0:00:03.26,0:00:03.72,Default,,0,0,0,,The bed {\c&H00FFFF&}is{\c&HFFFFFF&} moving. Not
+Dialogue: 0,0:00:03.72,0:00:04.19,Default,,0,0,0,,bed is {\c&H00FFFF&}moving.{\c&HFFFFFF&} Not rocking
+Dialogue: 0,0:00:04.19,0:00:04.65,Default,,0,0,0,,is moving. {\c&H00FFFF&}Not{\c&HFFFFFF&} rocking —
+Dialogue: 0,0:00:04.65,0:00:05.11,Default,,0,0,0,,moving. Not {\c&H00FFFF&}rocking{\c&HFFFFFF&} — bucking.
+Dialogue: 0,0:00:05.11,0:00:05.57,Default,,0,0,0,,Not rocking {\c&H00FFFF&}—{\c&HFFFFFF&} bucking. The
+Dialogue: 0,0:00:05.57,0:00:06.03,Default,,0,0,0,,rocking — {\c&H00FFFF&}bucking.{\c&HFFFFFF&} The walls
+Dialogue: 0,0:00:06.03,0:00:06.49,Default,,0,0,0,,— bucking. {\c&H00FFFF&}The{\c&HFFFFFF&} walls scream.
+Dialogue: 0,0:00:06.49,0:00:06.95,Default,,0,0,0,,bucking. The {\c&H00FFFF&}walls{\c&HFFFFFF&} scream. San
+Dialogue: 0,0:00:06.95,0:00:07.41,Default,,0,0,0,,The walls {\c&H00FFFF&}scream.{\c&HFFFFFF&} San Francisco,
+Dialogue: 0,0:00:07.41,0:00:07.88,Default,,0,0,0,,walls scream. {\c&H00FFFF&}San{\c&HFFFFFF&} Francisco, April
+Dialogue: 0,0:00:07.88,0:00:08.34,Default,,0,0,0,,scream. San {\c&H00FFFF&}Francisco,{\c&HFFFFFF&} April eighteenth,
+Dialogue: 0,0:00:08.34,0:00:08.80,Default,,0,0,0,,San Francisco, {\c&H00FFFF&}April{\c&HFFFFFF&} eighteenth, nineteen
+Dialogue: 0,0:00:08.80,0:00:09.26,Default,,0,0,0,,Francisco, April {\c&H00FFFF&}eighteenth,{\c&HFFFFFF&} nineteen oh
+Dialogue: 0,0:00:09.26,0:00:09.72,Default,,0,0,0,,April eighteenth, {\c&H00FFFF&}nineteen{\c&HFFFFFF&} oh six.
+Dialogue: 0,0:00:09.72,0:00:10.18,Default,,0,0,0,,eighteenth, nineteen {\c&H00FFFF&}oh{\c&HFFFFFF&} six. Five
+Dialogue: 0,0:00:10.18,0:00:10.64,Default,,0,0,0,,nineteen oh {\c&H00FFFF&}six.{\c&HFFFFFF&} Five twelve
+Dialogue: 0,0:00:10.64,0:00:11.10,Default,,0,0,0,,oh six. {\c&H00FFFF&}Five{\c&HFFFFFF&} twelve AM.
+Dialogue: 0,0:00:11.10,0:00:11.57,Default,,0,0,0,,six. Five {\c&H00FFFF&}twelve{\c&HFFFFFF&} AM. Forty-seven
+Dialogue: 0,0:00:11.57,0:00:12.03,Default,,0,0,0,,Five twelve {\c&H00FFFF&}AM.{\c&HFFFFFF&} Forty-seven seconds
+Dialogue: 0,0:00:12.03,0:00:12.49,Default,,0,0,0,,twelve AM. {\c&H00FFFF&}Forty-seven{\c&HFFFFFF&} seconds that
+Dialogue: 0,0:00:12.49,0:00:12.95,Default,,0,0,0,,AM. Forty-seven {\c&H00FFFF&}seconds{\c&HFFFFFF&} that erase
+Dialogue: 0,0:00:12.95,0:00:13.41,Default,,0,0,0,,Forty-seven seconds {\c&H00FFFF&}that{\c&HFFFFFF&} erase everything.
+Dialogue: 0,0:00:13.41,0:00:13.87,Default,,0,0,0,,seconds that {\c&H00FFFF&}erase{\c&HFFFFFF&} everything.
+Dialogue: 0,0:00:13.87,0:00:14.33,Default,,0,0,0,,that erase {\c&H00FFFF&}everything.{\c&HFFFFFF&}

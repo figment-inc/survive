@@ -1,0 +1,29 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.89,Default,,0,0,0,,{\c&H00FFFF&}The{\c&HFFFFFF&} street ripples
+Dialogue: 0,0:00:00.89,0:00:01.28,Default,,0,0,0,,The {\c&H00FFFF&}street{\c&HFFFFFF&} ripples like
+Dialogue: 0,0:00:01.28,0:00:01.67,Default,,0,0,0,,The street {\c&H00FFFF&}ripples{\c&HFFFFFF&} like water.
+Dialogue: 0,0:00:01.67,0:00:02.07,Default,,0,0,0,,street ripples {\c&H00FFFF&}like{\c&HFFFFFF&} water. Cobblestones
+Dialogue: 0,0:00:02.07,0:00:02.46,Default,,0,0,0,,ripples like {\c&H00FFFF&}water.{\c&HFFFFFF&} Cobblestones bounce.
+Dialogue: 0,0:00:02.46,0:00:02.85,Default,,0,0,0,,like water. {\c&H00FFFF&}Cobblestones{\c&HFFFFFF&} bounce. The
+Dialogue: 0,0:00:02.85,0:00:03.25,Default,,0,0,0,,water. Cobblestones {\c&H00FFFF&}bounce.{\c&HFFFFFF&} The earth
+Dialogue: 0,0:00:03.25,0:00:03.64,Default,,0,0,0,,Cobblestones bounce. {\c&H00FFFF&}The{\c&HFFFFFF&} earth has
+Dialogue: 0,0:00:03.64,0:00:04.03,Default,,0,0,0,,bounce. The {\c&H00FFFF&}earth{\c&HFFFFFF&} has forgotten
+Dialogue: 0,0:00:04.03,0:00:04.43,Default,,0,0,0,,The earth {\c&H00FFFF&}has{\c&HFFFFFF&} forgotten how
+Dialogue: 0,0:00:04.43,0:00:04.82,Default,,0,0,0,,earth has {\c&H00FFFF&}forgotten{\c&HFFFFFF&} how to
+Dialogue: 0,0:00:04.82,0:00:05.21,Default,,0,0,0,,has forgotten {\c&H00FFFF&}how{\c&HFFFFFF&} to be
+Dialogue: 0,0:00:05.21,0:00:05.61,Default,,0,0,0,,forgotten how {\c&H00FFFF&}to{\c&HFFFFFF&} be earth.
+Dialogue: 0,0:00:05.61,0:00:06.00,Default,,0,0,0,,how to {\c&H00FFFF&}be{\c&HFFFFFF&} earth.
+Dialogue: 0,0:00:06.00,0:00:06.39,Default,,0,0,0,,to be {\c&H00FFFF&}earth.{\c&HFFFFFF&}

@@ -1,0 +1,26 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, high angle looking down the length of the B-Deck corridor. Locked camera, flat composition, no movement. The figure runs toward the camera through the tilting corridor. Classic adult animated comedy wide tableau staging.
+
+Same setting, wider framing. Cut from medium reaction shot to wide corridor view showing the tilt beginning.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: At second 0, the figure begins running toward the camera — toward the bow — with exaggerated cartoon urgency, arms pumping, skull facing forward. At second 2, the floor begins to tilt as the stern drops — the figure stumbles, arms windmilling for balance. At second 3, the figure grabs the edge of a doorframe to steady itself, ribcage heaving. At second 4, luggage begins sliding past the figure's feet — a leather steamer trunk, scattered clothing, a man's fedora tumbling. The figure leaps over the sliding trunk. At second 5, the figure resumes running on the increasingly steep floor, now climbing uphill as the bow rises. At second 6, the figure slips on the linoleum surface and slides backward several feet, arms flailing. At second 7, the figure catches itself on a wall-mounted handrail and pulls forward, crawling now. Orange light begins blooming from behind — from the stern — casting the figure's shadow long and sharp down the corridor. THE FIGURE'S MOUTH MUST REMAIN CLOSED AT ALL TIMES. The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Flat even lighting on the character, with the warm interior cream palette now being invaded by intense orange-amber light from behind. Two-tone split: warm cream ahead, hot orange behind. Deepening shadows. All flat cel-shaded.
+
+Foreground: Fallen luggage sliding down the tilting floor — leather steamer trunk, scattered clothing, a fedora, champagne glasses rolling off tables and shattering. The lightweight Blüthner piano shifting, its legs scraping the linoleum.
+
+Midground: The figure running/climbing the tilting corridor. Other passengers in 1930s attire stumbling — a woman in a fur-collared suit grabbing the wall, a man falling against a doorframe. A steward bracing in a doorway.
+
+Background: The corridor stretching back toward the stern, now filled with blooming orange light. Through the observation windows, the ground is visible at an increasingly wrong angle — the airfield tilting as the stern drops. Shadows lengthening dramatically.
+
+Audio direction:
+- SFX: The screech of the piano legs dragging across linoleum; luggage thumping and sliding on the tilting floor; champagne glasses shattering; the deep structural groan of the aluminum framework shifting under asymmetric load; the figure's feet slipping on smooth linoleum; the sharp crack of a window pane fracturing from structural stress; a distant roar building from the stern — the sound of hydrogen combustion, deep and oceanic
+- Ambience: The interior soundscape transforming — the calm arrival bustle replaced by a rising cacophony of sliding objects, creaking metal, the ship's structure protesting the sudden weight shift as thousands of cubic feet of hydrogen burn away in the stern; the diesel engines cutting out as fuel lines sever; panicked footsteps and indistinct alarmed voices (no words); the growing roar of flames consuming the stern
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

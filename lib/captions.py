@@ -80,13 +80,13 @@ def transcribe_audio(video_path: Path, api_key: str | None = None) -> list[WordT
 
 def build_remotion_segments(
     words: list[WordTimestamp],
-    max_words_per_segment: int = 6,
+    max_words_per_segment: int = 3,
 ) -> list[dict]:
     """Convert Whisper word timestamps into Remotion HydratedSegment[] JSON.
 
-    Groups words into segments of max_words_per_segment for readability.
-    Each word gets karaoke styling: highlighted word in yellow (#FFD700),
-    other words in white with black stroke.
+    Groups words into small segments (default 3) for punchy TikTok-style readability.
+    Each word gets karaoke styling: highlighted word in yellow (#FFD500),
+    other words in white with heavy black stroke.
     """
     if not words:
         return []
@@ -126,15 +126,16 @@ def build_remotion_segments(
 
 
 def _karaoke_html(word: str) -> str:
-    """Build HTML for a single word with karaoke highlight styling."""
+    """Build HTML for a single word with TikTok-style bold uppercase styling."""
     return (
         f'<span style="'
-        f"font-family: 'Inter', sans-serif; "
-        f"font-weight: 800; "
-        f"font-size: 72px; "
+        f"font-family: 'Montserrat', 'Inter', sans-serif; "
+        f"font-weight: 900; "
+        f"font-size: 90px; "
+        f"text-transform: uppercase; "
         f"color: #FFFFFF; "
-        f"text-shadow: 0 0 8px rgba(0,0,0,0.9), 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000; "
-        f"letter-spacing: 0.02em;"
+        f"text-shadow: 0 0 10px rgba(0,0,0,0.95), 3px 3px 0 #000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 0 3px 0 #000, 0 -3px 0 #000, 3px 0 0 #000, -3px 0 0 #000; "
+        f"letter-spacing: 0.04em;"
         f'">{word}</span>'
     )
 
@@ -169,11 +170,22 @@ def render_caption_overlay(
 
     props = {
         "segments": segments,
-        "position": {"x": 50, "y": 85},
+        "position": {"x": 50, "y": 65},
         "styleToggles": {
             "scrapbook": False,
-            "pulse": True,
-            "highlightBorderRadius": 0,
+            "scatter": False,
+            "pulse": False,
+            "highlightBorderRadius": 8,
+            "singleWord": False,
+            "lineByLine": False,
+            "karaokeHighlight": True,
+            "karaokeTextColor": "#FFD500",
+            "entranceAnimation": "slideUp",
+            "entranceSpeed": "fast",
+            "emphasisAnimation": "none",
+            "highlightAnimation": "scale",
+            "highlightScale": 1.2,
+            "highlightColor": "#FFD500",
         },
         "backgroundColor": "transparent",
         "transparentBackground": True,
@@ -242,7 +254,8 @@ def composite_captions(video_path: Path, overlay_path: Path, output_path: Path) 
             "-i", str(video_path),
             "-i", str(overlay_path),
             "-filter_complex", "[0:v][1:v]overlay=0:0:format=auto",
-            "-c:a", "copy",
+            "-map", "0:a",
+            "-c:a", "aac", "-b:a", "192k",
             "-c:v", "libx264",
             "-preset", "medium",
             "-crf", "18",

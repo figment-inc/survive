@@ -12,7 +12,9 @@ Camera: Static {{SHOT TYPE — medium shot / close-up / low-angle / high-angle /
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
-{{CHARACTER ACTION — describe the physical performance beat-by-beat over the clip duration. What the figure DOES physically: specific gestures, posture changes, reactions. Use cartoon-physical vocabulary: "stumbling backward", "arms thrown up defensively", "frozen stiff with shock", "running with exaggerated arm flailing", "slow cartoon head-turn", "double-take". The figure reacts silently through physical comedy ONLY.}}
+{{CHARACTER ACTION — describe the physical performance beat-by-beat over the clip duration. What the figure DOES physically: specific gestures, posture changes, reactions. Use cartoon-physical vocabulary: "stumbling backward", "arms thrown up defensively", "frozen stiff with shock", "running with exaggerated arm flailing", "slow cartoon head-turn", "double-take". The figure reacts silently through physical comedy ONLY. THE FIGURE'S MOUTH MUST REMAIN CLOSED AT ALL TIMES — no lip movement, no jaw movement, no mouth animation.}}
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
 Flat even lighting. {{PALETTE — name the specific color palette for this setting. Atmosphere can shift (smoke, haze, fire glow) but character rendering stays flat.}}
 
@@ -26,16 +28,9 @@ Flat even lighting. {{PALETTE — name the specific color palette for this setti
 
 {{BACKGROUND ACTIVITY — other people/events happening in the scene, rendered in flat 2D animation.}}
 
-Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
-
-Dialogue direction:
-- Off-screen narrator says: "{{EXACT NARRATION LINE for this clip}}"
-- The on-screen character does NOT speak. Silent physical reactions only.
-
-Voice direction:
-- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor, {{specific delivery notes — pace, tone, emotional color for THIS clip}}. Second person address ("you").
-
 Audio direction:
-- Music: {{Dark cinematic underscore — specific instruments, intensity level, mood for this beat}}
 - SFX: {{3-5 specific sound events with sensory texture — material, quality, spatial position}}
 - Ambience: {{continuous environmental sounds with intensity and character}}
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

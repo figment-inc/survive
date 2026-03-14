@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, low angle looking upward. Locked camera, flat composition, no movement. The Chicago Waterworks building on the North Side. The figure stands at the base, dwarfed by the Gothic limestone tower. Classic adult animated comedy low-angle dread staging.
+
+NEW location — cut from the bridge to the Waterworks. Time has advanced — the fire has reached the North Side.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure stands at the base of the Waterworks, looking upward with shoulders slumped and arms hanging limp (0-3s). Slow cartoon head-turn to look at an empty fire hose lying flat and deflated on the cobblestones — the figure reaches down and picks up the nozzle, which flops limply like a dead snake. Nothing comes out (3-5s). The figure drops the hose, looks back up at the burning pumping station roof, then does an exaggerated full-body cartoon slump — shoulders drop, knees buckle slightly, head bows. Total defeat (5-8s).
+
+Apocalyptic flat orange palette. The limestone Waterworks in warm cream and grey. The figure backlit with orange, skeleton visible as darker lines through amber-washed translucent skin.
+
+Foreground: Burning debris on the ground, charred wooden beams, twisted metal. Empty deflated fire hose on cobblestones. Abandoned firefighter's leather helmet.
+
+Midground: The figure at the base of the Waterworks. The Gothic Revival limestone tower — castellated roofline, pointed arches — in flat cream and grey. Wooden roof timbers of the pumping station catching fire.
+
+Background: The North Side fully engulfed. Flat wall of orange and crimson. Fleeing silhouettes. Holy Name Cathedral steeple with its wooden cross ablaze. Horizontal ember streaks from firestorm winds.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: The Waterworks catches fire. The pumps fail. Three and a half square miles of city, and not a drop to save it.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor, clinical precision at peak crisis — each sentence shorter and more clipped than the last, building to the devastating final clause "and not a drop to save it" delivered with quiet horror masked as professional detachment. Second person address.
+
+Audio direction:
+- Music: Full orchestral swell — strings, brass, and timpani building to a sustained dissonant chord, then dropping to near-silence on "not a drop" — just a single held violin harmonic, thin and piercing.
+- SFX: The deep groan of the pumping station's wooden roof collapsing inward, the clank of idle pump machinery, the empty fire hose flopping on cobblestones, the hiss of limestone heating and cracking, a church bell — Holy Name Cathedral's — tolling once, then stopping as the belfry burns.
+- Ambience: The firestorm at full power — a deep continuous roar like a waterfall made of fire, the wind screaming through the streets at hurricane force as the fire creates its own weather system, distant crashes of buildings falling, the constant rain of embers pattering on stone like hail.

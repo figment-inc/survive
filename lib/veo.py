@@ -1,4 +1,4 @@
-"""Veo 3.1 video generation — Family Guy animation with native audio (speech, SFX, music).
+"""Veo 3.1 video generation — Family Guy animation with silent video (SFX/ambience only, NO speech).
 
 Supports two modes:
   1. Independent clips via generate_video() with angle-aware ASSET reference selection
@@ -7,6 +7,7 @@ Supports two modes:
 
 from __future__ import annotations
 
+import subprocess
 import time
 from dataclasses import dataclass, field
 from datetime import datetime
@@ -33,15 +34,27 @@ NO_TEXT_PREFIX = (
     "The frame must be purely visual with no rendered text.\n\n"
 )
 
+NO_SPEECH_PREFIX = (
+    "CRITICAL: Generate ZERO spoken dialogue, narration, voiceover, or character speech. "
+    "The video must be COMPLETELY SILENT except for environmental SFX and ambient sounds. "
+    "No character should move their mouth or appear to speak.\n\n"
+)
+
 NO_TEXT_SUFFIX = (
     "\n\nREMINDER: No text, titles, captions, or written words "
-    "should appear anywhere in the video frame at any time."
+    "should appear anywhere in the video frame at any time. "
+    "No speech, narration, or voiceover in the audio."
 )
 
 
-def _wrap_prompt(prompt: str) -> str:
-    """Prepend style enforcement + no-text instructions and append no-text reminder."""
-    return f"{NO_TEXT_PREFIX}{STYLE_ENFORCEMENT}{prompt}{NO_TEXT_SUFFIX}"
+def _wrap_prompt(prompt: str, episode_style: str | None = None) -> str:
+    """Prepend style enforcement + no-text + no-speech instructions and append reminders."""
+    parts = [NO_TEXT_PREFIX, NO_SPEECH_PREFIX, STYLE_ENFORCEMENT]
+    if episode_style:
+        parts.append(f"EPISODE VISUAL IDENTITY: {episode_style}\n\n")
+    parts.append(prompt)
+    parts.append(NO_TEXT_SUFFIX)
+    return "".join(parts)
 
 
 @dataclass
@@ -62,6 +75,25 @@ SAFETY_SETTINGS = [
 
 def _ts() -> str:
     return datetime.now().strftime("%H:%M:%S")
+
+
+def extract_first_frame(video_path: Path) -> Path:
+    """Extract the first frame of a video as a PNG for use as a style anchor."""
+    out = video_path.with_suffix(".frame1.png")
+    if out.exists():
+        return out
+    result = subprocess.run(
+        [
+            "ffmpeg", "-y", "-i", str(video_path),
+            "-vframes", "1", "-q:v", "1", str(out),
+        ],
+        capture_output=True,
+    )
+    if result.returncode != 0 or not out.exists():
+        print(f"  [{_ts()}] WARNING: Failed to extract first frame from {video_path.name}")
+        return None
+    print(f"  [{_ts()}] Style anchor frame extracted: {out.name} ({out.stat().st_size / 1024:.0f} KB)")
+    return out
 
 
 def get_client(api_key: str) -> genai.Client:
@@ -190,32 +222,39 @@ def generate_video(
     ref_images: list[bytes] | None = None,
     first_frame_path: Path | None = None,
     use_reference: bool = True,
+    style_anchor_refs: list[bytes] | None = None,
+    episode_style: str | None = None,
 ) -> bool:
     """Generate a video clip via Veo 3.1.
 
     Native audio (ambient/SFX) is kept — not muted or stripped.
     Falls back through: ASSET refs -> first-frame -> text-only.
+    style_anchor_refs are appended to character refs for cross-clip consistency.
     """
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    prompt = _wrap_prompt(prompt)
+    prompt = _wrap_prompt(prompt, episode_style=episode_style)
     base_config = {
         "aspect_ratio": "9:16",
         "duration_seconds": duration,
         "resolution": resolution,
     }
 
-    if use_reference and ref_images:
+    combined_refs = list(ref_images or [])
+    if style_anchor_refs:
+        combined_refs.extend(style_anchor_refs)
+
+    if use_reference and combined_refs:
         ref_entries = [
             types.VideoGenerationReferenceImage(
                 reference_type="ASSET",
                 image=types.Image(image_bytes=img_bytes, mime_type="image/png"),
             )
-            for img_bytes in ref_images
+            for img_bytes in combined_refs
         ]
         config_kwargs = {**base_config, "reference_images": ref_entries, "person_generation": "allow_adult"}
         gen_kwargs = {"model": VIDEO_MODEL, "prompt": prompt}
 
-        success, result = _submit_and_poll(client, gen_kwargs, config_kwargs, output_path.stem, f"{len(ref_images)} refs")
+        success, result = _submit_and_poll(client, gen_kwargs, config_kwargs, output_path.stem, f"{len(combined_refs)} refs")
         if success:
             operation, generated_video = result
             client.files.download(file=generated_video.video)
@@ -297,6 +336,7 @@ def generate_initial(
     ref_images: list[bytes] | None = None,
     duration: int = INITIAL_DURATION,
     resolution: str = "720p",
+    episode_style: str | None = None,
 ) -> VeoVideoHandle:
     """Generate the first clip in an extension chain.
 
@@ -308,7 +348,7 @@ def generate_initial(
         "duration_seconds": duration,
         "resolution": resolution,
     }
-    prompt = _wrap_prompt(prompt)
+    prompt = _wrap_prompt(prompt, episode_style=episode_style)
     gen_kwargs: dict[str, Any] = {"model": VIDEO_MODEL, "prompt": prompt}
 
     if ref_images:
@@ -345,6 +385,7 @@ def extend_video(
     prompt: str,
     resolution: str = "720p",
     max_retries: int = 3,
+    episode_style: str | None = None,
 ) -> VeoVideoHandle:
     """Extend an existing video by passing the previous clip as seed frames.
 
@@ -354,7 +395,7 @@ def extend_video(
     """
     ext_num = handle.extension_count + 1
     new_duration = handle.duration_seconds + EXTENSION_DURATION
-    prompt = _wrap_prompt(prompt)
+    prompt = _wrap_prompt(prompt, episode_style=episode_style)
 
     # Brief delay to let the server finish processing the previous video
     print(f"  [{_ts()}] Waiting 10s for server-side video processing...")

@@ -2,7 +2,7 @@
 
 ## Premise
 
-A hapless skeleton gets teleported into history's most horrific moments — plagues, sieges, volcanic eruptions, sinkings, collapses, and catastrophes of every kind. A darkly amused narrator tells the story in second person ("you") while the skeleton stumbles through each scenario with wide-eyed physical comedy. Every episode ends terribly. The skeleton never survives. But the history is always real.
+A hapless skeleton gets teleported into history's most horrific moments — plagues, sieges, volcanic eruptions, sinkings, collapses, and catastrophes of every kind. A calm, authoritative narrator — a seasoned British naturalist in the tradition of a National Geographic documentary — tells the story in second person ("you") while the skeleton stumbles through each scenario with wide-eyed physical comedy. Every episode ends terribly. The skeleton never survives. But the history is always real, always educational, and always precisely sourced.
 
 ## Visual Style
 
@@ -16,49 +16,56 @@ Classic American adult animation (Family Guy seasons 10-20 aesthetic):
 
 ## Tone
 
-- **Immersive thriller, never lecture.** The viewer IS the skeleton — they make decisions, try to survive, and fail. The script reads like a first-person survival story, not a documentary.
-- **Agency and failure loops.** Every 10–15 seconds the character tries something and it fails. "You warn the officers. They laugh." / "You run for the gate. It's already jammed." These micro-failures drive tension and retention.
-- **Dark comedy through understatement.** The humor comes from dry observations at peak horror — "You are having a very bad day" — not from mocking real suffering. Real victims are treated with respect; the skeleton absorbs the comedic punishment.
-- **Educational through lived experience.** Facts land because the viewer encounters them firsthand. Not "twenty thousand people lived here" but "you push through twenty thousand people who don't know they're about to die."
-- **Second person address, present tense.** Always "you", "your" — and always present tense for immediacy. "You wake up on hot stone. The air tastes like sulfur." Never past tense.
+- **Nature documentary meets apocalypse.** The narrator speaks like a British naturalist guiding you through the most extraordinary forces on Earth — geological, meteorological, human. The tone is reverent, unhurried, and intimately curious, as if studying a rare species in its final hours. The horror comes from the calm, measured delivery of devastating facts, not from snark or humor.
+- **Immersive thriller, never lecture.** The viewer IS the skeleton — they make decisions, try to survive, and fail. The script reads like a first-person survival story narrated by a world-class National Geographic documentarian.
+- **Agency and failure loops.** Every 10–15 seconds the character tries something and it fails. "You warn the officers. They have no reason to listen — no hurricane has ever struck Galveston." These micro-failures drive tension, retention, AND education.
+- **Educational through lived experience with scientific depth.** Facts land because the viewer encounters them firsthand. Not "twenty thousand people lived here" but "you push through 37,000 people who live on a sandbar barely 8 feet above sea level." Every clip includes at least one specific, verifiable fact.
+- **Measured gravitas, not dark comedy.** The narrator treats every disaster with the respect it deserves. Scientific precision. Genuine awe at scale. The tone of a National Geographic special — warm, wise, and unhurried — even as the world falls apart around you.
+- **Second person address, present tense.** Always "you", "your" — and always present tense for immediacy. "You stand on the cobblestones of Galveston Island. The barometric pressure is dropping." Never past tense.
 
 ## Format
 
-- Vertical 9:16 short-form video optimized for YouTube Shorts
-- **60–75 seconds per episode** (target 65s — Shorts supports up to 3 minutes)
-- **200–230 words of narration** at ~3 words/second — dense narrative, no dead air
+- Vertical 9:16 short-form video optimized for YouTube Shorts, TikTok, and Instagram Reels
+- **45–50 seconds per episode** (target 48s video — narration MUST finish under 30 seconds)
+- **80–95 words of narration** at ~3 words/second — punchy, dense, every word earns its place
 - Classic American adult animation style (flat cel-shaded, thick outlines)
 - The skeleton appears on camera but never speaks — narration is off-screen voiceover
-- **ALL audio generated natively by Veo 3.1**: narrator speech + SFX + ambience + music
-- No ElevenLabs. No external TTS. No external music generation.
-- No captions burned into video.
-- **9–12 clips** (mix of 4s and 8s) — target visual change every 3–4 seconds
+- **Split audio pipeline**:
+  - **Veo 3.1**: Generates SILENT video with environmental SFX + ambient sounds only
+  - **ElevenLabs TTS**: Generates narrator voiceover (Dan — British Documentary Narrator, voice ID `BHr135B5EUBtaWheVj8S`)
+  - **ElevenLabs Music**: Generates cinematic nature documentary underscore
+  - **ffmpeg**: Mixes per clip: Veo audio 40% + narration 100% + music 20%
+- Remotion-rendered karaoke captions (Whisper transcription + transparent overlay)
+- **8 clips** (mix of 4s and 8s) — target visual change every 4–6 seconds
 - Static locked camera throughout — flat 2D animated compositions
 - Native Veo output durations only — NEVER crop or trim video
 
 ## Episode Structure (5 Narrative Beats)
 
-Every episode follows this arc:
+Every episode follows this arc across 8 clips (~48s video, <30s narration):
 
-1. **The Hook** (0–3s) — Open with a "What happens if..." question over the first visual. Voice starts IMMEDIATELY on frame 1. No silent establishing shots. The question creates an instant curiosity gap: "What happens if you wake up in Pompeii three hours before Vesuvius erupts?"
-2. **The Immersion** (3–15s) — Sensory arrival. The viewer wakes up in the scene, confused. Short punchy sentences establish where and when through experience, not exposition. "You wake up on hot stone. The air tastes like sulfur. A man grabs your arm and says 'the baker wants his money.' You don't speak Latin."
-3. **The Attempt** (15–35s) — The viewer tries to survive or escape. They take action and FAIL. This is the agency-and-failure engine: try to warn people → they laugh. Try to run → the gates are jammed. Try to hide → the ground shakes. Each failure raises stakes. Include a philosophical beat: "That's when you realize — authority won't save anyone."
-4. **The Catastrophe** (35–55s) — The historical event at maximum intensity. The viewer is in the middle of it. Fast pacing, dramatic visuals, the skeleton scrambling. Facts delivered with clinical precision at peak chaos.
-5. **The Cliffhanger** (55–70s) — Do NOT resolve cleanly. End on an open, haunting image that lingers: "And in 1748, they find you. Exactly where you fell. Still reaching for the gate." Leave the viewer wanting to comment, share, or rewatch.
+1. **The Hook** (clip 01, 0–4s) — The figure is already in the scene, standing in the middle of the disaster about to unfold. Drop the viewer into danger on word one. NOT a question — a devastating fact that creates immediate dread. "You have eleven minutes before the pyroclastic surge reaches you. You cannot outrun it." Voice starts IMMEDIATELY on frame 1. No silent establishing shots. No setup.
+2. **The Immersion** (clips 02–03, 4–16s) — Sensory arrival with one killer scientific detail per clip. Place the viewer in the scene FAST. Short, visceral sentences. "You stand on a sandbar eight feet above sea level. Thirty-seven thousand people live here. None of them have seen a hurricane."
+3. **The Attempt** (clips 04–05, 16–28s) — The viewer tries to survive and FAILS. Each failure teaches one real fact. Try to warn people → learn why they don't listen. Try to run → discover the geography that traps you. Every clip raises the stakes. No plateaus.
+4. **The Catastrophe** (clips 06–07, 28–40s) — Maximum intensity. Facts delivered with clinical precision at peak chaos — specific temperatures, wind speeds, structural failure points. The calm voice amid the destruction IS the horror. Staccato rhythm. Short punchy sentences.
+5. **The Cliffhanger** (clip 08, 40–48s) — End with an unresolved, haunting fact that drives comments AND echoes the hook for structural satisfaction. "They found 6,000 bodies. They stopped counting." Never resolve cleanly. Leave the viewer wanting to comment, share, or rewatch.
 
-Each beat spans 2–3 clips. The viewer drives the story through their (failed) choices while history happens around them.
+Each beat spans 1–2 clips. The viewer drives the story through their (failed) choices while history happens around them.
 
 ## Narrator Voice
 
-- Darkly amused, wry British male — authoritative with gallows humor and genuine fascination
-- Think a museum curator who specializes in disasters and clearly enjoys his work too much
-- Addresses the viewer directly in second person present tense: "you wake up", "you run", "you feel"
-- References the skeleton with dark affection: "our unfortunate friend", "our doomed visitor", "you"
-- Dry understatement at peak horror: "You are having a very bad day", "There was never anywhere to run"
-- Pacing: ~3 words per second, **200–230 words per episode**
-- **Sentence length**: target 5–8 words average, with frequent 3–4 word punches ("They laugh.", "You are not running.", "No one listens.")
-- **Micro-cliffhangers**: every 10–15 seconds, something shifts — a failure, a twist, a new threat
-- Generated via **Veo 3.1 native speech** as off-screen voiceover (directed via dialogue + voice blocks in video prompts)
+- Calm, measured, authoritative British naturalist — the voice of a National Geographic documentary narrator who has spent decades in the field
+- Warm curiosity and genuine reverence for the forces involved — geological, meteorological, human
+- Unhurried pacing, as if guiding the viewer through something extraordinary and fragile
+- The horror comes from the steady, composed delivery of devastating facts — not from humor or theatrics
+- Scientific precision: specific numbers, temperatures, distances, chemical reactions
+- Addresses the viewer directly in second person present tense: "you wake up", "you feel the ground shift"
+- Pacing: ~3 words per second, **80–95 words per episode** (HARD CEILING — narration must finish under 30 seconds)
+- **Sentence structure**: Short, punchy sentences. Average 5-10 words. Staccato rhythm for catastrophe beats, slightly more flowing for immersion.
+- **Sensory specificity**: Visceral, concrete details. Not "the fire is hot" but "eighteen hundred degrees — hot enough to melt your fillings."
+- Generated via **ElevenLabs TTS** (Dan — British Documentary Narrator, voice ID `BHr135B5EUBtaWheVj8S`)
+- Voice settings: stability 0.85, similarity_boost 0.75, style 0.15
+- Mixed with Veo video in post-production at 100% volume
 
 ## Naming Rules (for Veo prompts)
 
@@ -66,24 +73,31 @@ Each beat spans 2–3 clips. The viewer drives the story through their (failed) 
 - NEVER reference copyrighted show names (Family Guy, Simpsons, South Park) in prompts
 - In prompts: refer to the character as **the figure** or **the translucent character**
 - Use "classic American adult animation style" for style enforcement
-- The character NEVER speaks in Veo prompts. All prompts must include: "The on-screen character does NOT speak. Silent physical reactions only."
+- The character NEVER speaks, NEVER moves their mouth in Veo prompts. All prompts must include: "The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only."
+- Video prompts generate SILENT video — no narrator lines, no dialogue direction, no music
 - The reference image handles visual identity — detailed descriptions reinforce it
 
 ## Script Writing Rules
 
+- **Nature documentary tone.** Calm, measured, authoritative. Warm British naturalist guiding you through the extraordinary. Genuine awe. Scientific precision.
 - **Present tense ONLY.** "You wake up" not "You've arrived." Immediacy is everything.
-- **Short sentences.** Average 5–8 words. Punches of 3–4 words for impact. Never exceed 15 words.
-- **Show, don't tell.** Not "Vesuvius is erupting" but "The sky turns black. Rocks fall like hail. The ground cracks open beneath your feet."
+- **Short punchy sentences.** Average 5–10 words. Staccato rhythm for catastrophe beats, slightly more flowing for immersion. "The ground shifts. Limestone cracks beneath your feet."
+- **Educational depth.** Every clip includes at least one specific, verifiable fact.
+- **Sensory specificity.** Visceral, concrete details. Not "Vesuvius is erupting" but "four hundred fifty miles per hour. Superheated gas at a thousand degrees."
 - **Agency verbs.** The viewer acts: "You run", "You grab", "You shout." Not passive observation.
-- **Failure beats every 10–15 seconds.** The viewer tries and fails. This is the retention engine.
-- **One philosophical beat per episode.** A moment of insight amid chaos: "Pride is louder than fear." / "There was never anywhere to run."
-- **Recognizable anchors.** Reference things the viewer already knows — famous people, pop culture, well-known artifacts. The bread in Pompeii's ovens. Pliny watching from across the bay.
-- **Cliffhanger endings.** Never wrap up neatly. End on an image that haunts. Leave room for comments.
+- **Tension ratchet.** Every clip raises the stakes from the previous one. No plateaus. No breathing room.
+- **One moment of genuine scientific awe per episode.** A fact so extraordinary it creates wonder.
+- **Callback endings.** The cliffhanger should echo or invert the hook for structural satisfaction.
+- **Open-loop endings.** End with an unresolved fact that drives comments: "The real number may never be known."
+- **80–95 words total. HARD CEILING.** The entire narration must finish under 30 seconds of spoken audio.
 
-## YouTube Shorts Optimization
+## TikTok / YouTube Shorts Optimization
 
-- **Voice on frame 1.** The "What happens if..." hook plays over the very first visual. ZERO seconds of silence.
-- Target **60–75 seconds** total (9–12 clips)
-- **Visual change every 3–4 seconds** — fast cuts, angle changes, new information in every shot
+- **Voice on frame 1.** The dramatic hook statement plays over the very first visual. ZERO seconds of silence.
+- **Hook = devastating fact**, NEVER a question. Drop the viewer into danger on word one.
+- Target **45–50 seconds** total video (8 clips), narration under 30 seconds
+- **Visual change every 4–6 seconds** — fast cuts, angle changes, new information in every shot
+- **Every clip raises the stakes** — the tension ratchet is the retention engine
 - Narrator fills EVERY clip — no silent clips, no dead air
-- End with an open question or haunting image that drives comments and shares
+- **Callback ending** — the cliffhanger echoes the hook for structural satisfaction
+- End with an **open-loop** — an unresolved fact that drives comments and shares

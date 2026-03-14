@@ -1,0 +1,26 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands at an observation window on the B-Deck promenade of the Hindenburg's passenger compartment. Classic adult animated comedy medium shot staging.
+
+NEW location — interior of the Hindenburg passenger deck. Cut from exterior establishing to interior immersion.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure stands at the observation window, both hands pressed flat on the glass, skull tilted down looking at the ground far below. At second 2, the figure slowly turns its skull to the left, noticing the other passengers gathering belongings. At second 4, the figure looks back down through the window, then raises one hand off the glass and places it on its own ribcage — a gesture of unease, feeling the vibration of the engines through the lightweight structure. At second 6, the figure presses its skull closer to the glass, pale orb eyes widening as it sees how close the ground is getting. The figure's other hand grips the window frame tightly. THE FIGURE'S MOUTH MUST REMAIN CLOSED AT ALL TIMES — no lip movement, no jaw movement, no mouth animation of any kind. The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Flat even lighting on the character. Interior palette: warm cream and tan walls, polished aluminum silver structural elements, deep burgundy upholstery, rubberized linoleum floor in geometric pattern. Cool grey light filtering through observation windows. All flat cel-shaded.
+
+Foreground: The aluminum window frame, condensation droplets on interior glass. A small art-deco writing desk bolted to the wall with Zeppelin Company stationery and a half-empty wine glass. A folded Frankfurter Zeitung newspaper on the adjacent seat.
+
+Midground: The figure at the window. The B-Deck promenade stretches behind — fabric-covered walls printed with a map of the North Atlantic. The specially built lightweight Blüthner piano — aluminum and pigskin construction, 397 pounds — against the interior wall. Art deco tulip-shaped frosted glass wall sconces.
+
+Background: Through the window, the Lakehurst airfield 200 feet below — tiny figures of ground crew forming up, parked automobiles, the flat green New Jersey landscape. Two passengers visible through adjacent windows — a woman in a fitted wool travel suit with fox fur collar, a man in a three-piece suit with pocket watch chain — pointing down at the airfield excitedly. A steward in a white jacket passing through the corridor carrying a silver tray.
+
+Audio direction:
+- SFX: The muffled hum of diesel engines transmitted through the aluminum superstructure, a low harmonic vibration; the clink of the wine glass trembling on the writing desk; the creak of the lightweight aluminum furniture; the steward's shoes on linoleum; a distant metallic clang of a valve mechanism somewhere in the ship's interior; the rustle of the newspaper pages shifting
+- Ambience: Interior airship atmosphere — a pressurized, enclosed hum, the constant subtle flexing of the duralumin framework making faint metallic sighs, muffled wind against the outer cotton skin, the low-frequency drone of the engines creating a bass undertone that permeates every surface, distant murmur of passenger conversation (indistinct, no words)
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. A narrow alley between wooden tenements fills the frame. The figure is centered in the midground. Classic adult animated comedy medium shot staging.
+
+NEW location — cut from the establishing shot to the alley where the figure arrives.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure sits up from the ground (0-2s), looks around in confusion, pressing one hand against the dry wooden planks beneath (2-4s). The figure sniffs the air — skull tilting upward, nostrils area of the skull twitching — then looks down at the wood floor, then looks left at the wooden wall, then right at the wooden wall (4-6s). A slow dawning cartoon realization — the figure's orb eyes widen incrementally, the jaw drops slightly (6-8s). Everything surrounding the figure is wood.
+
+Flat warm palette — amber from distant fire glow mixing with cool blue-grey night. Flat tan and brown wood tones. Faded red and cream painted clapboard walls.
+
+Foreground: Dry wooden crates, coiled hemp rope on a rusty nail, wood shavings curled on the ground, a cracked ceramic jug against a barrel.
+
+Midground: The figure on dry plank ground. Rough-hewn pine clapboard walls on either side, paint peeling. A bone-dry wooden rain barrel.
+
+Background: Through the alley gap, a distant orange glow low on the horizon. Silhouettes of casual pedestrians in period dress — women in long skirts, men in bowler hats — walking past unalarmed.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: You wake up on dry pine. The air smells of sawdust and kerosene. It is October eighth, eighteen seventy-one.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor, measured and sensory — savoring the details of "dry pine" and "sawdust and kerosene" with tactile precision. The date delivered with quiet weight. Second person address ("you").
+
+Audio direction:
+- Music: Low ominous strings — viola and cello in a slow sustained drone, barely perceptible, creating unease beneath the calm surface.
+- SFX: The creak of dry wood as the figure shifts weight, the hollow sound of a palm slapping dry pine planks, the distant crack-pop of the growing fire three blocks away, wind whistling through the gap between buildings.
+- Ambience: A Chicago autumn night — dry air, the constant subtle groan of wooden buildings expanding and contracting, distant horse hooves on wooden streets, muffled voices from a nearby saloon, the pervasive smell suggested by the narrator's words.

@@ -3,17 +3,19 @@
 You Wouldn't Wanna Be — Automated Episode Pipeline
 
 End-to-end from autonomous topic selection to published YouTube Short + Instagram Reel.
-Family Guy animation style with Veo 3.1 native audio (speech, SFX, music).
+Family Guy animation style with split audio pipeline: Veo 3.1 silent video + ElevenLabs British documentary narration/music.
 
 Phases:
   0. Topic generation (Claude — picks history's worst moments, avoids duplicates)
-  1. Episode content generation (Claude — image prompts, video prompts with dialogue/audio direction)
+  1. Episode content generation (Claude — image prompts, video prompts, dialogue script)
   1b. Write prompts to disk
   2. Image generation (NanoBanana Pro — keyframe images with skeleton reference, Family Guy style)
-  3. Video generation (Veo 3.1 — clips with native speech, SFX, ambience, music)
-  4. Stitch + LUFS normalize (ffmpeg — concat + loudnorm to -14 LUFS)
+  2b. Audio generation (ElevenLabs — Dan British documentary narrator voice + cinematic underscore music)
+  3. Video generation (Veo 3.1 — silent clips with SFX/ambience only, NO speech)
+  3b. Per-clip audio mixing (ffmpeg — Veo SFX 40% + narration 100% + music 20%)
+  4. Stitch + LUFS normalize (ffmpeg — concat mixed clips + loudnorm to -14 LUFS)
   4b. Remotion karaoke captions (Whisper transcription + Remotion render + ffmpeg composite)
-  5. Publish (GitHub Release upload + Metricool API → IG Reel + YT Short)
+  5. Publish (GitHub Release upload + Metricool API → IG Reel + YT Short + TikTok)
 
 Usage:
   python n8n/run_pipeline.py                          # autonomous topic + local only
@@ -85,7 +87,7 @@ def generate_topic():
         "You generate episode topics for 'You Wouldn't Wanna Be', a dark-comedy short-form "
         "video series where a hapless skeleton gets teleported into history's worst moments.\n\n"
         "Pick ONE specific, visually dramatic historical disaster/catastrophe that would make "
-        "a great 60-second short. The event must be:\n"
+        "a great 45-second short. The event must be:\n"
         "- A real, well-documented historical event with a specific date/year\n"
         "- The WORST possible time and place to be alive — plagues, disasters, sieges, "
         "eruptions, sinkings, collapses, famines, nuclear incidents\n"
@@ -251,7 +253,7 @@ def write_episode_files(episode):
     vid_dir = ep_dir / "03_veo_video_prompts"
     out_dirs = [
         ep_dir / "output" / d
-        for d in ["images", "videos", "mixed"]
+        for d in ["images", "videos", "audio/narration", "mixed_clips", "mixed"]
     ]
 
     for d in [img_dir, vid_dir] + out_dirs:
@@ -316,6 +318,11 @@ def run_images_phase(episode, ep_dir):
     images_dir = ep_dir / "output" / "images"
     images_dir.mkdir(parents=True, exist_ok=True)
 
+    episode_style = episode.get("style_description")
+    if episode_style:
+        print(f"  [{ts()}] Episode style: {episode_style[:80]}...")
+
+    style_anchor_path = None
     clips = episode.get("clips", [])
     for i, prompt in enumerate(episode["image_prompts"]):
         clip_id = f"{i + 1:02d}"
@@ -323,6 +330,9 @@ def run_images_phase(episode, ep_dir):
 
         if output_path.exists():
             print(f"  [{ts()}] Skipping (exists): {output_path.name}")
+            if i == 0 and style_anchor_path is None:
+                style_anchor_path = output_path
+                print(f"  [{ts()}] Using existing clip 01 as style anchor")
             continue
 
         has_character = clips[i].get("has_character", True) if i < len(clips) else True
@@ -334,9 +344,84 @@ def run_images_phase(episode, ep_dir):
             output_path=output_path,
             reference_paths=ref_paths if has_character else None,
             has_character=has_character,
+            style_anchor_path=style_anchor_path if i > 0 else None,
+            episode_style=episode_style,
         )
 
+        if i == 0 and output_path.exists():
+            style_anchor_path = output_path
+            print(f"  [{ts()}] Clip 01 set as style anchor for remaining images")
+
     print(f"  [{ts()}] Images phase complete.")
+    return True
+
+
+# ── Phase 2b: Audio generation (ElevenLabs narration + music) ──
+
+
+MUSIC_PROMPT = (
+    "National Geographic documentary orchestral underscore. Sweeping strings, "
+    "warm French horns, gentle piano, and subtle timpani. Reverent and majestic. "
+    "Slow building wonder and tension. Evokes vast landscapes and ancient forces. "
+    "No vocals. No sudden jumps. No electronic elements."
+)
+
+
+def _parse_narration_lines(episode):
+    """Extract per-clip narration text from the dialogue_script field."""
+    import re
+
+    script = episode.get("dialogue_script", "")
+    clips = episode.get("clips", [])
+    lines: dict[str, str] = {}
+    current_clip = None
+
+    for line in script.splitlines():
+        clip_match = re.match(r"##\s*Clip\s+(\d+)", line)
+        if clip_match:
+            current_clip = clip_match.group(1).zfill(2)
+            lines[current_clip] = ""
+            continue
+        narr_match = re.match(r"NARRATOR:\s*[\"']?(.+?)[\"']?\s*$", line)
+        if narr_match and current_clip:
+            existing = lines.get(current_clip, "")
+            text = narr_match.group(1)
+            lines[current_clip] = f"{existing} {text}".strip() if existing else text
+
+    return lines
+
+
+def run_audio_phase(episode, ep_dir):
+    phase_banner("PHASE 2b: AUDIO GENERATION (ElevenLabs)")
+
+    from lib.elevenlabs import generate_narration, generate_music
+
+    el_key = load_env_key("ELEVENLABS_API_KEY")
+    voice_id = load_env_key("ELEVENLABS_VOICE_ID")
+    if not el_key or not voice_id:
+        print(f"  [{ts()}] ERROR: ELEVENLABS_API_KEY or ELEVENLABS_VOICE_ID not found")
+        return False
+
+    narr_dir = ep_dir / "output" / "audio" / "narration"
+    music_dir = ep_dir / "output" / "audio"
+    narr_dir.mkdir(parents=True, exist_ok=True)
+
+    narr_lines = _parse_narration_lines(episode)
+    clips = episode.get("clips", [])
+
+    for clip_meta in clips:
+        clip_id = clip_meta["id"]
+        text = narr_lines.get(clip_id, "")
+        if not text:
+            print(f"  [{ts()}] WARNING: No narration for clip {clip_id}")
+            continue
+        output_path = narr_dir / f"clip_{clip_id}.mp3"
+        generate_narration(el_key, voice_id, text, output_path)
+
+    music_path = music_dir / "music.mp3"
+    generate_music(el_key, MUSIC_PROMPT, music_path, duration_ms=55000)
+
+    print(f"  [{ts()}] Audio phase complete.")
     return True
 
 
@@ -346,7 +431,7 @@ def run_images_phase(episode, ep_dir):
 def run_videos_phase(episode, ep_dir):
     phase_banner("PHASE 3: VIDEO GENERATION (Veo 3.1)")
 
-    from lib.veo import get_client, load_reference_images, select_refs_for_prompt, generate_video
+    from lib.veo import get_client, load_reference_images, select_refs_for_prompt, generate_video, extract_first_frame
 
     gemini_key = load_env_key("GEMINI_API_KEY")
     if not gemini_key:
@@ -360,6 +445,11 @@ def run_videos_phase(episode, ep_dir):
     images_dir = ep_dir / "output" / "images"
     videos_dir.mkdir(parents=True, exist_ok=True)
 
+    episode_style = episode.get("style_description")
+    if episode_style:
+        print(f"  [{ts()}] Episode style: {episode_style[:80]}...")
+
+    style_anchor_refs = None
     clips = episode.get("clips", [])
     for i, prompt in enumerate(episode["video_prompts"]):
         clip_id = f"{i + 1:02d}"
@@ -367,6 +457,11 @@ def run_videos_phase(episode, ep_dir):
 
         if output_path.exists():
             print(f"  [{ts()}] Skipping (exists): {output_path.name}")
+            if i == 0 and style_anchor_refs is None:
+                anchor_frame = extract_first_frame(output_path)
+                if anchor_frame and anchor_frame.exists():
+                    style_anchor_refs = [anchor_frame.read_bytes()]
+                    print(f"  [{ts()}] Using existing clip 01 first frame as style anchor")
             continue
 
         clip_meta = clips[i] if i < len(clips) else {}
@@ -379,7 +474,8 @@ def run_videos_phase(episode, ep_dir):
 
         ref_images = select_refs_for_prompt(all_refs, prompt) if use_reference else None
 
-        print(f"\n  --- Clip {clip_id} ({duration}s @ {resolution}) ---")
+        print(f"\n  --- Clip {clip_id} ({duration}s @ {resolution})"
+              f"{' +style_anchor' if style_anchor_refs and i > 0 else ''} ---")
 
         max_safety_retries = 3
         for attempt in range(max_safety_retries):
@@ -392,17 +488,66 @@ def run_videos_phase(episode, ep_dir):
                 ref_images=ref_images,
                 first_frame_path=first_frame if first_frame.exists() else None,
                 use_reference=use_reference,
+                style_anchor_refs=style_anchor_refs if i > 0 else None,
+                episode_style=episode_style,
             )
             if success:
                 break
             if attempt < max_safety_retries - 1:
                 print(f"  [{ts()}] Safety retry {attempt + 1}/{max_safety_retries}...")
 
+        if i == 0 and output_path.exists() and style_anchor_refs is None:
+            anchor_frame = extract_first_frame(output_path)
+            if anchor_frame and anchor_frame.exists():
+                style_anchor_refs = [anchor_frame.read_bytes()]
+                print(f"  [{ts()}] Clip 01 first frame set as style anchor for remaining clips")
+
     print(f"  [{ts()}] Videos phase complete.")
     return True
 
 
-# ── Phase 4: Stitch + LUFS normalize ──
+# ── Phase 4: Per-clip audio mixing + Stitch + LUFS normalize ──
+
+
+def run_mix_phase(episode, ep_dir):
+    """Mix narration + music into each Veo clip, then stitch and LUFS normalize."""
+    phase_banner("PHASE 3b: PER-CLIP AUDIO MIXING (Veo SFX + Narration + Music)")
+
+    from lib.mixer import mix_clip_audio, probe_audio_duration
+
+    clips = episode.get("clips", [])
+    videos_dir = ep_dir / "output" / "videos"
+    narr_dir = ep_dir / "output" / "audio" / "narration"
+    music_path = ep_dir / "output" / "audio" / "music.mp3"
+    mixed_dir = ep_dir / "output" / "mixed_clips"
+    mixed_dir.mkdir(parents=True, exist_ok=True)
+
+    music_offset = 0.0
+
+    for clip_meta in clips:
+        clip_id = clip_meta["id"]
+        duration = clip_meta.get("duration", 8)
+        video_path = videos_dir / f"clip_{clip_id}.mp4"
+        narration_path = narr_dir / f"clip_{clip_id}.mp3"
+        output_path = mixed_dir / f"clip_{clip_id}.mp4"
+
+        narr_dur = probe_audio_duration(narration_path) if narration_path.exists() else 0.0
+
+        mix_clip_audio(
+            video_path=video_path,
+            output_path=output_path,
+            narration_path=narration_path if narration_path.exists() else None,
+            music_path=music_path if music_path.exists() else None,
+            clip_duration=duration,
+            narration_duration=narr_dur,
+            music_offset=music_offset,
+            music_volume=0.20,
+            veo_audio_volume=0.40,
+        )
+        music_offset += duration
+
+    print(f"  [{ts()}] Mix phase complete.")
+    return True
 
 
 def run_post_phase(episode, ep_dir):
@@ -413,22 +558,26 @@ def run_post_phase(episode, ep_dir):
     slug = episode["episode_slug"]
     clips = episode.get("clips", [])
 
+    mixed_clips_dir = ep_dir / "output" / "mixed_clips"
     videos_dir = ep_dir / "output" / "videos"
-    mixed_dir = ep_dir / "output" / "mixed"
-
-    mixed_dir.mkdir(parents=True, exist_ok=True)
+    final_dir = ep_dir / "output" / "mixed"
+    final_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"\n  [{ts()}] Stitching final video...")
     clip_paths = []
     for clip_meta in clips:
         clip_id = clip_meta["id"]
+        mixed = mixed_clips_dir / f"clip_{clip_id}.mp4"
         raw = videos_dir / f"clip_{clip_id}.mp4"
-        if raw.exists():
+        if mixed.exists():
+            clip_paths.append(mixed)
+        elif raw.exists():
+            print(f"  WARNING: No mixed clip_{clip_id}.mp4, using raw video")
             clip_paths.append(raw)
         else:
             print(f"  WARNING: Missing clip_{clip_id}.mp4, skipping")
 
-    final_path = mixed_dir / f"final_{slug}.mp4"
+    final_path = final_dir / f"final_{slug}.mp4"
     stitch_clips(clip_paths, final_path)
 
     return final_path
@@ -561,12 +710,12 @@ def publish_to_metricool_with_upload(episode, final_path, asset_url=None):
 def validate_word_counts(episode):
     """Check that narration word counts fit within clip durations.
 
-    Veo 3.1 delivers speech at ~2.5 words/sec. If narration exceeds
-    the clip duration budget, audio will be truncated.
+    ElevenLabs TTS delivers speech at ~3 words/sec. If narration exceeds
+    the clip duration budget, audio will extend beyond the clip.
     """
     import re
 
-    WORDS_PER_SEC = 2.5
+    WORDS_PER_SEC = 3.0
     clips = episode.get("clips", [])
     script = episode.get("dialogue_script", "")
 
@@ -597,8 +746,13 @@ def validate_word_counts(episode):
         print(f"  Clip {clip_id} ({duration}s): {word_count}/{max_words} words [{status}]")
 
     print(f"  Total narration: {total_words} words")
+    narration_seconds = total_words / WORDS_PER_SEC
+    print(f"  Estimated narration duration: {narration_seconds:.1f}s")
+    if total_words > 90:
+        print(f"  [{ts()}] WARNING: Total {total_words} words exceeds 90-word ceiling "
+              f"(~{narration_seconds:.0f}s) — narration may exceed 30 seconds")
     if any_over:
-        print(f"  [{ts()}] WARNING: Some clips exceed word budget — audio may be cut off")
+        print(f"  [{ts()}] WARNING: Some clips exceed per-clip word budget — audio may be cut off")
 
 
 # ── Main ──
@@ -611,6 +765,8 @@ def main():
     parser.add_argument("--skip-images", action="store_true", help="Skip image generation phase")
     parser.add_argument("--skip-videos", action="store_true", help="Skip video generation phase")
     parser.add_argument("--skip-post", action="store_true", help="Skip stitch phase")
+    parser.add_argument("--skip-audio", action="store_true", help="Skip ElevenLabs audio generation phase")
+    parser.add_argument("--skip-mix", action="store_true", help="Skip per-clip audio mixing phase")
     parser.add_argument("--skip-captions", action="store_true", help="Skip Remotion captions phase")
     args = parser.parse_args()
 
@@ -637,8 +793,14 @@ def main():
     if not args.skip_images:
         run_images_phase(episode, ep_dir)
 
+    if not args.skip_audio:
+        run_audio_phase(episode, ep_dir)
+
     if not args.skip_videos:
         run_videos_phase(episode, ep_dir)
+
+    if not args.skip_mix:
+        run_mix_phase(episode, ep_dir)
 
     final_path = None
     if not args.skip_post:

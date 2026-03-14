@@ -1,0 +1,46 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.83,Default,,0,0,0,,{\c&H00FFFF&}The{\c&HFFFFFF&} Army tries
+Dialogue: 0,0:00:00.83,0:00:01.17,Default,,0,0,0,,The {\c&H00FFFF&}Army{\c&HFFFFFF&} tries dynamite.
+Dialogue: 0,0:00:01.17,0:00:01.51,Default,,0,0,0,,The Army {\c&H00FFFF&}tries{\c&HFFFFFF&} dynamite. They
+Dialogue: 0,0:00:01.51,0:00:01.85,Default,,0,0,0,,Army tries {\c&H00FFFF&}dynamite.{\c&HFFFFFF&} They blow
+Dialogue: 0,0:00:01.85,0:00:02.19,Default,,0,0,0,,tries dynamite. {\c&H00FFFF&}They{\c&HFFFFFF&} blow up
+Dialogue: 0,0:00:02.19,0:00:02.53,Default,,0,0,0,,dynamite. They {\c&H00FFFF&}blow{\c&HFFFFFF&} up buildings
+Dialogue: 0,0:00:02.53,0:00:02.87,Default,,0,0,0,,They blow {\c&H00FFFF&}up{\c&HFFFFFF&} buildings to
+Dialogue: 0,0:00:02.87,0:00:03.21,Default,,0,0,0,,blow up {\c&H00FFFF&}buildings{\c&HFFFFFF&} to make
+Dialogue: 0,0:00:03.21,0:00:03.55,Default,,0,0,0,,up buildings {\c&H00FFFF&}to{\c&HFFFFFF&} make firebreaks.
+Dialogue: 0,0:00:03.55,0:00:03.89,Default,,0,0,0,,buildings to {\c&H00FFFF&}make{\c&HFFFFFF&} firebreaks. The
+Dialogue: 0,0:00:03.89,0:00:04.23,Default,,0,0,0,,to make {\c&H00FFFF&}firebreaks.{\c&HFFFFFF&} The embers
+Dialogue: 0,0:00:04.23,0:00:04.57,Default,,0,0,0,,make firebreaks. {\c&H00FFFF&}The{\c&HFFFFFF&} embers sail
+Dialogue: 0,0:00:04.57,0:00:04.91,Default,,0,0,0,,firebreaks. The {\c&H00FFFF&}embers{\c&HFFFFFF&} sail right
+Dialogue: 0,0:00:04.91,0:00:05.25,Default,,0,0,0,,The embers {\c&H00FFFF&}sail{\c&HFFFFFF&} right over.
+Dialogue: 0,0:00:05.25,0:00:05.59,Default,,0,0,0,,embers sail {\c&H00FFFF&}right{\c&HFFFFFF&} over. Worse
+Dialogue: 0,0:00:05.59,0:00:05.93,Default,,0,0,0,,sail right {\c&H00FFFF&}over.{\c&HFFFFFF&} Worse —
+Dialogue: 0,0:00:05.93,0:00:06.27,Default,,0,0,0,,right over. {\c&H00FFFF&}Worse{\c&HFFFFFF&} — the
+Dialogue: 0,0:00:06.27,0:00:06.61,Default,,0,0,0,,over. Worse {\c&H00FFFF&}—{\c&HFFFFFF&} the blasts
+Dialogue: 0,0:00:06.61,0:00:06.95,Default,,0,0,0,,Worse — {\c&H00FFFF&}the{\c&HFFFFFF&} blasts spread
+Dialogue: 0,0:00:06.95,0:00:07.29,Default,,0,0,0,,— the {\c&H00FFFF&}blasts{\c&HFFFFFF&} spread the
+Dialogue: 0,0:00:07.29,0:00:07.63,Default,,0,0,0,,the blasts {\c&H00FFFF&}spread{\c&HFFFFFF&} the fire
+Dialogue: 0,0:00:07.63,0:00:07.97,Default,,0,0,0,,blasts spread {\c&H00FFFF&}the{\c&HFFFFFF&} fire further.
+Dialogue: 0,0:00:07.97,0:00:08.31,Default,,0,0,0,,spread the {\c&H00FFFF&}fire{\c&HFFFFFF&} further. They
+Dialogue: 0,0:00:08.31,0:00:08.65,Default,,0,0,0,,the fire {\c&H00FFFF&}further.{\c&HFFFFFF&} They are
+Dialogue: 0,0:00:08.65,0:00:08.98,Default,,0,0,0,,fire further. {\c&H00FFFF&}They{\c&HFFFFFF&} are saving
+Dialogue: 0,0:00:08.98,0:00:09.32,Default,,0,0,0,,further. They {\c&H00FFFF&}are{\c&HFFFFFF&} saving the
+Dialogue: 0,0:00:09.32,0:00:09.66,Default,,0,0,0,,They are {\c&H00FFFF&}saving{\c&HFFFFFF&} the city
+Dialogue: 0,0:00:09.66,0:00:10.00,Default,,0,0,0,,are saving {\c&H00FFFF&}the{\c&HFFFFFF&} city by
+Dialogue: 0,0:00:10.00,0:00:10.34,Default,,0,0,0,,saving the {\c&H00FFFF&}city{\c&HFFFFFF&} by destroying
+Dialogue: 0,0:00:10.34,0:00:10.68,Default,,0,0,0,,the city {\c&H00FFFF&}by{\c&HFFFFFF&} destroying it.
+Dialogue: 0,0:00:10.68,0:00:11.02,Default,,0,0,0,,city by {\c&H00FFFF&}destroying{\c&HFFFFFF&} it.
+Dialogue: 0,0:00:11.02,0:00:11.36,Default,,0,0,0,,by destroying {\c&H00FFFF&}it.{\c&HFFFFFF&}

@@ -1,0 +1,47 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.86,Default,,0,0,0,,{\c&H00FFFF&}The{\c&HFFFFFF&} fire moves
+Dialogue: 0,0:00:00.86,0:00:01.22,Default,,0,0,0,,The {\c&H00FFFF&}fire{\c&HFFFFFF&} moves faster
+Dialogue: 0,0:00:01.22,0:00:01.59,Default,,0,0,0,,The fire {\c&H00FFFF&}moves{\c&HFFFFFF&} faster than
+Dialogue: 0,0:00:01.59,0:00:01.95,Default,,0,0,0,,fire moves {\c&H00FFFF&}faster{\c&HFFFFFF&} than you
+Dialogue: 0,0:00:01.95,0:00:02.32,Default,,0,0,0,,moves faster {\c&H00FFFF&}than{\c&HFFFFFF&} you can
+Dialogue: 0,0:00:02.32,0:00:02.68,Default,,0,0,0,,faster than {\c&H00FFFF&}you{\c&HFFFFFF&} can run.
+Dialogue: 0,0:00:02.68,0:00:03.05,Default,,0,0,0,,than you {\c&H00FFFF&}can{\c&HFFFFFF&} run. Entire
+Dialogue: 0,0:00:03.05,0:00:03.41,Default,,0,0,0,,you can {\c&H00FFFF&}run.{\c&HFFFFFF&} Entire blocks
+Dialogue: 0,0:00:03.41,0:00:03.78,Default,,0,0,0,,can run. {\c&H00FFFF&}Entire{\c&HFFFFFF&} blocks ignite
+Dialogue: 0,0:00:03.78,0:00:04.14,Default,,0,0,0,,run. Entire {\c&H00FFFF&}blocks{\c&HFFFFFF&} ignite at
+Dialogue: 0,0:00:04.14,0:00:04.50,Default,,0,0,0,,Entire blocks {\c&H00FFFF&}ignite{\c&HFFFFFF&} at once.
+Dialogue: 0,0:00:04.50,0:00:04.87,Default,,0,0,0,,blocks ignite {\c&H00FFFF&}at{\c&HFFFFFF&} once. The
+Dialogue: 0,0:00:04.87,0:00:05.23,Default,,0,0,0,,ignite at {\c&H00FFFF&}once.{\c&HFFFFFF&} The heat
+Dialogue: 0,0:00:05.23,0:00:05.60,Default,,0,0,0,,at once. {\c&H00FFFF&}The{\c&HFFFFFF&} heat is
+Dialogue: 0,0:00:05.60,0:00:05.96,Default,,0,0,0,,once. The {\c&H00FFFF&}heat{\c&HFFFFFF&} is so
+Dialogue: 0,0:00:05.96,0:00:06.33,Default,,0,0,0,,The heat {\c&H00FFFF&}is{\c&HFFFFFF&} so intense,
+Dialogue: 0,0:00:06.33,0:00:06.69,Default,,0,0,0,,heat is {\c&H00FFFF&}so{\c&HFFFFFF&} intense, buildings
+Dialogue: 0,0:00:06.69,0:00:07.06,Default,,0,0,0,,is so {\c&H00FFFF&}intense,{\c&HFFFFFF&} buildings catch
+Dialogue: 0,0:00:07.06,0:00:07.42,Default,,0,0,0,,so intense, {\c&H00FFFF&}buildings{\c&HFFFFFF&} catch fire
+Dialogue: 0,0:00:07.42,0:00:07.78,Default,,0,0,0,,intense, buildings {\c&H00FFFF&}catch{\c&HFFFFFF&} fire from
+Dialogue: 0,0:00:07.78,0:00:08.15,Default,,0,0,0,,buildings catch {\c&H00FFFF&}fire{\c&HFFFFFF&} from fifty
+Dialogue: 0,0:00:08.15,0:00:08.51,Default,,0,0,0,,catch fire {\c&H00FFFF&}from{\c&HFFFFFF&} fifty feet
+Dialogue: 0,0:00:08.51,0:00:08.88,Default,,0,0,0,,fire from {\c&H00FFFF&}fifty{\c&HFFFFFF&} feet away.
+Dialogue: 0,0:00:08.88,0:00:09.24,Default,,0,0,0,,from fifty {\c&H00FFFF&}feet{\c&HFFFFFF&} away. No
+Dialogue: 0,0:00:09.24,0:00:09.61,Default,,0,0,0,,fifty feet {\c&H00FFFF&}away.{\c&HFFFFFF&} No water.
+Dialogue: 0,0:00:09.61,0:00:09.97,Default,,0,0,0,,feet away. {\c&H00FFFF&}No{\c&HFFFFFF&} water. No
+Dialogue: 0,0:00:09.97,0:00:10.34,Default,,0,0,0,,away. No {\c&H00FFFF&}water.{\c&HFFFFFF&} No plan.
+Dialogue: 0,0:00:10.34,0:00:10.70,Default,,0,0,0,,No water. {\c&H00FFFF&}No{\c&HFFFFFF&} plan. Just
+Dialogue: 0,0:00:10.70,0:00:11.07,Default,,0,0,0,,water. No {\c&H00FFFF&}plan.{\c&HFFFFFF&} Just wind
+Dialogue: 0,0:00:11.07,0:00:11.43,Default,,0,0,0,,No plan. {\c&H00FFFF&}Just{\c&HFFFFFF&} wind and
+Dialogue: 0,0:00:11.43,0:00:11.79,Default,,0,0,0,,plan. Just {\c&H00FFFF&}wind{\c&HFFFFFF&} and flame.
+Dialogue: 0,0:00:11.79,0:00:12.16,Default,,0,0,0,,Just wind {\c&H00FFFF&}and{\c&HFFFFFF&} flame.
+Dialogue: 0,0:00:12.16,0:00:12.52,Default,,0,0,0,,wind and {\c&H00FFFF&}flame.{\c&HFFFFFF&}

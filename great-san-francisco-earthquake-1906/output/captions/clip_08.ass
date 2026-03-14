@@ -1,0 +1,33 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.87,Default,,0,0,0,,{\c&H00FFFF&}Nob{\c&HFFFFFF&} Hill is
+Dialogue: 0,0:00:00.87,0:00:01.25,Default,,0,0,0,,Nob {\c&H00FFFF&}Hill{\c&HFFFFFF&} is burning.
+Dialogue: 0,0:00:01.25,0:00:01.63,Default,,0,0,0,,Nob Hill {\c&H00FFFF&}is{\c&HFFFFFF&} burning. Mansions
+Dialogue: 0,0:00:01.63,0:00:02.01,Default,,0,0,0,,Hill is {\c&H00FFFF&}burning.{\c&HFFFFFF&} Mansions that
+Dialogue: 0,0:00:02.01,0:00:02.39,Default,,0,0,0,,is burning. {\c&H00FFFF&}Mansions{\c&HFFFFFF&} that took
+Dialogue: 0,0:00:02.39,0:00:02.77,Default,,0,0,0,,burning. Mansions {\c&H00FFFF&}that{\c&HFFFFFF&} took decades
+Dialogue: 0,0:00:02.77,0:00:03.15,Default,,0,0,0,,Mansions that {\c&H00FFFF&}took{\c&HFFFFFF&} decades to
+Dialogue: 0,0:00:03.15,0:00:03.53,Default,,0,0,0,,that took {\c&H00FFFF&}decades{\c&HFFFFFF&} to build
+Dialogue: 0,0:00:03.53,0:00:03.90,Default,,0,0,0,,took decades {\c&H00FFFF&}to{\c&HFFFFFF&} build vanish
+Dialogue: 0,0:00:03.90,0:00:04.28,Default,,0,0,0,,decades to {\c&H00FFFF&}build{\c&HFFFFFF&} vanish in
+Dialogue: 0,0:00:04.28,0:00:04.66,Default,,0,0,0,,to build {\c&H00FFFF&}vanish{\c&HFFFFFF&} in minutes.
+Dialogue: 0,0:00:04.66,0:00:05.04,Default,,0,0,0,,build vanish {\c&H00FFFF&}in{\c&HFFFFFF&} minutes. Fire
+Dialogue: 0,0:00:05.04,0:00:05.42,Default,,0,0,0,,vanish in {\c&H00FFFF&}minutes.{\c&HFFFFFF&} Fire does
+Dialogue: 0,0:00:05.42,0:00:05.80,Default,,0,0,0,,in minutes. {\c&H00FFFF&}Fire{\c&HFFFFFF&} does not
+Dialogue: 0,0:00:05.80,0:00:06.18,Default,,0,0,0,,minutes. Fire {\c&H00FFFF&}does{\c&HFFFFFF&} not care
+Dialogue: 0,0:00:06.18,0:00:06.56,Default,,0,0,0,,Fire does {\c&H00FFFF&}not{\c&HFFFFFF&} care about
+Dialogue: 0,0:00:06.56,0:00:06.94,Default,,0,0,0,,does not {\c&H00FFFF&}care{\c&HFFFFFF&} about money.
+Dialogue: 0,0:00:06.94,0:00:07.31,Default,,0,0,0,,not care {\c&H00FFFF&}about{\c&HFFFFFF&} money.
+Dialogue: 0,0:00:07.31,0:00:07.69,Default,,0,0,0,,care about {\c&H00FFFF&}money.{\c&HFFFFFF&}

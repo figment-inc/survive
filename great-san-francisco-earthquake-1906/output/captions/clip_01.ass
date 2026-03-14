@@ -1,0 +1,26 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.87,Default,,0,0,0,,{\c&H00FFFF&}What{\c&HFFFFFF&} happens if
+Dialogue: 0,0:00:00.87,0:00:01.24,Default,,0,0,0,,What {\c&H00FFFF&}happens{\c&HFFFFFF&} if the
+Dialogue: 0,0:00:01.24,0:00:01.61,Default,,0,0,0,,What happens {\c&H00FFFF&}if{\c&HFFFFFF&} the ground
+Dialogue: 0,0:00:01.61,0:00:01.98,Default,,0,0,0,,happens if {\c&H00FFFF&}the{\c&HFFFFFF&} ground beneath
+Dialogue: 0,0:00:01.98,0:00:02.35,Default,,0,0,0,,if the {\c&H00FFFF&}ground{\c&HFFFFFF&} beneath your
+Dialogue: 0,0:00:02.35,0:00:02.72,Default,,0,0,0,,the ground {\c&H00FFFF&}beneath{\c&HFFFFFF&} your city
+Dialogue: 0,0:00:02.72,0:00:03.10,Default,,0,0,0,,ground beneath {\c&H00FFFF&}your{\c&HFFFFFF&} city just...
+Dialogue: 0,0:00:03.10,0:00:03.47,Default,,0,0,0,,beneath your {\c&H00FFFF&}city{\c&HFFFFFF&} just... stops
+Dialogue: 0,0:00:03.47,0:00:03.84,Default,,0,0,0,,your city {\c&H00FFFF&}just...{\c&HFFFFFF&} stops being
+Dialogue: 0,0:00:03.84,0:00:04.21,Default,,0,0,0,,city just... {\c&H00FFFF&}stops{\c&HFFFFFF&} being solid?
+Dialogue: 0,0:00:04.21,0:00:04.58,Default,,0,0,0,,just... stops {\c&H00FFFF&}being{\c&HFFFFFF&} solid?
+Dialogue: 0,0:00:04.58,0:00:04.95,Default,,0,0,0,,stops being {\c&H00FFFF&}solid?{\c&HFFFFFF&}

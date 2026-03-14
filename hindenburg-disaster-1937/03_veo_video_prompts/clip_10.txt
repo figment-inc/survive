@@ -1,0 +1,26 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure lies motionless on scorched grass, surrounded by the smoldering duralumin framework of the Hindenburg. Classic adult animated comedy medium shot staging.
+
+Same setting, tighter framing. Cut from wide wreckage to intimate shot of the figure lying amid the remains.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure lies supine on the scorched grass, completely motionless for the entire clip. Arms at its sides. Skull facing straight up at the grey sky. Pale orb eyes open, staring upward, unblinking. The body is perfectly still — like an anatomical diagram laid flat. The only movement in the frame is external: smoke drifting across, a singed document page tumbling past in the breeze, the distant movement of rescue workers. The figure does not move at all. At second 6, a shadow passes across the figure's face as a column of smoke shifts — but the figure remains absolutely still. THE FIGURE'S MOUTH MUST REMAIN CLOSED AT ALL TIMES. The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Flat lighting on the character — muted, overcast, the orange firelight fading. Palette: ash grey, scorched black, ember orange in pockets, pale smoke, dark green wet grass surrounding the burn scar. The figure's pale translucence stark against the dark scorched ground. All flat cel-shaded.
+
+Foreground: Scorched grass, still-hot aluminum fragments, grey smoke drifting at ground level. A singed Zeppelin Company passenger manifest page, partially readable, tumbling in the breeze. A melted pocket watch.
+
+Midground: The figure lying motionless. The blackened and twisted duralumin ribs of the Hindenburg form a skeletal cathedral around the figure — the airship's framework eerily mirroring the figure's own visible skeleton. Two skeletons — one human-scale, one 804 feet long.
+
+Background: The full extent of the wreckage stretching into the distance, framework holding a ghostly suggestion of the original airship shape. Grey smoke columns rising. Ambulances with red crosses. The crowd barrier broken, civilians streaming toward the wreck. A Navy officer's soot-stained white cap on the ground. Medics carrying stretchers. A photographer kneeling. Survivors wrapped in blankets sitting in shock.
+
+Audio direction:
+- SFX: The quiet ticking of cooling metal — pings and clicks at irregular intervals; a singed page fluttering past with a papery whisper; a distant fire truck bell, faint; the crunch of boots on scorched ground as rescue workers pass nearby; a stretcher's canvas creaking under weight
+- Ambience: The aftermath settling — the roar of flames diminished to a crackling murmur; thick smoke hissing; wind carrying the smell of burned cotton and diesel across the flat New Jersey airfield; distant indistinct voices of rescue workers; the slow, heavy quiet that follows catastrophe — the world absorbing what just happened in 34 seconds
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

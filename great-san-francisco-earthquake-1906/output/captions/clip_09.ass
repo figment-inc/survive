@@ -1,0 +1,47 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.93,Default,,0,0,0,,{\c&H00FFFF&}Three{\c&HFFFFFF&} days. The
+Dialogue: 0,0:00:00.93,0:00:01.36,Default,,0,0,0,,Three {\c&H00FFFF&}days.{\c&HFFFFFF&} The fire
+Dialogue: 0,0:00:01.36,0:00:01.80,Default,,0,0,0,,Three days. {\c&H00FFFF&}The{\c&HFFFFFF&} fire burns
+Dialogue: 0,0:00:01.80,0:00:02.23,Default,,0,0,0,,days. The {\c&H00FFFF&}fire{\c&HFFFFFF&} burns for
+Dialogue: 0,0:00:02.23,0:00:02.67,Default,,0,0,0,,The fire {\c&H00FFFF&}burns{\c&HFFFFFF&} for three
+Dialogue: 0,0:00:02.67,0:00:03.10,Default,,0,0,0,,fire burns {\c&H00FFFF&}for{\c&HFFFFFF&} three days.
+Dialogue: 0,0:00:03.10,0:00:03.54,Default,,0,0,0,,burns for {\c&H00FFFF&}three{\c&HFFFFFF&} days. Twenty-eight
+Dialogue: 0,0:00:03.54,0:00:03.97,Default,,0,0,0,,for three {\c&H00FFFF&}days.{\c&HFFFFFF&} Twenty-eight thousand
+Dialogue: 0,0:00:03.97,0:00:04.41,Default,,0,0,0,,three days. {\c&H00FFFF&}Twenty-eight{\c&HFFFFFF&} thousand buildings.
+Dialogue: 0,0:00:04.41,0:00:04.84,Default,,0,0,0,,days. Twenty-eight {\c&H00FFFF&}thousand{\c&HFFFFFF&} buildings. Over
+Dialogue: 0,0:00:04.84,0:00:05.28,Default,,0,0,0,,Twenty-eight thousand {\c&H00FFFF&}buildings.{\c&HFFFFFF&} Over three
+Dialogue: 0,0:00:05.28,0:00:05.71,Default,,0,0,0,,thousand buildings. {\c&H00FFFF&}Over{\c&HFFFFFF&} three thousand
+Dialogue: 0,0:00:05.71,0:00:06.15,Default,,0,0,0,,buildings. Over {\c&H00FFFF&}three{\c&HFFFFFF&} thousand souls.
+Dialogue: 0,0:00:06.15,0:00:06.58,Default,,0,0,0,,Over three {\c&H00FFFF&}thousand{\c&HFFFFFF&} souls. Two
+Dialogue: 0,0:00:06.58,0:00:07.02,Default,,0,0,0,,three thousand {\c&H00FFFF&}souls.{\c&HFFFFFF&} Two hundred
+Dialogue: 0,0:00:07.02,0:00:07.45,Default,,0,0,0,,thousand souls. {\c&H00FFFF&}Two{\c&HFFFFFF&} hundred and
+Dialogue: 0,0:00:07.45,0:00:07.89,Default,,0,0,0,,souls. Two {\c&H00FFFF&}hundred{\c&HFFFFFF&} and twenty-seven
+Dialogue: 0,0:00:07.89,0:00:08.32,Default,,0,0,0,,Two hundred {\c&H00FFFF&}and{\c&HFFFFFF&} twenty-seven thousand
+Dialogue: 0,0:00:08.32,0:00:08.76,Default,,0,0,0,,hundred and {\c&H00FFFF&}twenty-seven{\c&HFFFFFF&} thousand people
+Dialogue: 0,0:00:08.76,0:00:09.19,Default,,0,0,0,,and twenty-seven {\c&H00FFFF&}thousand{\c&HFFFFFF&} people with
+Dialogue: 0,0:00:09.19,0:00:09.63,Default,,0,0,0,,twenty-seven thousand {\c&H00FFFF&}people{\c&HFFFFFF&} with nothing.
+Dialogue: 0,0:00:09.63,0:00:10.06,Default,,0,0,0,,thousand people {\c&H00FFFF&}with{\c&HFFFFFF&} nothing. The
+Dialogue: 0,0:00:10.06,0:00:10.50,Default,,0,0,0,,people with {\c&H00FFFF&}nothing.{\c&HFFFFFF&} The city
+Dialogue: 0,0:00:10.50,0:00:10.93,Default,,0,0,0,,with nothing. {\c&H00FFFF&}The{\c&HFFFFFF&} city that
+Dialogue: 0,0:00:10.93,0:00:11.37,Default,,0,0,0,,nothing. The {\c&H00FFFF&}city{\c&HFFFFFF&} that thought
+Dialogue: 0,0:00:11.37,0:00:11.80,Default,,0,0,0,,The city {\c&H00FFFF&}that{\c&HFFFFFF&} thought it
+Dialogue: 0,0:00:11.80,0:00:12.24,Default,,0,0,0,,city that {\c&H00FFFF&}thought{\c&HFFFFFF&} it was
+Dialogue: 0,0:00:12.24,0:00:12.67,Default,,0,0,0,,that thought {\c&H00FFFF&}it{\c&HFFFFFF&} was invincible,
+Dialogue: 0,0:00:12.67,0:00:13.11,Default,,0,0,0,,thought it {\c&H00FFFF&}was{\c&HFFFFFF&} invincible, leveled
+Dialogue: 0,0:00:13.11,0:00:13.54,Default,,0,0,0,,it was {\c&H00FFFF&}invincible,{\c&HFFFFFF&} leveled to
+Dialogue: 0,0:00:13.54,0:00:13.98,Default,,0,0,0,,was invincible, {\c&H00FFFF&}leveled{\c&HFFFFFF&} to ash.
+Dialogue: 0,0:00:13.98,0:00:14.41,Default,,0,0,0,,invincible, leveled {\c&H00FFFF&}to{\c&HFFFFFF&} ash.
+Dialogue: 0,0:00:14.41,0:00:14.84,Default,,0,0,0,,leveled to {\c&H00FFFF&}ash.{\c&HFFFFFF&}

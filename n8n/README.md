@@ -102,9 +102,9 @@ The workflow runs every 6 hours by default. Each run:
 |-------|------|----------|-------------|
 | 0 | Claude | ~5s | Pick new historical disaster topic |
 | 1 | Claude | ~30s | Generate storyboard, image/video prompts, narration |
-| 2 | ElevenLabs | ~2min | TTS narration (10 clips) + background music |
-| 3 | NanoBanana | ~10min | Keyframe images (10 clips with skeleton reference) |
-| 4 | Veo 3.1 | ~20min | Video clips (10 clips with ambient/SFX audio) |
+| 2 | ElevenLabs | ~2min | TTS narration (8 clips) + background music |
+| 3 | NanoBanana | ~10min | Keyframe images (8 clips with skeleton reference) |
+| 4 | Veo 3.1 | ~15min | Video clips (8 clips with ambient/SFX audio) |
 | 5 | ffmpeg | ~3min | Audio mix + captions + stitch |
 | 6 | gh + Metricool | ~1min | GitHub Release + social publish |
 

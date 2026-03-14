@@ -1,0 +1,44 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.91,Default,,0,0,0,,{\c&H00FFFF&}The{\c&HFFFFFF&} shaking stops.
+Dialogue: 0,0:00:00.91,0:00:01.32,Default,,0,0,0,,The {\c&H00FFFF&}shaking{\c&HFFFFFF&} stops. The
+Dialogue: 0,0:00:01.32,0:00:01.73,Default,,0,0,0,,The shaking {\c&H00FFFF&}stops.{\c&HFFFFFF&} The silence
+Dialogue: 0,0:00:01.73,0:00:02.15,Default,,0,0,0,,shaking stops. {\c&H00FFFF&}The{\c&HFFFFFF&} silence is
+Dialogue: 0,0:00:02.15,0:00:02.56,Default,,0,0,0,,stops. The {\c&H00FFFF&}silence{\c&HFFFFFF&} is worse.
+Dialogue: 0,0:00:02.56,0:00:02.97,Default,,0,0,0,,The silence {\c&H00FFFF&}is{\c&HFFFFFF&} worse. South
+Dialogue: 0,0:00:02.97,0:00:03.39,Default,,0,0,0,,silence is {\c&H00FFFF&}worse.{\c&HFFFFFF&} South of
+Dialogue: 0,0:00:03.39,0:00:03.80,Default,,0,0,0,,is worse. {\c&H00FFFF&}South{\c&HFFFFFF&} of Market
+Dialogue: 0,0:00:03.80,0:00:04.21,Default,,0,0,0,,worse. South {\c&H00FFFF&}of{\c&HFFFFFF&} Market is
+Dialogue: 0,0:00:04.21,0:00:04.63,Default,,0,0,0,,South of {\c&H00FFFF&}Market{\c&HFFFFFF&} is gone.
+Dialogue: 0,0:00:04.63,0:00:05.04,Default,,0,0,0,,of Market {\c&H00FFFF&}is{\c&HFFFFFF&} gone. Wooden
+Dialogue: 0,0:00:05.04,0:00:05.45,Default,,0,0,0,,Market is {\c&H00FFFF&}gone.{\c&HFFFFFF&} Wooden buildings,
+Dialogue: 0,0:00:05.45,0:00:05.87,Default,,0,0,0,,is gone. {\c&H00FFFF&}Wooden{\c&HFFFFFF&} buildings, pancaked.
+Dialogue: 0,0:00:05.87,0:00:06.28,Default,,0,0,0,,gone. Wooden {\c&H00FFFF&}buildings,{\c&HFFFFFF&} pancaked. And
+Dialogue: 0,0:00:06.28,0:00:06.69,Default,,0,0,0,,Wooden buildings, {\c&H00FFFF&}pancaked.{\c&HFFFFFF&} And from
+Dialogue: 0,0:00:06.69,0:00:07.11,Default,,0,0,0,,buildings, pancaked. {\c&H00FFFF&}And{\c&HFFFFFF&} from three
+Dialogue: 0,0:00:07.11,0:00:07.52,Default,,0,0,0,,pancaked. And {\c&H00FFFF&}from{\c&HFFFFFF&} three directions,
+Dialogue: 0,0:00:07.52,0:00:07.93,Default,,0,0,0,,And from {\c&H00FFFF&}three{\c&HFFFFFF&} directions, smoke.
+Dialogue: 0,0:00:07.93,0:00:08.35,Default,,0,0,0,,from three {\c&H00FFFF&}directions,{\c&HFFFFFF&} smoke. The
+Dialogue: 0,0:00:08.35,0:00:08.76,Default,,0,0,0,,three directions, {\c&H00FFFF&}smoke.{\c&HFFFFFF&} The gas
+Dialogue: 0,0:00:08.76,0:00:09.17,Default,,0,0,0,,directions, smoke. {\c&H00FFFF&}The{\c&HFFFFFF&} gas mains
+Dialogue: 0,0:00:09.17,0:00:09.59,Default,,0,0,0,,smoke. The {\c&H00FFFF&}gas{\c&HFFFFFF&} mains are
+Dialogue: 0,0:00:09.59,0:00:10.00,Default,,0,0,0,,The gas {\c&H00FFFF&}mains{\c&HFFFFFF&} are broken.
+Dialogue: 0,0:00:10.00,0:00:10.41,Default,,0,0,0,,gas mains {\c&H00FFFF&}are{\c&HFFFFFF&} broken. The
+Dialogue: 0,0:00:10.41,0:00:10.83,Default,,0,0,0,,mains are {\c&H00FFFF&}broken.{\c&HFFFFFF&} The fires
+Dialogue: 0,0:00:10.83,0:00:11.24,Default,,0,0,0,,are broken. {\c&H00FFFF&}The{\c&HFFFFFF&} fires have
+Dialogue: 0,0:00:11.24,0:00:11.65,Default,,0,0,0,,broken. The {\c&H00FFFF&}fires{\c&HFFFFFF&} have already
+Dialogue: 0,0:00:11.65,0:00:12.07,Default,,0,0,0,,The fires {\c&H00FFFF&}have{\c&HFFFFFF&} already started.
+Dialogue: 0,0:00:12.07,0:00:12.48,Default,,0,0,0,,fires have {\c&H00FFFF&}already{\c&HFFFFFF&} started.
+Dialogue: 0,0:00:12.48,0:00:12.89,Default,,0,0,0,,have already {\c&H00FFFF&}started.{\c&HFFFFFF&}

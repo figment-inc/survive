@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. A busy intersection on Chicago's West Side, the figure standing among a casual crowd watching the distant fire. Classic adult animated comedy wide tableau staging.
+
+NEW location — cut from the close-up to a wider street scene. The figure has moved to warn people.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure stands among the crowd, arms extended, gesturing frantically toward the growing orange glow (0-3s). The figure grabs a man by the shoulders and shakes him — the man looks annoyed, brushes the figure off (3-5s). The figure turns to a woman, points urgently at the fire, does an exaggerated pantomime of an explosion — arms wide, fingers spread (5-7s). The woman laughs. A boy throws a peanut shell at the figure's skull. The figure slumps, arms dropping to its sides in cartoon defeat (7-8s).
+
+Split palette — cool blue night on the left, warm amber fire-glow on the right. Muted earth tones on the crowd. Flat red and brass yellow on a distant fire engine.
+
+Foreground: Wooden horse trough with flat green water, stack of Chicago Tribune newspapers on a wooden newsstand, a dog sniffing a discarded sausage.
+
+Midground: The figure among the crowd — a man in a flat cap with a beer pail, a woman in calico with crossed arms, boys in knickerbockers. All with flat unimpressed expressions. One man laughing.
+
+Background: Broad orange glow consuming several blocks to the southwest. Flat orange ember dots drifting in the air. A horse-drawn steam fire engine racing down a cross street, brass bell visible.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: You try to warn them. They laugh. Chicago has fought thirty fires this week. They are tired of panicking.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor, weary sympathy mixed with dark irony — "They laugh" delivered flat, "They are tired of panicking" with genuine sad amusement. Second person address ("you").
+
+Audio direction:
+- Music: Low strings continue with added pizzicato — plucked notes suggesting nervous energy, the musical equivalent of a ticking clock.
+- SFX: The clang of the distant fire engine bell, crowd murmur and laughter, the peanut shell bouncing off the figure's skull with a hollow cartoon "tock", horse hooves clattering on wooden street, the figure's frustrated arm-slap against its own thigh.
+- Ambience: A city that has normalized emergency — casual conversation, the clink of beer pails, distant shouts from fire crews mixing with saloon noise, the growing crackle of the approaching fire underneath it all like a whisper getting louder.

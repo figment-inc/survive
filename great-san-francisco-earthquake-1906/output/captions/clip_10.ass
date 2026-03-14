@@ -1,0 +1,55 @@
+[Script Info]
+Title: Episode Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+Style: Highlight,Arial,72,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:00.84,Default,,0,0,0,,{\c&H00FFFF&}And{\c&HFFFFFF&} there you
+Dialogue: 0,0:00:00.84,0:00:01.18,Default,,0,0,0,,And {\c&H00FFFF&}there{\c&HFFFFFF&} you sit.
+Dialogue: 0,0:00:01.18,0:00:01.52,Default,,0,0,0,,And there {\c&H00FFFF&}you{\c&HFFFFFF&} sit. In
+Dialogue: 0,0:00:01.52,0:00:01.86,Default,,0,0,0,,there you {\c&H00FFFF&}sit.{\c&HFFFFFF&} In the
+Dialogue: 0,0:00:01.86,0:00:02.21,Default,,0,0,0,,you sit. {\c&H00FFFF&}In{\c&HFFFFFF&} the centre
+Dialogue: 0,0:00:02.21,0:00:02.55,Default,,0,0,0,,sit. In {\c&H00FFFF&}the{\c&HFFFFFF&} centre of
+Dialogue: 0,0:00:02.55,0:00:02.89,Default,,0,0,0,,In the {\c&H00FFFF&}centre{\c&HFFFFFF&} of absence.
+Dialogue: 0,0:00:02.89,0:00:03.23,Default,,0,0,0,,the centre {\c&H00FFFF&}of{\c&HFFFFFF&} absence. They
+Dialogue: 0,0:00:03.23,0:00:03.57,Default,,0,0,0,,centre of {\c&H00FFFF&}absence.{\c&HFFFFFF&} They will
+Dialogue: 0,0:00:03.57,0:00:03.92,Default,,0,0,0,,of absence. {\c&H00FFFF&}They{\c&HFFFFFF&} will rebuild,
+Dialogue: 0,0:00:03.92,0:00:04.26,Default,,0,0,0,,absence. They {\c&H00FFFF&}will{\c&HFFFFFF&} rebuild, of
+Dialogue: 0,0:00:04.26,0:00:04.60,Default,,0,0,0,,They will {\c&H00FFFF&}rebuild,{\c&HFFFFFF&} of course.
+Dialogue: 0,0:00:04.60,0:00:04.94,Default,,0,0,0,,will rebuild, {\c&H00FFFF&}of{\c&HFFFFFF&} course. They
+Dialogue: 0,0:00:04.94,0:00:05.28,Default,,0,0,0,,rebuild, of {\c&H00FFFF&}course.{\c&HFFFFFF&} They always
+Dialogue: 0,0:00:05.28,0:00:05.63,Default,,0,0,0,,of course. {\c&H00FFFF&}They{\c&HFFFFFF&} always do.
+Dialogue: 0,0:00:05.63,0:00:05.97,Default,,0,0,0,,course. They {\c&H00FFFF&}always{\c&HFFFFFF&} do. But
+Dialogue: 0,0:00:05.97,0:00:06.31,Default,,0,0,0,,They always {\c&H00FFFF&}do.{\c&HFFFFFF&} But in
+Dialogue: 0,0:00:06.31,0:00:06.65,Default,,0,0,0,,always do. {\c&H00FFFF&}But{\c&HFFFFFF&} in the
+Dialogue: 0,0:00:06.65,0:00:06.99,Default,,0,0,0,,do. But {\c&H00FFFF&}in{\c&HFFFFFF&} the rubble
+Dialogue: 0,0:00:06.99,0:00:07.34,Default,,0,0,0,,But in {\c&H00FFFF&}the{\c&HFFFFFF&} rubble beneath
+Dialogue: 0,0:00:07.34,0:00:07.68,Default,,0,0,0,,in the {\c&H00FFFF&}rubble{\c&HFFFFFF&} beneath Market
+Dialogue: 0,0:00:07.68,0:00:08.02,Default,,0,0,0,,the rubble {\c&H00FFFF&}beneath{\c&HFFFFFF&} Market Street,
+Dialogue: 0,0:00:08.02,0:00:08.36,Default,,0,0,0,,rubble beneath {\c&H00FFFF&}Market{\c&HFFFFFF&} Street, they
+Dialogue: 0,0:00:08.36,0:00:08.70,Default,,0,0,0,,beneath Market {\c&H00FFFF&}Street,{\c&HFFFFFF&} they will
+Dialogue: 0,0:00:08.70,0:00:09.05,Default,,0,0,0,,Market Street, {\c&H00FFFF&}they{\c&HFFFFFF&} will find
+Dialogue: 0,0:00:09.05,0:00:09.39,Default,,0,0,0,,Street, they {\c&H00FFFF&}will{\c&HFFFFFF&} find a
+Dialogue: 0,0:00:09.39,0:00:09.73,Default,,0,0,0,,they will {\c&H00FFFF&}find{\c&HFFFFFF&} a pocket
+Dialogue: 0,0:00:09.73,0:00:10.07,Default,,0,0,0,,will find {\c&H00FFFF&}a{\c&HFFFFFF&} pocket watch,
+Dialogue: 0,0:00:10.07,0:00:10.42,Default,,0,0,0,,find a {\c&H00FFFF&}pocket{\c&HFFFFFF&} watch, stopped
+Dialogue: 0,0:00:10.42,0:00:10.76,Default,,0,0,0,,a pocket {\c&H00FFFF&}watch,{\c&HFFFFFF&} stopped at
+Dialogue: 0,0:00:10.76,0:00:11.10,Default,,0,0,0,,pocket watch, {\c&H00FFFF&}stopped{\c&HFFFFFF&} at five
+Dialogue: 0,0:00:11.10,0:00:11.44,Default,,0,0,0,,watch, stopped {\c&H00FFFF&}at{\c&HFFFFFF&} five twelve.
+Dialogue: 0,0:00:11.44,0:00:11.78,Default,,0,0,0,,stopped at {\c&H00FFFF&}five{\c&HFFFFFF&} twelve. Some
+Dialogue: 0,0:00:11.78,0:00:12.13,Default,,0,0,0,,at five {\c&H00FFFF&}twelve.{\c&HFFFFFF&} Some moments,
+Dialogue: 0,0:00:12.13,0:00:12.47,Default,,0,0,0,,five twelve. {\c&H00FFFF&}Some{\c&HFFFFFF&} moments, it
+Dialogue: 0,0:00:12.47,0:00:12.81,Default,,0,0,0,,twelve. Some {\c&H00FFFF&}moments,{\c&HFFFFFF&} it turns
+Dialogue: 0,0:00:12.81,0:00:13.15,Default,,0,0,0,,Some moments, {\c&H00FFFF&}it{\c&HFFFFFF&} turns out,
+Dialogue: 0,0:00:13.15,0:00:13.49,Default,,0,0,0,,moments, it {\c&H00FFFF&}turns{\c&HFFFFFF&} out, last
+Dialogue: 0,0:00:13.49,0:00:13.84,Default,,0,0,0,,it turns {\c&H00FFFF&}out,{\c&HFFFFFF&} last forever.
+Dialogue: 0,0:00:13.84,0:00:14.18,Default,,0,0,0,,turns out, {\c&H00FFFF&}last{\c&HFFFFFF&} forever.
+Dialogue: 0,0:00:14.18,0:00:14.52,Default,,0,0,0,,out, last {\c&H00FFFF&}forever.{\c&HFFFFFF&}

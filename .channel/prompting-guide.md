@@ -16,13 +16,14 @@ NanoBanana Pro generates keyframe images with character reference conditioning. 
 - **Describe the skeleton's pose explicitly.** The translucent body is unusual — you need to tell the model exactly how it's positioned, what it's doing with its hands, where it's looking. Use cartoon reaction vocabulary.
 - **Three depth layers are mandatory.** Foreground props, midground character, background historical setting. All rendered as flat 2D animation planes.
 
-### Veo 3.1 (Video)
+### Veo 3.1 (Video — SILENT, no speech)
 
 - **Think in sequences, not stills.** Describe what happens over the clip's duration — a progression.
 - **Every clip is a mini-narrative.** Even a 4-second clip has a beginning and end.
 - **Static camera always.** Locked-off compositions. No handheld, no drift.
-- **ALL audio in the prompt.** Veo generates narrator speech, SFX, ambience, and music natively. Direct all of them.
+- **SFX and ambience ONLY.** Veo generates environmental sounds only. NO narrator speech, NO dialogue, NO music. Narration and music are added via ElevenLabs in post-production.
 - **Animation style enforcement.** The mandatory style block prevents Veo from drifting to photorealistic.
+- **Mouth stays closed.** The figure never speaks, never moves its mouth. Explicit directive required in every prompt.
 
 ---
 
@@ -32,8 +33,7 @@ NanoBanana Pro generates keyframe images with character reference conditioning. 
 
 - `nano-banana-pro` for scene keyframes (best quality, 20 credits at 1K)
 - `nano-banana-fast` for quick iterations during development (5 credits)
-- Always use `image-to-image` mode with skeleton reference for character shots
-- Use `text-to-image` mode for establishing shots (no character)
+- Always use `image-to-image` mode with skeleton reference for all clips (HOOK and SCENE)
 
 ### Reference Image Strategy
 
@@ -91,25 +91,26 @@ No text, no watermarks, no logos, no captions, no overlays. No photorealistic re
 - "Camera: Static [shot type]. Locked camera, flat composition, no movement."
 - Clean cuts between clips. No dissolves.
 
-### Audio Direction for Veo
+### Audio Direction for Veo (SFX + Ambience ONLY)
 
-Veo 3.1 generates ALL audio natively. Direct every layer:
+Veo generates ONLY environmental audio. NO speech, NO narration, NO music. Those are added in post-production via ElevenLabs.
 
 ```
-Dialogue direction:
-- Off-screen narrator says: "[exact narration line]"
-- The on-screen character does NOT speak. Silent physical reactions only.
-
-Voice direction:
-- Narrator voice: Male, darkly amused British accent, [delivery notes].
-
 Audio direction:
-- Music: [cinematic underscore description — instruments, intensity, mood]
 - SFX: [specific sound events — crumbling stone, distant explosion, etc.]
 - Ambience: [continuous environment — crowd panic, wind, fire crackling]
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 ```
 
-All four blocks (dialogue, voice, music/SFX/ambience) must appear in EVERY video prompt.
+The audio direction block must appear in EVERY video prompt. Keep it focused on environmental sounds only.
+
+### Character Mouth Rule
+
+The figure NEVER speaks and NEVER moves its mouth. Include this directive in every video prompt:
+
+```
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+```
 
 ---
 
@@ -128,6 +129,6 @@ Veo 3.1 has an always-active prompt rewriter:
 
 - Be maximally explicit about non-negotiable elements (animation style, character description)
 - Redundancy protects critical details — the mandatory style block reinforces flat 2D throughout
-- Use negative prompts: "No text overlays. No watermarks. No photorealistic rendering. No 3D shading."
+- Use negative prompts: "No text overlays. No watermarks. No photorealistic rendering. No 3D shading. No speech. No narration."
 - Expect stylistic drift — the mandatory style block and reference images together prevent it
 - NEVER use copyrighted show names in prompts — they trigger safety filters

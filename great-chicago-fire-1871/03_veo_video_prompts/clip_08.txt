@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static close-up, slightly high angle looking down. Locked camera, flat composition, no movement. A North Side street. The figure is crouched on cobblestones. Classic adult animated comedy high-angle vulnerability staging.
+
+Same general area, tighter framing — the catastrophe is at maximum intensity.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 4 seconds: The figure is in a tight protective crouch on the cobblestones — knees drawn to ribcage, arms wrapped around skull (0-2s). A burning brand lands next to the figure with a cartoon bounce and shower of flat orange sparks. The figure flinches violently, jerks sideways, scrambles on all fours (2-4s). Pure cartoon survival terror — frantic, undignified, desperate.
+
+Everything orange and red. No cool tones. The figure's translucent skin entirely amber-toned, skeleton within in darker burnt orange lines.
+
+Foreground: Cobblestones radiating heat — flat wavy cartoon heat-shimmer lines. A melted glass bottle pooled into flat green on the stones.
+
+Midground: The figure crouched. Plank sidewalks fully ablaze in flat bright orange. An iron lamppost bent from heat, curving like a wilting flower.
+
+Background: Solid wall of flat orange and yellow flame. Wooden buildings collapsing inward. Burning newspaper and fabric whipping through the air.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: Fifteen hundred degrees. Hot enough to melt glass and bend iron.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor, pure clinical precision — the temperature stated flatly as a fact, "melt glass and bend iron" delivered with dark fascination, almost appreciative. Second person address.
+
+Audio direction:
+- Music: Aggressive staccato strings — rapid sawing bows creating a wall of anxious sound, dissonant, relentless.
+- SFX: The thud of the burning brand landing on cobblestone, the shower of sparks — tiny crackling pops, the deep groan of a building frame buckling, glass shattering from heat stress, the iron lamppost creaking as it bends, the figure's hands slapping cobblestones as it scrambles.
+- Ambience: The firestorm is deafening — a deep sustained roar punctuated by crashes, the shriek of superheated air rushing through narrow streets creating wind tunnels, distant screams muffled by the fire's own noise, the constant hiss of everything combustible igniting simultaneously.

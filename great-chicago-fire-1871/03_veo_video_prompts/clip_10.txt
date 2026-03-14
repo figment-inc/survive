@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, high angle looking down. Locked camera, flat composition, no movement. The ruins of Chicago, morning of October 10, 1871. The figure is a tiny form standing alone in a vast grey wasteland. Classic adult animated comedy high-angle vulnerability staging — maximum smallness.
+
+NEW location and time — cut from the lakefront at night to the aftermath in daylight. The fire is over.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure stands perfectly still in the center of the frame, arms at its sides, skull tilted slightly downward (0-3s). Slowly, the figure takes one step forward. Then another. Looking at the ground — the street grid visible now that every building is gone (3-5s). The figure stops. Looks down. Sees something — bends to reach toward a small flat grey shape on the ground. A child's shoe, now ash. The translucent hand extends but doesn't touch it. Frozen. Reaching (5-8s). The figure remains in this posture as a thin rain begins to fall — flat grey diagonal lines crossing the frame.
+
+Entirely desaturated palette. Flat greys, pale creams, ash whites. The only color is the faint translucent pale blue of the figure — the only thing with any life in the frame.
+
+Foreground: Grey ash covering everything. Twisted iron nails and hinges. A cast-iron stove standing alone, chimney pipe curling into nothing. Flat grey ash drifts.
+
+Midground: The figure standing alone. Building foundations forming a grid pattern in flat dark grey. A single brick chimney standing like a finger pointing at the sky.
+
+Background: A vast flat grey wasteland to every horizon — 2,100 acres of nothing. The limestone Water Tower standing alone, pale cream, Gothic silhouette intact amid total devastation. Flat pale grey sky. Thin rain — flat grey diagonal lines.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: Three hundred gone. A hundred thousand homeless. And the Water Tower still stands. They build the next Chicago out of stone.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor, but delivering this final passage with unusual quiet gravity — the numbers stated simply, without flourish. "And the Water Tower still stands" with a note of dark wonder. "They build the next Chicago out of stone" delivered with finality — the last word "stone" landing heavy, like a door closing. Second person address drops away — this is no longer about "you." This is aftermath.
+
+Audio direction:
+- Music: Near silence. A single sustained piano note — middle C — held for the full eight seconds, slowly decaying. No other instruments. The absence of music IS the music.
+- SFX: The soft patter of rain on ash — a quiet hissing, almost like static. The creak of the lone chimney swaying in the wind. The figure's single footstep on ash — a soft, muffled crunch. The faint tink of rain hitting the cast-iron stove.
+- Ambience: Profound silence after thirty hours of roaring fire. The wind has died. The rain is gentle. Distant sounds of survivors moving through rubble — footsteps on ash, a voice calling a name, far away. The city that roared is now the quietest place on Earth.

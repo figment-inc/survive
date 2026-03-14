@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 720p.
+
+Camera: Static medium shot, low angle. Locked camera, flat composition, no movement. The flooded Main Street of Johnstown fills the frame with the translucent figure standing center in ankle-deep brown water. Classic adult animated comedy medium shot staging.
+
+Opening shot — no previous clip to connect to. Drops the viewer directly into danger.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure stands still in the rising water for the first second, looking down at its submerged feet. At second 2, it slowly lifts its head and looks upstream — a slow, deliberate cartoon head-turn to the left. By second 3-4, the figure is frozen stiff, staring upstream with orb eyes wide, shoulders tensing upward, as if it has just noticed something terrible in the distance. The head-turn is the only motion — everything else is stillness.
+
+Lighting + palette: Flat overcast lighting — no directional shadows. Slate grey sky, muddy brown water, rust-orange and dull red brick building facades, charcoal cobblestones beneath the water. Diagonal white rain streaks animate across the frame continuously. All surfaces have flat pale blue-white wet-sheen accent marks. Characters rendered in flat even lighting.
+
+Foreground: Brown floodwater over cobblestones, a wooden barrel slowly rolling through the current from right to left, diagonal rain streaks, a cast-iron hitching post half-submerged with water flowing around it.
+
+Midground: The figure in the flooded street. Victorian brick commercial buildings line both sides — three and four story flat-fronted facades with arched window headers, painted wooden shop signs. Water streams from every downspout. An abandoned horse-drawn wagon sits in the water, its horse gone.
+
+Background: Steep forested valley walls rise on both sides, vanishing into low charcoal storm clouds. The narrow valley geography is visible — the town wedged into the bottom of a natural bowl. Rain falls in visible animated sheets.
+
+Audio direction:
+- SFX: The slosh and gurgle of rising brown water swirling around cobblestones, the hollow bump of the wooden barrel against the hitching post, rain hammering on wooden awnings in a continuous patter, a distant metallic groan of stressed infrastructure, water pouring from tin downspouts onto the street surface
+- Ambience: Heavy continuous rainfall, the rushing sound of a swollen river just beyond the buildings, distant church bells ringing an alarm — three slow tolls fading, the murmur of worried voices echoing off brick walls from unseen townspeople
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

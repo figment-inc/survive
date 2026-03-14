@@ -40,9 +40,9 @@ def generate_narration(
         "text": text,
         "model_id": ELEVENLABS_TTS_MODEL,
         "voice_settings": {
-            "stability": 0.5,
+            "stability": 0.85,
             "similarity_boost": 0.75,
-            "style": 0.4,
+            "style": 0.15,
             "use_speaker_boost": True,
         },
     }

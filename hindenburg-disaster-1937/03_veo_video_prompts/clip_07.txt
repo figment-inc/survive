@@ -1,0 +1,26 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static high-angle shot, looking down at the figure braced against the window frame. Locked camera, flat composition, no movement. The figure clings to the aluminum frame as the corridor tilts steeply. Classic adult animated comedy high-angle vulnerability staging.
+
+Same setting, tighter framing with shift to high angle. Cut from wide corridor to intimate overhead angle emphasizing vulnerability.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: At second 0, the figure is braced against the observation window frame, feet sliding on the steeply tilted floor, body at a dramatic diagonal angle. At second 2, the figure turns its skull to look out the window — the ground is rushing upward terrifyingly fast, now only about 50 feet below. The figure recoils from the window. At second 3, the figure tries to pull itself along the wall using the window frames as handholds, moving toward the bow. At second 4, a section of the interior fabric wall covering rips away revealing glowing aluminum structural members — the figure freezes, staring at the exposed framework. At second 5, intense orange-white light pours through the torn wall from the stern direction. The figure raises one arm to shield its face. At second 6, the entire corridor lurches as a section of the framework buckles. The figure is thrown against the window. At second 7, the figure grabs the window frame and looks down — the ground is impossibly close now, the ship almost vertical. THE FIGURE'S MOUTH MUST REMAIN CLOSED AT ALL TIMES. The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Flat even lighting on the character, now dominated by intense orange-white from behind and cold grey-green from the approaching ground through the window. High contrast, dramatic flat color split. All flat cel-shaded.
+
+Foreground: Broken cellon window panes with jagged edges. Interior debris — chairs, dishes, a fire extinguisher bouncing off the tilted wall. Torn fabric wall covering exposing aluminum structural members. A Zeppelin Company life vest fallen from its hook.
+
+Midground: The figure at the failing window, body at a steep angle. The corridor is collapsing around the figure — wall panels buckling, ceiling fixtures falling.
+
+Background: Through the broken window — the Lakehurst airfield rushing upward, ground crew scattering as tiny figures. The enormous shadow of the collapsing airship falling across wet grass. Burning fabric fragments drifting down. The mooring mast visible. Intense orange-white light from the stern consuming the upper half of the frame.
+
+Audio direction:
+- SFX: The deep metallic shriek of duralumin girders buckling under thermal stress; window panes cracking and shattering; the whoosh of superheated air blasting through the corridor as the hull breaches; fabric tearing in long ripping sounds; the heavy impact of falling structural members; a fire extinguisher clanging off the wall and bursting; the rush of air as the ship plunges
+- Ambience: Total sensory overwhelm — the roar of hydrogen combustion now deafening, a sound described by witnesses as like a massive gas burner igniting; the framework groaning and screaming as it twists; wind rushing through broken windows; the deep bass vibration of the entire structure resonating as it fails; the crackling of the doped cotton skin — treated with iron oxide and cellulose acetate butyrate, essentially burning like rocket fuel
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

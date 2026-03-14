@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium-wide shot, eye level. Locked camera, flat composition, no movement. The north bank of the Randolph Street Bridge. The figure is pinned against the bridge railing by crowds flowing in both directions. Classic adult animated comedy medium-wide staging.
+
+Same location, slightly wider framing — the figure has reached the north side but is trapped in the crowd.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: The figure is pressed against the bridge railing by the crush of people flowing both directions (0-2s). The figure's translucent body visibly compresses against the timber — an exaggerated cartoon squeeze, ribcage flattening comically (2-4s). The figure tries to climb over the railing — one leg up, arms reaching — but more people slam into it, pushing it back (4-6s). The figure looks down at the bridge planks and notices they are smoldering — tiny wisps of smoke rising. The orb eyes bug out. A cartoon gulp — the throat area of the translucent neck visibly contracts (6-8s).
+
+Hot flat orange everywhere. The river below black with orange reflections. Flat grey smoke clouds with thick outlines.
+
+Foreground: Dropped leather valise spilling clothes, a child's porcelain doll face-down, bridge planks smoldering with flat grey smoke wisps.
+
+Midground: The figure pinned against the railing. Chaotic crowd — soot-stained men, women with kerchiefs, children clinging to legs. A police officer waving arms uselessly.
+
+Background: The Courthouse with its cupola still standing, burning brands landing on its wooden roof. The sky a flat sheet of bright orange. Burning debris raining down.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: The bridge is wood too. You are standing on fuel. The whole city is a machine designed to burn.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor, philosophical and quiet amid the chaos — "You are standing on fuel" delivered with dark clarity, a moment of awful insight. "The whole city is a machine designed to burn" spoken with genuine intellectual fascination. Second person address ("you").
+
+Audio direction:
+- Music: Low brass enters — trombones and French horn in a slow descending figure, funereal weight beneath the chaos, suggesting inevitability.
+- SFX: The crowd pressing — bodies against timber railing, wood creaking under strain, a child crying, the police officer's whistle — shrill and useless, the hiss of smoldering bridge planks, a distant building collapsing with a deep wooden crunch.
+- Ambience: Total sensory overload — the roar of the firestorm now a continuous low thunder, overlapping screams and shouts, the river water sloshing against the bridge pilings, hot wind howling through the bridge structure, the crack and pop of the fire consuming the south bank.

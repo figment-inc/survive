@@ -1,0 +1,33 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static close-up, slightly low angle. Locked camera, flat composition, no movement. The figure's upper body and skull fill the upper two-thirds of the frame. Classic adult animated comedy close-up reaction staging.
+
+Same setting, tighter framing — cut from the medium alley shot to a close-up reaction of the figure looking at its surroundings.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 4 seconds: The figure does a sharp cartoon double-take — head snaps left, then right, then slowly looks down at its own feet on the wooden planks (0-2s). The orb eyes go impossibly wide. The jaw drops in an exaggerated cartoon gape. One hand comes up, fingers spread, as if counting all the wood (2-4s). Classic cartoon dawning-horror expression.
+
+Flat warm amber palette washing across the frame from the right. Pale translucent tones on the figure. Deep browns and tans for wood surfaces behind.
+
+Foreground: The figure's translucent hand in the lower frame, fingers spread against dry pine planks.
+
+Midground: The figure's torso and skull, translucent skin in flat amber tones.
+
+Background: Over the figure's shoulder — wooden facades, wooden fence, wooden telegraph pole, wooden awnings. Everything wood. Growing orange glow.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
+
+Dialogue direction:
+- [AUDIO ONLY - do not render as text] Off-screen narrator speaks: Fourteen weeks without rain. This whole city is kindling.
+- The on-screen character does NOT speak. Silent physical reactions only.
+
+Voice direction:
+- Narrator voice: Male, darkly amused British accent, authoritative with gallows humor, clipped and matter-of-fact — delivering the drought statistic like a coroner reading a report. A tiny uptick of dark amusement on "kindling." Second person address.
+
+Audio direction:
+- Music: The low string drone rises slightly in pitch — adding a high violin harmonic, thin and metallic, like a wire about to snap.
+- SFX: The dry creak of wood underfoot, a sharp crack of a timber settling somewhere nearby, the distant clang of a fire engine bell — tinny and small.
+- Ambience: Wind picking up — the southwest wind that will drive the fire — whistling between the wooden buildings with increasing urgency, dry leaves skittering across wooden planks.

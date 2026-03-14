@@ -1,57 +1,54 @@
 # Dialogue Script — {{EPISODE TITLE}} ({{YEAR}})
 
-**Voice**: Veo 3.1 native speech — off-screen darkly amused British male narrator
-**Style**: Second person present tense, wry gallows humor, like a morbidly fascinated history professor
-**Pacing**: ~3 words/second, ~200-230 words total across 10 clips
+**Voice**: ElevenLabs TTS — Dan (British Documentary Narrator, voice ID BHr135B5EUBtaWheVj8S)
+**Style**: Calm, measured, authoritative British naturalist. National Geographic documentary narration — warm curiosity and genuine reverence for the forces at work.
+**Pacing**: ~3 words/second, ~80-95 words total across 8 clips. HARD CEILING — narration must finish under 30 seconds.
 **Address**: Direct "you" — pulling the viewer into the skeleton's situation
-**Character**: The on-screen figure NEVER speaks. Silent physical reactions only.
+**Character**: The on-screen figure NEVER speaks, NEVER moves their mouth. Silent physical reactions only.
+**Audio pipeline**: This script is produced as separate ElevenLabs audio, NOT embedded in Veo prompts.
 
 ---
 
 ## Clip 01 (0:00–0:04) — The Hook
-NARRATOR: "What happens if you {{HOOK QUESTION — 10-12 words, creates instant curiosity gap}}?"
+NARRATOR: {{8-10 words — devastating fact that creates immediate dread. The figure is ON SCREEN in this clip, standing in the middle of the disaster about to unfold. NEVER a question. Drop the viewer into danger on word one. "You have eleven minutes before the pyroclastic surge reaches you."}}
 
 ## Clip 02 (0:04–0:12) — Immersion
-NARRATOR: "{{20-25 words — sensory arrival, short punchy sentences, present tense. 'You wake up on hot stone. The air tastes like sulfur.'}}"
+NARRATOR: {{14-16 words — sensory arrival. Place, time, one killer scientific detail. Short visceral sentences. "You stand on a sandbar eight feet above sea level. Thirty-seven thousand people live here."}}
 
 ## Clip 03 (0:12–0:16) — Immersion
-NARRATOR: "{{10-12 words — building context, one specific historical detail}}"
+NARRATOR: {{8-10 words — second immersion detail. Tighten the trap. Specific fact.}}
 
-## Clip 04 (0:16–0:24) — Immersion
-NARRATOR: "{{20-25 words — deepening the scene, first hint something is wrong}}"
+## Clip 04 (0:16–0:24) — Attempt
+NARRATOR: {{14-16 words — first attempt and failure. Teaches a real fact. Agency verb. "You try to warn them. They've fought brush fires before."}}
 
 ## Clip 05 (0:24–0:28) — Attempt
-NARRATOR: "{{10-12 words — the figure tries something. Short, punchy.}}"
+NARRATOR: {{8-10 words — escalation. No escape. Stakes rise from previous clip.}}
 
-## Clip 06 (0:28–0:36) — Attempt
-NARRATOR: "{{20-25 words — attempt and failure. Agency verb + result. 'You warn the officers. They laugh.'}}"
+## Clip 06 (0:28–0:32) — Catastrophe
+NARRATOR: {{8-10 words — the event hits. Devastating fact. Clinical precision. Staccato rhythm.}}
 
-## Clip 07 (0:36–0:44) — Attempt
-NARRATOR: "{{20-25 words — escalation, philosophical beat. Stakes raised.}}"
+## Clip 07 (0:32–0:40) — Catastrophe
+NARRATOR: {{14-16 words — peak chaos. Specific numbers: temperatures, wind speeds, pressures, death tolls.}}
 
-## Clip 08 (0:44–0:48) — Catastrophe
-NARRATOR: "{{10-12 words — the event hits. Maximum intensity. Clinical precision.}}"
-
-## Clip 09 (0:48–0:56) — Catastrophe
-NARRATOR: "{{20-25 words — peak chaos, facts delivered at crisis point.}}"
-
-## Clip 10 (0:56–1:04) — Cliffhanger
-NARRATOR: "{{20-25 words — do NOT resolve. End on a haunting image. 'And in 1748, they find you. Exactly where you fell.'}}"
+## Clip 08 (0:40–0:48) — Cliffhanger
+NARRATOR: {{14-16 words — open-loop ending that echoes the hook. Unresolved fact that drives comments. "They found 6,000 bodies. They stopped counting."}}
 
 ---
 
 ## Writing Guidelines
 
-- **Voice on frame 1.** Clip 01 starts with "What happens if..." — ZERO seconds of silence.
+- **Nature documentary tone.** Calm, measured, authoritative. British naturalist guiding you through the extraordinary, not dark comedy.
+- **Voice on frame 1.** Clip 01 starts with a devastating statement — ZERO seconds of silence. NEVER a question.
 - **Present tense ONLY.** "You wake up" not "You've arrived."
-- **Short sentences.** Average 5-8 words. Punches of 3-4 words. Never exceed 15 words.
+- **Short punchy sentences.** Average 5-10 words. Staccato rhythm for catastrophe beats, slightly more flowing for immersion.
+- **Educational depth.** Every clip includes at least one specific, verifiable fact.
 - **Second person throughout**: "you", "your" — the viewer IS the skeleton.
 - **Agency verbs**: "You run", "You grab", "You shout" — not passive observation.
-- **Failure beats every 10-15 seconds**: try and fail. The retention engine.
-- **One philosophical beat per episode**: a moment of insight amid chaos.
-- **Cliffhanger ending**: never wrap up neatly. End on a haunting image.
-- **Dark humor through understatement**: "You are having a very bad day" — not mockery.
-- **Recognizable anchors**: reference things viewers know — famous people, artifacts, pop culture.
+- **Tension ratchet**: every clip raises the stakes from the previous one. No plateaus.
+- **Sensory specificity**: visceral, concrete details. Not "the fire is hot" but "eighteen hundred degrees."
+- **One moment of genuine scientific awe per episode**: a fact that creates wonder.
+- **Callback ending**: the cliffhanger echoes or inverts the hook.
+- **Open-loop ending**: unresolved fact that drives comments and shares.
 - **Historical accuracy**: real dates, real numbers, real consequences. Every fact checkable.
-- **Total word count**: 175-215 words across all 10 clips.
-- Narration in this script MUST exactly match the dialogue direction in video prompts.
+- **Total word count**: 80-95 words across all 8 clips. HARD CEILING. Count every word. Under 30 seconds of spoken audio.
+- This script is produced as separate ElevenLabs audio. It does NOT appear in Veo video prompts.

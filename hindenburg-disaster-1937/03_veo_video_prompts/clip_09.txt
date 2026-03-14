@@ -1,0 +1,26 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, low angle. Locked camera, flat composition, no movement. The figure is visible amid the collapsed, burning duralumin framework of the Hindenburg, now on the ground. Classic adult animated comedy wide tableau staging.
+
+NEW location — exterior, the Lakehurst airfield. Cut from interior close-up to wide exterior wreckage.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action over 8 seconds: At second 0, the figure is on hands and knees amid the twisted aluminum wreckage, skull turning left and right, searching for a way out. At second 1, the figure begins crawling forward through a gap in the twisted girders. At second 2, the figure reaches through the wreckage, skeletal fingers grasping at a bent girder, trying to pull itself through. At second 3, a section of framework shifts and blocks the path — the figure recoils, pulls back. At second 4, the figure tries a different direction, crawling to the right. At second 5, the figure's pale orb eyes catch the light of the flames above — it looks up to see the burning framework forming a cage. At second 6, the figure slumps forward, arms giving out, ribcage pressing against the scorched ground. At second 7, the figure's head drops, skull resting on the ground, orb eyes still open but dimming. THE FIGURE'S MOUTH MUST REMAIN CLOSED AT ALL TIMES. The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Flat lighting on the character with intense orange fire glow from above and around. Palette: intense orange flames, black smoke, silver-grey twisted aluminum, dark green wet grass, grey sky lit from below by firelight. All flat cel-shaded.
+
+Foreground: Twisted duralumin girders glowing with residual heat. Fallen bracing wires tangled in metallic webs. Burning doped cotton skin fragments drifting. Pools of diesel fuel from ruptured engine tanks burning with black smoke. Scattered personal effects — a singed passport, a melted camera.
+
+Midground: The figure crawling amid wreckage. The collapsed framework forms a cage-like tunnel. Other figures — passengers and crew silhouettes — visible stumbling through the destruction.
+
+Background: The massive burning skeleton of the Hindenburg stretching across the airfield, duralumin framework still roughly airship-shaped but collapsing inward. Orange flames and dense black smoke billowing hundreds of feet into the grey sky. Navy ground crew running toward the wreckage. 1930s American LaFrance fire trucks racing across the grass. Press photographers running closer.
+
+Audio direction:
+- SFX: The crack and groan of cooling duralumin contracting; burning diesel fuel hissing and popping; the crunch of the figure crawling over debris; a distant fire truck bell clanging; aluminum girders settling with resonant metallic thuds; the flapping of burning fabric fragments in the wind
+- Ambience: The aftermath roar — flames still consuming pockets of hydrogen and diesel, a bonfire sound at massive scale; hot metal ticking as it cools; shouting ground crew voices in the distance (indistinct, no words); running boots on wet grass; the wail of a distant ambulance siren; wind carrying thick smoke across the airfield
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, slightly elevated angle. Locked camera, flat composition, no movement. The massive debris dam piled against the Stone Bridge, burning. The figure trapped in the wreckage. Classic adult animated comedy wide catastrophe tableau staging.
+
+Visual transition: Time jump — the wave has struck, the debris has piled against the bridge. Cut from the wave to the burning aftermath. The worst is not the water — it's what comes after.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-3: The figure is wedged chest-deep in compressed debris — shattered timber, iron rails, barbed wire — only upper body visible. One arm reaches slowly upward, fingers spread, grasping at nothing. The skull turns side to side, looking for any escape route. Seconds 4-6: Flames spread across the debris surface, the flat orange glow intensifying. The figure's reaching arm begins to lower as it realizes the fire is approaching. Its orb eyes reflect the growing orange light. Seconds 7-8: The flames reach closer. The figure's arm drops to the debris surface. The skull tilts back, staring straight up at the smoke-filled charcoal sky. Complete stillness. The fire glow on the translucent skin illuminates the ribcage from outside.
+
+Lighting + palette: Fire-dominant lighting. Bright orange and yellow flames in flat color zones against charcoal-black debris and sky. Rust-orange smoke plumes. Muddy brown water in gaps between wreckage. The Stone Bridge arches in flat grey stone. The figure's translucent pale skin catches the orange fire glow as flat color reflection. Maximum warm-cool contrast — fire orange against charcoal black.
+
+Foreground: Dense compressed wreckage — shattered timber beams, twisted iron rails, tangled barbed wire, broken furniture, roofing sections. Flames lick upward from kerosene and coal deposits. Fire reflected in puddles of oil-slicked water trapped in the debris.
+
+Midground: The figure trapped in wreckage. The Stone Bridge's seven massive stone arches span the frame, almost completely blocked by the debris dam. Brown water forces through gaps. Fire spreads across the surface.
+
+Background: Upstream, the flattened remains of Johnstown — a wasteland of mud, foundation stones, and scattered debris where thirty thousand people lived. Flames and smoke rise from multiple points. The charcoal sky stained rust-orange. Dark valley walls frame the devastation. Silhouetted figures on the hillside watch.
+
+Audio direction:
+- SFX: The crackle and roar of burning timber and kerosene, wood popping and splitting in the heat, the groan of compressed debris shifting under water pressure, metal scraping against metal, the hiss of water meeting flame at the debris edges, the hollow clatter of iron rails settling in the wreckage
+- Ambience: Fire roaring across the debris field — a sustained crackling rush, water churning behind the debris dam with a deep pressurized gurgle, wind carrying smoke and embers, distant cries from the hillside — wordless, anguished, carried on the wind, the overwhelming sound of a landscape being consumed by fire and water simultaneously
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
