@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. Interior of the boat chamber — the figure pressed against the back wall, the arched opening filling with the pyroclastic surge. Classic adult animated comedy medium shot staging.
+
+Visual transition: Cut from exterior close-up to interior of the boat chamber. The surge has arrived at the archway.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure is pressed flat against the volcanic tuff back wall, arms spread against the stone, skull facing the archway. For seconds 1-2, the figure is rigid, pinned, staring at the archway as the incandescent orange glow intensifies, washing over the entire interior. The tiny oil lamp on the ground flickers and goes out. At second 3, the surge material — superheated ash and gas — begins pouring through the arch like a glowing fluid. The figure's translucent skin illuminates from the furnace light, every bone in the ribcage and spine sharply backlit. Second 4: the glowing material fills the lower half of the arch, rushing toward the figure. The figure's arms pull in defensively, crossing over the ribcage. The civilians beside the figure are frozen in the same instant.
+
+Flat lighting dominated by volcanic glow through the arch. Palette: dark volcanic grey tuff, intense furnace-amber light, incandescent orange, deep shadow black.
+
+Foreground: Interior vault details — rough-hewn tuff walls, the extinguished oil lamp, scattered coins and personal effects on the ground.
+
+Midground: The figure and surrounding civilians against the back wall. The mother shielding children, the man with arms over his head.
+
+Background: The arched opening — filling with incandescent orange pyroclastic material. The outside world completely obliterated. The glow is overwhelming, casting sharp animated shadows across the vault interior.
+
+Audio direction:
+- SFX: The oil lamp flame guttering out with a tiny hiss, a massive rushing roar as the surge enters the arch — like a blast furnace opening, stone cracking from thermal shock — sharp reports echoing in the confined vault, the metallic ping of a bronze stylus hitting stone as it's dropped, a deep pressurization pop as the air inside the vault compresses
+- Ambience: The surge sound filling the entire audio space — an overwhelming sustained roar that drowns everything else, the confined acoustics of the vault amplifying and echoing the sound, a brief sub-bass vibration as the ground shakes beneath the surge's impact
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

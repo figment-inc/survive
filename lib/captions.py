@@ -80,7 +80,7 @@ def transcribe_audio(video_path: Path, api_key: str | None = None) -> list[WordT
 
 def build_remotion_segments(
     words: list[WordTimestamp],
-    max_words_per_segment: int = 3,
+    max_words_per_segment: int = 5,
 ) -> list[dict]:
     """Convert Whisper word timestamps into Remotion HydratedSegment[] JSON.
 
@@ -131,7 +131,7 @@ def _karaoke_html(word: str) -> str:
         f'<span style="'
         f"font-family: 'Montserrat', 'Inter', sans-serif; "
         f"font-weight: 900; "
-        f"font-size: 90px; "
+        f"font-size: 110px; "
         f"text-transform: uppercase; "
         f"color: #FFFFFF; "
         f"text-shadow: 0 0 10px rgba(0,0,0,0.95), 3px 3px 0 #000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 0 3px 0 #000, 0 -3px 0 #000, 3px 0 0 #000, -3px 0 0 #000; "
@@ -170,7 +170,7 @@ def render_caption_overlay(
 
     props = {
         "segments": segments,
-        "position": {"x": 50, "y": 65},
+        "position": {"x": 50, "y": 45},
         "styleToggles": {
             "scrapbook": False,
             "scatter": False,

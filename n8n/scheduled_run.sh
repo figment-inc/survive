@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Scheduled pipeline run: generate a new episode and publish to Metricool
-# Called by cron every 6 hours
+# Manual local pipeline run: generate a new episode and publish to Metricool
+# Scheduled runs use GitHub Actions (.github/workflows/generate-episode.yml)
 
 set -euo pipefail
 
@@ -21,10 +21,10 @@ cd "$REPO_DIR"
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
-# Source .env for API keys (GH_TOKEN, etc.) not available in cron's keyring
+# Source .env for API keys (GH_TOKEN, etc.) not available in non-interactive shells
 if [ -f "$REPO_DIR/.env" ]; then
     set -a
-    source <(grep -E '^[A-Z_]+=.' "$REPO_DIR/.env" | sed 's/#.*//')
+    eval "$(grep -E '^[A-Z_]+=.' "$REPO_DIR/.env" | sed 's/#.*//')"
     set +a
 fi
 

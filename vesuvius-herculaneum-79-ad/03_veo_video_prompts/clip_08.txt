@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. Interior of the excavated boat chamber — the figure's outline visible embedded in the solidified volcanic tuff, modern Mediterranean daylight streaming through the arch. Classic adult animated comedy medium shot staging.
+
+Visual transition: Massive temporal jump — from 79 AD to the modern archaeological site. The framing mirrors Clip 03's archway composition but inverted: instead of looking in at living people, we look at preserved remains in stone. The bright exterior light through the arch contrasts with the earlier volcanic glow.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure is embedded in the solidified volcanic tuff — frozen in the exact posture from the previous clips: one arm reaching up, skull tilted back, ribcage and spine visible through the translucent form within the grey rock matrix. This is a still figure — no movement. The action comes from the environment: seconds 1-4, the camera framing is static on the embedded figure, a single dust mote drifting across the frame in the sunlight from the arch. Seconds 5-8: a shadow passes across the vault entrance — implied modern visitors walking past outside. The sunlight shifts slightly as a cloud passes. The embedded figure remains utterly still. The pale orb-eyes stare upward, fixed for nineteen centuries.
+
+Bright Mediterranean daylight through the arch contrasting with cool grey vault interior. Palette: volcanic grey tuff, pale translucent figure, bright sky blue through the arch, warm sunlight yellow, archaeological khaki, canvas brown.
+
+Foreground: The rough-cut excavated tuff face — chisel marks visible. A small Italian archaeological survey tag on a wire. Colored pins marking positions in the rock.
+
+Midground: The embedded figure and faint surrounding forms in the volcanic matrix. The intact arched ceiling above.
+
+Background: Through the arch — modern scaffolding, a canvas shade canopy, the blue Bay of Naples under a clear sky. Bright, peaceful, utterly opposite to the horror sealed inside.
+
+Audio direction:
+- SFX: A single seagull cry outside the arch — sharp and clear, the faint click of a camera shutter from beyond the vault — modern tourists, footsteps on gravel outside — modern shoes on archaeological pathways, the whisper of wind through the arch carrying a breath of warm Mediterranean air
+- Ambience: Modern Mediterranean coastal ambience — gentle lapping waves in the distance, cicadas buzzing in the archaeological park, a distant boat engine puttering across the bay, warm wind sighing through the excavated ruins, the profound quiet of a place where thousands perished — an archaeological silence heavy with presence
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

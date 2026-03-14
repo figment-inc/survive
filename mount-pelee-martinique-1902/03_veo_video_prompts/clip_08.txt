@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands motionless in a flattened ash field. A single surviving jail cell wall with iron-barred window is the only vertical structure in frame. Classic adult animated comedy medium shot staging.
+
+Visual transition: Same destroyed city, slightly different angle — the focus shifts to the jail cell wall, the episode's final haunting image.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands in the ash waste, facing the surviving jail cell wall. For the first 3 seconds, the figure is motionless — head bowed, shoulders slumped, spine curved in total defeat. The entire translucent body is coated in grey ash. At 4 seconds, the figure slowly raises its skull to look at the barred window of the cell — the small dark opening that saved one man's life. At 5-6 seconds, the figure takes one slow, heavy step toward the cell wall, one translucent hand reaching out weakly toward the iron bars. At 7-8 seconds, the hand drops. The figure stands still. The pale orb-eyes, dim and half-lidded, stare at the cell. A single large ash flake drifts across the frame between the figure and the wall. The figure does not move again.
+
+Flat even lighting. The most muted palette of the episode — uniform ash grey, pale mustard-grey sky lightening at the horizon, faint tangerine glow from scattered embers, charcoal rubble. Almost monochromatic. All color has been burned away.
+
+Foreground: The stone jail cell wall fragment — roughly six feet high, thick stone construction with a narrow barred window. Iron bars intact. Grey ash drifted against its base. This is where Ludger Sylbaris survived.
+
+Midground: The figure standing in the ash waste. Scattered debris — a warped iron bed frame, a stone foundation outline, carbonized timber stumps. Everything uniform grey.
+
+Background: The flattened expanse of Saint-Pierre — a grey-white ash plain extending to the sea, which is still steaming at the far edge. Mount Pelée in the distance, dome steaming quietly, wreathed in thin grey cloud. The sky is pale and empty. A single thin column of smoke rises from somewhere deep in the rubble field.
+
+Background activity: No people. No movement except the slow drift of ash particles and one thin smoke column. Total desolation.
+
+Audio direction:
+- SFX: The soft crunch of ash underfoot as the figure takes its single step — a dry, granular sound. The faint metallic vibration of the iron bars in the cell window as hot wind passes through them — a barely audible hum. A distant rumble from the mountain — still alive, still active. The sound of a single stone settling in the rubble with a quiet click.
+- Ambience: Profound silence. The faint continuous hiss of ash settling from the atmosphere. A lonely hot wind moving across the flat ash plain, finding nothing to obstruct it — a sustained, hollow whistle. The distant murmur of the steaming sea. The volcanic mountain's low residual grumble on the very edge of hearing. The silence of thirty thousand absent voices.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
