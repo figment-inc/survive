@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static low angle looking up. Locked camera, flat composition, no movement. Looking up from below at the fire escape twisting away from the building wall. The translucent character visible on the buckling platform above. Classic adult animated comedy low-angle dread staging.
+
+Visual transition: Same exterior location, cut to low angle looking up — the fire escape is failing.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Second 1: The figure is gripping the railing as the fire escape lurches violently — the entire structure twisting 30 degrees away from the building wall. The figure's feet slide on the tilting iron platform. Second 2: The figure's hands lose their grip on the railing as a section of iron tears free from its mounting bracket with a violent jerk. One arm flails outward. Second 3: The fire escape folds downward like a closing book — the iron platforms collapsing into each other. The figure is thrown against the railing, then over it. Second 4: The figure falls with the twisted iron structure, arms thrown wide, descending through the frame toward the courtyard below.
+
+Flat rust-brown iron, burnt sienna brick, soot-black smoke, furnace orange fire above, pale blue sky. Falling debris — mortar chunks, iron fragments, rivets — fill the frame.
+
+Foreground: Falling rivets, mortar dust, small iron fragments descending through the air.
+
+Midground: The fire escape structure twisting and collapsing. The translucent character and several women falling with it.
+
+Background: The Asch Building wall, smoke and fire from upper windows, pale sky above.
+
+Audio direction:
+- SFX: The catastrophic shriek of iron tearing from iron — a sustained metallic scream, the crack-crack-crack of mounting bolts snapping from brick in rapid succession, the groan and crash of the fire escape folding and falling, rivets pinging off brick, the rush of displaced air
+- Ambience: A collective cry — not words but a single sustained sound of terror, cut short. Wind rushing past falling objects. The distant clang of iron hitting iron as the structure collapses section by section.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

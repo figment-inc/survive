@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static high angle, looking down. Locked camera, flat composition, no movement. The vertiginous view from approximately the 6th floor — looking down the building facade toward the Washington Place sidewalk far below. The translucent character is visible on the 9th floor window ledge above the camera. Classic adult animated comedy high-angle vulnerability staging.
+
+Visual transition: Same building exterior, dramatic shift to high-angle looking down — emphasizing the 90-foot drop.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-2: The figure stands on the narrow stone window ledge, 90 feet above the street. Feet together on the ledge, one hand gripping the window frame behind it, the other arm out for balance. It looks down. Seconds 3-4: A firefighter's ladder extends up the building facade from below — it stops at the 6th floor. Thirty feet short. The figure watches it stop. Seconds 5-6: Below, firefighters hold a circular life net taut on the sidewalk. The figure looks at the net. Then looks at the distance. The hand gripping the window frame slowly releases. Seconds 7-8: The figure steps off the ledge. It falls through the frame — arms slightly out, body straight, descending rapidly toward the sidewalk below. The figure passes the ladder, passes the 5th floor, the 4th — shrinking as it falls toward the net that will not hold.
+
+Flat charcoal, burnt sienna, furnace orange above, cool grey-blue cobblestone below. The vertical composition emphasizes the drop — warm destruction above, cold street far below.
+
+Foreground: The brown brick wall stretching downward. Window after window. Twisted remnants of the fire escape. Soot stains.
+
+Midground: The building facade in cross-section. Firefighter's ladder reaching only to the 6th floor. Smoke streaming from upper floors.
+
+Background: Washington Place sidewalk far below. Horse-drawn fire engine. Firefighters with the life net. Dense crowd behind police lines. Cobblestone street.
+
+Audio direction:
+- SFX: The scrape of a shoe on stone as the figure steps from the ledge, the rush of air accelerating — a building whoosh, the flutter of fabric and air displacement, the distant shouts of the crowd below growing louder as the fall continues, the creak and strain of the life net ropes being pulled taut
+- Ambience: Wind at height giving way to the rush of falling — air noise building from whisper to roar. The crowd's collective gasp rising from below. Fire bells. The distant roar of the fire from the upper floors.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
