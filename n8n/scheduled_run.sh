@@ -21,6 +21,13 @@ cd "$REPO_DIR"
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
+# Source .env for API keys (GH_TOKEN, etc.) not available in cron's keyring
+if [ -f "$REPO_DIR/.env" ]; then
+    set -a
+    source <(grep -E '^[A-Z_]+=.' "$REPO_DIR/.env" | sed 's/#.*//')
+    set +a
+fi
+
 PYTHONUNBUFFERED=1 python3 -u n8n/run_pipeline.py --publish 2>&1
 EXIT_CODE=$?
 
