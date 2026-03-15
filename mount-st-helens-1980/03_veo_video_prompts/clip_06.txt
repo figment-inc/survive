@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p. 4 seconds.
+
+Camera: Static close-up, slightly high angle looking down. Locked camera, flat composition, no movement. The figure fills most of the frame, curled into a defensive crouch, engulfed in the pyroclastic surge. Visibility near zero. Classic adult animated comedy close-up staging.
+
+Visual transition: Cut from the lahar to the pyroclastic surge overtaking the figure — maximum intensity, total engulfment.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure is curled in a tight defensive crouch on scorched black ground — arms wrapped over the skull, knees drawn up, body hunched. Over 4 seconds, the figure's body is buffeted by the blast — rocked sideways, then back, like a ragdoll in wind. Grey ash accumulates rapidly on the translucent skin, gradually obscuring the skeletal structure beneath. By 3.5 seconds, the figure is nearly grey — the translucent quality dimming under the coating. The figure remains curled, unmoving beneath the onslaught. Mouth closed. No movement of the jaw.
+
+No directional light — diffuse flat illumination from the superheated cloud. Palette: deep charcoal, ash grey, dirty cream, pyroclastic orange accents, scorched black ground. The figure's pale translucent skin the only cool tone, fading under ash.
+
+Foreground: Dense swirling ash in layered flat shapes — dark charcoal, medium grey, pale ash. Small debris fragments — rock chips, bark splinters, pine needles — flying horizontally across the frame.
+
+Midground: The figure in defensive crouch on bare scorched ground. A melted olive-drab USGS radio handset with warped plastic housing on the ground beside the figure.
+
+Background: Total whiteout from the blast cloud. Layered flat shapes suggesting churning depth — darker grey nearest, lighter dirty cream further, intermittent orange-hot streaks.
+
+Audio direction:
+- SFX: A sustained deafening roar — the pyroclastic surge at 680 degrees Fahrenheit, traveling at 300 mph. Rock fragments pinging off the ground at high velocity. A continuous hissing crackle as organic material flash-ignites. The melting plastic of the radio handset bubbling.
+- Ambience: Total sonic saturation — the pyroclastic surge is not a sound but a physical force, a wall of roaring heated air and pulverized rock that obliterates all other audio. A deep bass drone underneath, the earth itself vibrating.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p. 8 seconds.
+
+Camera: Static medium shot, low angle. Locked camera, flat composition, no movement. The figure is half-buried in volcanic ash and debris — visible from the chest up, the rest submerged. The ruined mountain and grey world behind. Classic adult animated comedy medium shot staging — the final image.
+
+Visual transition: Cut from the extreme wide to this medium shot — closing in on the figure for the final beat. The intimacy of the framing after the vastness of the previous shot creates emotional weight.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure is half-submerged in deep grey ash, one arm extended upward with fingers spread, the other buried. The translucent skin is coated grey, the skeletal structure visible as darker lines beneath the ash coating. The pale orb eyes stare forward — not panicked, not peaceful, just still. For the first 4 seconds, the figure is motionless. At 4.5 seconds, the extended hand slowly begins to lower — fingers relaxing, the arm descending by inches. By 7 seconds, the hand has settled to the ash surface. The pale orb eyes remain open but the figure is now completely still. Ash continues to fall, slowly burying the figure further. By 8 seconds, the ash has risen perceptibly — now covering the lower ribcage area. Mouth closed throughout. A slow, quiet cessation.
+
+Flat diffuse grey light. Palette: five shades of ash grey, charcoal, scorched black, the figure's pale translucent form the only warm-adjacent tone, a single dirty cream light shaft breaking through the ash cloud in the upper right corner.
+
+Foreground: Deep volcanic ash surface with subtle texture lines. A single charred tree stump to the left. A twisted metal surveyor's tripod to the right with a USGS equipment tag dangling. The corner of a partially buried USGS topographic map — blue contour lines and 'SPIRIT LAKE' faintly visible.
+
+Midground: The figure, half-buried, translucent pale skin now dusted grey, skeletal structure visible as darker lines beneath the coating.
+
+Background: The ruined volcano — horseshoe crater steaming, summit gone. The sky solid ash grey, earth and sky merging. Ash still falling. The single shaft of pale dirty-cream light in the upper right — the only brightness.
+
+Audio direction:
+- SFX: The soft continuous hiss of falling ash accumulating — like sand in an hourglass. A faint creak from the metal surveyor's tripod settling under ash weight. The barely perceptible flutter of the USGS map corner in a dying breeze. A single distant rumble from the crater — the mountain still exhaling.
+- Ambience: Profound post-apocalyptic stillness. The deadened, muffled acoustic quality of a world buried in six inches of ash. No life sounds. No wind. Just the soft percussion of ash particles landing, one after another after another, building toward permanent burial. A silence that is not silence but the sound of geological time resuming.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
