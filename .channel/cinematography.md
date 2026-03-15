@@ -91,6 +91,18 @@ Instead of describing light sources (torches, sun angle), describe the **flat co
 - "Dark desaturated blue-grey palette with cold undertones" (not "moonlit scene")
 - "High contrast: bright orange fire glow against dark navy sky" (not "backlighting from flames")
 
+### Banned Vocabulary (NEVER use in prompts)
+
+These terms push AI generators toward photorealism and away from flat animation:
+
+**Lighting physics**: film grain, shallow/deep depth of field, bokeh, lens flare, god rays, volumetric (light/fog/haze), rim lighting, rim lit, subsurface scattering, caustics, cinematic lighting, global illumination, specular highlight, natural lighting
+
+**Camera/lens terms**: anamorphic, 35mm, DSLR, raw photo, motion blur, chromatic aberration, vignette, deep focus, rack focus
+
+**Rendering terms**: photorealistic, hyper-realistic, ray tracing, PBR, realistic rendering
+
+**Instead, describe**: flat color names, flat even lighting, flat atmospheric haze, flat 2D composition, dramatic (not cinematic)
+
 ---
 
 ## 5. Visual Pacing

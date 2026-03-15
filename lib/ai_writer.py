@@ -66,13 +66,16 @@ def generate_storyboard(topic: str, year: str, editor_notes: Optional[str] = Non
         "5. Each clip must have ALL production fields: Duration, Type, Camera, Shot motivation, Movement, "
         "Lighting setup, Composition, Depth layers, Atmosphere, Period texture, Background activity, "
         "Visual transition, Visual action, Narration\n"
-        "6. Total narration must be 80-95 words (HARD CEILING — must finish under 30 seconds)\n\n"
+        "6. Total narration must be 150-180 words as CONTINUOUS PROSE — sentences should flow across clip boundaries\n\n"
         "SCRIPT WRITING RULES (critical for viral engagement):\n"
         "- Open with a devastating fact that creates immediate dread — NEVER a question — voice on frame 1, ZERO silence\n"
+        "- Write ONE continuous narrative, not 8 isolated scripts — sentences SHOULD span clip boundaries\n"
         "- Second person PRESENT TENSE throughout: 'You wake up', 'You run', 'You feel'\n"
-        "- Short punchy sentences: average 5-8 words, with 3-4 word punches for impact\n"
+        "- Rhythm varies by beat: flowing immersion sentences, staccato catastrophe punches (3-8 words)\n"
         "- AGENCY AND FAILURE LOOPS: the viewer tries things and fails every 10-15 seconds\n"
         "  Example: 'You warn the officers. They laugh.' / 'You run for the gate. It is already jammed.'\n"
+        "- SENSORY CONTINUITY: if clip 03 has smoke, clip 04 still has smoke — the environment accumulates\n"
+        "- NARRATIVE THREAD: every sentence connects to the previous — causality, not just sequence\n"
         "- One philosophical beat per episode: a moment of insight amid chaos\n"
         "- End on a CLIFFHANGER — an open, haunting image, never a clean resolution\n"
         "- Weave in recognizable anchors the viewer already knows (famous people, artifacts, pop culture)\n"
@@ -201,20 +204,23 @@ def generate_video_prompt(
 
 
 def generate_narration_script(storyboard_raw: str, editor_notes: Optional[str] = None) -> str:
-    """Generate the narrator voiceover script from the full storyboard."""
+    """Generate the narrator voiceover script from the full storyboard as continuous prose."""
     system = _build_series_context()
 
     user_prompt = (
         "Extract ALL narration from the following storyboard into a clean narration script.\n\n"
         f"--- STORYBOARD ---\n{storyboard_raw}\n\n"
         "FORMAT:\n"
-        "- Organize by narrative beat (The Hook, The Immersion, The Attempt, The Catastrophe, The Cliffhanger)\n"
-        "- For each clip: show clip number, beat label, then narrator text in quotes\n"
+        "- Write ONE continuous prose narrative organized by clip markers\n"
+        "- For each clip: show clip number, beat label, then NARRATOR: text\n"
+        "- Sentences SHOULD flow across clip boundaries — use em dashes (—) to indicate mid-sentence continuity\n"
         "- EVERY clip has narration — no silent clips\n"
-        "- Keep the exact narration from the storyboard — do NOT rewrite lines\n"
         "- Second person PRESENT TENSE throughout: 'you wake up', 'you run', 'you feel'\n"
-        "- Total script should be 200-230 words\n"
-        "- Short sentences: average 5-8 words, 3-4 word punches for impact\n"
+        "- Total script should be 150-180 words as continuous prose\n"
+        "- Rhythm varies by beat: flowing immersion sentences, staccato catastrophe punches\n"
+        "- Sensory continuity: if clip 03 has smoke, clip 04 still has smoke\n"
+        "- Narrative thread: every sentence connects to the previous — causality, not sequence\n"
+        "- The narration is generated as ONE continuous ElevenLabs audio file, so natural flow matters\n"
     )
 
     if editor_notes:

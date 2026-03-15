@@ -1,10 +1,12 @@
-"""ffmpeg video utilities — stitching with LUFS normalization, frame extraction, chain splitting."""
+"""ffmpeg video utilities — stitching with LUFS normalization, frame extraction, chain splitting, audio chunking."""
 
 from __future__ import annotations
 
+import json
 import subprocess
 from datetime import datetime
 from pathlib import Path
+from typing import TypedDict
 
 
 def _ts() -> str:
@@ -44,6 +46,151 @@ def probe_audio_duration(file_path: Path) -> float:
     if result.returncode != 0 or not result.stdout.strip():
         return 0.0
     return float(result.stdout.strip())
+
+
+class WordTimestamp(TypedDict):
+    word: str
+    start: float
+    end: float
+
+
+def whisper_word_timestamps(
+    audio_path: Path,
+    openai_api_key: str,
+) -> list[WordTimestamp]:
+    """Get word-level timestamps from an audio file using OpenAI Whisper API.
+
+    Returns a list of {word, start, end} dicts with timestamps in seconds.
+    """
+    import requests as _requests
+
+    print(f"  [{_ts()}] Running Whisper word-level transcription on {audio_path.name}...")
+    url = "https://api.openai.com/v1/audio/transcriptions"
+    headers = {"Authorization": f"Bearer {openai_api_key}"}
+
+    with open(audio_path, "rb") as f:
+        resp = _requests.post(
+            url,
+            headers=headers,
+            files={"file": (audio_path.name, f, "audio/mpeg")},
+            data={
+                "model": "whisper-1",
+                "response_format": "verbose_json",
+                "timestamp_granularities[]": "word",
+            },
+            timeout=120,
+        )
+    resp.raise_for_status()
+    data = resp.json()
+
+    words: list[WordTimestamp] = []
+    for w in data.get("words", []):
+        words.append(WordTimestamp(
+            word=w["word"],
+            start=float(w["start"]),
+            end=float(w["end"]),
+        ))
+
+    print(f"  [{_ts()}] Whisper returned {len(words)} word timestamps "
+          f"(duration: {words[-1]['end']:.1f}s)" if words else "")
+    return words
+
+
+def chunk_narration_audio(
+    full_audio_path: Path,
+    word_timestamps: list[WordTimestamp],
+    clip_durations: list[tuple[str, float]],
+    output_dir: Path,
+    force: bool = False,
+) -> list[Path]:
+    """Split a continuous narration audio file into per-clip chunks.
+
+    Uses word-level timestamps to determine split points. Each clip gets
+    a proportional share of words based on clip duration relative to total
+    video duration. Words are assigned greedily — the split happens at the
+    word boundary closest to the ideal time-proportional split point.
+
+    Narration that runs longer than video is distributed across all clips,
+    so each clip's audio chunk may exceed its video duration. The mixer
+    handles this by letting the narration play through the clip boundary
+    (since clips are stitched into one continuous video anyway).
+    """
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    if not word_timestamps:
+        print(f"  [{_ts()}] WARNING: No word timestamps — cannot chunk narration")
+        return []
+
+    total_video_duration = sum(dur for _, dur in clip_durations)
+    total_narration_duration = word_timestamps[-1]["end"]
+    total_words = len(word_timestamps)
+
+    print(f"  [{_ts()}] Chunking narration: {total_words} words, "
+          f"{total_narration_duration:.1f}s audio across "
+          f"{len(clip_durations)} clips ({total_video_duration:.0f}s video)")
+
+    split_points: list[int] = []
+    cumulative_dur = 0.0
+    word_idx = 0
+
+    for i, (clip_id, clip_dur) in enumerate(clip_durations[:-1]):
+        cumulative_dur += clip_dur
+        target_time = (cumulative_dur / total_video_duration) * total_narration_duration
+
+        best_idx = word_idx
+        best_dist = abs(word_timestamps[word_idx]["end"] - target_time)
+        for j in range(word_idx, min(total_words, word_idx + total_words // 2)):
+            dist = abs(word_timestamps[j]["end"] - target_time)
+            if dist < best_dist:
+                best_dist = dist
+                best_idx = j
+
+        split_points.append(best_idx + 1)
+        word_idx = best_idx + 1
+
+    chunk_ranges: list[tuple[int, int]] = []
+    start = 0
+    for sp in split_points:
+        chunk_ranges.append((start, sp))
+        start = sp
+    chunk_ranges.append((start, total_words))
+
+    output_paths: list[Path] = []
+    for i, ((clip_id, _), (w_start, w_end)) in enumerate(
+        zip(clip_durations, chunk_ranges)
+    ):
+        out_path = output_dir / f"clip_{clip_id}.mp3"
+        output_paths.append(out_path)
+
+        if out_path.exists() and not force:
+            print(f"  [{_ts()}] Skipping chunk (exists): {out_path.name}")
+            continue
+
+        if w_start >= w_end:
+            print(f"  [{_ts()}] WARNING: Empty chunk for clip {clip_id}")
+            continue
+
+        audio_start = word_timestamps[w_start]["start"]
+        audio_end = word_timestamps[w_end - 1]["end"]
+        chunk_words = [word_timestamps[j]["word"] for j in range(w_start, w_end)]
+
+        cmd = [
+            "ffmpeg", "-y",
+            "-i", str(full_audio_path),
+            "-ss", f"{audio_start:.3f}",
+            "-to", f"{audio_end:.3f}",
+            "-c", "copy",
+            str(out_path),
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"  ERROR chunking clip {clip_id}: {result.stderr[-300:]}")
+            continue
+
+        print(f"  [{_ts()}] Chunk clip_{clip_id}: words {w_start}-{w_end-1} "
+              f"({audio_start:.1f}s-{audio_end:.1f}s, {w_end - w_start} words)")
+
+    return output_paths
 
 
 def _extend_video_with_freeze(video_path: Path, target_duration: float, extended_path: Path) -> bool:
@@ -438,4 +585,197 @@ def stitch_clips(clip_paths: list[Path], output_path: Path) -> bool:
 
     size_mb = output_path.stat().st_size / (1024 * 1024)
     print(f"  [{_ts()}] Final video: {output_path} ({size_mb:.1f} MB)")
+    return True
+
+
+def stitch_clips_with_transitions(
+    clip_paths: list[Path],
+    output_path: Path,
+    crossfade_duration: float = 0.3,
+    hook_crossfade: float = 0.5,
+    outro_fade: float = 1.5,
+) -> bool:
+    """Concatenate clips with crossfade transitions and LUFS normalization.
+
+    Applies xfade crossfades between clips and a dip-to-black on the
+    final clip. Falls back to hard-cut stitch_clips() on failure.
+    """
+    if not clip_paths:
+        print("  ERROR: No clips to stitch.")
+        return False
+
+    if len(clip_paths) < 2:
+        return stitch_clips(clip_paths, output_path)
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    inputs: list[str] = []
+    for p in clip_paths:
+        inputs.extend(["-i", str(p)])
+
+    durations: list[float] = []
+    for p in clip_paths:
+        durations.append(probe_audio_duration(p))
+
+    vf_parts: list[str] = []
+    af_parts: list[str] = []
+    n = len(clip_paths)
+
+    cumulative_offset = 0.0
+    current_video = "[0:v]"
+    current_audio = "[0:a]"
+
+    for i in range(1, n):
+        fade_dur = hook_crossfade if i == 1 else crossfade_duration
+        offset = cumulative_offset + durations[i - 1] - fade_dur
+
+        if offset < 0:
+            offset = max(0, cumulative_offset + durations[i - 1] - 0.1)
+            fade_dur = cumulative_offset + durations[i - 1] - offset
+
+        out_v = f"[v{i}]" if i < n - 1 else "[vmerged]"
+        out_a = f"[a{i}]" if i < n - 1 else "[amerged]"
+
+        vf_parts.append(
+            f"{current_video}[{i}:v]xfade=transition=fade:duration={fade_dur:.3f}"
+            f":offset={offset:.3f}{out_v}"
+        )
+        af_parts.append(
+            f"{current_audio}[{i}:a]acrossfade=d={fade_dur:.3f}:c1=tri:c2=tri{out_a}"
+        )
+
+        cumulative_offset = offset
+        current_video = out_v
+        current_audio = out_a
+
+    if outro_fade > 0:
+        total_dur = cumulative_offset + durations[-1]
+        fade_start = max(0, total_dur - outro_fade)
+        vf_parts.append(f"[vmerged]fade=t=out:st={fade_start:.3f}:d={outro_fade:.3f}[vout]")
+        af_parts.append(f"[amerged]afade=t=out:st={fade_start:.3f}:d={outro_fade:.3f}[aout]")
+        final_v = "[vout]"
+        final_a = "[aout]"
+    else:
+        final_v = "[vmerged]"
+        final_a = "[amerged]"
+
+    filter_complex = ";".join(vf_parts + af_parts)
+
+    raw_xfade = output_path.parent / f"raw_xfade_{output_path.stem}.mp4"
+    cmd = [
+        "ffmpeg", "-y",
+        *inputs,
+        "-filter_complex", filter_complex,
+        "-map", final_v,
+        "-map", final_a,
+        "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+        "-c:a", "aac", "-b:a", "192k",
+        str(raw_xfade),
+    ]
+
+    print(f"\n  [{_ts()}] Stitching {n} clips with crossfade transitions "
+          f"(xfade={crossfade_duration}s, hook={hook_crossfade}s, outro={outro_fade}s)...")
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"  WARNING: xfade stitch failed: {result.stderr[-500:]}")
+        print(f"  [{_ts()}] Falling back to hard-cut stitch...")
+        raw_xfade.unlink(missing_ok=True)
+        return stitch_clips(clip_paths, output_path)
+
+    cmd_norm = [
+        "ffmpeg", "-y",
+        "-i", str(raw_xfade),
+        "-c:v", "copy",
+        "-af", "loudnorm=I=-14:TP=-1.0:LRA=11",
+        "-c:a", "aac", "-b:a", "192k",
+        str(output_path),
+    ]
+
+    print(f"  [{_ts()}] Normalizing to -14 LUFS...")
+    result = subprocess.run(cmd_norm, capture_output=True, text=True)
+    raw_xfade.unlink(missing_ok=True)
+
+    if result.returncode != 0:
+        print(f"  ERROR: normalization failed: {result.stderr[:500]}")
+        return False
+
+    size_mb = output_path.stat().st_size / (1024 * 1024)
+    print(f"  [{_ts()}] Final video (with transitions): {output_path} ({size_mb:.1f} MB)")
+    return True
+
+
+def burn_location_title(
+    video_path: Path,
+    output_path: Path,
+    location: str,
+    year: str,
+    duration: float = 4.0,
+    fade_in: float = 0.5,
+    fade_out: float = 0.5,
+    force: bool = False,
+) -> bool:
+    """Burn a 'Location, Year' text overlay onto the first seconds of a video.
+
+    Text is centered horizontally and placed in the vertical center of the
+    bottom 25% of the frame (y = 87.5% of height). Uses Montserrat Bold
+    with a heavy black outline for readability over any background.
+
+    Alpha fades in over *fade_in* seconds, holds, then fades out so the
+    total visible duration equals *duration* seconds.
+    """
+    if output_path.exists() and not force:
+        print(f"  [{_ts()}] Skipping (exists): {output_path.name}")
+        return True
+
+    if not video_path.exists():
+        print(f"  WARNING: No video at {video_path}, skipping location title burn")
+        return False
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    title_text = f"{location}, {year}"
+    escaped_text = title_text.replace("'", "'\\''").replace(":", "\\:")
+
+    fade_out_start = duration - fade_out
+    alpha_expr = (
+        f"if(lt(t,{fade_in}),t/{fade_in},"
+        f"if(lt(t,{fade_out_start}),1,"
+        f"if(lt(t,{duration}),(({duration}-t)/{fade_out}),0)))"
+    )
+
+    drawtext_filter = (
+        f"drawtext="
+        f"text='{escaped_text}':"
+        f"fontfile=/System/Library/Fonts/Supplemental/Arial Bold.ttf:"
+        f"fontsize=56:"
+        f"fontcolor=white:"
+        f"borderw=4:"
+        f"bordercolor=black:"
+        f"shadowcolor=black@0.6:"
+        f"shadowx=2:shadowy=2:"
+        f"x=(w-tw)/2:"
+        f"y=h*0.875-th/2:"
+        f"alpha='{alpha_expr}':"
+        f"enable='between(t,0,{duration})'"
+    )
+
+    cmd = [
+        "ffmpeg", "-y",
+        "-i", str(video_path),
+        "-vf", drawtext_filter,
+        "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+        "-c:a", "copy",
+        str(output_path),
+    ]
+
+    print(f"  [{_ts()}] Burning location title: \"{title_text}\" "
+          f"(duration={duration}s, fade_in={fade_in}s, fade_out={fade_out}s)")
+
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"  ERROR burning location title: {result.stderr[-500:]}")
+        return False
+
+    size_mb = output_path.stat().st_size / (1024 * 1024)
+    print(f"  [{_ts()}] Location title burned: {output_path.name} ({size_mb:.1f} MB)")
     return True

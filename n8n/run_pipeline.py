@@ -374,7 +374,11 @@ MUSIC_PROMPT = (
 
 
 def _parse_narration_lines(episode):
-    """Extract per-clip narration text from the dialogue_script field."""
+    """Extract per-clip narration text from the dialogue_script field.
+
+    Supports both old-style isolated per-clip scripts and new continuous
+    prose format where sentences may span clip boundaries.
+    """
     import re
 
     script = episode.get("dialogue_script", "")
@@ -397,19 +401,95 @@ def _parse_narration_lines(episode):
     return lines
 
 
-def run_audio_phase(episode, ep_dir):
-    phase_banner("PHASE 2b: AUDIO GENERATION (ElevenLabs)")
+def _extract_full_narration_text(episode) -> str:
+    """Extract all NARRATOR lines into one continuous text for full-audio generation."""
+    from lib.elevenlabs import extract_continuous_narration
+    return extract_continuous_narration(episode.get("dialogue_script", ""))
 
-    from lib.elevenlabs import generate_narration, generate_music
+
+def run_audio_phase(episode, ep_dir):
+    phase_banner("PHASE 2b: AUDIO GENERATION (ElevenLabs — continuous narration)")
+
+    from lib.elevenlabs import generate_full_narration, generate_music
+    from lib.mixer import whisper_word_timestamps, chunk_narration_audio
 
     el_key = load_env_key("ELEVENLABS_API_KEY")
     voice_id = load_env_key("ELEVENLABS_VOICE_ID")
+    openai_key = load_env_key("OPENAI_API_KEY")
     if not el_key or not voice_id:
         print(f"  [{ts()}] ERROR: ELEVENLABS_API_KEY or ELEVENLABS_VOICE_ID not found")
         return False
 
+    audio_dir = ep_dir / "output" / "audio"
+    narr_dir = audio_dir / "narration"
+    narr_dir.mkdir(parents=True, exist_ok=True)
+
+    full_narration_path = audio_dir / "narration_full.mp3"
+    full_text = _extract_full_narration_text(episode)
+
+    if not full_text:
+        print(f"  [{ts()}] WARNING: No narration text found — falling back to per-clip generation")
+        return _run_audio_phase_legacy(episode, ep_dir)
+
+    word_count = len(full_text.split())
+    print(f"  [{ts()}] Full narration: {word_count} words")
+
+    generate_full_narration(el_key, voice_id, full_text, full_narration_path)
+
+    if not full_narration_path.exists():
+        print(f"  [{ts()}] ERROR: Full narration generation failed")
+        return False
+
+    clips = episode.get("clips", [])
+    clip_durations: list[tuple[str, float]] = [
+        (c["id"], float(c.get("duration", 8))) for c in clips
+    ]
+
+    if openai_key and full_narration_path.exists():
+        timestamps_path = audio_dir / "narration_timestamps.json"
+        if timestamps_path.exists():
+            import json as _json
+            word_timestamps = _json.loads(timestamps_path.read_text())
+            print(f"  [{ts()}] Loaded cached timestamps: {len(word_timestamps)} words")
+        else:
+            word_timestamps = whisper_word_timestamps(full_narration_path, openai_key)
+            if word_timestamps:
+                timestamps_path.write_text(
+                    json.dumps(word_timestamps, indent=2)
+                )
+                print(f"  [{ts()}] Cached timestamps to {timestamps_path.name}")
+
+        if word_timestamps:
+            chunk_narration_audio(
+                full_audio_path=full_narration_path,
+                word_timestamps=word_timestamps,
+                clip_durations=clip_durations,
+                output_dir=narr_dir,
+            )
+        else:
+            print(f"  [{ts()}] WARNING: Whisper returned no timestamps — "
+                  f"falling back to per-clip generation")
+            _run_audio_phase_legacy(episode, ep_dir)
+    else:
+        print(f"  [{ts()}] WARNING: No OPENAI_API_KEY — cannot chunk narration. "
+              f"Falling back to per-clip generation.")
+        _run_audio_phase_legacy(episode, ep_dir)
+
+    music_path = audio_dir / "music.mp3"
+    generate_music(el_key, MUSIC_PROMPT, music_path, duration_ms=55000)
+
+    print(f"  [{ts()}] Audio phase complete.")
+    return True
+
+
+def _run_audio_phase_legacy(episode, ep_dir):
+    """Legacy per-clip narration generation (fallback when Whisper is unavailable)."""
+    from lib.elevenlabs import generate_narration
+
+    el_key = load_env_key("ELEVENLABS_API_KEY")
+    voice_id = load_env_key("ELEVENLABS_VOICE_ID")
+
     narr_dir = ep_dir / "output" / "audio" / "narration"
-    music_dir = ep_dir / "output" / "audio"
     narr_dir.mkdir(parents=True, exist_ok=True)
 
     narr_lines = _parse_narration_lines(episode)
@@ -424,20 +504,104 @@ def run_audio_phase(episode, ep_dir):
         output_path = narr_dir / f"clip_{clip_id}.mp3"
         generate_narration(el_key, voice_id, text, output_path)
 
-    music_path = music_dir / "music.mp3"
-    generate_music(el_key, MUSIC_PROMPT, music_path, duration_ms=55000)
-
-    print(f"  [{ts()}] Audio phase complete.")
-    return True
-
 
 # ── Phase 3: Video generation (Veo 3.1) ──
 
 
-def run_videos_phase(episode, ep_dir):
-    phase_banner("PHASE 3: VIDEO GENERATION (Veo 3.1)")
+def run_videos_chain_phase(episode, ep_dir):
+    """Generate all clips as a single extension chain for visual continuity.
 
-    from lib.veo import get_client, load_reference_images, select_refs_for_prompt, generate_video, extract_first_frame
+    Veo extends each clip from the previous one's last frames, producing a
+    seamless continuous video that is then split into per-clip segments.
+    Falls back to independent mode on failure.
+    """
+    phase_banner("PHASE 3: VIDEO GENERATION — EXTENSION CHAIN (Veo 3.1)")
+
+    from lib.veo import (
+        get_client, generate_initial, extend_video, save_chain_video,
+    )
+    from lib.mixer import split_chain_video
+
+    gemini_key = load_env_key("GEMINI_API_KEY")
+    if not gemini_key:
+        print(f"  [{ts()}] ERROR: GEMINI_API_KEY not found.")
+        return False
+
+    client = get_client(gemini_key)
+
+    videos_dir = ep_dir / "output" / "videos"
+    videos_dir.mkdir(parents=True, exist_ok=True)
+
+    chain_path = videos_dir / "chain_full.mp4"
+    clips = episode.get("clips", [])
+    prompts = episode["video_prompts"]
+    episode_style = episode.get("style_description")
+
+    if episode_style:
+        print(f"  [{ts()}] Episode style: {episode_style[:80]}...")
+
+    all_exist = all(
+        (videos_dir / f"clip_{i + 1:02d}.mp4").exists() for i in range(len(prompts))
+    )
+    if all_exist:
+        print(f"  [{ts()}] All {len(prompts)} clip files already exist — skipping chain generation.")
+        return True
+
+    clip_durations: list[tuple[str, float]] = []
+    for i, clip_meta in enumerate(clips):
+        clip_id = clip_meta.get("id", f"{i + 1:02d}")
+        duration = clip_meta.get("duration", 8)
+        clip_durations.append((clip_id, float(duration)))
+
+    print(f"  [{ts()}] Starting extension chain: {len(prompts)} clips")
+
+    try:
+        first_prompt = prompts[0]
+        first_duration = int(clip_durations[0][1]) if clip_durations else 8
+        handle = generate_initial(
+            client=client,
+            prompt=first_prompt,
+            duration=first_duration,
+            resolution="720p",
+            episode_style=episode_style,
+        )
+        print(f"  [{ts()}] Chain clip 01 generated ({first_duration}s)")
+
+        for i in range(1, len(prompts)):
+            clip_id = f"{i + 1:02d}"
+            print(f"\n  --- Chain extension: clip {clip_id} ---")
+            handle = extend_video(
+                client=client,
+                handle=handle,
+                prompt=prompts[i],
+                resolution="720p",
+                episode_style=episode_style,
+            )
+            print(f"  [{ts()}] Chain clip {clip_id} extended "
+                  f"({handle.duration_seconds:.0f}s cumulative)")
+
+        save_chain_video(handle, chain_path)
+
+        split_paths = split_chain_video(chain_path, clip_durations, videos_dir)
+        print(f"  [{ts()}] Chain split into {len(split_paths)} clips.")
+
+    except Exception as e:
+        print(f"\n  [{ts()}] CHAIN FAILED: {e}")
+        print(f"  [{ts()}] Falling back to independent clip generation...")
+        return run_videos_independent_phase(episode, ep_dir)
+
+    print(f"  [{ts()}] Videos chain phase complete.")
+    return True
+
+
+def run_videos_independent_phase(episode, ep_dir):
+    """Generate each clip independently (fallback when chain mode fails)."""
+    phase_banner("PHASE 3: VIDEO GENERATION — INDEPENDENT (Veo 3.1)")
+
+    from lib.veo import (
+        get_client, load_reference_images, select_refs_for_prompt,
+        generate_video, extract_style_anchor_frames,
+    )
 
     gemini_key = load_env_key("GEMINI_API_KEY")
     if not gemini_key:
@@ -464,10 +628,10 @@ def run_videos_phase(episode, ep_dir):
         if output_path.exists():
             print(f"  [{ts()}] Skipping (exists): {output_path.name}")
             if i == 0 and style_anchor_refs is None:
-                anchor_frame = extract_first_frame(output_path)
-                if anchor_frame and anchor_frame.exists():
-                    style_anchor_refs = [anchor_frame.read_bytes()]
-                    print(f"  [{ts()}] Using existing clip 01 first frame as style anchor")
+                anchor_frames = extract_style_anchor_frames(output_path)
+                if anchor_frames:
+                    style_anchor_refs = [f.read_bytes() for f in anchor_frames]
+                    print(f"  [{ts()}] Using existing clip 01 as style anchor ({len(anchor_frames)} frames)")
             continue
 
         clip_meta = clips[i] if i < len(clips) else {}
@@ -503,13 +667,92 @@ def run_videos_phase(episode, ep_dir):
                 print(f"  [{ts()}] Safety retry {attempt + 1}/{max_safety_retries}...")
 
         if i == 0 and output_path.exists() and style_anchor_refs is None:
-            anchor_frame = extract_first_frame(output_path)
-            if anchor_frame and anchor_frame.exists():
-                style_anchor_refs = [anchor_frame.read_bytes()]
-                print(f"  [{ts()}] Clip 01 first frame set as style anchor for remaining clips")
+            anchor_frames = extract_style_anchor_frames(output_path)
+            if anchor_frames:
+                style_anchor_refs = [f.read_bytes() for f in anchor_frames]
+                print(f"  [{ts()}] Clip 01 set as style anchor ({len(anchor_frames)} frames)")
 
-    print(f"  [{ts()}] Videos phase complete.")
+    print(f"  [{ts()}] Videos independent phase complete.")
     return True
+
+
+# ── Phase 3c: Visual consistency QA ──
+
+
+def run_qa_phase(episode, ep_dir, regen: bool = False):
+    """Check visual consistency across generated clips using Gemini vision."""
+    phase_banner("PHASE 3c: VISUAL CONSISTENCY QA (Gemini Vision)")
+
+    from lib.visual_qa import check_clip_consistency
+
+    gemini_key = load_env_key("GEMINI_API_KEY")
+    if not gemini_key:
+        print(f"  [{ts()}] WARNING: GEMINI_API_KEY not found — skipping QA")
+        return True
+
+    videos_dir = ep_dir / "output" / "videos"
+    clips = episode.get("clips", [])
+
+    clip_paths: list[Path] = []
+    for clip_meta in clips:
+        clip_id = clip_meta["id"]
+        path = videos_dir / f"clip_{clip_id}.mp4"
+        if path.exists():
+            clip_paths.append(path)
+
+    if len(clip_paths) < 2:
+        print(f"  [{ts()}] QA: Not enough clips to compare ({len(clip_paths)}) — skipping.")
+        return True
+
+    results = check_clip_consistency(clip_paths, gemini_key)
+
+    failed_clips = [r for r in results if not r.passed]
+    if not failed_clips:
+        print(f"  [{ts()}] QA: All clips passed visual consistency check.")
+        return True
+
+    if regen:
+        print(f"\n  [{ts()}] QA: {len(failed_clips)} clips flagged — attempting re-generation...")
+        from lib.veo import get_client, load_reference_images, select_refs_for_prompt, generate_video
+
+        client = get_client(gemini_key)
+        all_refs = load_reference_images(CHANNEL_DIR)
+        images_dir = ep_dir / "output" / "images"
+        episode_style = episode.get("style_description")
+        prompts = episode["video_prompts"]
+
+        for qa_result in failed_clips:
+            clip_idx = int(qa_result.clip_id) - 1
+            if clip_idx < 0 or clip_idx >= len(prompts):
+                continue
+
+            clip_id = qa_result.clip_id
+            clip_meta = clips[clip_idx] if clip_idx < len(clips) else {}
+            output_path = videos_dir / f"clip_{clip_id}.mp4"
+            duration = clip_meta.get("duration", 8)
+            resolution = clip_meta.get("resolution", "1080p")
+            first_frame = images_dir / f"clip_{clip_id}_frame.png"
+            ref_images = select_refs_for_prompt(all_refs, prompts[clip_idx])
+
+            output_path.unlink(missing_ok=True)
+            print(f"  [{ts()}] QA regen: clip {clip_id} "
+                  f"(issues: {'; '.join(qa_result.issues)})")
+
+            generate_video(
+                client=client,
+                prompt=prompts[clip_idx],
+                output_path=output_path,
+                duration=duration,
+                resolution=resolution,
+                ref_images=ref_images,
+                first_frame_path=first_frame if first_frame.exists() else None,
+                episode_style=episode_style,
+            )
+    else:
+        print(f"\n  [{ts()}] QA: {len(failed_clips)} clips flagged "
+              f"(run with --qa-regen to auto-fix)")
+
+    return len(failed_clips) == 0
 
 
 # ── Phase 4: Per-clip audio mixing + Stitch + LUFS normalize ──
@@ -556,10 +799,10 @@ def run_mix_phase(episode, ep_dir):
     return True
 
 
-def run_post_phase(episode, ep_dir):
+def run_post_phase(episode, ep_dir, use_transitions: bool = True):
     phase_banner("PHASE 4: STITCH + LUFS NORMALIZE (ffmpeg)")
 
-    from lib.mixer import stitch_clips
+    from lib.mixer import stitch_clips, stitch_clips_with_transitions, burn_location_title
 
     slug = episode["episode_slug"]
     clips = episode.get("clips", [])
@@ -584,7 +827,21 @@ def run_post_phase(episode, ep_dir):
             print(f"  WARNING: Missing clip_{clip_id}.mp4, skipping")
 
     final_path = final_dir / f"final_{slug}.mp4"
-    stitch_clips(clip_paths, final_path)
+    if use_transitions:
+        stitch_clips_with_transitions(clip_paths, final_path)
+    else:
+        stitch_clips(clip_paths, final_path)
+
+    location = episode.get("location")
+    year = episode.get("year")
+    if location and year and final_path.exists():
+        titled_path = final_dir / f"final_{slug}_titled.mp4"
+        if burn_location_title(final_path, titled_path, location, year):
+            final_path.unlink(missing_ok=True)
+            titled_path.rename(final_path)
+            print(f"  [{ts()}] Location title applied: \"{location}, {year}\"")
+    elif not (location and year):
+        print(f"  [{ts()}] WARNING: No location/year in episode JSON — skipping title overlay")
 
     return final_path
 
@@ -714,55 +971,31 @@ def publish_to_metricool_with_upload(episode, final_path, asset_url=None):
 
 
 def validate_word_counts(episode):
-    """Check that narration word counts fit within clip durations.
+    """Check that narration word counts are within the 150-180 word target.
 
-    ElevenLabs TTS with the Dan voice delivers speech at ~2.3 words/sec
-    (measured from actual output). If narration exceeds the clip duration
-    budget, audio will be trimmed during mixing.
+    The narration is now continuous prose generated as one audio file and
+    chunked per-clip in post-production. Per-clip word limits are soft
+    targets — the total word count is what matters.
     """
-    import re
-
     WORDS_PER_SEC = 2.3
-    WORD_CEILING = 75
-    NARRATION_DELAY = 0.5
-    NARRATION_BUFFER = 0.3
-    clips = episode.get("clips", [])
-    script = episode.get("dialogue_script", "")
+    WORD_MIN = 150
+    WORD_MAX = 180
 
-    clip_lines: dict[str, str] = {}
-    current_clip = None
-    for line in script.splitlines():
-        clip_match = re.match(r"##\s*Clip\s+(\d+)", line)
-        if clip_match:
-            current_clip = clip_match.group(1).zfill(2)
-            clip_lines[current_clip] = ""
-            continue
-        narr_match = re.match(r"NARRATOR:\s*[\"']?(.+?)[\"']?\s*$", line)
-        if narr_match and current_clip:
-            clip_lines[current_clip] = narr_match.group(1)
+    full_text = _extract_full_narration_text(episode)
+    total_words = len(full_text.split()) if full_text else 0
 
-    total_words = 0
-    any_over = False
-    for clip_meta in clips:
-        clip_id = clip_meta["id"]
-        duration = clip_meta.get("duration", 8)
-        max_words = int((duration - NARRATION_DELAY - NARRATION_BUFFER) * WORDS_PER_SEC)
-        narration = clip_lines.get(clip_id, "")
-        word_count = len(narration.split()) if narration else 0
-        total_words += word_count
-        status = "OK" if word_count <= max_words else "OVER"
-        if status == "OVER":
-            any_over = True
-        print(f"  Clip {clip_id} ({duration}s): {word_count}/{max_words} words [{status}]")
-
-    print(f"  Total narration: {total_words} words")
     narration_seconds = total_words / WORDS_PER_SEC
+    print(f"  Total narration: {total_words} words")
     print(f"  Estimated narration duration: {narration_seconds:.1f}s (at {WORDS_PER_SEC} wps)")
-    if total_words > WORD_CEILING:
-        print(f"  [{ts()}] WARNING: Total {total_words} words exceeds {WORD_CEILING}-word ceiling "
-              f"(~{narration_seconds:.0f}s) — narration may be trimmed during mixing")
-    if any_over:
-        print(f"  [{ts()}] WARNING: Some clips exceed per-clip word budget — audio may be trimmed")
+
+    if total_words < WORD_MIN:
+        print(f"  [{ts()}] WARNING: Total {total_words} words is below {WORD_MIN}-word minimum "
+              f"— script may be too shallow")
+    elif total_words > WORD_MAX:
+        print(f"  [{ts()}] WARNING: Total {total_words} words exceeds {WORD_MAX}-word target "
+              f"(~{narration_seconds:.0f}s) — consider trimming")
+    else:
+        print(f"  [{ts()}] Word count OK: {total_words} words (target {WORD_MIN}-{WORD_MAX})")
 
 
 # ── Main ──
@@ -777,6 +1010,8 @@ def main():
     parser.add_argument("--skip-post", action="store_true", help="Skip stitch phase")
     parser.add_argument("--skip-audio", action="store_true", help="Skip ElevenLabs audio generation phase")
     parser.add_argument("--skip-mix", action="store_true", help="Skip per-clip audio mixing phase")
+    parser.add_argument("--no-chain", action="store_true", help="Use independent clip generation instead of extension chain")
+    parser.add_argument("--qa-regen", action="store_true", help="Re-generate clips that fail visual consistency QA")
     args = parser.parse_args()
 
     topic = " ".join(args.topic) if args.topic else None
@@ -784,6 +1019,7 @@ def main():
     print(f"\n{'=' * 60}")
     print(f"  You Wouldn't Wanna Be — Automated Pipeline")
     print(f"  Mode: {'Autonomous' if not topic else 'Manual'}")
+    print(f"  Video: {'Independent clips' if args.no_chain else 'Extension chain (default)'}")
     print(f"  Publish: {'YES' if args.publish else 'no (local only)'}")
     print(f"{'=' * 60}")
 
@@ -806,7 +1042,13 @@ def main():
         run_audio_phase(episode, ep_dir)
 
     if not args.skip_videos:
-        run_videos_phase(episode, ep_dir)
+        if args.no_chain:
+            run_videos_independent_phase(episode, ep_dir)
+        else:
+            run_videos_chain_phase(episode, ep_dir)
+
+    if not args.skip_videos:
+        run_qa_phase(episode, ep_dir, regen=args.qa_regen)
 
     if not args.skip_mix:
         run_mix_phase(episode, ep_dir)

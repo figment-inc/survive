@@ -2,53 +2,56 @@
 
 **Voice**: ElevenLabs TTS — Dan (British Documentary Narrator, voice ID BHr135B5EUBtaWheVj8S)
 **Style**: Calm, measured, authoritative British naturalist. National Geographic documentary narration — warm curiosity and genuine reverence for the forces at work.
-**Pacing**: ~2.3 words/second (measured), ~60-72 words total across 8 clips. HARD CEILING — narration must finish under 30 seconds.
+**Pacing**: ~2.3 words/second (measured), ~150-180 words total as continuous prose across 8 clips.
 **Address**: Direct "you" — pulling the viewer into the skeleton's situation
 **Character**: The on-screen figure NEVER speaks, NEVER moves their mouth. Silent physical reactions only.
-**Audio pipeline**: This script is produced as separate ElevenLabs audio, NOT embedded in Veo prompts.
+**Audio pipeline**: This script is generated as ONE continuous ElevenLabs audio file, then chunked per-clip using Whisper word-level timestamps in post-production.
 
 ---
 
 ## Clip 01 (0:00–0:04) — The Hook
-NARRATOR: {{6 words MAX — devastating fact that creates immediate dread. NEVER a question. Drop the viewer into danger on word one.}}
+NARRATOR: {{~8-12 words — devastating fact that creates immediate dread. NEVER a question. Drop the viewer into danger on word one.}}
 
 ## Clip 02 (0:04–0:12) — Immersion
-NARRATOR: {{12 words MAX — NAME the disaster and YEAR in the first sentence so viewers know what they're watching, then one scientific detail.}}
+NARRATOR: {{~18-25 words — NAME the disaster and YEAR in the first sentence. Build the world with sensory detail — what you see, smell, hear, feel. Sentence may continue into clip 03.}}
 
 ## Clip 03 (0:12–0:16) — Immersion
-NARRATOR: {{6 words MAX — second immersion detail. Tighten the trap. Specific fact.}}
+NARRATOR: {{~8-15 words — tighten the trap. May continue a sentence from clip 02 using em dash (—). Specific scientific or historical detail.}}
 
 ## Clip 04 (0:16–0:24) — Attempt
-NARRATOR: {{12 words MAX — first attempt and failure. Teaches a real fact. Agency verb.}}
+NARRATOR: {{~18-25 words — first attempt and failure. Teaches a real fact. Agency verb. Sentence may continue into clip 05.}}
 
 ## Clip 05 (0:24–0:28) — Attempt
-NARRATOR: {{6 words MAX — escalation. No escape. Stakes rise from previous clip.}}
+NARRATOR: {{~8-15 words — escalation. No escape. May continue from clip 04. Stakes rise from previous clip.}}
 
 ## Clip 06 (0:28–0:32) — Catastrophe
-NARRATOR: {{6 words MAX — the event hits. Devastating fact. Clinical precision.}}
+NARRATOR: {{~8-15 words — the event hits. Devastating fact. Clinical precision. Staccato rhythm.}}
 
 ## Clip 07 (0:32–0:40) — Catastrophe
-NARRATOR: {{12 words MAX — peak chaos. Specific numbers: temperatures, wind speeds, pressures, death tolls.}}
+NARRATOR: {{~18-25 words — peak chaos. Specific numbers: temperatures, wind speeds, pressures, death tolls.}}
 
 ## Clip 08 (0:40–0:48) — Cliffhanger
-NARRATOR: {{12 words MAX — open-loop ending that echoes the hook. Unresolved fact that drives comments.}}
+NARRATOR: {{~18-25 words — open-loop ending that echoes the hook. Unresolved fact that drives comments.}}
 
 ---
 
 ## Writing Guidelines
 
+- **Continuous prose.** Write ONE flowing narrative, not 8 isolated scripts. The narration is generated as a single audio file. Sentences SHOULD cross clip boundaries — use em dashes (—) to indicate mid-sentence continuity across clips.
 - **Nature documentary tone.** Calm, measured, authoritative. British naturalist guiding you through the extraordinary, not dark comedy.
 - **Voice on frame 1.** Clip 01 starts with a devastating statement — ZERO seconds of silence. NEVER a question.
 - **Present tense ONLY.** "You wake up" not "You've arrived."
-- **Short punchy sentences.** Average 5-8 words. Staccato rhythm for catastrophe beats, slightly more flowing for immersion.
-- **Educational depth.** Every clip includes at least one specific, verifiable fact.
+- **Rhythm varies by beat.** Immersion: longer, flowing sentences. Catastrophe: staccato punches, 3-8 words.
+- **Educational depth.** Every beat includes at least one specific, verifiable fact.
 - **Second person throughout**: "you", "your" — the viewer IS the skeleton.
 - **Agency verbs**: "You run", "You grab", "You shout" — not passive observation.
 - **Tension ratchet**: every clip raises the stakes from the previous one. No plateaus.
+- **Sensory continuity**: if clip 03 establishes smoke, clip 04 still has smoke. The environment accumulates.
+- **Narrative thread**: every sentence connects to the previous one — causality, not just sequence.
 - **Sensory specificity**: visceral, concrete details. Not "the fire is hot" but "eighteen hundred degrees."
 - **One moment of genuine scientific awe per episode**: a fact that creates wonder.
 - **Callback ending**: the cliffhanger echoes or inverts the hook.
 - **Open-loop ending**: unresolved fact that drives comments and shares.
 - **Historical accuracy**: real dates, real numbers, real consequences. Every fact checkable.
-- **Total word count**: 60-72 words across all 8 clips. HARD CEILING. Count every word. Under 30 seconds of spoken audio at ~2.3 wps.
-- This script is produced as separate ElevenLabs audio. It does NOT appear in Veo video prompts.
+- **Total word count**: 150-180 words across all 8 clips as continuous prose. Per-clip counts are soft targets.
+- This script is produced as ONE continuous ElevenLabs audio file, then chunked per-clip in post-production.

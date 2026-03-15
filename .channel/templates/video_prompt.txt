@@ -16,7 +16,7 @@ Camera: Static {{SHOT TYPE — medium shot / close-up / low-angle / high-angle /
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Flat even lighting. {{PALETTE — name the specific color palette for this setting. Atmosphere can shift (smoke, haze, fire glow) but character rendering stays flat.}}
+Flat even lighting. {{PALETTE — list 3-5 FLAT COLOR NAMES that fill this scene (e.g., "dusty ochre, burnt sienna, charcoal grey, sulfurous yellow"). Describe colors ONLY — never describe lighting physics (no "rim light", "volumetric", "depth of field", "film grain", "bokeh", "cinematic lighting"). Atmosphere (smoke, haze, fire glow) is described as flat color overlays, not as light behavior. Character rendering stays flat regardless of environment.}}
 
 {{DEPTH LAYERS:
   Foreground: [props and environmental details closest to camera]

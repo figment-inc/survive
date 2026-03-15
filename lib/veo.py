@@ -7,6 +7,7 @@ Supports two modes:
 
 from __future__ import annotations
 
+import re
 import subprocess
 import time
 from dataclasses import dataclass, field
@@ -47,12 +48,65 @@ NO_TEXT_SUFFIX = (
     "No speech, narration, or voiceover in the audio."
 )
 
+PHOTOREALISTIC_BANNED_TERMS: list[tuple[str, str]] = [
+    (r"\bfilm grain\b", "flat cel texture"),
+    (r"\bnatural film grain\b", "flat cel texture"),
+    (r"\bshallow depth of field\b", "flat 2D composition"),
+    (r"\bdeep depth of field\b", "flat 2D composition"),
+    (r"\bdepth[- ]of[- ]field\b", "flat 2D composition"),
+    (r"\bbokeh\b", "flat background"),
+    (r"\blens flare\b", ""),
+    (r"\bgod rays?\b", ""),
+    (r"\bvolumetric (?:light|fog|haze|atmosphere)\b", "flat atmospheric haze"),
+    (r"\bvolumetric\b", "atmospheric"),
+    (r"\brim light(?:ing)?\b", "flat even lighting"),
+    (r"\brim[- ]lit\b", "evenly lit"),
+    (r"\bsubsurface scattering\b", "flat translucent skin"),
+    (r"\bcaustics?\b", ""),
+    (r"\bphotorealistic\b", "flat 2D animation"),
+    (r"\bhyper[- ]?realistic\b", "flat 2D animation"),
+    (r"\brealistic rendering\b", "flat 2D animation rendering"),
+    (r"\bcinematic lighting\b", "flat even lighting"),
+    (r"\bcinematic\b", "dramatic"),
+    (r"\banamorphic\b", ""),
+    (r"\b35mm\b", ""),
+    (r"\bDSLR\b", ""),
+    (r"\braw photo\b", ""),
+    (r"\bmotion blur\b", ""),
+    (r"\bchromatic aberration\b", ""),
+    (r"\bvignette\b", ""),
+    (r"\bray tracing\b", ""),
+    (r"\bglobal illumination\b", "flat even lighting"),
+    (r"\bspecular highlight\b", ""),
+    (r"\bfresnel\b", ""),
+    (r"\bPBR\b", ""),
+    (r"\bdeep focus\b", "flat composition"),
+    (r"\brack focus\b", "static composition"),
+]
+
+
+def _sanitize_prompt(prompt: str) -> str:
+    """Strip photorealistic vocabulary that fights the flat 2D animation style."""
+    sanitized = prompt
+    for pattern, replacement in PHOTOREALISTIC_BANNED_TERMS:
+        sanitized = re.sub(pattern, replacement, sanitized, flags=re.IGNORECASE)
+    sanitized = re.sub(r"  +", " ", sanitized)
+    return sanitized
+
 
 def _wrap_prompt(prompt: str, episode_style: str | None = None) -> str:
-    """Prepend style enforcement + no-text + no-speech instructions and append reminders."""
+    """Prepend style enforcement + no-text + no-speech instructions and append reminders.
+
+    Also sanitizes photorealistic vocabulary from the prompt body.
+    """
+    prompt = _sanitize_prompt(prompt)
     parts = [NO_TEXT_PREFIX, NO_SPEECH_PREFIX, STYLE_ENFORCEMENT]
     if episode_style:
-        parts.append(f"EPISODE VISUAL IDENTITY: {episode_style}\n\n")
+        parts.append(
+            f"EPISODE VISUAL IDENTITY (apply to every frame): {episode_style}\n"
+            f"All colors, lighting, and atmosphere must derive from this identity. "
+            f"Flat cel-shaded rendering only.\n\n"
+        )
     parts.append(prompt)
     parts.append(NO_TEXT_SUFFIX)
     return "".join(parts)
@@ -95,6 +149,47 @@ def extract_first_frame(video_path: Path) -> Path:
         return None
     print(f"  [{_ts()}] Style anchor frame extracted: {out.name} ({out.stat().st_size / 1024:.0f} KB)")
     return out
+
+
+def extract_style_anchor_frames(video_path: Path) -> list[Path]:
+    """Extract first, middle, and last frames from a video for style anchoring.
+
+    Returns up to 3 frame PNGs that collectively capture the visual identity
+    of the clip across its full duration.
+    """
+    from lib.mixer import probe_audio_duration
+
+    duration = probe_audio_duration(video_path)
+    if duration <= 0:
+        first = extract_first_frame(video_path)
+        return [first] if first else []
+
+    timestamps = [0.0, duration / 2.0, max(0, duration - 0.1)]
+    labels = ["first", "mid", "last"]
+    frames: list[Path] = []
+
+    for t, label in zip(timestamps, labels):
+        out = video_path.with_suffix(f".anchor_{label}.png")
+        if out.exists():
+            frames.append(out)
+            continue
+        result = subprocess.run(
+            [
+                "ffmpeg", "-y", "-ss", f"{t:.3f}",
+                "-i", str(video_path),
+                "-vframes", "1", "-q:v", "1", str(out),
+            ],
+            capture_output=True,
+        )
+        if result.returncode == 0 and out.exists():
+            frames.append(out)
+        else:
+            print(f"  [{_ts()}] WARNING: Failed to extract {label} frame from {video_path.name}")
+
+    if frames:
+        print(f"  [{_ts()}] Style anchor frames extracted: {len(frames)}/3 "
+              f"({', '.join(f.name for f in frames)})")
+    return frames
 
 
 def get_client(api_key: str) -> genai.Client:
@@ -230,7 +325,8 @@ def generate_video(
 
     Native audio (ambient/SFX) is kept — not muted or stripped.
     Falls back through: ASSET refs -> first-frame -> text-only.
-    style_anchor_refs are appended to character refs for cross-clip consistency.
+    style_anchor_refs are placed FIRST (highest priority) to enforce
+    cross-clip visual consistency.
     """
     output_path.parent.mkdir(parents=True, exist_ok=True)
     prompt = _wrap_prompt(prompt, episode_style=episode_style)
@@ -240,9 +336,10 @@ def generate_video(
         "resolution": resolution,
     }
 
-    combined_refs = list(ref_images or [])
+    combined_refs: list[bytes] = []
     if style_anchor_refs:
         combined_refs.extend(style_anchor_refs)
+    combined_refs.extend(ref_images or [])
 
     if use_reference and combined_refs:
         ref_entries = [
