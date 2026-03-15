@@ -63,22 +63,21 @@ def generate_narration(
 def generate_full_narration(
     api_key: str,
     voice_id: str,
-    full_script: str,
+    narration_text: str,
     output_path: Path,
     force: bool = False,
 ) -> bool:
-    """Generate ONE continuous narration audio file from the full episode script.
+    """Generate ONE continuous narration audio file from pre-extracted narration text.
 
-    Strips clip markers and NARRATOR: prefixes, concatenates all narration text
-    into a single block, and sends it as one TTS request for natural prosody.
+    Expects plain narration text (already extracted via extract_continuous_narration).
+    Sends it as one TTS request for natural prosody across the entire episode.
     """
     if output_path.exists() and not force:
         print(f"  [{_ts()}] Skipping (exists): {output_path.name}")
         return True
 
-    narration_text = extract_continuous_narration(full_script)
-    if not narration_text:
-        print(f"  [{_ts()}] ERROR: No narration text extracted from script")
+    if not narration_text.strip():
+        print(f"  [{_ts()}] ERROR: Empty narration text provided")
         return False
 
     word_count = len(narration_text.split())
