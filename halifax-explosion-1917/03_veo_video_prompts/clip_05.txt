@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot. Locked camera, flat composition, no movement. The figure stands in the middle of the street, surrounded by civilians moving in both directions. Classic adult animated comedy medium shot staging.
+
+Visual transition: Same street location, tighter framing — the figure has stopped running and is now trapped in the crowd.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Seconds 1-2: the figure stands frozen in the street, skull slowly turning toward the harbour — the fire glow is now overwhelmingly bright, casting the figure's translucent body in vivid orange. The figure's posture stiffens — shoulders rising, arms pulling tight to the body. Seconds 3-4: the figure's pale orb eyes go very wide. The translucent hands come up to the sides of the skull in a classic cartoon horror reaction — it sees something terrible. The figure begins to crouch instinctively, bending at the knees.
+
+Flat lighting with strong orange-yellow glow from the harbour direction now dominating. Palette: the muted browns and greys of the street now washed in intensifying warm orange. The fire glow is the dominant light source.
+
+Foreground: A broken wooden crate spilling apples. A dropped newspaper. Slush on cobblestones.
+
+Midground: The figure in the street. Civilians frozen around it, some now also turning to look with alarm.
+
+Background: The harbour between buildings — the fire has reached a blinding white-orange intensity. The smoke column massive.
+
+Audio direction:
+- SFX: A deep subsonic rumble building rapidly — felt more than heard — the vibration of the ground itself, windows rattling in their frames, glass panes buzzing, a horse screaming, a metallic groan from the harbour
+- Ambience: The crowd noise shifting from curiosity to the first edge of alarm — voices rising in pitch, someone screaming, the fire roar now deafening, the air itself seems to vibrate, a high-pitched whine building
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

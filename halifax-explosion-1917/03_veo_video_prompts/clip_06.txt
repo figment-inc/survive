@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static extreme wide shot, high angle. Locked camera, flat composition, no movement. Looking down across the harbour and the Richmond district. The figure is a tiny silhouette on the street below. Classic adult animated comedy wide tableau staging.
+
+Visual transition: Cut to extreme wide — the scale of the explosion dwarfs everything.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure is tiny in frame. Second 1: a blinding flash of searing cadmium orange and bone white erupts from the harbour — the entire frame washes white for a fraction of a second. Second 2: the explosion dome expands — a massive hemisphere of fire and white energy visible from the harbour, buildings in its path disintegrating. The figure's tiny silhouette throws its arms up. Seconds 3-4: the visible shockwave ring races outward from the blast center across the harbour surface and up the hillside — a wall of compressed air and debris. The wooden buildings of Richmond flatten in sequence, rooftops lifting and walls blowing out in a cascading wave moving up the hill toward the figure. The figure is struck by the wave and vanishes in the debris cloud.
+
+Palette ERUPTS: searing cadmium orange, bone white, blinding yellow at the blast center. The muted greys and browns of the city are obliterated by the expanding fireball. Then transitions to dust brown, debris grey, and ash as the shockwave passes.
+
+Foreground: Rooftops of Richmond houses in the process of disintegrating — shingles flying, walls collapsing outward, chimneys toppling.
+
+Midground: The expanding blast dome over the harbour. The shockwave racing up the hillside.
+
+Background: The mushroom cloud beginning to form — the fireball rising, pulling debris and water upward. Dartmouth's waterfront across the harbour being struck simultaneously.
+
+Audio direction:
+- SFX: A single catastrophic detonation — a low-frequency BOOM that distorts and overwhelms all other sound, then the roar of the shockwave — a wall of compressed sound like a freight train mixed with thunder, the cracking and splintering of thousands of wooden structures collapsing simultaneously, glass shattering in a continuous cascade, the rush of displaced air
+- Ambience: After the initial blast, a roaring hurricane of debris and pressure wave — continuous, overwhelming, no individual sounds distinguishable — just the raw force of 2,900 tons of explosive ordnance detonating at once
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

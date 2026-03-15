@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium-wide shot. Locked camera, flat composition, no movement. Looking down a narrow residential street in the Richmond district, the figure running uphill toward camera. Classic adult animated comedy chase staging.
+
+Visual transition: NEW location — cut from the harbour wharf to a residential street in the Richmond district. The figure is now running inland, away from the harbour.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-3: the figure runs up the cobblestone street with exaggerated panicked arm-flailing, legs pumping, skull turned back over one shoulder to look at the harbour below. The gait is frantic but the figure makes visible progress uphill. Seconds 4-5: the figure slows, confused — civilians are streaming PAST it in the OPPOSITE direction, running TOWARD the harbour to watch the fire. The figure does a cartoon double-take, stopping mid-stride. Seconds 6-8: the figure tries to gesture a warning — arms waving frantically, pointing back toward the harbour — but the passing civilians ignore it completely, rushing past. The figure stands in the middle of the street, arms dropping to its sides in helpless frustration, as the crowd flows around it toward the waterfront.
+
+Flat overcast lighting. Palette: muted browns, weathered white and grey clapboard, pale grey sky, thin snow on cobblestones, the orange-yellow glow from the harbour visible between buildings at the end of the street below.
+
+Foreground: A wooden fence picket at frame edge. A child's wooden sled. Thin snow and slush on the cobblestones. A dropped newspaper.
+
+Midground: The figure in the street among civilians. Two-story wooden clapboard houses on either side — brown, white, pale grey — with people leaning from windows, some exiting front doors, most moving TOWARD the harbour to watch.
+
+Background: The harbour visible between rooftops at the bottom of the hill — the fire now a massive blinding orange-yellow blaze. The smoke column towering into the sky, spreading at altitude. The pale grey overcast sky.
+
+Audio direction:
+- SFX: The figure's feet slapping on cobblestones, boots of running civilians on stone, a wooden door slamming open, a child's voice calling out excitedly (indistinct — NOT dialogue), a horse whinnying and stamping, a glass bottle breaking as it falls from a milk cart, the distant roar of the harbour fire growing louder
+- Ambience: A residential neighbourhood in motion — boots on stone, voices overlapping with excitement and curiosity (NOT panic — they don't know yet), a dog barking, a baby crying from an upper window, the ever-present low roar of the fire carrying uphill on the wind, cold wind gusting between buildings
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
