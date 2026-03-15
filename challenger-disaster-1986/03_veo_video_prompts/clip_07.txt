@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The interior of the detached crew cabin fills the frame — instrument panels, flight seats, emergency lighting. The horizon tilts through the forward windows as the cabin rotates. Classic adult animated comedy interior staging — trapped in a falling room.
+
+Visual transition: Same setting — freefall — but cut to INSIDE the intact crew cabin. The figure is now strapped into a mid-deck crew seat.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure is strapped into a crew seat, lap belt tight across the translucent pelvis. For seconds 1-2, the figure sits rigid, hands gripping the armrests, skull pressed back against the headrest, staring straight ahead at the instrument panel. Loose objects float past in zero-G — a checklist binder, a pen, a personal item drifting weightlessly through the cabin. At second 3, the figure's skull slowly turns to look at the forward windows — the horizon outside is rotating, blue sky and blue ocean swapping positions in a slow, sickening tumble. For seconds 4-5, the figure's translucent right hand releases the armrest and reaches slowly toward a floating PEAP emergency breathing pack drifting past — the figure's fingers extending, trying to grasp it. At second 6, the hand catches the PEAP pack and pulls it close. For seconds 7-8, the figure holds the breathing pack against its ribcage and stares out the rotating window. The pale orb eyes are wide, unblinking. The figure does not look away from the approaching ocean. Total stillness in the final second — waiting.
+
+Flat amber emergency interior lighting. Instrument grey panels, beige surfaces, red toggle switch guards, amber warning lights. Harsh cerulean daylight cycling through the windows as the cabin rotates. The alternation of dark interior and bright window-light creates a rhythmic pulse as sky and ocean swap.
+
+Foreground: Floating debris — the checklist binder rotating slowly, a pen drifting across the frame, a small personal photograph floating past. An activated PEAP breathing unit with its handle in the 'on' position floating nearby. Dangling cables from overhead panels.
+
+Midground: The figure strapped in the crew seat. Instrument panels on either side — dark except for emergency battery-powered indicator lights. Toggle switches, circuit breakers, warning placards.
+
+Background: The forward windows showing the rotating view — cerulean sky, flat blue-grey ocean, the Florida coast, the sky again — cycling in a slow tumble. Debris glinting outside in the sunlight. The dissipating contrail visible when the windows face upward.
+
+Audio direction:
+- SFX: The slow metallic groan of the cabin structure under aerodynamic stress — aluminum flexing, rivets creaking. Objects bumping against walls as they float — soft thumps and clicks. The faint hiss of an activated PEAP breathing unit. The cabin rotation creating periodic shifts in wind noise — louder when windows face into the slipstream, quieter when they face away. A loose toggle switch clicking back and forth with the rotation.
+- Ambience: The muffled roar of wind outside the cabin walls — constant but dampened by the aluminum structure. The absence of all normal shuttle sounds — no engines, no hydraulics, no communication chatter, no ventilation fans. Just wind against metal and the settling sounds of a structure falling. The eerie quiet of a spacecraft that is no longer a spacecraft — just a room falling from the sky.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

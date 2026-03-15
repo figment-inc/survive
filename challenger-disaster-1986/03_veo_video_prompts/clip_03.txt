@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static extreme close-up, eye level. Locked camera, flat composition, no movement. The curved white surface of the solid rocket booster fills the frame, with the dark field joint seam running horizontally through the center. Classic adult animated comedy close-up detail staging — the audience sees the failure mechanism.
+
+Visual transition: Same setting as launch, tighter framing — cut to an extreme close-up of the right solid rocket booster's aft field joint during ascent. The figure crouches beside it.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure crouches at the left edge of frame, one translucent hand pressed flat against the booster casing near the field joint. For the first two seconds, the figure stares intently at the dark seam of the joint — leaning in, examining it. At second 2, a thin wisp of dark grey combustion gas begins jetting from the joint — the O-ring failure. The figure recoils — a sharp cartoon flinch backward, both hands pulling away from the surface, skull snapping back. By second 4, the jet of gas has thickened, and the figure is pressed back against the opposite edge of the frame, staring at the breach.
+
+Flat harsh light on white booster casing. Titanium white curved surface, charcoal black joint seam, dark grey escaping combustion gas, yellowish-green zinc chromate putty visible at the joint. Cerulean sky beyond.
+
+Foreground: Ice crystals on the white booster surface, closest to camera. A mounting bracket with frozen condensation.
+
+Midground: The field joint seam — the dark horizontal line between booster segments. The black rubber O-ring barely visible. The thin jet of dark grey gas escaping, growing thicker over the clip duration. The figure recoiling.
+
+Background: The curved booster surface stretching away. The external tank's orange insulation visible beyond. Blue sky.
+
+Audio direction:
+- SFX: A sharp pressurized hiss — the sound of 5,000-degree combustion gas forcing through a gap in cold rubber, starting thin and high-pitched then deepening as the breach widens. The creak of metal expanding under thermal stress. A crystalline crackling as ice dislodges from the vibrating booster surface.
+- Ambience: The overwhelming sustained roar of the solid rocket booster in operation — a deep, chest-vibrating wall of sound. Wind shear at altitude. The metallic rattle of structural components under extreme vibration.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

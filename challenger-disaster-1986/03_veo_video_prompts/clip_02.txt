@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The viewing bleachers fill the lower half of frame, the distant launch pad and shuttle visible in the upper background. Classic adult animated comedy wide tableau staging — the crowd as ensemble.
+
+Visual transition: NEW location — cut from the launch pad gantry to the public viewing area three miles away. The figure is now among spectators.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands among cheering spectators on bleachers. For the first two seconds, the figure looks around at the jubilant crowd — a slow head turn left to right, taking in the celebration. At second 3, the figure's skull snaps forward toward the distant launch — reacting to the shuttle lifting off. For seconds 3-6, the figure watches the ascent, head tilting gradually upward as the shuttle climbs, tracking the white contrail across the sky. The crowd cheers around the figure. At second 7, the figure's head-tilt slows — something is wrong. The pale orb eyes narrow. The translucent hands, which had been hanging at the sides, slowly clench into fists. At second 8, the figure is completely rigid, still staring upward, while the crowd around continues cheering — they haven't noticed yet.
+
+Flat bleached midday light. Washed-out cerulean sky, distant titanium white shuttle trailing a tangerine-orange flame column, concrete grey bleachers, bright primary-colored winter clothing on spectators (reds, blues, yellows).
+
+Foreground: Metal bleacher railing, spectators' backs — puffy winter jackets in bright 1980s colors. A child holding a small American flag. Styrofoam coffee cups on the bench.
+
+Midground: The figure standing among the crowd, conspicuously bare among the bundled spectators. A teacher in a teal parka with schoolchildren in matching field-trip shirts. A news cameraman on a tripod.
+
+Background: The distant launch pad — the shuttle rising on its brilliant tangerine-orange exhaust column, white steam billowing at the base. The white contrail stretching upward into the cerulean sky, perfectly straight. Flat Florida marshland between the bleachers and the pad. A digital countdown clock on a distant tower.
+
+Audio direction:
+- SFX: The deep rolling thunder of the solid rocket boosters reaching the viewing area — a delayed wall of sound that arrives seconds after visual ignition, rattling the metal bleachers, a deep bass rumble that vibrates in the chest. The clatter of bleacher seats as spectators jump to their feet. Camera shutters clicking. The snap of the small American flag in the wind.
+- Ambience: Crowd cheering — enthusiastic whoops, applause, children shouting with excitement, a collective gasp of awe as the shuttle clears the tower. The roar building as the sound wave reaches them — growing from a low rumble to a chest-shaking sustained thunder. Cold wind across the open viewing area.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

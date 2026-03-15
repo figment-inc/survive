@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. A cramped engineering conference room fills the frame — fluorescent-lit, cluttered, institutional. Classic adult animated comedy interior staging — the figure trapped in a room full of people who cannot act.
+
+Visual transition: NEW location — flashback cut to the Morton Thiokol engineering office in Utah, the night before launch. The lighting shifts from harsh outdoor cerulean to sickly indoor fluorescent.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands at the back of the room behind the seated engineers, watching the teleconference unfold. For seconds 1-3, the figure leans forward, both translucent hands gripping the back of an engineer's chair, skull angled toward the speakerphone on the table — listening intently. At second 4, the figure reacts — a sharp cartoon double-take toward one of the engineers, as if hearing devastating news from the phone. For seconds 5-6, the figure steps forward, extending one arm toward the speakerphone in a desperate reaching gesture — trying to intervene, to add a voice that cannot speak. At second 7, the figure's arm drops. The reaching gesture collapses. The translucent shoulders slump. By second 8, the figure stands motionless, head bowed, both arms hanging limp — the posture of defeat. The engineers around the figure show visible distress — one has his head in his hands, another is gesturing emphatically at the phone.
+
+Flat sickly fluorescent lighting — pale yellow-green cast on all surfaces. Beige office walls, white dress shirts, grey metal filing cabinets. A harsh institutional palette — sterile, claustrophobic.
+
+Foreground: The conference table edge — cluttered with coffee cups, an ashtray with cigarette butts, crumpled paper, pencils, a calculator, a Rolodex.
+
+Midground: Five engineers in 1980s business casual around the table. The speakerphone with its red indicator light. Charts and O-ring data pinned to a corkboard. The figure behind them.
+
+Background: Corkboard with temperature-resilience graphs — a red line dropping below 53°F. Fluorescent ceiling panels. A wall clock reading 11:15 PM. A Morton Thiokol company calendar on the wall. A window showing darkness outside.
+
+Audio direction:
+- SFX: The tinny electronic crackle of the speakerphone — indistinct voices arguing on the line, muffled and harsh through the small speaker. A fist slamming the conference table — coffee cups rattling. The scratch of a pen on paper. A chair scraping on linoleum as an engineer stands up abruptly. The click of a lighter, the faint sizzle of a cigarette being lit.
+- Ambience: The low hum of fluorescent ceiling lights — that constant institutional buzz. The distant hiss of building HVAC. The quiet tension of a room full of people who know they are being overruled — suppressed breathing, shifting weight, the creak of cheap office chairs.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
