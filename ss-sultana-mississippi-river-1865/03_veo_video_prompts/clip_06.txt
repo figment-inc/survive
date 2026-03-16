@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static close-up shot of the figure's upper body and skull-face. Locked camera, flat composition, no movement. Tight framing — water at chin level. Classic adult animation close-up reaction staging.
+
+Visual transition: Same river location, tighter framing — the plank is gone, the figure is sinking.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Seconds 1-2, the figure's skull-face fills the upper frame — water at chin level, one skeletal hand reaches up from the water gripping nothing. The plank is gone — swept away by the current. Orb-eyes wide, jaw clenched. Seconds 3-4, the water rises to the figure's jaw — it tilts its skull back, trying to keep above the surface. Its movements slow. The reaching hand lowers. The orb-eyes dim slightly — not closing, just fading. The ribcage visible through the translucent chest, half-submerged, no longer rising and falling.
+
+Cold indigo-black water dominates the frame, with distant furnace-orange glow from the wreck. The figure's pale translucent skin in flat cool grey-blue with orange highlight zone facing the fire.
+
+Foreground: Flat indigo-black water at chin level, small debris — splinters, a playing card, a tin button floating near the skull-face.
+
+Midground: The figure's upper body and reaching hand.
+
+Background: Distant burning wreck as flat orange glow on the horizon. Flooded Mississippi — submerged treetops as dark silhouettes.
+
+Audio direction:
+- SFX: Water lapping against the figure's face, the faint distant crack of the burning hull collapsing further, a piece of driftwood bumping against the figure and floating past, the quiet gurgle of river current pulling at a sinking form
+- Ambience: The enormous quiet of the flooded river — vast open water, wind, the diminishing roar of the distant fire, the Mississippi current as a deep constant presence — indifferent, relentless, pulling everything downstream
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

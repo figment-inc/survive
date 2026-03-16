@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static medium shot, slightly low angle. Locked camera, flat composition, no movement. The hurricane deck of the SS Sultana fills the frame — the figure stands center-frame among packed soldiers. Classic adult animation medium shot staging.
+
+Opening shot — no previous clip. The viewer is dropped immediately onto the overcrowded deck.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure stands rigidly among the packed soldiers, unable to move. At second 1, its orb-eyes shift to look down — noticing how many bodies are packed onto the deck. At second 2-3, it attempts to shift its weight, pressing against the crowd — no room. At second 4, a subtle cartoon head-turn toward the boiler deck below, where an orange glow pulses. Unease in the posture — shoulders rising slightly.
+
+Flat even lighting on the figure. Midnight indigo sky palette, warm furnace-orange glow rising from the boiler deck below. Charcoal grey smoke drifting from the twin stacks. Flat color zones — no gradients.
+
+Foreground: Wooden deck railing with chipped white paint, kepis and blanket rolls draped over it, a tin cup balanced on the rail edge.
+
+Midground: The figure packed among dozens of gaunt Union soldiers in threadbare blue — sleeping on every surface, leaning against paddle housing, lying shoulder to shoulder.
+
+Background: Twin smokestacks against midnight indigo sky, orange glow at their base. Dark Arkansas treeline. Flat grey smoke drifting.
+
+Audio direction:
+- SFX: Wooden deck creaking under excessive weight, the rhythmic splash of the paddle wheel turning, steam hissing from a valve below, a soldier coughing, the groan of overstressed deck timbers
+- Ambience: Hundreds of men breathing in close quarters, the low churn of the Mississippi current against the hull, distant paddle splash rhythm, the deep mechanical groan of an overloaded vessel
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
