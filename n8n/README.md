@@ -16,7 +16,7 @@ Create a `.env` file in the repo root with:
 ```env
 # AI Content Generation
 ANTHROPIC_API_KEY=sk-ant-...
-ANTHROPIC_MODEL=claude-sonnet-4-20250514
+ANTHROPIC_MODEL=claude-opus-4-6
 
 # Image Generation (NanoBanana Pro)
 NANOBANANA_API_KEY=...
@@ -102,7 +102,7 @@ The workflow runs every 6 hours by default. Each run:
 |-------|------|----------|-------------|
 | 0 | Claude | ~5s | Pick new historical disaster topic |
 | 1 | Claude | ~30s | Generate storyboard, image/video prompts, narration |
-| 2 | ElevenLabs | ~2min | TTS narration (8 clips) + background music |
+| 2 | ElevenLabs | ~2min | TTS narration (continuous audio) + background music |
 | 3 | NanoBanana | ~10min | Keyframe images (8 clips with skeleton reference) |
 | 4 | Veo 3.1 | ~15min | Video clips (8 clips with ambient/SFX audio) |
 | 5 | ffmpeg | ~3min | Audio mix + captions + stitch |

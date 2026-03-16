@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, low angle looking up at the workhouse facade. Locked camera, flat composition, no movement. The figure visible at the back of a long queue. Classic adult animated comedy wide tableau staging — the institutional building looming above.
+
+Visual transition: NEW location — cut from cabin interior to exterior workhouse. Scale expands again — from individual suffering to institutional failure.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands stiffly in the queue, craning head forward to see over the crowd. Over 4 seconds, the figure takes two small shuffling steps forward as the queue barely moves. At the 5-second mark, the figure looks up at the imposing workhouse facade — a slow upward tilt of the skull. The figure's shoulders tighten, arms pulling in close to the body — a subtle recoil. Over the final 3 seconds, the figure turns to look at the people ahead in the queue, then looks back toward the workhouse gate. A trapped animal scanning for options and finding none. No mouth movement.
+
+Flat even lighting — cold grey overcast. Palette: slate grey stone of the workhouse, bog brown mud, dull grey-brown rags on the queueing figures, dark iron gate, flat grey sky.
+
+Foreground: Muddy ground with standing water in wheel ruts. A collapsed flat-colored figure lying face-down at the edge of the road, motionless, ignored by the queue. Flat rain streaks.
+
+Midground: The long queue of gaunt flat-colored townspeople — dozens of simplified figures shuffling imperceptibly forward. The figure visible among them. The wooden workhouse gate, currently shut. A workhouse official in a dark coat stands at the gate with palm raised.
+
+Background: The Skibbereen workhouse — austere two-storey stone building, small barred windows, institutional and forbidding. Slate roof. High perimeter wall. Flat grey sky above.
+
+Audio direction:
+- SFX: Shuffling bare feet in mud — a slow, exhausted rhythm. The creak of the wooden gate as the official holds it shut. A child's weak cough somewhere in the queue. Rain drumming on the slate roof of the workhouse.
+- Ambience: The low murmur of hundreds of desperate people — not loud, not panicked, just a continuous hopeless hum of quiet voices. Rain on stone and mud. Wind against the institutional walls. The ambient sound of mass desperation held at a whisper.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,24 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands on the stone seawall, facing the sea. The water is visibly retreating — the seabed exposed, fish stranded, bamboo fish trap stakes standing in open air. Classic adult animated comedy medium shot staging.
+
+Visual transition: Cut from hillside collapse to waterfront. The figure has reached the shore — the sea is withdrawing.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action (4 seconds): The figure stands frozen on the seawall, watching the water recede (seconds 1-2). The exposed seabed stretches further and further — dark mud, stranded fish flopping, bamboo stakes standing bare. The figure takes one involuntary step backward, arms rising slightly in a defensive posture (seconds 2-3). Then freezes again, paralyzed, orb eyes locked on the distant horizon where the water has gathered into a dark line (seconds 3-4). The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Flat even lighting. Dark brown-grey exposed mud, deep sea-green water retreating, muted indigo horizon with a dark ominous line forming, slate grey sky. The palette is shifting colder and darker.
+
+Foreground: Cracked stone seawall edge. Seaweed clinging to the wall face. A fish flopping on exposed mud.
+Midground: The figure on the seawall. The exposed seabed stretching out — dark mud, rocks, stranded marine life, bare bamboo fish trap stakes.
+Background: The retreating waterline far in the distance, gathering into a dark line on the horizon. Iron-grey sky. Pale dust still hanging.
+
+Audio direction:
+- SFX: The wet sucking sound of water pulling away from the shore — a deep hydraulic withdrawal. Fish slapping on exposed mud. The creak of bamboo fish trap stakes suddenly standing in open air, swaying. Mud settling with wet squelching sounds. A distant, low, building roar from the horizon — barely audible, growing.
+- Ambience: An unnatural silence where ocean sounds should be — the absence of waves is deeply wrong. Wind across the exposed seabed carrying a briny, organic smell (conveyed through the hollow whistle of wind over open mud). The residual rumble of the landslide behind, still settling. The growing distant roar.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

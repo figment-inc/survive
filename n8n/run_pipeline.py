@@ -89,7 +89,7 @@ def generate_topic():
         "- Most people have HEARD OF but don't know the full story\n"
         "- Are taught in schools or referenced in popular culture (movies, TV, books)\n"
         "- Have high search interest on YouTube and TikTok\n"
-        "- Have a specific, dramatic moment that can anchor a 45-second video\n\n"
+        "- Have a specific, dramatic moment that can anchor a 35-second video\n\n"
         "Good examples: the Titanic sinking, Pompeii, Chernobyl, the Black Death, "
         "the Hindenburg, the Great Fire of London, the sinking of the Lusitania, "
         "the Triangle Shirtwaist fire, the Challenger disaster, Hiroshima, the San "
@@ -106,11 +106,13 @@ def generate_topic():
         f"## ALREADY PRODUCED (do NOT repeat):\n{existing_list}"
     )
 
+    model = load_env_key("ANTHROPIC_MODEL") or "claude-opus-4-6"
+
     print(f"  [{ts()}] Asking Claude for a new topic...")
     print(f"  [{ts()}] Existing episodes: {len(existing)}")
 
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model=model,
         max_tokens=200,
         temperature=1.0,
         system=system,
@@ -280,9 +282,14 @@ def write_episode_files(episode):
         f"# {episode['title']}\n\n"
         f"**Slug**: `{slug}`\n"
         f"**Setting**: {episode.get('setting', '')}\n"
-        f"**Hook**: {episode.get('hook', '')}\n\n"
-        f"## Clips\n\n"
+        f"**Hook**: {episode.get('hook', '')}\n"
     )
+
+    style_desc = episode.get("style_description", "")
+    if style_desc:
+        storyboard += f"\n**Style Description**: {style_desc}\n"
+
+    storyboard += f"\n## Clips\n\n"
     for clip in episode.get("clips", []):
         storyboard += (
             f"### Clip {clip['id']}\n"
@@ -295,6 +302,19 @@ def write_episode_files(episode):
 
     print(f"  [{ts()}] Written episode files to: {ep_dir}")
     return ep_dir, slug
+
+
+def _load_style_description_from_storyboard(ep_dir: Path) -> str | None:
+    """Read back style_description from a persisted storyboard file."""
+    sb_path = ep_dir / "01_storyboard.md"
+    if not sb_path.exists():
+        return None
+    import re
+    for line in sb_path.read_text().splitlines():
+        m = re.match(r"\*\*Style Description\*\*:\s*(.+)", line)
+        if m:
+            return m.group(1).strip()
+    return None
 
 
 # ── Phase 2: Image generation (NanoBanana Pro) ──
@@ -411,7 +431,7 @@ def run_audio_phase(episode, ep_dir):
     phase_banner("PHASE 2b: AUDIO GENERATION (ElevenLabs — continuous narration)")
 
     from lib.elevenlabs import generate_full_narration, generate_music
-    from lib.mixer import whisper_word_timestamps, chunk_narration_audio
+    from lib.mixer import whisper_word_timestamps
 
     el_key = load_env_key("ELEVENLABS_API_KEY")
     voice_id = load_env_key("ELEVENLABS_VOICE_ID")
@@ -421,65 +441,62 @@ def run_audio_phase(episode, ep_dir):
         return False
 
     audio_dir = ep_dir / "output" / "audio"
-    narr_dir = audio_dir / "narration"
-    narr_dir.mkdir(parents=True, exist_ok=True)
+    audio_dir.mkdir(parents=True, exist_ok=True)
 
     full_narration_path = audio_dir / "narration_full.mp3"
     full_text = _extract_full_narration_text(episode)
-
-    if not full_text:
-        print(f"  [{ts()}] WARNING: No narration text found — falling back to per-clip generation")
-        return _run_audio_phase_legacy(episode, ep_dir)
-
-    word_count = len(full_text.split())
-    print(f"  [{ts()}] Full narration: {word_count} words")
-
-    generate_full_narration(el_key, voice_id, full_text, full_narration_path)
-
-    if not full_narration_path.exists():
-        print(f"  [{ts()}] ERROR: Full narration generation failed")
-        return False
 
     clips = episode.get("clips", [])
     clip_durations: list[tuple[str, float]] = [
         (c["id"], float(c.get("duration", 8))) for c in clips
     ]
+    total_duration = sum(d for _, d in clip_durations)
 
-    if openai_key and full_narration_path.exists():
-        timestamps_path = audio_dir / "narration_timestamps.json"
-        if timestamps_path.exists():
-            import json as _json
-            word_timestamps = _json.loads(timestamps_path.read_text())
-            print(f"  [{ts()}] Loaded cached timestamps: {len(word_timestamps)} words")
-        else:
-            word_timestamps = whisper_word_timestamps(full_narration_path, openai_key)
-            if word_timestamps:
-                timestamps_path.write_text(
-                    json.dumps(word_timestamps, indent=2)
-                )
-                print(f"  [{ts()}] Cached timestamps to {timestamps_path.name}")
+    narration_ok = False
 
-        if word_timestamps:
-            chunk_narration_audio(
-                full_audio_path=full_narration_path,
-                word_timestamps=word_timestamps,
-                clip_durations=clip_durations,
-                output_dir=narr_dir,
-            )
-        else:
-            print(f"  [{ts()}] WARNING: Whisper returned no timestamps — "
-                  f"falling back to per-clip generation")
-            _run_audio_phase_legacy(episode, ep_dir)
-    else:
-        print(f"  [{ts()}] WARNING: No OPENAI_API_KEY — cannot chunk narration. "
-              f"Falling back to per-clip generation.")
+    if not full_text:
+        print(f"  [{ts()}] WARNING: No narration text found — falling back to per-clip generation")
         _run_audio_phase_legacy(episode, ep_dir)
+    else:
+        word_count = len(full_text.split())
+        print(f"  [{ts()}] Full narration: {word_count} words")
 
+        generate_full_narration(el_key, voice_id, full_text, full_narration_path)
+
+        if not full_narration_path.exists():
+            print(f"  [{ts()}] WARNING: Full narration failed — falling back to per-clip generation")
+            _run_audio_phase_legacy(episode, ep_dir)
+        elif openai_key:
+            narration_ok = True
+            timestamps_path = audio_dir / "narration_timestamps.json"
+            if timestamps_path.exists():
+                import json as _json
+                word_timestamps = _json.loads(timestamps_path.read_text())
+                print(f"  [{ts()}] Loaded cached timestamps: {len(word_timestamps)} words")
+            else:
+                word_timestamps = whisper_word_timestamps(full_narration_path, openai_key)
+                if word_timestamps:
+                    timestamps_path.write_text(
+                        json.dumps(word_timestamps, indent=2)
+                    )
+                    print(f"  [{ts()}] Cached timestamps to {timestamps_path.name}")
+
+            if not word_timestamps:
+                print(f"  [{ts()}] WARNING: Whisper returned no timestamps — "
+                      f"falling back to per-clip generation")
+                _run_audio_phase_legacy(episode, ep_dir)
+                narration_ok = False
+        else:
+            print(f"  [{ts()}] WARNING: No OPENAI_API_KEY — cannot get timestamps. "
+                  f"Falling back to per-clip generation.")
+            _run_audio_phase_legacy(episode, ep_dir)
+
+    music_duration_ms = int((total_duration + 2) * 1000)
     music_path = audio_dir / "music.mp3"
-    generate_music(el_key, MUSIC_PROMPT, music_path, duration_ms=55000)
+    generate_music(el_key, MUSIC_PROMPT, music_path, duration_ms=music_duration_ms)
 
-    print(f"  [{ts()}] Audio phase complete.")
-    return True
+    print(f"  [{ts()}] Audio phase complete (continuous_narration={narration_ok}).")
+    return narration_ok
 
 
 def _run_audio_phase_legacy(episode, ep_dir):
@@ -558,12 +575,17 @@ def run_videos_chain_phase(episode, ep_dir):
     try:
         first_prompt = prompts[0]
         first_duration = int(clip_durations[0][1]) if clip_durations else 8
+
+        images_dir = ep_dir / "output" / "images"
+        first_frame = images_dir / "clip_01_frame.png"
+
         handle = generate_initial(
             client=client,
             prompt=first_prompt,
             duration=first_duration,
             resolution="720p",
             episode_style=episode_style,
+            first_frame_path=first_frame if first_frame.exists() else None,
         )
         print(f"  [{ts()}] Chain clip 01 generated ({first_duration}s)")
 
@@ -758,51 +780,78 @@ def run_qa_phase(episode, ep_dir, regen: bool = False):
 # ── Phase 4: Per-clip audio mixing + Stitch + LUFS normalize ──
 
 
-def run_mix_phase(episode, ep_dir):
-    """Mix narration + music into each Veo clip, then stitch and LUFS normalize."""
-    phase_banner("PHASE 3b: PER-CLIP AUDIO MIXING (Veo SFX + Narration + Music)")
+def run_mix_phase(episode, ep_dir, continuous_narration: bool = True):
+    """Prepare per-clip audio: Veo ambient only (narration overlaid after stitch).
 
-    from lib.mixer import mix_clip_audio, probe_audio_duration
+    When continuous_narration=True (default), each clip gets only its Veo
+    ambient audio at reduced volume. The full narration + music are overlaid
+    on the stitched video in run_post_phase via mix_final_audio().
+
+    When continuous_narration=False (legacy fallback), uses the old per-clip
+    narration chunking approach.
+    """
+    from lib.mixer import mix_clip_veo_only, mix_clip_audio, probe_audio_duration
 
     clips = episode.get("clips", [])
     videos_dir = ep_dir / "output" / "videos"
-    narr_dir = ep_dir / "output" / "audio" / "narration"
-    music_path = ep_dir / "output" / "audio" / "music.mp3"
     mixed_dir = ep_dir / "output" / "mixed_clips"
     mixed_dir.mkdir(parents=True, exist_ok=True)
 
-    music_offset = 0.0
+    if continuous_narration:
+        phase_banner("PHASE 3b: PER-CLIP AUDIO (Veo ambient only — narration added after stitch)")
 
-    for clip_meta in clips:
-        clip_id = clip_meta["id"]
-        duration = clip_meta.get("duration", 8)
-        video_path = videos_dir / f"clip_{clip_id}.mp4"
-        narration_path = narr_dir / f"clip_{clip_id}.mp3"
-        output_path = mixed_dir / f"clip_{clip_id}.mp4"
+        for clip_meta in clips:
+            clip_id = clip_meta["id"]
+            duration = clip_meta.get("duration", 8)
+            video_path = videos_dir / f"clip_{clip_id}.mp4"
+            output_path = mixed_dir / f"clip_{clip_id}.mp4"
 
-        narr_dur = probe_audio_duration(narration_path) if narration_path.exists() else 0.0
+            mix_clip_veo_only(
+                video_path=video_path,
+                output_path=output_path,
+                clip_duration=duration,
+                veo_audio_volume=0.15,
+            )
+    else:
+        phase_banner("PHASE 3b: PER-CLIP AUDIO MIXING (legacy — Veo SFX + Narration + Music)")
 
-        mix_clip_audio(
-            video_path=video_path,
-            output_path=output_path,
-            narration_path=narration_path if narration_path.exists() else None,
-            music_path=music_path if music_path.exists() else None,
-            clip_duration=duration,
-            narration_duration=narr_dur,
-            music_offset=music_offset,
-            music_volume=0.20,
-            veo_audio_volume=0.15,
-        )
-        music_offset += duration
+        narr_dir = ep_dir / "output" / "audio" / "narration"
+        music_path = ep_dir / "output" / "audio" / "music.mp3"
+        music_offset = 0.0
+
+        for clip_meta in clips:
+            clip_id = clip_meta["id"]
+            duration = clip_meta.get("duration", 8)
+            video_path = videos_dir / f"clip_{clip_id}.mp4"
+            narration_path = narr_dir / f"clip_{clip_id}.mp3"
+            output_path = mixed_dir / f"clip_{clip_id}.mp4"
+
+            narr_dur = probe_audio_duration(narration_path) if narration_path.exists() else 0.0
+
+            mix_clip_audio(
+                video_path=video_path,
+                output_path=output_path,
+                narration_path=narration_path if narration_path.exists() else None,
+                music_path=music_path if music_path.exists() else None,
+                clip_duration=duration,
+                narration_duration=narr_dur,
+                music_offset=music_offset,
+                music_volume=0.20,
+                veo_audio_volume=0.15,
+            )
+            music_offset += duration
 
     print(f"  [{ts()}] Mix phase complete.")
     return True
 
 
-def run_post_phase(episode, ep_dir, use_transitions: bool = True):
-    phase_banner("PHASE 4: STITCH + LUFS NORMALIZE (ffmpeg)")
+def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_narration: bool = True):
+    phase_banner("PHASE 4: STITCH + FINAL MIX + LUFS NORMALIZE (ffmpeg)")
 
-    from lib.mixer import stitch_clips, stitch_clips_with_transitions, burn_location_title
+    from lib.mixer import (
+        stitch_clips, stitch_clips_with_transitions,
+        burn_location_title, mix_final_audio,
+    )
 
     slug = episode["episode_slug"]
     clips = episode.get("clips", [])
@@ -812,7 +861,7 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True):
     final_dir = ep_dir / "output" / "mixed"
     final_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"\n  [{ts()}] Stitching final video...")
+    print(f"\n  [{ts()}] Stitching clips...")
     clip_paths = []
     for clip_meta in clips:
         clip_id = clip_meta["id"]
@@ -826,11 +875,37 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True):
         else:
             print(f"  WARNING: Missing clip_{clip_id}.mp4, skipping")
 
-    final_path = final_dir / f"final_{slug}.mp4"
+    stitched_path = final_dir / f"stitched_{slug}.mp4"
     if use_transitions:
-        stitch_clips_with_transitions(clip_paths, final_path)
+        stitch_clips_with_transitions(clip_paths, stitched_path)
     else:
-        stitch_clips(clip_paths, final_path)
+        stitch_clips(clip_paths, stitched_path)
+
+    if continuous_narration and stitched_path.exists():
+        narration_path = ep_dir / "output" / "audio" / "narration_full.mp3"
+        music_path = ep_dir / "output" / "audio" / "music.mp3"
+
+        final_mixed_path = final_dir / f"final_mixed_{slug}.mp4"
+        print(f"\n  [{ts()}] Overlaying full narration + music onto stitched video...")
+        mix_ok = mix_final_audio(
+            video_path=stitched_path,
+            output_path=final_mixed_path,
+            narration_path=narration_path if narration_path.exists() else None,
+            music_path=music_path if music_path.exists() else None,
+        )
+
+        if mix_ok and final_mixed_path.exists():
+            final_path = final_dir / f"final_{slug}.mp4"
+            final_mixed_path.rename(final_path)
+            stitched_path.unlink(missing_ok=True)
+        else:
+            print(f"  [{ts()}] WARNING: Final mix failed — using stitched video without narration")
+            final_path = final_dir / f"final_{slug}.mp4"
+            stitched_path.rename(final_path)
+    else:
+        final_path = final_dir / f"final_{slug}.mp4"
+        if stitched_path != final_path:
+            stitched_path.rename(final_path)
 
     location = episode.get("location")
     year = episode.get("year")
@@ -971,15 +1046,15 @@ def publish_to_metricool_with_upload(episode, final_path, asset_url=None):
 
 
 def validate_word_counts(episode):
-    """Check that narration word counts are within the 150-180 word target.
+    """Check that narration word counts are within the 110-120 word target.
 
-    The narration is now continuous prose generated as one audio file and
-    chunked per-clip in post-production. Per-clip word limits are soft
+    The narration is continuous prose generated as one audio file and
+    overlaid on the final stitched video. Per-clip word limits are soft
     targets — the total word count is what matters.
     """
     WORDS_PER_SEC = 2.3
-    WORD_MIN = 150
-    WORD_MAX = 180
+    WORD_MIN = 100
+    WORD_MAX = 130
 
     full_text = _extract_full_narration_text(episode)
     total_words = len(full_text.split()) if full_text else 0
@@ -996,6 +1071,26 @@ def validate_word_counts(episode):
               f"(~{narration_seconds:.0f}s) — consider trimming")
     else:
         print(f"  [{ts()}] Word count OK: {total_words} words (target {WORD_MIN}-{WORD_MAX})")
+
+    clips = episode.get("clips", [])
+    num_clips = len(clips)
+    if num_clips != 8:
+        print(f"  [{ts()}] WARNING: Expected 8 clips, got {num_clips}")
+    else:
+        print(f"  [{ts()}] Clip count OK: {num_clips} clips")
+
+    num_img = len(episode.get("image_prompts", []))
+    num_vid = len(episode.get("video_prompts", []))
+    if num_img != num_clips:
+        print(f"  [{ts()}] WARNING: {num_img} image prompts for {num_clips} clips")
+    if num_vid != num_clips:
+        print(f"  [{ts()}] WARNING: {num_vid} video prompts for {num_clips} clips")
+
+    script = episode.get("dialogue_script", "")
+    if script and "you" not in script.lower():
+        print(f"  [{ts()}] WARNING: No second-person POV ('you') found in script")
+
+    return total_words, num_clips
 
 
 # ── Main ──
@@ -1032,14 +1127,39 @@ def main():
         topic = generate_topic()
 
     episode = generate_episode_content(topic)
-    validate_word_counts(episode)
+    total_words, num_clips = validate_word_counts(episode)
+
+    if num_clips != 8 or total_words < 80 or total_words > 160:
+        print(f"\n  [{ts()}] Script validation failed (words={total_words}, clips={num_clips}). "
+              f"Retrying with feedback...")
+        feedback = (
+            f"REVISION REQUIRED. Your previous output had {total_words} words "
+            f"(target: 110-120) and {num_clips} clips (target: 8). "
+        )
+        if total_words > 130:
+            feedback += "CUT words aggressively — you are over the limit. "
+        if total_words < 100:
+            feedback += "Add more sensory detail — script is too thin. "
+        if num_clips != 8:
+            feedback += f"You must produce exactly 8 clips, not {num_clips}. "
+        feedback += "Regenerate the entire episode with these corrections."
+        episode = generate_episode_content(f"{topic}\n\n{feedback}")
+        total_words, num_clips = validate_word_counts(episode)
+
     ep_dir, slug = write_episode_files(episode)
+
+    if not episode.get("style_description"):
+        restored = _load_style_description_from_storyboard(ep_dir)
+        if restored:
+            episode["style_description"] = restored
+            print(f"  [{ts()}] Restored style_description from storyboard")
 
     if not args.skip_images:
         run_images_phase(episode, ep_dir)
 
+    continuous_narration = False
     if not args.skip_audio:
-        run_audio_phase(episode, ep_dir)
+        continuous_narration = run_audio_phase(episode, ep_dir)
 
     if not args.skip_videos:
         if args.no_chain:
@@ -1051,11 +1171,11 @@ def main():
         run_qa_phase(episode, ep_dir, regen=args.qa_regen)
 
     if not args.skip_mix:
-        run_mix_phase(episode, ep_dir)
+        run_mix_phase(episode, ep_dir, continuous_narration=continuous_narration)
 
     final_path = None
     if not args.skip_post:
-        final_path = run_post_phase(episode, ep_dir)
+        final_path = run_post_phase(episode, ep_dir, continuous_narration=continuous_narration)
 
     if final_path is None:
         final_path = ep_dir / "output" / "mixed" / f"final_{slug}.mp4"

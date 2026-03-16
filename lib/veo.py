@@ -338,8 +338,19 @@ def generate_video(
 
     combined_refs: list[bytes] = []
     if style_anchor_refs:
-        combined_refs.extend(style_anchor_refs)
+        combined_refs.extend(style_anchor_refs[:2])
     combined_refs.extend(ref_images or [])
+
+    MAX_REFS = 3
+    if len(combined_refs) > MAX_REFS:
+        if style_anchor_refs and ref_images:
+            n_anchors = min(len(style_anchor_refs), MAX_REFS - 1)
+            n_chars = MAX_REFS - n_anchors
+            combined_refs = list(style_anchor_refs[:n_anchors]) + list((ref_images or [])[:n_chars])
+            print(f"  [{_ts()}] Ref slots: {n_anchors} style anchors + {n_chars} character refs = {MAX_REFS}")
+        else:
+            print(f"  [{_ts()}] Capping reference images from {len(combined_refs)} to {MAX_REFS}")
+            combined_refs = combined_refs[:MAX_REFS]
 
     if use_reference and combined_refs:
         ref_entries = [
@@ -432,14 +443,17 @@ def generate_initial(
     client: genai.Client,
     prompt: str,
     ref_images: list[bytes] | None = None,
+    first_frame_path: Path | None = None,
     duration: int = INITIAL_DURATION,
     resolution: str = "720p",
     episode_style: str | None = None,
 ) -> VeoVideoHandle:
     """Generate the first clip in an extension chain.
 
-    Optionally conditions on ASSET reference images for character consistency.
-    Returns a VeoVideoHandle that can be passed to extend_video().
+    ASSET reference_images are incompatible with the extend API, so when
+    first_frame_path is provided the keyframe image is used as image-to-video
+    conditioning instead. This anchors the chain's visual identity from
+    frame 1 without breaking extension compatibility.
     """
     config_kwargs: dict[str, Any] = {
         "aspect_ratio": "9:16",
@@ -451,24 +465,40 @@ def generate_initial(
 
     if ref_images:
         print(f"  [{_ts()}] NOTE: Skipping ASSET refs for initial clip — "
-              f"extension chain requires unmodified Veo output. "
-              f"Character consistency maintained via prompt only.")
-        # ASSET reference_images produce a video that Veo's extend API
-        # rejects with "must be a video that has been processed".
-        # Using text-only generation for chain compatibility.
+              f"extension chain requires unmodified Veo output.")
+
+    if first_frame_path and first_frame_path.exists():
+        frame_bytes = first_frame_path.read_bytes()
+        gen_kwargs["image"] = types.Image(
+            image_bytes=frame_bytes, mime_type="image/png",
+        )
+        print(f"  [{_ts()}] Chain: using keyframe image for visual anchoring: "
+              f"{first_frame_path.name} ({len(frame_bytes) / 1024:.0f} KB)")
 
     gen_kwargs["config"] = types.GenerateVideosConfig(**config_kwargs)
 
+    ref_mode = "first-frame" if "image" in gen_kwargs else "text-only"
     print(f"  [{_ts()}] Chain: generating initial {duration}s clip "
-          f"(refs={len(ref_images) if ref_images else 0})")
+          f"(mode={ref_mode})")
 
     operation = client.models.generate_videos(**gen_kwargs)
     operation = _wait_for_video(client, operation)
 
     if not operation.result or not operation.result.generated_videos:
         reasons = getattr(operation.result, "rai_media_filtered_reasons", None)
-        msg = f"BLOCKED: {reasons}" if reasons else f"No video generated: {operation}"
-        raise RuntimeError(msg)
+        if reasons and "image" in gen_kwargs:
+            print(f"  [{_ts()}] BLOCKED with first-frame ({reasons}) — retrying text-only...")
+            del gen_kwargs["image"]
+            gen_kwargs["config"] = types.GenerateVideosConfig(**config_kwargs)
+            operation = client.models.generate_videos(**gen_kwargs)
+            operation = _wait_for_video(client, operation)
+            if not operation.result or not operation.result.generated_videos:
+                reasons2 = getattr(operation.result, "rai_media_filtered_reasons", None)
+                msg = f"BLOCKED: {reasons2}" if reasons2 else f"No video generated: {operation}"
+                raise RuntimeError(msg)
+        else:
+            msg = f"BLOCKED: {reasons}" if reasons else f"No video generated: {operation}"
+            raise RuntimeError(msg)
 
     generated = operation.result.generated_videos[0]
     client.files.download(file=generated.video)

@@ -1,0 +1,24 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static close-up, slightly low angle. Locked camera, flat composition, no movement. The figure's skull and upper torso fill the center-left of frame. Over the figure's shoulder, the calm surface of Ariake Sea is visible. Classic adult animated comedy close-up reaction staging.
+
+Visual transition: Cut from street-level to waterfront close-up. Same town, tighter framing on the figure with the sea behind.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+Character action (4 seconds): The figure stands at the waterfront, facing slightly away from camera. Over 4 seconds, the figure performs a slow turn of the head — looking from the mountain behind it toward the sea ahead. A subtle recoil — shoulders pulling back slightly, spine straightening — as it registers the deceptive calm of the flat water. The orb eyes narrow slightly. The posture shifts from tension to a deeper, colder dread. The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Flat even lighting. Deep sea-green water, slate grey sky, muted indigo distant shore. Pale mineral dust still drifting in the air. The figure's translucent pale skin contrasting against the dark water behind.
+
+Foreground: The figure's translucent shoulder and upper arm closest to camera. A wooden dock railing with frayed rope.
+Midground: The figure's skull and ribcage. Stone seawall edge with moss.
+Background: Ariake Sea — flat, still, deep sea-green. Small fishing boats motionless. The Kumamoto coast as a faint muted indigo smudge on the horizon.
+
+Audio direction:
+- SFX: The soft creak of the wooden dock under shifting weight. A rope straining against a post. Water lapping against the seawall — but subtly wrong, the rhythm irregular, the water pulling away slightly between laps.
+- Ambience: An eerie quiet settling over the waterfront — the distant town sounds have faded. A single seabird call, sharp and lonely. The low continuous rumble from the mountain behind, muffled by distance but persistent. Wind barely moving.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

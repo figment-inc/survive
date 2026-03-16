@@ -229,6 +229,52 @@ def extract_last_frame(video_path: Path, output_path: Path) -> bool:
     return True
 
 
+def mix_clip_veo_only(
+    video_path: Path,
+    output_path: Path,
+    clip_duration: float = 8.0,
+    veo_audio_volume: float = 0.15,
+    force: bool = False,
+) -> tuple[bool, float]:
+    """Prepare a single clip with only Veo ambient audio at reduced volume.
+
+    Narration and music are NOT mixed here — they are overlaid on the
+    final stitched video via mix_final_audio() so narration flows
+    unbroken across clip boundaries.
+    """
+    if output_path.exists() and not force:
+        print(f"  [{_ts()}] Skipping (exists): {output_path.name}")
+        return True, clip_duration
+
+    if not video_path.exists():
+        print(f"  WARNING: No video at {video_path}, skipping mix")
+        return False, clip_duration
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    cmd = [
+        "ffmpeg", "-y",
+        "-i", str(video_path),
+        "-af", f"volume={veo_audio_volume}",
+        "-c:v", "copy",
+        "-c:a", "aac",
+        "-b:a", "192k",
+        "-t", f"{clip_duration:.2f}",
+        str(output_path),
+    ]
+
+    print(f"  [{_ts()}] Mixing {output_path.stem}: veo-only (vol={veo_audio_volume}, dur={clip_duration:.1f}s)")
+
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"  ERROR mixing: {result.stderr[-500:]}")
+        return False, clip_duration
+
+    size_mb = output_path.stat().st_size / (1024 * 1024)
+    print(f"  [{_ts()}] Mixed: {output_path.name} ({size_mb:.1f} MB)")
+    return True, clip_duration
+
+
 def mix_clip_audio(
     video_path: Path,
     output_path: Path,
@@ -244,6 +290,9 @@ def mix_clip_audio(
     """Mix a single clip: keep Veo native audio + layer narration + music.
 
     Returns (success, effective_duration).
+
+    NOTE: For the new continuous-narration pipeline, use mix_clip_veo_only()
+    per-clip and mix_final_audio() on the stitched video instead.
     """
     if output_path.exists() and not force:
         print(f"  [{_ts()}] Skipping (exists): {output_path.name}")
@@ -704,6 +753,109 @@ def stitch_clips_with_transitions(
     return True
 
 
+def _escape_drawtext(text: str) -> str:
+    """Escape a string for ffmpeg drawtext filter."""
+    return text.replace("'", "'\\''").replace(":", "\\:")
+
+
+def _location_fontsize(location: str) -> int:
+    """Pick a fontsize that keeps the location line within 1080px frame width."""
+    n = len(location)
+    if n <= 18:
+        return 56
+    if n <= 26:
+        return 44
+    return 36
+
+
+def mix_final_audio(
+    video_path: Path,
+    output_path: Path,
+    narration_path: Path | None = None,
+    music_path: Path | None = None,
+    narration_delay: float = NARRATION_DELAY,
+    music_volume: float = 0.20,
+    veo_audio_volume: float = 0.15,
+    force: bool = False,
+) -> bool:
+    """Overlay full continuous narration + music onto a stitched video in one pass.
+
+    Unlike mix_clip_audio (which works per-clip), this operates on the
+    already-stitched video so narration flows unbroken across clip boundaries.
+    """
+    if output_path.exists() and not force:
+        print(f"  [{_ts()}] Skipping (exists): {output_path.name}")
+        return True
+
+    if not video_path.exists():
+        print(f"  WARNING: No video at {video_path}")
+        return False
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    has_narration = narration_path and narration_path.exists()
+    has_music = music_path and music_path.exists()
+
+    video_duration = probe_audio_duration(video_path)
+
+    inputs = ["-i", str(video_path)]
+    filter_parts: list[str] = []
+    audio_streams: list[str] = []
+    stream_idx = 1
+
+    veo_vol = veo_audio_volume if has_narration else 0.30
+    filter_parts.append(f"[0:a]volume={veo_vol},apad[veo]")
+    audio_streams.append("[veo]")
+
+    if has_narration:
+        inputs.extend(["-i", str(narration_path)])
+        delay_ms = int(narration_delay * 1000)
+        narr_filters = f"adelay={delay_ms}|{delay_ms},volume=1.0,apad"
+        filter_parts.append(f"[{stream_idx}:a]{narr_filters}[narr]")
+        audio_streams.append("[narr]")
+        stream_idx += 1
+
+    if has_music:
+        inputs.extend(["-i", str(music_path)])
+        filter_parts.append(
+            f"[{stream_idx}:a]atrim=start=0:duration={video_duration:.2f},"
+            f"asetpts=PTS-STARTPTS,volume={music_volume},apad[mus]"
+        )
+        audio_streams.append("[mus]")
+        stream_idx += 1
+
+    mix_count = len(audio_streams)
+    streams_str = "".join(audio_streams)
+    filter_parts.append(f"{streams_str}amix=inputs={mix_count}:duration=first:normalize=0[a]")
+    filter_complex = ";".join(filter_parts)
+
+    cmd = [
+        "ffmpeg", "-y",
+        *inputs,
+        "-filter_complex", filter_complex,
+        "-map", "0:v",
+        "-map", "[a]",
+        "-c:v", "copy",
+        "-c:a", "aac",
+        "-b:a", "192k",
+        "-t", f"{video_duration:.2f}",
+        str(output_path),
+    ]
+
+    print(f"  [{_ts()}] Final mix: narr={'yes' if has_narration else 'no'} "
+          f"music={'yes' if has_music else 'no'} "
+          f"(video={video_duration:.1f}s, delay={narration_delay}s)")
+
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"  ERROR final mix: {result.stderr[-500:]}")
+        return False
+
+    size_mb = output_path.stat().st_size / (1024 * 1024)
+    print(f"  [{_ts()}] Final mixed: {output_path.name} ({size_mb:.1f} MB)")
+    return True
+
+
 def burn_location_title(
     video_path: Path,
     output_path: Path,
@@ -714,14 +866,11 @@ def burn_location_title(
     fade_out: float = 0.5,
     force: bool = False,
 ) -> bool:
-    """Burn a 'Location, Year' text overlay onto the first seconds of a video.
+    """Burn a two-line location / year title card onto the first seconds of a video.
 
-    Text is centered horizontally and placed in the vertical center of the
-    bottom 25% of the frame (y = 87.5% of height). Uses Montserrat Bold
-    with a heavy black outline for readability over any background.
-
-    Alpha fades in over *fade_in* seconds, holds, then fades out so the
-    total visible duration equals *duration* seconds.
+    Line 1 (location) is dynamically sized so it never overflows 1080px width.
+    Line 2 (year) is rendered smaller beneath it.  Both lines are centered
+    horizontally in the bottom quarter of the frame with matching fade timing.
     """
     if output_path.exists() and not force:
         print(f"  [{_ts()}] Skipping (exists): {output_path.name}")
@@ -733,8 +882,12 @@ def burn_location_title(
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    title_text = f"{location}, {year}"
-    escaped_text = title_text.replace("'", "'\\''").replace(":", "\\:")
+    loc_size = _location_fontsize(location)
+    year_size = int(loc_size * 0.65)
+    line_gap = 8
+
+    escaped_loc = _escape_drawtext(location)
+    escaped_year = _escape_drawtext(year)
 
     fade_out_start = duration - fade_out
     alpha_expr = (
@@ -743,33 +896,48 @@ def burn_location_title(
         f"if(lt(t,{duration}),(({duration}-t)/{fade_out}),0)))"
     )
 
-    drawtext_filter = (
-        f"drawtext="
-        f"text='{escaped_text}':"
-        f"fontfile=/System/Library/Fonts/Supplemental/Arial Bold.ttf:"
-        f"fontsize=56:"
+    font = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+    common_style = (
+        f"fontfile={font}:"
         f"fontcolor=white:"
         f"borderw=4:"
         f"bordercolor=black:"
         f"shadowcolor=black@0.6:"
         f"shadowx=2:shadowy=2:"
-        f"x=(w-tw)/2:"
-        f"y=h*0.875-th/2:"
         f"alpha='{alpha_expr}':"
         f"enable='between(t,0,{duration})'"
+    )
+
+    loc_filter = (
+        f"drawtext="
+        f"text='{escaped_loc}':"
+        f"fontsize={loc_size}:"
+        f"{common_style}:"
+        f"x=(w-tw)/2:"
+        f"y=h*0.86-th-{line_gap}"
+    )
+
+    year_filter = (
+        f"drawtext="
+        f"text='{escaped_year}':"
+        f"fontsize={year_size}:"
+        f"{common_style}:"
+        f"x=(w-tw)/2:"
+        f"y=h*0.86+{line_gap}"
     )
 
     cmd = [
         "ffmpeg", "-y",
         "-i", str(video_path),
-        "-vf", drawtext_filter,
+        "-vf", f"{loc_filter},{year_filter}",
         "-c:v", "libx264", "-preset", "fast", "-crf", "18",
         "-c:a", "copy",
         str(output_path),
     ]
 
-    print(f"  [{_ts()}] Burning location title: \"{title_text}\" "
-          f"(duration={duration}s, fade_in={fade_in}s, fade_out={fade_out}s)")
+    print(f"  [{_ts()}] Burning location title: \"{location}\" / \"{year}\" "
+          f"(loc_size={loc_size}, year_size={year_size}, "
+          f"duration={duration}s, fade_in={fade_in}s, fade_out={fade_out}s)")
 
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:

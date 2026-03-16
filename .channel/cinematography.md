@@ -113,10 +113,10 @@ Every episode follows this visual energy arc:
 | Beat | Energy | Visual Approach |
 |------|--------|----------------|
 | Hook (clip 01) | 3/5 | Wide establishing shot, warm palette, curiosity |
-| Immersion (02-04) | 3/5 → 4/5 | Medium shots, character exploring, palette starts shifting |
-| Attempt (05-07) | 4/5 → 5/5 | Tighter framing, faster cuts, palette darkening |
-| Catastrophe (08-09) | 5/5 | Close-ups, high contrast, maximum visual intensity |
-| Cliffhanger (10) | 2/5 | Wide or medium, aftermath palette, still and haunting |
+| Immersion (02-03) | 3/5 → 4/5 | Medium shots, character exploring, palette shifting |
+| Attempt (04-05) | 4/5 → 5/5 | Tighter framing as stakes rise, character in motion |
+| Catastrophe (06-07) | 5/5 | Close-ups at peak chaos, maximum intensity, saturated palette |
+| Cliffhanger (08) | 5/5 → 2/5 | Wide aftermath — stunned stillness, muted palette |
 
 ### Pacing Rules
 - **Visual change every 3-4 seconds**: New angle, new information, new framing

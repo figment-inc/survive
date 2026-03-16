@@ -26,32 +26,32 @@ Classic American adult animation (Family Guy seasons 10-20 aesthetic):
 ## Format
 
 - Vertical 9:16 short-form video optimized for YouTube Shorts, TikTok, and Instagram Reels
-- **45–50 seconds per episode** (target 48s video)
-- **150–180 words of narration** at ~2.3 words/second (measured ElevenLabs pacing) as **continuous prose** — narration flows across clip boundaries as one unbroken audio stream, chunked per-clip in post-production
+- **~48 seconds per episode** (target 48s video)
+- **110–120 words of narration** at ~2.3 words/second (measured ElevenLabs pacing) as **continuous prose** — narration flows across clip boundaries as one unbroken audio stream, overlaid on the final stitched video in post-production
 - Classic American adult animation style (flat cel-shaded, thick outlines)
 - The skeleton appears on camera but never speaks — narration is off-screen voiceover
 - **Split audio pipeline**:
   - **Veo 3.1**: Generates SILENT video with environmental SFX + ambient sounds only
   - **ElevenLabs TTS**: Generates narrator voiceover as ONE continuous audio file (Dan — British Documentary Narrator, voice ID `BHr135B5EUBtaWheVj8S`)
   - **ElevenLabs Music**: Generates cinematic nature documentary underscore
-  - **Whisper**: Word-level timestamps on the continuous narration for per-clip chunking
-  - **ffmpeg**: Chunks narration at clip boundaries + mixes per clip: Veo audio 15% + narration chunk 100% + music 20%
+  - **Whisper**: Word-level timestamps on the continuous narration for visual sync reference
+  - **ffmpeg**: Overlays full narration + music onto final stitched video in a single pass
 - Remotion-rendered karaoke captions (Whisper transcription + transparent overlay)
 - **8 clips** (mix of 4s and 8s) — target visual change every 4–6 seconds
 - Static locked camera throughout — flat 2D animated compositions
 - Native Veo output durations only — NEVER crop or trim video
 
-## Episode Structure (5 Narrative Beats)
+## Episode Structure (5-Beat Narrative Arc)
 
-Every episode follows this arc across 8 clips (~48s video, narration as continuous prose ~150-180 words):
+Every episode follows this arc across 8 clips (~48s video, narration as continuous prose ~110-120 words):
 
-1. **The Hook** (clip 01, 0–4s) — The figure is already in the scene, standing in the middle of the disaster about to unfold. Drop the viewer into danger on word one. NOT a question — a devastating fact that creates immediate dread. "You have eleven minutes before the pyroclastic surge reaches you. You cannot outrun it." Voice starts IMMEDIATELY on frame 1. No silent establishing shots. No setup.
-2. **The Immersion** (clips 02–03, 4–16s) — Clip 02 MUST name the specific disaster/location AND the year in its first sentence so viewers scrolling cold know what they're watching. Build the world with sensory detail — what you see, smell, hear, feel. Let the narration breathe. Clip 03 tightens the trap with a specific scientific or historical detail. Sentences may span the clip 02/03 boundary.
-3. **The Attempt** (clips 04–05, 16–28s) — The viewer tries to survive and FAILS. Each failure teaches one real fact. Try to warn people → learn why they don't listen. Try to run → discover the geography that traps you. Every clip raises the stakes. No plateaus. Sentences carry momentum across clip boundaries.
-4. **The Catastrophe** (clips 06–07, 28–40s) — Maximum intensity. Facts delivered with clinical precision at peak chaos — specific temperatures, wind speeds, structural failure points. The calm voice amid the destruction IS the horror. Staccato rhythm. Short punchy sentences.
-5. **The Cliffhanger** (clip 08, 40–48s) — End with an unresolved, haunting fact that drives comments AND echoes the hook for structural satisfaction. "They found 6,000 bodies. They stopped counting." Never resolve cleanly. Leave the viewer wanting to comment, share, or rewatch.
+1. **The Hook** (clip 01, 0–4s) — The figure is already in the scene, standing in the middle of the disaster about to unfold. Drop the viewer into danger on word one. NOT a question — use urgency ("You have eleven minutes"), dramatic irony ("The mountain has already stopped erupting. That is not what kills you."), or a shocking number ("The water is rising at fourteen feet per hour."). Voice starts IMMEDIATELY on frame 1. No silent establishing shots. No setup. Goal: grab the viewer so hard they cannot scroll away.
+2. **The Immersion** (clips 02–03, 4–16s) — Clip 02 MUST name the specific disaster/location AND the year in its first sentence so viewers scrolling cold know what they're watching. Build the world with visceral sensory detail — what you see, smell, hear, feel. Clip 03 tightens the trap with a specific scientific or historical detail. Flowing sentences, unhurried pacing.
+3. **The Attempt** (clips 04–05, 16–28s) — The viewer tries to survive and FAILS. Agency verbs: "You run", "You warn", "You push toward the door." Each failure teaches one real fact. This is the educational heart: accessible, flowing, never a lecture. Sentences carry momentum across clip boundaries.
+4. **The Catastrophe** (clips 06–07, 28–40s) — The disaster hits with clinical precision — specific temperatures, wind speeds, structural failure points. **RHYTHM SHIFT**: staccato punches, 3-8 word sentences. Short. Devastating. Clinical. The calm voice amid the destruction IS the horror.
+5. **The Cliffhanger** (clip 08, 40–48s) — End with an unresolved, haunting fact that drives comments AND echoes the hook for structural satisfaction. The callback is mandatory. "The mountain did not need fire. It only needed gravity." Never resolve cleanly. Goal: leave the viewer STUNNED.
 
-Each beat spans 1–2 clips. The narration is one continuous audio stream — sentences flow freely across clip boundaries. Visual cuts happen mid-narration, pulling the viewer forward.
+Each beat spans 1–3 clips. The narration is one continuous audio stream — sentences flow freely across clip boundaries. Visual cuts happen mid-narration, pulling the viewer forward.
 
 ## Narrator Voice
 
@@ -61,9 +61,9 @@ Each beat spans 1–2 clips. The narration is one continuous audio stream — se
 - The horror comes from the steady, composed delivery of devastating facts — not from humor or theatrics
 - Scientific precision: specific numbers, temperatures, distances, chemical reactions
 - Addresses the viewer directly in second person present tense: "you wake up", "you feel the ground shift"
-- Pacing: ~2.3 words per second (measured ElevenLabs output), **150–180 words per episode** as continuous prose
-- Narration is generated as ONE continuous audio file and chunked per-clip in post-production using Whisper word-level timestamps
-- **Sentence structure**: Varies by narrative beat — flowing and immersive for world-building, staccato punches for catastrophe. Sentences freely cross clip boundaries.
+- Pacing: ~2.3 words per second (measured ElevenLabs output), **110–120 words per episode** as continuous prose
+- Narration is generated as ONE continuous audio file and overlaid on the final stitched video in post-production
+- **Sentence structure**: Varies by beat — flowing and immersive for Immersion/Attempt, staccato punches for Catastrophe/Cliffhanger. Sentences freely cross clip boundaries.
 - **Sensory specificity**: Visceral, concrete details. Not "the fire is hot" but "eighteen hundred degrees — hot enough to melt your fillings."
 - Generated via **ElevenLabs TTS** (Dan — British Documentary Narrator, voice ID `BHr135B5EUBtaWheVj8S`)
 - Voice settings: stability 0.85, similarity_boost 0.75, style 0.15
@@ -84,25 +84,26 @@ Each beat spans 1–2 clips. The narration is one continuous audio stream — se
 - **Nature documentary tone.** Calm, measured, authoritative. Warm British naturalist guiding you through the extraordinary. Genuine awe. Scientific precision.
 - **Continuous prose.** Write one flowing narrative, not isolated per-clip scripts. Sentences flow across clip boundaries.
 - **Present tense ONLY.** "You wake up" not "You've arrived." Immediacy is everything.
-- **Rhythm varies by beat.** Immersion: longer, flowing sentences that build the world. Catastrophe: staccato punches, 3-8 words. The rhythm shift IS the pacing.
-- **Educational depth.** Every beat includes at least one specific, verifiable fact.
+- **Rhythm varies by beat.** Immersion + Attempt: longer, flowing sentences that build the world. Catastrophe + Cliffhanger: staccato punches, 3-8 words. The rhythm shift IS the pacing.
+- **Educational depth.** Every act includes at least one specific, verifiable fact.
 - **Sensory specificity.** Visceral, concrete details. Not "Vesuvius is erupting" but "four hundred fifty miles per hour. Superheated gas at a thousand degrees."
 - **Sensory continuity.** If clip 03 establishes smoke, clip 04 still has smoke. The environment accumulates.
 - **Narrative thread.** Every sentence connects to the one before it — causality, not just sequence.
 - **Agency verbs.** The viewer acts: "You run", "You grab", "You shout." Not passive observation.
 - **Tension ratchet.** Every clip raises the stakes from the previous one. No plateaus. No breathing room.
 - **One moment of genuine scientific awe per episode.** A fact so extraordinary it creates wonder.
-- **Callback endings.** The cliffhanger should echo or invert the hook for structural satisfaction.
-- **Open-loop endings.** End with an unresolved fact that drives comments: "The real number may never be known."
-- **150–180 words total.** Continuous prose, chunked per-clip in post-production.
+- **Callback endings.** The twist/payoff should echo or invert the hook for structural satisfaction.
+- **Open-loop endings.** End with an unresolved fact that drives comments: "The real number may never be known." Leave the viewer STUNNED.
+- **110–120 words total.** Continuous prose, overlaid on the final stitched video.
 
 ## TikTok / YouTube Shorts Optimization
 
 - **Voice on frame 1.** The dramatic hook statement plays over the very first visual. ZERO seconds of silence.
-- **Hook = devastating fact**, NEVER a question. Drop the viewer into danger on word one.
-- Target **45–50 seconds** total video (8 clips), narration 150-180 words as continuous prose
+- **Hook = devastating fact**, NEVER a question. Use urgency, dramatic irony, or a shocking number. Drop the viewer into danger on word one.
+- Target **~48 seconds** total video (8 clips), narration 110-120 words as continuous prose
+- **5-beat formula**: Hook (0-4s) grabs attention, Immersion (4-16s) builds the world, Attempt (16-28s) teaches through failure, Catastrophe (28-40s) delivers clinical devastation, Cliffhanger (40-48s) leaves the viewer stunned
 - **Visual change every 4–6 seconds** — fast cuts, angle changes, new information in every shot
 - **Every clip raises the stakes** — the tension ratchet is the retention engine
 - Narrator fills EVERY clip — no silent clips, no dead air
-- **Callback ending** — the cliffhanger echoes the hook for structural satisfaction
+- **Callback ending** — the twist/payoff echoes the hook for structural satisfaction
 - End with an **open-loop** — an unresolved fact that drives comments and shares

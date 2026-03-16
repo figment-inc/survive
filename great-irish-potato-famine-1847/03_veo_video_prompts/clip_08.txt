@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The quayside at Cobh harbour with the figure facing a coffin ship. Classic adult animated comedy wide tableau staging.
+
+Visual transition: NEW location — final cut to the harbour. The escape that is not an escape.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands on the quay facing the ship, back to the camera. For the first 3 seconds, completely still — staring at the vessel. Then the figure takes one slow step toward the gangplank, then another. At the 6-second mark, the figure stops at the base of the gangplank and looks up at the ship's hull — a slow upward tilt of the skull taking in the battered, barely-seaworthy vessel. The figure's hands clench into fists at its sides. Over the final 2 seconds, the figure places one foot on the gangplank — and freezes there, one foot on land, one on the plank, caught between two kinds of doom. No mouth movement.
+
+Flat even lighting — grey overcast harbour light. Palette: grey harbour water, dark brown weathered ship hull, slate grey sky, bog brown quay stone, faded ochre wood of the gangplank. The same drained palette as the rest of the episode — even the escape offers no color.
+
+Foreground: Coiled rope on wet stone. A battered wooden trunk. Flat rain streaks.
+
+Midground: The figure at the gangplank. Emaciated flat-colored emigrants filing slowly up the plank — families with bundles, barefoot children, a priest in black. A harbour official with a ledger.
+
+Background: The coffin ship — two-masted wooden brig, patched hull, frayed rigging, riding low. The grey Atlantic beyond. Cork's coastline as distant green-brown hills.
+
+Audio direction:
+- SFX: The wooden gangplank creaking under weight — a stressed, hollow groan. Ship rigging slapping against masts in the wind — irregular metallic clinks. Harbour water lapping against the stone quay and the wooden hull. The scratch of a quill on the official's ledger.
+- Ambience: Harbour wind — saltier, colder, carrying the open Atlantic. Seagulls crying overhead. The shuffle of many feet on stone and wood. Quiet weeping from somewhere in the crowd — controlled, exhausted grief. The creak and groan of the ship's timbers as it rocks gently. The vast, empty sound of the open ocean beyond the harbour mouth.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

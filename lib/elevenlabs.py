@@ -55,6 +55,14 @@ def generate_narration(
         size_kb = len(resp.content) / 1024
         print(f"  [{_ts()}] Narration saved: {output_path.name} ({size_kb:.0f} KB)")
         return True
+    except requests.exceptions.HTTPError as e:
+        body = ""
+        try:
+            body = e.response.text[:500]
+        except Exception:
+            pass
+        print(f"  ERROR generating narration: HTTP {e.response.status_code} — {body}")
+        return False
     except Exception as e:
         print(f"  ERROR generating narration: {e}")
         return False
@@ -108,6 +116,14 @@ def generate_full_narration(
         size_kb = len(resp.content) / 1024
         print(f"  [{_ts()}] Full narration saved: {output_path.name} ({size_kb:.0f} KB)")
         return True
+    except requests.exceptions.HTTPError as e:
+        body = ""
+        try:
+            body = e.response.text[:500]
+        except Exception:
+            pass
+        print(f"  ERROR generating full narration: HTTP {e.response.status_code} — {body}")
+        return False
     except Exception as e:
         print(f"  ERROR generating full narration: {e}")
         return False
@@ -177,6 +193,14 @@ def generate_music(
         size_kb = len(resp.content) / 1024
         print(f"  [{_ts()}] Music saved: {output_path.name} ({size_kb:.0f} KB)")
         return True
+    except requests.exceptions.HTTPError as e:
+        body = ""
+        try:
+            body = e.response.text[:500]
+        except Exception:
+            pass
+        print(f"  ERROR generating music: HTTP {e.response.status_code} — {body}")
+        return False
     except Exception as e:
         print(f"  ERROR generating music: {e}")
         return False
