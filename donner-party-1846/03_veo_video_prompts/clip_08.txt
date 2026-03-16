@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static close-up, slightly low angle. Locked camera, flat composition, no movement. The figure's skull and upper body fill the frame, facing the camera directly. Behind the figure, blurred by flat atmospheric haze, a line of distant dark shapes descends the slope — the rescue party. Classic adult animated comedy close-up confrontation staging.
+
+Visual transition: Same location, new development. Cut from wide tableau to tight close-up on the figure. The rescue party is visible in the background but still distant.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure faces the camera in close-up. For the first four seconds, the figure is completely still — no movement, no gesture. The pale orb eyes stare directly at the viewer. Snow accumulates on the skull and shoulders. This is the longest still hold in the episode — the absence of movement IS the performance. At second five, the figure's eyes shift — barely perceptible — to look past the camera, toward the rescue party behind. At second six, the eyes return to center, locking with the viewer again. For the final two seconds, the figure is absolutely motionless. Snow falls. The eyes do not blink. A crude pine-branch cross is visible planted in a snow mound behind the figure's shoulder.
+
+Flat overcast lighting. Blue-white, steel grey, bone white. The figure's translucent skin is nearly the same value as the snow behind it — only the thick black outlines and pale orb eyes distinguish the figure from the void. Flat atmospheric haze. Steady snowfall.
+
+Foreground: Driving snow particles crossing the frame. The figure's translucent collarbone and upper ribcage.
+
+Midground: The figure's skull and upper body, sharp against the flat background.
+
+Background: The snow slope with seven or eight tiny dark figures descending in a line — the First Relief party — carrying packs and staffs, still far away. The frozen lake between them and the camp. A crude pine-branch cross in a snow mound behind the figure.
+
+Audio direction:
+- SFX: The soft patter of snow landing on the figure's skull and shoulders, a faint creak of the pine cross shifting in the wind, a distant shout — barely audible, carried on the wind from the rescue party, distorted and unclear
+- Ambience: The same wind, the same snow, the same Sierra silence — but now with the faintest distant sound of voices carried on gusts, appearing and disappearing, uncertain. The wind sustained and low. The acoustic emptiness of a snow-covered valley. Something has changed — but not enough, and not in time.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The full Truckee Lake camp is visible — three crude cabins along the lake shore, the frozen lake behind, mountains rising on both sides. The figure stands at center frame among the shelters. Classic adult animated comedy wide tableau staging.
+
+Visual transition: NEW location — cut from the mountainside to the full camp view. Wider framing establishes the geography of the trap.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands at center frame, arms wrapped around its own ribcage. For the first three seconds, the figure's skull slowly pans left to right, surveying the camp — taking in the cabins, the huddled people, the emaciated oxen. At second four, the figure's skull stops, fixed on something — the two remaining oxen standing motionless by a pine tree, ribs visible. The figure's arms tighten around its own ribcage. For the remaining seconds, the figure slowly turns its skull to look toward the frozen lake and the mountain walls beyond — scanning for any exit, finding none. The shoulders slump forward incrementally.
+
+Flat overcast lighting. Blue-white snow, steel grey sky, dark pine green, bone white, dirty canvas beige on the shelters. Flat atmospheric snow haze. Snow particles drift steadily throughout. No shadows, no warmth.
+
+Foreground: A crude log-and-rock cabin wall filling the left edge of frame. An empty cast-iron pot sitting in the snow. Snow particles drifting.
+
+Midground: The figure at center. The three cabins — Breen, Murphy, Graves-Reed — built against large boulders, roofs of pine logs and rawhide. Figures moving slowly between them. Two emaciated oxen standing motionless by a pine tree.
+
+Background: Truckee Lake frozen white and flat. Granite walls rising on both sides. Dark pine silhouettes. Steel grey sky pressing down. Steady snowfall.
+
+Audio direction:
+- SFX: The hollow thud of a hand axe striking frozen wood, the low moan of an ox, canvas flapping weakly in the wind, the crunch of footsteps in compacted snow, a child's distant whimper quickly muffled
+- Ambience: Sierra Nevada lake valley in winter — wind funneling between granite walls with a low sustained moan, the deep silence of heavy snow absorbing all sound, occasional creaking of cabin timbers under snow weight, the flat acoustic deadness of a snow-buried landscape
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

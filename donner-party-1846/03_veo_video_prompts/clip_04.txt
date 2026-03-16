@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, high angle looking down the slope. Locked camera, flat composition, no movement. The figure and a line of struggling figures are small shapes on a vast white mountainside. Classic adult animated comedy wide environmental staging — the landscape dwarfs the characters.
+
+Visual transition: NEW location — cut from cabin interior to exterior mountainside. Dramatic scale shift from claustrophobic close-up to overwhelming wide shot.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure is waist-deep in snow on a steep slope, pushing forward with arms braced against the drifts. For the first three seconds, the figure pushes forward with exaggerated effort — arms scooping snow aside, each step sinking deep. At second four, the figure stops and looks back — behind it, a line of seven struggling figures strung across the slope, one of whom is on their knees. The figure turns forward again and pushes another step upward. At second six, the figure's foot slips and it slides backward half a body length. The figure catches itself, arms splayed in the snow. For the final seconds, the figure looks up at the pass above — still impossibly far — and its head drops forward in exhaustion.
+
+Flat overcast lighting. Blue-white snow, steel grey sky, dark pine green. Flat atmospheric snow haze reducing visibility at distance. Snow particles drift across the frame throughout.
+
+Foreground: Snow-heavy pine branches drooping into frame from above. Crude snowshoe tracks in the snow, already filling with fresh powder.
+
+Midground: The figure and the straggling line of Forlorn Hope party members — seven or eight small flat 2D figures in heavy wool coats and blanket wraps, wearing crude oxbow snowshoes, spread across the slope at varying distances.
+
+Background: The granite ridge of the pass above, snow depth burying trees to their upper branches. Steel grey sky. The slope stretches up and up.
+
+Audio direction:
+- SFX: The deep whomp of snow compacting under each step, the scrape of crude snowshoes on ice crust, labored breathing (not speech — physical exertion sounds), the crack of a snowshoe frame snapping, a distant rumble of snow settling on the slope
+- Ambience: High Sierra exposed ridge — howling wind across open snowfields, the whistling of gusts through the pass notch above, the vast empty acoustic space of a mountain valley, snow hissing against pine bark
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
