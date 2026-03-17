@@ -1,28 +1,28 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animated comedy scene, vertical 9:16, 1080p.
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
 
-Camera: Static wide shot. Locked camera, flat composition, no movement. Elevated angle looking down across Halifax Harbour narrows showing both ships and the burning Mont-Blanc. Classic adult animated comedy wide tableau staging.
+Camera: Static wide environmental shot, eye level from the waterfront. Locked camera, flat composition, no movement. The Richmond District hillside fills the frame — crowd of onlookers, wooden houses, and the harbour below with the burning ship. Classic adult animation wide tableau staging.
 
-Visual transition: Same harbour, wider framing — pulling back to reveal the scale of the harbour and the two ships.
+Visual transition: NEW location — cut from the wharf to a hillside street above the harbour. Wider framing establishes the scale of the crowd watching and the proximity of the residential district to the fire.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: The figure stands small on the crowded wharf at bottom of frame among onlookers. Seconds 1-3: the figure shifts weight nervously, skull turning left and right scanning the crowd of spectators who are pointing and watching with curiosity. Seconds 4-6: the figure takes a step toward the wharf railing, translucent hand reaching out to grip it, leaning forward to peer at the burning ship. Seconds 6-8: the figure jerks back from the railing as the fire intensifies — a visible flare of brighter orange from the ship — and raises both hands in a defensive cartoon flinch, then slowly lowers them, still watching.
+Character action over 8 seconds: The figure stands among the crowd on Richmond Street, initially watching the fire with the same curious posture as everyone else. Seconds 1-3: still, skull tilted toward the harbour, matching the crowd's fascination. Seconds 4-5: the figure's head turns slowly, looking at the crowd around it — families, children — with growing unease. Seconds 6-8: the figure takes a half-step backward, separating slightly from the crowd, skeletal hands clenching at its sides. A slow cartoon head-turn back toward the ship. Mouth remains closed.
 
-Flat overcast lighting. Palette: slate grey sky, cold steel blue water, weathered brown timber, dirty white smoke shifting to orange-yellow at the fire's base, muted browns and pale blues of hillside houses. The smoke column grows visibly larger over the 8 seconds.
+Flat even lighting under overcast sky. Palette: slate grey, iron blue, teal harbour water, muted timber greens and browns for houses, vivid orange-red glow on the horizon, black smoke column.
 
-Foreground: Wharf railing with rope lines, stacked shipping crates stenciled with text, iron bollards. Frost on surfaces.
+Foreground: Wrought-iron railing along the hillside street. A child's wooden hoop toy leaning against a lamppost. Cobblestone street with frost.
 
-Midground: The figure among the crowd on the wharf. The harbour narrows with the burning Mont-Blanc — dark hull, benzol barrels ablaze on deck, massive smoke column. The SS Imo at an angle nearby with bow damage visible.
+Midground: The figure amid the crowd — men in overcoats and bowler hats, women in long skirts and shawls, children in wool coats. Everyone watching the harbour. Some lean over the railing.
 
-Background: Both shores of the narrows — Richmond on the Halifax side climbing the hillside with dense wooden buildings, Dartmouth across the water. The overcast sky. Railway infrastructure along the waterfront. The smoke column dominating the upper frame, growing taller.
+Background: Halifax Harbour below — the Narrows with the Mont-Blanc fully engulfed in vivid orange-red flame, massive black smoke column. Pier 6 and Richmond waterfront — tightly packed wooden houses, factories, rail yards. A Halifax Tramway streetcar stopped on the tracks. Dartmouth across the water.
 
 Audio direction:
-- SFX: The intensifying roar of the ship fire, creak of the wooden wharf under shifting crowd weight, harbour water sloshing against pilings, a distant fire bell clanging, the groan of the Mont-Blanc's hull expanding in the heat, barrels popping and hissing on the burning deck
-- Ambience: Growing crowd murmur — excited voices, not yet panicked, the curious buzz of spectators watching a ship fire — overlapping chatter carried on cold air, seagulls, wind off the harbour, the omnipresent crackling roar of the fire growing louder
+- SFX: The distant rumble of the burning ship carrying up the hill, glass windows rattling faintly in their frames from concussive pulses, a horse's nervous whinny from a nearby cart, the electric buzz of the stopped tramway, a window sash being thrown open with a wooden thunk
+- Ambience: Excited and nervous crowd murmur — overlapping voices echoing off wooden house facades, children shouting and pointing, the steady cold wind whistling through telegraph wires, distant factory bells ringing alarm, the hum of a waterfront city on a winter morning
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

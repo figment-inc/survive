@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p.
+
+Camera: Static wide establishing shot, eye level. Locked camera, flat composition, no movement. An empty London street stretching into the distance. The figure stands alone in the center of the deserted lane. Classic adult animation wide desolation tableau staging.
+
+NEW location context — cut from the burial pit to a deserted London street. Daylight has returned but the city is empty. The haunting aftermath.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-3, the figure stands perfectly still in the center of the empty lane, orb-eyes staring directly at the viewer. Arms at sides. A ghostly stillness — indistinguishable from a ghost in this dead city. Seconds 4-5, the figure's skull performs a very slow turn, looking down the empty street in both directions — seeing no one. Every door marked with a red cross. Every chair abandoned. Seconds 6-8, the figure turns back to face the viewer. The orb-eyes hold the camera. No movement. The figure stands in the empty plague city, the last thing moving on a street of the dead. A single crow lands on a rooftop in the background at second 7. The figure does not react.
+
+Flat even lighting — the sickly yellow-green at maximum intensity. Daylight but filtered through oppressive haze that makes it feel like perpetual dusk. Palette: murky olive, jaundiced yellow, charcoal, faded red crosses, the figure's pale translucent form the only bright element in an olive-dark void.
+
+Foreground: Cobblestones with grass growing between them — the streets have been empty long enough for weeds to sprout. A discarded bill of mortality broadsheet in the gutter, its columns of parish names and weekly death counts visible. A rat sitting on a doorstep, unafraid.
+
+Midground: The figure standing alone. On every door lining both sides of the street — red crosses. Every single one. Some faded, some fresh. Padlocks on hasps. The chairs where watchmen sat are empty — abandoned posts. The empty chairs are the most haunting detail.
+
+Background: The lane stretches toward a distant church steeple — old St. Paul's Cathedral before the 1666 fire. The sickly haze is nearly opaque. No human figures visible anywhere. Flat grey smoke from distant bonfires still burning, tended by no one. A crow perches on a rooftop at the far end.
+
+Audio direction:
+- SFX: Wind — a hollow, mournful wind channeling through the empty streets, fluttering the broadsheet on the ground. A crow cawing — sharp, echoing off empty stone facades. The creak of a shop sign swinging on rusty hinges — no one to take it down. A door somewhere banging open and closed in the wind — no one to shut it. A rat's claws on cobblestones.
+- Ambience: The sound of an empty city — vast, cavernous silence where there should be the bustle of hundreds of thousands. Wind is the dominant sound. A single distant church bell tolls — automatic, mechanical, no sexton pulling the rope anymore. The faint crackle of untended bonfires burning low. The absence of human sound is the most disturbing ambience — a metropolis reduced to wind and crows.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

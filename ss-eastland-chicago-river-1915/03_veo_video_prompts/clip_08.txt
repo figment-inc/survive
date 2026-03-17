@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p.
+
+Camera: Static close-up, eye level. Locked camera, flat composition, no movement. Tight framing on a mooring line connecting the capsized hull to the wharf bollard. The figure's translucent hand reaches up from below the waterline toward the rope. Classic adult animation close-up staging — intimate, haunting.
+
+Visual transition: Cut from the wide disaster scene to this final intimate detail — the mooring rope that kept the ship tied to the dock even as it killed eight hundred forty-four people.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Only the figure's forearm and hand are visible — reaching up from below the dark olive-green water surface toward the taut mooring rope. Seconds 1-3: the translucent hand extends upward, fingers spread, skeletal bones clearly visible through the pale skin. The fingertips are inches from the rope — close but not touching. Water beads on the translucent skin. Seconds 4-6: the hand slowly descends — not a sudden drop but a gradual, exhausted sinking. The fingers curl slightly inward. The gap between fingertips and rope widens. Seconds 7-8: the hand slips below the water surface. The olive-green water ripples once, then stills. Only the taut mooring line remains in frame — connecting the capsized ship to the dock it never left.
+
+Flat even lighting. Tight palette — wet hemp rope (tan-brown), olive-green water, cast-iron bollard (dark grey-green), the figure's pale translucent skin. The mooring line is the visual anchor — taut, permanent, connecting ship to shore.
+
+Foreground: The taut hemp mooring line stretching diagonally across the frame. The cast-iron bollard on the wharf, green with algae.
+
+Midground: The gap between rope and hand. Dark olive-green water. The figure's arm descending.
+
+Background: The dark riveted hull of the capsized Eastland, rendered in soft flat 2D. The wharf edge. Distant figures on the hull. Pewter sky at the top of frame.
+
+Audio direction:
+- SFX: Water rippling softly around the sinking hand, the creak of the mooring rope under tension — a slow fiber-on-fiber groan, a single drop of water falling from the rope back into the river with a quiet plip, the faint metallic settling groan of the hull in the distance
+- Ambience: The sounds have pulled back — the crowd noise is now distant and muffled, the immediate space around the rope and water is quiet, almost hushed, the river lapping gently against the wharf pilings, a strange calm in the center of catastrophe
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

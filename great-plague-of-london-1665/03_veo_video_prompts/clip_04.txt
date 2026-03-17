@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The figure runs down a London lane toward a city gate in the background. A watchman blocks the path ahead. Classic adult animation wide action staging.
+
+NEW location context — cut from the plague doctor examination to an escape attempt. The figure is now moving through the streets toward the city gates.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-3, the figure runs with exaggerated cartoon arm-pumping down the lane toward the city gate visible in the background, bare feet slapping cobblestones. Seconds 4-5, a watchman steps into the lane ahead, arms spread wide, blocking the path — the figure skids to a cartoon stop, feet sliding on the stones. Seconds 6-7, the figure looks frantically left and right for another way through — head snapping back and forth in rapid cartoon turns. Second 8, the figure looks past the watchman toward the gate — it is visibly swinging shut. The figure's shoulders slump in a slow cartoon deflation of hope.
+
+Flat even lighting, sickly yellow-green haze thicker than previous clips — visibility is reduced. Palette: murky olive, jaundiced yellow, charcoal, stone grey of the gatehouse, dark timber brown, red cross accents on doors lining both sides of the lane.
+
+Foreground: Scattered straw and refuse on cobblestones. A knocked-over wooden bucket. A trampled broadsheet in the gutter.
+
+Midground: The figure running, then stopped by the watchman. The watchman wears a dark coat and flat-brimmed hat, carrying a staff horizontally across the lane. Red-crossed doors on either side of the street.
+
+Background: A medieval London city gate — stone archway with a pointed arch, iron-studded wooden doors being pushed shut by two guards. Beyond the closing gate, a glimpse of open road and green countryside. A horse-drawn coach passes through just before the gates close — the wealthy escaping. Common people on foot are turned back by guards with halberds.
+
+Audio direction:
+- SFX: The figure's bare feet slapping rapidly on wet cobblestones. The heavy groan of the city gate's oak doors swinging on iron hinges. The clang of an iron bolt being dropped into place. The watchman's staff striking the cobblestones — a sharp crack. A horse whinnying as the coach passes through. Cart wheels on stone. The rattle of a padlock being secured on the gate.
+- Ambience: The oppressive quiet of plague-emptied streets punctuated by distant church bells. A woman's muffled pleading from the direction of the gate. Wind carrying the acrid smell of tar bonfires — rendered as a crackling fire ambience from multiple directions. The low, constant background hum of a terrified city — not bustling commerce but suppressed, fearful activity behind closed doors.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

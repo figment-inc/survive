@@ -1,23 +1,28 @@
-Cinematic vertical 9:16 video, 1080p.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Medium shot, eye level, static camera with a subtle handheld drift — the translucent character stands on wet cobblestones looking up at the massive molasses tank. The character is positioned slightly left of center, the tank's curved steel wall filling the right side and upper portion of frame. Over eight seconds, the figure tilts its skull back to stare upward, raises one translucent hand to shade its brow, then slowly lowers the hand and takes a step backward — sensing something wrong.
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
 
-Transition from clip 01: cut from the establishing wide to this medium shot with the character now present on the street, maintaining the same location but tightening the framing to introduce our unfortunate visitor.
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The full width of Commercial Street fills the frame — the tank rupturing at the top, the molasses wave surging outward, the figure in the midground. Classic adult animation wide-tableau staging.
 
-PERIOD AMBIENT lighting — flat January midday, pale diffused light, cool blue-grey tones. The translucent figure catches the ambient light, its internal skeleton visible as darker structures through the pale skin. The molasses stains on the tank appear wet and glistening.
+Visual transition: Same location, cut to wider framing showing the tank mid-rupture. The scale of the disaster is now visible.
 
-Foreground: A wooden barrel on its side leaking dark molasses onto the cobblestones in a slow viscous pool. A discarded copy of the Boston Globe, its pages damp and curling. The cobblestones wet with snowmelt, uneven, patched with brick.
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
-Midground: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. The figure has an eerie, anatomical quality. Performance: The figure stands near a cast-iron lamppost. For the first three seconds, it looks upward at the tank with curiosity, skull tilted back, pale orb eyes wide. At second four, it raises one translucent hand to shade its brow. At second six, the hand slowly lowers and the figure takes one step backward, the body language shifting from curiosity to unease — shoulders drawing inward, the ribcage visible through the torso seeming to tighten.
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Background: Italian-American longshoremen in flat caps and wool coats eating lunch on a loading dock, tin pails open. Three boys in knickerbockers collecting leaked molasses on sticks near the tank's base, laughing. The elevated railway trestle beyond. A horse-drawn coal delivery wagon.
+Character action over 8 seconds: At ~0 seconds, the figure is mid-turn, looking over one shoulder at the tank. At ~1-2 seconds, the tank wall splits open with a catastrophic burst — the figure does a full-body cartoon flinch, arms thrown up defensively. At ~3-4 seconds, the figure turns and begins running toward camera with exaggerated arm-pumping, legs cycling. At ~5-6 seconds, the dark brown wave fills the background and gains on the figure rapidly. At ~7-8 seconds, the wave is directly behind the figure, towering two stories above, about to engulf. The figure's running becomes more desperate — leaning forward, arms flailing.
 
-The air carries a faint warm haze — coal smoke from chimneys, sea moisture from the harbor, the sweet fermenting smell of molasses radiating warmth. Steam wisps from manholes.
+Flat even lighting on character. Palette: deep treacle brown wave dominating the background, rusted iron oxide steel fragments flying through the air, cold slate grey sky above, flat red-brown brick, dirty amber wood debris in the wave.
 
-The longshoremen laughing and eating, oblivious. The boys playing. A woman in a black shawl crossing the street with a shopping basket. Everyday life in the shadow of the tank.
+Foreground: Cobblestones. A toppled wooden barrel rolling. A torn steel plate spinning through the air — flat iron-grey with rivet holes.
 
-No dialogue. No speech. No talking. The character reacts silently through physical gestures, facial expressions, and body language only. All audio is ambient environmental sound and sound effects only.
+Midground: The figure running. Other pedestrians in 1919 winter clothing — wool overcoats, derby hats — also running. A horse rearing, its cart overturning.
+
+Background: The ruptured tank — steel wall peeled open. The two-story molasses wave surging outward, dark treacle brown, with debris embedded: splintered wood, a wagon wheel, bricks. The elevated railway trestle above.
 
 Audio direction:
-- SFX: The thick drip-drip of molasses leaking from the tank seams, each drop landing with a wet viscous splat. Children's laughter near the tank. The clop of the horse's hooves on cobblestones. The creak of the wooden loading dock under the longshoremen's weight. A tin lunch pail scraping on wood.
-- Ambience: Boston North End at midday — Italian-accented voices in background murmur, the rumble of the elevated railway, seagulls, the clatter of Commercial Street traffic, a distant factory whistle, the general hum of a working waterfront neighborhood on an oddly warm winter day.
+- SFX: The deafening crack of steel splitting — a sound like a cannon shot followed by the shriek of tearing metal. Rivets firing off like bullets, pinging off brick walls. The deep, wet, rumbling roar of two million gallons of molasses surging outward — a thick, heavy, rolling sound unlike water. Splintering wood as the wave smashes through a shed. A horse's panicked whinny. Cobblestones cracking under the wave's pressure.
+- Ambience: The roar of the wave filling all space — a viscous, heavy rumble. Overlapping panicked crowd sounds — running footsteps, shouts echoing off brick walls. The grind and snap of structures failing. The elevated railway trestle groaning overhead.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

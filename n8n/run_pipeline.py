@@ -713,6 +713,7 @@ def run_qa_phase(episode, ep_dir, regen: bool = False):
         return True
 
     videos_dir = ep_dir / "output" / "videos"
+    images_dir = ep_dir / "output" / "images"
     clips = episode.get("clips", [])
 
     clip_paths: list[Path] = []
@@ -726,7 +727,16 @@ def run_qa_phase(episode, ep_dir, regen: bool = False):
         print(f"  [{ts()}] QA: Not enough clips to compare ({len(clip_paths)}) — skipping.")
         return True
 
-    results = check_clip_consistency(clip_paths, gemini_key)
+    ground_truth = images_dir / "clip_01_frame.png"
+    if ground_truth.exists():
+        print(f"  [{ts()}] QA: Using clip 01 keyframe as ground truth for style comparison")
+    else:
+        ground_truth = None
+
+    results = check_clip_consistency(
+        clip_paths, gemini_key,
+        ground_truth_frame=ground_truth,
+    )
 
     failed_clips = [r for r in results if not r.passed]
     if not failed_clips:
@@ -735,13 +745,22 @@ def run_qa_phase(episode, ep_dir, regen: bool = False):
 
     if regen:
         print(f"\n  [{ts()}] QA: {len(failed_clips)} clips flagged — attempting re-generation...")
-        from lib.veo import get_client, load_reference_images, select_refs_for_prompt, generate_video
+        from lib.veo import (
+            get_client, load_reference_images, select_refs_for_prompt,
+            generate_video, extract_style_anchor_frames,
+        )
 
         client = get_client(gemini_key)
         all_refs = load_reference_images(CHANNEL_DIR)
-        images_dir = ep_dir / "output" / "images"
         episode_style = episode.get("style_description")
         prompts = episode["video_prompts"]
+
+        style_anchor_refs: list[bytes] = []
+        clip_01_video = videos_dir / "clip_01.mp4"
+        if clip_01_video.exists():
+            anchor_frames = extract_style_anchor_frames(clip_01_video)
+            style_anchor_refs = [f.read_bytes() for f in anchor_frames]
+            print(f"  [{ts()}] QA regen: loaded {len(style_anchor_refs)} style anchor frames from clip 01")
 
         for qa_result in failed_clips:
             clip_idx = int(qa_result.clip_id) - 1
@@ -768,6 +787,7 @@ def run_qa_phase(episode, ep_dir, regen: bool = False):
                 resolution=resolution,
                 ref_images=ref_images,
                 first_frame_path=first_frame if first_frame.exists() else None,
+                style_anchor_refs=style_anchor_refs if style_anchor_refs else None,
                 episode_style=episode_style,
             )
     else:
@@ -851,6 +871,8 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
     from lib.mixer import (
         stitch_clips, stitch_clips_with_transitions,
         burn_location_title, mix_final_audio,
+        validate_narration_timing, validate_clip_narration_alignment,
+        probe_audio_duration,
     )
 
     slug = episode["episode_slug"]
@@ -887,11 +909,31 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
 
         final_mixed_path = final_dir / f"final_mixed_{slug}.mp4"
         print(f"\n  [{ts()}] Overlaying full narration + music onto stitched video...")
+
+        atempo = 1.0
+        if narration_path.exists() and stitched_path.exists():
+            atempo = validate_narration_timing(narration_path, probe_audio_duration(stitched_path))
+
+        timestamps_path = ep_dir / "output" / "audio" / "narration_timestamps.json"
+        if timestamps_path.exists() and narration_path.exists():
+            import json as _json
+            try:
+                word_ts = _json.loads(timestamps_path.read_text())
+                clip_durs = [(c["id"], c.get("duration", 4)) for c in clips]
+                validate_clip_narration_alignment(
+                    word_timestamps=word_ts,
+                    clip_durations=clip_durs,
+                    narration_atempo=atempo,
+                )
+            except Exception as e:
+                print(f"  [{ts()}] WARNING: alignment check failed: {e}")
+
         mix_ok = mix_final_audio(
             video_path=stitched_path,
             output_path=final_mixed_path,
             narration_path=narration_path if narration_path.exists() else None,
             music_path=music_path if music_path.exists() else None,
+            narration_atempo=atempo,
         )
 
         if mix_ok and final_mixed_path.exists():
@@ -1046,34 +1088,46 @@ def publish_to_metricool_with_upload(episode, final_path, asset_url=None):
 
 
 def validate_word_counts(episode):
-    """Check that narration word counts are within the 110-120 word target.
+    """Check that narration word counts fit within the crossfade-adjusted video duration.
 
     The narration is continuous prose generated as one audio file and
-    overlaid on the final stitched video. Per-clip word limits are soft
-    targets — the total word count is what matters.
+    overlaid on the final stitched video. Crossfade transitions eat ~2.3s
+    of video time, and narration starts with a 0.5s delay, so the effective
+    audio window is shorter than the raw clip sum.
     """
-    WORDS_PER_SEC = 2.3
-    WORD_MIN = 100
-    WORD_MAX = 130
+    from lib.mixer import estimate_crossfade_loss, NARRATION_DELAY
+
+    WORDS_PER_SEC = 2.4
 
     full_text = _extract_full_narration_text(episode)
     total_words = len(full_text.split()) if full_text else 0
 
-    narration_seconds = total_words / WORDS_PER_SEC
-    print(f"  Total narration: {total_words} words")
-    print(f"  Estimated narration duration: {narration_seconds:.1f}s (at {WORDS_PER_SEC} wps)")
-
-    if total_words < WORD_MIN:
-        print(f"  [{ts()}] WARNING: Total {total_words} words is below {WORD_MIN}-word minimum "
-              f"— script may be too shallow")
-    elif total_words > WORD_MAX:
-        print(f"  [{ts()}] WARNING: Total {total_words} words exceeds {WORD_MAX}-word target "
-              f"(~{narration_seconds:.0f}s) — consider trimming")
-    else:
-        print(f"  [{ts()}] Word count OK: {total_words} words (target {WORD_MIN}-{WORD_MAX})")
-
     clips = episode.get("clips", [])
     num_clips = len(clips)
+    raw_video_duration = sum(float(c.get("duration", 8)) for c in clips)
+    crossfade_loss = estimate_crossfade_loss(num_clips)
+    effective_duration = raw_video_duration - crossfade_loss - NARRATION_DELAY
+    narration_seconds = total_words / WORDS_PER_SEC
+
+    word_max = int(effective_duration * WORDS_PER_SEC)
+    word_min = max(80, word_max - 15)
+
+    print(f"  Total narration: {total_words} words")
+    print(f"  Estimated narration duration: {narration_seconds:.1f}s (at {WORDS_PER_SEC} wps)")
+    print(f"  Video budget: {raw_video_duration:.0f}s raw - {crossfade_loss:.1f}s crossfades "
+          f"- {NARRATION_DELAY}s delay = {effective_duration:.1f}s available")
+    print(f"  Word budget: {word_min}-{word_max} words (fits {effective_duration:.1f}s)")
+
+    if total_words < word_min:
+        print(f"  [{ts()}] WARNING: Total {total_words} words is below {word_min}-word minimum "
+              f"— script may be too shallow")
+    elif total_words > word_max:
+        overflow_seconds = narration_seconds - effective_duration
+        print(f"  [{ts()}] WARNING: Total {total_words} words exceeds {word_max}-word budget "
+              f"(~{overflow_seconds:.1f}s overflow) — narration may be truncated or sped up")
+    else:
+        print(f"  [{ts()}] Word count OK: {total_words} words (budget {word_min}-{word_max})")
+
     if num_clips != 8:
         print(f"  [{ts()}] WARNING: Expected 8 clips, got {num_clips}")
     else:
@@ -1105,6 +1159,7 @@ def main():
     parser.add_argument("--skip-post", action="store_true", help="Skip stitch phase")
     parser.add_argument("--skip-audio", action="store_true", help="Skip ElevenLabs audio generation phase")
     parser.add_argument("--skip-mix", action="store_true", help="Skip per-clip audio mixing phase")
+    parser.add_argument("--skip-captions", action="store_true", help="Skip Remotion karaoke captions phase")
     parser.add_argument("--no-chain", action="store_true", help="Use independent clip generation instead of extension chain")
     parser.add_argument("--qa-regen", action="store_true", help="Re-generate clips that fail visual consistency QA")
     args = parser.parse_args()
@@ -1129,20 +1184,28 @@ def main():
     episode = generate_episode_content(topic)
     total_words, num_clips = validate_word_counts(episode)
 
-    if num_clips != 8 or total_words < 80 or total_words > 160:
+    max_retries = 2
+    for retry in range(max_retries):
+        if num_clips == 8 and 85 <= total_words <= 130:
+            break
         print(f"\n  [{ts()}] Script validation failed (words={total_words}, clips={num_clips}). "
-              f"Retrying with feedback...")
+              f"Retry {retry + 1}/{max_retries}...")
         feedback = (
             f"REVISION REQUIRED. Your previous output had {total_words} words "
-            f"(target: 110-120) and {num_clips} clips (target: 8). "
+            f"and {num_clips} clips. "
         )
-        if total_words > 130:
-            feedback += "CUT words aggressively — you are over the limit. "
-        if total_words < 100:
-            feedback += "Add more sensory detail — script is too thin. "
+        if total_words > 115:
+            feedback += (
+                f"You produced {total_words} words — the HARD LIMIT is 95-105 words. "
+                f"CUT {total_words - 100} words. Remove adjectives, compress sentences, "
+                f"eliminate any words that do not teach a fact or create dread. "
+                f"The narration must fit in 45 seconds of audio. "
+            )
+        if total_words < 85:
+            feedback += "Add sensory detail — script is too thin. Target 95-105 words. "
         if num_clips != 8:
             feedback += f"You must produce exactly 8 clips, not {num_clips}. "
-        feedback += "Regenerate the entire episode with these corrections."
+        feedback += "Regenerate the entire episode."
         episode = generate_episode_content(f"{topic}\n\n{feedback}")
         total_words, num_clips = validate_word_counts(episode)
 
@@ -1179,6 +1242,9 @@ def main():
 
     if final_path is None:
         final_path = ep_dir / "output" / "mixed" / f"final_{slug}.mp4"
+
+    if not args.skip_captions and final_path.exists():
+        final_path = run_captions_phase(final_path, ep_dir)
 
     phase_banner("GENERATION COMPLETE")
     if final_path.exists():

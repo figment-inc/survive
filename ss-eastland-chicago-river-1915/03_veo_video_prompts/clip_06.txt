@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p.
+
+Camera: Static low-angle shot from water level. Locked camera, flat composition, no movement. Looking up at the capsized hull looming overhead like a steel ceiling. The figure is at the waterline being pulled under. Classic adult animation low-angle dread staging.
+
+Visual transition: Same location, new angle — cut from the high-angle view above to water-level view below, now beneath the shadow of the hull.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure is mostly submerged — only the skull and one arm above the dark water surface. Seconds 1-2: the figure's hand reaches upward toward the massive dark hull above — an instinctive grab for something solid, but the hull is smooth riveted steel with no handholds. The pale orb eyes are wide, fixed upward. Seconds 3-4: the water pulls the figure under. The last visible element is the translucent hand — fingers spread, skeletal bones visible through the pale skin — sinking below the olive-green surface. The water closes over. Only bubbles remain.
+
+Flat even lighting — the darkest clip. The massive hull blocks the sky. Diffuse overcast light barely reaches this gap. Near-black steel above, dark olive-green water below. The figure's pale translucent skin is the only light element.
+
+Foreground: Dark olive-green water fills the lower frame — choppy, debris-filled. Air bubbles streaming from below.
+
+Midground: The figure at the waterline, disappearing.
+
+Background: The underside of the capsized hull — riveted steel plates, dripping, green with river slime. The massive dark form blocks the sky entirely. At the far edges, slivers of pewter overcast are visible.
+
+Audio direction:
+- SFX: Water closing over the figure — a heavy liquid gulp, the hollow echo of water sloshing against the hull's underside, air bubbles rising with a glassy popping, the muffled thud of something striking the hull from inside — passengers trapped in air pockets within the capsized vessel
+- Ambience: Underwater-adjacent acoustics — everything muffled and reverberant, the constant low groan of the settling hull transmitted through the water, distant crowd sounds filtered to an indistinct murmur, the eerie hollow space beneath the capsized ship
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

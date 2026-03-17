@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p. 8-second clip.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. Interior of a small Depression-era farmhouse. The figure crouches near a window, pressing wet rags against the frame. Classic adult animated comedy interior staging.
+
+Visual transition: NEW location — cut to interior of a farmhouse. The figure has sought shelter.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure kneels at the window, both skeletal hands pressing wadded cloth against the window seam. The figure works frantically, stuffing fabric into gaps with quick, desperate motions. Seconds 3-4: The figure's skull turns sharply toward the door as it bulges inward from wind pressure — a classic animated startled reaction, shoulders jumping. Seconds 5-6: The figure scrambles on hands and knees across the plank floor toward the door, grabbing a wet rag and pressing it against the gap at the bottom. Dust streams visibly through the gap despite the effort. Seconds 7-8: The figure sits back on its heels, looking at its hands — they are coated in brown mud from the wet rags mixing with dust. The kerosene lamp on the table flickers and dims. The figure's shoulders slump in defeat.
+
+Flat even lighting — warm amber glow from the kerosene lamp illuminating the interior in flat tones. Dust streams visible as thin flat lines of raw sienna entering through gaps. Palette: amber, burnt sienna, dark umber, ash grey, warm ochre.
+
+Foreground: A cast-iron cookstove with a dented kettle. An overturned wooden chair. Brown dust streaming through the door-frame gaps in thin horizontal lines.
+
+Midground: The figure moving between window and door. The kerosene lamp on the rough wooden table. Wet rags and flour-sack strips scattered on the floor. A Ball mason jar half-full of water turning brown.
+
+Background: Rough plank walls with visible gaps between boards — dust streaming through each gap. A wooden crucifix on the wall. Through the window, solid brown-black — total darkness outside. The walls visibly shudder from wind gusts.
+
+Audio direction:
+- SFX: The wet squelch of rags being pressed into gaps, the sustained rattle of the door in its frame, the creak and groan of wooden walls flexing under wind pressure, the sharp whistle of dust streaming through a gap, the tink of the kerosene lamp chimney vibrating, a glass jar sliding across the table from vibration
+- Ambience: The muffled roar of the storm outside — lower-pitched through the walls but omnipresent, the hiss of fine dust settling on every surface, the intermittent high-pitched whistle of wind finding new gaps, wooden beams groaning overhead
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

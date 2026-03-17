@@ -1,28 +1,28 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animated comedy scene, vertical 9:16, 1080p.
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
 
-Camera: Static dynamic wide shot, low angle looking slightly upward. Locked camera, flat composition, no movement. The shockwave is sweeping through the frame from left to right, toppling everything in its path. Classic adult animated comedy disaster staging.
+Camera: Static medium-low shot, low angle looking up at the figure. Locked camera, flat composition, no movement. The figure is on the ground among devastation, with the smoke-filled sky above. Classic adult animation low-angle vulnerability staging.
 
-Visual transition: Same forest, escalated destruction. The thermal fire gives way to the much more powerful mechanical shockwave — a visible wall of compressed air flattening everything.
+Visual transition: Same devastated setting, tighter framing. The figure has landed after being thrown by the shockwave. The forest is completely flattened.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 4 seconds: The figure is hit by the shockwave and launched into the air. Seconds 1-2: The figure is standing when a visible wall of compressed air distortion hits from the left — the figure is instantly swept off the ground, body going horizontal, arms and legs splaying in classic cartoon ragdoll physics. The skull faces the camera with wide pale orb eyes — a frozen expression of shock. Seconds 3-4: The figure tumbles through the air amid a cloud of debris — bark fragments, soil, pine needles, stones — all traveling at the same velocity. The figure rotates once, limbs trailing, completely helpless. Mouth remains closed.
+Character action over 4 seconds: The figure lies on its back among flattened timber, propped up on one elbow. At second 1, it slowly raises its head and looks around — every tree in every direction is down. At second 2, the figure reaches one arm upward toward the sky in a dazed, futile gesture. At second 3, the figure's arm drops. The orb eyes widen as the figure sees the thermal flash reignite — the scorched timber around it begins to catch fire. Small flat orange flames appear on the fallen trunks. The figure's body language conveys dawning horror — it survived the blast but the firestorm is beginning.
 
-Palette: Ash grey, charcoal black, pale splintered wood where trees snap, dust brown, residual orange glow on the horizon. The air is filled with flat grey-brown dust and debris. Cold and hot tones collide — the cool grey of the shockwave dust against the warm orange of fires behind.
+Flat even lighting on the figure. The palette is ashen — grey-brown fallen timber, charcoal-black scorched earth, flat grey-brown smoke haze filling the sky. Small flat orange flame shapes begin appearing on the timber.
 
-Foreground: Stripped bark fragments, pine needles, soil, and small rocks rendered as flat shapes all flying horizontally from left to right. A broken tree trunk freshly snapped — bright pale splintered wood at the break point contrasting with dark bark.
+Foreground: Scorched flat brown earth with cracked texture. A fallen larch trunk stripped completely bare, rendered in flat pale grey. Small orange flames beginning.
 
-Midground: The airborne figure amid falling trees. Massive larch trunks toppling uniformly to the right — their root systems ripping from the earth in fans of dark soil. The shockwave distortion rendered as concentric flat white-grey arc lines sweeping across the frame.
+Midground: The figure among the radially-aligned fallen timber. Every tree is down in neat parallel lines. Stumps with small fires starting.
 
-Background: An expanding dome of grey-white shockwave distortion in the sky. The forest canopy beyond is being flattened in real-time — a visible advancing line where standing forest becomes fallen forest.
+Background: Vast flattened landscape in flat grey-brown. A massive dark grey smoke column rises from the epicenter in the distance, mushrooming at the top. The sky is choked with flat grey-brown haze.
 
 Audio direction:
-- SFX: The shockwave arrival — a CRACK so loud it distorts, like the sky splitting open. Immediately followed by a sustained roar of wind at hurricane force. Trees snapping — hundreds of simultaneous sharp cracks, like a thousand wooden beams breaking at once. Root systems ripping from earth — deep tearing, grinding sounds. The figure's body tumbling through air — whooshing. Massive trunks slamming into the ground — deep percussive thuds that shake everything.
-- Ambience: Total overwhelming sonic wall — the shockwave IS the ambience. A sustained blast roar at maximum volume, drowning out all individual sounds. Wind at 300+ miles per hour creating a continuous tearing howl. The sound of a forest being destroyed all at once.
+- SFX: The crackling ignition of dry wood catching fire at multiple points, a groaning settling sound of massive timber shifting, the hiss of sap boiling in heated wood, small pops as fires spread
+- Ambience: An eerie post-blast quiet — the roar has faded to a distant low rumble, replaced by the growing crackle of spreading fire and a faint ringing tone suggesting pressure damage, wind picking up as the firestorm begins to draw air inward
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

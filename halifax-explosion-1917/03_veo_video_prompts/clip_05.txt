@@ -1,28 +1,28 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animated comedy scene, vertical 9:16, 1080p.
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
 
-Camera: Static medium shot. Locked camera, flat composition, no movement. The figure stands in the middle of the street, surrounded by civilians moving in both directions. Classic adult animated comedy medium shot staging.
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. Interior of a wooden house — the figure stands at a large front window looking out toward the harbour fire. The window dominates the centre of the frame. Classic adult animation interior staging.
 
-Visual transition: Same street location, tighter framing — the figure has stopped running and is now trapped in the crowd.
+Visual transition: Same location — cut from the street to inside the house the figure entered. Interior setting. The figure has found shelter but stands at the window — the worst possible position.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 4 seconds: Seconds 1-2: the figure stands frozen in the street, skull slowly turning toward the harbour — the fire glow is now overwhelmingly bright, casting the figure's translucent body in vivid orange. The figure's posture stiffens — shoulders rising, arms pulling tight to the body. Seconds 3-4: the figure's pale orb eyes go very wide. The translucent hands come up to the sides of the skull in a classic cartoon horror reaction — it sees something terrible. The figure begins to crouch instinctively, bending at the knees.
+Character action over 4 seconds: Seconds 1-2: the figure stands at the window, one skeletal hand pressed flat against the glass, skull angled down toward the harbour. The orange glow from outside illuminates the translucent skin. Second 3: the figure's head snaps upward as a flash of brilliant white light floods through the window — the glass catches the light. Second 4: the figure is frozen stiff with shock, backlit by the white flash, skeletal hand still on the glass. Mouth remains closed.
 
-Flat lighting with strong orange-yellow glow from the harbour direction now dominating. Palette: the muted browns and greys of the street now washed in intensifying warm orange. The fire glow is the dominant light source.
+Flat even lighting inside — warm muted domestic palette. Through the window: the cold grey-blue harbour palette, then a sudden flood of white-hot light at second 3-4. Palette shifts from cream walls and brown wood to overwhelming flat white.
 
-Foreground: A broken wooden crate spilling apples. A dropped newspaper. Slush on cobblestones.
+Foreground: Kitchen table with half-eaten breakfast — tin plate, ceramic mug, bread loaf. Cast-iron wood stove with steaming kettle. Faded floral wallpaper.
 
-Midground: The figure in the street. Civilians frozen around it, some now also turning to look with alarm.
+Midground: The figure at the window. White-painted window frame. Lace curtains pulled aside.
 
-Background: The harbour between buildings — the fire has reached a blinding white-orange intensity. The smoke column massive.
+Background: Through the window — the harbour, the fire, then the sudden white flash of detonation flooding the glass.
 
 Audio direction:
-- SFX: A deep subsonic rumble building rapidly — felt more than heard — the vibration of the ground itself, windows rattling in their frames, glass panes buzzing, a horse screaming, a metallic groan from the harbour
-- Ambience: The crowd noise shifting from curiosity to the first edge of alarm — voices rising in pitch, someone screaming, the fire roar now deafening, the air itself seems to vibrate, a high-pitched whine building
+- SFX: The faint tick of a mantel clock, the kettle's gentle whistle on the stove, a windowpane vibrating with a high-pitched hum that intensifies over 3 seconds, then at second 3 — an enormous CRACK like the sky splitting, the beginning of a concussive roar that cuts to —
+- Ambience: Muffled interior quiet — domestic calm with the distant rumble of the harbour fire filtering through the walls, then the ambient sound is obliterated by the onset of the blast wave
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

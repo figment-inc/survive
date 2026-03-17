@@ -1,23 +1,19 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. The flattened taiga, Tunguska, minutes after the event, June 30, 1908.
+Classic American adult animation frame, vertical 9:16 composition. Tunguska blast zone, aerial perspective of the devastation, June 30, 1908.
 
-Extreme wide shot, eye level. A panoramic view of complete devastation — the camera is positioned at ground level looking across a landscape where eighty million trees lie flat in uniform rows stretching to every horizon. The scale is staggering.
+Extreme wide overhead shot looking straight down. The figure is a tiny pale speck at the very center of a vast radial pattern of flattened trees. Eight hundred square miles of forest lie flat, every trunk pointing outward from the epicenter like the spokes of a wheel. The scale is staggering — the figure is almost invisible against the immensity of destruction.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. The figure is tiny — visible only as a small pale dot with a faint skeletal pattern, lying face-down on blackened ground at the exact center of the radial devastation pattern.
 
-The figure stands in the lower third of the frame — upright but barely, staggering, one arm bracing against a charred standing trunk (one of the epicenter trees stripped bare but still vertical). The figure's posture is dazed — knees slightly buckled, head hanging forward, orb eyes dim. The figure is minuscule against the devastation.
+Foreground: (Camera is overhead) The nearest flattened trees are rendered in detail — stripped bare trunks in flat pale grey, laid flat in perfect radial alignment, their root systems torn from the earth showing flat brown soil.
 
-Foreground: Charred fallen tree trunks crossing the frame horizontally, stripped of all bark and branches. Between them, scorched earth — flat black and dark brown. Ash settling like snow — tiny white-grey flecks.
+Midground: Thousands of flattened tree trunks forming the distinctive radial butterfly-wing pattern documented by Leonid Kulik's 1927 expedition. Scattered fires still burning, rendered as flat orange spots among the grey timber.
 
-Midground: The figure leaning against the stripped standing trunk. Around the figure, more bare vertical poles — the epicenter trees, branchless and barkless, standing like telephone poles in a wasteland. The contrast between these standing skeletons and the millions of fallen trunks beyond is stark.
+Background: The devastation pattern extends to every edge of the frame. At the outer margins, standing forest in flat deep boreal green forms a stark boundary — the precise edge of the blast radius. Rivers rendered as flat steel-blue threads wind through the destruction zone. Thin smoke haze covers everything in a flat grey-brown wash.
 
-Background: The flattened forest stretches to every horizon — an ocean of fallen grey-brown trunks lying in parallel rows. In the far distance, a dark wall of still-standing forest marks the outer blast radius. The sky is a flat dome of ash-grey and dust-brown, the sun reduced to a dim pale disc behind the particulate cloud. The mushroom cloud of dust and debris still hangs in the upper sky.
+Flat even lighting from directly above. The palette is ashen grey-brown flattened timber, charcoal-black burned areas, scattered orange fire spots, steel-blue rivers, and deep green surviving forest at the margins.
 
-Palette: Ash grey, charcoal black, dust brown, pale sun disc, muted warm grey sky. Drifting white-grey ash particles throughout. The scene is monochromatic devastation — all color has been burned away. The only distinctive form is the figure's pale translucent body.
-
-Period texture: The standing epicenter trees precisely match photographs from Kulik's 1927 expedition — bare poles with no bark, no branches, standing in a field of radially-fallen timber. The uniformity of the fallen trees' orientation is mathematically precise.
-
-Background activity: Ash drifting slowly downward. Thin smoke columns rising from scattered fires. A distant section of forest still actively burning — flat orange glow along the horizon. Complete silence implied — no birds, no wind, no life.
+Period texture: The distinctive pattern of trees flattened outward but still attached at their stumps — the signature of an aerial shockwave rather than a ground impact, exactly as photographed by the Kulik expedition nineteen years later.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

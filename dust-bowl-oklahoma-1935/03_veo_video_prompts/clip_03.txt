@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 720p. 4-second clip.
+
+Camera: Static close-up shot, slightly low angle. Locked camera, flat composition, no movement. The figure's upper body fills the center frame from chest to skull. The dust wall fills the entire background. Classic adult animated comedy close-up reaction staging.
+
+Visual transition: Same setting as previous clip, tighter framing — cut to close-up of the figure as the storm bears down.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Seconds 0-1: The figure faces the camera, orb-eyes wide, one skeletal hand pressed against the front of the skull in a bracing gesture. Seconds 2-3: The figure flinches as the first wave of dust hits — the air suddenly fills with dense brown particulate, whipping horizontally across the frame. The figure throws both arms up defensively. Second 4: The figure is partially obscured by the thickening dust, only the pale glow of the orb-eyes visible through the brown haze.
+
+Flat even lighting rapidly darkening — the scene transitions from dim sepia to near-darkness over 4 seconds as the storm front arrives. Palette pushed to its darkest: burnt umber, ash black, raw sienna, with the figure's pale translucent skin as the only light value.
+
+Foreground: Dense flat dust particles whipping horizontally across the frame, rapidly thickening. A strand of barbed wire vibrating in the wind.
+
+Midground: The figure's translucent torso — ribs, spine, clavicle visible. Wind visibly pushing against the figure. A dead bird tumbling past.
+
+Background: The dust wall has arrived — solid brown-black filling the entire background. No sky visible. No horizon.
+
+Audio direction:
+- SFX: The sudden crack of a wooden sign being ripped from its posts, the sharp ping of sand grains hitting metal, a hollow thud as something large strikes wood nearby, the snap of barbed wire breaking under tension
+- Ambience: A massive roar — like standing inside a waterfall of sand — overwhelming and sustained, the scream of wind through narrow gaps between buildings, the continuous sandblast hiss of billions of particles in motion
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,1 +1,23 @@
-Photorealistic 9:16 vertical image. Boston's North End waterfront, midday, January 15, 1919. Wide establishing shot, low camera angle looking upward at a massive riveted steel storage tank — fifty feet tall, ninety feet in diameter — looming against a pale winter sky. The tank is painted brown, streaked with dark stains where molasses has been seeping through riveted seams for years. Foreground: cobblestone street with patches of dirty January slush, a wooden pushcart loaded with burlap sacks abandoned at the curb, a stray terrier sniffing at a dark sticky patch on the stones where molasses has leaked. Midground: the enormous tank dominates the composition, its curved steel wall filling the center of frame, rivets visible in rows along the plates, dark treacly residue weeping from at least three seam joints. A narrow wooden boardwalk runs along the base. The Purity Distilling Company signage barely legible on a weathered wooden placard bolted to an adjacent structure. Background: the elevated railway trestle of the Boston Elevated Railway running parallel to Commercial Street, a three-story tenement building with laundry frozen stiff on lines between windows, the masts of cargo ships at the adjacent wharf, thin winter clouds. The air has a strange shimmer — unseasonably warm for January, 40 degrees Fahrenheit, the temperature swing stressing the metal. A faint brownish trickle runs from a seam near the tank's base, pooling on the boardwalk. Period details: 1919 Boston — horse-drawn wagons sharing the road with early Ford Model T trucks, gas street lamps alongside newer electric poles, immigrant tenement architecture crowding the waterfront. Ominous detail: a long vertical crack visible on one of the tank's steel plates, barely perceptible but unmistakable. PERIOD AMBIENT lighting — flat January midday light, pale and cool, weak winter sun diffused through thin overcast, no harsh shadows, everything washed in muted grey-blue tones with the brown tank as the dominant warm element. NO text, NO watermarks, NO logos, NO captions, NO overlays.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. Boston's North End waterfront, January 15, 1919, midday.
+
+Medium shot, low angle looking up. The figure stands in the middle of a narrow cobblestone street between brick tenements. Behind and above the figure, a massive riveted steel tank — fifty feet tall, ninety feet in diameter — looms, its curved wall bulging visibly. Brown liquid seeps from popped rivets, streaking the steel.
+
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The figure stands frozen mid-step, pale orb eyes wide, skull tilted upward toward the bulging tank wall. Arms slightly raised at the sides in a startled posture.
+
+Foreground: A wooden pushcart loaded with burlap sacks sits at the left edge of frame. A fire hydrant painted flat red. Cobblestones rendered as flat irregular grey shapes with thick outlines.
+
+Midground: The figure on the street. Brick tenement facades on either side — flat red-brown walls with dark window rectangles. Laundry lines strung between buildings with flat-colored shirts and sheets.
+
+Background: The enormous Purity Distilling Company storage tank dominates the upper half of the frame. Riveted steel panels in flat iron-grey. Brown streaks of molasses leak from seams. A cold white-grey sky above.
+
+Flat even lighting — overcast winter midday. Palette: deep treacle brown on the tank streaks, rusted iron oxide on steel, dirty amber on the cobblestones, cold slate grey on the sky, flat red-brown on brick. No shadows, no warmth.
+
+Period texture: A 1919 Boston Police patrol wagon — black box body on wooden-spoke wheels — parked at the curb. A city public works shed with corrugated metal roofing sits at the base of the tank.
+
+Background activity: Dock workers in flat-colored wool coats carrying crates. Children in knickers and newsboy caps playing near the tank base. A horse-drawn delivery wagon rattling down the street.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

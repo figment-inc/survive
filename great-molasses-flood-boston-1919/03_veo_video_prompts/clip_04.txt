@@ -1,23 +1,28 @@
-Cinematic vertical 9:16 video, 1080p.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Medium-wide shot, eye level, subtle handheld camera — the translucent character stands in the middle of Commercial Street, arms spread wide, frantically trying to warn the passersby around it. Over eight seconds, the figure gestures urgently toward the tank, steps toward people who ignore it, then turns to another group — growing increasingly desperate. Nobody pays attention.
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
 
-Transition from clip 03: cutting from the close-up at the tank base to this wider street scene — the character has pulled back from the tank and is now trying to alert the neighborhood. The widening frame shows how isolated the figure's alarm is amid the indifferent crowd.
+Camera: Static medium-wide shot, low angle. Locked camera, flat composition, no movement. The figure is on the elevated railway trestle, clinging to steel girders above the flooded street. Classic adult animation medium-wide staging with strong vertical composition — trestle structure above, molasses lake below.
 
-OMINOUS BUILDUP lighting — the flat winter daylight feels heavy and compressed. Pale sky above, muted tones, shadows deepening. An oppressive calm. The translucent figure stands out eerily against the brown and grey palette of the 1919 street.
+Visual transition: NEW location — cut from the engulfing close-up to the figure having climbed the railway trestle above the flood. Time has jumped slightly — the wave has passed and settled into a deep viscous lake.
 
-Foreground: A wooden vegetable cart with winter turnips and potatoes. A black cat on a stoop licking sticky residue from its paw. A puddle of snowmelt reflecting the pale overcast sky. Cobblestones wet and uneven.
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
-Midground: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. The figure has an eerie, anatomical quality. Performance: Seconds one through three — the figure stands with arms spread wide, gesturing urgently back toward the tank, weight forward on the balls of its feet, skull turning from person to person. Seconds four through six — the figure steps toward an Italian grandmother in a black shawl, translucent hands reaching out pleadingly, but the woman walks past without acknowledgment. Seconds six through eight — the figure turns toward two municipal workers leaning on shovels, gestures frantically at the tank, but they stare through it. The figure's shoulders slump slightly — futility settling in — but then it straightens again, refusing to give up, turning to find someone else.
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Background: The massive molasses tank rising above the tenement rooflines, its steel wall visibly bulging on one side. The elevated railway. Laundry between buildings. Chimney smoke in the still air. A horse tied to a hitching post stamping nervously, ears flat, nostrils flared — the only other creature sensing danger.
+Character action over 8 seconds: At ~0 seconds, the figure clings to a diagonal cross-brace of the trestle, about ten feet above the molasses surface. Legs wrapped around the steel. Dark brown molasses stains visible on the lower body. At ~1-2 seconds, the figure's skull turns downward, surveying the flooded street below — a slow, deliberate cartoon head-turn. At ~3-4 seconds, the trestle groans and shifts — the figure grabs tighter, both hands clamping onto the girder, a quick cartoon startle reaction. At ~5-6 seconds, the steel support beneath the figure's feet buckles visibly — the figure scrambles higher, climbing with exaggerated arm-over-arm cartoon movements. At ~7-8 seconds, the entire trestle section tilts several degrees — the figure slides, catches a rivet with one hand, dangling. Legs kicking over the brown surface below.
 
-Steam from manholes. The odd warm January air. An unnatural stillness.
+Flat even lighting on character. Palette: deep treacle brown flood surface below, rusted iron oxide on the trestle steel, cold slate grey sky, flat red-brown exposed brick of destroyed tenements, dirty amber splintered wood floating on the molasses.
 
-Pedestrians walking, a policeman on his beat, the grandmother with her shopping bag, the workers leaning on shovels. Daily life, unremarkable.
+Foreground: A bent steel column — trestle support buckled by the wave. Flat brown molasses drips from the lowest girder. A railway tie hanging loose.
 
-No dialogue. No speech. No talking. The character reacts silently through physical gestures, facial expressions, and body language only. All audio is ambient environmental sound and sound effects only.
+Midground: The figure on the trestle. The steel lattice structure — riveted flat iron-grey beams. The molasses lake below, flat dark treacle surface with slow ripples and floating debris.
+
+Background: The devastated street — collapsed wooden buildings, walls smashed open. A horse struggling in the molasses. Brick tenements with ground floors destroyed. The cold grey sky.
 
 Audio direction:
-- SFX: The horse stamping and snorting, pulling at its tether. The creak of the vegetable cart's wooden wheels. Footsteps on cobblestones — the grandmother's shuffling gait, the policeman's steady tread. The distant clang of a trolley bell. A pigeon's wing-beat.
-- Ambience: The North End at midday — the murmur of Italian conversations from open windows, children playing somewhere out of sight, the rattle of the elevated railway as a train passes overhead, the general waterfront hum. An ominous quiet beneath it all — the tank's structural groaning now audible as a bass note under the city sounds.
+- SFX: The deep metallic groan of stressed steel girders flexing under shifted weight. Rivets popping with sharp pings. The wet, heavy sucking sound of the molasses pulling at anything that touches its surface. The crack of a wooden railway tie snapping. The figure's hands slapping against steel — sharp, hollow metallic impacts. The slow gurgle of viscous liquid flowing around structural debris.
+- Ambience: An eerie post-catastrophe soundscape — muffled calls for help from multiple directions, the thick wet lapping of molasses against brick walls, the continuous low groan of the damaged trestle settling, wind across the flooded landscape. The molasses has its own sound — slow, heavy, glutinous.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

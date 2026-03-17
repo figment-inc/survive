@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p.
+
+Camera: Static high-angle shot looking down at the water gap between hull and wharf. Locked camera, flat composition, no movement. The figure is in the narrow channel of churning water. Classic adult animation high-angle vulnerability staging.
+
+Visual transition: Same setting, new angle — cut from the hull exterior to looking straight down into the gap where passengers are trapped.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure is in the water between the hull and wharf, submerged to the shoulders. Second 1: the figure reaches upward with one arm toward the wharf edge — a rescuer's hand extends downward from above. Seconds 2-3: a surge of water from beneath the hull pushes the figure sideways. The reaching hand misses the rescuer's. The figure's orb eyes widen. Second 4: the figure begins to slip below the surface — the heavy churn of the water pulling downward. One translucent hand remains above the surface, fingers extended. Mouth sealed shut.
+
+Flat even lighting — the narrow gap between hull and wharf is shadowed, lit only by the overcast sky above. Dark, oppressive palette: near-black steel hull on one side, grey wharf timber on the other, olive-green water between.
+
+Foreground: The wooden wharf edge — iron-banded planks, a slack mooring line, a rescuer's arm reaching down.
+
+Midground: The figure and several passengers in the narrow water gap. Floating debris — straw hats, wooden fragments, a wicker basket. The water churns with air bubbles escaping from below the hull.
+
+Background: The dark riveted hull wall rising above. The shadow it casts over the water gap. Light from the overcast sky visible at the top of the frame.
+
+Audio direction:
+- SFX: Water churning in the narrow gap — hollow, echoing against the steel hull and wooden wharf, the slap of water against the hull, a rope being thrown and hitting the water with a wet smack, fingernails scraping on wet wood, air bubbles bursting at the surface in clusters
+- Ambience: The enclosed acoustic of the gap — sounds are tight, reverberant, hemmed in by steel and wood, the constant gurgle of trapped air escaping from below the hull, distant crowd sounds filtering down from the wharf above
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

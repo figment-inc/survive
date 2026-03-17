@@ -15,7 +15,7 @@ def _ts() -> str:
 
 NARRATION_DELAY = 0.5
 NARRATION_BUFFER = 0.3
-MAX_ATEMPO = 1.2
+MAX_ATEMPO = 1.25
 
 ASS_HEADER = """[Script Info]
 Title: Episode Captions
@@ -35,17 +35,40 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 
 def probe_audio_duration(file_path: Path) -> float:
-    """Get duration of an audio/video file in seconds using ffprobe."""
+    """Get duration of an audio/video file in seconds using ffprobe.
+
+    Uses stream-level duration (more accurate than container/format duration
+    which can be off by 20-50ms due to AAC encoder priming samples).
+    """
     cmd = [
         "ffprobe", "-v", "quiet",
-        "-show_entries", "format=duration",
+        "-show_entries", "stream=duration",
         "-of", "csv=p=0",
         str(file_path),
     ]
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0 or not result.stdout.strip():
         return 0.0
-    return float(result.stdout.strip())
+    durations = []
+    for line in result.stdout.strip().splitlines():
+        line = line.strip()
+        if line and line != "N/A":
+            try:
+                durations.append(float(line))
+            except ValueError:
+                continue
+    if not durations:
+        cmd_fallback = [
+            "ffprobe", "-v", "quiet",
+            "-show_entries", "format=duration",
+            "-of", "csv=p=0",
+            str(file_path),
+        ]
+        result = subprocess.run(cmd_fallback, capture_output=True, text=True)
+        if result.returncode != 0 or not result.stdout.strip():
+            return 0.0
+        return float(result.stdout.strip())
+    return max(durations)
 
 
 class WordTimestamp(TypedDict):
@@ -768,12 +791,178 @@ def _location_fontsize(location: str) -> int:
     return 36
 
 
+def validate_narration_timing(
+    narration_path: Path,
+    video_duration: float,
+    narration_delay: float = NARRATION_DELAY,
+) -> float:
+    """Check if narration fits within the video and return the required atempo rate.
+
+    Probes the actual narration MP3 duration and compares it against the
+    available time window (video_duration - narration_delay). Returns:
+      1.0  if narration fits
+      >1.0 if atempo speedup is needed (capped at MAX_ATEMPO)
+
+    Logs warnings for any overflow.
+    """
+    narr_duration = probe_audio_duration(narration_path)
+    available = video_duration - narration_delay
+    overflow = narr_duration - available
+
+    print(f"  [{_ts()}] Timing check: narration={narr_duration:.1f}s, "
+          f"video={video_duration:.1f}s, available={available:.1f}s "
+          f"(delay={narration_delay}s)")
+
+    if overflow <= 0:
+        print(f"  [{_ts()}] Timing OK: narration fits with {-overflow:.1f}s margin")
+        return 1.0
+
+    needed_rate = narr_duration / available
+    capped_rate = min(needed_rate, MAX_ATEMPO)
+
+    if needed_rate <= 1.15:
+        print(f"  [{_ts()}] Timing: slight overflow ({overflow:.1f}s). "
+              f"Applying atempo={capped_rate:.3f}x (imperceptible).")
+    elif needed_rate <= MAX_ATEMPO:
+        print(f"  [{_ts()}] WARNING: narration overflows by {overflow:.1f}s. "
+              f"Applying atempo={capped_rate:.3f}x — may be noticeable.")
+    else:
+        residual = narr_duration / MAX_ATEMPO - available
+        print(f"  [{_ts()}] WARNING: major overflow ({overflow:.1f}s). "
+              f"Applying max atempo={MAX_ATEMPO}x but ~{residual:.1f}s of "
+              f"narration will still be truncated.")
+
+    return capped_rate
+
+
+def estimate_crossfade_loss(
+    num_clips: int,
+    hook_crossfade: float = 0.5,
+    standard_crossfade: float = 0.3,
+) -> float:
+    """Calculate the total video time eaten by crossfade transitions."""
+    if num_clips < 2:
+        return 0.0
+    return hook_crossfade + max(0, num_clips - 2) * standard_crossfade
+
+
+def validate_clip_narration_alignment(
+    word_timestamps: list[WordTimestamp],
+    clip_durations: list[tuple[str, float]],
+    dialogue_lines: list[str] | None = None,
+    narration_delay: float = NARRATION_DELAY,
+    narration_atempo: float = 1.0,
+    hook_crossfade: float = 0.5,
+    standard_crossfade: float = 0.3,
+    drift_threshold: float = 0.5,
+) -> float:
+    """Check per-clip narration alignment against visual clip boundaries.
+
+    Computes the effective time window for each clip in the stitched video
+    (accounting for crossfade losses and narration delay), then checks
+    whether the Whisper-timed narration words for each clip's portion fall
+    within that clip's visual window.
+
+    Returns the maximum absolute drift (seconds) across all clips.
+    Logs warnings for any clip where drift exceeds drift_threshold.
+    """
+    if not word_timestamps or not clip_durations:
+        print(f"  [{_ts()}] Alignment check: skipped (no timestamps or clip data)")
+        return 0.0
+
+    n = len(clip_durations)
+
+    clip_visual_starts: list[float] = []
+    clip_visual_ends: list[float] = []
+    cumulative = 0.0
+    for i, (clip_id, dur) in enumerate(clip_durations):
+        if i == 0:
+            fade_loss = 0.0
+        elif i == 1:
+            fade_loss = hook_crossfade
+        else:
+            fade_loss = standard_crossfade
+        start = cumulative
+        cumulative += dur - (fade_loss if i > 0 else 0.0)
+        clip_visual_starts.append(start)
+        clip_visual_ends.append(cumulative)
+
+    total_video_dur = cumulative
+    total_narr_dur = word_timestamps[-1]["end"]
+    effective_atempo = narration_atempo if narration_atempo > 1.001 else 1.0
+
+    total_raw_clip_dur = sum(d for _, d in clip_durations)
+    total_words = len(word_timestamps)
+
+    word_idx = 0
+    clip_word_ranges: list[tuple[int, int]] = []
+    cumul_dur = 0.0
+    for i, (clip_id, clip_dur) in enumerate(clip_durations[:-1]):
+        cumul_dur += clip_dur
+        target_time = (cumul_dur / total_raw_clip_dur) * total_narr_dur
+
+        best_idx = word_idx
+        best_dist = abs(word_timestamps[word_idx]["end"] - target_time)
+        for j in range(word_idx, min(total_words, word_idx + total_words // 2)):
+            dist = abs(word_timestamps[j]["end"] - target_time)
+            if dist < best_dist:
+                best_dist = dist
+                best_idx = j
+        clip_word_ranges.append((word_idx, best_idx + 1))
+        word_idx = best_idx + 1
+    clip_word_ranges.append((word_idx, total_words))
+
+    max_drift = 0.0
+    print(f"\n  [{_ts()}] Per-clip narration alignment (delay={narration_delay}s, "
+          f"atempo={effective_atempo:.3f}x):")
+
+    for i, ((clip_id, clip_dur), (w_start_idx, w_end_idx)) in enumerate(
+        zip(clip_durations, clip_word_ranges)
+    ):
+        if w_start_idx >= w_end_idx:
+            continue
+
+        narr_start_raw = word_timestamps[w_start_idx]["start"]
+        narr_end_raw = word_timestamps[w_end_idx - 1]["end"]
+
+        narr_start_effective = narration_delay + narr_start_raw / effective_atempo
+        narr_end_effective = narration_delay + narr_end_raw / effective_atempo
+
+        visual_start = clip_visual_starts[i]
+        visual_end = clip_visual_ends[i]
+
+        start_drift = narr_start_effective - visual_start
+        end_drift = narr_end_effective - visual_end
+        worst_drift = max(abs(start_drift), abs(end_drift))
+        max_drift = max(max_drift, worst_drift)
+
+        status = "OK" if worst_drift <= drift_threshold else "DRIFT"
+        if worst_drift > drift_threshold:
+            direction = "late" if end_drift > 0 else "early"
+            print(f"    Clip {clip_id}: {status} — narration {direction} by "
+                  f"{worst_drift:.2f}s (visual={visual_start:.1f}-{visual_end:.1f}s, "
+                  f"narr={narr_start_effective:.1f}-{narr_end_effective:.1f}s)")
+        else:
+            print(f"    Clip {clip_id}: {status} ({worst_drift:.2f}s drift, "
+                  f"visual={visual_start:.1f}-{visual_end:.1f}s)")
+
+    if max_drift <= drift_threshold:
+        print(f"  [{_ts()}] Alignment OK: max drift {max_drift:.2f}s "
+              f"(threshold={drift_threshold}s)")
+    else:
+        print(f"  [{_ts()}] WARNING: max drift {max_drift:.2f}s exceeds "
+              f"threshold ({drift_threshold}s) — narration may play over wrong clip")
+
+    return max_drift
+
+
 def mix_final_audio(
     video_path: Path,
     output_path: Path,
     narration_path: Path | None = None,
     music_path: Path | None = None,
     narration_delay: float = NARRATION_DELAY,
+    narration_atempo: float = 1.0,
     music_volume: float = 0.20,
     veo_audio_volume: float = 0.15,
     force: bool = False,
@@ -782,6 +971,7 @@ def mix_final_audio(
 
     Unlike mix_clip_audio (which works per-clip), this operates on the
     already-stitched video so narration flows unbroken across clip boundaries.
+    narration_atempo > 1.0 speeds up narration to fit within the video duration.
     """
     if output_path.exists() and not force:
         print(f"  [{_ts()}] Skipping (exists): {output_path.name}")
@@ -804,13 +994,19 @@ def mix_final_audio(
     stream_idx = 1
 
     veo_vol = veo_audio_volume if has_narration else 0.30
-    filter_parts.append(f"[0:a]volume={veo_vol},apad[veo]")
+    filter_parts.append(f"[0:a]asetpts=PTS-STARTPTS,volume={veo_vol},apad[veo]")
     audio_streams.append("[veo]")
 
     if has_narration:
         inputs.extend(["-i", str(narration_path)])
         delay_ms = int(narration_delay * 1000)
-        narr_filters = f"adelay={delay_ms}|{delay_ms},volume=1.0,apad"
+        narr_chain = []
+        if narration_atempo > 1.001:
+            narr_chain.append(f"atempo={narration_atempo:.4f}")
+        narr_chain.append(f"adelay={delay_ms}|{delay_ms}")
+        narr_chain.append("volume=1.0")
+        narr_chain.append("apad")
+        narr_filters = ",".join(narr_chain)
         filter_parts.append(f"[{stream_idx}:a]{narr_filters}[narr]")
         audio_streams.append("[narr]")
         stream_idx += 1
@@ -842,9 +1038,10 @@ def mix_final_audio(
         str(output_path),
     ]
 
+    tempo_str = f", atempo={narration_atempo:.3f}x" if narration_atempo > 1.001 else ""
     print(f"  [{_ts()}] Final mix: narr={'yes' if has_narration else 'no'} "
           f"music={'yes' if has_music else 'no'} "
-          f"(video={video_duration:.1f}s, delay={narration_delay}s)")
+          f"(video={video_duration:.1f}s, delay={narration_delay}s{tempo_str})")
 
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:

@@ -80,7 +80,7 @@ def transcribe_audio(video_path: Path, api_key: str | None = None) -> list[WordT
 
 def build_remotion_segments(
     words: list[WordTimestamp],
-    max_words_per_segment: int = 5,
+    max_words_per_segment: int = 4,
 ) -> list[dict]:
     """Convert Whisper word timestamps into Remotion HydratedSegment[] JSON.
 
@@ -170,7 +170,7 @@ def render_caption_overlay(
 
     props = {
         "segments": segments,
-        "position": {"x": 50, "y": 45},
+        "position": {"x": 50, "y": 38},
         "styleToggles": {
             "scrapbook": False,
             "scatter": False,

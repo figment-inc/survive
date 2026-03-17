@@ -28,7 +28,7 @@ SOURCE_IMAGE = REF_DIR / "skeleton_front_neutral.jpg"
 sys.path.insert(0, str(REPO_DIR))
 
 STYLE_PREFIX = (
-    "MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy "
+    "MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation "
     "style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on "
     "ALL elements. Simplified features. Clean flat colors, no shading variation, no lighting "
     "effects, no 3D rendering, no photorealistic elements.\n\n"

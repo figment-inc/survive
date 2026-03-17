@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p.
+
+Camera: Static wide shot, high angle looking down. Locked camera, flat composition, no movement. The figure clings to the mainmast of a galleon being overwhelmed by enormous Atlantic storm waves. The ship is tiny against the scale of the sea. Classic adult animation high-angle vulnerability staging.
+
+NEW location — cut from below decks to the open North Atlantic off Scotland, weeks later. The palette shifts from dim interior to the full fury of an Atlantic storm — bruised indigo and storm-black.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Seconds 1-2, the figure clings to the mainmast base with both arms wrapped around it as the ship rolls violently to starboard — the figure's body swings horizontal, legs trailing. Seconds 3-4, a massive flat indigo wave crashes over the deck — the figure is buried in flat white foam for a moment, then reappears still clinging, orb eyes squeezed shut, body drenched.
+
+Flat even lighting — no direct source, only the diffuse bruised grey-indigo glow of the storm. Palette: storm-black, bruised indigo, dark teal, flat white foam, grey-brown wet timber.
+
+Foreground: A massive wave in flat dark indigo and storm-black with flat white foam crests, curling over the ship's rail — dwarfing the vessel.
+
+Midground: The galleon rolled nearly on its beam ends. The figure on the mast. Snapped rigging whips loose. The broken mizzen trails in the water.
+
+Background: Nothing but storm — flat indigo-black sea merging with bruised indigo sky. No horizon. A distant galleon capsizes, keel exposed.
+
+Audio direction:
+- SFX: The thunderous crash of a massive wave breaking over the deck, the sharp crack of a mast breaking, timber splintering under enormous strain, the sustained howl of hurricane-force wind through bare rigging poles, the deep shuddering groan of the entire hull
+- Ambience: The overwhelming roar of an Atlantic storm — wind and sea indistinguishable, a continuous wall of sound punctuated by the sharper cracks of breaking timber and snapping rope, the hollow boom of waves striking the hull in rapid succession
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

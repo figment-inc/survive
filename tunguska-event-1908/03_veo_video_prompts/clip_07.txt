@@ -1,28 +1,28 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animated comedy scene, vertical 9:16, 1080p.
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
 
-Camera: Static extreme wide shot, eye level. Locked camera, flat composition, no movement. A panoramic view of complete devastation — eighty million trees lie flat in uniform rows stretching to every horizon. The figure is tiny in the lower third of frame. Classic adult animated comedy wide desolation staging — the environment overwhelms the character completely.
+Camera: Static extreme wide overhead shot, looking straight down. Locked camera, flat composition, no movement. The frame shows the vast radial pattern of flattened forest from directly above — eight hundred square miles of destruction rendered as a butterfly-wing pattern of fallen timber, with the figure as a tiny pale speck at the exact center. Classic adult animation extreme wide tableau staging.
 
-Visual transition: From the overhead close view of the figure, cut to a wide horizontal panorama. The scale of destruction is now fully revealed — it extends beyond comprehension in every direction.
+Visual transition: Dramatic cut to aerial perspective — pulling out from the ground-level firestorm to reveal the staggering scale of the destruction from above.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: Seconds 1-3: The figure slowly pulls itself upright using one of the standing epicenter tree trunks — a stripped bare pole — as support. The movement is labored, painful, exhausted. One hand grips the trunk, legs shaking. Seconds 4-5: The figure stands upright but leans heavily against the trunk, looking out across the wasteland. The skull slowly pans from left to right, surveying the destruction. Seconds 6-7: The figure's knees buckle slightly. The free hand reaches out as if looking for something — another tree, a landmark, anything — and finds nothing but empty devastation. Second 8: The figure slumps against the trunk, head dropping forward in defeat. Ash settles on the translucent shoulders. Mouth remains closed throughout.
+Character action over 8 seconds: The figure is a tiny pale dot at the center of the radial devastation pattern. For the first 4 seconds, the figure is motionless — lying face-down on blackened ground, barely visible against the scale of destruction. At second 5, there is a faint twitch — one arm moves slightly. At second 7, the figure goes completely still again. The stillness against the immensity of the destruction pattern is the emotional point — one being at the center of eight hundred square miles of annihilation.
 
-Palette: Maximum desolation — ash grey, charcoal black, dust brown, pale grey sky with a dim sun disc. The deep pine green exists only as a distant dark wall at the extreme edge of the blast radius. Drifting white-grey ash particles throughout every frame like grey snow. The figure's pale translucent form is the only thing that isn't charred.
+Flat even lighting from above. Palette: ashen grey-brown flattened timber forming the radial pattern, charcoal-black burned areas, scattered flat orange fire spots still burning, flat steel-blue river threads winding through the destruction zone, deep boreal green surviving forest at the outer margins forming a stark boundary edge.
 
-Foreground: Charred fallen tree trunks crossing the frame horizontally — stripped of bark and branches, blackened. Scorched earth between them. Ash settling like snow. A cracked river stone from thermal shock.
+Foreground: (Overhead) Detailed flattened tree trunks in flat pale grey, stripped bare, laid radially. Root systems torn from flat brown earth.
 
-Midground: The figure leaning against a stripped standing epicenter tree. More bare vertical poles — branchless, barkless — standing like telephone poles in a wasteland. The contrast between standing poles and millions of fallen trunks is stark.
+Midground: Thousands of flattened trunks forming the distinctive radial butterfly-wing pattern. Scattered flat orange fire spots. The figure at dead center.
 
-Background: The flattened forest extends to every horizon — an ocean of fallen trunks lying in parallel rows. In the far distance, a dark wall of still-standing forest marks the outer blast radius. The sky is a flat dome of ash-grey and dust-brown. The mushroom cloud of debris still hangs in the upper sky, slowly dispersing.
+Background: The devastation pattern extends to all frame edges. At the outer margins, standing forest in flat deep boreal green — the precise boundary of the blast radius. Flat steel-blue rivers threading through. Flat grey-brown smoke haze across everything.
 
 Audio direction:
-- SFX: The figure's hands scraping against the stripped tree trunk — a dry, ashy rasp. Knees cracking as the figure stands. Footsteps on scorched earth — crunchy, brittle, hollow-sounding. A distant massive tree trunk finally settling with a deep wooden groan and thud. Ash particles hissing faintly as they land on still-warm surfaces. A charred branch snapping under the figure's weight with a sharp crack.
-- Ambience: Vast post-blast silence — an immense emptiness where a living forest used to be. Distant fires crackling softly, almost inaudible. A faint wind beginning to stir, whistling through the standing epicenter poles with a hollow, flute-like moan. No birds. No insects. No animal sounds of any kind. The profound acoustic emptiness of 830 square miles of destroyed forest.
+- SFX: Distant crackling of fires, the occasional groan and crash of a remaining tree falling, the whistle of wind through the stripped stumps, faint popping of heated resin
+- Ambience: An eerie vast quietness — the sounds of the blast have faded to distant rumbles, replaced by the whisper of wind across eight hundred square miles of flattened timber, the crackle of scattered fires, and an overwhelming sense of acoustic emptiness where a dense forest once absorbed all sound
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

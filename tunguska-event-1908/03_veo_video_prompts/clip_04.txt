@@ -1,28 +1,28 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animated comedy scene, vertical 9:16, 1080p.
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
 
-Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The forest is igniting around the running figure. Classic adult animated comedy action staging — character running through environmental chaos.
+Camera: Static wide shot, eye-level. Locked camera, flat composition, no movement. The frame shows the figure running through the forest as trees snap and fall around it. The blast wave is arriving from the upper-left, visible as a wall of distortion and debris. Classic adult animation wide action staging.
 
-Visual transition: Same forest, wider framing. The close-up reaction gives way to a full-body action shot of the figure fleeing the thermal pulse through the burning taiga.
+Visual transition: NEW perspective — wider framing showing the shockwave's arrival and the forest being destroyed in real time. The blinding white-orange flash fades to reveal the physical destruction.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: Seconds 1-3: The figure sprints from left to right through the frame in a full cartoon run — exaggerated arm pumping, legs in wide stride, skull turned back over the shoulder looking at the approaching thermal front. Seconds 4-5: The figure stumbles over a fallen branch, performing a classic cartoon trip-and-recover — arms windmilling, one leg kicking up behind, nearly face-planting but catching balance at the last moment. Seconds 6-7: The figure resumes running but slower, more labored — the heat is closing in. Trees around the figure begin to ignite, bark blackening and bursting into flat orange flame shapes. Second 8: The figure skids to a stop as a massive larch trunk ahead bursts into flame, blocking the path. The figure throws both arms up defensively, body recoiling. Mouth remains closed throughout.
+Character action over 8 seconds: Seconds 0-3: The figure is running in full cartoon sprint toward the right of frame — exaggerated arm pumping, legs extended, head ducked low. The skull turns to look back over the shoulder at the destruction behind. Seconds 3-5: Trees around the figure begin snapping — trunks crack and topple in radial patterns. The figure stumbles as the ground shakes, catches balance, keeps running. Seconds 5-7: The shockwave catches up — the figure is lifted off the ground and thrown forward, tumbling through the air with limbs flailing. Second 7-8: The figure crashes onto the ground face-down among fallen timber, slides, and comes to a stunned stop.
 
-Palette shifts from the episode's base toward destruction: deep pine green replaced by charcoal black and searing orange. Trees transition from living birch white and larch green to charring black with flat orange-yellow flame shapes. The sky behind is incandescent white-orange. The figure's translucent skin catches warm orange tones from the surrounding fires. Ash particles drift through the frame.
+Flat even lighting on the figure. The environment transitions from the fading white-orange flash to a chaotic palette of charcoal destruction. Palette: incandescent white-orange fading to ashen grey, charcoal-brown snapping trees, scorched brown earth, flat grey debris clouds, pale figure against dark destruction.
 
-Foreground: Charred branches and burning undergrowth. Pine needles curling and browning. Small flat orange flame shapes. Flying bark fragments rendered as flat brown shapes. A reindeer antler on the ground, blackening.
+Foreground: Broken branches and stripped bark fragments flying through the air from left to right. A boulder rolling across the ground. Flat brown earth torn up in furrows.
 
-Midground: The running figure among the trees. Nearest trees charring in real-time — bark peeling in flat curls, trunks darkening. A Tungus birch-bark chum (tent) in the background actively burning — the pole frame collapsing.
+Midground: The figure running and then being thrown. Trees snapping at their trunks — charcoal-brown trunks breaking at sharp angles, canopies stripped of needles. Trees fall in uniform radial alignment away from the blast origin in the upper-left.
 
-Background: Wall of flat incandescent orange-white light advancing through the forest from the blast direction. Distant trees as black matchstick silhouettes. The thermal front is a visible flat wall of heat. Stampeding reindeer silhouettes.
+Background: A dome of flat white-orange light in the upper sky marks the airburst point. Below it, the expanding shockwave is visible as a line of destruction sweeping across the forest — standing deep-green trees on one side, flat grey-brown fallen timber on the other. The line advances during the clip. Overturned Evenki sled and scattered debris visible.
 
 Audio direction:
-- SFX: Rapid footfalls on dry forest floor — crunching pine needles and snapping twigs. The figure stumbling — a heavy thud and scrape. Bark cracking and popping as trees ignite — sharp splitting sounds like gunshots. The deep whoosh of a tree canopy catching fire all at once. A massive larch trunk groaning and cracking as it falls. The sizzle of sap boiling inside tree trunks — a high-pitched whistling scream.
-- Ambience: A continuous building roar — the thermal pulse moving through the forest sounds like a freight train made of fire. Crackling flames from every direction, overlapping into a wall of combustion sound. Hot air rushing past with a sustained howling wind. The forest being consumed — a vast organic crackle.
+- SFX: Continuous explosive cracking of tree trunks snapping — hundreds of them in rapid succession like gunfire, the deep whoosh of the shockwave front passing, the thud of massive tree trunks hitting the ground, the whistling shriek of air being displaced, the figure's body hitting earth with a hollow thump, soil and gravel spraying
+- Ambience: A roaring wind wall — the 300 mph blast wave tearing through the forest, creating an overwhelming wall of sound composed of splintering wood, rushing air, and the deep bass rumble of atmospheric compression, slowly diminishing toward the end of the clip
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

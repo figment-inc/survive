@@ -1,8 +1,8 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animated comedy scene, vertical 9:16, {{RESOLUTION — 1080p for scene clips, 720p for establishing}}.
+Classic American adult animation scene, vertical 9:16, {{RESOLUTION — 1080p for scene clips, 720p for establishing}}.
 
-Camera: Static {{SHOT TYPE — medium shot / close-up / low-angle / high-angle / wide environmental}}. Locked camera, flat composition, no movement. {{Composition notes: rule of thirds, character blocking, staging}}. Classic adult animated comedy {{wide tableau / medium shot / close-up}} staging.
+Camera: Static {{SHOT TYPE — medium shot / close-up / low-angle / high-angle / wide environmental}}. Locked camera, flat composition, no movement. {{Composition notes: rule of thirds, character blocking, staging}}. Classic adult animation {{wide tableau / medium shot / close-up}} staging.
 
 {{VISUAL TRANSITION — how this clip connects to the previous:
   e.g., "NEW location — all continuity anchors broken"
@@ -12,7 +12,7 @@ Camera: Static {{SHOT TYPE — medium shot / close-up / low-angle / high-angle /
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
-{{CHARACTER ACTION — describe the physical performance beat-by-beat over the clip duration. What the figure DOES physically: specific gestures, posture changes, reactions. Use cartoon-physical vocabulary: "stumbling backward", "arms thrown up defensively", "frozen stiff with shock", "running with exaggerated arm flailing", "slow cartoon head-turn", "double-take". The figure reacts silently through physical comedy ONLY. THE FIGURE'S MOUTH MUST REMAIN CLOSED AT ALL TIMES — no lip movement, no jaw movement, no mouth animation.}}
+{{CHARACTER ACTION — describe the physical performance beat-by-beat over the clip duration. What the figure DOES physically: specific gestures, posture changes, reactions. Use cartoon-physical vocabulary: "stumbling backward", "arms thrown up defensively", "frozen stiff with shock", "running with exaggerated arm flailing", "slow cartoon head-turn", "double-take". The figure reacts silently through physical performance ONLY. THE FIGURE'S MOUTH MUST REMAIN CLOSED AT ALL TIMES — no lip movement, no jaw movement, no mouth animation.}}
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 

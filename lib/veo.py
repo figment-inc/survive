@@ -23,29 +23,21 @@ VIDEO_MODEL = "veo-3.1-generate-preview"
 INITIAL_DURATION = 8
 EXTENSION_DURATION = 7
 
-STYLE_ENFORCEMENT = (
-    "CRITICAL: This must be flat 2D cel-shaded animation with thick black outlines. "
-    "ZERO photorealistic elements. ZERO gradients. ZERO 3D shading. "
-    "Match the art style of the attached character reference sheet exactly.\n\n"
+STYLE_AND_RULES = (
+    "CRITICAL DIRECTIVES — apply to every frame of this video:\n"
+    "1. STYLE: Flat 2D cel-shaded animation. Thick black outlines. ZERO gradients, "
+    "ZERO photorealistic elements, ZERO 3D shading. Match the attached character reference sheet.\n"
+    "2. NO TEXT: Zero on-screen text, titles, captions, subtitles, watermarks, or typography.\n"
+    "3. NO SPEECH: Zero spoken dialogue, narration, voiceover, or character vocalizations. "
+    "Video must contain ONLY environmental SFX and ambient sounds. "
+    "No character moves their mouth or appears to speak.\n\n"
 )
 
-NO_TEXT_PREFIX = (
-    "CRITICAL: Generate ZERO on-screen text, titles, captions, subtitles, "
-    "watermarks, labels, or typography of any kind in the video. "
-    "The frame must be purely visual with no rendered text.\n\n"
-)
-
-NO_SPEECH_PREFIX = (
-    "CRITICAL: Generate ZERO spoken dialogue, narration, voiceover, or character speech. "
-    "No crowd dialogue, no background conversations, no character vocalizations of any kind. "
-    "The video must be COMPLETELY SILENT except for environmental SFX and ambient sounds. "
-    "No character should move their mouth or appear to speak.\n\n"
-)
-
-NO_TEXT_SUFFIX = (
-    "\n\nREMINDER: No text, titles, captions, or written words "
-    "should appear anywhere in the video frame at any time. "
-    "No speech, narration, or voiceover in the audio."
+CHAIN_STYLE_ANCHOR = (
+    "STYLE CONTINUITY: This clip MUST maintain the EXACT same art style as the "
+    "preceding clip — identical line weight, identical cel-shading, identical flat color "
+    "rendering. Do NOT drift toward photorealism, 3D shading, or gradient lighting. "
+    "Keep the translucent figure's appearance visually identical to the previous clip.\n\n"
 )
 
 PHOTOREALISTIC_BANNED_TERMS: list[tuple[str, str]] = [
@@ -95,12 +87,9 @@ def _sanitize_prompt(prompt: str) -> str:
 
 
 def _wrap_prompt(prompt: str, episode_style: str | None = None) -> str:
-    """Prepend style enforcement + no-text + no-speech instructions and append reminders.
-
-    Also sanitizes photorealistic vocabulary from the prompt body.
-    """
+    """Prepend style/text/speech rules and episode visual identity, sanitize banned vocabulary."""
     prompt = _sanitize_prompt(prompt)
-    parts = [NO_TEXT_PREFIX, NO_SPEECH_PREFIX, STYLE_ENFORCEMENT]
+    parts = [STYLE_AND_RULES]
     if episode_style:
         parts.append(
             f"EPISODE VISUAL IDENTITY (apply to every frame): {episode_style}\n"
@@ -108,7 +97,6 @@ def _wrap_prompt(prompt: str, episode_style: str | None = None) -> str:
             f"Flat cel-shaded rendering only.\n\n"
         )
     parts.append(prompt)
-    parts.append(NO_TEXT_SUFFIX)
     return "".join(parts)
 
 
@@ -467,6 +455,10 @@ def generate_initial(
         print(f"  [{_ts()}] NOTE: Skipping ASSET refs for initial clip — "
               f"extension chain requires unmodified Veo output.")
 
+    if not first_frame_path or not first_frame_path.exists():
+        print(f"  [{_ts()}] WARNING: No keyframe image for chain initialization. "
+              f"Style anchoring will rely on text prompt alone — expect higher drift risk.")
+
     if first_frame_path and first_frame_path.exists():
         frame_bytes = first_frame_path.read_bytes()
         gen_kwargs["image"] = types.Image(
@@ -518,11 +510,24 @@ def extend_video(
     """Extend an existing video by passing the previous clip as seed frames.
 
     Veo uses the last frames of the previous video to maintain visual continuity.
+    Injects increasingly strong style anchoring directives as the chain lengthens
+    to counteract cumulative style drift.
     Returns a new VeoVideoHandle with the extended video and updated duration.
     Retries with backoff if the server reports the video is not yet processed.
     """
     ext_num = handle.extension_count + 1
     new_duration = handle.duration_seconds + EXTENSION_DURATION
+
+    style_prefix = CHAIN_STYLE_ANCHOR
+    if ext_num >= 4:
+        style_prefix = (
+            "MANDATORY STYLE LOCK: After multiple extensions, style drift is likely. "
+            "This clip MUST use flat 2D cel-shaded animation with thick black outlines — "
+            "ZERO photorealism, ZERO gradients, ZERO 3D rendering. Match the art style "
+            "of the FIRST clip in this chain exactly. The translucent figure must look "
+            "identical to its appearance in the opening clip.\n\n"
+        )
+    prompt = style_prefix + prompt
     prompt = _wrap_prompt(prompt, episode_style=episode_style)
 
     # Brief delay to let the server finish processing the previous video

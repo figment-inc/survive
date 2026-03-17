@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 1080p. 8-second clip.
+
+Camera: Static medium shot, low angle. Locked camera, flat composition, no movement. The figure is visible from the waist up, still half-buried in the dust drift, facing the camera. Behind the figure, the cleared pale jaundiced sky and the stripped, reshaped landscape. Classic adult animated comedy low-angle medium staging.
+
+Visual transition: Same location, new angle — low-angle view of the figure's still form against the empty sky. The storm has passed.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-8: Complete stillness. The figure's upper body protrudes from the drift, arms limp at the sides. The skull faces forward, orb-eyes completely dark — flat and lightless. The entire body is coated in thick brown dust, dulling the translucent quality of the skin. The ribcage does not move. No breathing. No motion. Over the 8 seconds, fine dust particles continue to drift lazily through the air and settle on the figure's motionless form, very slowly coating it further. By second 8, the figure is almost indistinguishable from the landscape — just another shape in the dust.
+
+Flat even lighting — diffuse pale yellow from the cleared sky. A washed-out, exhausted quality to the scene. Palette: pale straw yellow, dusty ochre, raw sienna, ash grey, dull clay brown.
+
+Foreground: Smooth dust drifts filling the lower third, wind-rippled ridges. A dead meadowlark on the drift. Lazy flat dust particles drifting.
+
+Midground: The figure's still form. A fence post with sagging dust-coated barbed wire beside it.
+
+Background: The cleared jaundiced yellow sky — empty, enormous. Flat stripped prairie to the horizon — bare clay and sand where farmland was. A farmhouse buried to its roofline. A lone windmill turning slowly, blades caked in dust. A single distant human silhouette — a farmer standing motionless, staring at the ground.
+
+Audio direction:
+- SFX: The slow creak of the windmill turning, the faint whisper of dust grains sliding down drift faces, the distant thud of a farmhouse door opening, a thin metallic moan of barbed wire in a faint breeze
+- Ambience: Vast, oppressive silence — the kind of quiet that follows a catastrophe, broken only by the windmill and the faintest ghost of wind, no birds, no insects, no voices, the sound of a landscape that has been scoured to nothing
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

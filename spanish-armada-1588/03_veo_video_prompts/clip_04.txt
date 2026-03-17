@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p.
+
+Camera: Static medium-wide shot, eye level from the galleon's main deck. Locked camera, flat composition, no movement. The figure runs across the deck from left to right as English cannonballs punch through the hull on the left side, sending flat-colored splinter bursts inward. Classic adult animation action staging.
+
+Same galleon — cut from close-up reaction to medium-wide battle scene. The Battle of Gravelines has begun — the English fleet has engaged at close range with devastating broadside gunnery.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-2, the figure sprints across the deck with exaggerated arm pumping, skull ducked low, dodging debris. Seconds 3-4, a cannonball punches through the hull to the left — the figure flinches and stumbles but keeps running, arms thrown up defensively as flat-colored splinters fly. Seconds 5-6, the figure reaches the far rail and ducks behind a cannon carriage, pressing its back against the bronze barrel, ribcage heaving with exertion. Seconds 7-8, the figure peers over the cannon carriage and sees the English ship through the gunport — sleek, low, bristling with guns — and recoils backward with a full-body cartoon flinch, both hands raised in a futile defensive gesture.
+
+Flat even lighting — overcast midday, pewter grey diffuse glow. Dense flat grey-white gunpowder smoke fills the air. Palette: pewter grey sky, dark teal sea, storm-black smoke edges, flat amber-orange muzzle flash, dark brown timber, dull bronze cannons, faded crimson crosses.
+
+Foreground: Jagged hull breach with splintered timber, grey-white smoke pouring through, a shattered cannon carriage with its barrel knocked sideways.
+
+Midground: The figure running then sheltering. Spanish soldiers crouch behind barrels. A gunner reloads with a ramrod.
+
+Background: Through the breach and gunports, an English race-built galleon fires another broadside — flat amber-orange flashes along its low gun deck. The English ship's sleek Hawkins-designed profile sits low in the water.
+
+Audio direction:
+- SFX: The massive concussive boom of a broadside — multiple cannons firing in rapid sequence, the splintering crash of iron cannonballs punching through oak hull planks, wood shrapnel scattering across the deck, the clang of an iron ball striking a bronze cannon barrel, running footsteps on wet wood, the rattle and clank of loose equipment sliding across the deck
+- Ambience: The sustained roar of naval battle — overlapping cannon fire from multiple ships at varying distances, the constant whistle of wind through torn rigging, shouting and commotion from the crew, the deep groaning of the ship's hull absorbing impacts, water rushing through new breaches below the waterline
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

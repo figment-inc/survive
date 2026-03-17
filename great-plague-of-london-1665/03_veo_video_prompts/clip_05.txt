@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p.
+
+Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. Interior of a quarantined house. The figure is pressed against the inside of a locked door. Classic adult animation medium close-up staging.
+
+NEW location — cut from exterior street to interior of a quarantined house. The figure is now trapped inside, locked in by the parish authorities.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Second 1, the figure pushes against the locked door with both hands — a flat, exhausted push, no strength behind it. Second 2, the figure turns its skull to look through the small barred window in the door — orb-eyes peering out at the street. Second 3, the figure slowly slides down the door, back against the wood, beginning to sink. Second 4, the figure is seated on the floor against the door, orb-eyes staring blankly forward, hands limp in lap. Total defeat.
+
+Flat even lighting — warm amber from a guttering tallow candle competes with sickly yellow-green haze filtering through the barred window. Interior palette: dark brown wood, dirty cream plaster, amber candle tones, jaundiced window light. Episode palette maintained at a darker, more oppressive register.
+
+Foreground: A simple wooden table with a half-eaten loaf of bread, a clay jug, and the guttering candle. A dead rat in the corner with cartoon X-eyes.
+
+Midground: The figure against the door. The interior is cramped — low ceiling with exposed beams, rough plaster walls, a straw mattress on the floor with soiled linen. The bubo swelling visible and darker under the figure's armpit skin.
+
+Background: Through the barred window, the street outside — the watchman visible sitting on his stool, keeping guard. Another red-crossed door across the lane. The sickly haze outside.
+
+Audio direction:
+- SFX: The figure's hands sliding down the wooden door with a soft scraping sound. The iron padlock rattling from the outside — the lock is on the exterior. The tallow candle sputtering and flickering. A rat scratching inside the wall cavity. The creak of floorboards as the figure sinks to sitting position.
+- Ambience: Interior acoustic — close, muffled, claustrophobic. The watchman's stool creaking faintly through the door. Distant church bells, muffled by walls. The faint drone of flies in the warm room. A muffled cough from an adjacent house through the thin walls.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

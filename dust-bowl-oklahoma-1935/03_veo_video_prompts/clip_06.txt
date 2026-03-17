@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animated comedy scene, vertical 9:16, 720p. 4-second clip.
+
+Camera: Static extreme close-up. Locked camera, flat composition, no movement. The figure's skull fills the frame, almost entirely obscured by dense suspended dust. Classic adult animated comedy extreme close-up staging.
+
+Visual transition: Same location — cut to extreme close-up of the figure's face in the dust-choked air.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Seconds 0-1: The figure's skull fills the frame — the wet cloth mask has slipped down. Fine brown dust coats the translucent skin, filling the hollows of the eye sockets and cheekbones. The orb-eyes are narrowed. Seconds 2-3: Tiny flat spark marks flicker near the skull — static electricity discharging — and the figure flinches, the skull jerking to one side in a sharp animated reaction. Second 4: The orb-eyes dim further. The jaw clenches. The dust thickens until the figure is barely visible — just two faint pale points where the eyes are.
+
+Flat even lighting almost entirely extinguished — near-monochrome burnt umber and ash black. The figure's pale orb-eyes provide the only contrast points.
+
+Foreground: Dense flat dust particles filling the frame — so thick the figure's features are partially obscured. Flat horizontal streaks of raw sienna and burnt umber.
+
+Midground: The figure's skull and upper ribcage, coated in dust. Tiny flat spark marks — static electricity.
+
+Background: Nothing. Solid brown-black. Zero visibility.
+
+Audio direction:
+- SFX: A sharp electric snap — static discharge — followed by a crackle, the abrasive hiss of dust particles scraping across the figure's surface, the muffled thud of the figure's flinch against the wall
+- Ambience: The storm at peak intensity — a deafening sustained roar like standing inside a sandblaster, the high-pitched keen of wind through hairline gaps, the constant granular hiss of particles in collision
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

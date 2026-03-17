@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p.
+
+Camera: Static close-up, slightly high angle. Locked camera, flat composition, no movement. Tight framing on the figure on the near-vertical deck, water rushing in behind them. Classic adult animation close-up staging.
+
+Visual transition: Same setting, tighter framing — cut from wide exterior to close-up on the figure as the ship nears the tipping point.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure hangs from a deck fitting as the deck approaches vertical. Dark olive-green river water surges in from below, rising rapidly in the frame. The figure pulls themselves upward with visible effort — the skeletal arms strain through the translucent skin. At the last moment, the figure's grip slips. A slow cartoon slide begins — fingers dragging across wet steel. Orb eyes fixed on the rising water.
+
+Flat even lighting — darkening as the overcast presses down. The palette compresses: olive-green water dominates the lower half, rust-brown and dark steel fill the upper. Everything is wet, dark, close.
+
+Foreground: River water surging upward in the frame — flat olive-green wash with floating debris (a parasol, tin cups, a child's shoe). Air bubbles stream from submerging openings.
+
+Midground: The figure sliding on the near-vertical deck. Nearby, a woman's long Edwardian skirt catches on a railing bolt — the heavy fabric pulls her downward as it absorbs water.
+
+Background: Through the chaos, the wharf is visible — impossibly close. Hands reaching from the dock. The gap between ship and shore is barely eight feet.
+
+Audio direction:
+- SFX: The rush of water flooding through windows and hatches — a hollow roar, metal scraping against metal as deck fittings bend, fingernails on wet steel (a thin screech), the heavy slosh of water-saturated fabric, air escaping from submerging compartments in great gurgling belches
+- Ambience: Close-quarters panic — the sounds are tighter now, more immediate, water acoustics dominating with hollow echoes, the metallic groan of the hull constant and ominous
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

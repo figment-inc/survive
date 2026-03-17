@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, eye level from water surface. Locked camera, flat composition, no movement. The translucent figure on the forecastle of a galleon at frame left, eight blazing fireships approaching from frame right across dark water. Classic adult animation wide tableau staging.
+
+NEW location — cut from daytime deck to midnight anchorage off Gravelines. The flat amber-orange glow of eight fireships is the dominant light source.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-2, the figure stands at the bow rail peering into the darkness, one hand shading its eye sockets. Seconds 3-4, the amber glow intensifies as the fireships draw closer — the figure steps back from the rail, both hands dropping to its sides, body stiffening with recognition. Seconds 5-6, the figure's skull whips around as the sound of axes cutting anchor cables comes from behind — it looks back and forth between the fires and the chaos on deck in a panicked double-take. Seconds 7-8, the figure grabs the rail as the ship begins to drift sideways — no anchor now — and braces as the galleon swings broadside toward a neighboring vessel.
+
+Flat even lighting on the figure. The flat amber-orange glow of the fireships paints the right side of every surface; deep indigo shadow on the left. Palette: storm-black sky, flat amber-orange fire glow, dark indigo water, bright yellow flame peaks, burnt sienna timber, faded crimson banners catching firelight.
+
+Foreground: Dark water in flat black and indigo layers, floating timber debris and severed rope from cut anchor cables, a longboat with panicked sailors rowing frantically away from the fireships.
+
+Midground: The galleon's forecastle with the figure. The anchor chain hangs slack where the cable was cut. Sailors scramble across the deck — some climbing rigging, others lowering boats.
+
+Background: Eight English fireships in a line, fully ablaze in flat amber-orange and bright yellow, their burning masts and rigging reflected as flat orange shapes on the water. Beyond, dark silhouettes of the English fleet. Cloud undersides lit flat orange.
+
+Audio direction:
+- SFX: The sharp crack of axes biting into anchor cables, a heavy iron anchor chain rattling and splashing into the sea, the distant roar and crackle of eight ships fully ablaze, timber popping in intense fire, the grinding crunch of two galleon hulls colliding, a cannon discharging from a fireship as its loaded guns cook off in the heat
+- Ambience: Panicked overlapping shouts and commotion from multiple ships echoing across the water, the deep rush of tidal current, wind feeding the fireships' flames with a sustained roar, the groaning of hulls under strain, splashing of oars from fleeing longboats
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,23 +1,19 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Siberian taiga, seconds before the airburst, June 30, 1908.
+Classic American adult animation frame, vertical 9:16 composition. Siberian taiga, seconds before the Tunguska airburst, June 30, 1908.
 
-Close-up reaction shot, slightly low angle. The camera is close on the figure's upper body and skull, with the sky visible over the figure's shoulder. The entire sky behind the figure has turned blinding incandescent white-orange — the fireball detonating at an altitude of five to ten kilometers.
+Close-up reaction shot, eye-level. The figure's skull fills the center of the frame from the chest up. The sky behind the figure has turned from pale blue-grey to a blinding flat white-orange — the entire upper half of the frame is saturated with incandescent light.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. The figure's skull is turned upward, orb eyes wide, jaw set, both skeletal hands raised defensively in front of the face. The posture conveys frozen dread — the moment of recognition that something catastrophic is about to happen.
 
-The figure's skull fills the center-left of the frame, pale orb eyes wide, head turned slightly to look over the shoulder at the sky behind. One arm is raised defensively, forearm across the brow as if shielding from intense light. The translucent skin glows faintly from the white-orange light behind. The posture is instinctive recoil.
+Foreground: Tips of larch branches at the edges of the frame, their needles rendered in flat deep green, beginning to curl from the intense heat — drawn with edges turning flat brown.
 
-Foreground: The figure's raised forearm and skeletal hand silhouetted against the blinding sky. A few birch leaves caught mid-flutter.
+Midground: The figure's upper body against the blazing sky. The translucent skin catches the orange-white light as a flat warm wash.
 
-Midground: The figure's upper body — ribcage, spine, and skull clearly visible through translucent skin. The flat cel-shaded rendering shows the bones as clean white shapes beneath pale translucent surface.
+Background: The entire sky is a flat gradient-free field of blinding white-orange, the sun-bright light of the incoming bolide's terminal phase. The treeline is silhouetted in flat black against this light. Birds rendered as simple flat black V-shapes scatter in all directions.
 
-Background: The entire sky is a flat wash of intense incandescent white at center graduating to searing orange at the edges. The tops of larch trees are silhouetted as black shapes against this blinding sky. The fireball's light obliterates all other color — everything is reduced to black silhouettes against white-orange.
+Flat even lighting on the figure's face. The background is overwhelmingly bright — flat incandescent white-orange. The palette has shifted from cool pre-dawn to searing warmth.
 
-Palette shifts dramatically: the cold morning blue-greens are overwhelmed by blinding flat white and intense orange. The figure is backlit, rendered in slightly darker tones with the translucent skin picking up warm orange undertones. High contrast — deep black outlines against searing white sky.
-
-Period texture: The silhouetted treetops show the distinctive narrow conical shape of Siberian larch — sharp pointed crowns in a jagged line across the frame.
-
-Background activity: Birds as tiny black silhouettes scattering in all directions against the white sky. Tree branches bending as if a massive pressure wave is about to arrive.
+Period texture: A hand-carved wooden amulet on a leather cord caught mid-swing from a tree branch at the frame's edge — an Evenki spirit totem.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

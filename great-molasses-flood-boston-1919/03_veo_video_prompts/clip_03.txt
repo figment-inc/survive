@@ -1,21 +1,28 @@
-Cinematic vertical 9:16 video, 1080p.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Close-up shot, slight low angle, static camera — the translucent character crouches at the base of the molasses tank, one translucent hand pressed flat against the riveted steel. Over four seconds, the figure presses its skull closer to the steel as if listening, then jerks back sharply — alarmed by what it hears or feels. The riveted steel fills the upper half of frame, the figure's translucent skull and hand in the lower half.
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
 
-Transition from clip 02: tightening from the medium street shot to this close-up at the tank's base — the character has approached the source of its unease, and the intimacy of the framing amplifies the dread.
+Camera: Static close-up, slightly high angle. Locked camera, flat composition, no movement. The figure's upper body and skull fill the lower center of frame. The approaching molasses wave fills the upper half. Classic adult animation close-up reaction staging.
 
-OMINOUS BUILDUP lighting — the flat winter daylight now feels oppressive. Shadows deepen around the tank's base. The brown molasses stains on the steel appear darker, more menacing. The figure's translucent skin catches dim reflected light.
+Visual transition: Same setting, tighter framing — cut from the wide street view to an intimate close-up of the figure's reaction as the wave looms.
 
-Foreground: Rivets in sharp focus, one rivet head visibly deformed — pushed outward from internal pressure. A dark bead of molasses squeezing past the compromised seal. Thick brown residue coating the concrete foundation in layered deposits. A child's wooden spinning top abandoned in the sticky mess.
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
-Midground: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. The figure has an eerie, anatomical quality. Performance: The figure crouches, one hand flat on the steel, skull tilted listening. At second two, the figure's pale orb eyes widen — sensing vibration through its palm. At second three, it jerks backward sharply, pulling its hand away as if burned. The visible ribcage heaves with sudden alarm.
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Background: Through the gap beneath the elevated railway, Commercial Street pedestrians visible in soft focus, going about their business. Engine Company 31's firehouse a block away.
+Character action over 4 seconds: At ~0 seconds, the figure's skull snaps upward — a fast cartoon head-turn looking at the wave directly above. At ~1 second, both arms shoot up defensively overhead, fingers splayed — a classic cartoon brace-for-impact pose. At ~2-3 seconds, the figure is frozen in that defensive posture, eyes locked on the wave. At ~3.5 seconds, the dark brown mass begins to fill the frame from the top, engulfing the figure — the last visible element is one pale hand reaching upward before disappearing into treacle brown.
 
-The air thick with the sweet, cloying smell of fermented molasses. Brown residue coating every surface near the base.
+Flat even lighting on character. Darkened palette: deep treacle brown fills most of the frame. The figure's pale translucent skin provides the only contrast. Cold slate grey sky visible in a shrinking wedge at the top. Dirty amber debris — a wagon wheel, brick fragments — embedded in the wave.
 
-No dialogue. No speech. No talking. The character reacts silently through physical gestures, facial expressions, and body language only. All audio is ambient environmental sound and sound effects only.
+Foreground: The figure's raised hands and forearms. Fingers splayed against the approaching mass.
+
+Midground: The figure's upper body. The leading edge of the molasses wave directly behind — thick, churning, dark brown, two stories tall.
+
+Background: Shrinking wedge of cold grey sky. Steel tank fragments tumbling in the wave. The top of a tenement chimney.
 
 Audio direction:
-- SFX: A deep metallic groan from within the tank — structural, ominous, like a submarine hull under pressure. The viscous squeeze of molasses through a rivet seam. The figure's hand slapping flat against steel, then peeling away with a sticky sound. A single rivet creaking under strain.
-- Ambience: The low omnipresent hum of internal pressure, the sound of 2.3 million gallons pressing against corroded steel, a deep vibration felt more than heard. Distant street sounds muffled by proximity to the massive structure.
+- SFX: The overwhelming wet roar of the wave directly overhead — thick and heavy, not like water but like cement being poured. The crunch of embedded debris — bricks and wood grinding against each other inside the viscous mass. A final sharp crack as a timber beam snaps.
+- Ambience: All other sounds are being swallowed by the wave's roar. Muffled distant screams cut off. The heavy, suffocating quality of sound becoming trapped in viscous liquid.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

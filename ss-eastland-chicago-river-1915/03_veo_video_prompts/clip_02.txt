@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, eye level from the wharf. Locked camera, flat composition, no movement. The full profile of the SS Eastland fills the frame, listing severely to port. The figure is visible on the upper deck. Classic adult animation wide tableau staging.
+
+Visual transition: Cut to wider exterior view — same ship, now seen from the wharf showing the full scale of the list.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure is visible on the upper deck, clinging to a stanchion. Over the 8 seconds, the ship's list increases dramatically — the deck angle steepens from roughly twenty degrees to nearly forty-five. The figure wraps both arms around the stanchion as their feet lose purchase on the deck. Passengers around the figure slide and tumble toward the port side. A ragtime band's upright bass slides past. The figure's legs swing free as the stanchion becomes nearly horizontal. Orb eyes locked on the approaching waterline. Mouth remains sealed — physical panic expressed through the desperate grip, the swinging legs, the rigid spine.
+
+Flat even lighting under overcast. Murky olive-green water rising on the port side. Rust-brown hull. Pewter sky. The white ship paint contrasts against the dark water creeping higher.
+
+Foreground: Wooden wharf planking, iron bollards, fraying mooring lines straining. A dropped straw hat on the dock. Onlookers' hands reaching toward the ship.
+
+Midground: The SS Eastland — 265 feet of steel, four decks, single smokestack — rolling slowly and inexorably to port. The waterline climbs the hull. Deck furniture, instruments, luggage all cascade toward the low side. Passengers on the high starboard side cling to anything fixed.
+
+Background: The Chicago River — narrow here, olive-green and murky. Brick warehouses on the opposite bank. A steel drawbridge upstream. Other vessels in the river. Pewter sky.
+
+Audio direction:
+- SFX: A deep, resonant metallic groan as the hull rolls — steel flexing under torsional stress, rivets popping with sharp cracks, the crash of the sliding upright bass against the port railing, glass shattering from cabin windows submerging, a massive gurgling rush as water floods through port-side openings, the snap of a mooring line parting
+- Ambience: Overlapping panicked crowd — hundreds of muffled alarmed voices building in intensity, the relentless gurgle of river water entering the ship, steam hissing from submerging vents, the creak and groan of the entire superstructure tilting
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

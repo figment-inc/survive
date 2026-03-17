@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p.
+
+Camera: Static low-angle shot from near the waterline inside the gun deck. Locked camera, flat composition, no movement. The figure at center frame pushes against a hull plank as seawater streams through. Classic adult animation low-angle dread staging.
+
+Cut from main deck battle to below decks — the flooding gun deck. The light shifts from overcast grey to dim interior with cold blue-grey light from gunports.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Seconds 1-2, the figure stands knee-deep in flat dark teal water, both hands pressed flat against a cracked hull plank, body straining with effort to hold back the flooding — spine arched, legs braced. Seconds 3-4, the plank gives way under pressure — the figure stumbles backward as a thick flat teal stream of seawater blasts through the new gap, arms flailing for balance, splashing into the rising water.
+
+Flat even lighting — dim interior, cold grey-blue light from gunports. Palette: dark teal flooding water, grey-brown wet timber, dull bronze cannon barrels, black shadow, cold blue-grey gunport light, flat white foam.
+
+Foreground: Flat dark teal water with white foam caps, floating debris — wooden bowls, a leather shoe, rope coils, barrel staves.
+
+Midground: The figure braced against the hull. A half-submerged cannon on its broken carriage. Waterlogged grain sacks slumped against hull ribs.
+
+Background: Gun deck stretching into shadow, rows of lashed cannons with water rising around their carriages. Sailors operating a chain pump, water at their waists.
+
+Audio direction:
+- SFX: The pressurized hiss and gush of seawater forcing through cracked hull planks, wet wood groaning and then snapping with a sharp crack, a heavy splash as the figure stumbles into the water, the clank-clank-clank rhythm of the chain pump, waterlogged barrels bumping against each other
+- Ambience: The hollow echo of water sloshing inside the hull, the muffled boom of cannon fire above decks, the constant drip and stream of water entering from multiple breaches, the stressed creaking of the ship's frame, distant panicked voices filtering down through the deck planks
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

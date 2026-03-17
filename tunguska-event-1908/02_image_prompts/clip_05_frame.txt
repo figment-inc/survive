@@ -1,23 +1,19 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Siberian taiga, the shockwave arrives, June 30, 1908.
+Classic American adult animation frame, vertical 9:16 composition. Siberian taiga, moments after the Tunguska shockwave, June 30, 1908.
 
-Dynamic wide shot, low angle looking slightly upward. The shockwave is HERE — a visible wall of compressed air distortion rendered as concentric flat white-grey arc lines sweeping through the forest from left to right. Trees are snapping and falling in a radial pattern, all toppling in the same direction — away from the blast epicenter.
+Medium shot, low angle looking up at the figure. The figure has been knocked flat on its back on scorched earth. Above, the sky is filled with flat grey-brown smoke and drifting debris. Trees in every direction lie flat on the ground, stripped bare, pointing radially away from the blast center.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. The figure lies on its back, propped up on one elbow, the other arm reaching upward as if trying to grasp something. Orb eyes stare upward at the smoke-filled sky. The posture conveys dazed helplessness.
 
-The figure is being hurled through the air by the shockwave — body horizontal, limbs splayed, carried like a leaf. The skull faces the camera with pale orb eyes wide. Classic cartoon ragdoll physics — arms and legs trailing behind the direction of travel. The figure is airborne, mid-flight, completely at the mercy of the blast.
+Foreground: Scorched flat brown earth with cracked surface texture. A fallen larch trunk stripped completely bare of bark and needles, rendered in flat pale grey deadwood.
 
-Foreground: Stripped bark fragments, pine needles, soil, and small rocks rendered as flat shapes flying through the air horizontally. A broken tree trunk in flat charcoal black, freshly snapped, its splintered end bright pale wood.
+Midground: The figure lying among flattened timber. Every tree is down — trunks laid parallel in neat radial lines like matchsticks, all pointing away from the blast center. Small fires burn at the broken ends of stumps, rendered as flat orange flame shapes.
 
-Midground: The airborne figure surrounded by falling trees. Massive larch trunks — rendered as long flat cylinders in grey-brown — toppling uniformly to the right, their root systems ripping from the earth in fans of dark soil and rock.
+Background: A vast landscape of total devastation — flattened forest stretching to the horizon in every direction, rendered in flat grey-brown tones. A massive column of flat dark grey smoke rises from the blast epicenter in the distance, mushrooming at the top into a flat anvil shape. The sky is choked with flat grey-brown haze.
 
-Background: An expanding dome of white-grey shockwave distortion arcing across the sky. The forest canopy beyond is being flattened in real-time — a visible line of destruction where standing trees become fallen trees, advancing outward.
+Flat even lighting. The palette has shifted to ashen grey-green, charcoal, scorched brown, and smoke grey. Orange fire accents dot the midground.
 
-Palette: Ash grey, charcoal black, pale splintered wood, dust brown, with residual orange glow on the horizon behind the shockwave. The air is filled with flat grey-brown dust. Cold and hot colors collide.
-
-Period texture: The fallen trees show the specific pattern documented by Leonid Kulik's 1927 expedition — all trunks oriented radially outward from a central point, stripped of branches, bark peeled.
-
-Background activity: A massive dust cloud billowing upward in a mushroom shape. Debris flying horizontally. The earth itself seems to ripple.
+Period texture: The remains of a fish-drying rack — charred wooden poles collapsed into a pile, strips of blackened fish scattered on the ground.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

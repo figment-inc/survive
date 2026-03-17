@@ -1,27 +1,28 @@
-Cinematic vertical 9:16 video, 720p.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Wide establishing shot, slow dolly push-in over four seconds — camera begins at street level looking upward at the massive riveted steel molasses storage tank of the Purity Distilling Company, fifty feet tall and ninety feet in diameter, then pushes in toward the base where dark brown molasses visibly seeps from corroded rivet seams. Shot motivation: establish the doomed structure at scale, the false normalcy of a January midday. The tank fills the upper two-thirds of frame, its curved brown-stained wall dwarfing the street below. Deep focus.
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
 
-Opening shot — no previous clip. The slow push-in creates an ominous approach, the camera drawn toward the leaking tank with quiet dread.
+Camera: Static medium shot, low angle. Locked camera, flat composition, no movement. The figure is centered in the lower third of frame with the massive riveted steel tank looming behind and above. Classic adult animation medium-shot staging.
 
-PERIOD AMBIENT lighting — flat January midday, pale diffused winter sun through thin overcast, no harsh shadows. Cool blue-grey palette with the brown tank as the dominant warm element. Weak light catching the wet molasses streaks on the steel, making them glisten.
+Opening shot — no previous clip.
 
-Foreground: Wet cobblestones with patches of dirty slush, a wooden pushcart with burlap sacks parked at the curb, a dark sticky pool of leaked molasses spreading across the stones. A stray terrier trots across frame, pausing to sniff the sweet puddle.
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
-Midground: The massive tank's base, riveted steel plates showing visible corrosion, brown molasses weeping from at least three seam joints in slow viscous trickles. A narrow wooden boardwalk runs along the foundation. The Purity Distilling Company placard on the adjacent wall, weathered and barely legible.
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Background: The elevated railway trestle of the Boston Elevated Railway running parallel to Commercial Street, iron lattice framework catching the pale light. A three-story tenement with frozen laundry on lines. The masts of cargo ships at Lewis Wharf. Thin chimney smoke rising straight in the still warm air.
+Character action over 4 seconds: The figure stands still on the cobblestone street. At ~1 second, the figure does a slow cartoon head-tilt upward, noticing the tank behind. At ~2 seconds, the figure's pale orb eyes widen. At ~3 seconds, a subtle lean backward — a flinch — as a deep metallic groan is heard. The figure freezes in that leaned-back posture through the end of the clip. Minimal movement — the dread is in the stillness.
 
-Ground-level atmosphere — the unseasonably warm January air creating wisps of steam from manholes and puddles where there should be ice. A strange shimmer near the tank's surface where fermenting molasses radiates warmth. The sweet, heavy smell almost visible as a faint amber haze.
+Flat even lighting on the character. Overcast winter midday palette: deep treacle brown streaks on the tank, rusted iron oxide steel, cold slate grey sky, flat red-brown brick tenements, dirty amber cobblestones. No shadows on character.
 
-The stray dog sniffing the molasses puddle, a horse-drawn wagon passing on Commercial Street, children's laughter audible from near the tank's base.
+Foreground: A wooden pushcart with burlap sacks at frame left. Flat grey cobblestones. A red-painted fire hydrant.
 
-No character in this shot.
+Midground: The figure on the street. Brick tenement walls on either side. Laundry lines above with flat-colored garments.
 
-Dark atmospheric cinematography. Natural film grain. Winter industrial palette — cool grey-blue light, brown-stained steel, dark viscous molasses, wet cobblestones. Muted, documentary quality.
-
-No dialogue. No speech. No talking. All audio is ambient environmental sound and sound effects only.
+Background: The Purity Distilling Company storage tank — fifty feet tall, ninety feet across, riveted flat iron-grey steel plates. Brown molasses seeping from popped rivets. The bulging wall shifts almost imperceptibly. Cold white-grey sky above.
 
 Audio direction:
-- SFX: A low metallic groaning from the tank — deep, structural, barely perceptible but wrong. The wet drip of molasses hitting cobblestones in thick drops. The terrier's claws clicking on stone. A horse's hooves clopping past. The distant clang of a ship's bell at the wharf. The creak of the wooden boardwalk.
-- Ambience: Boston waterfront at midday — the hum of the city, distant trolley bells, the murmur of Commercial Street foot traffic, seagulls crying over the harbor, the low omnipresent rumble of the elevated railway, an unseasonable warmth making the air feel thick and close for January.
+- SFX: A deep, resonant metallic groan from the tank — the sound of stressed steel flexing under two million gallons of pressure. A sharp ping of a rivet popping free, ricocheting off cobblestone. The faint wet trickle of molasses leaking down the tank wall.
+- Ambience: Cold winter street sounds — a distant horse's hooves on stone, muffled voices of dock workers, the creak of a wooden cart wheel, a faint harbor wind. The low industrial hum of the waterfront.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

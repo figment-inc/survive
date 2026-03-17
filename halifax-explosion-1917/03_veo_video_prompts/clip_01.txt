@@ -1,28 +1,28 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animated comedy scene, vertical 9:16, 720p.
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
 
-Camera: Static medium shot. Locked camera, flat composition, no movement. The figure stands on a wooden wharf, harbour visible behind. Classic adult animated comedy medium shot staging.
+Camera: Static medium shot, low angle tilted slightly upward. Locked camera, flat composition, no movement. The figure on a timber wharf fills the lower-centre frame, the burning ship and smoke column dominate the upper frame. Classic adult animation medium-shot staging.
 
-Opening shot — no previous clip. The viewer is dropped immediately into the scene.
+Opening shot — no previous clip. Establishes the figure on the Halifax waterfront watching the burning Mont-Blanc.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 4 seconds: The figure stands on the wharf facing the harbour. At second 1, a slow cartoon head-tilt upward as the figure notices the massive column of smoke rising from a burning ship in the narrows. By second 2-3, the figure takes one small step backward, translucent hands rising slightly from its sides in an instinctive cautious gesture. By second 4, the figure is frozen, skull tilted up, pale orb eyes fixed on the towering smoke plume. Subtle — the figure doesn't yet understand the danger.
+Character action over 4 seconds: The figure stands at the wharf edge, initially still, watching the fire. At second 1, the figure's skull tilts upward slightly as the smoke column grows. At second 2-3, one hand slowly rises to shield the eye sockets from the glow. At second 4, a subtle lean backward — instinctive recoil. Mouth remains closed throughout.
 
-Flat even lighting under overcast sky. Palette: slate grey sky, cold steel blue harbour water, weathered brown timber wharf, dirty white and grey smoke column rising from the burning ship, muted house colors on the distant hillside. Damp cold winter atmosphere.
+Flat even lighting under overcast sky. Palette: slate grey, iron blue, harbour-water teal, dark timber brown, vivid orange-red flame on the ship, black smoke rendered as flat shapes.
 
-Foreground: Wooden wharf planks with iron mooring cleats and coiled hemp rope. A timber barrel at frame edge. Frost on the iron fittings.
+Foreground: Timber wharf planks with iron mooring cleats and coiled hemp rope. A wooden barrel and stacked military crates. Frost visible on the wood grain.
 
-Midground: The figure on the wharf. The dark harbour water stretching out behind.
+Midground: The figure at the wharf edge. Dock workers in dark wool coats nearby, frozen in postures of watching — one pointing, another with hands on hips.
 
-Background: The burning Mont-Blanc in the narrows — a dark-hulled vessel engulfed in white and orange flame, a massive smoke column rising straight up. The Richmond hillside with rows of wooden houses. Tiny figures visible along the waterfront watching the fire. The overcast grey sky dominated by the rising smoke.
+Background: The SS Mont-Blanc ablaze in the Narrows — dark hull, vivid orange-red flat flames, thick black smoke column rising. Grey harbour water. Dartmouth shore as a low grey line. Pale overcast sky.
 
 Audio direction:
-- SFX: The low groan of burning ship timber carrying across water, the creak of wharf planks under the figure's step, harbour water lapping against pilings, a distant ship's horn, the pop and crackle of the fire faintly audible across the distance
-- Ambience: Cold Halifax harbour morning — seagulls calling, water lapping, the distant murmur of gathering crowds along the waterfront, a faint winter wind, the continuous low roar of the ship fire carrying across the narrows
+- SFX: The deep creak of timber wharf pilings under wave action, the distant roar of the ship fire carried across water, harbour water lapping against pilings with a hollow slap, a seagull cry overhead, the clatter of a dropped wooden crate on the dock
+- Ambience: Cold harbour morning — wind off the water carrying the faint crackle of distant fire, overlapping murmurs of gathered dock workers, the low horn of a harbour vessel, waves against the wooden wharf
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

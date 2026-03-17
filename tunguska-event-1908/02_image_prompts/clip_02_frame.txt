@@ -1,23 +1,21 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Siberian taiga clearing near the Podkamennaya Tunguska River, early morning, June 30, 1908.
+Classic American adult animation frame, vertical 9:16 composition. Siberian taiga, Tunguska River basin, morning of June 30, 1908.
 
-Wide shot, eye level. A vast panoramic view of undisturbed boreal forest stretching in every direction. The river curves through the lower portion of the frame — flat pale blue water reflecting the grey sky.
+Wide environmental shot, high angle looking down at the figure from above the treeline. The figure stands tiny amid a vast expanse of boreal forest that fills the entire frame — endless flat green larch and birch canopy stretching in every direction to the horizon. The figure is a small pale shape in a narrow clearing along a winding river.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. The figure stands near the riverbank, looking up toward the camera/sky, arms slightly spread in a gesture of bewilderment at the scale of the landscape.
 
-The figure stands small in the midground on a mossy riverbank, looking out across the forest. Arms hanging at sides. The figure is deliberately dwarfed by the immensity of the taiga — tiny against 830 square miles of forest about to be destroyed.
+Foreground: Upper canopy of larch trees rendered in flat deep green with simplified needle clusters, birch branches with flat white bark and small leaves.
 
-Foreground: River stones in flat grey and brown along the bank, clumps of sedge grass in yellow-green, a weathered piece of driftwood. Water lapping at the stones in flat pale blue.
+Midground: The clearing where the figure stands beside the Podkamennaya Tunguska River — rendered as a flat steel-blue ribbon winding through the forest. A crude wooden fishing weir visible in the shallows. Flat grey river stones along the bank.
 
-Midground: The figure on the riverbank. Behind the figure, the tree line begins — dense larch and birch packed tight, their trunks forming a wall of vertical lines in white and grey-green. A thin column of campfire smoke rises from somewhere among the trees — the Tungus Evenki settlement of scattered chums (teepee-like tents made of birch bark and reindeer hide).
+Background: The taiga extends to every edge of the frame — an overwhelming carpet of flat boreal green broken only by the silver thread of the river. Low rolling hills on the distant horizon rendered in flat blue-grey. The sky is pale pre-dawn blue-grey with thin flat clouds.
 
-Background: Unbroken taiga forest filling the entire upper two-thirds of the frame. Rolling low hills covered in identical pine-green forest canopy. The pale grey-blue sky stretches flat and featureless. The sheer scale of uninhabited wilderness is the point — 830 square miles of forest rendered as an ocean of green.
+Flat even lighting throughout. Cool blue-grey morning tones dominate. The palette is deep boreal green, charcoal brown trunks, steel-blue water, birch-white bark, pale blue-grey sky. A cold, vast, isolated wilderness.
 
-Flat cold morning palette: deep pine green canopy, birch white trunks, cold grey-blue sky, pale blue river, muted rust and olive ground cover. Crisp, clear morning air — no haze, perfect visibility. Everything calm and still.
+Period texture: An Evenki summer camp visible near the riverbank — two conical chum tents covered in birch bark and reindeer hide, a wooden rack for drying fish, a dugout canoe pulled onto the gravel bank.
 
-Period texture: A birch-bark canoe pulled up on the riverbank, its hull stitched with sinew and sealed with pine pitch. Beside it, a crude fish trap woven from willow branches sits half-submerged in the shallows.
-
-Background activity: A thin wisp of smoke from an Evenki campfire. A single eagle circling high in the flat grey sky. Ripples on the river surface from fish.
+Background activity: Two tiny Evenki figures rendered in flat 2D style tending the fish rack near the tents. Smoke rising from a campfire as a flat grey column.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

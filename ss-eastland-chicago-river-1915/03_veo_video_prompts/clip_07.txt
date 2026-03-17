@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p.
+
+Camera: Static wide shot, eye level from the opposite bank. Locked camera, flat composition, no movement. The full disaster scene — capsized hull, wharf, rescue operations — fills the frame. The figure is a small, still shape on the hull. Classic adult animation wide environmental staging — scale is the point.
+
+Visual transition: Cut to wide establishing view — pulling back from the intimate water-level horror to reveal the full scope of the disaster in context.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure lies motionless on the exposed hull surface — a small pale shape against the dark steel, one arm hanging limp toward the water. Over the 8 seconds: no movement from the figure. The figure is still. The world moves around them — rescue boats maneuver, ropes are thrown, cutting torches spark on the hull bottom. The figure remains motionless. A quiet, terrible stillness at the center of frantic activity.
+
+Flat even lighting, overcast. Full disaster palette: olive-green river, near-black hull steel, dull brick red buildings, pewter sky. The wide shot reveals the absurd proximity — the wharf is right there, the river is narrow, the water is shallow. The scale of the scene — a 265-foot ship on its side in a river barely wider than the ship — is the visual punch.
+
+Foreground: Olive-green river water with floating debris — a wide field of straw hats, wooden planks, personal items scattered across the surface.
+
+Midground: The capsized SS Eastland — the entire hull visible, dark and massive. Survivors and rescuers on the hull. Tugboats alongside. Acetylene torch sparks as rescuers cut through hull plates.
+
+Background: Clark Street wharf packed with hundreds. Horse-drawn ambulance wagons. Fire department equipment. The Chicago skyline — the Reid-Murdoch Building's clock tower, brick commercial blocks, water towers. A flat pewter sky pressing down.
+
+Audio direction:
+- SFX: The sharp hiss and pop of acetylene cutting torches on steel, the clang of hammers on hull plates from rescuers trying to reach those trapped inside, water lapping against the hull, a tugboat's engine chugging, ropes being pulled taut with a creak, the hollow metallic ring of the hull as rescuers walk across it
+- Ambience: A massive, layered crowd sound — hundreds of voices on the wharf, urgent but now organized, the clop of horse hooves on cobblestones from ambulance wagons, steam whistles from river vessels, fire bells in the distance, the low constant groan of the hull settling deeper into the river bottom
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

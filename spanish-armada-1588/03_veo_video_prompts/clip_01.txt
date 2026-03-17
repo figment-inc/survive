@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p.
+
+Camera: Static medium shot, low angle from main deck looking upward. Locked camera, flat composition, no movement. The translucent figure at center frame gripping a rope at the galleon's rail, the massive Armada crescent formation visible behind across dark teal water under storm clouds. Classic adult animation medium shot staging.
+
+Opening shot — no previous clip. Drops the viewer directly onto the deck of a Spanish warship.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure stands gripping the hemp rope with both hands as the deck rolls beneath it. At second 1, a gust hits — the figure lurches sideways, tightening its grip. At second 2-3, the figure steadies itself and turns its skull slowly to look over its shoulder toward the horizon behind the fleet, where storm clouds mass. At second 4, the figure does a subtle double-take — the orb eyes widen as it sees something alarming in the distance.
+
+Flat even lighting on the figure. Overcast pewter-grey sky presses down. Palette: slate grey sky, storm-black cloud masses, dark teal sea with flat white wave caps, dull bronze cannon metal, faded crimson sail crosses, weathered brown timber, grey-white haze.
+
+Foreground: Bronze culverin cannon lashed to its carriage, cannonball rack, spray cresting the gunwale as flat white shapes. Rope coils shift as the deck tilts.
+
+Midground: The figure at the rail. Spanish soldiers in morion helmets brace nearby, one pointing toward the horizon.
+
+Background: The Armada crescent formation — dozens of galleons with crimson-cross sails, stretching across the channel. Storm clouds building behind the fleet. The sea rises and falls in flat dark teal swells.
+
+Audio direction:
+- SFX: Heavy timber groaning as the hull flexes in the swell, hemp rope creaking under tension, the hollow boom of a wave striking the hull, canvas sails snapping taut in a gust, iron cannonballs clinking against each other in their rack as the ship rolls
+- Ambience: The deep constant rush of open-channel seas against the hull, wind whistling through rigging lines at varying pitches, distant indistinct shouts from sailors on nearby ships carried across the water, the rhythmic creak of the ship's frame
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

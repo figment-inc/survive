@@ -1,23 +1,22 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Ruins of the Richmond district, Halifax, December 6, 1917 — aftermath.
+Classic American adult animation frame, vertical 9:16 composition. Halifax harbour floor, December 6, 1917 — the tsunami aftermath.
 
-Wide high-angle shot looking down across the obliterated neighbourhood. The figure lies crumpled in the rubble in the center of frame, barely distinguishable among the debris.
+Medium shot, low angle looking upward. The figure is pinned against the shattered remains of a wharf piling by a wall of dark harbour water surging inland. The wave is carrying debris — timber, barrels, hull fragments. The composition emphasizes the overwhelming force of the water.
 
 2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+The figure is pressed against the broken piling, arms wrapped around it, skull thrown back. The dark water surges around the figure's ribcage and rises toward the skull. Posture reads as a final desperate grip — skeletal fingers clutching the splintered wood.
 
-The figure lies face-down in rubble, one arm extended, the translucent body partially covered by splintered wood and ash. Still. Motionless.
+Foreground: Dark teal-grey harbour water churning with debris — broken planks, a ship's lifebuoy, tangled rope, fragments of dock structure. Foam and spray rendered as flat white shapes.
 
-Foreground: Shattered timber, bent iron nails protruding from broken boards, a child's porcelain doll face-down in the ash, a twisted tin cup.
+Midground: The figure clinging to the shattered piling. The water level is at chest height and rising. Broken timbers and iron hardware swirl in the current around the figure. The remains of Pier 6 — just splintered stumps of pilings — visible nearby.
 
-Midground: The figure in the rubble. Around it, a wasteland — where hundreds of houses and buildings stood, now only foundation stones, scattered timber, and fires burning in the wreckage. The ground is covered in grey ash and splintered wood.
+Background: The devastated Halifax waterfront — fires burning across the flattened Richmond District, the mushroom cloud still hanging in the sky, now spreading laterally. The tsunami wave has pushed inland, carrying wreckage hundreds of metres from the shore. A large vessel — the SS Imo — grounded on the Dartmouth shore across the Narrows. Dark, apocalyptic sky of smoke and suspended debris.
 
-Background: The harbour visible through the gap where Richmond used to be — the water drawn back from the shore by the tsunami's retreat, exposing the harbour bottom. The mushroom cloud dissipating into a vast grey pall that covers the entire sky. Across the harbour, Dartmouth's waterfront is similarly devastated. In the far distance, a blizzard front approaching from the northwest — dark grey clouds heavier than the explosion pall.
+Flat even lighting filtered through thick smoke haze. Palette: dark teal-grey water, charcoal smoke, ash grey rubble, vivid orange-red fires scattered across the background, pale translucent figure against the dark water. The cold palette has overtaken everything — no warmth except the fires.
 
-Palette: ash grey, charcoal black, muted brown rubble, dirty white snow beginning to fall, the cold grey of the approaching blizzard. All warmth drained from the scene. Monochrome devastation.
+Period texture: A ship's brass nameplate tumbling in the water. The splintered piling shows hand-hewn axe marks from its original construction. A telegraph pole leaning at forty-five degrees, its wires trailing in the flood.
 
-Period texture: The anchor of the Mont-Blanc — a half-ton iron ship's anchor — embedded in the ground two miles from the blast site, visible as a dark silhouette against grey rubble. The bare stone foundations of vanished houses forming a grid pattern on the hillside.
-
-Background activity: Distant figures stumbling through the rubble. Small fires burning. The first snowflakes of the blizzard beginning to fall — the storm that would bury the ruins under sixteen inches of snow by nightfall.
+Background activity: Debris carried on the wave — recognizable fragments of houses, furniture, barrels. Fires reflected on the water surface as flat orange shapes.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

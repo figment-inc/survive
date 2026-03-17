@@ -1,23 +1,28 @@
-Cinematic vertical 9:16 video, 1080p.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Dynamic action shot, low angle looking upward, camera shaking — the moment of rupture. Over four seconds, the massive tank's steel wall tears open and a dark mass of molasses begins to surge outward. The translucent character is caught in the foreground, mid-flinch, arms thrown up defensively over its skull. Rivets shoot through the air. The world breaks.
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
 
-Transition from clip 04: a violent cut from the quiet warning scene to this moment of catastrophe — the shift from ominous calm to explosive destruction is instantaneous and total.
+Camera: Static high-angle shot, looking down. Locked camera, flat composition, no movement. The figure is below the camera, waist-deep in the molasses, reaching upward toward a steel beam. Classic adult animation high-angle vulnerability staging.
 
-OMINOUS BUILDUP crashing into HIGH CONTRAST CATASTROPHE — the flat winter light is suddenly overwhelmed by the dark mass of escaping molasses. The contrast is extreme: pale sky, brown-black wave, pale translucent figure caught between. Light quality shifts from muted to harsh in an instant.
+Visual transition: Same setting, tighter framing — the figure has fallen from the trestle into the molasses and is now trapped.
 
-Foreground: A steel rivet the size of a man's fist flying through the air, trailing dark molasses. Shards of steel peeling outward from the tank wall. Cobblestones vibrating, loose stones bouncing. The camera itself seems to shake with the concussion.
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
-Midground: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. The figure has an eerie, anatomical quality. Performance: The figure is caught mid-flinch — at second one, the body jolts as the rupture sound hits. Seconds two through four, the arms fly up over the skull defensively, the translucent body twists away from the tank, weight shifting backward, every bone visible through the contorting translucent skin. The pale orb eyes are wide with pure terror.
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Background: The tank wall splitting open — a vertical rupture racing up the steel plates, rivets popping in rapid sequence. A dark wall of molasses visible through the widening breach, impossibly dense and heavy. The elevated railway trestle vibrating. Pigeons exploding upward from rooftops in a white burst. People on the street beginning to turn toward the sound.
+Character action over 4 seconds: At ~0 seconds, the figure is waist-deep in the flat treacle brown surface, arms stretched overhead reaching for a bent girder just out of reach. Skull tilted up. At ~1-2 seconds, the figure strains upward — spine arching, shoulders pulling — fingertips inches from the steel beam. A clear cartoon reach-and-fail gesture. At ~3 seconds, the figure sinks slightly deeper — now ribcage-deep. The reaching becomes more urgent — both hands grasping. At ~4 seconds, the molasses is chest-level. The figure's arms are still up but the reach is weaker. Sinking.
 
-The air fills with a brown mist — atomized molasses spraying ahead of the main breach. Dust and debris. The sweet smell becoming overwhelming.
+Flat even lighting on character. Palette: overwhelming treacle brown surface, cold slate grey sky viewed from below through trestle beams, the figure's pale translucent skin contrasting starkly against dark brown, dirty amber wood debris floating nearby.
 
-The corroded steel tearing like paper, revealing the years of structural neglect at the Purity Distilling Company.
+Foreground: The steel beam above — riveted flat iron-grey with a cracked weld joint. Trestle cross-bracing frames the shot.
 
-No dialogue. No speech. No talking. The character reacts silently through physical gestures, facial expressions, and body language only. All audio is ambient environmental sound and sound effects only.
+Midground: The figure sinking. Wooden debris around — a splintered door panel, a chair leg. The thick flat brown surface.
+
+Background: The flooded street stretching away. A collapsed tenement with interior rooms visible. Other figures trapped at various depths.
 
 Audio direction:
-- SFX: An enormous metallic CRACK — the sound of fifty-foot steel plates tearing apart. Rivets firing off like gunshots in rapid succession — ping, ping, ping, ping. The deep wet SURGE of 2.3 million gallons of molasses releasing at once — a sound like a dam breaking but thicker, heavier. Steel grinding and shrieking. Cobblestones cracking. The whoosh of pigeons' wings.
-- Ambience: The world's sound transforms in an instant — from calm urban midday to the roar of industrial catastrophe. A deep rumbling that shakes the ground. The pressure wave pushing air ahead of the molasses, a sudden gust. Screams beginning in the distance.
+- SFX: The thick, glutinous sucking sound of the molasses pulling the figure deeper — slow, wet, heavy. The figure's hands slapping the steel beam — hollow metallic impacts growing weaker. The creak of the bent girder above. A bubble breaking the surface — a slow, heavy pop.
+- Ambience: Muffled distant calls. The slow, horrible patience of the molasses — a continuous thick lapping and gurgling. Wind above. The groaning trestle.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

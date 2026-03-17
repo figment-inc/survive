@@ -1,21 +1,20 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Halifax Harbour wharf, December 6, 1917, 9:04 AM.
+Classic American adult animation frame, vertical 9:16 composition. Halifax Harbour, view of the Mont-Blanc, December 6, 1917, 9:04 AM.
 
-Close-up shot, slightly low angle. The figure's skull-face fills the upper third of frame, looking past camera toward the harbour. The burning ship's glow reflects as flat orange on the water visible over the figure's shoulder.
+Close-up reaction shot of the figure's upper body and skull, low-angle dread framing. The burning ship looms in the background, now almost entirely obscured by fire and smoke. The close framing creates claustrophobic tension.
 
 2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+The figure's skull is turned slightly, pale orb-eyes wide. One skeletal hand is raised near the ribcage in an instinctive protective gesture. The jaw is set, mouth closed. Expression reads as dawning comprehension of danger.
 
-The figure's skull-face is angled slightly, pale orb eyes wide. One translucent hand is raised near the chest in an instinctive cautious gesture. Visible tension in the posture — shoulders slightly raised.
+Foreground: Wisps of flat dark smoke drifting across the lower frame. The iron railing partially visible at bottom edge.
 
-Foreground: A thick hemp mooring rope cuts diagonally across the bottom of frame. Frost crystals on the rope fibers.
+Midground: The figure's upper body dominates the frame. Visible through the translucent skin: ribcage, clavicles, cervical vertebrae. The pale orb-eyes catch the orange glow from the harbour.
 
-Midground: The figure in close-up. Behind the figure's translucent shoulder, the orange-yellow glow of the Mont-Blanc fire is visible on the harbour water.
+Background: Over the figure's shoulder — the Mont-Blanc in the Narrows, now a solid mass of vivid orange-red flame with white-hot sparks flying. The black smoke column has widened enormously, filling the upper portion of the frame. The sky behind is pale slate grey with the smoke column dominating. Barrels of benzol visible on the ship's deck as bright orange shapes amid the inferno.
 
-Background: Out of focus rendered as flat simplified shapes — the column of smoke and fire rising from the harbour, silhouettes of onlookers along the wharf railing, the muted brown rooftops of Richmond.
+Flat even lighting on the figure. Background lit by flat orange-red fire glow against the cold grey sky. Palette: slate grey sky, black smoke, vivid orange-red and white-hot flame, iron blue harbour water, the figure's pale translucent skin.
 
-Flat palette: pale translucent figure against slate grey and cold blue, with warm orange-yellow glow from the fire casting flat color on the water. Damp cold atmosphere.
-
-Period texture: A brass ship's telescope mounted on the wharf railing beside the figure, the kind used for harbour observation.
+Period texture: The figure's hand grips a section of riveted iron railing. Behind, a portion of a brick factory wall with a painted advertisement for 'ACADIAN COAL' partially visible.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

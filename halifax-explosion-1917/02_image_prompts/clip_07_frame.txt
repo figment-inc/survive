@@ -1,23 +1,22 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Richmond district, Halifax, December 6, 1917 — seconds after the explosion.
+Classic American adult animation frame, vertical 9:16 composition. Richmond District, Halifax, December 6, 1917 — seconds after the explosion.
 
-Wide shot, low angle looking up from street level. The figure is in the midground being hurled backward by the blast wave, body ragdolling through the air amid a storm of debris.
+Wide tableau shot at ground level. Total devastation — the entire Richmond District has been flattened. The figure lies amid an unbroken field of splintered wood, twisted iron, and rubble where a neighbourhood of houses once stood. A massive dark mushroom cloud rises behind.
 
 2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+The figure is sprawled face-down in the debris, one arm reaching forward, skull turned to the side. Motionless. Partially buried under broken timber and shattered glass.
 
-The figure is airborne, limbs splayed in a cartoon ragdoll posture, translucent body tumbling among wooden planks, shattered glass, brick fragments, and shingle debris. Pale orb eyes wide.
+Foreground: A thick carpet of debris fills the bottom third of the frame — splintered clapboard, bent iron nails, shattered window glass, broken furniture, torn fabric, a child's shoe. A fire hydrant sheared off, water spraying upward.
 
-Foreground: Splintered wooden beams and shattered window glass flying toward camera. A twisted iron stove tumbling through the air. Brick fragments. Everything moving in one direction — away from the blast.
+Midground: The figure amid the flattened landscape. Where houses stood moments ago, only foundation stones and cellar holes remain. Fires beginning in a dozen places — flat orange-red flame shapes rising from the rubble. Twisted rail tracks curled like ribbons. The hull plate of a ship embedded vertically in the ground.
 
-Midground: The figure tumbling amid the debris field. The wooden houses that lined the street are mid-collapse — walls blown flat, roofs lifting off, entire structures disintegrating into component boards. Bare foundation stones visible where houses stood a moment before.
+Background: The massive mushroom cloud — dark grey and black at the base, lighter grey mushrooming outward at the top — dominates the upper half of the frame. The harbour is visible as a strange empty basin — the blast displaced the water, exposing the harbour floor momentarily. Across the Narrows, Dartmouth is burning. The sky is dark with debris and smoke.
 
-Background: The massive mushroom cloud rising from the harbour, now towering thousands of feet, its stem bone white and its cap spreading charcoal grey against the pale sky. At its base, a tsunami wave is visible surging up from the harbour — a wall of dark water pushing inland through the destroyed waterfront. The sky above is dominated by the expanding cloud.
+Flat atmospheric haze of smoke and dust. Palette: charcoal black, ash grey, raw timber tan, vivid orange-red fire spots, dark teal where the harbour water is returning. The overcast sky is now completely obscured by the dark mushroom cloud.
 
-Palette: charcoal black, ash grey, splintered brown wood, the bone white and grey of the mushroom cloud, dark blue-black tsunami water. The searing orange of the initial blast fading, replaced by destruction tones. Dust and debris fill the air as a thick haze.
+Period texture: A cast-iron stove sitting upright amid the rubble — the only recognizable domestic object. A locomotive wheel visible among the wreckage from the destroyed rail yard. The anchor of the Mont-Blanc — half a ton of iron — lies in a crater.
 
-Period texture: A cast-iron wood stove from a destroyed home tumbling through the air, its stovepipe trailing. Shattered glass from the factory windows that injured thousands. Railway tracks bent upward like ribbons.
-
-Background activity: Flattened structures as far as the eye can see. The tsunami pushing boats and dock wreckage inland. Fires beginning in the rubble.
+Background activity: Silhouetted figures staggering through the rubble, some carrying others. Fires spreading. A horse lying on its side amid debris.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

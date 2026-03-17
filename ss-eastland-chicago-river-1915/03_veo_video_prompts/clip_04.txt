@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p.
+
+Camera: Static medium-wide shot, eye level from the wharf. Locked camera, flat composition, no movement. The SS Eastland has rolled completely onto its port side — the massive dark hull bottom faces the camera. The figure scrambles on the curved exposed hull. Classic adult animation wide tableau staging.
+
+Visual transition: NEW angle — the ship has fully capsized between clips. The previous clip's near-vertical deck has become the horizontal hull bottom.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure crawls on all fours across the curved, riveted hull surface — wet, slippery steel. Seconds 1-3: the figure crawls upward toward the keel line, limbs splayed wide for balance, fingers gripping between rivet heads. Seconds 4-5: the figure reaches the keel ridge and straddles it, sitting up, looking around at the chaos below. Seconds 6-8: the figure looks down at the water on both sides of the hull — on one side, the narrow gap between hull and wharf churns with struggling passengers; on the other, the open river. The figure's hands grip the keel edge. Frozen indecision. Orb eyes dart side to side. Mouth sealed.
+
+Flat even lighting, overcast. Dark hull steel dominates — near-black with flat rust-brown patches. Olive-green water churns below. The wharf's dull brick and grey timber. Muted Edwardian colors of the crowd.
+
+Foreground: Dark olive-green river water with floating debris — chairs, hats, planks, picnic hampers. Arms reaching upward from the water between floating objects.
+
+Midground: The capsized hull — a massive curved wall of riveted dark steel, barnacles and river slime visible on the submerged portions now exposed. The figure and other survivors cling to the hull. A man pulls a woman upward by the arm.
+
+Background: Clark Street wharf packed with onlookers. A fire department wagon arrives. Ropes being thrown. A tugboat approaches with crew leaning over the bow. The Chicago skyline — brick buildings, water towers — under pewter sky.
+
+Audio direction:
+- SFX: The hollow metallic boom of the hull settling against the river bottom (the water is only twenty feet deep — the ship rests on the bottom), the scrape of the figure's hands on riveted steel, splashing from people in the water, ropes slapping against the hull, the clang of a tugboat's bell, the hiss of steam escaping from submerged machinery
+- Ambience: A wall of sound — overlapping panicked voices from the wharf and the water, the continuous low groan of stressed steel settling, water sloshing against the hull, the distant clang of fire bells approaching, the hollow reverberations of the trapped compartments below
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

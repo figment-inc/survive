@@ -1,23 +1,22 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Halifax Harbour waterfront, December 6, 1917, 9:04 AM.
+Classic American adult animation frame, vertical 9:16 composition. Halifax Harbour, Nova Scotia, December 6, 1917, 8:45 AM.
 
-Medium shot, eye level, looking out across the harbour narrows. The figure stands on a wooden wharf in the immediate midground, body angled toward the water, skull-face turned slightly toward camera with pale orb eyes wide. The figure is frozen mid-step, one foot lifted as if about to walk toward the waterfront edge.
+Medium shot, low angle tilted slightly upward. The figure stands on a wooden timber wharf in the foreground, staring out across the Narrows at a burning cargo ship. Low camera emphasizes the towering column of black smoke rising from the vessel.
 
 2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+The figure stands at the edge of the wharf, body angled slightly toward the burning ship, one hand raised to shield its eye sockets from the glare. Posture is tense, weight shifted back on one foot.
 
-The figure stands stiffly on the wharf planks, arms slightly out from the body, skull tilted upward toward a column of thick white smoke rising from the harbour.
+Foreground: Thick timber wharf planks with iron mooring cleats and coiled hemp rope. A wooden barrel and stacked crates marked with military stencils. Frost on the wood grain.
 
-Foreground: Rough-hewn timber wharf planks with iron mooring cleats and coiled hemp rope. A wooden barrel stamped with shipping marks sits at frame left. Frost riming the iron hardware.
+Midground: The figure on the wharf edge. Behind the figure, dock workers in dark wool coats and flat caps have stopped to watch the fire, some pointing. A horse-drawn cart loaded with supplies sits idle on the pier road.
 
-Midground: The figure on the wharf. Beyond, the dark water of the narrows, and two ships — one a dark-hulled cargo vessel and the other a lighter transport — angled toward each other. A massive plume of dense white and dirty grey smoke billows upward from one of the vessels, already rising high above the mast lines.
+Background: The SS Mont-Blanc ablaze in the Narrows — a dark-hulled cargo vessel with thick black smoke pouring from its deck, vivid orange-red flat flames licking upward. Beyond, the opposite shore of Dartmouth is visible as a low grey line. Pale overcast December sky rendered in flat slate grey and iron blue. Warships and harbour vessels dot the grey water.
 
-Background: The Richmond district of Halifax climbing the hillside — rows of flat-colored wooden clapboard houses in muted brown, white, and pale blue. Church steeples. Factory smokestacks. The overcast December sky rendered as a single flat plane of pale grey. Dozens of tiny figures visible on rooftops and at windows, watching the smoke.
+Flat even lighting under overcast sky. Palette: slate grey, iron blue, harbour-water teal, dark timber brown, with vivid orange-red flame cutting through the cold tones. Black smoke column rendered as flat dark shapes against the pale sky.
 
-Flat even lighting under overcast sky. Palette: slate grey sky, cold steel blue water, weathered brown timber wharf, dirty white and grey smoke plume, muted house colors on the hillside. Damp coastal winter atmosphere — thin fog at the waterline.
+Period texture: Riveted iron bollards on the wharf, a faded naval recruitment poster nailed to a wooden post, ice forming on the harbour water near the pilings.
 
-Period texture: A hand-painted wooden sign reading 'PIER 6' in faded black letters nailed to a wharf piling, with a rusted iron ship's lantern hanging beside it.
-
-Background activity: Dockworkers in flat caps and heavy wool coats paused along the wharf, pointing at the burning ship. A horse-drawn cart loaded with cargo sits abandoned on the pier road. Small figures crowd the waterfront, drawn to the spectacle.
+Background activity: Dock workers gathering to watch the fire. A small boat rowing toward the burning ship. Children on a hillside street above the harbour watching the spectacle. Figures in windows of waterfront warehouses pressing against the glass.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

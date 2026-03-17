@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p.
+
+Camera: Static wide panoramic shot, high angle. Locked camera, flat composition, no movement. A mass burial pit viewed from above and to the side. The figure is a small pale shape among dozens of shrouded bundles in a large rectangular trench. Classic adult animation high-angle wide tableau staging.
+
+NEW location — cut from interior quarantine room to exterior mass burial pit at night. Major context shift — the figure's fate is sealed.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure lies motionless among the shrouded forms in the pit for the entire 8 seconds. Orb-eyes are open but blank, staring upward — directly at the viewer from below. One pale translucent arm is draped over a neighboring shrouded bundle. No movement at all. Complete stillness. The only motion in the scene comes from the burial workers above and the drifting smoke. The figure is indistinguishable from the dead except for its translucent skin and visible skeleton.
+
+Flat even lighting — tar bonfires at the corners of the churchyard cast flat amber-orange tones across the scene. The pit interior is darker, illuminated by a single lantern on the ground at the pit's edge. Palette at its most oppressive: charcoal black, deep olive, amber bonfire tones, dirt brown, dirty linen white, the figure's pale translucent form a ghostly contrast among the wrapped bodies.
+
+Foreground: The raw earth edge of the pit — dark brown soil with visible clay layers. Shovels stuck into the dirt pile. A lantern casting flat amber light. Quicklime powder visible as pale dust scattered over the shrouded forms.
+
+Midground: The pit itself — approximately twenty feet across, ten feet deep. Rows of linen-wrapped forms laid in lines fill the bottom. The figure lies among them, the only unwrapped form. Burial workers in rough clothes and cloth face-coverings lower another shrouded body on ropes.
+
+Background: A churchyard at night — the square stone tower of St. Giles Cripplegate visible against a flat black sky. More pit trenches in parallel rows across the churchyard. Tar bonfires with flat orange flames and grey smoke columns at the yard corners. A dead-cart being unloaded at the entrance. A parish clerk recording numbers by lantern light.
+
+Audio direction:
+- SFX: Shovelfuls of earth thudding onto wrapped forms — a heavy, dull, final sound. Ropes creaking as a body is lowered. The lantern flame sputtering in a breeze. Quicklime hissing faintly as it contacts damp linen. The dead-cart bell clanking as the cart is emptied. Boots squelching in muddy earth at the pit's edge.
+- Ambience: Nighttime churchyard — the crackle of tar bonfires, a low wind moaning through the stone tower, the grim rhythmic sounds of burial work — dig, lower, cover. Distant church bells marking the hour. An owl calling from the church tower. The oppressive weight of mass death rendered as an almost subliminal low-frequency hum — the sound of a city in extremis.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

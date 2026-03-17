@@ -1,28 +1,28 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animated comedy scene, vertical 9:16, 1080p.
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
 
-Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The vast taiga stretches in every direction with the figure small in the midground on a riverbank. Classic adult animated comedy wide tableau staging — the environment dwarfs the character.
+Camera: Static wide environmental shot, high angle looking down at the figure and surrounding landscape. Locked camera, flat composition, no movement. The figure is small in the frame, emphasizing the vastness of the Siberian wilderness. Classic adult animation wide tableau staging.
 
-Visual transition: NEW location — cut from the close forest interior to an open riverbank vista. The sense of scale expands dramatically — we now see how much forest surrounds the figure.
+Visual transition: Same location as clip 01 but pulled back to a wide overhead perspective, revealing the immense scale of the isolated taiga.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: The figure stands on the riverbank looking out across the forest. For the first 3 seconds, the figure slowly turns in place — a full 180-degree rotation, scanning the endless taiga in every direction. The body language reads as dawning realization of total isolation. At second 4, the figure stops turning and looks down at the ground, shoulders dropping. From seconds 5-7, the figure takes a few tentative steps along the riverbank, then stops and looks up at the sky again — the blue-white light is still visible as a fading glow on the horizon. At second 8, the figure takes one step backward, away from the direction of the glow. Mouth remains closed throughout.
+Character action over 8 seconds: The figure stands near the riverbank in the clearing, looking around nervously. At second 2, the figure begins walking quickly toward the Evenki camp — a couple of conical chum tents visible nearby. At second 4, the figure stops and turns to look upward again as the sky grows brighter. At second 6, the figure breaks into a jog, arms swinging, heading toward the tree line for cover. The body language escalates from unease to alarm to flight. Head keeps turning back to check the sky.
 
-Flat even lighting on the character. Cold morning palette: deep pine green forest canopy, birch white trunks, cold grey-blue sky, pale blue river water, muted rust-brown and olive ground cover. The fading fireball glow tints the horizon in the direction the figure faces — pale orange-white — but the rest of the scene remains in cold morning tones.
+Flat even lighting on the figure. Cool pre-dawn blue-grey tones dominate the landscape, with the upper sky shifting to flat warm white-orange as the approaching object brightens. Palette: deep boreal green canopy, steel-blue river, charcoal-brown tree trunks, birch-white bark, pale blue-grey ground mist, warming orange-white sky above.
 
-Foreground: River stones in flat grey and brown. Clumps of sedge grass in yellow-green. A birch-bark canoe pulled up on the bank — its hull rendered in flat pale tan with visible stitching marks. Water lapping at stones in flat pale blue.
+Foreground: (Overhead view) Treetop canopy of larch trees in flat deep green with simplified needle texture. Birch crowns in flat lighter green with white trunk segments visible.
 
-Midground: The small figure on the mossy riverbank. The Podkamennaya Tunguska River curves through the frame — flat pale blue water with subtle current lines. On the far bank, the tree line is dense and impenetrable.
+Midground: The clearing and riverbank where the figure moves. The Podkamennaya Tunguska River rendered as a flat steel-blue ribbon. Two Evenki chum tents in flat brown reindeer hide over wooden pole frames. A wooden fish-drying rack with flat strips of salmon. A smoldering campfire with a flat grey smoke column. A dugout canoe on the gravel bank.
 
-Background: Endless taiga forest filling every horizon — an ocean of deep pine green and birch white. Low rolling hills. Thin smoke from an Evenki campfire rising in a single wispy column from among the trees. A vast flat grey-blue sky. The fading glow of the fireball's trail visible as a pale streak.
+Background: Endless taiga in flat deep boreal green stretching to every horizon. Low rolling hills in flat blue-grey. The sky transitions from pale blue-grey at the edges to increasingly intense flat white-orange at the point where the bolide approaches. The growing light casts flat warm orange across the treetops.
 
 Audio direction:
-- SFX: River water lapping gently against stones with a soft liquid sound. Gravel crunching under the figure's footsteps. A fish splashing in the river. Wind rustling through birch leaves with a papery flutter. In the distance, a delayed deep rumbling boom — the sound of the fireball's passage finally reaching this location — followed by a second, much deeper boom that shakes the ground and sends ripples across the river surface.
-- Ambience: Remote Siberian morning — wind through vast forest canopy creating a low continuous sigh, river current as a gentle constant, isolated bird calls echoing across water. After the distant boom, the bird calls stop completely. An eerie post-boom silence settles over everything — just wind and water.
+- SFX: River current lapping against stones, the crunch of gravel underfoot as the figure walks then jogs, tent hide flapping in a sudden gust of wind, the rising atmospheric whistle continuing and intensifying from clip 01, dogs in the Evenki camp barking in agitation, reindeer snorting and stamping
+- Ambience: Siberian morning forest — wind through the canopy, river flow, the growing low-frequency rumble from the approaching object vibrating through the ground, an escalating tension in the environmental soundscape
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

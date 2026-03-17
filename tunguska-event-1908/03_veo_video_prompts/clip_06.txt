@@ -1,28 +1,28 @@
-MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animated comedy style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animated comedy scene, vertical 9:16, 1080p.
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
 
-Camera: Static high-angle shot looking down. Locked camera, flat composition, no movement. A god's-eye view of the figure lying on scorched earth surrounded by the radial pattern of eighty million flattened trees. Classic adult animated comedy overhead vulnerability staging.
+Camera: Static wide shot, eye-level. Locked camera, flat composition, no movement. The figure stands at center frame surrounded by a complete ring of fire — the entire flattened forest is burning. Classic adult animation dramatic tableau staging.
 
-Visual transition: Dramatic cut — from the chaotic motion of the shockwave to sudden stillness. The violence is over. Now the viewer sees the result from above.
+Visual transition: Same devastated landscape, slightly wider framing. The scattered fires from clip 05 have grown into a full firestorm engulfing the fallen timber.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 4 seconds: The figure lies face-down on scorched black earth in the center of the frame, completely still for the first 2 seconds — thrown here by the blast, crumpled like a discarded toy. Arms extended forward. At second 3, the figure stirs — a small twitch, one hand clenching. At second 4, the skull slowly lifts and turns to one side, one pale orb eye becoming visible, looking out across the devastation. The movement is minimal and exhausted. Mouth remains closed.
+Character action over 4 seconds: The figure stands motionless at the center of the firestorm. Arms hang at its sides. Shoulders are slumped in complete defeat. Orb eyes stare forward blankly. Over the 4 seconds, the figure makes one slow, defeated head turn — looking left, then right — taking in the complete wall of fire surrounding it. No running. No flailing. Just the stillness of someone who understands there is nowhere left to go.
 
-Palette: The most devastated version of the episode palette. Charcoal black, ash grey, scorched brown. The deep pine green is completely gone. The cold morning blue is gone. Everything is monochrome destruction. The figure's pale translucent form is the only non-charred element. Small flat orange pockets of lingering fire among fallen trunks.
+Flat even lighting on the figure. The palette has collapsed to its most extreme: flat charcoal-black ground, bright flat orange and deep amber flames, flat dark grey-brown smoke above, the pale translucent figure at center. Flat orange-amber embers drift upward throughout the frame.
 
-Foreground: (closest to overhead camera) Charred tree trunks radiating outward from the figure's position like spokes of a wheel — all stripped of branches, all blackened, all pointing away from center. The radial pattern is geometric and eerie.
+Foreground: Burning fallen timber in flat orange flames. Embers rendered as flat orange-amber dots rising.
 
-Midground: The figure on a patch of scorched black earth. Around the figure, burned ground — no undergrowth, no grass, flat charcoal-black soil with ash grey patches. Small fires in flat orange pockets.
+Midground: The figure on blackened earth. Fire surrounds it completely.
 
-Background: The radial pattern of fallen trees extends to every edge of the frame. Millions of trunks in concentric rings. Smoke rising in vertical columns. The ash-brown sky above.
+Background: Wall of flat orange fire in every direction. The sky above is flat dark grey-brown, choked. Glowing flat embers rising everywhere.
 
 Audio direction:
-- SFX: Ringing silence — a high-pitched tinnitus tone, the aftermath of the blast. The soft crackle of scattered fires. A distant tree trunk settling and groaning as it shifts position. The figure's hand scraping against scorched earth — a gritty, ashy rasp. A single rock clicking as it rolls down a displaced root ball.
-- Ambience: Post-blast desolation — an eerie ringing silence punctuated only by the distant crackle of fires and the settling of debris. No birdsong. No wind. No animal sounds. The total absence of the living forest soundscape that existed minutes ago. Just crackling embers and settling ash.
+- SFX: The deep roar of a forest fire consuming thousands of acres of timber, the crack and pop of burning wood, the hiss of moisture vaporizing, the whoosh of fire drawing in oxygen
+- Ambience: An overwhelming wall of fire sound — continuous roaring crackle, the rush of superheated air being sucked inward by the firestorm's convection, creating a furnace-like drone
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

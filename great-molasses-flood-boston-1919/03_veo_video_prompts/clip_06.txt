@@ -1,23 +1,28 @@
-Cinematic vertical 9:16 video, 1080p.
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Wide shot, slightly high angle, tracking right — the translucent character sprints down Commercial Street as a fifteen-foot wall of dark brown molasses surges behind it. Over eight seconds, the figure runs desperately, the wave gaining, the street descending into chaos. The camera tracks alongside the fleeing figure, keeping it in frame while the wave fills the background.
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
 
-Transition from clip 05: widening from the rupture close-up to this chase shot — the scale of the disaster is now revealed. The wave is enormous, the street is being consumed.
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The full devastation of Commercial Street — a lake of dark treacle brown with the figure chest-deep in the center. Classic adult animation wide establishing staging.
 
-HIGH CONTRAST CATASTROPHE lighting — extreme contrast between the dark brown wall of molasses and the pale winter sky. Wet molasses surfaces catch and reflect ambient light in sickly brown-amber reflections. The translucent figure seems to glow against the dark wave behind it.
+Visual transition: Cut to wider framing showing the full scale of destruction — the figure is one small element in a landscape of devastation.
 
-Foreground: Overturned vegetable carts, scattered potatoes and turnips rolling across cobblestones. A hat tumbling through the air. A newspaper page plastered against a lamppost by the pressure wave ahead of the flood. Debris racing along the street.
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
-Midground: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. The figure has an eerie, anatomical quality. Performance: Full sprint — legs pumping, translucent arms swinging, every joint and bone articulated in the desperate motion. At seconds one through three, the figure runs in a straight line, skull facing forward, arms pumping. At second four, it turns its skull to look back over one shoulder — seeing the wave gaining — and the pale orb eyes widen impossibly. Seconds five through eight, the figure accelerates, its gait becoming more panicked and uncoordinated — arms flailing, stride lengthening, the body leaning forward as it tries to outrun 35 miles per hour of viscous destruction. Other fleeing figures alongside — longshoremen, women clutching children, a policeman.
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Background: The wall of molasses fifteen feet high surging down Commercial Street, its leading edge curling like an ocean wave but thick, brown-black, impossibly heavy. It has already consumed the loading dock, a freight warehouse collapsing into the mass. The elevated railway trestle buckling as the wave strikes its iron support columns. A Model T truck rolling inside the brown mass. Debris carried forward — timber beams, barrel staves, sections of steel.
+Character action over 4 seconds: The figure is chest-deep and almost motionless. Only skull, shoulders, and upper ribcage visible. At ~0-2 seconds, the figure is still, pale orb eyes staring straight at camera — a hollow, defeated gaze. At ~3 seconds, the figure's skull lowers slightly — a small, slow downward tilt, resignation. At ~4 seconds, the molasses line reaches the jaw. Barely any movement. The stillness IS the horror.
 
-Brown mist spraying ahead of the main wave. The air thick with atomized molasses. Steam rising where the warm fermenting liquid contacts the cold January air.
+Flat even lighting. Darkest palette: treacle brown dominates the lower two-thirds. Cold slate grey sky. The figure's pale translucent skin is the only point of contrast. Rusted iron oxide debris. Dirty amber wood fragments.
 
-A horse tangled in harness struggling against the approaching wave. People falling. The street being swallowed.
+Foreground: Flat treacle surface with debris — a section of iron fence, a shoe, shattered glass.
 
-No dialogue. No speech. No talking. The character reacts silently through physical gestures, facial expressions, and body language only. All audio is ambient environmental sound and sound effects only.
+Midground: The figure trapped. The buckled elevated trestle. An overturned fire wagon.
+
+Background: Demolished buildings — the Clougherty house in rubble. Cold grey sky.
 
 Audio direction:
-- SFX: The deep wet roar of the molasses wave — a sound like a mudslide but thicker, heavier, a continuous low rumble punctuated by the cracking of wood and twisting of metal as buildings and structures are consumed. The crash of the elevated railway support columns giving way. Wood splintering. A horse screaming. Running footsteps on cobblestones — multiple pairs, frantic. Objects clattering and tumbling.
-- Ambience: The overwhelming roar of destruction — a wall of sound matching the wall of molasses. Screams and shouts of fleeing people. The groan of collapsing structures. Wind pushed ahead of the wave. The entire soundscape dominated by the heavy, wet, rumbling surge.
+- SFX: The slow, thick lapping of molasses against brick and steel. A creak from the settling trestle. A single distant shout, muffled.
+- Ambience: An oppressive quiet has settled over the devastation. The heavy, glutinous sound of the molasses — slow, wet, patient. Occasional distant sounds of rescue — a boat being dragged, a call. Cold wind.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
