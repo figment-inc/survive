@@ -20,8 +20,6 @@ from pathlib import Path
 
 REMOTION_PROJECT = Path("/Users/eliotchang/Local/Github/Figment/captions/captions-cloudflare/apps/remotion")
 FPS = 30
-VIDEO_WIDTH = 1080
-VIDEO_HEIGHT = 1920
 
 
 def _ts() -> str:
@@ -80,16 +78,20 @@ def transcribe_audio(video_path: Path, api_key: str | None = None) -> list[WordT
 
 def build_remotion_segments(
     words: list[WordTimestamp],
-    max_words_per_segment: int = 4,
+    max_words_per_segment: int = 3,
+    video_width: int = 1080,
 ) -> list[dict]:
     """Convert Whisper word timestamps into Remotion HydratedSegment[] JSON.
 
     Groups words into small segments (default 3) for punchy TikTok-style readability.
     Each word gets karaoke styling: highlighted word in yellow (#FFD500),
     other words in white with heavy black stroke.
+    Font size scales proportionally to video width (58px at 1080px reference).
     """
     if not words:
         return []
+
+    font_size_px = round(58 * video_width / 1080)
 
     segments = []
     paragraph_idx = 0
@@ -102,7 +104,7 @@ def build_remotion_segments(
         hydrated_words = []
         for i, w in enumerate(seg_words):
             word_id = f"w_{seg_start + i}"
-            html = _karaoke_html(w.word)
+            html = _karaoke_html(w.word, font_size_px=font_size_px)
             hydrated_words.append({
                 "wordId": word_id,
                 "html": html,
@@ -121,20 +123,31 @@ def build_remotion_segments(
         })
         paragraph_idx += 1
 
-    print(f"  [{_ts()}] Built {len(segments)} caption segments from {len(words)} words")
+    print(f"  [{_ts()}] Built {len(segments)} caption segments from {len(words)} words "
+          f"(font={font_size_px}px for {video_width}px wide)")
     return segments
 
 
-def _karaoke_html(word: str) -> str:
-    """Build HTML for a single word with TikTok-style bold uppercase styling."""
+def _karaoke_html(word: str, font_size_px: int = 58) -> str:
+    """Build HTML for a single word with TikTok-style bold uppercase styling.
+
+    Font size defaults to 58px (tuned for 1080px-wide portrait canvas).
+    Callers should scale proportionally for other resolutions.
+    """
+    stroke = max(1, round(font_size_px / 29))
+    glow = max(4, round(font_size_px / 7))
     return (
         f'<span style="'
         f"font-family: 'Montserrat', 'Inter', sans-serif; "
         f"font-weight: 900; "
-        f"font-size: 110px; "
+        f"font-size: {font_size_px}px; "
         f"text-transform: uppercase; "
         f"color: #FFFFFF; "
-        f"text-shadow: 0 0 10px rgba(0,0,0,0.95), 3px 3px 0 #000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 0 3px 0 #000, 0 -3px 0 #000, 3px 0 0 #000, -3px 0 0 #000; "
+        f"text-shadow: 0 0 {glow}px rgba(0,0,0,0.95), "
+        f"{stroke}px {stroke}px 0 #000, -{stroke}px -{stroke}px 0 #000, "
+        f"{stroke}px -{stroke}px 0 #000, -{stroke}px {stroke}px 0 #000, "
+        f"0 {stroke}px 0 #000, 0 -{stroke}px 0 #000, "
+        f"{stroke}px 0 0 #000, -{stroke}px 0 0 #000; "
         f"letter-spacing: 0.04em;"
         f'">{word}</span>'
     )
@@ -156,6 +169,24 @@ def _get_video_duration(video_path: Path) -> float:
     return float(result.stdout.strip())
 
 
+def _get_video_dimensions(video_path: Path) -> tuple[int, int]:
+    """Get video width and height via ffprobe."""
+    result = subprocess.run(
+        [
+            "ffprobe", "-v", "quiet",
+            "-select_streams", "v:0",
+            "-show_entries", "stream=width,height",
+            "-of", "csv=p=0:s=x",
+            str(video_path),
+        ],
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    w, h = result.stdout.strip().split("x")
+    return int(w), int(h)
+
+
 def render_caption_overlay(
     segments: list[dict],
     video_path: Path,
@@ -167,17 +198,18 @@ def render_caption_overlay(
     """
     duration_secs = _get_video_duration(video_path)
     total_frames = math.ceil(duration_secs * FPS)
+    actual_w, actual_h = _get_video_dimensions(video_path)
 
     props = {
         "segments": segments,
-        "position": {"x": 50, "y": 38},
+        "position": {"x": 50, "y": 72},
         "styleToggles": {
             "scrapbook": False,
             "scatter": False,
             "pulse": False,
             "highlightBorderRadius": 8,
             "singleWord": False,
-            "lineByLine": False,
+            "lineByLine": True,
             "karaokeHighlight": True,
             "karaokeTextColor": "#FFD500",
             "entranceAnimation": "none",
@@ -190,29 +222,29 @@ def render_caption_overlay(
         "backgroundColor": "transparent",
         "transparentBackground": True,
         "debugMode": False,
-        "videoWidth": VIDEO_WIDTH,
-        "videoHeight": VIDEO_HEIGHT,
+        "videoWidth": actual_w,
+        "videoHeight": actual_h,
         "videoDuration": duration_secs,
     }
 
-    props_file = output_path.with_suffix(".props.json")
+    props_file = output_path.resolve().with_suffix(".props.json")
     props_file.write_text(json.dumps(props, indent=2))
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    print(f"  [{_ts()}] Rendering caption overlay ({total_frames} frames @ {FPS}fps)...")
+    print(f"  [{_ts()}] Rendering caption overlay ({total_frames} frames @ {FPS}fps, {actual_w}x{actual_h})...")
 
     env = {**os.environ, "TRANSPARENT_EXPORT": "true"}
 
     cmd = [
         "npx", "remotion", "render",
         "CaptionsOnly",
-        str(output_path),
+        str(output_path.resolve()),
         f"--props={props_file}",
         "--codec=prores",
         "--prores-profile=4444",
-        f"--width={VIDEO_WIDTH}",
-        f"--height={VIDEO_HEIGHT}",
+        f"--width={actual_w}",
+        f"--height={actual_h}",
         f"--fps={FPS}",
         f"--frames=0-{total_frames - 1}",
     ]
@@ -295,7 +327,8 @@ def run_captions_pipeline(
         print(f"  [{_ts()}] WARNING: No words transcribed — skipping captions")
         return None
 
-    segments = build_remotion_segments(words)
+    actual_w, _ = _get_video_dimensions(video_path)
+    segments = build_remotion_segments(words, video_width=actual_w)
 
     overlay_path = output_path.with_suffix(".overlay.mov")
     if not render_caption_overlay(segments, video_path, overlay_path):
