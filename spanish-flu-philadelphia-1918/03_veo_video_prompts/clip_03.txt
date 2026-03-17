@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static close-up, low angle. Locked camera, flat composition, no movement. The figure stands before a brick wall with an official public health notice posted above head height. A horse-drawn ambulance is visible through the gap between buildings. Classic adult animation close-up staging.
+
+Visual transition: Cut from the wide parade scene to a tight, claustrophobic side street — the scale shrinks from spectacle to dread. Different location, tighter framing, cooler palette.
+
+Visual focus: The official public health notice on the brick wall — the city's bureaucratic response to a catastrophe already set in motion by the parade.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure stands reading the public health notice, head tilted up. At second 1.5, the figure's hand slowly rises to touch the translucent throat — a self-conscious gesture of vulnerability. At second 3, the figure turns sharply as the sound of an ambulance horse approaches from behind. Orb-like eyes wide with growing fear.
+
+Flat even lighting. The palette cools — more ashen grey and sallow yellow-green creeping in. Dull crimson brick. Dirty ivory notice paper. Faded navy shadows in the alley.
+
+Foreground: Stacked newspapers on a wooden crate. A trampled American flag on the ground. A discarded cotton face mask.
+
+Midground: The figure at the brick wall. The notice posted above. A Liberty Loan poster beside it — patriotic imagery now looking grotesque in context.
+
+Background: Narrow side street with row houses. A horse-drawn ambulance — white with red cross — approaches. A woman in a cloth mask hurries past. Pewter-grey sky strip above.
+
+Audio direction:
+- SFX: The clip-clop of a horse pulling the ambulance at a trot, growing louder. The creak of ambulance wheels on cobblestones. Paper rustling on the wall in a gust. A distant, muffled coughing fit from inside a row house.
+- Ambience: The street is quieter than the parade — an eerie contrast. Wind through the narrow row house canyon. The distant remnants of parade music, muffled and fading. The overall sound has thinned; the celebration is draining away.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

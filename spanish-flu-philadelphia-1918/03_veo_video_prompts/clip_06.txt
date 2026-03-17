@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static close-up, high angle looking down. Locked camera, flat composition, no movement. The figure lies curled on a row house floor, translucent skin showing pronounced heliotrope cyanosis. A toppled water glass and a small parade souvenir flag lie in the pooled water beside the figure. Classic adult animation close-up staging.
+
+Visual transition: Cut from the exterior station to an intimate interior — the tightest, most claustrophobic framing yet. The disaster has moved from the city into the body.
+
+Visual focus: The figure's translucent skin showing the unmistakable heliotrope cyanosis — the blue-violet discoloration that was the signature of the cytokine storm, the immune system turning lethal against its own host.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure lies on the floor, curled in fetal position. The visible ribcage expands and contracts with shallow, labored breathing — each breath visibly weaker than the last. At second 2, one hand twitches, fingers weakly grasping at the floorboards. At second 3, the breathing slows further. The orb-like eyes remain open but unfocused, staring at nothing.
+
+Flat even lighting. Maximum sickly palette — heliotrope blue-violet and sallow yellow-green dominate the figure's skin. Ashen grey floor. Dirty ivory walls with faded dull crimson floral wallpaper. The room looks poisoned.
+
+Foreground: The toppled glass, pooled water, the small parade souvenir flag lying in the puddle. A crumpled cotton mask. Pine floorboards.
+
+Midground: The figure on the floor beside the iron bed frame.
+
+Background: Cramped row house room — peeling wallpaper, lace curtains, pewter sky through the window. Through the window, a horse-drawn coffin cart passes.
+
+Audio direction:
+- SFX: Labored, wet, rattling breathing — slow and irregular. The faint scrape of fingernails on pine floorboards. A drip of water from the toppled glass reaching the floor edge. The distant creak and clop of the coffin cart outside the window.
+- Ambience: Interior silence punctuated by the breathing. The tick of a clock on the wall. Wind pressing against the window glass. The muffled sounds of a city in quarantine — distant, hollow, emptied of life.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

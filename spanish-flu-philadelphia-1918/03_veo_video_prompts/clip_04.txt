@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. A hospital corridor converted into an emergency ward — cots and stretchers line both walls and fill the floor. The figure stands in the narrow central aisle, looking left and right at the overwhelming scene. Classic adult animation wide interior staging.
+
+Visual transition: NEW interior location — cutting from the outdoor side street to the claustrophobic horror of an overwhelmed hospital. Warmer artificial light replaces the grey outdoor palette. The walls close in.
+
+Visual focus: The sheer number of patients — every surface occupied, with the figure trapped in the only remaining walking space, a narrow aisle between rows of the sick and fallen.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands in the aisle at second 0, head turning left to right taking in the scene. At second 2, the figure takes a step forward, carefully stepping over a stretcher on the floor. At second 4, the figure reaches toward a nurse passing by — trying to get help — but the nurse hurries past without stopping. At second 5.5, the figure stumbles slightly, catching balance on a metal bed frame. At second 7, the figure presses one hand to the translucent forehead — the first sign of fever. The figure's posture begins to droop.
+
+Flat even lighting. Sickly interior palette — dirty ivory walls, ashen grey floor, sallow yellow-green and heliotrope blue-violet on patient faces. White nurse uniforms are the brightest elements. Dull crimson spots on some linens.
+
+Foreground: A metal hospital cart with glass syringe, gauze, brown aspirin bottle. A folded cotton mask. A bedpan. These items frame the bottom of the shot.
+
+Midground: The figure in the aisle. Patients on cots on both sides — some flat, some sitting. Nurses in white caps and aprons moving urgently between patients. One nurse pauses, pressing a hand to her own forehead.
+
+Background: The corridor recedes to frosted-glass double doors. More cots visible beyond. A clock on the wall. A window showing pewter-grey sky.
+
+Audio direction:
+- SFX: Persistent coughing from multiple directions — wet, rattling, overlapping. A metal tray clattering as someone drops it. The squeak of a nurse's shoes on linoleum. The creak of a metal bed frame as someone shifts. A glass thermometer clinking against a metal tray. The sound of labored, wheezing breathing from nearby patients.
+- Ambience: The constant low hum of a building overwhelmed — shuffling feet, rustling sheets, the murmur of distress. No celebration sounds anymore. The world outside has gone quiet. Inside, the sounds of illness are everywhere — a chorus of coughing, wheezing, and the soft movements of exhausted caregivers.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

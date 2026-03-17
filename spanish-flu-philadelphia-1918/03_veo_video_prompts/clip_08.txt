@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The figure stands alone in the center of an empty Broad Street — the exact same street from clips 01 and 02, but now completely deserted. Tattered bunting hangs limp from lampposts. No parade, no spectators, no life. City Hall tower visible in the far distance. Classic adult animation wide tableau staging.
+
+Visual transition: Return to the SAME location as clips 01 and 02 — Broad Street — but now emptied of all life. The visual callback is deliberate and devastating. Same framing angle as clip 02's wide shot, same perspective toward City Hall, but every human being is gone.
+
+Visual focus: The emptiness itself — the same street that held two hundred thousand people is now a void. The contrast between the parade scene and this aftermath IS the horror. Tattered bunting and crushed parade debris are the only evidence anyone was ever here.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands in the center of the empty street, small in the wide frame. For the first 3 seconds, the figure slowly turns in place, looking up and down the deserted avenue — searching for anyone. At second 4, the figure stops turning, facing toward City Hall in the distance. At second 5, the figure's shoulders drop. At second 6, the figure takes one step forward, then stops. At second 7, the figure stands perfectly still — alone in the empty street, heliotrope-tinged skin visible even at this distance. At second 8, the figure is motionless. A single horse-drawn hearse crosses a distant intersection behind the figure.
+
+Flat even lighting. Maximum palette drain — ashen grey, charcoal, faded-to-grey navy bunting, rust-faded crimson. Parade confetti has become grey pulp on cobblestones. The figure's heliotrope skin is the only remaining color. Charcoal-grey sky, heavier than any previous clip.
+
+Foreground: Cobblestones littered with parade debris — crumpled Liberty Loan posters, trampled American flags, confetti turned to grey mush in puddles. A discarded cotton face mask.
+
+Midground: The figure alone in the vast empty street. Tattered bunting sagging between lampposts.
+
+Background: Broad Street in perspective toward City Hall tower and William Penn statue — same landmark composition as clip 02. Every window shuttered. Every door closed. No flags in windows. A single hearse crosses a distant intersection. A cat on a windowsill. A curtain shifts. Otherwise: emptiness.
+
+Audio direction:
+- SFX: Wind gusting through the empty street, catching a loose piece of bunting and making it flap against the lamppost — a lonely, irregular rhythm. A crumpled poster scraping across cobblestones. The very distant clip-clop of the hearse horse, almost at the edge of hearing. A shutter banging once against a building facade.
+- Ambience: The profound silence of a quarantined city of 1.8 million people. Wind is the dominant sound — low, steady, unobstructed by crowds or traffic or life. The absence of sound is the sound. A single distant church bell — one toll. Then silence again. The wind.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

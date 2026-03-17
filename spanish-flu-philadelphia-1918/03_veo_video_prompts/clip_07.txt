@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, low angle. Locked camera, flat composition, no movement. The figure stands at the edge of a long mass grave trench stretching diagonally across the frame. Workers in cloth masks place coffins and canvas-wrapped forms into the trench. Classic adult animation wide tableau staging.
+
+Visual transition: NEW exterior location — cutting from the intimate row house close-up to the wide, desolate scale of mass burial. The frame opens up to reveal the city-wide scale of death.
+
+Visual focus: The mass grave trench itself — an open wound in the earth stretching to the horizon, filled with rows of rough pine coffins. The industrial scale of loss made physical.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands at the trench edge, looking down. At second 2, the figure takes a slow step along the trench edge, following its length with growing horror. At second 4, the figure stops and looks up — another trench is being dug parallel to this one. At second 5.5, the figure sways slightly, unsteady on feet — the illness progressing. At second 7, the figure's knees buckle slightly, catching balance. Head bows. The heliotrope discoloration on the translucent skin is severe.
+
+Flat even lighting. Earth-toned devastation palette — raw brown dirt, ashen grey, dull olive bare trees, pewter sky pressing down. The figure's heliotrope-tinged skin is the only non-earth color. A muted crimson on the trampled flag in the dirt.
+
+Foreground: Mounds of freshly turned earth. A shovel driven upright in dirt. A trampled American flag half-buried in mud. Raw brown and grey soil.
+
+Midground: The figure at the trench edge. Workers in cloth masks and overalls placing coffins. Rough pine coffins and canvas-wrapped forms in rows at the trench bottom.
+
+Background: Flat barren field. More parallel trenches being dug. A horse-drawn coffin cart approaching on a dirt road. Bare autumn trees. A priest in black at the far end. A woman standing alone at another section. Heavy pewter-charcoal sky.
+
+Audio direction:
+- SFX: Shovels biting into earth — a rhythmic, relentless scraping and thudding. The hollow thud of a pine coffin being lowered into the trench. A horse snorting and stamping. Rope creaking as a coffin is guided down. The dull knock of coffin against coffin in the crowded trench.
+- Ambience: Wind across an open field — steady, cold, carrying the earthy smell of turned soil (conveyed through the sound of wind through bare branches). Distant church bells tolling intermittently. The low murmur of workers — not words, just the hum of grim labor. Crows cawing. An overwhelming quiet beneath the work sounds — a city that has stopped functioning.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
