@@ -23,10 +23,13 @@ VIDEO_MODEL = "veo-3.1-generate-preview"
 INITIAL_DURATION = 8
 EXTENSION_DURATION = 7
 
+STYLE_REFERENCE_FILENAME = "style_reference.png"
+
 STYLE_AND_RULES = (
     "CRITICAL DIRECTIVES — apply to every frame of this video:\n"
-    "1. STYLE: Flat 2D cel-shaded animation. Thick black outlines. ZERO gradients, "
-    "ZERO photorealistic elements, ZERO 3D shading. Match the attached character reference sheet.\n"
+    "1. STYLE: Flat 2D cel-shaded animation matching the canonical style reference image. "
+    "Thick black outlines. ZERO gradients, ZERO photorealistic elements, ZERO 3D shading. "
+    "Match the attached character reference sheet AND the global style guide.\n"
     "2. NO TEXT: Zero on-screen text, titles, captions, subtitles, watermarks, or typography.\n"
     "3. NO SPEECH: Zero spoken dialogue, narration, voiceover, or character vocalizations. "
     "Video must contain ONLY environmental SFX and ambient sounds. "
@@ -34,10 +37,11 @@ STYLE_AND_RULES = (
 )
 
 CHAIN_STYLE_ANCHOR = (
-    "STYLE CONTINUITY: This clip MUST maintain the EXACT same art style as the "
-    "preceding clip — identical line weight, identical cel-shading, identical flat color "
-    "rendering. Do NOT drift toward photorealism, 3D shading, or gradient lighting. "
-    "Keep the translucent figure's appearance visually identical to the previous clip.\n\n"
+    "STYLE CONTINUITY: This clip MUST maintain the EXACT same flat cel-shaded 2D animation "
+    "style established in clip 01 — identical line weight, identical cel-shading, identical "
+    "flat color rendering, matching the canonical style reference. Do NOT drift toward "
+    "photorealism, 3D shading, or gradient lighting. Keep the translucent figure's "
+    "appearance visually identical to the previous clip.\n\n"
 )
 
 PHOTOREALISTIC_BANNED_TERMS: list[tuple[str, str]] = [
@@ -231,6 +235,22 @@ def load_reference_images(channel_dir: Path) -> dict[str, list[bytes]]:
     return all_refs
 
 
+def load_style_reference(channel_dir: Path) -> bytes | None:
+    """Load the global style reference image (e.g. Family Guy frame).
+
+    Returns raw PNG bytes or None if the file doesn't exist.
+    This is separate from character refs — it defines the target art style
+    rather than the character's appearance.
+    """
+    ref_path = channel_dir / "reference_images" / STYLE_REFERENCE_FILENAME
+    if not ref_path.exists():
+        print(f"  WARNING: Style reference not found: {ref_path}")
+        return None
+    data = ref_path.read_bytes()
+    print(f"  Loaded style reference: {STYLE_REFERENCE_FILENAME} ({len(data) / 1024:.0f} KB)")
+    return data
+
+
 def select_refs_for_prompt(all_refs: dict[str, list[bytes]], prompt_text: str) -> list[bytes]:
     """Select the best reference images based on camera angle keywords in the prompt.
 
@@ -308,13 +328,14 @@ def generate_video(
     use_reference: bool = True,
     style_anchor_refs: list[bytes] | None = None,
     episode_style: str | None = None,
+    style_ref_bytes: bytes | None = None,
 ) -> bool:
     """Generate a video clip via Veo 3.1.
 
     Native audio (ambient/SFX) is kept — not muted or stripped.
     Falls back through: ASSET refs -> first-frame -> text-only.
-    style_anchor_refs are placed FIRST (highest priority) to enforce
-    cross-clip visual consistency.
+    style_ref_bytes is the global style guide image (highest priority slot).
+    style_anchor_refs are placed next to enforce cross-clip visual consistency.
     """
     output_path.parent.mkdir(parents=True, exist_ok=True)
     prompt = _wrap_prompt(prompt, episode_style=episode_style)
@@ -324,21 +345,27 @@ def generate_video(
         "resolution": resolution,
     }
 
+    MAX_REFS = 3
     combined_refs: list[bytes] = []
+    if style_ref_bytes:
+        combined_refs.append(style_ref_bytes)
     if style_anchor_refs:
         combined_refs.extend(style_anchor_refs[:2])
     combined_refs.extend(ref_images or [])
 
-    MAX_REFS = 3
     if len(combined_refs) > MAX_REFS:
-        if style_anchor_refs and ref_images:
-            n_anchors = min(len(style_anchor_refs), MAX_REFS - 1)
-            n_chars = MAX_REFS - n_anchors
-            combined_refs = list(style_anchor_refs[:n_anchors]) + list((ref_images or [])[:n_chars])
-            print(f"  [{_ts()}] Ref slots: {n_anchors} style anchors + {n_chars} character refs = {MAX_REFS}")
-        else:
-            print(f"  [{_ts()}] Capping reference images from {len(combined_refs)} to {MAX_REFS}")
-            combined_refs = combined_refs[:MAX_REFS]
+        n_style = 1 if style_ref_bytes else 0
+        remaining = MAX_REFS - n_style
+        anchor_list = style_anchor_refs or []
+        char_list = ref_images or []
+        n_anchors = min(len(anchor_list), max(remaining - 1, 0)) if anchor_list else 0
+        n_chars = remaining - n_anchors
+        combined_refs = (
+            ([style_ref_bytes] if style_ref_bytes else [])
+            + list(anchor_list[:n_anchors])
+            + list(char_list[:n_chars])
+        )
+        print(f"  [{_ts()}] Ref slots: {n_style} style ref + {n_anchors} anchors + {n_chars} char = {len(combined_refs)}")
 
     if use_reference and combined_refs:
         ref_entries = [
@@ -523,8 +550,9 @@ def extend_video(
         style_prefix = (
             "MANDATORY STYLE LOCK: After multiple extensions, style drift is likely. "
             "This clip MUST use flat 2D cel-shaded animation with thick black outlines — "
-            "ZERO photorealism, ZERO gradients, ZERO 3D rendering. Match the art style "
-            "of the FIRST clip in this chain exactly. The translucent figure must look "
+            "ZERO photorealism, ZERO gradients, ZERO 3D rendering. Match the canonical "
+            "style reference (classic American adult animation) and the art style of the "
+            "FIRST clip in this chain exactly. The translucent figure must look "
             "identical to its appearance in the opening clip.\n\n"
         )
     prompt = style_prefix + prompt

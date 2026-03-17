@@ -13,6 +13,7 @@ Classic American adult animation (Family Guy seasons 10-20 aesthetic):
 - **No 3D rendering**, no photorealistic elements, no shading variation
 - **Static locked camera** — no handheld, no shaky-cam, no drift
 - **Flat 2D compositions** — painted layered backgrounds, minimal parallax
+- **Global style reference** — `.channel/reference_images/style_reference.png` is passed as the first visual input to every image and video generation call, grounding all outputs in the canonical art style. Character angle references are separate and additive.
 
 ## Tone
 

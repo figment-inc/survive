@@ -31,6 +31,17 @@ Angle-aware reference sheets in `.channel/reference_images/` establish the chara
 
 The pipeline automatically selects the best 3 reference images based on camera angle keywords in each video prompt.
 
+### Global Style Reference
+
+A separate **style reference image** defines the canonical art style for the entire series:
+
+| File | Purpose |
+|------|---------|
+| `style_reference.png` | Global style guide — defines the target flat cel-shaded 2D animation aesthetic |
+| `Featured-Image-Family-Guy-Cropped.avif` | Original source file (AVIF, converted to PNG for API compatibility) |
+
+The style reference is passed as the **first visual input** to both image (Gemini) and video (Veo 3.1) generation on every clip, including clip 01. It is separate from character references — it establishes the overall art style (line weight, cel-shading, flat colors) rather than the character's appearance. To update the style target, replace the AVIF source and re-convert to PNG.
+
 ## Naming Rules for Veo Prompts
 
 - Refer to the character as **the figure** or **the translucent character**

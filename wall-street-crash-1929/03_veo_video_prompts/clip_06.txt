@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static close-up, eye level. Locked camera, flat composition, no movement. The translucent figure's skull in profile fills the right third of frame, with the massive chalkboard filling the left two-thirds. Classic adult animation dramatic close-up staging.
+
+Visual transition: Same location, dramatic framing shift — from the wide overhead chaos to an intimate profile shot. The board tells the catastrophe in numbers.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure is completely still for the first 2 seconds — skull in profile, orb-eyes fixed on the chalkboard. Then a single, slow reaction: the skull drops — chin dipping toward the chest. The shoulders sag. One translucent hand releases a stock certificate, which flutters downward out of frame. The figure does not move again. Total stillness for the final second. The stillness IS the performance — the moment of understanding that everything is gone.
+
+Flat even lighting. The palette at its most stark: the olive green chalkboard with columns of white chalk numbers — many slashed through and rewritten lower. The figure's pale translucent profile against the dark background. Ticker tape drifting slowly through frame. No warmth in the palette — pure charcoal, olive, chalk white, and the figure's ghostly pallor.
+
+Foreground: Dense ticker tape falling slowly through the immediate frame space. A broken telephone on the floor below frame.
+
+Midground: The figure's skull in profile and the chalkboard — stock symbols (US Steel, RCA, General Electric) with numbers being revised down.
+
+Background: The dark trading floor behind, reduced to flat shapes of suited bodies and falling paper.
+
+Audio direction:
+- SFX: The scratch of chalk on the board — a clerk's hand writing new, lower numbers. The soft flutter of a stock certificate falling to the floor. The mechanical chatter of a ticker machine, slowing, catching up to the devastation.
+- Ambience: The trading floor roar has dimmed to a low, exhausted moan — the sound of a crowd that has passed through panic into shock. Occasional isolated sounds cut through: a phone ringing, a cough, the creak of wood.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

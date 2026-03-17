@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. The translucent figure fills center-left of frame, gripping a candlestick telephone. The wooden wall of the phone bank stretches behind. Classic adult animation medium close-up staging.
+
+Visual transition: Same location, tighter framing — cutting from the chaos of the trading floor to the desperate phone bank along the wall. Emotional focus narrows to the figure's futile attempt to sell.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-3: The figure grabs a candlestick telephone from the shelf, presses the earpiece to the side of the skull, and waits — skull tilted, orb-eyes intent. The figure taps the telephone cradle rapidly with one translucent finger — the tap-tap-tap of trying to get an operator. Seconds 4-5: The figure pulls the phone away from its skull and stares at it — then slams it down on the shelf with a sharp frustrated gesture. Seconds 6-8: The figure lunges for the next phone in the row, snatches it up, presses it to the skull — same result. The hand holding the phone drops slowly to the figure's side. The skull tilts downward in defeat. The ticker tape around the figure continues to fall steadily.
+
+Flat even lighting. Interior palette narrowed: dark mahogany brown wall paneling, tarnished brass telephones, white and pink paper, charcoal grey suits on adjacent traders. Steel-grey flat light. The oppressive warmth of the tarnished brass is the only color variety.
+
+Foreground: The telephone shelf with its row of candlestick phones — several receivers dangling off hooks, cloth cords tangled. Crumpled sell slips and a half-empty water glass on the shelf.
+
+Midground: The figure and the phone bank. Adjacent traders also on phones — one has slid to a sitting position on the floor still holding a receiver, another is slamming the phone repeatedly.
+
+Background: The trading floor visible past the phone bank area — the blizzard of paper, dark-suited figures in motion, the distant olive green chalkboard with descending numbers.
+
+Audio direction:
+- SFX: The sharp click-click-click of the telephone cradle being tapped. A dial tone that abruptly cuts to a busy signal — a rapid pulsing buzz. The slam of a phone receiver onto a wooden shelf. Another phone's receiver swinging and banging against the wall. The continuous mechanical chatter of the ticker machine nearby.
+- Ambience: The muffled roar of the trading floor behind — like a distant ocean of panic. The hum and buzz of overwhelmed telephone lines. Occasional sharp sounds cutting through — a shout, a bell, glass breaking.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

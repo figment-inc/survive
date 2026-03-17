@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static wide shot, high angle from visitors' gallery looking down. Locked camera, flat composition, no movement. The trading floor fills the entire frame — a sea of dark suits and white paper. The translucent figure is visible in the lower-center, trying to push toward the exit. Classic adult animation wide tableau staging.
+
+Visual transition: Same location, wider framing — pulling back from the intimate phone bank failure to show the overwhelming scale of the chaos. The figure is re-absorbed into the crowd.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure pushes through the crowd toward the visible exit doors on the far wall. One arm extended, shoving between dark-suited bodies. Over 4 seconds, the figure makes almost no forward progress — the crowd is too dense, moving in conflicting directions. By second 3, the figure is pushed sideways by a surge of bodies, stumbling. By second 4, the figure is completely swallowed by the crowd, only the pale skull visible above the sea of fedoras and dark shoulders.
+
+Flat even lighting. The palette from the high angle is almost monochrome: soot black suits, stark white paper floor, charcoal grey architecture, tarnished brass fixtures of the trading posts as geometric islands. The figure's pale translucence is the only non-grey-black element.
+
+Foreground: The ornate iron railing of the visitors' gallery at the very top of frame. Spectators' hands gripping the rail.
+
+Midground: The trading floor from above — hundreds of figures, the paper-covered floor, the hexagonal trading posts.
+
+Background: The far wall with its exit doors — visible but unreachable. The tall arched windows. The chalkboards.
+
+Audio direction:
+- SFX: The crush of bodies — fabric rubbing, shoes scuffing, the dull thud of shoulders colliding. A distant crash of something falling — glass or furniture. A police whistle — one long blast from outside.
+- Ambience: The trading floor roar at peak intensity — a wall of overlapping panicked voices, ticker machines chattering, phones ringing unanswered, the echo of the vast space turning every sound into a disorienting wash.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

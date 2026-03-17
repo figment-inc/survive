@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, eye level, looking down Wall Street toward the NYSE building. Locked camera, flat composition, no movement. The translucent figure is small in the lower-center of frame, surrounded by a dense crowd pressing toward the Exchange. The stone canyon of Wall Street fills the vertical frame. Classic adult animation wide tableau staging.
+
+Visual transition: NEW location — cutting from interior close-up to exterior wide establishing shot. The scale shift from intimate to panoramic emphasizes the figure's insignificance.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure begins at the edge of the crowd near the bottom of frame. Over 8 seconds, the figure is slowly swept forward by the press of bodies — not walking voluntarily but being carried by the crowd's momentum toward the NYSE entrance. The figure's skull turns left, then right, looking at the faces around it. Arms come up defensively as the crowd compresses. By second 6, the figure is fully absorbed into the mass of dark-suited men, only the pale translucent skull visible above the sea of fedoras. The crowd surges in waves — compressing, releasing, compressing tighter.
+
+Flat even lighting. Exterior palette: steel-grey overcast sky, deep charcoal grey stone buildings, soot black overcoats and fedoras on the crowd, tarnished brass gold window frames and ornamental details. Wet cobblestones in flat dark grey. White ticker tape strips drifting from upper windows.
+
+Foreground: A cast-iron lamppost with ornate base at frame left. A crumpled newspaper on wet cobblestones. The backs of men's fedoras and overcoat collars closest to camera.
+
+Midground: The dense crowd filling the street — hundreds of flat-rendered men in dark wool overcoats, fedoras, bowler hats. The figure's pale form threading through them. A mounted police officer's horse visible above the crowd, the officer gesturing.
+
+Background: The NYSE neoclassical facade — six massive Corinthian columns, triangular pediment — filling the upper third of frame. American flags on building facades. The narrow slot of grey sky between the Wall Street canyon walls. Ticker tape falling from brokerage office windows above.
+
+Audio direction:
+- SFX: The heavy shuffle of hundreds of leather shoes on wet cobblestones. A police whistle blowing sharply — two short blasts. A horse's hooves clopping on stone. A car horn honking distantly. The flutter of ticker tape falling from above.
+- Ambience: A dense crowd murmur building in intensity — hundreds of anxious male voices overlapping, not distinct words but a rising rumble of panic. The urban soundscape of 1929 Manhattan — distant traffic, a steam whistle from the harbor, pigeons scattering.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

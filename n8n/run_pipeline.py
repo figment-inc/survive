@@ -341,6 +341,13 @@ def run_images_phase(episode, ep_dir):
             print(f"  [{ts()}] Loaded reference: {name}")
             break
 
+    style_ref_path = ref_dir / "style_reference.png"
+    if style_ref_path.exists():
+        print(f"  [{ts()}] Loaded global style reference: {style_ref_path.name}")
+    else:
+        style_ref_path = None
+        print(f"  [{ts()}] WARNING: Global style reference not found — style anchoring weakened")
+
     images_dir = ep_dir / "output" / "images"
     images_dir.mkdir(parents=True, exist_ok=True)
 
@@ -372,6 +379,7 @@ def run_images_phase(episode, ep_dir):
             has_character=has_character,
             style_anchor_path=style_anchor_path if i > 0 else None,
             episode_style=episode_style,
+            style_ref_path=style_ref_path,
         )
 
         if i == 0 and output_path.exists():
@@ -621,8 +629,8 @@ def run_videos_independent_phase(episode, ep_dir):
     phase_banner("PHASE 3: VIDEO GENERATION — INDEPENDENT (Veo 3.1)")
 
     from lib.veo import (
-        get_client, load_reference_images, select_refs_for_prompt,
-        generate_video, extract_style_anchor_frames,
+        get_client, load_reference_images, load_style_reference,
+        select_refs_for_prompt, generate_video, extract_style_anchor_frames,
     )
 
     gemini_key = load_env_key("GEMINI_API_KEY")
@@ -632,6 +640,7 @@ def run_videos_independent_phase(episode, ep_dir):
 
     client = get_client(gemini_key)
     all_refs = load_reference_images(CHANNEL_DIR)
+    style_ref_bytes = load_style_reference(CHANNEL_DIR)
 
     videos_dir = ep_dir / "output" / "videos"
     images_dir = ep_dir / "output" / "images"
@@ -682,6 +691,7 @@ def run_videos_independent_phase(episode, ep_dir):
                 use_reference=use_reference,
                 style_anchor_refs=style_anchor_refs if i > 0 else None,
                 episode_style=episode_style,
+                style_ref_bytes=style_ref_bytes,
             )
             if success:
                 break

@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The translucent figure sits slumped at the base of a cast-iron lamppost on the now-empty Wall Street. Paper drifts cover the pavement like snowdrifts. Classic adult animation medium-shot staging.
+
+Visual transition: Same location, later — cutting from the stunned crowd scene to the empty aftermath. The crowd has gone. Only the figure and the paper remain.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-4: The figure sits on the stone curb at the base of the lamppost, spine curved forward in defeat, skull bowed, translucent arms resting on drawn-up knees. One hand holds a single stock certificate — the phalanges visible through the translucent skin gripping the paper. The figure is almost perfectly still — only a faint tremor in the hand holding the certificate. Seconds 5-7: The hand slowly opens. The stock certificate slips from the fingers and flutters to the ground, landing on the pile of paper covering the pavement. The figure watches it fall. Seconds 7-8: The figure's skull drops further — chin to chest. Total stillness. The wind stirs the paper around the figure. A single ticker tape strip blows across the figure's translucent lap and continues past. The lamppost's flat amber glow is the only warmth in the frame.
+
+Flat even lighting. Evening palette: deep soot black sky, charcoal grey building facades, tarnished amber from the lamppost casting a flat pool of warm light on the paper-covered pavement. The figure's pale translucence has an almost spectral quality against the dark scene — the last visible thing on the dead street. White paper has turned grey in the dim light.
+
+Foreground: Ankle-deep drifts of ticker tape and torn paper pushed against the curb by the wind. A crushed fedora in the gutter. The lamppost's ornate iron base with decorative scrollwork.
+
+Midground: The figure at the lamppost base. The empty street stretching to either side. An abandoned dark Packard sedan at the curb with its door hanging open. A toppled wooden police barricade.
+
+Background: The NYSE building in the distance, its massive columns dark. The J.P. Morgan building at 23 Wall Street. A few dim lights in upper-story windows where clerks still work through the night. The empty canyon of Wall Street receding into darkness.
+
+Audio direction:
+- SFX: The soft rustle of paper blowing across cobblestones. A single stock certificate fluttering as it falls from the figure's hand — a papery whisper. The creak of the abandoned car's open door swinging in the wind. A distant clock striking — Trinity Church's bells, muffled by the stone canyon. The scratch of a broom — a lone janitor sweeping somewhere off-screen.
+- Ambience: Near-total silence on a street that held thousands hours ago. The low moan of wind through the stone canyon. Paper skittering across pavement. The faint, almost subliminal tick-tick-tick of a ticker machine still running inside the Exchange — printing the devastation five hours after the closing bell.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

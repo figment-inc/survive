@@ -39,12 +39,15 @@ def generate_image(
     has_character: bool = False,
     style_anchor_path: Path | None = None,
     episode_style: str | None = None,
+    style_ref_path: Path | None = None,
 ) -> bool:
     """Generate a single image via Nano Banana Pro (Gemini 3 Pro Image).
 
     Uses the official Google GenAI SDK with the Gemini API key.
     If has_character is True and reference_paths are provided, a character
     consistency prefix is prepended to the prompt.
+    style_ref_path is the global style guide image (e.g. Family Guy frame) —
+    always passed as the first visual input to ground the art style.
     style_anchor_path adds a previously generated frame as a style reference.
     episode_style injects the episode's unified visual identity text.
     """
@@ -56,6 +59,15 @@ def generate_image(
             "skin quality, same skeletal visibility, same pale orb eyes.\n\n"
         )
         prompt = prefix + prompt
+
+    if style_ref_path and style_ref_path.exists():
+        prompt = (
+            "GLOBAL STYLE REFERENCE: The attached style guide image defines the EXACT "
+            "visual style for this generation — flat cel-shaded 2D animation with thick "
+            "black outlines, clean flat colors, no gradients, no 3D. Match this art style "
+            "precisely in every element: characters, backgrounds, objects, lighting. This "
+            "is the canonical style target.\n\n"
+        ) + prompt
 
     if style_anchor_path and style_anchor_path.exists():
         prompt = (
@@ -69,13 +81,18 @@ def generate_image(
 
     ref_count = len(reference_paths) if reference_paths else 0
     has_anchor = style_anchor_path and style_anchor_path.exists()
+    has_style_ref = style_ref_path and style_ref_path.exists()
     print(f"  [{_ts()}] Generating image: {output_path.name} "
           f"(refs={ref_count}, char={'yes' if has_character else 'no'}"
+          f"{', style_ref' if has_style_ref else ''}"
           f"{', style_anchor' if has_anchor else ''})")
 
     client = genai.Client(api_key=api_key)
 
     contents = []
+    if style_ref_path and style_ref_path.exists():
+        mime = _mime_for_path(style_ref_path)
+        contents.append(types.Part.from_bytes(data=style_ref_path.read_bytes(), mime_type=mime))
     if style_anchor_path and style_anchor_path.exists():
         mime = _mime_for_path(style_anchor_path)
         contents.append(types.Part.from_bytes(data=style_anchor_path.read_bytes(), mime_type=mime))

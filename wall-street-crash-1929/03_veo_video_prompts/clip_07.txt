@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, low angle looking up the Wall Street canyon. Locked camera, flat composition, no movement. The NYSE steps and columns fill the upper half of frame. The translucent figure stands on the steps among a stunned crowd. Ticker tape cascades from every window above. Classic adult animation wide tableau staging.
+
+Visual transition: NEW location — cutting from interior close-up to exterior wide. The scale shift from the intimate chalkboard to the vast street canyon amplifies the devastation to city-wide scope.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 1-3: The figure stands on the NYSE steps among shell-shocked traders, arms hanging limp at sides. The skull slowly tilts upward, watching the cascade of paper from the windows above. Seconds 4-6: The figure takes one step backward, then another — a slow retreat down the stone steps. The visible ribcage and spine through the translucent skin give the descent an anatomical gravity. Seconds 7-8: The figure reaches the bottom of the steps and stands motionless on the paper-covered sidewalk. The skull turns slowly left, then right, surveying the devastated street. Total stillness. The paper continues to fall around the figure like snow.
+
+Flat even lighting. Late afternoon steel-grey palette at its darkest: soot black overcoats on the stunned crowd, charcoal grey stone facades rising on both sides, tarnished amber from early street lamps beginning to glow. The white ticker tape is the only brightness — but it reads as debris, not light. The narrow strip of grey sky between buildings presses down.
+
+Foreground: Ticker tape and torn stock certificates falling densely through immediate frame space. A fedora lying crown-down on the stone steps. A dropped leather briefcase spilling papers.
+
+Midground: The figure on the NYSE steps. Shell-shocked men in dark overcoats standing motionless or sitting with heads in hands. A mounted police officer's horse shifting nervously. The massive Corinthian columns rising behind the crowd.
+
+Background: The Wall Street canyon — stone facades of banks and brokerage houses on both sides, windows visible with paper pouring from them. American flags hanging limp. The narrow grey sky above. Distant traffic stopped.
+
+Audio direction:
+- SFX: The soft continuous rustle of thousands of paper strips falling — like dry leaves in a forest. Horse hooves shifting on cobblestones. A car door slamming distantly. A woman's muffled sob from behind a police barricade. A church bell tolling — Trinity Church at the head of Wall Street marking the hour.
+- Ambience: The eerie quiet of a street that was roaring an hour ago — the crowd is stunned into near-silence. Occasional murmurs. The wind channeled through the stone canyon, carrying paper. The distant wail of a siren. The low hum of a city in shock.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
