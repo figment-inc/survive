@@ -46,10 +46,10 @@ Every episode = 8 clips (mix of 4s and 8s durations), target ~48 seconds total v
    **HOOK STRUCTURE.** One or two sentences. 8-18 words total. No prescribed fragment template — the sentence should sound like a calm, composed human stating something extraordinary. The paradox or absurdity must be SELF-CONTAINED: the viewer needs no prior knowledge and no additional context to feel the pull.
 
    **VARIETY.** Each hook should find the single most "wait, what?" element of its specific topic. Do NOT default to leading with a number. Numbers are only compelling when paired with a consequence that makes them feel impossible. Across a series, hooks should feel like different fascinating stories, not the same template with different facts.
-2. **THE IMMERSION** (clips 02-03): Clip 02 MUST name the specific disaster/location AND the year within its first sentence — AND immediately re-establish danger in the same breath. No leisurely scene-setting. Not "Location. Date. The morning was pleasant." Instead: "Boise City, 1935. A wall of dust two hundred miles wide is eating the horizon —". Every second of exposition must carry tension; interleave facts with threat. Clip 03 tightens the trap with a specific scientific or historical detail that makes the danger feel inevitable. No filler. No breathing room. Every sentence earns the viewer's next second of attention.
-3. **THE ATTEMPT** (clips 04-05): The viewer tries to survive and FAILS — each failure teaches one real fact. Agency verbs: "You run", "You warn", "You push toward the door." The attempt must be logical and historically grounded — something a real person would have tried. The failure must be specific and educational. This is the educational heart of the episode. Sentences carry momentum ACROSS clip boundaries.
-4. **THE CATASTROPHE** (clips 06-07): The disaster hits with clinical precision. Specific temperatures, wind speeds, structural failure points, chemical reactions. The calm narrator voice amid the destruction IS the horror. **HARD RHYTHM SHIFT**: switch from flowing sentences to brutal staccato punches — **MAXIMUM 5 WORDS PER SENTENCE. No exceptions.** "The surge arrives. Four hundred degrees. It boils the sea." "Cattle drop. Children suffocate. Three hours of darkness." Every sentence is a punch. The contrast with the flowing immersion is what creates the visceral impact.
-5. **THE CONCLUSION** (clip 08, 8s): The devastating payoff. End with a definitive, closing statement that lands like a verdict — a final fact so stark it needs no follow-up. The callback is mandatory — the ending must echo or invert the hook for structural satisfaction. "The mountain did not need fire. It only needed gravity." The goal: leave the viewer STUNNED by the completeness of the destruction. The last sentence should feel like a door closing — not a question hanging, but an answer the viewer wishes they never heard. Closure IS the horror.
+2. **THE IMMERSION** (clips 02-03): Clip 02 MUST name the specific disaster/location AND the year within its first sentence — AND immediately re-establish danger in the same breath. No leisurely scene-setting. Not "Location. Date. The morning was pleasant." Instead: "Boise City, 1935. A wall of dust two hundred miles wide is eating the horizon —". Every second of exposition must carry tension; interleave facts with threat. Clip 03 tightens the trap with a specific scientific or historical detail that makes the danger feel inevitable. No filler. No breathing room. Every sentence earns the viewer's next second of attention. **EDUCATIONAL PAYLOAD**: Immersion MUST explain the specific mechanism that makes this disaster possible — the geology, engineering flaw, weather system, human error, or physical process. Not "the volcano erupted" but "the eastern face of the dome — three hundred million cubic metres of unstable rock — has been fracturing along thermal vents for weeks." The viewer should LEARN why this disaster was inevitable.
+3. **THE ATTEMPT** (clips 04-05): The viewer tries to survive and FAILS — each failure teaches one real fact. Agency verbs: "You run", "You warn", "You push toward the door." The attempt must be logical and historically grounded — something a real person would have tried. The failure must be specific and educational. This is the educational heart of the episode. Sentences carry momentum ACROSS clip boundaries. **EDUCATIONAL PAYLOAD**: Each failure MUST teach WHY the survival strategy failed — the specific physics, biology, or engineering that made it impossible. Not "you can't outrun it" but "the pyroclastic flow moves at four hundred fifty miles per hour — faster than sound. You cannot hear it coming because it outruns its own noise." The viewer learns a mechanism through the character's doom.
+4. **THE CATASTROPHE** (clips 06-07): The disaster hits with clinical precision. Specific temperatures, wind speeds, structural failure points, chemical reactions. The calm narrator voice amid the destruction IS the horror. **HARD RHYTHM SHIFT**: switch from flowing sentences to brutal staccato punches — **MAXIMUM 5 WORDS PER SENTENCE. No exceptions.** "The surge arrives. Four hundred degrees. It boils the sea." "Cattle drop. Children suffocate. Three hours of darkness." Every sentence is a punch. The contrast with the flowing immersion is what creates the visceral impact. **EDUCATIONAL PAYLOAD**: At least one staccato fact must recontextualize scale — not just a number but a number paired with a comparison that makes it visceral. "Four hundred degrees" becomes devastating when you know that's "the autoignition temperature of wood."
+5. **THE CONCLUSION** (clip 08, 8s): The devastating payoff. End with a definitive, closing statement that lands like a verdict — a final fact so stark it needs no follow-up. The callback is mandatory — the ending must echo or invert the hook for structural satisfaction. "The mountain did not need fire. It only needed gravity." The goal: leave the viewer STUNNED by the completeness of the destruction. The last sentence should feel like a door closing — not a question hanging, but an answer the viewer wishes they never heard. Closure IS the horror. **EDUCATIONAL PAYLOAD**: The callback fact must teach something the viewer didn't know at clip 01 — the final revelation should reframe the entire episode. "Fifteen thousand dead. The volcano finished erupting before anyone perished." The viewer now understands landslide tsunamis, not just "volcano killed people."
 
 ### Clip Duration Plan (8 clips, ~48s video, narration spans all clips as continuous audio):
 
@@ -71,9 +71,19 @@ Total: 48 seconds video (~45 seconds effective after crossfades + delay). 95-105
 This is TikTok/Reels/Shorts content. Retention is decided in 0.5 seconds. Apply these rules to EVERY word of narration:
 
 - **No filler.** No throat-clearing. No scene-setting that could be cut without losing information. If a sentence doesn't teach a fact, create dread, or drive action, delete it.
+- **No visual narration.** Never describe what the viewer can already see in the animation. "You look around" wastes 3 words. "The morning was beautiful" teaches nothing. The video handles the visuals — the narration handles the facts, the dread, and the action.
 - **Front-load the punch.** The most arresting element of any sentence goes FIRST. Not "You have seven minutes before the sky turns black" — instead "Seven minutes. The sky turns black."
 - **Interleave danger with exposition.** Never deliver more than one sentence of pure context without re-establishing threat. "Galveston, 1900. Thirty-seven thousand on a sandbar — and the water is rising at fourteen feet per hour."
 - **Every second earns the next.** A viewer who made it to second 5 must feel that second 6 will be even more intense. No plateaus. No breathing room. Relentless escalation.
+- **Word efficiency.** If a sentence can lose a word without losing information, lose the word. "You begin to run" → "You run." "The water starts to rise" → "The water rises." "It is at this point that" → delete entirely. Every word must earn its place at ~2.4 words per second.
+
+**COMMON FILLER — BAN THESE PATTERNS:**
+- "The morning was [adjective]" — scene-setting without danger
+- "You find yourself in" — passive, wastes 4 words
+- "It is [date]" — use "Date." as a fragment instead
+- "You look around and see" — the video shows this, narration doesn't need to
+- "Little do you know" — cliché, tells instead of shows
+- "In the distance, you can see" — just state what's there
 
 ---
 
@@ -230,25 +240,27 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 2. **Format line**: `Classic American adult animation scene, vertical 9:16, [1080p for 8s clips / 720p for HOOK and 4s clips].`
 
-3. **Camera behavior**: `Camera: Static [shot type]. Locked camera, flat composition, no movement.` Describe what fills the frame, staging notes. Always: `Classic adult animation [wide tableau/medium shot/close-up/etc.] staging.`
+3. **Camera behavior**: `Camera: Static [shot type]. Locked camera, flat composition, no movement.` Describe what fills the frame, staging notes. Always: `Classic adult animation [wide tableau/medium shot/close-up/etc.] staging.` NOTE: "Static camera" means the camera does not move — but the WORLD within the frame must be alive. Describe layered movement: foreground elements (debris, smoke, water) moving differently from midground (character actions) and background (crowds, fire, collapsing structures). Every clip should have 2-3 animated environmental elements. Calm beats have subtle movement; catastrophe beats have maximum environmental chaos within the locked frame.
 
 4. **Visual transition**: How this clip connects to the previous. "NEW location" / "Same setting, tighter framing" / "Cut to reaction shot".
 
-5. **Character visual consistency block** (include in EVERY prompt — HOOK and SCENE clips):
+5. **Visual focus**: One sentence identifying the single most important visual element in this clip — the image that tells this beat's story. This is what Veo should prioritize rendering. Not a description of the whole scene, but the ONE frame-defining detail. E.g., "The visual focus is the thermal shadow of a human being permanently etched into the concrete" or "The visual focus is the water receding from the harbor, exposing the bare seabed." Every clip's visual focus must be different from the previous clip.
+
+6. **Character visual consistency block** (include in EVERY prompt — HOOK and SCENE clips):
 ```
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 ```
 
-6. **Character action over clip duration**: Describe the physical performance beat-by-beat. What the figure DOES physically — specific gestures, posture changes, reactions. Use cartoon-physical vocabulary: "stumbling backward", "arms thrown up defensively", "frozen stiff with shock", "running with exaggerated arm flailing", "slow cartoon head-turn", "double-take". The figure reacts silently through physical performance ONLY. THE FIGURE'S MOUTH MUST REMAIN CLOSED AT ALL TIMES — no lip movement, no jaw movement, no mouth animation of any kind.
+7. **Character action over clip duration**: Describe the physical performance beat-by-beat. What the figure DOES physically — specific gestures, posture changes, reactions. Use cartoon-physical vocabulary: "stumbling backward", "arms thrown up defensively", "frozen stiff with shock", "running with exaggerated arm flailing", "slow cartoon head-turn", "double-take". The figure reacts silently through physical performance ONLY. THE FIGURE'S MOUTH MUST REMAIN CLOSED AT ALL TIMES — no lip movement, no jaw movement, no mouth animation of any kind.
 
-7. **Lighting + palette**: Flat even lighting on characters. Name the specific color palette for this setting. Atmosphere can shift (smoke, haze, fire glow) but character rendering stays flat.
+8. **Lighting + palette**: Flat even lighting on characters. Name the specific color palette for this setting. Atmosphere can shift (smoke, haze, fire glow) but character rendering stays flat.
 
-8. **Three depth layers**:
+9. **Three depth layers**:
    - Foreground: Props and environmental details closest to camera
    - Midground: Character and immediate space
    - Background: Historical setting with activity and architectural detail
 
-9. **Audio direction** (SFX + Ambience ONLY — NO speech, NO music, NO narration):
+10. **Audio direction** (SFX + Ambience ONLY — NO speech, NO music, NO narration):
 ```
 Audio direction:
 - SFX: [3-5 specific sound events with sensory texture — material, quality, spatial position. E.g., "the hollow crack of stone splitting" not "cracking sound"]
@@ -256,7 +268,7 @@ Audio direction:
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 ```
 
-10. **Exclusion line**: `Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.`
+11. **Exclusion line**: `Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.`
 
 ### CRITICAL Video Prompt Rules
 
@@ -268,8 +280,9 @@ Audio direction:
 - Use "the figure" or "the translucent character" — NEVER "skeleton"
 - NEVER reference copyrighted show names (Family Guy, Simpsons, etc.) — use "classic American adult animation style"
 - Animation uses static locked camera (no handheld, no shaky-cam, no drift)
-- Historical accuracy in all visual details
+- Historical accuracy in all visual details — each clip must include at least one visual detail that could ONLY exist in this specific time and place (not generic "old buildings" but "cracked terracotta amphora" for Pompeii, "ticker tape curling from a stock ticker" for 1929, "a Geiger counter with a bouncing needle" for nuclear events)
 - Match the emotional energy of the narrative beat
+- **CLIP-TO-CLIP VISUAL CONTRAST**: Consecutive clips MUST vary in at least TWO of these dimensions: (1) shot scale (wide vs medium vs close-up), (2) character position in frame (left/center/right, near/far), (3) dominant color temperature shift, (4) amount of environmental activity (calm vs chaotic). Eight medium shots of the figure standing center-frame is a failure. Plan your shot sequence as a visual arc — wide and calm at the start, tightening and intensifying toward catastrophe, pulling back for the aftermath.
 
 ---
 
@@ -330,7 +343,7 @@ Note how sentences cross clip boundaries with dash continuations. This is intent
 - **Agency verbs**: "You run", "You grab", "You shout" — not passive observation.
 - **Tension ratchet**: Every act must raise the stakes from the previous one. No plateaus. No breathing room.
 - **Sensory continuity**: If clip 02 establishes smoke, clip 03 still has smoke. The environment accumulates — it does not reset between clips.
-- **Narrative thread**: Every sentence connects to the one before it. Not "Fact A. Fact B. Fact C." but "Fact A, which causes B, which means C is now inevitable." The narration has causality, not just sequence.
+- **Narrative thread**: Every sentence connects to the one before it through causation, consequence, or escalation. Not "Fact A. Fact B. Fact C." but "Fact A, which causes B, which means C is now inevitable." The narration has causality, not just sequence. Test: for each sentence after the hook, ask "why does this follow from the previous sentence?" If the answer is "it doesn't, it's just another fact about this topic," rewrite until the chain is unbroken.
 - **Sensory specificity**: Visceral, concrete details. Not "the fire is hot" but "eighteen hundred degrees — hot enough to melt your fillings."
 - **One moment of genuine scientific awe per episode**: A fact so extraordinary it creates wonder.
 - **Callback ending**: The twist/payoff should echo or invert the hook for structural satisfaction.
@@ -469,6 +482,36 @@ NARRATOR: Six to twelve thousand dead. They never finished counting. The deadlie
 
 WHY THIS WORKS: "The Weather Bureau said the storm would miss" creates false safety — "You are on a sandbar eight feet above the sea" makes the viewer realize the stakes instantly. The cruel irony of expert reassurance before catastrophe is self-contained. Catastrophe is 2-4 words per sentence. Conclusion echoes "eight feet." Total: ~101 words.
 
+### Example C: The Great Molasses Flood — 1919 (Educational depth: every beat teaches a mechanism)
+
+```
+## Clip 01 (0:00-0:04) — The Hook
+NARRATOR: Twenty-one people just drowned in molasses. It moved faster than you can run.
+
+## Clip 02 (0:04-0:12) — Immersion
+NARRATOR: Boston's North End. January 1919. A fifty-foot steel tank holds two and a half million gallons of crude molasses —
+
+## Clip 03 (0:12-0:16) — Immersion
+NARRATOR: — and the rivets have been popping for months. The company painted the tank brown to hide the leaks.
+
+## Clip 04 (0:16-0:24) — Attempt
+NARRATOR: You hear a sound like machine-gun fire — the rivets shearing in sequence. You run. But cold molasses behaves like a non-Newtonian fluid —
+
+## Clip 05 (0:24-0:28) — Attempt
+NARRATOR: — the faster you push through it, the harder it resists. Your legs stop.
+
+## Clip 06 (0:28-0:32) — Catastrophe
+NARRATOR: Thirty-five miles per hour. Eight feet deep. Steel beams bend.
+
+## Clip 07 (0:32-0:40) — Catastrophe
+NARRATOR: Horses trapped. Buildings sheared. The elevated railway buckles.
+
+## Clip 08 (0:40-0:48) — Conclusion
+NARRATOR: Twenty-one dead. A hundred fifty injured. The harbour ran brown until summer. They never found all the molasses — or all the bodies.
+```
+
+WHY THIS WORKS FOR EDUCATION: Every beat teaches a specific mechanism. Clip 02-03: negligent construction + coverup. Clip 04-05: non-Newtonian fluid physics (the viewer learns WHY you can't run through molasses). Clip 06: the wave's speed recontextualizes what "molasses-slow" means. Conclusion: the aftermath teaches persistence — molasses is nearly impossible to clean. The viewer finishes knowing fluid dynamics, structural engineering failure, and corporate negligence. Total: ~102 words.
+
 ---
 
 ## SCRIPT QUALITY CHECKLIST
@@ -480,11 +523,13 @@ Before returning your JSON, verify your dialogue_script passes ALL of these. If 
 3. **CLIP 02 IDENTIFICATION**: Does clip 02's first sentence name the specific disaster AND the year? → PASS/FAIL.
 4. **RHYTHM SHIFT**: Count every sentence in Catastrophe clips (06-07). Is every sentence 5 words or fewer? If ANY sentence exceeds 5 words, → FAIL. Does the average sentence length in clips 06-07 drop by at least 60% compared to clips 02-03? If not, → FAIL.
 5. **CALLBACK ENDING**: Does clip 08 echo, invert, or directly reference the hook from clip 01? If the ending could belong to any episode, → FAIL. Does the final sentence feel conclusive — like a verdict, not a trailing thought? If the ending feels unfinished or trails off, → FAIL.
-6. **CAUSALITY**: Does every sentence connect to the previous one? Read clips 02-07 aloud — if any sentence feels like an isolated factoid unrelated to the previous sentence, → FAIL.
+6. **CAUSALITY CHAIN**: Read clips 02-07 sequentially. Can you draw a single unbroken cause-and-effect chain from immersion through catastrophe? Every sentence must connect to the previous one through causation, consequence, or escalation. If any sentence introduces an unrelated fact that breaks the chain (a non-sequitur factoid, a tangent, or a restart), → FAIL. The narration has causality, not just sequence.
 7. **AGENCY**: Do the Attempt clips (04-05) use active verbs where the viewer DOES something? "You run", "You push", "You try" — not passive observation. → PASS/FAIL.
 8. **WORD COUNT**: Is your total between 95-105 words? Count every word in all NARRATOR: lines. Outside this range → FAIL.
 9. **MID-SENTENCE SPLITS**: Does at least one sentence span a clip boundary using em dash (—) continuation? If all sentences start and end within their clip, → FAIL.
-10. **SCIENTIFIC AWE**: Is there at least one fact so extraordinary it creates genuine wonder? Not just "bad thing happened" but a specific number or mechanism that makes the viewer think "I had no idea." → PASS/FAIL.
+10. **EDUCATIONAL DEPTH**: Does each beat teach a specific mechanism, not just state an outcome? Immersion must explain WHY the disaster was possible. Attempt must explain WHY survival strategies failed (physics, biology, engineering). Catastrophe must include at least one number paired with a comparison that makes it visceral. Conclusion must reframe the viewer's understanding. If any beat is pure narrative without educational payload, → FAIL.
+11. **SCIENTIFIC AWE**: Is there at least one fact so extraordinary it creates genuine wonder? Not just "bad thing happened" but a specific number or mechanism that makes the viewer think "I had no idea." This should be the fact that gets screenshotted and shared. → PASS/FAIL.
+12. **WORD EFFICIENCY**: Read every sentence. Can any word be removed without losing information or impact? "You begin to run" should be "You run." "The water starts rising" should be "The water rises." Every word at 2.4 wps is ~0.4 seconds of the viewer's attention — earn it. → PASS/FAIL.
 
 ---
 

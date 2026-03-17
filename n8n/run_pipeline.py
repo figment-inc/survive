@@ -128,19 +128,29 @@ def generate_topic():
 
 
 def load_example_prompts():
-    """Load one working image + video prompt as few-shot examples for Claude."""
+    """Load working image + video prompts as few-shot examples for Claude.
+
+    Loads two clips per episode (hook + catastrophe) to demonstrate both calm
+    and high-intensity beats in flat 2D animation style.
+    """
     examples = ""
-    for ep_slug in ["chernobyl-1986", "titanic-1912", "pompeii-79"]:
+    clip_pairs = [("01", "The Hook — calm opening"), ("06", "Catastrophe — peak intensity")]
+
+    for ep_slug in ["hiroshima-1945", "wall-street-crash-1929", "tunguska-event-1908"]:
         ep_dir = REPO_DIR / ep_slug
-        img_example = ep_dir / "02_image_prompts" / "clip_01_frame.txt"
-        vid_example = ep_dir / "03_veo_video_prompts" / "clip_01.txt"
-        if img_example.exists():
-            examples += "\n\n--- EXAMPLE IMAGE PROMPT (clip 01 from a working episode) ---\n"
-            examples += img_example.read_text().strip()
-        if vid_example.exists():
-            examples += "\n\n--- EXAMPLE VIDEO PROMPT (clip 01 from a working episode) ---\n"
-            examples += vid_example.read_text().strip()
-        if examples:
+        found_any = False
+        for clip_id, beat_label in clip_pairs:
+            img_example = ep_dir / "02_image_prompts" / f"clip_{clip_id}_frame.txt"
+            vid_example = ep_dir / "03_veo_video_prompts" / f"clip_{clip_id}.txt"
+            if img_example.exists():
+                examples += f"\n\n--- EXAMPLE IMAGE PROMPT (clip {clip_id} — {beat_label}) ---\n"
+                examples += img_example.read_text().strip()
+                found_any = True
+            if vid_example.exists():
+                examples += f"\n\n--- EXAMPLE VIDEO PROMPT (clip {clip_id} — {beat_label}) ---\n"
+                examples += vid_example.read_text().strip()
+                found_any = True
+        if found_any:
             break
     return examples
 
@@ -156,13 +166,16 @@ def generate_episode_content(topic):
     if examples:
         system_prompt += "\n\n## FEW-SHOT EXAMPLES FROM WORKING EPISODES\n"
         system_prompt += (
-            "Your prompts MUST match this level of detail and length. "
+            "Below are examples from two beats of a working episode — a calm hook "
+            "and a high-intensity catastrophe clip. Your prompts MUST match this level "
+            "of detail, length, and flat 2D animation style. "
             "Short/generic prompts will be blocked by safety filters or produce poor results. "
             "Every image prompt must be 15-25 lines with explicit scene composition, "
             "character blocking, foreground/midground/background layers, "
             "atmospheric details, period textures, and exclusion lines. "
             "Every video prompt must be 25-35 lines with camera behavior, depth layers, "
-            "ambient audio direction, and physical performance descriptions."
+            "ambient audio direction, and physical performance descriptions. "
+            "ALL prompts must use flat 2D animation vocabulary — never photorealistic terms."
         )
         system_prompt += examples
 
@@ -749,12 +762,24 @@ def run_qa_phase(episode, ep_dir, regen: bool = False):
     )
 
     failed_clips = [r for r in results if not r.passed]
-    if not failed_clips:
+    regen_clips = [r for r in failed_clips if r.max_severity >= 3]
+    minor_clips = [r for r in failed_clips if r.max_severity < 3]
+
+    if minor_clips:
+        print(f"  [{ts()}] QA: {len(minor_clips)} clips with minor issues (severity < 3) — logged, not regenerating:")
+        for r in minor_clips:
+            print(f"    clip {r.clip_id}: severity {r.max_severity}/5 — {'; '.join(r.issues)}")
+
+    if not regen_clips and not minor_clips:
         print(f"  [{ts()}] QA: All clips passed visual consistency check.")
         return True
 
+    if not regen_clips:
+        print(f"  [{ts()}] QA: No clips above severity threshold (>= 3) — skipping regen.")
+        return True
+
     if regen:
-        print(f"\n  [{ts()}] QA: {len(failed_clips)} clips flagged — attempting re-generation...")
+        print(f"\n  [{ts()}] QA: {len(regen_clips)} clips flagged for re-generation (severity >= 3)...")
         from lib.veo import (
             get_client, load_reference_images, select_refs_for_prompt,
             generate_video, extract_style_anchor_frames,
@@ -772,7 +797,7 @@ def run_qa_phase(episode, ep_dir, regen: bool = False):
             style_anchor_refs = [f.read_bytes() for f in anchor_frames]
             print(f"  [{ts()}] QA regen: loaded {len(style_anchor_refs)} style anchor frames from clip 01")
 
-        for qa_result in failed_clips:
+        for qa_result in regen_clips:
             clip_idx = int(qa_result.clip_id) - 1
             if clip_idx < 0 or clip_idx >= len(prompts):
                 continue
@@ -801,10 +826,10 @@ def run_qa_phase(episode, ep_dir, regen: bool = False):
                 episode_style=episode_style,
             )
     else:
-        print(f"\n  [{ts()}] QA: {len(failed_clips)} clips flagged "
+        print(f"\n  [{ts()}] QA: {len(regen_clips)} clips above regen threshold "
               f"(run with --qa-regen to auto-fix)")
 
-    return len(failed_clips) == 0
+    return len(regen_clips) == 0
 
 
 # ── Phase 4: Per-clip audio mixing + Stitch + LUFS normalize ──
@@ -1048,7 +1073,7 @@ def create_github_release(slug, title, final_path):
     return None
 
 
-def publish_to_metricool_with_upload(episode, final_path, asset_url=None):
+def publish_to_metricool_with_upload(episode, final_path, asset_url=None, schedule=""):
     """Upload video to Metricool S3 then publish to YouTube Shorts + Instagram Reels + TikTok."""
     phase_banner("PHASE 5b: METRICOOL PUBLISH")
 
@@ -1066,6 +1091,9 @@ def publish_to_metricool_with_upload(episode, final_path, asset_url=None):
         f"#YouWouldntWannaBe #History #Shorts #HistoryFacts "
         f"#LearnOnTikTok #HistoryTok #DarkHistory #Education"
     )
+
+    if schedule:
+        print(f"  [{ts()}] Scheduled publish at: {schedule} (UTC)")
 
     print(f"  [{ts()}] Uploading {final_path.name} ({final_path.stat().st_size / (1024*1024):.1f} MB) to Metricool S3...")
     try:
@@ -1087,6 +1115,7 @@ def publish_to_metricool_with_upload(episode, final_path, asset_url=None):
         caption=caption,
         caption_instagram=caption,
         caption_youtube=caption,
+        desired_publish_at=schedule,
     )
 
     print(f"  [{ts()}] Publish status: {result.status}")
@@ -1172,6 +1201,7 @@ def main():
     parser.add_argument("--skip-captions", action="store_true", help="Skip Remotion karaoke captions phase")
     parser.add_argument("--no-chain", action="store_true", help="Use independent clip generation instead of extension chain")
     parser.add_argument("--qa-regen", action="store_true", help="Re-generate clips that fail visual consistency QA")
+    parser.add_argument("--schedule", type=str, default="", help="Schedule publish at ISO datetime (e.g. '2026-03-17T17:00:00' UTC)")
     args = parser.parse_args()
 
     topic = " ".join(args.topic) if args.topic else None
@@ -1274,7 +1304,7 @@ def main():
 
     if args.publish and final_path.exists():
         asset_url = create_github_release(slug, episode["title"], final_path)
-        publish_to_metricool_with_upload(episode, final_path, asset_url)
+        publish_to_metricool_with_upload(episode, final_path, asset_url, schedule=args.schedule)
 
     phase_banner("ALL DONE")
     print(f"  Episode: {episode['title']}")

@@ -546,7 +546,7 @@ def extend_video(
     new_duration = handle.duration_seconds + EXTENSION_DURATION
 
     style_prefix = CHAIN_STYLE_ANCHOR
-    if ext_num >= 4:
+    if ext_num >= 3:
         style_prefix = (
             "MANDATORY STYLE LOCK: After multiple extensions, style drift is likely. "
             "This clip MUST use flat 2D cel-shaded animation with thick black outlines — "
@@ -555,7 +555,16 @@ def extend_video(
             "FIRST clip in this chain exactly. The translucent figure must look "
             "identical to its appearance in the opening clip.\n\n"
         )
-    prompt = style_prefix + prompt
+
+    palette_echo = ""
+    if episode_style:
+        palette_echo = (
+            f"PALETTE LOCK (repeat from episode identity): {episode_style}\n"
+            f"Every color in this clip must derive from the palette above. "
+            f"Do NOT introduce new color families.\n\n"
+        )
+
+    prompt = style_prefix + palette_echo + prompt
     prompt = _wrap_prompt(prompt, episode_style=episode_style)
 
     # Brief delay to let the server finish processing the previous video

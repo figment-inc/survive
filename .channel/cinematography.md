@@ -20,11 +20,14 @@ The visual identity of You Wouldn't Wanna Be is rooted in classic American adult
 
 ### Color Approach
 
-Each era gets its own distinctive flat color palette:
-- **Ancient Rome**: Warm terracotta, dusty ochre, olive green — flat warm tones
-- **Medieval plague**: Grey-green, brown, muted purple — flat cool/muted tones
-- **Victorian London**: Sooty amber, gas-lamp gold, dark teal — flat warm/dark tones
-- **Nuclear disaster**: Cold grey-blue, hazard yellow, clinical white — flat cold tones
+Each era gets its own distinctive flat color palette with environment-specific visual richness:
+- **Ancient Rome/Greece**: Warm terracotta, dusty ochre, olive green — cracked mosaic floors, marble columns with chisel marks, amphora fragments, oil lamps with flat amber glow, togas with geometric borders
+- **Medieval plague/siege**: Grey-green, brown, muted purple — half-timbered buildings, muddy cobblestones, tallow candle wax pools, iron-banded doors, faded heraldic banners
+- **Age of Sail/Colonial**: Deep navy, weathered teal, salt-white, rope-brown — rigging lines, barnacled hulls, brass fittings gone green, tar-sealed planks, folded canvas
+- **Victorian/Industrial**: Sooty amber, gas-lamp gold, dark teal, chimney-black — brick smokestacks, wrought-iron railings, soot-streaked glass, cobbled streets with horse-drawn carts
+- **Early 20th Century**: Muted sepia, olive drab, dusty cream — ticker tape, newsprint, telegram paper, brass telephones, Art Deco metalwork
+- **Nuclear/Cold War**: Cold grey-blue, hazard yellow, clinical white — concrete bunkers, Geiger counter dials, radiation trefoils, institutional green paint, steel blast doors
+- **Natural Disaster (any era)**: Derived from the era palette above, pushed to extremes — fire events saturate toward orange/black, water events toward slate-grey/foam-white, earth events toward dust-brown/ash-grey
 
 Characters always use their fixed color palette regardless of setting.
 
@@ -50,6 +53,14 @@ Characters always use their fixed color palette regardless of setting.
 - **No parallax**: Minimal depth motion. Flat 2D staging.
 - **Clean cuts between clips**: Hard cuts, no dissolves or transitions.
 - **Flat framing**: Characters and environment on the same visual plane. Classic animated comedy staging.
+
+### Dynamic World Within a Static Frame
+
+"Static camera" means the camera itself does not move. The world WITHIN the frame should be alive:
+- **Layered movement**: Foreground elements (debris, smoke, water) move at different rates than midground (character) and background (crowds, fire). This creates depth and energy without camera motion.
+- **Environmental animation**: Fire flickers, water flows, dust drifts, crowds mill, flags wave, smoke billows. Every frame should have at least 2-3 moving environmental elements appropriate to the era and beat.
+- **Progressive intensity**: Calm beats have subtle movement (a breeze, distant figures). Catastrophe beats have maximum environmental chaos (flying debris, collapsing structures, rushing water) — all within the locked frame.
+- **Light-as-color shifts**: Within a single clip, the flat color palette can shift to convey changing conditions — the sky darkening, fire glow intensifying, dust thickening. These are expressed as flat color overlay changes, not lighting physics.
 
 ---
 
