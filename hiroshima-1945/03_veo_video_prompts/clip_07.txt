@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, high angle. Locked camera, flat composition, no movement. Looking down at a devastated intersection. The figure stands in the center of the flattened landscape as large flat black raindrops fall from a dark sky. Classic adult animation wide environmental tableau staging.
+
+Visual transition: Same devastated area, pulled to a wider high-angle view. The firestorm has cooled enough for the atmosphere to respond — the black rain has begun. The palette shifts to its darkest: charcoal sky, flat black rain, ash grey ground.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure stands in the open, face tilted upward toward the dark sky. Large flat black droplets — viscous, oily — begin to fall. They strike the figure's translucent pale skin and leave dark streaks that trace down over the visible ribcage and arms. Seconds 2-4: The figure slowly raises both hands, palms up, catching the black rain. The dark liquid pools in the pale palms, running through the visible finger bones. Seconds 4-6: The figure looks down at the dark-stained hands, then around at the devastated landscape. Simplified figures nearby — some catching the rain in their mouths, desperate for water. Seconds 6-8: The figure lowers hands slowly. The black rain intensifies, the drops larger and more frequent. The figure's entire body is now streaked with dark marks. The figure stands still, arms at sides, accepting it.
+
+Flat even lighting. Black rain palette — charcoal grey sky, flat black raindrops, ash grey rubble, dark brown mud, dirty cream dust, muted orange fire glow in the far distance. The figure's pale translucent skin is stark against the dark environment, streaked with black.
+
+Foreground: Cracked concrete foundation. Dark puddles collecting in debris. A mangled bicycle frame. Broken ceramic tiles in grey dust. Black rain splashing into puddles.
+
+Midground: The figure in the center. Simplified figures nearby — some sitting, some with arms raised, catching the poisoned rain.
+
+Background: Total devastation stretching to distant hills. Charcoal-brown sky filled with dark flat clouds. The mushroom cloud's remnants spread as a flat grey ceiling. Distant fire glow — muted orange.
+
+Audio direction:
+- SFX: Heavy, viscous raindrops hitting concrete with a wet slap — heavier than normal rain, thicker. The drops hitting the figure's skin with soft spatters. Distant structures groaning and settling. A piece of corrugated metal flapping in wind. The thick patter building in intensity as the rain strengthens.
+- Ambience: The black rain falling — a steady, heavy, unnatural precipitation. Not the clean sound of normal rain but something thicker, heavier. Wind carrying ash and moisture. Distant fires hissing as the rain hits hot embers. The deep, hollow emptiness of a city that held three hundred fifty thousand people twenty minutes ago and now holds silence.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

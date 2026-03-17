@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static close-up, slightly high angle. Locked camera, flat composition, no movement. The figure sits slumped against a cracked concrete wall. A dark thermal shadow — the permanent silhouette of a person — is etched into the concrete beside the figure. Classic adult animation close-up staging.
+
+Visual transition: Same devastated area. Tighter framing — cutting from the wide river scene to an intimate close-up of destruction. The fires are less immediate now; the palette shifts toward ash grey and bleached concrete.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure sits slumped against the wall, legs extended, head tilted to one side. At second 1, the figure slowly turns head to look at the thermal shadow on the concrete beside — the dark permanent outline of a human being who stood here at the moment of the flash. The figure stares at it for 2 seconds, orb-like eyes wide and hollow. At second 3.5, the figure's head drops, chin to chest. Defeated recognition.
+
+Flat even lighting. Devastation palette — bleached concrete white, ash grey, charcoal, muted amber. The figure is paper-white. Everything is coated in flat grey dust. The thermal shadow is a stark dark shape against pale concrete.
+
+Foreground: Scattered debris — broken glass, a crushed tin cup, a single scorched wooden geta sandal. The dark thermal shadow etched permanently into the concrete pavement.
+
+Midground: The figure against the cracked wall.
+
+Background: Flat grey rubble stretching to the horizon. A single reinforced concrete building skeleton. Fires in distant flat orange patches. Dark amber-grey sky.
+
+Audio direction:
+- SFX: A faint wind whistling through exposed steel beams. Small debris shifting — a piece of concrete sliding off a pile with a dry scrape. A distant structure groaning and collapsing with a low rumble. The soft patter of something beginning to fall from the sky — the first drops of black rain hitting concrete.
+- Ambience: Near-silence. The overwhelming quiet after total destruction. Faint distant fires crackling. The wind carrying fine ash particles that create a soft, constant hiss against hard surfaces. The beginning of a low, unnatural rumble from the sky — the atmosphere responding to the fireball.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

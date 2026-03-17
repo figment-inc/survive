@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static dramatic close-up. Locked camera, flat composition, no movement. The figure's upper body fills the lower frame. The upper frame is consumed by searing flat white light. Classic adult animation close-up reaction staging.
+
+Visual transition: Same location as clip 02, but the frame has shifted to a tight close-up. The bustling street behind the figure is being consumed by a wall of flat white. This is the moment of the flash — 8:15:17 AM.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: At second 0, the figure's face is tilted slightly upward, still in that moment of mild curiosity from the previous clip. At second 0.5, the entire frame washes to searing flat white — instant, total. The figure's translucent skin is bleached almost completely white, only the thick black outlines of the skeleton visible as dark lines. The eyes go wide — orb-like pupils contract to pinpoints. At second 1.5, the figure's arms begin to rise defensively, flinching backward. At second 3, the figure is mid-flinch, arms crossed over the face, leaning back. The white begins to fade slightly at the edges, revealing silhouettes of disintegrating objects — but the clip ends before the blast wave arrives.
+
+Flat even lighting pushed to extreme — total flat white wash consuming the frame. No gradients. The white is flat and absolute. The figure's thick black outlines are the only contrast. As the white slightly fades in the last second, ash grey and dirty cream become visible at the frame edges.
+
+Foreground: In the first half-second before the flash, a wooden signboard and ceramic pot are visible. After the flash, they become dark silhouettes against white, then begin to disintegrate — flat fragments lifting.
+
+Midground: The figure, bleached white. Silhouettes of people frozen mid-stride, outlines only.
+
+Background: Total flat white. The Aioi Bridge's faint dark outline barely visible, dissolving.
+
+Audio direction:
+- SFX: A sudden, absolute silence — all previous ambient sound cuts to NOTHING for 0.5 seconds. Then a rising high-pitched tone — the piercing ring of massive overpressure hitting the eardrums. Glass shattering in cascading waves — thousands of panes at once. The deep bass crack of wood splintering. A ceramic pot exploding into fragments.
+- Ambience: The silence is the event. After the initial 0.5-second void, the world is replaced by a single overwhelming roar — not wind, not explosion, but a wall of compressed air that consumes all other sound. Subsonic vibration felt in the chest.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

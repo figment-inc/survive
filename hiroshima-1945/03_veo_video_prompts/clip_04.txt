@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, low angle. Locked camera, flat composition, no movement. A narrow alley between wooden buildings fills the frame. The figure runs toward the camera. Behind the figure, buildings are collapsing inward and a wall of debris rushes through the alley. Classic adult animation wide action staging.
+
+Visual transition: NEW angle — same area but cut to a narrow alley. The white flash has passed; now the blast wave is tearing the city apart. The palette has shifted from searing white to ash grey, charcoal, and dirty amber.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure sprints down the alley toward the camera, arms pumping, body leaning forward in a desperate run. Head turns back over the shoulder to see the wall of debris approaching. Seconds 3-5: The figure stumbles on debris, catches balance, keeps running. Wooden walls on both sides buckle inward — roof tiles fly horizontally. Seconds 5-7: The debris wall catches up. Wooden beams and fragments strike the figure from behind, sending the figure stumbling forward, arms thrown up defensively. Seconds 7-8: The figure is knocked to the ground by a large timber, skidding forward on the alley pavement. The figure's arms reach forward, trying to crawl.
+
+Flat even lighting. Post-blast palette — ash grey, charcoal black, dirty cream, amber-brown, muted persimmon. Everything is dust-choked. Flat grey atmospheric haze fills the air. No warm morning colors remain.
+
+Foreground: Splintered wood, dark roof tiles, shattered glass, torn paper streaming horizontally across the frame — carried by the blast wave. A child's cloth doll tumbles past. Broken ceramic fragments bounce on the ground.
+
+Midground: The figure running through the narrow alley. Wooden machiya walls cracking, buckling, collapsing inward. Window frames disintegrating into flat fragment shapes.
+
+Background: The mushroom cloud rising above the roofline — flat layers of ash grey, dirty cream, and charcoal. The sky is sickly amber-grey. Collapsing building silhouettes.
+
+Audio direction:
+- SFX: Pounding footsteps on pavement, the crack and groan of wooden structures collapsing, roof tiles smashing on stone like heavy porcelain plates, glass shattering in continuous cascading waves, a large wooden beam snapping with a deep crack, the figure's body hitting the ground with a heavy thud, debris raining down — wood, tile, and plaster clattering
+- Ambience: A continuous deep roar — the blast wave's sustained overpressure shaking everything. Wind howling through the narrow alley like a tunnel. The grinding, tearing sound of an entire wooden city being pulled apart. Distant muffled impacts of larger structures falling.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

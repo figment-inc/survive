@@ -1,0 +1,28 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide tableau shot, eye level. Locked camera, flat composition, no movement. The figure stands alone at the center of the T-shaped Aioi Bridge — the bomb's aiming point — surrounded by a 360-degree panorama of total destruction. Classic adult animation wide establishing tableau staging. The figure is small in the frame, dwarfed by the vast empty rubble field extending to the distant hills.
+
+Visual transition: NEW angle — pulling back to the widest shot of the episode. The Aioi Bridge, which appeared intact and busy in clip 02, is now cracked and empty. The city that surrounded it is gone. The visual callback is explicit: same bridge, opposite reality.
+
+Character visual consistency block: 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure stands at the center of the T-junction of the Aioi Bridge, head bowed, arms at sides. Dark streaks of black rain on the translucent skin. Completely still. Seconds 3-5: The figure slowly raises its head and looks outward — turning slowly to take in the full panorama of destruction. Every direction is the same: flat grey rubble to the hills. Seconds 5-7: The figure's head completes the turn and drops again, chin to chest. Shoulders slump further. One arm lifts slightly, then falls back to the side — a gesture of giving up. Seconds 7-8: Complete stillness. The figure stands motionless on the bridge as black rain continues to fall. A single paper crane, caught in the twisted bridge railing, flutters in the wind.
+
+Flat even lighting. Final palette — uniform ash grey, charcoal brown sky, dirty concrete white, muted brown river, dark streaks on the figure. The figure's pale translucent skin is the brightest element in the frame. The entire world has been reduced to grey.
+
+Foreground: Cracked concrete bridge surface. Twisted iron railings. Debris scattered on the bridge deck — broken glass, scorched wood, a single charred shoe. A paper crane caught in the bent railing, fluttering.
+
+Midground: The figure at the center of the T-shaped bridge. The Motoyasu River below — grey-brown, debris-choked, still.
+
+Background: 360-degree panorama of total destruction — flat grey rubble field stretching to the hills in every direction. The hills are fully visible because every building between here and there has been erased. A handful of concrete building skeletons. No fires. No movement. Dark charcoal-brown sky. Black rain falling steadily. Complete absence of life.
+
+Audio direction:
+- SFX: The steady heavy patter of black rain on concrete — thick, viscous drops. Wind whistling through the twisted bridge railing. The paper crane fluttering — a soft, rapid papery flapping. A distant, final structural collapse — a deep low rumble and crash, far away. Then nothing. Silence returning.
+- Ambience: The hollow emptiness of an erased city. Wind moving through open space where buildings once stood. The rain falling into the river with soft, heavy splashes. No voices. No machinery. No life sounds. The faint high-pitched ring of irradiated silence — the last frequency the inner ear produces before the damage becomes permanent. An overwhelming, unnatural quiet.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
