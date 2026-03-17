@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static extreme close-up, straight on. Locked camera, flat composition, no movement. The figure's upper body fills the entire frame — skull-face, ribcage, shoulders. The background is a solid wall of flat white light from the second detonation. Classic adult animation extreme close-up — maximum emotional impact.
+
+Visual transition: HARD CUT from the medium-wide fence shot to this extreme close-up. The palette collapses — all colour replaced by flat white blast light behind the figure. Maximum visual contrast with the previous clip.
+
+Visual focus: The figure's skeleton structure backlit by the detonation — every rib, every vertebra defined against the flat white blast light through the translucent skin.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Seconds 1-2: The figure is caught mid-flinch — shoulders hunching, arms rising defensively, head turning away from the flash. The flat white light behind makes the skeleton within the translucent skin starkly visible — every bone defined in sharp dark lines. Orb-eyes squeeze shut. Seconds 3-4: The blast wave hits — the figure is pushed backward, translucent skin rippling. The arms are blown back. The figure begins to disintegrate at the edges of the silhouette — the outline breaking apart into fragments that scatter in the blast direction.
+
+Flat white blast light replaces all environmental lighting. The palette collapses to three values: flat white detonation, the figure's pale translucent body, and the dark skeleton within. At the frame edges, flat deep orange.
+
+Foreground: The figure's translucent hands and forearms, bones visible within. Nothing else — the close-up eliminates all foreground objects.
+
+Midground: The figure's upper body against the blast.
+
+Background: Solid flat white transitioning to flat deep orange at edges. Silhouettes of debris — steel fragments, hull pieces — frozen mid-flight.
+
+Audio direction:
+- SFX: A SECOND colossal detonation — even more powerful than the first. A deep, earth-shaking boom that overwhelms all other sound. The immediate aftermath: a wall of rushing air — not wind but a physical pressure wave. Steel fragments whistling through the air at high velocity. A sustained high-pitched ringing tone — the sound of eardrums overwhelmed.
+- Ambience: Total audio overload — the detonation fills the entire sound spectrum. For the first 2 seconds, nothing exists except the blast. Seconds 3-4: The rushing roar of the pressure wave, overlaid with the metallic rain of debris beginning to fall.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

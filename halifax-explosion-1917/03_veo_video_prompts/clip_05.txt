@@ -2,27 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
 
-Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. Interior of a wooden house — the figure stands at a large front window looking out toward the harbour fire. The window dominates the centre of the frame. Classic adult animation interior staging.
+Camera: Static dynamic medium shot, eye level. Locked camera, flat composition, no movement. The figure is caught in the shockwave — thrown backward through the air surrounded by a blizzard of glass shards. Houses collapse behind. Classic adult animation medium action staging.
 
-Visual transition: Same location — cut from the street to inside the house the figure entered. Interior setting. The figure has found shelter but stands at the window — the worst possible position.
+Visual transition: Same location, tighter framing — from the god's-eye view to street-level in the shockwave. The scale collapses from panoramic to intimate and violent.
+
+Visual focus: The glass shards — hundreds of flat pale blue-white fragments filling the air horizontally. The window glass that everyone pressed their faces against is now a weapon.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 4 seconds: Seconds 1-2: the figure stands at the window, one skeletal hand pressed flat against the glass, skull angled down toward the harbour. The orange glow from outside illuminates the translucent skin. Second 3: the figure's head snaps upward as a flash of brilliant white light floods through the window — the glass catches the light. Second 4: the figure is frozen stiff with shock, backlit by the white flash, skeletal hand still on the glass. Mouth remains closed.
+Character action over 4 seconds: Seconds 0-1.5: The figure is airborne, thrown backward by the shockwave, limbs splayed, head snapped back. Glass shards fly horizontally around and past the figure. Seconds 1.5-3: The figure crashes into the collapsing facade of a wooden house, punching through the clapboard wall. Arms instinctively thrown up to protect the face. Seconds 3-4: The figure disappears into the collapsing structure as the roof folds down. Only one reaching hand remains visible in the debris.
 
-Flat even lighting inside — warm muted domestic palette. Through the window: the cold grey-blue harbour palette, then a sudden flood of white-hot light at second 3-4. Palette shifts from cream walls and brown wood to overwhelming flat white.
+Flat even lighting overwhelmed by blast. Violent palette — white-hot flash fading to charcoal and ash. Sharp pale blue-white glass shards against dark debris and smoke. Furnace-orange fires igniting in collapsed structures.
 
-Foreground: Kitchen table with half-eaten breakfast — tin plate, ceramic mug, bread loaf. Cast-iron wood stove with steaming kettle. Faded floral wallpaper.
+Foreground: A blizzard of glass shards — flat pale blue-white fragments. Wooden splinters. A door torn from hinges. The child's red wagon from clip 02 tumbling.
 
-Midground: The figure at the window. White-painted window frame. Lace curtains pulled aside.
+Midground: The figure in midair. The shockwave wall — flat white-grey curtain.
 
-Background: Through the window — the harbour, the fire, then the sudden white flash of detonation flooding the glass.
+Background: Houses collapsing in sequence — roofs lifting, walls folding. The mushroom cloud rising above the harbour — dark grey with white-hot orange centre.
 
 Audio direction:
-- SFX: The faint tick of a mantel clock, the kettle's gentle whistle on the stove, a windowpane vibrating with a high-pitched hum that intensifies over 3 seconds, then at second 3 — an enormous CRACK like the sky splitting, the beginning of a concussive roar that cuts to —
-- Ambience: Muffled interior quiet — domestic calm with the distant rumble of the harbour fire filtering through the walls, then the ambient sound is obliterated by the onset of the blast wave
+- SFX: The sustained roar of the shockwave — a deep pressure wave that fills all space. Glass shattering in continuous cascade — high-pitched crystalline breaking layered over the bass roar. Wood splintering — cracking and tearing of lumber. A heavy thud as the figure impacts the building. The groan and crash of the roof collapsing
+- Ambience: The explosion aftermath — continuous roaring, cracking, collapsing. No natural sounds remain — no birds, no wind, only destruction. The bass rumble of the pressure wave reflecting off the hillside and returning
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

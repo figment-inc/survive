@@ -1,20 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Interior of a Richmond District house, Halifax, December 6, 1917, 9:04 AM.
+Classic American adult animation frame, vertical 9:16 composition. Halifax, December 6, 1917. The shockwave hitting the residential district.
 
-Medium shot, eye level. The figure has ducked inside a wooden house and stands at a large front window, looking out toward the harbour. The window dominates the frame — a large pane of glass with the orange glow of the fire visible through it.
+Dynamic medium shot, eye level. The figure is thrown backward through the air, limbs splayed. A wall of flat grey-white shockwave force fills the right side of the frame, pushing everything leftward. Windows of the houses behind the figure are shattering simultaneously — thousands of flat white glass shards flying in a horizontal wave. The wooden house facades are buckling and splintering.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
-The figure stands directly before the window, one skeletal hand pressed flat against the glass. Skull angled slightly downward, looking toward the harbour through the pane. Posture is braced, tense — weight forward on the balls of the feet.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Thrown backward in midair, arms flung outward, head snapped back, orb-like eyes wide. The skeleton visible through the translucent skin appears almost to separate from the figure with the force.
 
-Foreground: A wooden kitchen table with a half-eaten breakfast — a tin plate, a ceramic mug, a loaf of bread. A cast-iron wood stove with a kettle steaming. Patterned wallpaper in faded florals.
+Foreground: A blizzard of glass shards — hundreds of flat white and pale blue fragments filling the air. Wooden splinters. A door torn from its hinges tumbling through the frame. A child's red wagon from clip 02 cartwheeling through the air.
 
-Midground: The figure at the window. The window frame is painted white, the glass reflecting a faint orange-red glow from outside. Lace curtains pulled to either side.
+Midground: The figure in midair. The shockwave wall — a visible flat white-grey curtain of compressed air.
 
-Background: Through the window — the harbour visible below, the Mont-Blanc's fire now an enormous ball of flame and smoke. The street outside where people are still walking toward the waterfront. Other wooden houses across the narrow street with people visible in THEIR windows, all watching.
+Background: The wooden houses collapsing in sequence — roofs lifting, walls folding outward, chimneys toppling. A massive flat mushroom cloud — dark grey and charcoal with white-hot orange centre — rising above the harbour, already taller than any building.
 
-Flat even lighting inside the house — warm but muted domestic palette of cream walls, brown wood, faded floral wallpaper. Through the window: the cold grey-blue and orange-red harbour palette intrudes.
+Flat even lighting overwhelmed by blast. Violent palette — the cold steel-blue shattered by white-hot flash, charcoal smoke, and the sharp white of flying glass. The glass fragments catch flat light as pale blue-white shards against dark debris.
 
-Period texture: A framed photograph on the mantel showing a soldier in CEF uniform. A calendar on the wall showing December 1917. A child's wooden rocking horse in the corner. Braided rag rug on the plank floor.
+Period texture: The distinctive Halifax clapboard houses disintegrating — wooden planks, horsehair plaster, brick chimneys all separating into component materials. A cast-iron stove tumbling through a collapsing wall. Railway tracks on the waterfront bent into curves.
+
+Background activity: Simplified figures thrown through the air alongside the debris. A horse and cart tumbling. The entire neighbourhood becoming airborne simultaneously.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

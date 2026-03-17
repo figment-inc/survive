@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static very wide shot, high angle looking down. Locked camera, flat composition, no movement. The destroyed port stretches across the entire frame — a vast flat grey-brown wasteland of twisted steel, collapsed buildings, and scattered fires. The figure lies face-down in rubble in the lower third, tiny against the scale of destruction. Classic adult animation wide establishing shot — the scale IS the story.
+
+Visual transition: PULL BACK from extreme close-up to extreme wide — maximum contrast in scale. From the intimate blast moment to the panoramic devastation. The white flash is gone; the palette returns to the episode's ash grey and petroleum black.
+
+Visual focus: The ship's four-bladed bronze propeller embedded in the ground a full block from the harbour — hurled inland by the blast. The most visceral measure of the explosion's force.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure lies face-down in rubble, one arm extended, the other pinned beneath a steel beam. Seconds 1-4: Completely motionless — the viewer must search the frame to find the figure amid the rubble. Seconds 5-6: The figure's extended hand twitches once — a single finger movement. Seconds 7-8: The hand goes still. The figure does not move again.
+
+Flat even lighting. Total destruction palette — ash grey, petroleum black, rust brown rubble, muted orange fire patches, dirty cream concrete dust. Desaturated, heavy, exhausted. The figure is the palest element.
+
+Foreground: Rubble — concrete chunks, twisted rebar, broken glass, a flattened 1940s sedan. The ship's four-bladed bronze propeller embedded in the ground, several tons of metal driven a block inland.
+
+Midground: The figure in rubble. Warehouse skeletons — steel I-beam frames, no walls or roofs. Sheared fire hydrants, water pooling in craters.
+
+Background: The empty harbour where the ships were moored — no vessels remain. The dock is gone. The Monsanto plant is a flat grey smear. Burst oil tanks — flat black petroleum pools, some burning with low flat orange flame. The sky is a solid ceiling of petroleum-black and ochre-brown smoke. Distant residential neighborhoods — roofless houses visible at scale.
+
+Audio direction:
+- SFX: The creak and groan of settling steel — structures still shifting after the blast. A slow, heavy metallic settling sound — a beam sliding off a pile and landing with a deep thud. Small debris falling — individual pieces of concrete dropping from heights and shattering on impact. The single finger twitch — a faint scrape of bone against concrete. Then silence from the figure.
+- Ambience: The low, continuous roar of fires burning across the entire industrial district — not a crackle but a sustained furnace roar. Wind moving through the skeletal steel warehouse frames, creating a low moaning tone. Very distant sirens — multiple, overlapping, from every direction. The harbour water lapping against the destroyed dock edge — an incongruously gentle sound.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

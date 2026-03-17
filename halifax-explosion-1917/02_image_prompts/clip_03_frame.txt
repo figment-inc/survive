@@ -1,20 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Halifax Harbour, view of the Mont-Blanc, December 6, 1917, 9:04 AM.
+Classic American adult animation frame, vertical 9:16 composition. Halifax Harbour, December 6, 1917. Close view of the burning ship from the shoreline.
 
-Close-up reaction shot of the figure's upper body and skull, low-angle dread framing. The burning ship looms in the background, now almost entirely obscured by fire and smoke. The close framing creates claustrophobic tension.
+Close-up shot, low angle looking up. The figure stands at the harbour's edge on a stone wharf, craning neck upward. The massive column of smoke from the Mont-Blanc fills the entire upper two-thirds of the frame — flat black and furnace orange billowing upward. The figure's orb-like eyes reflect the orange glow. Expression: dawning unease, brow slightly furrowed.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
-The figure's skull is turned slightly, pale orb-eyes wide. One skeletal hand is raised near the ribcage in an instinctive protective gesture. The jaw is set, mouth closed. Expression reads as dawning comprehension of danger.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing at the wharf edge, neck craned back, one hand raised to shield eyes from the heat. The coffee mug from clip 01 is still clutched in the other hand.
 
-Foreground: Wisps of flat dark smoke drifting across the lower frame. The iron railing partially visible at bottom edge.
+Foreground: Thick hemp mooring ropes coiled on the stone wharf. A wooden barrel marked with military stencil lettering. Water lapping at the wharf's edge reflecting flat orange.
 
-Midground: The figure's upper body dominates the frame. Visible through the translucent skin: ribcage, clavicles, cervical vertebrae. The pale orb-eyes catch the orange glow from the harbour.
+Midground: The figure at the wharf edge. The stone surface is wet and dark.
 
-Background: Over the figure's shoulder — the Mont-Blanc in the Narrows, now a solid mass of vivid orange-red flame with white-hot sparks flying. The black smoke column has widened enormously, filling the upper portion of the frame. The sky behind is pale slate grey with the smoke column dominating. Barrels of benzol visible on the ship's deck as bright orange shapes amid the inferno.
+Background: The Mont-Blanc — a cargo ship engulfed in flame, its hull a dark silhouette against the massive fire. The smoke column towers into the pale winter sky, flat black with orange underbelly. Sparks drift upward as flat orange dots.
 
-Flat even lighting on the figure. Background lit by flat orange-red fire glow against the cold grey sky. Palette: slate grey sky, black smoke, vivid orange-red and white-hot flame, iron blue harbour water, the figure's pale translucent skin.
+Flat even lighting. Intensified palette — the furnace orange now dominates, pushing against the cold steel-blue. The figure is lit from below in flat warm tones. The smoke darkens the upper frame to near-charcoal.
 
-Period texture: The figure's hand grips a section of riveted iron railing. Behind, a portion of a brick factory wall with a painted advertisement for 'ACADIAN COAL' partially visible.
+Period texture: The Mont-Blanc's hull shows riveted steel plates. Military cargo crates stacked on the wharf with stencilled arrows and 'EXPLOSIVES' markings partially visible. A small tugboat — the Stella Maris — is visible near the burning ship, crew attempting to tow it.
+
+Background activity: Dockworkers on the wharf pointing and gesturing. A sailor running along the pier. The Stella Maris crew throwing ropes.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

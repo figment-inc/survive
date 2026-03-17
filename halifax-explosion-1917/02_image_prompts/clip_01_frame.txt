@@ -1,22 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Halifax Harbour, Nova Scotia, December 6, 1917, 8:45 AM.
+Classic American adult animation frame, vertical 9:16 composition. Halifax Harbour, Nova Scotia, morning of December 6, 1917.
 
-Medium shot, low angle tilted slightly upward. The figure stands on a wooden timber wharf in the foreground, staring out across the Narrows at a burning cargo ship. Low camera emphasizes the towering column of black smoke rising from the vessel.
+Medium shot, eye level. The figure stands at a large window inside a wooden-framed Halifax house, both hands pressed flat against the glass pane. Through the window, the harbour is visible — a ship engulfed in billowing flat orange and black flames drifts in the flat dark teal water. The figure's head is tilted slightly forward, orb-like eyes wide with curiosity, face nearly touching the glass. The window frame is painted white, slightly chipped.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
-The figure stands at the edge of the wharf, body angled slightly toward the burning ship, one hand raised to shield its eye sockets from the glare. Posture is tense, weight shifted back on one foot.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing upright at the window, palms flat on glass, leaning slightly forward. Expression: wide-eyed curiosity, no alarm.
 
-Foreground: Thick timber wharf planks with iron mooring cleats and coiled hemp rope. A wooden barrel and stacked crates marked with military stencils. Frost on the wood grain.
+Foreground: The wooden window sill with a ceramic coffee mug steaming gently, lace curtains pulled aside and bunched to the left. A small potted plant in a tin can on the sill.
 
-Midground: The figure on the wharf edge. Behind the figure, dock workers in dark wool coats and flat caps have stopped to watch the fire, some pointing. A horse-drawn cart loaded with supplies sits idle on the pier road.
+Midground: The figure at the window, the glass pane reflecting faint flat light. The wooden interior wall with floral wallpaper in muted blue and cream tones.
 
-Background: The SS Mont-Blanc ablaze in the Narrows — a dark-hulled cargo vessel with thick black smoke pouring from its deck, vivid orange-red flat flames licking upward. Beyond, the opposite shore of Dartmouth is visible as a low grey line. Pale overcast December sky rendered in flat slate grey and iron blue. Warships and harbour vessels dot the grey water.
+Background: Through the window — Halifax Harbour in flat dark teal, the SS Mont-Blanc burning fiercely with flat orange and black smoke billowing upward. Other ships in the Narrows visible as dark silhouettes. The far shore of Dartmouth rendered in flat slate grey. Pale winter sky.
 
-Flat even lighting under overcast sky. Palette: slate grey, iron blue, harbour-water teal, dark timber brown, with vivid orange-red flame cutting through the cold tones. Black smoke column rendered as flat dark shapes against the pale sky.
+Flat even lighting. Cold winter palette — steel blue, slate grey, pale cream interior, sharp furnace-orange flames visible through the window. The warmth of the interior contrasts with the cold harbour scene outside.
 
-Period texture: Riveted iron bollards on the wharf, a faded naval recruitment poster nailed to a wooden post, ice forming on the harbour water near the pilings.
+Period texture: A framed photograph of a soldier in WWI uniform on the wall behind the figure. A folded copy of the Halifax Herald on the windowsill. The lace curtains are hand-crocheted with a geometric pattern.
 
-Background activity: Dock workers gathering to watch the fire. A small boat rowing toward the burning ship. Children on a hillside street above the harbour watching the spectacle. Figures in windows of waterfront warehouses pressing against the glass.
+Background activity: Through the window — small figures on the harbour wharves pointing at the burning ship. A horse-drawn cart stopped on a street. People at neighbouring windows watching the spectacle.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

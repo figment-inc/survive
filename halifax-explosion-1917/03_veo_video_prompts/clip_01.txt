@@ -2,27 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
 
-Camera: Static medium shot, low angle tilted slightly upward. Locked camera, flat composition, no movement. The figure on a timber wharf fills the lower-centre frame, the burning ship and smoke column dominate the upper frame. Classic adult animation medium-shot staging.
+Camera: Static medium shot. Locked camera, flat composition, no movement. The figure stands at a large window inside a Halifax house, hands on the glass, looking out at the harbour where a ship burns. Classic adult animation medium shot staging.
 
-Opening shot — no previous clip. Establishes the figure on the Halifax waterfront watching the burning Mont-Blanc.
+Opening shot — no previous clip. A calm, curious domestic scene — the viewer watches a fire in the harbour from the safety of home.
+
+Visual focus: The figure's hands pressed flat against the window glass — the glass that will become the weapon.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 4 seconds: The figure stands at the wharf edge, initially still, watching the fire. At second 1, the figure's skull tilts upward slightly as the smoke column grows. At second 2-3, one hand slowly rises to shield the eye sockets from the glow. At second 4, a subtle lean backward — instinctive recoil. Mouth remains closed throughout.
+Character action over 4 seconds: The figure stands at the window, both palms pressed flat on the glass. Over the first 2 seconds, the figure leans closer, pressing face nearly to the pane. At second 2.5, the figure tilts head slightly — curious, not alarmed. At second 3.5, the figure's breath fogs the glass slightly. Calm domestic curiosity throughout.
 
-Flat even lighting under overcast sky. Palette: slate grey, iron blue, harbour-water teal, dark timber brown, vivid orange-red flame on the ship, black smoke rendered as flat shapes.
+Flat even lighting. Cold winter interior palette — steel blue, slate grey, warm cream walls, furnace-orange glow from the harbour fire reflected on the glass. The coffee mug steams on the windowsill.
 
-Foreground: Timber wharf planks with iron mooring cleats and coiled hemp rope. A wooden barrel and stacked military crates. Frost visible on the wood grain.
+Foreground: White-painted window sill with a steaming ceramic coffee mug, lace curtains pulled aside, a small potted plant in a tin can.
 
-Midground: The figure at the wharf edge. Dock workers in dark wool coats nearby, frozen in postures of watching — one pointing, another with hands on hips.
+Midground: The figure at the window. Interior wall with muted blue and cream floral wallpaper. A framed photograph of a WWI soldier.
 
-Background: The SS Mont-Blanc ablaze in the Narrows — dark hull, vivid orange-red flat flames, thick black smoke column rising. Grey harbour water. Dartmouth shore as a low grey line. Pale overcast sky.
+Background: Through the window — Halifax Harbour in flat dark teal, the SS Mont-Blanc burning with flat orange flames and black smoke. Small figures on the wharves watching. Other ships in the Narrows.
 
 Audio direction:
-- SFX: The deep creak of timber wharf pilings under wave action, the distant roar of the ship fire carried across water, harbour water lapping against pilings with a hollow slap, a seagull cry overhead, the clatter of a dropped wooden crate on the dock
-- Ambience: Cold harbour morning — wind off the water carrying the faint crackle of distant fire, overlapping murmurs of gathered dock workers, the low horn of a harbour vessel, waves against the wooden wharf
+- SFX: The soft clink of a coffee mug being set down on wood, the figure's palms squeaking faintly on cold window glass, a clock ticking on the wall, the distant muffled crackle of the ship fire carrying across the harbour, a window latch rattling slightly
+- Ambience: A quiet winter morning interior — muffled street sounds, distant horse hooves on cobblestones, the low hum of a coal stove, faint excited voices from neighbours outside calling to each other about the fire
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

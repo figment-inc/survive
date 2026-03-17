@@ -185,18 +185,29 @@ def generate_episode_content(topic):
     print(f"  [{ts()}] Model: {model}")
 
     max_retries = 2
+    api_max_retries = 5
     for attempt in range(max_retries + 1):
         collected = []
-        with client.messages.stream(
-            model=model,
-            max_tokens=32000,
-            temperature=1.0,
-            system=system_prompt,
-            messages=[{"role": "user", "content": topic}],
-        ) as stream:
-            for text in stream.text_stream:
-                collected.append(text)
-        response = stream.get_final_message()
+        for api_attempt in range(api_max_retries):
+            try:
+                with client.messages.stream(
+                    model=model,
+                    max_tokens=32000,
+                    temperature=1.0,
+                    system=system_prompt,
+                    messages=[{"role": "user", "content": topic}],
+                ) as stream:
+                    for text in stream.text_stream:
+                        collected.append(text)
+                response = stream.get_final_message()
+                break
+            except (anthropic.APIStatusError, anthropic.APIConnectionError) as e:
+                wait = 30 * (api_attempt + 1)
+                print(f"  [{ts()}] API error ({e}). Retry {api_attempt+1}/{api_max_retries} in {wait}s...")
+                import time; time.sleep(wait)
+                collected = []
+        else:
+            raise RuntimeError("Claude API unavailable after retries — try again later")
 
         stop_reason = response.stop_reason
         raw = "".join(collected).strip()
@@ -905,7 +916,7 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
 
     from lib.mixer import (
         stitch_clips, stitch_clips_with_transitions,
-        burn_location_title, burn_framing_line, mix_final_audio,
+        burn_location_title, mix_final_audio,
         validate_narration_timing, validate_clip_narration_alignment,
         probe_audio_duration,
     )
@@ -994,16 +1005,6 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
             print(f"  [{ts()}] Location title applied: \"{location}, {year}\"")
     elif not (location and year):
         print(f"  [{ts()}] WARNING: No location/year in episode JSON — skipping title overlay")
-
-    framing_line = episode.get("framing_line")
-    if framing_line and final_path.exists():
-        framed_path = final_dir / f"final_{slug}_framed.mp4"
-        if burn_framing_line(final_path, framed_path, framing_line):
-            final_path.unlink(missing_ok=True)
-            framed_path.rename(final_path)
-            print(f"  [{ts()}] Framing line applied: \"{framing_line}\"")
-    elif not framing_line:
-        print(f"  [{ts()}] WARNING: No framing_line in episode JSON — skipping framing overlay")
 
     return final_path
 

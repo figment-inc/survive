@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium wide shot, eye level. Locked camera, flat composition, no movement. The figure sits on the edge of the Tube platform, legs dangling over the tracks. Hundreds of civilians bed down along the curved tunnel platform. Classic adult animation medium wide staging.
+
+Visual transition: Same Tube station — wider framing after the tight staircase close-up. The figure has made it down to the platform. A moment of false safety before the ground shakes.
+
+Visual focus: The curved tunnel stretching into the distance packed wall-to-wall with civilians — the sheer density of humanity sheltering underground, and the dust sifting from the ceiling as bombs land above.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure sits on the platform edge, legs over the side, gripping the edge. At second 1-2, the figure looks down the tunnel — civilians packed in every direction, no space to move. At second 3, the ceiling shudders — motion lines on the tiles — and dust sifts down. The figure looks up sharply. At second 4-5, a bigger shudder — the bare bulbs flicker. Civilians around the figure flinch. The figure's hands grip the platform edge tighter, knuckles of the skeleton visible through the translucent skin. At second 6-7, the figure stands abruptly, looking toward the staircase — considering going back up. At second 8, another massive shudder — the figure stumbles, grabs a pillar for support. The shelter is shaking.
+
+Flat even lighting — warm flat yellow from bare bulbs, cream tile walls. Muted wartime palette. The figure's pale skin prominent against dark-clothed civilians. The lights flicker at seconds 4 and 8.
+
+Foreground: A woollen blanket, a battered suitcase, a tin mug of tea steaming, a dog-eared Daily Express.
+
+Midground: The figure on the platform. Civilians packed in — families on blankets, an old man in a deck chair, sleeping children. Curved cream-tiled tunnel walls. Bare bulbs on wires.
+
+Background: Tunnel curving into darkness. Empty train tracks below. More civilians on the far platform. Dust sifting from ceiling throughout the clip.
+
+Audio direction:
+- SFX: The deep shudder of a bomb impact transmitted through the ground — a low, resonant boom that vibrates the tiles. Dust and plaster fragments pitter-pattering down from the ceiling. Bare bulbs swinging on their wires — a rhythmic creak. A tin mug rattling on concrete from the vibration. A louder impact — the entire platform shakes, a tile cracks and falls.
+- Ambience: The hum of hundreds of people in a confined tunnel — restless movement, coughing, quiet murmuring. The constant low vibration of bombardment transmitted through the earth — a persistent subsonic rumble. A baby crying somewhere down the platform. The faint whistle-and-crump pattern of falling bombs, muffled by thirty feet of earth.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

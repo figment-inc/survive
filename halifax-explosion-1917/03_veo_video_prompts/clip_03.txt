@@ -2,27 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
 
-Camera: Static close-up reaction shot, low angle. Locked camera, flat composition, no movement. The figure's upper body and skull fill the frame, the burning ship visible over one shoulder in the background. Classic adult animation close-up staging.
+Camera: Static close-up, low angle looking up. Locked camera, flat composition, no movement. The figure stands at the harbour's edge on a stone wharf, craning neck upward at the massive smoke column. The column fills the upper two-thirds of the frame. Classic adult animation low-angle close-up staging.
 
-Visual transition: Same location as clip 02, tighter framing. Cut from the wide crowd shot to an intimate close-up of the figure's reaction. The burning ship now looms larger — the fire has intensified.
+Visual transition: Same harbour area, much tighter framing — cutting from the wide street view to an intimate close-up at the waterfront. The fire is now immense.
+
+Visual focus: The massive column of smoke towering above — so large it fills the sky, dwarfing the figure. The scale is the horror.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 4 seconds: Seconds 1-2: the figure's pale orb-eyes widen as the fire intensifies behind it — the orange glow on the figure's translucent skin grows brighter. One skeletal hand rises instinctively to the ribcage in a protective gesture. Second 3-4: a sharp cartoon flinch — skull snaps to the side as something flares on the ship, then a frozen stare of dawning comprehension. Mouth remains closed throughout.
+Character action over 4 seconds: Seconds 0-1.5: The figure stands at the wharf edge, neck craned back, one hand shielding eyes, the other clutching the coffee mug from clip 01. Expression shifts from curiosity to unease. Seconds 1.5-3: The figure's shielding hand lowers slowly. The orb-like eyes widen. The coffee mug slips from the other hand. Seconds 3-4: The mug shatters on the stone wharf. The figure takes one instinctive step backward, sensing something terrible.
 
-Flat even lighting on the figure. Background lit by intensifying flat orange-red fire glow. Palette: slate grey sky, black smoke, vivid orange-red and white-hot flame, iron blue harbour, pale translucent figure skin.
+Flat even lighting intensified. The furnace-orange now dominates from below, pushing against cold steel-blue above. The smoke column is flat black with orange underbelly. Flat orange sparks drift upward.
 
-Foreground: Wisps of flat dark smoke drifting across the lower frame. The iron railing partially visible.
+Foreground: Thick hemp mooring ropes on the stone wharf. A wooden barrel with military stencils. Water at the wharf edge reflecting flat orange.
 
-Midground: The figure's upper body — ribcage, clavicles, cervical vertebrae visible through translucent skin. Orange glow reflected as flat color on the skin surface.
+Midground: The figure at the wharf edge. The stone surface is wet and dark.
 
-Background: Over the figure's shoulder — the Mont-Blanc is a solid mass of vivid orange-red flame with white-hot sparks. The black smoke column has widened enormously. Benzol barrels on deck visible as bright orange shapes.
+Background: The Mont-Blanc fully engulfed — dark hull silhouette against massive flames. The smoke column towers into the pale sky. The small tugboat Stella Maris visible near the ship. Sparks as flat orange dots.
 
 Audio direction:
-- SFX: A sudden sharp crack from the ship — a barrel rupturing in the heat, the hiss of benzol igniting with a whoosh, glass rattling violently in a nearby window frame, a deep metallic groan from the ship's hull expanding in the heat
-- Ambience: The fire's roar has grown louder — a sustained low rumble carried across the water, crowd noise shifting from curiosity to alarm — sharper voices, gasps, the urgent tone of concern replacing wonder
+- SFX: The ceramic coffee mug shattering on stone — a sharp crack then scattered pieces skittering, the deep bass roar of the ship fire much louder at this distance, a metallic groan from the burning ship's hull, hemp rope creaking under tension as the tide shifts, a seagull crying overhead
+- Ambience: The overwhelming roar of the fire — a deep, continuous rumble that vibrates the stone wharf. Water slapping against stone pilings. Distant shouts from dockworkers. The tugboat's steam whistle blowing frantic short blasts
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

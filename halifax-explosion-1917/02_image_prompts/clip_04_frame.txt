@@ -1,22 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Richmond District, Halifax, December 6, 1917, 9:04 AM.
+Classic American adult animation frame, vertical 9:16 composition. Richmond District, Halifax, December 6, 1917. The moment of detonation — the white flash.
 
-Medium shot, eye level. The figure is running down a narrow residential street away from the harbour, pushing against a flow of people moving TOWARD the waterfront to watch the fire. The composition shows the figure moving against the current of the crowd.
+Extreme wide shot, high angle. The entire Richmond District neighbourhood visible from above — rows of wooden houses, the harbour, the ships. At the centre of the harbour, a blinding flat white-hot circle expands outward from where the Mont-Blanc was. The figure is tiny in the street, caught mid-stride running away from the harbour, frozen in the moment of the flash. A massive flat white shockwave ring expands outward.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
-The figure is mid-stride, running with exaggerated urgency — arms pumping, knees high, skull turned to look back over one shoulder toward the harbour. Body language reads as panicked flight.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Tiny in the wide shot, mid-run, looking back over one shoulder toward the harbour. Arms pumping in a running pose.
 
-Foreground: Scattered debris on the cobblestone street — a dropped newspaper, a child's mitten, a wooden crate that has fallen from a cart. A gas street lamp with a cast-iron base.
+Foreground: Rooftops of the nearest wooden houses — shingles, chimneys, clotheslines with frozen laundry.
 
-Midground: The figure running against the crowd. Halifax residents in heavy winter clothing — wool overcoats, scarves, flat caps — are walking and jogging TOWARD the harbour, curious about the fire. Expressions range from excited to concerned. Some carry children on their shoulders for a better view.
+Midground: The residential streets of the Richmond District. The figure running uphill among other tiny fleeing figures. Windows of houses visible — some with faces still pressed to the glass.
 
-Background: The narrow street lined with tightly packed two-story wooden houses — clapboard siding painted in muted greens, browns, and greys. Laundry frozen stiff on clotheslines between buildings. The massive black smoke column visible above the rooftops, orange glow reflecting off the pale sky. Telegraph poles and wires crisscross overhead.
+Background: The harbour. The white-hot detonation at the centre — a flat circle of pure white-yellow expanding outward. The shockwave ring — a visible flat white arc spreading across the water and toward the shore. The far shore of Dartmouth. The sky turning white above the blast.
 
-Flat even lighting under overcast sky. Palette: slate grey, iron blue, muted timber greens and browns for houses, cobblestone grey, vivid orange-red glow on the horizon above rooftops, black smoke.
+Flat even lighting shifting to blast-white. The cold steel-blue palette is overwhelmed by white-hot yellow and pure white from the centre of the explosion. Everything casts hard flat shadows pointing away from the harbour.
 
-Period texture: A hand-lettered sign reading 'ROOMS TO LET' in a window. A milk delivery wagon with glass bottles rattling in wire crates. Worn wooden steps leading up to front doors with frosted glass transoms.
+Period texture: The wooden houses of the Richmond District — close-packed two-storey clapboard buildings with steep roofs, many with large front-facing windows. A church steeple. Railway tracks running along the waterfront. The dry dock facilities visible near the blast.
 
-Background activity: A woman pulling a child by the hand toward the harbour. Two boys climbing a fence for a better view. A man in a railway worker's uniform running uphill with a lunch pail.
+Background activity: People frozen mid-action — a woman reaching for a child, a man on a bicycle, a horse rearing. All tiny simplified 2D figures caught in the instant before the shockwave arrives.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

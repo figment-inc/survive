@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static medium-wide shot, eye level. Locked camera, flat composition, no movement. The figure stands at a chain-link fence on the outskirts of the industrial area, gripping the diamond mesh with both hands, staring back at the burning SS High Flyer in the background. Classic adult animation dramatic staging — the figure trapped between the fence and the burning ship.
+
+Visual transition: Same area, shifted perspective — wider framing to show the figure's distance from the waterfront and the second ship burning. The palette remains warm and threatening.
+
+Visual focus: The SS High Flyer burning at its berth in the background — the second ship, the second bomb, and the figure knows it.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure grips the chain-link fence, knuckles white, body rigid. Seconds 1-2: The figure watches the High Flyer burn — head tracking a new eruption of flame from the ship's hold. Seconds 3-4: The figure's grip loosens. The hands slide down the fence mesh slowly. The head drops. A defeated posture — the figure knows what's coming and cannot stop it.
+
+Flat even lighting on the figure. Dread palette — darker, more saturated industrial colours. Rust orange fire, petroleum black smoke, ochre-brown sky, steel grey ruins.
+
+Foreground: Chain-link fence with diamond mesh, a rusted 'NO TRESPASSING' sign. Dead brown grass. Discarded oil can.
+
+Midground: The figure at the fence. Dazed survivors nearby — bandaged man, woman in torn dress. A Red Cross volunteer with white armband.
+
+Background: The SS High Flyer engulfed in flat orange and rust-red flames. Dense petroleum-black smoke. The destroyed Grandcamp berth — twisted steel, collapsed roofs. Firefighters spraying water futilely. A tugboat straining against a cable.
+
+Audio direction:
+- SFX: The chain-link fence rattling under the figure's grip — metallic chinking. A new eruption of flame from the High Flyer — a deep WHOMP followed by intensified crackling. The distant whine of the tugboat's engines straining. A fire hose spraying — the hiss of water turning to steam on contact with the chemical fire.
+- Ambience: The growing roar of the High Flyer's fire — louder than the Grandcamp was at this stage. Wind shifting — the smoke column bending. The ambient sound of a community in crisis — distant emergency vehicles, the general murmur of displaced people.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

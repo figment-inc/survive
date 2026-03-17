@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static close-up, eye level. Locked camera, flat composition, no movement. The figure's upper body fills the frame, wedged in a dense crowd pressing down a narrow Tube station staircase. Classic adult animation close-up staging.
+
+Visual transition: NEW location — cut from the wide docklands fire to a tight claustrophobic interior. Maximum contrast in shot scale — from the widest shot to the tightest.
+
+Visual focus: The crush of civilians pressing down the staircase — the figure's translucent body squeezed between dark-clothed bodies, the skeleton visible through the compressed translucent skin.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure is pressed in the crowd descending the stairs. At second 1, the figure's head turns to look back up toward the entrance — a flash of orange glow from outside illuminates the stairwell briefly. At second 2, the figure is pushed forward by the crowd, stumbling on a step, arms pinned at sides. At second 3-4, the figure looks down the staircase into the packed station below, orb-like eyes widening — there is nowhere to go, it's already full.
+
+Flat even lighting — flat yellow light from bare bulbs on the cream-tiled walls. Muted wartime clothing tones — khaki, navy, charcoal. The figure's pale translucent skin stands out starkly. Brief flash of flat orange-amber from outside at second 1.
+
+Foreground: Backs of civilian heads and shoulders — a flat cap, a gas mask box on a string, a child's knitted hat. All flat muted colours.
+
+Midground: The figure squeezed in the crowd. Curved cream-tiled Tube station walls with a coloured band. London Underground roundel partially visible.
+
+Background: The staircase descending, packed solid. Civilians carry blankets, thermos flasks, gas mask boxes. The top of the stairs shows dark navy sky with orange glow.
+
+Audio direction:
+- SFX: Shuffling feet on stone steps — hundreds of shoes scraping. A gas mask box clanking against the tile wall. A child crying. The muffled crump of a bomb landing above — dust sifts from the ceiling. A thermos flask dropping and clattering down the stairs.
+- Ambience: Dense crowd noise — heavy breathing, shuffling, the murmur of hundreds of anxious people in a confined space. The muffled drone of aircraft through the concrete above. Echoing footsteps in the tiled tunnel.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

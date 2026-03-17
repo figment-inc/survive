@@ -1,10 +1,10 @@
 # The Halifax Explosion — 1917
 
 **Slug**: `halifax-explosion-1917`
-**Setting**: Halifax Harbour, Nova Scotia, December 6, 1917 — minutes before the largest man-made explosion in history prior to nuclear weapons.
-**Hook**: A thousand people just went blind because they looked out their windows.
+**Setting**: Halifax Harbour, Nova Scotia, Canada, morning of December 6, 1917
+**Hook**: A ship full of wartime explosives drifts into a harbour — and a thousand people press their faces to the glass to watch it burn.
 
-**Style Description**: Dominant palette of slate grey, iron blue, and harbour-water teal under a pale overcast December sky. Flat atmospheric haze of coal smoke and morning fog diffuses the cold northern light across the Narrows. Recurring visual motifs: thick columns of black smoke rising from the munitions ship, and shattered window glass littering every surface. Industrial wartime port textures — riveted steel hulls, timber wharves, grey naval vessels — rendered in muted, desaturated tones with occasional flashes of vivid orange-red flame cutting through the cold palette.
+**Style Description**: Cold steel-blue and slate-grey palette with sharp accents of furnace orange and white-hot yellow. Flat winter morning light — pale, diffused, casting no warm tones. The harbour water is rendered in flat dark teal. Recurring visual motif: shattered glass fragments and window frames appear across clips, escalating from intact panes to deadly shrapnel. Atmospheric haze of coal smoke and winter fog fills every frame, thickening to opaque blast cloud in later clips.
 
 ## Clips
 

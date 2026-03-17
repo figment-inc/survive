@@ -2,27 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
 
-Camera: Static wide environmental shot, high angle looking down across the Richmond District. Locked camera, flat composition, no movement. An enormous expanding dome of flat white light from the Narrows obliterates the waterfront. The figure is a tiny shape on the street below. Classic adult animation wide tableau staging.
+Camera: Static close-up, low angle from ground level. Locked camera, flat composition, no movement. The figure lies face-down in rubble — broken wood, glass, plaster dust. One arm reaches forward. Classic adult animation close-up ground-level staging.
 
-Visual transition: Cut from interior to exterior high-angle — the scale of destruction is revealed. The intimate window scene gives way to the apocalyptic wide shot.
+Visual transition: Same devastated area, dramatically tighter framing — from the action medium shot to ground-level intimacy with the figure. The energy shifts from violent motion to horrifying stillness.
+
+Visual focus: The glass shards embedded in the ground surrounding the figure — the window glass from every house in the district, now scattered across the ruins like a field of pale blue-white teeth.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 4 seconds: The figure is tiny in the wide frame — a small pale shape on the street. Seconds 1-2: the expanding white dome of the blast reaches the Richmond District, and buildings closest to the harbour fragment into flat debris shapes. Seconds 3-4: the pressure wave sweeps through — the figure is flung sideways off its feet, arms thrown out, then engulfed in a wall of debris and white light. Mouth remains closed.
+Character action over 4 seconds: Seconds 0-2: The figure lies prone in the rubble, motionless. One arm extended forward, fingers splayed on broken wood. The other arm trapped beneath a timber beam. Seconds 2-3: The figure's head slowly lifts — a painful, effortful movement. Orb-like eyes open — half-lidded, dazed. Seconds 3-4: The figure's outstretched hand closes into a fist, gripping the broken wood. A small effort to pull free. The timber does not move.
 
-Flat lighting obliterated by the blast — the entire frame washed in stark white and vivid orange with black debris silhouettes. Palette shifts from established slate grey to overwhelming white and orange. The cold palette is burned away.
+Flat even lighting. Aftermath palette — ash white, charcoal grey, dust brown, muted orange from scattered fires. Everything coated in flat pale grey dust. Glass fragments as pale blue-white against grey rubble.
 
-Foreground: Rooftops of wooden houses — shingles, chimneys, clotheslines — fragmenting as the pressure wave arrives. Flat shards of glass and wood splinters suspended in air.
+Foreground: Extreme close debris — a shattered window frame with jagged glass, a child's shoe in plaster dust, a bent tin spoon. A pocket watch with cracked face.
 
-Midground: Richmond District streets from above — rows of wooden houses, factory buildings, rail yards. The pressure wave as a wall of white expanding outward. Buildings nearest the harbour flattened.
+Midground: The figure in rubble. A collapsed wall leaning above forming a lean-to.
 
-Background: The harbour — a massive dome of white-hot flat light where the Mont-Blanc was. A mushroom column rising. Harbour water pushed outward in a flat ring.
+Background: Total devastation — flat rubble field. Only chimneys and foundations remain. The mushroom cloud overhead. Fires in flat orange. The harbour visible with exposed seabed.
 
 Audio direction:
-- SFX: A single overwhelming CONCUSSION — a deep, gut-shaking boom that reverberates, followed immediately by the shriek of a pressure wave tearing through wood and glass — a sustained roar of splintering timber, shattering glass in a continuous cascade, iron being wrenched apart, the rush of displaced air
-- Ambience: Total sonic obliteration — the individual sounds merge into one sustained apocalyptic roar, the sound of an entire district being destroyed in four seconds, underlaid by a deep sub-bass rumble felt more than heard
+- SFX: Small debris settling — occasional clatter of wood falling, plaster dust sifting down with a soft hiss, glass fragments tinkling as rubble shifts, the creak of the leaning wall above the figure, a distant structure collapsing with a muffled rumble
+- Ambience: An eerie near-silence broken by fires crackling, distant groaning of damaged structures, the wind beginning to return — carrying fine dust that hisses against surfaces. Faint, far-off sounds of people beginning to move through the ruins
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

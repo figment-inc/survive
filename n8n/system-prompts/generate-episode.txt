@@ -38,7 +38,7 @@ Every episode = 8 clips (mix of 4s and 8s durations), target ~48 seconds total v
 
    **PART A — THE HOOK (8-18 words).** The narrator delivers a single, calmly stated impossibility — one or two sentences that make the viewer think "wait, what?" The sentence must contain its own reason to care: a paradox, an absurdity, or a cruel irony that cannot be true and yet is. The viewer who hears ONLY this sentence and nothing else must NEED to keep watching to resolve it. The narrator's composure is the style — deliver the impossible calmly, as if it's simply what happened.
 
-   **PART B — THE FRAMING LINE (~8-12 words).** Immediately after the hook, the narrator says: **"You would not want to be in the [Event Name], [Year]."** This is MANDATORY in every episode. It tells the viewer exactly what this video is about. The framing line appears as on-screen text overlaid on clip 01. Examples:
+   **PART B — THE FRAMING LINE (~8-12 words).** Immediately after the hook, the narrator says: **"You would not want to be in the [Event Name], [Year]."** This is MANDATORY in every episode. It tells the viewer exactly what this video is about. The framing line is narrated only — it is NOT rendered as on-screen text. Examples:
    - "You would not want to be in the Wall Street Crash of 1929."
    - "You would not want to be in the Great Molasses Flood of 1919."
    - "You would not want to be at Mount Unzen in 1792."
@@ -151,7 +151,7 @@ Return valid JSON with this exact structure:
   "year": "<Year string for the on-screen title card, e.g. '1900' or '79 AD' — just the year, no month/day>",
   "setting": "<Location, time period — one sentence>",
   "hook": "<One-sentence hook for social media — what makes this unmissable>",
-  "framing_line": "<The exact 'You would not want to be in [Event], [Year]' line from clip 01 — used for on-screen text overlay>",
+  "framing_line": "<The exact 'You would not want to be in [Event], [Year]' line from clip 01 — narrated only, not rendered as on-screen text>",
   "style_description": "<3-5 sentences defining the episode's unified visual identity — dominant color palette with specific named colors, lighting mood, atmospheric quality, and any recurring visual motifs. This description is prepended to every image and video prompt to enforce cross-clip visual consistency. Be specific: 'dusty ochre and burnt sienna palette under a sulfurous yellow sky' not 'warm colors'.>",
   "clips": [
     {
@@ -391,7 +391,7 @@ Note how sentences cross clip boundaries with dash continuations. This is intent
 - **Sentence rhythm varies by beat.** Immersion and Attempt use longer, flowing sentences that build the world. Catastrophe clips (06-07) use brutal staccato punches — **sentences averaging 5 words, maximum 8 words, each causing or revealing the next**. The rhythm shift IS the pacing. If your Catastrophe clips don't have sentences averaging 4-6 words while your Immersion clips average 12-20, you have failed. But even staccato sentences must form a CAUSAL CHAIN — "The surge arrives. It boils the harbour. The steam blinds you." — not disconnected factoids.
 - **Total: 95-105 words** at ~2.4 words/second (measured ElevenLabs pacing) across 8 clips. This produces ~40-44 seconds of narration to fit within the ~45-second effective video window (48s raw minus crossfade transitions and narration delay). COUNT YOUR WORDS BEFORE RETURNING THE JSON. If your total exceeds 105, cut words until it doesn't. If under 95, the script is too thin — add sensory detail.
 - **Voice on frame 1.** Clip 01 (the hook) starts with a devastating statement — NO silent openings. NEVER a question.
-- **Clip 01 MUST include the framing line** "You would not want to be in the [Event], [Year]" immediately after the hook. This is how the viewer knows what the video is about. The framing line replaces the old clip 02 event-naming — clip 02 now goes straight into danger.
+- **Clip 01 MUST include the framing line** "You would not want to be in the [Event], [Year]" immediately after the hook. This is how the viewer knows what the video is about. The framing line is narrated only — clip 02 now goes straight into danger.
 - **Second person throughout**: "you", "your" — the viewer IS the skeleton.
 - **Agency verbs**: "You run", "You grab", "You shout" — not passive observation.
 - **Tension ratchet**: Every act must raise the stakes from the previous one. No plateaus. No breathing room.

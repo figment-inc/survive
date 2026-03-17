@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static close-up, high angle looking down. Locked camera, flat composition, no movement. The figure is caught mid-stumble, thrown forward by blast concussion. Brick dust fills the frame as flat grey particles. A concrete shelter structure cracks apart behind the figure. Classic adult animation dynamic close-up staging.
+
+Visual transition: SUDDEN CUT — from the quiet dawn aftermath back to a night raid. A jarring time/location shift that mirrors the relentless fifty-seven-night cycle. The colour shifts from grey dawn back to harsh orange-amber fire and navy darkness.
+
+Visual focus: The concrete shelter cracking apart — the nine-inch thick roof slab fracturing into sections, steel reinforcement bars bending, the inadequate construction that made public shelters lethal under direct hits.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: At second 0, the figure is hit by the blast wave — body pitched forward at forty-five degrees, arms thrown outward, one foot still on the ground. At second 1-2, the figure is thrown to the ground, landing hard. The concrete shelter behind the figure cracks — the roof slab fractures, walls buckle inward. At second 3-4, debris rains down — bricks, mortar chunks, concrete fragments cascading over and around the figure. The figure curls into a protective ball, arms over head, as the shelter collapses.
+
+Flat even lighting — harsh flat orange-amber fire glow from the right, dark navy from the left. Flat grey-brown brick dust fills the air. A bright yellow-white explosion bloom in the background. Maximum visual intensity.
+
+Foreground: Cascade of broken bricks and mortar chunks falling through the frame. A torn blackout curtain. Thick flat brick dust.
+
+Midground: The figure thrown to the ground. The shelter cracking apart — nine-inch concrete slab fracturing, thin steel bars bending.
+
+Background: Street lit in harsh flat orange-amber. A massive flat yellow-white explosion bloom. Searchlight beams. Dark navy sky. Swirling ember particles.
+
+Audio direction:
+- SFX: A massive explosion — the sharp crack of detonation followed by the low roar of the blast wave. Concrete fracturing — a deep, grinding snap. Steel reinforcement bars pinging as they bend. Bricks tumbling in a cascade — heavy, grinding, relentless. The whistle of another bomb falling nearby.
+- Ambience: The overwhelming cacophony of a direct raid — anti-aircraft guns hammering, bomber engines roaring overhead, multiple fires crackling. The rush of displaced air from the blast wave. Everything at maximum volume.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

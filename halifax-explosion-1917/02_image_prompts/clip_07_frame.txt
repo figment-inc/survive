@@ -1,22 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Richmond District, Halifax, December 6, 1917 — seconds after the explosion.
+Classic American adult animation frame, vertical 9:16 composition. Halifax, December 6, 1917. The devastated harbour from a distance.
 
-Wide tableau shot at ground level. Total devastation — the entire Richmond District has been flattened. The figure lies amid an unbroken field of splintered wood, twisted iron, and rubble where a neighbourhood of houses once stood. A massive dark mushroom cloud rises behind.
+Extreme wide shot, slightly high angle. The figure sits on a hill overlooking what was the Richmond District — now a flat grey wasteland. The figure sits hunched, knees drawn up, arms wrapped around them. Below, the entire neighbourhood is erased — only foundations and chimneys remain across dozens of blocks. The harbour is visible with the massive mushroom cloud still hanging above it. Fires burn across the landscape.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
-The figure is sprawled face-down in the debris, one arm reaching forward, skull turned to the side. Motionless. Partially buried under broken timber and shattered glass.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Seated on the hillside, small against the vast destruction below. Knees drawn to chest, arms wrapped around legs, head bowed forward.
 
-Foreground: A thick carpet of debris fills the bottom third of the frame — splintered clapboard, bent iron nails, shattered window glass, broken furniture, torn fabric, a child's shoe. A fire hydrant sheared off, water spraying upward.
+Foreground: The grassy hillside — dead winter grass in flat brown-yellow. A few bare trees with branches snapped and pointing away from the harbour. Scattered debris that traveled uphill — wooden shingles, paper, a torn curtain.
 
-Midground: The figure amid the flattened landscape. Where houses stood moments ago, only foundation stones and cellar holes remain. Fires beginning in a dozen places — flat orange-red flame shapes rising from the rubble. Twisted rail tracks curled like ribbons. The hull plate of a ship embedded vertically in the ground.
+Midground: The figure on the hill, isolated and small.
 
-Background: The massive mushroom cloud — dark grey and black at the base, lighter grey mushrooming outward at the top — dominates the upper half of the frame. The harbour is visible as a strange empty basin — the blast displaced the water, exposing the harbour floor momentarily. Across the Narrows, Dartmouth is burning. The sky is dark with debris and smoke.
+Background: The obliterated Richmond District stretching to the harbour. A grid of streets visible only by their foundation outlines — hundreds of wooden houses reduced to flat grey rubble. The harbour with its damaged piers and sunken vessels. The dark grey mushroom cloud spreading across the sky. Fires in flat orange scattered across the ruins. On the far shore, Dartmouth shows damage — collapsed structures, smoke rising.
 
-Flat atmospheric haze of smoke and dust. Palette: charcoal black, ash grey, raw timber tan, vivid orange-red fire spots, dark teal where the harbour water is returning. The overcast sky is now completely obscured by the dark mushroom cloud.
+Flat even lighting. Desolation palette — ash grey, charcoal, flat brown dead grass, muted orange fires, dark overcast sky. The scale of emptiness is the dominant visual element — where a neighbourhood once stood, nothing remains.
 
-Period texture: A cast-iron stove sitting upright amid the rubble — the only recognizable domestic object. A locomotive wheel visible among the wreckage from the destroyed rail yard. The anchor of the Mont-Blanc — half a ton of iron — lies in a crater.
+Period texture: The grid pattern of streets still visible as lines in the rubble. Railway tracks bent and twisted along the waterfront. The dry dock — a massive industrial structure — is mangled. A naval vessel lies beached at an angle on the shore.
 
-Background activity: Silhouetted figures staggering through the rubble, some carrying others. Fires spreading. A horse lying on its side amid debris.
+Background activity: Tiny figures moving through the ruins. A line of horse-drawn ambulance wagons approaching from the south. Smoke columns rising from dozens of points across the district.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

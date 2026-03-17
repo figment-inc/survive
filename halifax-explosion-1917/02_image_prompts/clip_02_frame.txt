@@ -1,22 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Halifax Harbour Narrows, December 6, 1917, 9:00 AM.
+Classic American adult animation frame, vertical 9:16 composition. Richmond District, Halifax, December 6, 1917. A residential street sloping down toward the harbour.
 
-Wide environmental shot, eye level from the waterfront. The figure stands among a crowd of onlookers on Richmond Street, all watching the burning ship in the harbour below. High-angle vulnerability — the crowd is tiny against the massive harbour and the smoke column.
+Wide shot, slightly high angle looking down the street toward the harbour. The figure stands on the cobblestone street among a small crowd of neighbours, all looking toward the harbour. The burning ship is visible at the bottom of the street between wooden row houses. Children stand in the street. A woman hangs laundry on a line between buildings. The mood is curiosity, not panic.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
-The figure stands slightly apart from the crowd, skull tilted upward watching the smoke. Arms hang at its sides. Posture is still, observational.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing in the middle of the street among neighbours, arms at sides, looking downhill toward the harbour. Small in the wide shot.
 
-Foreground: A wrought-iron railing along the hillside street. A child's abandoned wooden hoop toy leaning against a lamppost. Cobblestone street surface with frost.
+Foreground: A wooden fence with a gate left open. A child's red wagon abandoned on the cobblestones. A cat sitting on a fence post.
 
-Midground: The figure amid a dense crowd of Halifax residents — men in overcoats and bowler hats, women in long dark skirts and shawls, children in knee-length wool coats. Factory workers in aprons. Everyone is watching the harbour. Some lean over the railing.
+Midground: The figure among a cluster of eight to ten simplified 2D neighbours — men in flat caps and wool coats, women in long dark skirts and shawls, children in knitted sweaters. All looking downhill. A man holds a pair of binoculars.
 
-Background: Halifax Harbour stretching below — the Narrows visible with the Mont-Blanc now fully engulfed, a massive column of black smoke rising hundreds of feet. The IMO (Imo) visible as a second vessel nearby. Pier 6 and the Richmond waterfront district — tightly packed wooden houses, factories, rail yards, and warehouses lining the shore. The harbour water rendered in flat teal-grey. Dartmouth across the water.
+Background: The street slopes down between two rows of two-storey wooden clapboard houses with steep roofs. At the bottom — the harbour, the burning Mont-Blanc with its massive column of flat black and orange smoke. The Narrows visible between the buildings. Pale steel-blue winter sky.
 
-Flat even lighting. Pale overcast sky in flat slate grey. Palette: slate grey, iron blue, teal harbour water, dark brown and weathered timber for buildings, vivid orange-red flame glow on the ship, black smoke as flat shapes.
+Flat even lighting. Cold winter morning palette — steel blue, slate grey, weathered brown clapboard, dark teal harbour water, furnace orange flames in the distance. The residential street has muted cream and brown tones.
 
-Period texture: A Halifax Tramway electric streetcar stopped on the tracks, passengers leaning out windows to watch. Hand-painted shop signs reading 'DRY GOODS' and 'CHANDLER' on wooden storefronts. Telegraph poles with drooping wires.
+Period texture: Wooden telephone poles with ceramic insulators line the street. A horse tied to a hitching post outside a general store. Milk bottles in a wire carrier on a doorstep. A hand-painted sign reading 'P. DRYSDALE & CO. DRY GOODS' above a shop door.
 
-Background activity: People streaming out of houses and factories toward the waterfront to watch the fire. A fire wagon with horses racing downhill toward Pier 6. Schoolchildren pressed against a schoolyard fence.
+Background activity: A milkman's horse-drawn cart stopped mid-delivery. A schoolboy running toward the harbour for a better look. Women leaning out of upper-storey windows.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

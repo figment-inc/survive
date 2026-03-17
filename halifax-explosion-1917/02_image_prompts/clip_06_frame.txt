@@ -1,20 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Halifax, December 6, 1917, 9:04:35 AM — the moment of detonation.
+Classic American adult animation frame, vertical 9:16 composition. Halifax, December 6, 1917. Immediate aftermath — the flattened district.
 
-Wide environmental shot, high angle looking down across the Richmond District toward the harbour. An enormous white dome of flat light — the blast — expands outward from the Narrows, obliterating the ship, the water, the pier. The figure is a tiny shape on the street below, caught in the expanding white.
+Close-up shot, low angle from ground level. The figure lies face-down in rubble — broken wood, plaster dust, twisted metal. One arm reaches forward, fingers clawing at the debris. Flat white glass shards are embedded in the ground all around. The figure's translucent skin shows the ribcage and spine clearly. Orb-like eyes are half-closed, stunned. A thin line of flat dark red runs from the figure's forehead.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
-The figure is small in the frame, caught mid-stride on the street, frozen in the instant of the blast. Arms thrown up defensively. The expanding white light is reaching the figure.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Prone in rubble, one arm outstretched, the other trapped beneath a wooden beam. Head turned to one side, expression dazed and blank.
 
-Foreground: Rooftops of wooden houses — shingles, chimneys, clotheslines — all beginning to fragment as the pressure wave approaches. Flat shards of glass and wood splinters suspended in air.
+Foreground: Extreme close debris — a shattered window frame with jagged glass teeth still in place, a child's shoe half-buried in plaster dust, a bent tin spoon.
 
-Midground: The Richmond District streets seen from above — rows of wooden houses, factory buildings, rail yards. The pressure wave is visible as a wall of white expanding outward. Buildings closest to the harbour are already flattened into flat shapes of debris.
+Midground: The figure in the rubble. A collapsed wooden wall leans at an angle above, forming a precarious lean-to.
 
-Background: The harbour — the Narrows where the Mont-Blanc was is now a massive dome of white-hot light expanding outward. A column of white and grey smoke mushrooming upward. The harbour water pushed outward in a flat ring. Dartmouth across the water beginning to be struck.
+Background: Total devastation — the Richmond District is flat. No standing structures for blocks. Only chimneys and foundation walls remain. The massive mushroom cloud hangs overhead in dark charcoal and grey. Fires burn in flat orange patches across the wasteland. The harbour is visible — the water has been pushed back, exposing the seabed momentarily.
 
-Flat even lighting obliterated by the blast — the entire frame washed in stark white, vivid orange, and flat grey. Palette shifts from the established slate grey to an overwhelming white and orange with black debris silhouettes. The cold palette is burned away.
+Flat even lighting. Aftermath palette — ash white, charcoal grey, dust brown, muted orange fires. Everything coated in flat pale grey dust. The glass fragments are pale blue-white against grey rubble.
 
-Period texture: A church steeple visible among the rooftops, its cross silhouetted against the white blast dome. Rail cars on the intercolonial tracks visible as dark shapes being flung sideways.
+Period texture: The exposed foundation of a house — fieldstone and mortar. A cast-iron radiator lying on its side in the street. The remains of a wooden picket fence reduced to splinters. A pocket watch lying open on the rubble, its face cracked.
+
+Background activity: Dazed simplified figures emerging from rubble. A man carrying a limp child. Fires spreading between collapsed wooden structures.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

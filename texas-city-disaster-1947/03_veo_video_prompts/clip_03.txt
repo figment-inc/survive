@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static close-up, low angle looking up from within the cargo hold. Locked camera, flat composition, no movement. The figure's head and shoulders are visible at the top of the frame, peering down into the hold from the hatch rim. Below, the stacked ammonium nitrate sacks fill the frame, their centres glowing flat deep orange. Classic adult animation dramatic close-up staging.
+
+Visual transition: Same location, dramatically tighter framing — cutting from the exterior dock view to inside the lethal hold. The colour temperature shifts warmer — the orange chemical glow dominates.
+
+Visual focus: The ammonium nitrate sacks glowing from within — the chemical decomposition visible as the paper darkens and curls, white granules turning sickly yellow.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure peers down from the hatch rim at the top of frame. Seconds 1-2: The figure's orb-eyes widen as the glow intensifies below. Seconds 3-4: The figure pulls back sharply — a cartoon recoil, head snapping backward out of frame, leaving only the hands gripping the hatch rim for a moment before those too disappear. The camera stays locked on the glowing hold.
+
+Flat even lighting replaced by the flat deep orange chemical glow from below. Hold interior palette — petroleum black shadows, deep orange glow, dirty cream sack paper darkening to brown, sickly yellow decomposing fertiliser, rust-brown steel ribs.
+
+Foreground: The steel hatch rim at the top of frame — riveted iron with flaking paint. Dense flat orange smoke curling over the lip.
+
+Midground: The stacked sacks — brown paper with black stenciled markings. Some split, leaking white granules turning yellow. The paper on the nearest sacks is darkening, edges curling.
+
+Background: The deep hold receding into darkness, illuminated by the flat orange glow. Riveted steel walls and ceiling beams. The glow pulses slowly — brighter, dimmer, brighter — as the chemical reaction accelerates.
+
+Audio direction:
+- SFX: An intense chemical hissing — the sound of ammonium nitrate decomposing, higher and more aggressive than a normal fire. Paper cracking and curling. A metallic groan as the ship's hull expands from heat. The sharp scrape of the figure's hands pulling away from the steel hatch rim.
+- Ambience: The deep resonant hum of a confined space heating rapidly. The hold acts as a resonance chamber — every sound bounces and amplifies. The chemical hiss builds in pitch and volume over the 4 seconds, becoming a pressurised scream.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
