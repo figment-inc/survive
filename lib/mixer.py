@@ -1144,3 +1144,89 @@ def burn_location_title(
     size_mb = output_path.stat().st_size / (1024 * 1024)
     print(f"  [{_ts()}] Location title burned: {output_path.name} ({size_mb:.1f} MB)")
     return True
+
+
+def _framing_fontsize(text: str) -> int:
+    """Pick a fontsize for the framing line that fits within 1080px with padding."""
+    n = len(text)
+    if n <= 30:
+        return 42
+    if n <= 45:
+        return 36
+    if n <= 55:
+        return 30
+    return 26
+
+
+def burn_framing_line(
+    video_path: Path,
+    output_path: Path,
+    framing_line: str,
+    duration: float = 4.0,
+    fade_in: float = 0.3,
+    fade_out: float = 0.5,
+    force: bool = False,
+) -> bool:
+    """Burn the 'You would not want to be in...' framing line onto clip 01.
+
+    Single centered line in the lower third, with fade in/out timing.
+    Applied after the location title burn on the final stitched video.
+    """
+    if output_path.exists() and not force:
+        print(f"  [{_ts()}] Skipping (exists): {output_path.name}")
+        return True
+
+    if not video_path.exists():
+        print(f"  WARNING: No video at {video_path}, skipping framing line burn")
+        return False
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    font_size = _framing_fontsize(framing_line)
+    escaped = _escape_drawtext(framing_line)
+
+    fade_out_start = duration - fade_out
+    alpha_expr = (
+        f"if(lt(t,{fade_in}),t/{fade_in},"
+        f"if(lt(t,{fade_out_start}),1,"
+        f"if(lt(t,{duration}),(({duration}-t)/{fade_out}),0)))"
+    )
+
+    font = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+
+    text_filter = (
+        f"drawtext="
+        f"text='{escaped}':"
+        f"fontfile={font}:"
+        f"fontsize={font_size}:"
+        f"fontcolor=white:"
+        f"borderw=3:"
+        f"bordercolor=black:"
+        f"shadowcolor=black@0.5:"
+        f"shadowx=2:shadowy=2:"
+        f"alpha='{alpha_expr}':"
+        f"enable='between(t,0,{duration})':"
+        f"x=(w-tw)/2:"
+        f"y=h*0.72"
+    )
+
+    cmd = [
+        "ffmpeg", "-y",
+        "-i", str(video_path),
+        "-vf", text_filter,
+        "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+        "-c:a", "copy",
+        str(output_path),
+    ]
+
+    print(f"  [{_ts()}] Burning framing line: \"{framing_line}\" "
+          f"(size={font_size}, duration={duration}s)")
+
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"  ERROR burning framing line: {result.stderr[-500:]}")
+        return False
+
+    size_mb = output_path.stat().st_size / (1024 * 1024)
+    print(f"  [{_ts()}] Framing line burned: {output_path.name} ({size_mb:.1f} MB)")
+    return True

@@ -905,7 +905,7 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
 
     from lib.mixer import (
         stitch_clips, stitch_clips_with_transitions,
-        burn_location_title, mix_final_audio,
+        burn_location_title, burn_framing_line, mix_final_audio,
         validate_narration_timing, validate_clip_narration_alignment,
         probe_audio_duration,
     )
@@ -994,6 +994,16 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
             print(f"  [{ts()}] Location title applied: \"{location}, {year}\"")
     elif not (location and year):
         print(f"  [{ts()}] WARNING: No location/year in episode JSON — skipping title overlay")
+
+    framing_line = episode.get("framing_line")
+    if framing_line and final_path.exists():
+        framed_path = final_dir / f"final_{slug}_framed.mp4"
+        if burn_framing_line(final_path, framed_path, framing_line):
+            final_path.unlink(missing_ok=True)
+            framed_path.rename(final_path)
+            print(f"  [{ts()}] Framing line applied: \"{framing_line}\"")
+    elif not framing_line:
+        print(f"  [{ts()}] WARNING: No framing_line in episode JSON — skipping framing overlay")
 
     return final_path
 
