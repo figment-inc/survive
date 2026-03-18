@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure sits on the floor beside a small burzhuika stove, feeding a leather belt into a pot of boiling water. The stripped apartment surrounds — furniture gone, wallpaper scraped.
+
+Visual transition: Same apartment, but tighter framing and further decay. The table from clip 06 is gone — burned for fuel. The walls are more bare. The cold has deepened. From static bread-cutting to active desperate cooking.
+
+Visual focus: The leather belt being fed into the boiling pot — the image of starvation forcing the consumption of inedible objects.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure sits cross-legged beside the burzhuika stove, slowly feeding the leather belt into the bubbling pot. At second 2, the figure pauses and touches a hand to the mouth area — the fingertips come away with a flat dark red smear from bleeding gums. At second 4, the figure examines the bloody fingertips with dull recognition — this is not new. At second 5, the figure wipes the hand on the floor and returns to feeding the belt into the pot. At second 7, the figure reaches for a clump of hair on the floor — from a previous occupant — and stares at it before dropping it. Mouth remains closed throughout.
+
+Flat even lighting. Deepening starvation palette — iron grey, cold slate blue, dirty cream, flat dark red gum blood, dark leather brown. A dull rust-orange glow from the burzhuika's open fuel door — the only warmth.
+
+Foreground: The leather belt coil — cracked dark brown — partially in the pot. Clumps of hair on the wooden floor. An empty paste jar scraped clean.
+
+Midground: The figure beside the burzhuika stove — cylindrical iron with chimney pipe to window. A chair leg protrudes from the fuel door. Flat grey smoke wisps.
+
+Background: Stripped apartment. No furniture. Ghost outlines on walls where furniture stood. Frost-opaque window. Burned book spines in the ash pile.
+
+Audio direction:
+- SFX: The soft bubbling of water in the pot, the creak of leather as the belt is bent and pushed in, the faint scrape of the figure touching bleeding gums, the crackle and pop of burning chair leg in the stove, a small piece of plaster falling from the ceiling and hitting the floor
+- Ambience: The burzhuika stove ticking with heat expansion. Wind howling outside — a sustained low moan. The metronome broadcast barely audible through frozen walls. The building settling and creaking in the extreme cold. Complete isolation.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

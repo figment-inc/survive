@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static extreme wide shot, high angle looking down. Locked camera, flat composition, no movement. An enormous field of mass graves — long earthen mounds in geometric rows stretching to the horizon. The figure stands tiny at the center.
+
+Visual transition: From the street-level aftermath to a high, pulling-back perspective — the god's-eye view of the cost. From individual walking to standing still. From one street to the entire memorial landscape. The scale shift is the emotional blow.
+
+Visual focus: The geometric rows of mass grave mounds extending to the horizon in every direction — the overwhelming, mathematical scale of one million dead.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure stands at the center of the frame — a tiny pale shape amid the vast dark mounds. Head bowed. Arms at sides. At second 3, the figure slowly raises the head and looks outward — scanning the rows of graves extending in all directions. At second 5, the figure's head turns slowly, taking in the scale. At second 7, the figure's head drops again. The arms remain at the sides. There is nothing to do here. Just stand and witness.
+
+Flat even lighting. Memorial palette — raw earth umber, dead grass straw-yellow, gravel grey, birch-bark white, heavy slate grey sky. Flat, muted, enormous.
+
+Foreground: Nearest grave mound — raw dark earth, flat umber. A wooden marker with "1942." Dead straw-yellow grass at edges.
+
+Midground: Rows of identical mounds radiating from the figure. Gravel paths between. Scattered wooden markers.
+
+Background: Mounds to the horizon. Bare birch tree line in flat pale grey. Heavy flat slate grey sky pressing down.
+
+Audio direction:
+- SFX: Wind moving across open ground — a steady, empty sound, a single crow cawing twice from a distant marker, gravel crunching faintly as the figure shifts weight, a birch branch creaking in the wind
+- Ambience: Vast open silence. The wind is the primary sound — continuous, low, mournful across the flat landscape. No city sounds. No metronome. No artillery. The siege is over. Only the wind and the earth and the weight of what happened here. Distant birdsong — a few notes, incongruously peaceful.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

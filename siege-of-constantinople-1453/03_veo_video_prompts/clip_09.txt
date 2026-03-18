@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. The figure stands to the right, watching Emperor Constantine XI remove his imperial insignia in the center-left. Classic adult animation medium close-up for emotional intimacy.
+
+Visual transition: Cutting from the wide high-angle of the overwhelmed city to a quiet, intimate medium close-up — a sudden shift from chaos to a single human gesture. The palette mutes — the crimson retreats to the background, replaced by faded imperial purple and tarnished gold in the foreground.
+
+Visual focus: The imperial purple cloak falling to the ground — the last emperor becoming an anonymous soldier.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure stands to the right, watching. One hand slowly moves to rest flat over the visible ribcage — over the heart. The orb-like eyes are lowered, watching the Emperor. Seconds 2-5: The Emperor unclasps the purple cloak at his throat. It falls in slow animation to pool on the dusty cobblestones. The figure watches it fall, head following the movement downward. Seconds 5-7: The Emperor raises his drawn sword. The figure's head tilts back up to follow — the orb-like eyes meet the Emperor's face for a moment. Seconds 7-8: The Emperor turns and walks toward the breach in the background. The figure's hand presses harder against its own ribcage. The head bows slightly.
+
+Flat even lighting. Last stand palette — faded imperial purple on the falling cloak (the most saturated color), tarnished gold of the diadem on the ground, dull iron grey mail, cold stone grey, dusty mortar white, distant Ottoman crimson through the breach.
+
+Foreground: The imperial purple cloak pooling on dusty cobblestones. The jeweled gold diadem lying in the dirt — tarnished gold with dull red and blue gem accents.
+
+Midground: The Emperor — dark-bearded, in dull iron mail, sword drawn — and the figure watching. The wall breach visible behind them.
+
+Background: Through the breach, the approaching Ottoman mass — crimson and white. Smoke and dust. A few remaining Byzantine soldiers in a thin line. The pale grey-gold sky.
+
+Audio direction:
+- SFX: The soft metallic click of a cloak clasp being undone. Heavy fabric falling to stone — a muffled, weighted sound. The ring of a sword being raised — steel singing briefly. Boots on cobblestone, measured and deliberate — the Emperor's final steps. The diadem hitting the ground with a small, dense thud — gold on stone.
+- Ambience: The battle sounds are distant here — muffled by stone walls and distance, creating an eerie pocket of near-quiet. The wind through the breach carries the distant roar of the assault. Dust particles hiss against stone. The crackle of a nearby fire. The sound fades as the Emperor walks toward the breach — the ambient noise swallows him.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

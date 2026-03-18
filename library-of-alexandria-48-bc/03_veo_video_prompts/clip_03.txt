@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static close-up, low angle looking up. Locked camera, flat composition, no movement. The figure's upper body fills the lower frame, head tilted back, staring up at a warehouse ceiling where wooden beams are catching fire. Ember particles drift downward. Classic adult animation close-up staging.
+
+Visual transition: Same harbour district. Much tighter framing — cutting from the wide street to an interior close-up. The palette shifts dramatically warm — the cool dusk blues are gone, replaced by amber and orange.
+
+Visual focus: A burning piece of papyrus scroll falling through the air past the figure's face — a ribbon of flame that was once human knowledge, now ash.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Seconds 0-1.5: The figure stands looking upward, orb-like eyes wide. One hand reaches up reflexively as a burning papyrus ribbon falls past. Second 1.5-3: The figure flinches as embers drift onto the translucent skin — a sharp recoil, arms pulling in protectively. Second 3-4: The figure turns to look behind — eyes searching for an exit. The expression shifts from alarm to fear.
+
+Flat even lighting. Fire palette — bright amber, fierce orange, charcoal black on the burning beams. The figure's translucent skin glows flat warm amber. Ember particles rendered as small flat orange-yellow dots.
+
+Foreground: Drifting ember particles — scattered flat orange dots. A curling piece of burning papyrus floats past, edges blackened and glowing. More embers fall like slow rain.
+
+Midground: The figure against the warehouse interior wall. Wooden pigeonhole shelves behind — some scrolls curling at their edges from heat.
+
+Background: Ceiling beams ablaze — flat bright orange flames consuming the timber. Through a window, more buildings burn against black smoke sky.
+
+Audio direction:
+- SFX: The loud crack of a wooden beam splitting from heat — sharp and sudden. The hiss and crackle of papyrus catching fire — a distinctive dry, rapid combustion sound. Embers landing on stone with tiny ticking sounds. The whoosh of a flame spreading along a wooden shelf. A clay pot cracking from thermal shock
+- Ambience: The growing roar of structural fire — not yet deafening but impossible to ignore. The air moving — a hot wind being pulled toward the fire creating a constant rushing sound. Distant shouting — voices calling in panic, muffled by walls and fire noise
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

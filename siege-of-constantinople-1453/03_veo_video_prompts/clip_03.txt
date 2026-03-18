@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static close-up, slightly low angle. Locked camera, flat composition, no movement. The figure stands atop the repaired wall section, framed against the dawn sky, looking out at the Ottoman camp. Classic adult animation close-up staging.
+
+Visual transition: Shift from the dark amber-lit night repair scene to the pale gold of dawn. A moment of earned calm — the wall is whole again. The palette warms slightly.
+
+Visual focus: The figure's mortar-caked hands — held up at chest height, palms toward camera. The cost of survival written on the body.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure stands on the wall walk looking outward at the Ottoman camp, one hand resting on the battlement. Seconds 2-4: The figure slowly raises both hands and turns them palm-up, examining them — the translucent skin shows the skeletal hand bones beneath, and the palms are coated in flat dusty white mortar. The figure turns the hands slowly, studying them. Seconds 5-7: The figure looks back out at the vast Ottoman camp, then looks down at the repaired wall beneath its feet. Seconds 7-8: A slow nod — weary, defiant satisfaction. The hands lower back to the battlement.
+
+Flat even lighting. Dawn palette — pale dusty gold horizon, indigo upper sky, cold stone grey walls, fresh mortar white, Ottoman crimson tent accents in the distance. Morning light flat and even across all surfaces.
+
+Foreground: Stone battlement crenellations. A wooden water ladle on the merlon. Fresh mortar smears on the stone. A gentle breeze moves a piece of torn cloth caught on the battlement.
+
+Midground: The figure on the wall walk. The patchwork repair visible — old dark stone and new pale limestone with fresh white mortar lines.
+
+Background: The vast Ottoman encampment — hundreds of flat white and crimson tents. The dark silhouette of the great bombard cannon on its timber cradle. The dawn sky shifting from indigo to pale gold. Flat grey-brown haze over the camp.
+
+Audio direction:
+- SFX: A gentle morning wind across the open battlements. The figure's translucent hands brushing together, scraping dried mortar — a soft gritty sound. A wooden ladle shifting on stone. A distant rooster crowing from within the city behind.
+- Ambience: The quiet of dawn after a night of work — a brief lull. The massive Ottoman camp stirring in the distance — a low murmur, distant metallic clanking, the lowing of draft animals. Birds beginning to sing from trees inside the city. The faint creak of wooden scaffolding in the breeze.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

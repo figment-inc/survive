@@ -268,3 +268,89 @@ def check_clip_consistency(
         _save_qa_results(results, clip_paths[0].parent)
 
     return results
+
+
+QA_PROMPT_CLIP01 = (
+    "You are a visual QA inspector for an animated video series. "
+    "The series uses a consistent flat 2D cel-shaded animation style with thick black outlines, "
+    "flat colors (zero gradients), and no photorealistic elements.\n\n"
+    "Image 1 is the CANONICAL STYLE REFERENCE — a frame from a classic American adult animation "
+    "(Family Guy aesthetic). This is the target art style.\n\n"
+    "Image 2 is a frame from the generated clip 01 of this episode. Clip 01 will become the "
+    "ground truth for all subsequent clips, so any style drift here cascades to the entire episode.\n\n"
+    "Compare the generated frame against the style reference across these dimensions:\n"
+    "1. ART STYLE: Is it flat 2D cel-shaded animation matching the reference? Flag drift toward "
+    "photorealism, 3D rendering, gradients, or mixed styles.\n"
+    "2. LINE WEIGHT: Are black outlines thick and uniform like the reference?\n"
+    "3. RENDERING QUALITY: Flag AI artifacts — morphing, extra limbs, text, double images.\n"
+    "4. OVERALL STYLE MATCH: Would this frame fit seamlessly into the reference show?\n\n"
+    "Respond with a single JSON object:\n"
+    '{"pass": true/false, "severity": 0-5, "issues": ["issue1", ...]}\n\n'
+    "Severity scale: 1=barely noticeable, 3=should regenerate, 5=completely wrong style.\n"
+    "Only flag genuine style deviations. Content differences (characters, setting) are expected — "
+    "only flag ART STYLE issues."
+)
+
+
+def check_clip01_style(
+    video_path: Path,
+    style_ref_path: Path,
+    api_key: str,
+) -> ClipQAResult:
+    """Quick style check on clip 01 against the global style reference.
+
+    Returns a ClipQAResult. If severity >= 3, clip 01 should be regenerated
+    before being used as the style anchor for subsequent clips.
+    """
+    client = genai.Client(api_key=api_key)
+
+    frames = _extract_qa_frames(video_path, count=1)
+    if not frames:
+        print(f"  [{_ts()}] Clip 01 QA: Could not extract frame — skipping check.")
+        return ClipQAResult(clip_id="01", passed=True, issues=[], max_severity=0)
+
+    style_bytes = style_ref_path.read_bytes()
+    frame_bytes = frames[0].read_bytes()
+
+    content_parts: list[types.Part | str] = [
+        QA_PROMPT_CLIP01,
+        "\n\nImage 1 — CANONICAL STYLE REFERENCE:",
+        types.Part.from_bytes(data=style_bytes, mime_type="image/png"),
+        "\n\nImage 2 — Generated clip 01 frame:",
+        types.Part.from_bytes(data=frame_bytes, mime_type="image/png"),
+    ]
+
+    try:
+        response = client.models.generate_content(
+            model=VISION_MODEL,
+            contents=content_parts,
+        )
+        raw_text = response.text.strip()
+    except Exception as e:
+        print(f"  [{_ts()}] Clip 01 QA: Gemini vision call failed: {e}")
+        return ClipQAResult(clip_id="01", passed=True, issues=[], max_severity=0)
+
+    text = raw_text.strip()
+    if text.startswith("```"):
+        text = text.split("\n", 1)[1] if "\n" in text else text[3:]
+        if text.endswith("```"):
+            text = text[:-3]
+        text = text.strip()
+
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        print(f"  [{_ts()}] Clip 01 QA: Could not parse response: {text[:300]}")
+        return ClipQAResult(clip_id="01", passed=True, issues=[], max_severity=0)
+
+    passed = bool(data.get("pass", True))
+    severity = int(data.get("severity", 0))
+    issues = data.get("issues", [])
+
+    result = ClipQAResult(clip_id="01", passed=passed, issues=issues, max_severity=severity)
+    status = "PASS" if passed else f"FAIL (severity {severity}/5)"
+    print(f"  [{_ts()}] Clip 01 QA: {status}")
+    if issues:
+        print(f"  [{_ts()}]   Issues: {'; '.join(issues)}")
+
+    return result

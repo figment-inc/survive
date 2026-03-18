@@ -2,57 +2,66 @@
 
 **Voice**: ElevenLabs TTS — Dan (British Documentary Narrator, voice ID BHr135B5EUBtaWheVj8S)
 **Style**: Calm, measured, authoritative British naturalist. National Geographic documentary narration — warm curiosity and genuine reverence for the forces at work.
-**Pacing**: ~2.3 words/second (measured), ~110-120 words total as continuous prose across 8 clips.
+**Pacing**: ~2.4 words/second (measured), ~190-220 words total as continuous prose across 12 clips.
 **Address**: Direct "you" — pulling the viewer into the skeleton's situation
 **Character**: The on-screen figure NEVER speaks, NEVER moves their mouth. Silent physical reactions only.
 **Audio pipeline**: This script is generated as ONE continuous ElevenLabs audio file, then overlaid on the final stitched video in post-production.
 
 ---
 
-## Clip 01 (0:00–0:04) — The Hook
-NARRATOR: {{~8-12 words — devastating fact using URGENCY, DRAMATIC IRONY, or SHOCKING NUMBER. NEVER a question. Drop the viewer into danger on word one.}}
+## Clip 01 (0:00–0:08) — The Hook
+NARRATOR: {{~18-25 words — paradox hook: one impossibility that makes the viewer say "wait, what?" + framing line "You would not want to be in/at [Event], [Year]."}}
 
-## Clip 02 (0:04–0:12) — Immersion
-NARRATOR: {{~15-20 words — NAME the disaster and YEAR in the first sentence. Build the world with visceral sensory detail. Sentence may continue into clip 03.}}
+## Clip 02 (0:08–0:16) — Routine
+NARRATOR: {{~15-22 words — the PBS move: open with competence. The viewer is GOOD at something — repairing, building, navigating. Earn respect before loss.}}
 
-## Clip 03 (0:12–0:16) — Immersion
-NARRATOR: {{~8-12 words — tighten the trap. May continue a sentence from clip 02 using em dash (—). Specific scientific or historical detail that makes the danger inevitable.}}
+## Clip 03 (0:16–0:24) — False Safety
+NARRATOR: {{~14-20 words — the viewer is winning. A moment of earned calm. One tiny sensory detail that grounds the scene in the body.}}
 
-## Clip 04 (0:16–0:24) — Attempt
-NARRATOR: {{~15-20 words — the viewer tries to survive and FAILS. Agency verb: "You run", "You push", "You try". The failure teaches a real fact. Sentence may continue into clip 05.}}
+## Clip 04 (0:24–0:32) — The Detail
+NARRATOR: {{~15-22 words — introduce the fatal element as furniture. A door, a valve, a crack. Mundane, logistical, not dramatic. The narrator does not flag it.}}
 
-## Clip 05 (0:24–0:28) — Attempt
-NARRATOR: {{~8-12 words — second attempt or deepening trap. May continue from clip 04. Each failure is historically grounded.}}
+## Clip 05 (0:32–0:40) — The Turn
+NARRATOR: {{~12-18 words — the fatal element activates. Stated flat. Let the viewer discover the horror.}}
 
-## Clip 06 (0:28–0:32) — Catastrophe
-NARRATOR: {{~8-10 words — the disaster hits. STACCATO RHYTHM: short sentences, 3-8 words each. Clinical precision. Specific numbers.}}
+## Clip 06 (0:40–0:48) — Escalation
+NARRATOR: {{~12-18 words — scale begins to collapse. Numbers climbing, stated without adjectives. Trust the numbers to do the work.}}
 
-## Clip 07 (0:32–0:40) — Catastrophe
-NARRATOR: {{~15-18 words — devastating consequences. Continue the staccato rhythm. Scale of destruction with specific facts.}}
+## Clip 07 (0:48–0:56) — Catastrophe
+NARRATOR: {{~14-20 words — staccato impact. Every sentence ≤8 words. Sensory texture in your body — what you feel, hear, see.}}
 
-## Clip 08 (0:40–0:48) — Cliffhanger
-NARRATOR: {{~12-18 words — callback ending that echoes the hook. Unresolved fact that drives comments. Leave the viewer STUNNED.}}
+## Clip 08 (0:56–1:04) — Catastrophe
+NARRATOR: {{~12-18 words — the disaster reaches you physically. Each sentence CAUSES the next.}}
+
+## Clip 09 (1:04–1:12) — The Human Gesture
+NARRATOR: {{~14-20 words — one person makes a small, precise, devastating choice. The detail that makes the scale human.}}
+
+## Clip 10 (1:12–1:20) — Aftermath
+NARRATOR: {{~10-16 words — what remains. Stated flat. No commentary.}}
+
+## Clip 11 (1:20–1:28) — The Number
+NARRATOR: {{~8-14 words — the toll. One statistic delivered as verdict.}}
+
+## Clip 12 (1:28–1:36) — Callback
+NARRATOR: {{~12-18 words — echo or invert the hook. A revelation that reframes the entire episode.}}
 
 ---
 
 ## Writing Guidelines
 
-- **Continuous prose.** Write ONE flowing narrative, not 8 isolated scripts. The narration is generated as a single audio file. Sentences SHOULD cross clip boundaries — use em dashes (—) to indicate mid-sentence continuity across clips.
-- **Nature documentary tone.** Calm, measured, authoritative. British naturalist guiding you through the extraordinary, not dark comedy.
-- **Voice on frame 1.** Clip 01 starts with a devastating statement — ZERO seconds of silence. NEVER a question.
-- **Hook types.** Use one of: URGENCY (countdown/ticking clock), DRAMATIC IRONY (viewer knows what the people didn't), or SHOCKING NUMBER (a statistic so extreme it demands explanation).
+- **Continuous prose.** Write ONE flowing narrative, not 12 isolated scripts. The narration is generated as a single audio file. Sentences SHOULD cross clip boundaries — use em dashes (—) to indicate mid-sentence continuity across clips.
+- **PBS documentary tone.** Open with the routine, not the event. Introduce the turning point as furniture, not drama. Let the viewer discover the irony. The narrator trusts the viewer to feel the weight without being told how to feel.
+- **Voice on frame 1.** Clip 01 starts with the paradox hook — ZERO seconds of silence. NEVER a question.
 - **Present tense ONLY.** "You wake up" not "You've arrived."
-- **Rhythm varies by beat.** Immersion + Attempt: longer, flowing sentences. Catastrophe + Cliffhanger: staccato punches, 3-8 words. The rhythm shift IS the pacing.
+- **Rhythm varies by beat.** Routine + False Safety: longer, flowing sentences. Catastrophe: staccato punches, 3-8 words. The rhythm shift IS the pacing.
 - **Educational depth.** Every beat includes at least one specific, verifiable fact.
-- **Second person throughout**: "you", "your" — the viewer IS the skeleton. Check EVERY clip — "you" must appear in all 8.
+- **Second person throughout**: "you", "your" — the viewer IS the skeleton. Check EVERY clip — "you" must appear in all 12.
 - **Agency verbs**: "You run", "You grab", "You shout" — not passive observation.
 - **Tension ratchet**: every clip raises the stakes from the previous one. No plateaus.
-- **Sensory continuity**: if clip 02 establishes smoke, clip 03 still has smoke. The environment accumulates.
+- **Sensory continuity**: if clip 02 establishes stone dust, clip 07 still has dust. The environment accumulates.
 - **Narrative thread**: every sentence connects to the previous one — causality, not just sequence.
 - **Sensory specificity**: visceral, concrete details. Not "the fire is hot" but "eighteen hundred degrees."
-- **One moment of genuine scientific awe per episode**: a fact that creates wonder.
-- **Callback ending**: the Cliffhanger MUST echo or invert the Hook. This is mandatory.
-- **Open-loop ending**: unresolved fact that drives comments and shares. Leave the viewer STUNNED.
+- **Callback ending**: clip 12 MUST echo or invert the Hook. This is mandatory.
 - **Historical accuracy**: real dates, real numbers, real consequences. Every fact checkable.
-- **Total word count**: 110-120 words across all 8 clips as continuous prose. Per-clip counts are soft targets.
+- **Total word count**: 190-220 words across all 12 clips as continuous prose. Per-clip counts are soft targets.
 - This script is produced as ONE continuous ElevenLabs audio file, then overlaid on the final stitched video.

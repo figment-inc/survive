@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. The figure stands in a doorway of the Vavilov Institute, looking into a dim office where a botanist has slumped at a desk, surrounded by tons of edible grain in jars and sacks.
+
+Visual transition: From the exterior frozen street to an interior institutional scene. From physical cold to moral weight. The palette shifts from frozen white to muted warm tones of grain and wood — the warmth of abundance that was never eaten.
+
+Visual focus: The contrast between the lifeless botanist and the shelves overflowing with edible grain — the unbearable proximity of food to starvation.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure stands in the doorway, one hand on the frame, leaning slightly forward and looking into the office. At second 2, the figure's orb-like eyes widen as they take in the scene — the slumped botanist, the shelves of grain. At second 3, the figure slowly steps into the room. At second 5, the figure reaches toward a glass jar of golden wheat on the shelf — fingers approaching the jar. At second 6, the figure stops. The hand hovers an inch from the jar. At second 7, the figure slowly pulls the hand back and lowers it to the side. At second 8, the figure bows the head in respect. Understanding the choice.
+
+Flat even lighting. Reverence palette — dark wood brown, seed-packet cream and tan, grain gold in glass jars, cold slate blue window light. The grains are the warmest color in the frame — ironic abundance.
+
+Foreground: Heavy dark wood doorframe. A Cyrillic card pinned to the door. The figure's translucent hand on the wood.
+
+Midground: The desk — slumped botanist in dark coat, round spectacles, pen in still hand. Notebook, dried inkwell, empty tea glass. Hundreds of small labeled seed drawers surrounding the desk.
+
+Background: Floor-to-ceiling shelves of glass jars filled with grain, labeled seed packets, burlap sacks. Frost on the window behind. Framed portrait of Nikolai Vavilov on the wall.
+
+Audio direction:
+- SFX: The creak of the doorframe as the figure leans on it, the soft footstep on wooden floor as the figure enters, the faint rattle of seeds in jars as vibrations from distant artillery travel through the building, the figure's hand brushing near the glass jar — a whisper of air, the dry rustle of paper from the open notebook on the desk
+- Ambience: Deep interior quiet. The muffled tick of the metronome broadcast through thick walls. The building's old wooden structure creaking in the cold. A very faint, steady draft from the frosted window making the notebook pages flutter occasionally. The silence of a sealed room where someone has been alone for a long time.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

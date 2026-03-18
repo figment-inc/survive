@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium-wide shot, eye level. Locked camera, flat composition, no movement. The figure is inside a burning warehouse, mid-stride, arms full of papyrus scrolls, moving toward a doorway. The doorway ahead glows bright orange — the street beyond is also on fire. Smoke fills the upper portion of the frame. Classic adult animation medium-wide staging.
+
+Visual transition: Same warehouse interior, pulled back to medium-wide to show the full space — burning shelves on both sides, the figure attempting to save scrolls, the blocked exit.
+
+Visual focus: The doorway glowing bright orange — the exit is blocked by fire. The figure's only way out is now the disaster itself.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure moves toward the doorway in a determined stride, both arms clutching a bundle of papyrus scrolls against the ribcage. Seconds 2-4: The figure stops abruptly — the doorway ahead erupts with brighter flame as something collapses outside. The figure recoils, stepping back, clutching the scrolls tighter. Seconds 4-6: The figure looks left, then right — searching desperately for another exit. The shelves on both sides are now fully ablaze. Seconds 6-8: The figure turns back the way it came, but that path is now also blocked by a burning beam that has fallen across the aisle. The figure clutches the scrolls and hunches low, the smoke forcing it to crouch. Trapped.
+
+Flat even lighting. Intense fire palette — fierce orange, bright amber, charcoal black, ash grey. The smoke layer descends steadily over the 8 seconds — thick flat grey-brown filling the upper frame. The figure is lit in flat amber.
+
+Foreground: Fallen scrolls on the stone floor — some intact, some burning. A toppled wooden shelf rack. Flat grey smoke drifts low. A small oil lamp flame on the flagstones.
+
+Midground: The figure between two rows of burning shelves. Pigeonhole cubbies visible — many empty, others with scrolls actively curling and blackening. Embers fill the air.
+
+Background: The doorway — wooden frame ablaze, lintel burning. Through the door, the street is a wall of flat orange fire. A collapsed timber beam blocks the lower half. Beyond, more burning buildings against a smoke-black sky.
+
+Audio direction:
+- SFX: Running footsteps on stone — urgent pace. The crackle and roar of shelving catching fire — wood popping and splitting. A heavy timber beam falling across the aisle with a deep thud and shower of sparks. Papyrus scrolls catching fire — rapid dry crackling in sequence, like a chain reaction along the shelves. The figure's feet scuffing stone as it crouches. A ceramic pot exploding from heat
+- Ambience: The roar of the fire is now a constant bass presence — like standing inside a furnace. Wind being sucked into the fire creates a howling tunnel effect. The building groans — timber joints creaking and snapping. Distant crashes of other structures collapsing. The air itself sounds thick — a muffled, oppressive quality
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure is centered on a wooden ramp against the damaged wall, hauling stone. Workers move around in a repair chain. Classic adult animation medium staging.
+
+Visual transition: Cutting from the wide establishing shot to a closer, active scene of the nightly wall repair. The palette shifts from cold indigo to warmer amber torchlight.
+
+Visual focus: The figure straining to lift a heavy limestone block — the physical cost of defending these walls every single night for fifty-three nights.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure crouches and lifts a rough limestone block at second 0, arms straining — the skeleton visible through the translucent skin shows the arm bones bearing weight. From seconds 1-4, the figure carries the block up the wooden ramp, steps heavy and labored. At second 5, the figure reaches the repair section and pushes the stone into the gap in the wall. Seconds 6-8: the figure slumps forward, resting both hands on the freshly placed stone, head bowed in exhaustion. Then straightens and turns to go back down for another.
+
+Flat even lighting. Night repair palette — deep indigo sky, cold stone grey wall, warm flat amber torchlight on the work area, dusty mortar white, dull iron grey. Stone dust particles drift through the air.
+
+Foreground: A wooden wheelbarrow filled with wet grey mortar. Stacked rough-cut stone blocks. Mortar splashes on the paving stones.
+
+Midground: The figure on the ramp. Workers in simple tunics and soldiers in dull mail pass stones hand-to-hand. A large crack in the wall, half-filled with fresh mortar and new stone.
+
+Background: The massive impact crater in the wall from cannon fire — ragged edges of shattered limestone and exposed red brick. Wooden hoardings on the battlements above. Flat amber torchlight from iron cressets. Deep indigo night sky.
+
+Audio direction:
+- SFX: Heavy stone scraping on wood as the block is dragged up the ramp. Wet mortar squelching as it's spread with a trowel. The dull thud of a stone block being placed into the wall gap. Boots crunching on rubble and broken stone. A wooden bucket handle creaking under weight.
+- Ambience: The rhythmic sounds of mass repair work — dozens of hands scraping, lifting, placing stone. Low grunts of physical effort from background workers (non-verbal). Torches crackling. A distant cannon boom that causes everyone to pause for one beat before continuing. Wind whistling through the damaged wall gap.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

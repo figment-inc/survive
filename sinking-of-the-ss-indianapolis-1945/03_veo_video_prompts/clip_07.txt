@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, high angle looking almost straight down. Locked camera, flat composition, no movement. God's-eye view of the ocean surface showing the devastating reduction in survivors — scattered dots where hundreds once were. Classic adult animation wide overhead tableau staging.
+
+Visual transition: Same water, day four. Pulling way back — from the intimate close-up of one person's delirium to the vast scale of loss.
+
+Visual focus: The empty life vests — dozens of them floating with no one inside. Each empty vest is a person who was alive at clip 04 and is now gone. The count has dropped catastrophically.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seen from directly above, the figure floats on its back, arms spread like a cross, barely moving. The skeleton is fully visible through the translucent skin from this overhead angle. At second 2, the figure's right hand twitches. At second 4, the figure slowly turns its head — looking at an empty life vest floating nearby. At second 6, the figure's head turns back to center, staring up at the sky — and at the camera. At second 7, a dark dorsal fin enters the frame from the bottom edge, moving slowly toward the figure. At second 8, a tiny speck appears at the top edge of the frame — a PBY Catalina approaching in the distance.
+
+Flat even lighting from above. Despair palette — dark cobalt blue water, flat black oil patches, bleached white empty vests, grey-white figure nearly lost against the water. Muted, exhausted, drained colors.
+
+Foreground: Ocean surface filling the entire frame. Empty kapok life vests scattered like fallen leaves. A white sailor's cap. Floating planks. Dog tags glinting flat silver.
+
+Midground: The figure, tiny in center frame. A few other survivors scattered far apart — each alone. Most motionless.
+
+Background: More ocean. Dorsal fins at three positions around the survivors. The tiny olive-drab speck of the PBY Catalina at the very top edge of frame.
+
+Audio direction:
+- SFX: The quiet lapping of waves against floating debris. A distant engine drone — faint, growing almost imperceptibly louder. The soft bump of empty life vests nudging against each other in the swell. A dorsal fin slicing water — close.
+- Ambience: Open ocean — the vast, empty, subsonic rumble of deep water. Wind. The awful quiet of a scene where hundreds of voices have gone silent. The faintest hint of aircraft engines at the edge of hearing.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

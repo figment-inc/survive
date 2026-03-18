@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure floats motionless in the lower half of the frame, face-up. The massive olive-drab belly of a PBY Catalina flying boat passes overhead, its shadow crossing the figure. Classic adult animation medium shot staging.
+
+Visual transition: Same water. The rescue aircraft arrives — but the framing tells you it's too late for the figure. The plane fills the sky; the figure is still.
+
+Visual focus: The shadow of the rescue plane crossing the motionless figure's face — help arrived, but not for you.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure floats on its back, completely still, arms spread. Eyes open but vacant — staring up at the sky. At second 2, the shadow of the PBY Catalina begins to cross the frame from the top. At second 3, the shadow passes over the figure's face — the orb-like eyes do not track it, do not react. At second 5, the aircraft shadow moves past, leaving the figure in flat sunlight again. At second 6, the camera holds on the motionless figure. Floating debris drifts slowly past. At second 7, a few distant survivors wave weakly at the departing aircraft. The figure does not move. At second 8, hold on the stillness.
+
+Flat even lighting. Conclusion palette — dark cobalt water, pale amber-grey late-afternoon sky, olive-drab aircraft, grey-white figure. The aircraft shadow creates a dark cross shape moving across the water. Muted, drained, exhausted colors.
+
+Foreground: Dark water. Floating debris — a waterlogged shoe, a tin cup, empty life vests. Ripples from the aircraft's low pass.
+
+Midground: The figure, face-up, motionless. The aircraft's shadow — a dark cross — passes slowly over the body.
+
+Background: The underside of the PBY-5A Catalina dominating the upper frame — olive-drab fuselage, twin radial engines, parasol wing, Navy star-and-bar insignia. Pale amber-grey sky. Scattered empty vests and debris on the water stretching to the horizon.
+
+Audio direction:
+- SFX: The growing roar of twin radial engines passing overhead — building from a distant drone to a powerful, close rumble, then fading. The downdraft from the aircraft disturbing the water surface — a brief rush of wind and spray. The soft bump of the figure's body against a floating plank as the wash passes.
+- Ambience: Open ocean — lapping waves, wind. The aircraft engines dominating the soundscape for seconds 2-5, then fading into the distance. After the plane passes, the quiet returns — louder than before because of what it means. The persistent, indifferent sound of the sea.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

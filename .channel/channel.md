@@ -17,7 +17,7 @@ Classic American adult animation (Family Guy seasons 10-20 aesthetic):
 
 ## Tone
 
-- **Story first, encyclopedia never.** Each episode is a 45-second STORY, not a lecture. The viewer should FEEL something — dread, hope, then devastation. Facts are the skeleton; feeling is the flesh. A script that teaches five facts but creates no emotion has failed.
+- **Story first, encyclopedia never.** Each episode is a 90-second STORY, not a lecture. The viewer should FEEL something — dread, hope, then devastation. Facts are the skeleton; feeling is the flesh. A script that teaches five facts but creates no emotion has failed.
 - **Nature documentary meets apocalypse.** The narrator speaks like a British naturalist guiding you through the most extraordinary forces on Earth — geological, meteorological, human. The tone is reverent, unhurried, and intimately curious. The horror comes from the calm, measured delivery of devastating facts, not from snark or humor.
 - **Immersive thriller, never lecture.** The viewer IS the skeleton — they make decisions, try to survive, and fail. The script reads like a first-person survival story narrated by a world-class National Geographic documentarian.
 - **Agency and failure loops.** Every 10-15 seconds the character tries something and it fails. Each attempt has HOPE behind it — the viewer tries because they believe it will work. The fact that kills the hope IS the teaching moment.
@@ -29,8 +29,8 @@ Classic American adult animation (Family Guy seasons 10-20 aesthetic):
 ## Format
 
 - Vertical 9:16 short-form video optimized for YouTube Shorts, TikTok, and Instagram Reels
-- **~48 seconds per episode** (target 48s video)
-- **95–105 words of narration** at ~2.4 words/second (measured ElevenLabs pacing) as **continuous prose** — narration flows across clip boundaries as one unbroken audio stream, overlaid on the final stitched video in post-production
+- **~90 seconds per episode** (96s raw, ~92s effective after crossfades)
+- **190–220 words of narration** at ~2.4 words/second (measured ElevenLabs pacing) as **continuous prose** — narration flows across clip boundaries as one unbroken audio stream, overlaid on the final stitched video in post-production
 - Classic American adult animation style (flat cel-shaded, thick outlines)
 - The skeleton appears on camera but never speaks — narration is off-screen voiceover
 - **Split audio pipeline**:
@@ -40,19 +40,21 @@ Classic American adult animation (Family Guy seasons 10-20 aesthetic):
   - **Whisper**: Word-level timestamps on the continuous narration for visual sync reference
   - **ffmpeg**: Overlays full narration + music onto final stitched video in a single pass
 - Remotion-rendered karaoke captions (Whisper transcription + transparent overlay)
-- **8 clips** (mix of 4s and 8s) — target visual change every 4–6 seconds
+- **12 clips** (all 8s) — target visual change every 6–8 seconds
 - Static locked camera throughout — flat 2D animated compositions
 - Native Veo output durations only — NEVER crop or trim video
 
 ## Episode Structure (5-Beat Narrative Arc)
 
-Every episode follows this arc across 8 clips (~48s video, narration as continuous prose ~95-105 words):
+Every episode follows this arc across 12 clips (~92s effective video, narration as continuous prose ~190-220 words):
 
-1. **The Hook + Framing Line** (clip 01, 0–4s) — Two parts in clip 01. Voice starts IMMEDIATELY on frame 1. No silent establishing shots. No questions. **Part A**: The narrator delivers a single, calmly stated impossibility — a paradox, an absurdity, or a cruel irony that makes the viewer think "wait, what?" The sentence must be self-contained: a viewer who hears ONLY Part A must need to keep watching. **Part B**: Immediately after the hook, the narrator says "You would not want to be in the [Event Name], [Year]." This framing line is MANDATORY — it tells the viewer what this video is about (narrated only, not rendered as on-screen text). Goal: curiosity gap + instant event identification.
-2. **The Immersion** (clips 02–03, 4–16s) — The framing line already told the viewer WHAT and WHEN. Clip 02 goes straight into danger — the physical reality that makes this disaster terrifying. Build the world with visceral sensory detail — what you see, smell, hear, feel. Clip 03 tightens the trap with a specific scientific or historical detail. Flowing sentences, unhurried pacing.
-3. **The Attempt** (clips 04–05, 16–28s) — The viewer tries to survive and FAILS. Agency verbs: "You run", "You warn", "You push toward the door." Each failure teaches one real fact. This is the educational heart: accessible, flowing, never a lecture. Sentences carry momentum across clip boundaries.
-4. **The Catastrophe** (clips 06–07, 28–40s) — The disaster hits with clinical precision — specific temperatures, wind speeds, structural failure points. **RHYTHM SHIFT**: staccato punches, sentences averaging 5 words (max 8). Each sentence must CAUSE or REVEAL the next — not disconnected factoids but a causal chain of destruction. The calm voice amid the destruction IS the horror.
-5. **The Conclusion** (clip 08, 40–48s) — End with a definitive, closing statement that lands like a verdict and echoes the hook for structural satisfaction. The callback is mandatory. "The mountain did not need fire. It only needed gravity." Goal: leave the viewer STUNNED by the completeness of the destruction.
+1. **The Hook + Framing Line** (clip 01, 0–8s) — Voice starts IMMEDIATELY on frame 1. No silent establishing shots. No questions. **Part A**: The narrator delivers a single, calmly stated impossibility — a paradox, an absurdity, or a cruel irony that makes the viewer think "wait, what?" The sentence must be self-contained: a viewer who hears ONLY Part A must need to keep watching. **Part B**: Immediately after the hook, the narrator says "You would not want to be in the [Event Name], [Year]." This framing line is MANDATORY — it tells the viewer what this video is about (narrated only, not rendered as on-screen text). Goal: curiosity gap + instant event identification.
+2. **Routine + False Safety** (clips 02–03, 8–24s) — The PBS move: open with competence. The viewer is doing something skillfully — repairing, building, navigating. Earn the audience's respect before you take everything away. Include one sensory detail that grounds the scene in the body. Clip 03 establishes the viewer is *winning* — a moment of earned calm.
+3. **The Fatal Detail** (clip 04, 24–32s) — Introduce the thing that kills everyone as logistics, not drama. A door, a valve, a crack, a schedule. The narrator does not flag it. The viewer does not yet know it matters.
+4. **The Turn + Escalation** (clips 05–06, 32–48s) — The fatal detail activates. Scale begins to collapse — numbers climbing, stated flat without adjectives. Let the viewer discover the horror.
+5. **The Catastrophe** (clips 07–08, 48–64s) — Staccato impact. Sentences averaging 5 words, max 8. Sensory texture — what you feel, hear, see. The disaster reaches you physically. Each sentence CAUSES the next.
+6. **The Human Gesture + Aftermath** (clips 09–10, 64–80s) — One person makes a small, precise, devastating choice. Then: what remains, stated flat. No commentary.
+7. **The Conclusion** (clips 11–12, 80–96s) — The toll as verdict. Then the callback ending that echoes or inverts the hook with a revelation that reframes the entire episode.
 
 Each beat spans 1–3 clips. The narration is one continuous audio stream — sentences flow freely across clip boundaries. Visual cuts happen mid-narration, pulling the viewer forward.
 
@@ -64,7 +66,7 @@ Each beat spans 1–3 clips. The narration is one continuous audio stream — se
 - The horror comes from the steady, composed delivery of devastating facts — not from humor or theatrics
 - Scientific precision: specific numbers, temperatures, distances, chemical reactions
 - Addresses the viewer directly in second person present tense: "you wake up", "you feel the ground shift"
-- Pacing: ~2.4 words per second (measured ElevenLabs output), **95–105 words per episode** as continuous prose
+- Pacing: ~2.4 words per second (measured ElevenLabs output), **190–220 words per episode** as continuous prose
 - Narration is generated as ONE continuous audio file and overlaid on the final stitched video in post-production
 - **Sentence structure**: Varies by beat — flowing and immersive for Immersion/Attempt, staccato punches for Catastrophe/Cliffhanger. Sentences freely cross clip boundaries.
 - **Sensory texture**: What does the disaster FEEL like to the viewer's body? Not just numbers but sensation — heat on skin, dust in lungs, the floor shaking. "Eighteen hundred degrees" is a number. "The heat blisters your hands before the flames reach you" is a story.
@@ -84,7 +86,7 @@ Each beat spans 1–3 clips. The narration is one continuous audio stream — se
 
 ## Script Writing Rules
 
-- **Story first.** You are writing a 45-second story, not a 45-second lecture. If a sentence could appear unchanged on Wikipedia, rewrite it with "you" as the subject or add sensory texture.
+- **Story first.** You are writing a 90-second story, not a 90-second lecture. If a sentence could appear unchanged on Wikipedia, rewrite it with "you" as the subject or add sensory texture.
 - **Nature documentary tone.** Calm, measured, authoritative. Warm British naturalist guiding you through the extraordinary. Genuine awe. Scientific precision.
 - **Continuous prose.** Write one flowing narrative, not isolated per-clip scripts. Sentences flow across clip boundaries.
 - **Present tense ONLY.** "You wake up" not "You've arrived." Immediacy is everything.

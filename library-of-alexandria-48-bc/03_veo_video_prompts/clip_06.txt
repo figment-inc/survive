@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static dramatic low-angle shot looking up. Locked camera, flat composition, no movement. The figure is pressed flat against a limestone wall, arms thrown up defensively. A massive wooden roof beam cracks and swings downward toward the figure. The ceiling is a canopy of flat bright orange fire. Classic adult animation dramatic low-angle staging.
+
+Visual transition: Cut back to warehouse interior — more intense, tighter angle. The building is collapsing. The low angle emphasizes the beam falling DOWN onto the viewer.
+
+Visual focus: The massive cracked roof beam swinging downward — the moment of structural collapse, frozen in the split-second before impact.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Seconds 0-1: The figure is pressed against the wall, knees bent, both arms crossed overhead defensively. Eyes wide, looking up. Second 1-2.5: The beam cracks with a visible split — the figure flinches, pulling its body into a tight defensive crouch, arms tighter over the skull. Second 2.5-4: The beam swings down in an arc. The figure throws itself sideways — too slow. The beam and a cascade of debris descend toward the figure. The last frame shows the figure being struck.
+
+Flat even lighting. Peak catastrophe palette — searing amber-yellow, fierce orange, deep charcoal black. Everything is fire or smoke. The figure is ghostly white against the inferno.
+
+Foreground: Falling debris — chunks of burning timber, clay roof tiles, a shower of ember particles. A burning papyrus ribbon unfurls as it falls through the air.
+
+Midground: The figure against the cracked wall. The beam above snaps — jagged broken end trailing fire.
+
+Background: Warehouse interior — ceiling fully ablaze. Far wall partially collapsed — burning harbour visible. Ships on fire. Through the gap, the Library's columned facade with flames climbing its walls.
+
+Audio direction:
+- SFX: The enormous CRACK of a cedar beam splitting — a deep, resonant snap that shakes the space. The groan of timber under stress before the break. The rush of air as the beam falls — a heavy whoosh. The crash of impact — timber, stone, clay all shattering at once. A secondary collapse — rubble shifting and settling
+- Ambience: Total structural failure soundscape — the building is coming apart. Continuous cracking and groaning from every direction. The fire roar is punctuated by sharp structural sounds. A rush of fresh air being pulled in through the collapsed wall feeds the fire — a sudden intensification of the flame roar
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

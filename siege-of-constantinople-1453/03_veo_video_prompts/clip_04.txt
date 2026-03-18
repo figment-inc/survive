@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium-wide shot, eye level. Locked camera, flat composition, no movement. The figure stands beside the postern gate as workers pass through it carrying rubble. The gate is the center of the composition. Classic adult animation medium-wide staging.
+
+Visual transition: Pulling back from the close-up on the wall to a medium-wide shot introducing a new element — the small postern gate. A shift from the grand wall to this modest, insignificant door. The palette remains night tones — torchlit amber on stone grey.
+
+Visual focus: The Kerkoporta postern gate itself — its unremarkable smallness. A service door in a thousand-year wall.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure stands to the left of the gate, watching workers pass through, head tracking their movement. Seconds 3-5: The figure turns to face camera and extends one arm toward the gate in a slow presenting gesture — drawing the viewer's attention to this small, unremarkable door. Seconds 5-7: The figure's hand moves to the iron latch mechanism on the door edge, fingers tracing the bolt. The figure looks at the latch, then back at camera. Seconds 7-8: The figure steps back from the gate, arms returning to sides. Neutral. Observational.
+
+Flat even lighting. Night detail palette — deep indigo sky, cold stone grey, warm flat amber torchlight, dark iron brown on door fittings, red brick accents in the wall layers, dusty mortar white. The gate is the brightest-lit element.
+
+Foreground: A pile of broken stone rubble and shattered brick. A woven reed basket half-filled with debris. Iron tools lean against the wall.
+
+Midground: The figure beside the postern gate. Workers in rough tunics carry loaded baskets through the opening. The heavy wooden door with iron bands stands open.
+
+Background: The peribolos corridor visible through the gate — narrow and shadowed. The outer wall and dark moat trench beyond. Deep indigo night sky above. Torches in iron brackets cast flat amber light.
+
+Audio direction:
+- SFX: Heavy boots on stone threshold as workers pass through. Woven baskets scraping against the stone doorframe — a dry rasping sound. The iron latch clicking as the door sways slightly — metal on metal. Rubble being dumped from a basket with a clattering cascade. The creak of the heavy wooden door on its iron hinges.
+- Ambience: Nighttime work sounds — the shuffle of tired feet, labored breathing from workers (non-verbal), the constant low scrape of rubble being moved. Wind through the narrow peribolos passage creating a low whistle. Distant torches crackling. The far-off sounds of the Ottoman camp — drums, distant chanting.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

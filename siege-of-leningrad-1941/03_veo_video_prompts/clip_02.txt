@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, slightly low angle. Locked camera, flat composition, no movement. The interior of the Kirov Plant factory floor — massive industrial space with the figure working at a lathe in the center of the frame. Heavy machinery, a tank hull under construction, workers moving in the background.
+
+Visual transition: Dramatic shift from the dark frozen apartment to a warm, active industrial interior. From intimate to expansive. From silent despair to the noise of production.
+
+Visual focus: The figure's grease-blackened hands working the lathe — the physical labor that defines this person before starvation strips everything away.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands at a lathe, both grease-blackened hands gripping the controls. At second 1, the figure pulls a heavy lever — the lathe spins. At second 3, the figure leans in to inspect the work, one hand wiping sweat from the brow with the back of a wrist, leaving a grease smear on the translucent forehead. At second 5, the figure steps back and looks at the hands — spreading the blackened fingers wide, examining the grease that coats every crease and knuckle up to the wrist. At second 7, the figure wipes hands on a rag and returns to work with a determined nod.
+
+Flat even lighting. Industrial palette — iron grey, tarnished brass, olive drab, dark grease-black, flat pale window light from high clerestory windows.
+
+Foreground: Metal toolbox with wrenches, curled metal shavings on concrete, a tin mug of black tea on a stool.
+
+Midground: The figure at the lathe. A partially assembled KV-1 tank hull in flat olive-drab on a platform behind.
+
+Background: Tall factory columns, iron catwalks, overhead cranes. Red Soviet banners with flat gold stars. Workers in dark coveralls at other stations. Flat orange sparks from a distant welding station.
+
+Audio direction:
+- SFX: The grinding whir of the lathe motor, metal-on-metal cutting sounds with a high-pitched squeal, the heavy clank of a lever being pulled, the wet slap of a grease rag on metal, the distant clang of a hammer on steel plate
+- Ambience: Continuous industrial roar of a wartime factory at full production — multiple machines running simultaneously, the echo of voices calling out over the noise, the rhythmic punch of a stamping press, the hiss of steam from pipes overhead
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, slightly high angle. Locked camera, flat composition, no movement. A frozen Leningrad street scene from three stories up — the figure hunches on a windowsill scraping snow into a pot. Below, the street is an ice-locked canyon with burst pipe formations.
+
+Visual transition: From the interior stove scene to an exterior wide shot. Opening up to show the frozen city at scale. The cold palette intensifies — zero warm colors now. From the small stove's glow to absolute frozen white and grey.
+
+Visual focus: The burst water pipes and their surreal ice cascades on building facades — the city's infrastructure frozen and dead.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure is perched on the windowsill — one leg inside, one braced on the outer ledge — scraping snow from the sill into a dented tin pot. At second 2, the figure pauses and looks down at the frozen street below — a figure dragging a sled moves slowly. At second 4, the figure returns to scraping, but the snow on the sill is nearly gone. At second 5, the figure reaches further out the window, stretching for snow on a decorative ledge. At second 6, the figure pulls back in with the pot now half-full of dirty grey snow. At second 7, the figure looks at the pot, then touches a loose tooth through the closed translucent lips — a wince of pain. Mouth stays closed.
+
+Flat even lighting. Deep winter palette — frozen white, ice blue-white, slate grey, charcoal, pale blue. No warm colors anywhere. The coldest, most desaturated clip.
+
+Foreground: The windowsill — thick ice coating. The figure's reddened translucent fingertips. The dented pot of dirty grey snow.
+
+Midground: Building facade — cracked cream plaster, pockmarked by shrapnel. Two-meter icicles from burst pipes creating ice cascades. A dark broken window below with a frozen-stiff curtain.
+
+Background: Frozen street below — burst water main creating a flat ice sheet. Sagging trolleybus wires under ice. Grey-white sky. Snow drifts against doorways. A figure dragging a sled with a wrapped form.
+
+Audio direction:
+- SFX: The scrape of fingernails on frozen snow and stone, the creak of the wooden window frame under the figure's weight, the tinkle of small ice particles falling, a distant crack — a frozen pipe expanding somewhere in the building, the dull thud of the pot being set on the interior floor
+- Ambience: Arctic wind howling through the frozen street canyon below, the groan and crack of ice expanding in burst pipes, the complete absence of city sounds — no trolleybuses, no voices, no machines. Only wind and ice. Occasionally, a very distant anti-aircraft gun fires — flat pop-pop-pop sounds. The city sounds dead.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The Badayev warehouses fully engulfed in fire. The figure stands in the foreground silhouetted against the conflagration. Melted sugar streams across the cobblestones.
+
+Visual transition: From the cold grey rail line to an explosion of fire — the warehouse inferno. The palette swings violently from cold iron grey to blazing rust-orange and crimson. Night replaces day. The turn.
+
+Visual focus: The rivers of melted sugar flowing across the cobblestones — dark, viscous, catching the firelight. The city's food supply liquefying and running into the gutters.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure stands frozen, fists clenched at sides, staring at the burning warehouses. At second 2, the figure takes one involuntary step back as a section of warehouse roof collapses inward with a shower of flat orange sparks. At second 4, the figure looks down at the cobblestones — a stream of dark melted sugar reaches the figure's feet. At second 5, the figure kneels slowly and touches the stream with one hand, feeling the warm, sticky liquid. At second 7, the figure's hand lifts, dark sugar dripping from the translucent fingers. The figure stares at the hand — this is what's left of the food supply.
+
+Flat even lighting. Fire palette — rust-orange, deep crimson, charcoal black, amber against flat black night sky. The figure is pale against the warm firelight. Cobblestones in flat orange reflection.
+
+Foreground: Dark caramelized sugar flowing in flat brown-black streams across grey cobblestones. A dropped canvas sack spilling flour. Broken glass.
+
+Midground: The figure on the cobblestones. The nearest warehouse consumed by flat rust-orange flames, timber collapsing.
+
+Background: Multiple warehouses ablaze — a wall of flat fire. Thick flat black smoke billots upward. Distant Leningrad rooftops beneath the smoke.
+
+Audio direction:
+- SFX: The roar of fire consuming wooden structures, a heavy crash as a warehouse roof section collapses, the hiss and bubble of sugar melting on hot stone, glass shattering, the splatter of the figure's hand touching the molten sugar stream
+- Ambience: An inferno — continuous crackling and roaring fire, the shouts of distant firefighters (indistinct, no words), the pop of superheated air pockets in burning timber, the low groan of structural beams giving way. Heat distortion in the audio — everything sounds slightly warped by the intensity.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

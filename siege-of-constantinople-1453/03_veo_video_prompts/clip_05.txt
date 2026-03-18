@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static close-up, high angle looking down. Locked camera, flat composition, no movement. The frame is dominated by the iron latch of the postern gate — unlatched, the bolt drawn back. The figure crouches beside it. Classic adult animation close-up staging for a critical detail.
+
+Visual transition: Tightening dramatically from the medium-wide gate scene to an extreme focus on the latch mechanism. The bustling workers are gone — the corridor is empty. The palette darkens — torches burn low, the amber fades to dim grey.
+
+Visual focus: The unlatched iron bolt — the single mechanical failure that ends the Byzantine Empire.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure crouches beside the gate, looking at the latch. The hand slowly reaches toward the iron bolt. Seconds 2-4: The figure's fingers hover over the unlatched bolt — not touching, trembling slightly. The orb-like eyes widen. Recognition. Seconds 4-6: The figure's head snaps to look down the empty corridor — no one. No guards. No workers. The hand pulls back from the bolt. Seconds 6-8: The figure's head drops, chin lowering toward chest. The hand falls to the side. Through the three-inch gap in the door, a faint sound — but nothing visible yet. Just darkness.
+
+Flat even lighting. Dread palette — deepest indigo, cold stone grey, dying flat amber torchlight, dark iron brown-black on the latch, dusty mortar white on abandoned tools. The unlatched bolt is the sharpest-defined element.
+
+Foreground: The iron latch mechanism dominating the lower frame — the flat iron bolt clearly withdrawn from the keeper plate. The gap in the door. Flat dying amber torch glow on the metal.
+
+Midground: The figure crouching beside the gate. The heavy wooden door slightly ajar. The narrow gap showing only darkness beyond.
+
+Background: The empty corridor — no workers, no soldiers. Torches burning low. Abandoned tools — baskets, trowels, a bucket of hardened mortar. The pre-dawn sky barely visible above, deepest indigo beginning to hint at grey.
+
+Audio direction:
+- SFX: The iron latch making a single soft clink as the door shifts in the breeze — metal on metal, quiet and ordinary. The wind pushing through the three-inch gap in the door with a thin whistle. The figure's hand brushing stone — a soft scrape. A distant sound from beyond the walls — boots on earth, barely audible, growing.
+- Ambience: Near-silence. The profound emptiness of an unguarded post. Torches guttering with a low hiss. The wind through the peribolos passage. Then — just at the edge of hearing — the sound of movement beyond the outer wall. Footsteps. Many footsteps. Growing louder in the last two seconds.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

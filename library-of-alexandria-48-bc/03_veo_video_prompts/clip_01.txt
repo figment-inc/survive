@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static medium shot. Locked camera, flat composition, no movement. The figure stands in a grand columned hall among shelves of papyrus scrolls. Through an archway behind the figure, a faint amber glow is visible on the harbour waterline. Classic adult animation medium shot staging.
+
+Opening shot — no previous clip. A calm, scholarly interior that will be destroyed.
+
+Visual focus: The faint amber glow on the harbour visible through the archway — barely noticeable behind the peaceful scene, the fire has already started but the figure doesn't know.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: The figure stands at a marble reading table, one hand resting on an open papyrus scroll. Over the first 2 seconds, the figure traces a finger along the scroll text, head tilted with curiosity. At second 2.5, the figure lifts its head slightly, noticing something — a faint orange flicker through the archway reflected on the marble floor. At second 3.5, the figure turns its head toward the archway. Subtle reaction — not alarm yet, just notice.
+
+Flat even lighting. Warm golden interior palette — papyrus cream, honey gold, terracotta orange, deep blue through the archway. The oil lamp on the table provides flat amber light. The distant harbour glow is subtle but growing.
+
+Foreground: Marble reading table with open scroll, bronze oil lamp with small flat yellow flame, clay inkwell. A loose scroll has rolled to the table's edge.
+
+Midground: The figure at the table between two lotus-capital limestone columns. Wooden pigeonhole shelves packed with cylindrical papyrus scrolls, each with a dangling clay identification tag.
+
+Background: Through the archway, the Great Harbour — flat deep blue water, ships at anchor, the Pharos Lighthouse silhouette. The amber glow on the harbour line grows slightly brighter over the 4 seconds.
+
+Audio direction:
+- SFX: The soft rustle of papyrus being unrolled, a bronze oil lamp flame flickering with a soft hiss, the figure's hand sliding across papyrus, a distant low thud — something heavy falling at the harbour, the faint pop of green timber catching fire far away
+- Ambience: A quiet scholarly evening — the low murmur of a city outside the walls, distant harbour activity — ropes creaking, water lapping. The faintest undercurrent of something wrong — a barely perceptible crackling, like a hearth fire, but from the wrong direction
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

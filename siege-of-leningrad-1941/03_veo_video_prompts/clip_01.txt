@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium close-up shot. Locked camera, flat composition, no movement. The figure fills the lower two-thirds of the frame, standing in a dim room holding a tiny dark bread ration. A frosted window with distant fire glow fills the upper portion.
+
+Opening shot — no previous clip. A quiet, devastating opening image: one person, one piece of bread, one city dying.
+
+Visual focus: The tiny dark bread ration in the figure's cupped hands — the central object of the entire episode.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands holding the tiny bread ration in cupped hands at chest height. At second 1, the figure slowly raises the bread closer to the face, examining it — orb-like eyes focused intently. At second 3, the figure's thumbs slowly press into the bread's surface, feeling its dense, wrong texture — sawdust and filler. At second 5, the figure's hands begin to tremble visibly. At second 6, the figure slowly closes the eyes. At second 7, the figure pulls the bread to the chest, cradling it. Mouth remains closed throughout.
+
+Flat even lighting. Cold palette — frozen slate blue, ash grey, dirty snow white. The bread is near-black rye brown. A faint flat rust-orange glow from the frosted window suggests distant fires.
+
+Foreground: A rough wooden table edge with breadcrumbs on newspaper. A tin cup with frozen water. A ration card with clipped squares.
+
+Midground: The figure standing, the bread in cupped hands. Flat grey cracked plaster wall behind.
+
+Background: Frosted window — ice crystals in flat white patterns. Through the ice, blurred Leningrad rooftops in flat slate blue. A distant column of flat rust-orange fire.
+
+Audio direction:
+- SFX: The faint creak of floorboards under shifting weight, the dry crackle of the bread's crust as thumbs press into it, a distant muffled artillery shell impact — a low thud felt more than heard, the tick of ice expanding on the windowpane
+- Ambience: Near-silence of a frozen apartment. The steady slow tick of the Leningrad metronome broadcast — a metronomic heartbeat rhythm from a distant loudspeaker. Faint wind pressing against the window. The absolute quiet of a starving city at night
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static close-up, slightly low angle. Locked camera, flat composition, no movement. The figure stands in the postern gate doorway, facing camera directly. The small arched door frames the figure. Classic adult animation close-up callback staging — mirroring the door from clips 04 and 05.
+
+Visual transition: Cutting from the extreme wide shot of the intact walls to the tightest possible framing — the single door that made the walls irrelevant. The palette strips down to its simplest: cold stone grey, dark iron, the figure's pale white. Everything else is gone.
+
+Visual focus: The figure in the doorway, staring at camera. The iron latch — still unlatched. The ordinary door that ended an empire.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure stands perfectly still in the narrow doorway, facing camera directly. Orb-like eyes stare straight at the viewer. One hand rests on the stone doorframe. The other hangs at the side. No movement. Direct, accusatory stillness. Seconds 3-5: The figure's free hand slowly rises and moves toward the open door — toward the iron latch, the bolt still drawn back. The fingers hover over the latch without touching it. Seconds 5-7: The figure's hand slowly drops back to its side. The orb-like eyes never break from the camera. The message is clear. Seconds 7-8: The figure is completely still again. The door remains open. The latch remains unlatched. Nothing changes. The last image is the figure in the doorway, watching.
+
+Flat even lighting. Callback palette — cold stone grey doorframe, dark iron brown-black on the latch and door fittings, the figure's ghostly pale white centered in the narrow doorway, dim grey passage behind. The simplest palette of the episode — stripped to essentials.
+
+Foreground: The stone arch of the postern gate framing the figure. The carved Byzantine cross above the arch. The iron latch mechanism on the door edge — bolt drawn back, unlatched.
+
+Midground: The figure filling the narrow doorway. The heavy wooden door with iron reinforcing bands, open. The passage extending behind into darkness.
+
+Background: Through the dark passage behind the figure, a sliver of grey light. The passage is empty. The battle is over. Stone walls on both sides of the narrow corridor.
+
+Audio direction:
+- SFX: The iron latch making one final soft clink — the same sound from clip 05, the door shifting in the breeze. The wind through the narrow passage — a low, hollow whistle. The figure's hand brushing stone as it rests on the doorframe — barely audible. Absolute quiet otherwise.
+- Ambience: Near-total silence. The wind through the postern passage. A single distant sound of the occupied city — barely there, more felt than heard. The hiss of settling dust. Then true silence — the kind that follows the end of something that lasted a thousand years.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

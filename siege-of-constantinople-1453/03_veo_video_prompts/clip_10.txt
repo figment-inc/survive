@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, low angle looking up at the vast Hagia Sophia interior. Locked camera, flat composition, no movement. The figure stands tiny on the marble floor beneath the enormous dome. Classic adult animation wide shot for overwhelming sacred space.
+
+Visual transition: A dramatic shift from the intimate last-stand scene to the cavernous interior of the Hagia Sophia — the spiritual heart of the empire. The palette shifts from the dusty browns and greys of the breach to flat mosaic gold and deep porphyry purple-red. The violence is over; this is the silence of aftermath.
+
+Visual focus: The figure standing alone beneath the gold dome — the smallness of a single witness inside the empire's greatest building, now fallen.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure stands perfectly still on the marble floor, head tilted far back, staring up at the gold mosaic dome. Arms limp at sides. The orb-like eyes reflect flat gold. Complete stillness. Seconds 3-5: The figure slowly lowers its gaze from the dome to the floor — the scattered liturgical objects, the bootprints on the marble. Seconds 5-7: The figure takes one slow step forward, then stops. The head turns slightly to look at a toppled bronze candelabrum on the floor — a small, meaningless detail in the vastness. Seconds 7-8: The figure returns to stillness. Head down. Arms at sides. Standing alone in the enormous space.
+
+Flat even lighting. Aftermath palette — flat mosaic gold dominant in the upper frame, deep porphyry purple-red columns on the sides, dusty rose and pale grey marble floor, flat pale grey light from the dome windows. Gold above, grey devastation below.
+
+Foreground: Polished marble floor — dusty rose and pale grey panels, scuffed with dirty bootprints. A toppled bronze candelabrum. A gold chalice on its side. Torn silk vestments in deep blue and gold.
+
+Midground: The figure on the marble floor, dwarfed by the space. Massive porphyry columns rising on both sides.
+
+Background: The great dome above — flat gold mosaic tiles, the Christ Pantocrator mosaic looking down. Windows around the dome base admitting flat pale grey light. Ottoman soldiers entering through the great western doors in the far background — tiny figures.
+
+Audio direction:
+- SFX: The figure's bare feet on polished marble — soft, echoing footsteps in the vast space. The bronze candelabrum rocking slightly on the floor — a low metallic wobble. A gold chalice rolling on marble with a thin, ringing sound that echoes and fades. The massive western doors creaking open — deep wood and iron groaning.
+- Ambience: Cathedral acoustics — every small sound amplified and echoed by the vast dome. Near-silence punctuated by distant echoes. The outside battle sounds filtered through thick stone walls — a muffled, distant rumble. Wind through the high dome windows — a low, cathedral-scale moan. Pigeons fluttering in the upper galleries.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

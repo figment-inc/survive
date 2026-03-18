@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure is center frame, stumbling backward as Ottoman soldiers pour through the postern gate behind. Classic adult animation medium action staging.
+
+Visual transition: Cutting from the wide wall exterior to the specific point of failure — the postern gate, now fully open with soldiers flooding through. The crimson intensifies. The composition tightens to medium shot — personal and immediate.
+
+Visual focus: Ottoman soldiers flooding through the tiny postern gate — the same door from clips 04 and 05 — now a breach. The overwhelming number pouring through a door barely wide enough for two.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure stumbles backward, one foot tripping on rubble, arms thrown up defensively in front of the face. The orb-like eyes are as wide as possible. Seconds 2-4: The figure catches its balance and takes another step back as the first wave of soldiers pushes through the gate. Arms still raised. Head thrown back. Seconds 4-6: The figure turns to run — a full body pivot, feet scrambling on the cobblestones. Seconds 6-8: The figure runs toward camera, looking back over its shoulder at the gate — the translucent body shows the spine twisting with the backward glance. Behind, the stream of soldiers has become a flood.
+
+Flat even lighting. Catastrophe palette — Ottoman crimson dominant, cold stone grey, white felt caps, pale grey-gold dawn, dark iron on weapons, the figure's ghostly white as the palest element.
+
+Foreground: The figure's raised arms and translucent hands in the first half. A dropped iron trowel and overturned mortar bucket at the figure's feet. In the second half, the cobblestone street as the figure runs toward camera.
+
+Midground: Behind the figure, Ottoman soldiers flood through the postern gate — the small door flung wide. Soldiers carry curved swords and round shields. The first wave is fifty men packed tight. By the end, hundreds.
+
+Background: More soldiers visible through the gate — an endless column. The wall above shows repaired sections. Smoke and flat grey-brown haze. Dawn light pale and cold.
+
+Audio direction:
+- SFX: Heavy boots on cobblestone — dozens, then hundreds, the rhythm accelerating. The wooden postern door slamming against the stone wall as it's thrown fully open. Metal armor and weapons clanking and jangling. The figure's feet scraping and stumbling on stone. A sword blade ringing as it strikes the stone doorframe.
+- Ambience: An avalanche of sound — the roar of soldiers pouring through a narrow opening, amplified by the stone corridor. The sound builds from a trickle to a torrent over the 8 seconds. Distant church bells ringing in panic. The general roar of battle from the wall tops above. Screaming in the distance — indistinct, rising.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

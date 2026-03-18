@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, low angle looking up at the walls from inside the city. Locked camera, flat composition, no movement. The massive walls fill the upper frame. The figure stands small on the city-side street below, looking up. Classic adult animation wide shot for overwhelming scale.
+
+Visual transition: Dramatic shift from the tight close-up on the latch to a wide pull-back showing the full wall. The palette shifts from dark interior grey to pale dawn grey-gold. The Ottoman crimson appears on the wall top for the first time.
+
+Visual focus: The Ottoman soldiers appearing on the wall top — the moment the breach becomes irreversible. The contrast between the tiny Byzantine defense force and the flood of invaders.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure stands rigid on the city street, fists clenched, staring upward. Seconds 2-4: The figure takes one step backward as Ottoman figures appear on the wall top — the orb-like eyes widen. Both fists clench tighter. Seconds 4-6: The figure's head turns left, then right — looking at the handful of Byzantine soldiers nearby, counting them. The shoulders drop. Seconds 6-8: The figure turns fully to face the wall again as Ottoman banners appear on the battlements. The figure is frozen — rigid with the realization.
+
+Flat even lighting. Dawn assault palette — pale grey-gold sky, cold stone grey walls, Ottoman crimson tunics and banners as the brightest color, faded Byzantine purple, tarnished gold, dull iron grey. The crimson grows more dominant as more soldiers appear.
+
+Foreground: A low stone barricade across the street. A Byzantine shield with a faded purple double-headed eagle leans against it. Scattered arrows on the ground.
+
+Midground: The figure on the cobblestone street. A handful of Byzantine soldiers — twenty at most — in mismatched armor, looking up at the walls.
+
+Background: The towering inner wall. Ottoman soldiers appear along the top — tiny figures in white caps and crimson, their numbers increasing visibly over the 8 seconds. Ottoman banners appear. Smoke and flat haze. Dawn sky pale grey-gold.
+
+Audio direction:
+- SFX: The distant thunder of scaling ladders hitting stone walls — multiple heavy wooden impacts. Metal clashing on the wall top — sword on shield. A Byzantine shield clattering as it's dropped on cobblestone. An Ottoman war horn — a deep, resonant brass blast that echoes off the walls.
+- Ambience: The roar of a massive assault — a growing wave of sound from beyond and atop the walls. Thousands of voices in an indistinct roar. Running boots on stone — both on the wall top and in the streets. The sharp crack of arrows hitting stone. Church bells beginning to ring wildly from multiple directions within the city — panicked, overlapping peals.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

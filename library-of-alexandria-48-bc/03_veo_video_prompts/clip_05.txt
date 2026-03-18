@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 4 seconds.
+
+Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. The figure has collapsed to hands and knees on the street, surrounded by scattered burning scrolls. Both hands press against the hot flagstones. Head bowed. Classic adult animation medium close-up staging.
+
+Visual transition: Cut from the warehouse interior to the street outside — the figure has escaped the building but the entire street is on fire. Slightly tighter framing on the figure's defeat.
+
+Visual focus: The figure's hands pressed flat on the flagstones — palms down on stone hot enough to scorch papyrus, fingers spread, trembling.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 4 seconds: Seconds 0-2: The figure is on hands and knees, head bowed, orb-like eyes squeezed shut. The translucent skin on the hands appears flushed flat pink-amber from the heat of the flagstones. Seconds 2-3: The figure jerks its hands up off the stones — they're too hot. The fingers spread and tremble. Second 3-4: The figure lifts its head and looks around wildly — the entire street is fire in every direction. The expression: raw despair.
+
+Flat even lighting. Maximum fire intensity — fierce orange, bright amber-yellow, charcoal black, ash white. The figure's translucent skin glows flat amber. The flagstones radiate heat.
+
+Foreground: Scattered burning papyrus scrolls on the flagstones — curling, blackening. Greek text visible on one partially intact scroll before the fire edge consumes it. Small flat orange flames.
+
+Midground: The figure on the ground. Behind: a limestone wall radiating flat amber. A burst bronze water pipe — a trickle evaporates on hot stone with flat white steam.
+
+Background: The entire street ablaze — both sides burning. The sky is invisible, replaced by flat charcoal-black smoke. Ember particles throughout.
+
+Audio direction:
+- SFX: The sizzle of moisture on hot stone — a sharp, brief hiss. Hands slapping down on hot flagstone — a flat, stinging sound. The dry crackle of papyrus burning beside the figure. A sudden gust of superheated wind — a whooshing roar. Something glass shattering from thermal stress nearby
+- Ambience: Total fire environment — the roar is now deafening and constant. The street functions as a chimney — wind screams through at fire-driven speed. Every surface crackles. The sound is overwhelming and directionless — fire from everywhere
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

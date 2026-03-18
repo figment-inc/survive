@@ -32,7 +32,9 @@ from pathlib import Path
 
 REPO_DIR = Path(__file__).resolve().parent.parent
 CHANNEL_DIR = REPO_DIR / ".channel"
-SYSTEM_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "generate-episode.txt"
+SYSTEM_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "generate-episode-legacy.txt"
+SCRIPT_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "generate-script.txt"
+PROMPTS_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "generate-prompts.txt"
 
 sys.path.insert(0, str(REPO_DIR))
 
@@ -221,6 +223,159 @@ def generate_episode_content(topic):
             print(f"  [{ts()}] Attempting to salvage truncated JSON...")
 
         break
+
+    if raw.startswith("```"):
+        raw = raw.split("\n", 1)[1] if "\n" in raw else raw[3:]
+        if raw.endswith("```"):
+            raw = raw[:-3]
+    raw = raw.strip()
+
+    try:
+        episode = json.loads(raw)
+    except json.JSONDecodeError as e:
+        print(f"  [{ts()}] JSON parse error: {e}")
+        print(f"  [{ts()}] Attempting truncated JSON repair...")
+        episode = _repair_truncated_json(raw)
+
+    print(f"  [{ts()}] Generated episode: {episode['title']}")
+    print(f"  [{ts()}] Slug: {episode['episode_slug']}")
+    print(f"  [{ts()}] Image prompts: {len(episode['image_prompts'])}")
+    print(f"  [{ts()}] Video prompts: {len(episode['video_prompts'])}")
+    return episode
+
+
+# ── Phase 1 (two-phase): Script-only generation + prompt generation ──
+
+
+def _call_claude_streaming(client, model, system_prompt, user_message, max_tokens=32000):
+    """Call Claude with streaming and API-level retries. Returns raw text."""
+    api_max_retries = 5
+    collected = []
+    for api_attempt in range(api_max_retries):
+        try:
+            with client.messages.stream(
+                model=model,
+                max_tokens=max_tokens,
+                temperature=1.0,
+                system=system_prompt,
+                messages=[{"role": "user", "content": user_message}],
+            ) as stream:
+                for text in stream.text_stream:
+                    collected.append(text)
+            response = stream.get_final_message()
+            return "".join(collected).strip(), response.stop_reason
+        except Exception as e:
+            import anthropic as _anth
+            if isinstance(e, (_anth.APIStatusError, _anth.APIConnectionError)):
+                wait = 30 * (api_attempt + 1)
+                print(f"  [{ts()}] API error ({e}). Retry {api_attempt+1}/{api_max_retries} in {wait}s...")
+                import time; time.sleep(wait)
+                collected = []
+            else:
+                raise
+    raise RuntimeError("Claude API unavailable after retries — try again later")
+
+
+def _count_script_words(script_text):
+    """Count narration words in a script, ignoring clip headers and annotations."""
+    import re
+    words = []
+    for line in script_text.strip().splitlines():
+        line = line.strip()
+        if line.startswith("##") or not line:
+            continue
+        narr_match = re.match(r"NARRATOR:\s*(.+)", line)
+        if narr_match:
+            words.extend(narr_match.group(1).split())
+    return len(words)
+
+
+def generate_script(topic):
+    """Phase 1a: Generate script-only narration using the focused script prompt."""
+    phase_banner("PHASE 1a: GENERATE SCRIPT (Claude — script-only)")
+
+    import anthropic
+    client = anthropic.Anthropic(api_key=load_env_key("ANTHROPIC_API_KEY"))
+    system_prompt = SCRIPT_PROMPT_PATH.read_text()
+    model = load_env_key("ANTHROPIC_MODEL") or "claude-opus-4-6"
+
+    print(f"  [{ts()}] Generating script for: {topic}")
+    print(f"  [{ts()}] Model: {model}")
+
+    max_retries = 3
+    for attempt in range(max_retries + 1):
+        raw, stop_reason = _call_claude_streaming(client, model, system_prompt, topic, max_tokens=2000)
+
+        if raw.startswith("```"):
+            raw = raw.split("\n", 1)[1] if "\n" in raw else raw[3:]
+            if raw.endswith("```"):
+                raw = raw[:-3]
+        raw = raw.strip()
+
+        word_count = _count_script_words(raw)
+        print(f"  [{ts()}] Script attempt {attempt + 1}: {word_count} words")
+
+        if 180 <= word_count <= 250:
+            print(f"  [{ts()}] Script accepted ({word_count} words)")
+            return raw
+
+        if attempt < max_retries:
+            feedback = f"REVISION: Your script had {word_count} words. "
+            if word_count > 250:
+                feedback += (
+                    f"The HARD LIMIT is 190-220 words. CUT {word_count - 210} words. "
+                    f"Remove adjectives, compress sentences. Every word costs 0.4 seconds."
+                )
+            elif word_count < 180:
+                feedback += "Too thin. Add sensory detail. Target 190-220 words."
+            topic_with_feedback = f"{topic}\n\n{feedback}"
+            raw, stop_reason = _call_claude_streaming(
+                client, model, system_prompt, topic_with_feedback, max_tokens=2000
+            )
+            if raw.startswith("```"):
+                raw = raw.split("\n", 1)[1] if "\n" in raw else raw[3:]
+                if raw.endswith("```"):
+                    raw = raw[:-3]
+            raw = raw.strip()
+            word_count = _count_script_words(raw)
+            print(f"  [{ts()}] Script revision {attempt + 1}: {word_count} words")
+            if 180 <= word_count <= 250:
+                print(f"  [{ts()}] Script accepted ({word_count} words)")
+                return raw
+
+    print(f"  [{ts()}] WARNING: Script at {word_count} words after {max_retries} retries — proceeding anyway")
+    return raw
+
+
+def generate_episode_from_script(topic, script):
+    """Phase 1b: Generate full episode JSON (image/video prompts + metadata) from a finished script."""
+    phase_banner("PHASE 1b: GENERATE PROMPTS FROM SCRIPT (Claude)")
+
+    import anthropic
+    client = anthropic.Anthropic(api_key=load_env_key("ANTHROPIC_API_KEY"))
+    system_prompt = PROMPTS_PROMPT_PATH.read_text()
+
+    examples = load_example_prompts()
+    if examples:
+        system_prompt += "\n\n## FEW-SHOT EXAMPLES FROM WORKING EPISODES\n"
+        system_prompt += (
+            "Below are examples from two beats of a working episode — a calm hook "
+            "and a high-intensity catastrophe clip. Your prompts MUST match this level "
+            "of detail, length, and flat 2D animation style. "
+            "ALL prompts must use flat 2D animation vocabulary — never photorealistic terms."
+        )
+        system_prompt += examples
+
+    model = load_env_key("ANTHROPIC_MODEL") or "claude-opus-4-6"
+    user_message = f"TOPIC: {topic}\n\nSCRIPT:\n{script}"
+
+    print(f"  [{ts()}] Generating prompts for: {topic}")
+    print(f"  [{ts()}] Model: {model}")
+
+    raw, stop_reason = _call_claude_streaming(client, model, system_prompt, user_message)
+
+    if stop_reason == "max_tokens":
+        print(f"  [{ts()}] WARNING: Response truncated — attempting repair")
 
     if raw.startswith("```"):
         raw = raw.split("\n", 1)[1] if "\n" in raw else raw[3:]
@@ -639,6 +794,16 @@ def run_videos_chain_phase(episode, ep_dir):
         split_paths = split_chain_video(chain_path, clip_durations, videos_dir)
         print(f"  [{ts()}] Chain split into {len(split_paths)} clips.")
 
+        clip_01_path = videos_dir / "clip_01.mp4"
+        style_ref_path = CHANNEL_DIR / "reference_images" / "style_reference.png"
+        if clip_01_path.exists() and style_ref_path.exists():
+            from lib.visual_qa import check_clip01_style
+            qa = check_clip01_style(clip_01_path, style_ref_path, gemini_key)
+            if not qa.passed and qa.max_severity >= 4:
+                print(f"  [{ts()}] Chain clip 01 has major style drift (severity {qa.max_severity}) — "
+                      f"falling back to independent mode for better reference injection...")
+                return run_videos_independent_phase(episode, ep_dir)
+
     except Exception as e:
         print(f"\n  [{ts()}] CHAIN FAILED: {e}")
         print(f"  [{ts()}] Falling back to independent clip generation...")
@@ -675,6 +840,7 @@ def run_videos_independent_phase(episode, ep_dir):
         print(f"  [{ts()}] Episode style: {episode_style[:80]}...")
 
     style_anchor_refs = None
+    prev_clip_last_frame: bytes | None = None
     clips = episode.get("clips", [])
     for i, prompt in enumerate(episode["video_prompts"]):
         clip_id = f"{i + 1:02d}"
@@ -687,20 +853,26 @@ def run_videos_independent_phase(episode, ep_dir):
                 if anchor_frames:
                     style_anchor_refs = [f.read_bytes() for f in anchor_frames]
                     print(f"  [{ts()}] Using existing clip 01 as style anchor ({len(anchor_frames)} frames)")
+            last_frame_path = output_path.with_suffix(".anchor_last.png")
+            if last_frame_path.exists():
+                prev_clip_last_frame = last_frame_path.read_bytes()
             continue
 
         clip_meta = clips[i] if i < len(clips) else {}
         duration = clip_meta.get("duration", 8)
-        resolution = clip_meta.get("resolution", "1080p")
-        if duration <= 5 and resolution == "1080p":
-            resolution = "720p"
+        resolution = "720p"
         use_reference = clip_meta.get("has_character", True)
         first_frame = images_dir / f"clip_{clip_id}_frame.png"
 
         ref_images = select_refs_for_prompt(all_refs, prompt) if use_reference else None
 
+        effective_anchors = list(style_anchor_refs) if style_anchor_refs else []
+        if prev_clip_last_frame and i > 0:
+            effective_anchors = [prev_clip_last_frame] + effective_anchors[:1]
+
         print(f"\n  --- Clip {clip_id} ({duration}s @ {resolution})"
-              f"{' +style_anchor' if style_anchor_refs and i > 0 else ''} ---")
+              f"{' +style_anchor' if effective_anchors and i > 0 else ''}"
+              f"{' +prev_frame' if prev_clip_last_frame and i > 0 else ''} ---")
 
         max_safety_retries = 3
         for attempt in range(max_safety_retries):
@@ -713,7 +885,7 @@ def run_videos_independent_phase(episode, ep_dir):
                 ref_images=ref_images,
                 first_frame_path=first_frame if first_frame.exists() else None,
                 use_reference=use_reference,
-                style_anchor_refs=style_anchor_refs if i > 0 else None,
+                style_anchor_refs=effective_anchors if i > 0 and effective_anchors else None,
                 episode_style=episode_style,
                 style_ref_bytes=style_ref_bytes,
             )
@@ -723,10 +895,41 @@ def run_videos_independent_phase(episode, ep_dir):
                 print(f"  [{ts()}] Safety retry {attempt + 1}/{max_safety_retries}...")
 
         if i == 0 and output_path.exists() and style_anchor_refs is None:
+            style_ref_path = CHANNEL_DIR / "reference_images" / "style_reference.png"
+            if style_ref_path.exists():
+                from lib.visual_qa import check_clip01_style
+                qa = check_clip01_style(output_path, style_ref_path, gemini_key)
+                if not qa.passed and qa.max_severity >= 3:
+                    print(f"  [{ts()}] Clip 01 drifted from style ref (severity {qa.max_severity}) — regenerating...")
+                    output_path.unlink(missing_ok=True)
+                    for qf in output_path.parent.glob("clip_01*.qa_frame_*.png"):
+                        qf.unlink(missing_ok=True)
+                    for af in output_path.parent.glob("clip_01*.anchor_*.png"):
+                        af.unlink(missing_ok=True)
+                    generate_video(
+                        client=client,
+                        prompt=prompt,
+                        output_path=output_path,
+                        duration=duration,
+                        resolution=resolution,
+                        ref_images=ref_images,
+                        first_frame_path=first_frame if first_frame.exists() else None,
+                        use_reference=use_reference,
+                        episode_style=episode_style,
+                        style_ref_bytes=style_ref_bytes,
+                    )
             anchor_frames = extract_style_anchor_frames(output_path)
             if anchor_frames:
                 style_anchor_refs = [f.read_bytes() for f in anchor_frames]
                 print(f"  [{ts()}] Clip 01 set as style anchor ({len(anchor_frames)} frames)")
+
+        if output_path.exists():
+            anchor_frames_current = extract_style_anchor_frames(output_path)
+            last_frame_candidates = [f for f in anchor_frames_current if "anchor_last" in f.name]
+            if last_frame_candidates:
+                prev_clip_last_frame = last_frame_candidates[0].read_bytes()
+            elif anchor_frames_current:
+                prev_clip_last_frame = anchor_frames_current[-1].read_bytes()
 
     print(f"  [{ts()}] Videos independent phase complete.")
     return True
@@ -735,8 +938,16 @@ def run_videos_independent_phase(episode, ep_dir):
 # ── Phase 3c: Visual consistency QA ──
 
 
-def run_qa_phase(episode, ep_dir, regen: bool = False):
-    """Check visual consistency across generated clips using Gemini vision."""
+def run_qa_phase(episode, ep_dir, regen: bool = False, max_qa_rounds: int = 2):
+    """Check visual consistency across generated clips using Gemini vision.
+
+    Runs up to max_qa_rounds of QA -> regen cycles. After each regen pass,
+    re-validates only the regenerated clips. Clips that fail twice at
+    severity >= 4 are logged as persistent drift (the publish quality gate
+    catches these).
+
+    Returns (all_passed: bool, severe_clip_count: int) where severe means severity >= 4.
+    """
     phase_banner("PHASE 3c: VISUAL CONSISTENCY QA (Gemini Vision)")
 
     from lib.visual_qa import check_clip_consistency
@@ -744,7 +955,7 @@ def run_qa_phase(episode, ep_dir, regen: bool = False):
     gemini_key = load_env_key("GEMINI_API_KEY")
     if not gemini_key:
         print(f"  [{ts()}] WARNING: GEMINI_API_KEY not found — skipping QA")
-        return True
+        return True, 0
 
     videos_dir = ep_dir / "output" / "videos"
     images_dir = ep_dir / "output" / "images"
@@ -759,7 +970,7 @@ def run_qa_phase(episode, ep_dir, regen: bool = False):
 
     if len(clip_paths) < 2:
         print(f"  [{ts()}] QA: Not enough clips to compare ({len(clip_paths)}) — skipping.")
-        return True
+        return True, 0
 
     ground_truth = images_dir / "clip_01_frame.png"
     if ground_truth.exists():
@@ -767,80 +978,127 @@ def run_qa_phase(episode, ep_dir, regen: bool = False):
     else:
         ground_truth = None
 
-    results = check_clip_consistency(
-        clip_paths, gemini_key,
-        ground_truth_frame=ground_truth,
-    )
+    veo_resources = None
+    persistent_drift_ids: set[str] = set()
+    cumulative_severe = 0
 
-    failed_clips = [r for r in results if not r.passed]
-    regen_clips = [r for r in failed_clips if r.max_severity >= 3]
-    minor_clips = [r for r in failed_clips if r.max_severity < 3]
+    for qa_round in range(1, max_qa_rounds + 1):
+        round_label = f"round {qa_round}/{max_qa_rounds}"
 
-    if minor_clips:
-        print(f"  [{ts()}] QA: {len(minor_clips)} clips with minor issues (severity < 3) — logged, not regenerating:")
-        for r in minor_clips:
-            print(f"    clip {r.clip_id}: severity {r.max_severity}/5 — {'; '.join(r.issues)}")
-
-    if not regen_clips and not minor_clips:
-        print(f"  [{ts()}] QA: All clips passed visual consistency check.")
-        return True
-
-    if not regen_clips:
-        print(f"  [{ts()}] QA: No clips above severity threshold (>= 3) — skipping regen.")
-        return True
-
-    if regen:
-        print(f"\n  [{ts()}] QA: {len(regen_clips)} clips flagged for re-generation (severity >= 3)...")
-        from lib.veo import (
-            get_client, load_reference_images, select_refs_for_prompt,
-            generate_video, extract_style_anchor_frames,
+        results = check_clip_consistency(
+            clip_paths, gemini_key,
+            ground_truth_frame=ground_truth,
         )
 
-        client = get_client(gemini_key)
-        all_refs = load_reference_images(CHANNEL_DIR)
-        episode_style = episode.get("style_description")
-        prompts = episode["video_prompts"]
+        failed_clips = [r for r in results if not r.passed]
+        regen_clips = [r for r in failed_clips if r.max_severity >= 3]
+        minor_clips = [r for r in failed_clips if r.max_severity < 3]
 
-        style_anchor_refs: list[bytes] = []
-        clip_01_video = videos_dir / "clip_01.mp4"
-        if clip_01_video.exists():
-            anchor_frames = extract_style_anchor_frames(clip_01_video)
-            style_anchor_refs = [f.read_bytes() for f in anchor_frames]
-            print(f"  [{ts()}] QA regen: loaded {len(style_anchor_refs)} style anchor frames from clip 01")
+        if minor_clips:
+            print(f"  [{ts()}] QA ({round_label}): {len(minor_clips)} clips with minor issues (severity < 3) — logged, not regenerating:")
+            for r in minor_clips:
+                print(f"    clip {r.clip_id}: severity {r.max_severity}/5 — {'; '.join(r.issues)}")
 
+        if not regen_clips and not minor_clips:
+            print(f"  [{ts()}] QA ({round_label}): All clips passed visual consistency check.")
+            return True, cumulative_severe
+
+        if not regen_clips:
+            print(f"  [{ts()}] QA ({round_label}): No clips above severity threshold (>= 3) — skipping regen.")
+            return True, cumulative_severe
+
+        if not regen:
+            print(f"\n  [{ts()}] QA ({round_label}): {len(regen_clips)} clips above regen threshold "
+                  f"(run with --no-qa-regen to skip auto-fix)")
+            cumulative_severe = sum(1 for r in failed_clips if r.max_severity >= 4)
+            return len(regen_clips) == 0, cumulative_severe
+
+        if qa_round == max_qa_rounds:
+            for r in regen_clips:
+                if r.max_severity >= 4:
+                    persistent_drift_ids.add(r.clip_id)
+            if persistent_drift_ids:
+                print(f"  [{ts()}] QA: PERSISTENT DRIFT on clips {sorted(persistent_drift_ids)} after {max_qa_rounds} rounds")
+            cumulative_severe = sum(1 for r in failed_clips if r.max_severity >= 4)
+            return len(regen_clips) == 0, cumulative_severe
+
+        print(f"\n  [{ts()}] QA ({round_label}): {len(regen_clips)} clips flagged for re-generation (severity >= 3)...")
+
+        if veo_resources is None:
+            from lib.veo import (
+                get_client, load_reference_images, load_style_reference,
+                select_refs_for_prompt, generate_video,
+                extract_style_anchor_frames,
+            )
+            client = get_client(gemini_key)
+            all_refs = load_reference_images(CHANNEL_DIR)
+            style_ref_bytes = load_style_reference(CHANNEL_DIR)
+            episode_style = episode.get("style_description")
+            prompts = episode["video_prompts"]
+
+            style_anchor_refs: list[bytes] = []
+            clip_01_video = videos_dir / "clip_01.mp4"
+            if clip_01_video.exists():
+                anchor_frames = extract_style_anchor_frames(clip_01_video)
+                style_anchor_refs = [f.read_bytes() for f in anchor_frames]
+                print(f"  [{ts()}] QA regen: loaded {len(style_anchor_refs)} style anchor frames from clip 01")
+
+            veo_resources = {
+                "client": client, "all_refs": all_refs,
+                "style_ref_bytes": style_ref_bytes,
+                "episode_style": episode_style, "prompts": prompts,
+                "style_anchor_refs": style_anchor_refs,
+                "select_refs_for_prompt": select_refs_for_prompt,
+                "generate_video": generate_video,
+            }
+
+        regen_clip_paths: list[Path] = []
         for qa_result in regen_clips:
             clip_idx = int(qa_result.clip_id) - 1
-            if clip_idx < 0 or clip_idx >= len(prompts):
+            if clip_idx < 0 or clip_idx >= len(veo_resources["prompts"]):
                 continue
 
             clip_id = qa_result.clip_id
             clip_meta = clips[clip_idx] if clip_idx < len(clips) else {}
             output_path = videos_dir / f"clip_{clip_id}.mp4"
             duration = clip_meta.get("duration", 8)
-            resolution = clip_meta.get("resolution", "1080p")
+            resolution = "720p"
             first_frame = images_dir / f"clip_{clip_id}_frame.png"
-            ref_images = select_refs_for_prompt(all_refs, prompts[clip_idx])
+            ref_images = veo_resources["select_refs_for_prompt"](
+                veo_resources["all_refs"], veo_resources["prompts"][clip_idx],
+            )
 
             output_path.unlink(missing_ok=True)
+            for qa_frame in output_path.parent.glob(f"clip_{clip_id}*.qa_frame_*.png"):
+                qa_frame.unlink(missing_ok=True)
+
             print(f"  [{ts()}] QA regen: clip {clip_id} "
                   f"(issues: {'; '.join(qa_result.issues)})")
 
-            generate_video(
-                client=client,
-                prompt=prompts[clip_idx],
+            veo_resources["generate_video"](
+                client=veo_resources["client"],
+                prompt=veo_resources["prompts"][clip_idx],
                 output_path=output_path,
                 duration=duration,
                 resolution=resolution,
                 ref_images=ref_images,
                 first_frame_path=first_frame if first_frame.exists() else None,
-                style_anchor_refs=style_anchor_refs if style_anchor_refs else None,
-                episode_style=episode_style,
+                style_anchor_refs=veo_resources["style_anchor_refs"] if veo_resources["style_anchor_refs"] else None,
+                episode_style=veo_resources["episode_style"],
+                style_ref_bytes=veo_resources["style_ref_bytes"],
             )
-    else:
-        print(f"\n  [{ts()}] QA: {len(regen_clips)} clips above regen threshold "
-              f"(run with --qa-regen to auto-fix)")
+            if output_path.exists():
+                regen_clip_paths.append(output_path)
 
-    return len(regen_clips) == 0
+        if not regen_clip_paths:
+            cumulative_severe = sum(1 for r in failed_clips if r.max_severity >= 4)
+            return len(regen_clips) == 0, cumulative_severe
+
+        clip_paths = regen_clip_paths
+        print(f"\n  [{ts()}] QA: Re-validating {len(clip_paths)} regenerated clips...")
+
+    cumulative_severe = sum(1 for cid in persistent_drift_ids)
+    return len(persistent_drift_ids) == 0, cumulative_severe
 
 
 # ── Phase 4: Per-clip audio mixing + Stitch + LUFS normalize ──
@@ -942,6 +1200,30 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
             clip_paths.append(raw)
         else:
             print(f"  WARNING: Missing clip_{clip_id}.mp4, skipping")
+
+    normalized_dir = ep_dir / "output" / "normalized"
+    normalized_dir.mkdir(parents=True, exist_ok=True)
+    normalized_paths = []
+    for cp in clip_paths:
+        norm_path = normalized_dir / cp.name
+        result = subprocess.run(
+            ["ffmpeg", "-y", "-i", str(cp),
+             "-vf", "scale=720:1280:force_original_aspect_ratio=decrease,"
+                    "pad=720:1280:(ow-iw)/2:(oh-ih)/2:black,"
+                    "setsar=1",
+             "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+             "-c:a", "aac", "-b:a", "192k",
+             str(norm_path)],
+            capture_output=True, text=True,
+        )
+        if result.returncode == 0:
+            normalized_paths.append(norm_path)
+        else:
+            print(f"  WARNING: Failed to normalize {cp.name}, using original")
+            normalized_paths.append(cp)
+    if normalized_paths:
+        print(f"  [{ts()}] Normalized {len(normalized_paths)} clips to 720x1280")
+        clip_paths = normalized_paths
 
     stitched_path = final_dir / f"stitched_{slug}.mp4"
     if use_transitions:
@@ -1178,10 +1460,10 @@ def validate_word_counts(episode):
     else:
         print(f"  [{ts()}] Word count OK: {total_words} words (budget {word_min}-{word_max})")
 
-    if num_clips != 8:
-        print(f"  [{ts()}] WARNING: Expected 8 clips, got {num_clips}")
+    if num_clips < 1:
+        print(f"  [{ts()}] WARNING: No clips found in episode")
     else:
-        print(f"  [{ts()}] Clip count OK: {num_clips} clips")
+        print(f"  [{ts()}] Clip count: {num_clips} clips")
 
     num_img = len(episode.get("image_prompts", []))
     num_vid = len(episode.get("video_prompts", []))
@@ -1211,15 +1493,23 @@ def main():
     parser.add_argument("--skip-mix", action="store_true", help="Skip per-clip audio mixing phase")
     parser.add_argument("--skip-captions", action="store_true", help="Skip Remotion karaoke captions phase")
     parser.add_argument("--no-chain", action="store_true", help="Use independent clip generation instead of extension chain")
-    parser.add_argument("--qa-regen", action="store_true", help="Re-generate clips that fail visual consistency QA")
+    parser.add_argument("--no-qa-regen", action="store_true", help="Skip auto-regeneration of clips that fail visual consistency QA")
     parser.add_argument("--schedule", type=str, default="", help="Schedule publish at ISO datetime (e.g. '2026-03-17T17:00:00' UTC)")
+    parser.add_argument("--force-publish", action="store_true", help="Publish even if visual QA quality gate fails")
+    parser.add_argument("--legacy-prompt", action="store_true", help="Use legacy single-pass prompt (generate-episode.txt) instead of two-phase script+prompts")
+    parser.add_argument("--script-file", type=str, default="", help="Path to a pre-written script file — skips script generation, goes straight to prompt generation")
     args = parser.parse_args()
 
     topic = " ".join(args.topic) if args.topic else None
 
+    prompt_mode = "Legacy (single-pass)" if args.legacy_prompt else "Two-phase (script → prompts)"
+    if args.script_file:
+        prompt_mode = f"Pre-written script ({args.script_file})"
+
     print(f"\n{'=' * 60}")
     print(f"  You Wouldn't Wanna Be — Automated Pipeline")
     print(f"  Mode: {'Autonomous' if not topic else 'Manual'}")
+    print(f"  Prompt: {prompt_mode}")
     print(f"  Video: {'Independent clips' if args.no_chain else 'Extension chain (default)'}")
     print(f"  Publish: {'YES' if args.publish else 'no (local only)'}")
     print(f"{'=' * 60}")
@@ -1232,32 +1522,48 @@ def main():
     if not topic:
         topic = generate_topic()
 
-    episode = generate_episode_content(topic)
-    total_words, num_clips = validate_word_counts(episode)
+    if args.script_file:
+        script_path = Path(args.script_file)
+        if not script_path.is_absolute():
+            script_path = REPO_DIR / script_path
+        if not script_path.exists():
+            print(f"  ERROR: Script file not found: {script_path}")
+            sys.exit(1)
+        script = script_path.read_text().strip()
+        word_count = _count_script_words(script)
+        print(f"  [{ts()}] Loaded pre-written script: {script_path.name} ({word_count} words)")
+        episode = generate_episode_from_script(topic, script)
+        total_words, num_clips = validate_word_counts(episode)
+    elif args.legacy_prompt:
+        episode = generate_episode_content(topic)
+        total_words, num_clips = validate_word_counts(episode)
 
-    max_retries = 2
-    for retry in range(max_retries):
-        if num_clips == 8 and 85 <= total_words <= 130:
-            break
-        print(f"\n  [{ts()}] Script validation failed (words={total_words}, clips={num_clips}). "
-              f"Retry {retry + 1}/{max_retries}...")
-        feedback = (
-            f"REVISION REQUIRED. Your previous output had {total_words} words "
-            f"and {num_clips} clips. "
-        )
-        if total_words > 115:
-            feedback += (
-                f"You produced {total_words} words — the HARD LIMIT is 95-105 words. "
-                f"CUT {total_words - 100} words. Remove adjectives, compress sentences, "
-                f"eliminate any words that do not teach a fact or create dread. "
-                f"The narration must fit in 45 seconds of audio. "
+        max_retries = 2
+        for retry in range(max_retries):
+            if 180 <= total_words <= 250:
+                break
+            print(f"\n  [{ts()}] Script validation failed (words={total_words}, clips={num_clips}). "
+                  f"Retry {retry + 1}/{max_retries}...")
+            feedback = (
+                f"REVISION REQUIRED. Your previous output had {total_words} words "
+                f"and {num_clips} clips. "
             )
-        if total_words < 85:
-            feedback += "Add sensory detail — script is too thin. Target 95-105 words. "
-        if num_clips != 8:
-            feedback += f"You must produce exactly 8 clips, not {num_clips}. "
-        feedback += "Regenerate the entire episode."
-        episode = generate_episode_content(f"{topic}\n\n{feedback}")
+            if total_words > 250:
+                feedback += (
+                    f"You produced {total_words} words — the HARD LIMIT is 190-220 words. "
+                    f"CUT {total_words - 210} words. Remove adjectives, compress sentences, "
+                    f"eliminate any words that do not teach a fact or create dread. "
+                    f"The narration must fit in 90 seconds of audio. "
+                )
+            if total_words < 180:
+                feedback += "Add sensory detail — script is too thin. Target 190-220 words. "
+            feedback += "Regenerate the entire episode."
+            episode = generate_episode_content(f"{topic}\n\n{feedback}")
+            total_words, num_clips = validate_word_counts(episode)
+    else:
+        script = generate_script(topic)
+        print(f"\n  [{ts()}] Script:\n{script}\n")
+        episode = generate_episode_from_script(topic, script)
         total_words, num_clips = validate_word_counts(episode)
 
     ep_dir, slug = write_episode_files(episode)
@@ -1281,8 +1587,9 @@ def main():
         else:
             run_videos_chain_phase(episode, ep_dir)
 
+    severe_clip_count = 0
     if not args.skip_videos:
-        run_qa_phase(episode, ep_dir, regen=args.qa_regen)
+        _qa_passed, severe_clip_count = run_qa_phase(episode, ep_dir, regen=not args.no_qa_regen)
 
     if not args.skip_mix:
         run_mix_phase(episode, ep_dir, continuous_narration=continuous_narration)
@@ -1314,6 +1621,10 @@ def main():
     print(f"  Videos: {len(videos)}")
 
     if args.publish and final_path.exists():
+        if severe_clip_count > 2 and not args.force_publish:
+            print(f"\n  QUALITY GATE FAILED: {severe_clip_count} clips at severity >= 4/5")
+            print(f"  Publishing blocked. Use --force-publish to override.")
+            sys.exit(1)
         asset_url = create_github_release(slug, episode["title"], final_path)
         publish_to_metricool_with_upload(episode, final_path, asset_url, schedule=args.schedule)
 

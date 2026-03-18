@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, low angle. Locked camera, flat composition, no movement. The figure stands at a destroyed railway embankment, looking at twisted tracks. Lake Ladoga stretches vast and grey behind.
+
+Visual transition: From the warm, bright city scene to a cold, grey exterior at the severed rail line. Color temperature drops sharply — from cream and gold to iron grey and dark slate. From abundance to severance.
+
+Visual focus: The twisted, destroyed railway tracks — the severed lifeline. The last connection to Russia, broken.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure stands at the embankment edge staring at the twisted tracks. At second 2, the figure slowly crouches and picks up a torn rail schedule from the ground — a useless piece of paper. At second 4, the figure stands and turns to look toward Lake Ladoga — the vast grey expanse. At second 5, the figure's hand slowly crumples the schedule. At second 6, the figure drops the paper and it flutters to the ground. At second 7, the figure stands frozen, staring across the lake. The realization settles in: there is no way out.
+
+Flat even lighting. Severance palette — dark slate grey sky, iron grey twisted metal, raw umber earth, ash grey smoke, cold blue-grey lake water. No warm tones. The world has changed.
+
+Foreground: Destroyed railway track — flat iron-grey rails bent upward. Splintered dark brown crossties. Shell craters in raw umber earth.
+
+Midground: The figure on the embankment. A leaning railway signal with its dark red lamp. Flat grey smoke from a burning railcar.
+
+Background: Vast flat grey Lake Ladoga stretching to the horizon. Heavy overcast pressing down. A thin line of land barely visible on the far shore — unreachable Russia.
+
+Audio direction:
+- SFX: The crumple of paper in the figure's hand, wind whistling across the open lake, the groan of a damaged rail shifting under its own weight, distant artillery — a series of muffled thumps from the southern front, a horse snorting from the waiting cart
+- Ambience: Open windswept landscape — steady cold wind across Lake Ladoga creating a low moan, the distant pop-pop-pop of small arms fire, the crackle of the burning railcar, the lapping of lake water against the shore. The sound of isolation.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

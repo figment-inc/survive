@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static high-angle wide shot. Locked camera, flat composition, no movement. Looking down on Nevsky Prospekt — the broad avenue filled with pedestrians, a trolleybus, market activity. The figure walks among the crowd in the lower-center of the frame.
+
+Visual transition: From the enclosed factory interior to an open exterior wide shot. From industrial warmth to bright overcast daylight. The city is alive, functioning, unaware.
+
+Visual focus: The abundance — a bread shop window stacked high with round dark loaves. The city's normality before the siege.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure walks at a relaxed pace along Nevsky Prospekt among the crowd. At second 2, the figure pauses at a bread shop window, looking at the stacked loaves with a calm, untroubled expression. At second 4, the figure glances up at the passing trolleybus, head turning to follow it. At second 6, the figure resumes walking, passing a grandmother feeding pigeons. The figure's gait is easy, unhurried — the walk of someone who does not yet know hunger.
+
+Flat even lighting. Pre-siege palette — slate blue overcast sky, cream and pale yellow building facades, tarnished gold Admiralty spire, dark green trolleybus, warm bread-brown tones. The brightest, warmest clip of the episode.
+
+Foreground: An ornate iron street lamp with flat warm yellow globe. A Soviet flag — flat red, flat gold hammer and sickle — on a building bracket.
+
+Midground: The figure among crowds — women in headscarves with string bags, men in peaked caps, children in school uniforms. A trolleybus rolling on embedded tracks.
+
+Background: Neoclassical facades in cream and pale yellow. The Admiralty spire in flat tarnished gold. Workers stacking sandbags against a building base — the only ominous detail.
+
+Audio direction:
+- SFX: The electric hum and bell ding of the trolleybus passing, footsteps of many pedestrians on stone pavement, pigeons cooing and wing-flapping, the creak of a shop door opening, the rustle of newspaper from a kiosk
+- Ambience: A functioning Soviet city — continuous murmur of pedestrian conversation, distant factory whistles, the rattle of trolleybus wheels on tracks, a radio broadcast from an open window with indistinct speech, children's laughter from a courtyard
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

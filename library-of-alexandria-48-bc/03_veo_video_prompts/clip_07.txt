@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, high angle looking down. Locked camera, flat composition, no movement. The figure lies face-down on a debris-covered street, half-buried under a fallen timber beam. One arm reaches outward toward a single intact papyrus scroll lying just out of reach. Classic adult animation wide high-angle staging.
+
+Visual transition: Cut from the beam-strike interior to the aftermath street view — wider, higher angle. The palette shifts from fierce orange to smoldering grey-amber. The fire is dying down but the destruction is total.
+
+Visual focus: The single intact papyrus scroll on the flagstones — its nearest edge just beginning to brown and curl from the surrounding heat. The gap between the figure's reaching hand and the scroll.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure lies prone, pinned under the beam. The visible arm reaches slowly toward the scroll — fingers stretching, straining. The skull is turned sideways, one orb-like eye visible, fixed on the scroll. Seconds 3-5: The fingers extend further — almost touching — but the beam holds the figure back. The eye widens with desperate focus. Seconds 5-7: The scroll's nearest edge begins to visibly curl and brown — the heat is reaching it. A thin wisp of smoke rises from the papyrus edge. The figure's fingers strain harder. Second 7-8: The scroll catches — a small flat orange flame appears at the edge and begins to spread. The figure's hand goes limp. The eye closes.
+
+Flat even lighting. Aftermath palette — charcoal black, ash grey, smoldering amber, papyrus cream for the one scroll. The scroll is the brightest element — cream-gold in a field of grey. As it catches fire, the orange flame becomes the new visual accent.
+
+Foreground: The intact scroll on flagstones — wooden umbilicus visible, Greek text in neat columns, bronze scroll tag attached. Three burned scrolls nearby — black charcoal tubes crumbling at the edges. Small flames flicker in surrounding debris.
+
+Midground: The figure pinned under the smoldering beam. Surrounding debris — charred timber, clay tile fragments, ash. Everything coated in grey.
+
+Background: The destroyed harbour district — blackened walls standing but hollow. Harbour water dull grey with debris. Burned ship hulls half-submerged. Columns of smoke rise. A thin grey-blue dawn line at the horizon.
+
+Audio direction:
+- SFX: The soft, intimate sound of fingers scraping on stone — straining. The faint creak of the beam as the figure pushes against it. The dry, delicate crackle of papyrus beginning to brown — a whisper of heat. The sudden soft whoosh as the scroll catches fire — a brief, decisive sound. Then silence from the figure. The scroll burning — a quiet, steady hiss
+- Ambience: The fire is dying — from roar to deep, exhausted crackle. Embers settling. Occasional structural groans from cooling, stressed stone. A faint harbour sound returning — water lapping, a distant seabird. Dawn wind — a low, cold whisper cutting through the warm ash air. The contrast between dying fire and returning natural sounds
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

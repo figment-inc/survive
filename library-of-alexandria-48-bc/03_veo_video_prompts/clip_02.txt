@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, slightly high angle. Locked camera, flat composition, no movement. The figure stands in a narrow harbour-front street between tall limestone warehouse buildings. Through the gap between buildings, the harbour is visible — ships at anchor, the sky transitioning from dusk blue to amber. Classic adult animation wide establishing staging.
+
+Visual transition: Cut from interior library to exterior harbour street — wider framing, different location. The warm scholarly gold shifts to cool dusk blues with amber intrusion.
+
+Visual focus: The stray cat on the limestone block grooming itself — the tiny domestic detail of normalcy in a street about to be consumed by fire.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure walks slowly up the street toward the harbour gap, head turning to take in the scene. Relaxed gait, arms at sides. Seconds 3-5: The figure pauses mid-street, bending down to briefly acknowledge the stray cat on the limestone block — a gentle curiosity. Seconds 5-7: The figure straightens and looks toward the harbour gap — the amber glow is now visibly brighter. The figure takes a step forward, head tilting with concern. Second 7-8: The figure's posture stiffens — something is wrong. A subtle lean backward.
+
+Flat even lighting. Transitional palette — dusky blue-purple sky, cool limestone grey walls, amber glow bleeding through the harbour gap. The street is in cool shadow while the harbour direction pulses warm.
+
+Foreground: Wooden merchant's cart with stacked clay amphorae. A stray cat on a limestone block, grooming itself for the first 5 seconds, then stopping and looking toward the harbour. Loose straw on flagstones. A coil of hemp rope.
+
+Midground: The figure moving through the street. Tall limestone warehouse walls with wooden shuttered windows. A bronze-banded wooden door stands ajar — warm lamplight from within.
+
+Background: Through the street gap, the harbour — flat deep blue water turning amber at the edges. The amber glow intensifies gradually over 8 seconds. Ships' silhouettes. The faintest suggestion of smoke rising against the darkening sky. The Pharos Lighthouse as a dark silhouette.
+
+Audio direction:
+- SFX: Footsteps on flagstone — flat, steady pace. The cat purring then stopping abruptly. A distant splash in the harbour. The creak of a wooden shutter being pulled closed. A clay amphora shifted on the cart with a hollow ceramic scrape. The growing crackle of fire — distant but building over the 8 seconds
+- Ambience: An Alexandrian evening — seabirds calling over the harbour, the low murmur of dockworkers, a donkey braying in a nearby street. The ambient fire crackle grows from barely perceptible at second 0 to clearly audible at second 8. A warm wind carries the first hint of smoke smell — rendered as the sound of wind through the street gap increasing
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, high angle looking down from the wall top. Locked camera, flat composition, no movement. The figure stands on the wall walk, back to camera, looking down at the city streets below — completely filled with Ottoman soldiers. Classic adult animation wide high-angle staging for overwhelming scale.
+
+Visual transition: Cutting from the medium shot at the gate to a wide high-angle — pulling way back to show the full scope of the catastrophe. The crimson floods the entire lower frame. The sense of being surrounded and overwhelmed.
+
+Visual focus: The mass of Ottoman soldiers filling every street below — a river of crimson. The wall the figure spent two months rebuilding is now irrelevant.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure stands at the battlement edge, back to camera, hands gripping the stone crenellation, looking down. The spine is visible through the translucent back — rigid. Seconds 3-5: The figure's grip tightens — fingers pressing harder into the stone. The head turns slowly left, then right, surveying the streets below filled with soldiers in every direction. Seconds 5-7: The figure's hands release the stone. The arms fall to the sides. The shoulders slump — a slow, complete deflation of posture. Seconds 7-8: The figure's head drops forward, chin to chest. Defeat.
+
+Flat even lighting. Overwhelming force palette — Ottoman crimson flooding the lower frame, cold stone grey walls, smoke grey-brown haze, pale grey Hagia Sophia dome in distance, flat orange fires, faded Byzantine purple on a trampled banner on the wall walk.
+
+Foreground: Stone battlement crenellations. The figure's translucent hands on the rough stone. A torn Byzantine purple banner trampled underfoot. A broken crossbow.
+
+Midground: The figure at the wall edge. Abandoned defensive positions along the wall walk. Scattered weapons, overturned braziers.
+
+Background: City streets choked with Ottoman soldiers — a river of crimson and white. Thousands upon thousands. The dome of the Hagia Sophia in the far distance. Fires burn in multiple districts. Smoke rises in columns.
+
+Audio direction:
+- SFX: The figure's hands scraping on rough stone as the grip tightens then releases. A broken crossbow being kicked across the stone wall walk. Distant doors being smashed open — heavy wood splintering. A bronze church bell struck once — a single resonant toll that fades.
+- Ambience: The roar of an army occupying a city — a continuous wall of sound from below. Thousands of boots on cobblestone. The crash and shatter of structures being entered. Fires crackling from multiple directions. The collective sound is a deep, constant rumble — the sound of a civilization ending. High above, wind across the empty battlements.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

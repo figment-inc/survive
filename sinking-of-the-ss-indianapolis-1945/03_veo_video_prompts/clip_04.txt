@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, high angle — vulnerability framing looking down at survivors in the water. Locked camera, flat composition, no movement. The figure floats in the open ocean among scattered survivors. The vast dark ocean stretches to every edge of the frame. Classic adult animation wide tableau staging.
+
+Visual transition: NEW scene — the ship is gone. Cut from the explosion to open water. The survivors are alone.
+
+Visual focus: The emptiness — the terrifying ratio of vast dark ocean to tiny floating humans. The distance between survivors and the complete absence of rescue.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure floats in a kapok life vest, chin just above the waterline. At second 1, the figure looks around — scanning the horizon in every direction. Nothing. At second 3, the figure looks down at the dark water beneath — legs dangling into blackness. A slow, uneasy pull of the legs upward. At second 5, the figure sees something in the water nearby — head snaps to the left. A dark dorsal fin glides past twenty feet away. The figure goes rigid, frozen still. At second 7, the fin submerges. The figure remains frozen, staring at the spot where it disappeared.
+
+Flat even lighting. Isolation palette — deep midnight blue water, ink-black beneath the surface, pale grey-blue predawn light, flat charcoal sky. A small flat red glow from a distant emergency lantern. The figure's pale skin is stark against the dark water.
+
+Foreground: Dark ocean surface. Flat black oil patches. A floating wooden crate. Bubbles rising intermittently.
+
+Midground: The figure in the water. Twenty simplified sailor figures scattered nearby — some on a cork net raft, some clinging to debris. One motionless figure floating face-down.
+
+Background: Endless ink-black ocean. Faint grey-blue predawn at the eastern horizon. No ships, no land, no lights. Dark angular dorsal fins — two or three — cutting the water surface at varying distances around the survivor group.
+
+Audio direction:
+- SFX: Water lapping against the life vest. The soft sloshing of bodies moving in water. A dorsal fin cutting the surface — a quiet, sinister slicing sound. A distant splash — sudden and violent — followed by silence. The creak of waterlogged rope on the cork net.
+- Ambience: Open ocean at night — the vast, low, subsonic rumble of deep water. Wind across the flat sea surface creating a constant soft hiss. Distant weak splashing from other survivors. The unsettling quiet between sounds.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

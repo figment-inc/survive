@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. The figure stands at the front of a bread queue in a bakery, receiving a tiny dark bread ration from a gloved hand behind the counter. The bread is centered in the frame between the two hands.
+
+Visual transition: From the vast memorial field back to the intimate scale of one person and one piece of bread. Full circle — returning to the opening image. From the high angle of cosmic scale back to eye level. From the earth of graves to the bread of survival.
+
+Visual focus: The 125-gram bread ration passing from the shopkeeper's hand to the figure's trembling hands — the callback to the opening. The bread that killed and the bread that kept them alive. The same object, the same suffering, the same survival.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure stands at the counter, both translucent hands extended, waiting. At second 1, the shopkeeper's gloved hand places the tiny dark bread ration into the figure's palms. At second 2, the figure slowly closes the fingers around the bread — gently, carefully, as if it might crumble. At second 4, the figure draws the bread close to the chest, both hands wrapping around it protectively. At second 5, the figure looks down at the bread with an expression that contains everything — pain, endurance, defiance, gratitude, grief. At second 7, the figure slowly turns and walks toward the door, bread held to the chest. The queue shuffles forward behind. Mouth remains closed.
+
+Flat even lighting. Callback palette — frozen slate blue, ash grey, dirty snow white, near-black rye bread. Returning to clip 01's exact colors. The loop closes.
+
+Foreground: Counter edge — rough wood. Brass balance scales with small weights. Shopkeeper's gloved hand. Breadcrumbs.
+
+Midground: The figure receiving the bread. Behind, the bread queue — dozens of gaunt, bundled figures in coats and scarves.
+
+Background: Near-empty bakery shelves. The last stack of dark ration loaves. A Cyrillic sign. Through the window, snow falls on a frozen street. A loudspeaker pole with the metronome broadcast.
+
+Audio direction:
+- SFX: The soft thud of the bread being placed in the figure's hands, the crinkle and shift of the figure's fingers closing around it, shuffling feet of the queue moving forward one step, the clink of the brass scale weights settling, the door opening with a cold rush of air as another person exits
+- Ambience: The bread queue soundscape — shuffling feet, the steady breathing of many cold people in a small space, the whisper of winter wind through the open door, the metronome tick from the loudspeaker outside — steady, persistent, alive. The sound of a city that refused to die. Snowfall hitting the window — a soft, continuous patter.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
