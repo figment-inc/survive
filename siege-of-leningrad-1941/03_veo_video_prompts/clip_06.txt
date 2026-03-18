@@ -2,29 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
 
-Camera: Static close-up, slightly high angle looking down. Locked camera, flat composition, no movement. The figure sits at a bare wooden table with a tiny bread ration centered in the frame. The camera looks almost directly at the bread — it dominates the lower-center.
+Camera: Static close-up, eye level. Locked camera, flat composition, no movement. The figure's upper body fills the frame, hunched over a rough wooden counter. The tiny dark rectangle of bread — the ration — sits between the figure's flat hands on the wood surface. A long queue of gaunt figures in dark coats stretches behind into a bare room. Classic adult animation close-up staging.
 
-Visual transition: From the wide inferno exterior to a tight, intimate interior. From blazing fire to cold stillness. From massive destruction to a tiny piece of bread. The scale inversion is the horror.
+Visual transition: From the wide fire scene to a tight, claustrophobic interior — the chaos of the fire gives way to the quiet horror of starvation. The palette cools drastically — from fire orange to cold slate blue-grey and dirty bone white.
 
-Visual focus: The 125-gram bread ration — the smallest, darkest, most important object in the episode. Sawdust particles visible in its surface.
+Visual focus: The 125-gram bread ration between the figure's hands — tiny, dark, dense with sawdust.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: At second 0, the figure sits at the table, hands flat on the wood on either side of the bread, staring at it. At second 2, the figure slowly picks up the blunt knife from beside the bread. At second 3, the figure carefully — painfully carefully — cuts the bread in half. At second 5, the figure wraps one half in the newspaper and places it aside. At second 6, the figure picks up the remaining half — barely a few bites — and holds it at eye level, studying it. At second 7, the figure's hand trembles. The figure places the half back down. Saving it. Mouth remains closed.
+Character action over 8 seconds: The figure stands hunched over the counter, both hands flat on the wood, framing the tiny bread ration. At second 1, the figure stares down at it — orb-like eyes fixed. At second 3, one hand slowly slides across the wood toward the bread, touches it gently with the fingertips. At second 4, the figure picks it up and holds it close to the face to examine it — the bread is barely larger than two fingers. At second 5, the figure's head turns slightly to look at the queue behind — dozens of gaunt faces waiting. At second 6, the figure looks back at the bread. At second 7, the figure closes both hands around it protectively and brings it to the chest. Expression throughout: grim, mechanical comprehension.
 
-Flat even lighting. Starvation palette — cold slate blue, ash grey, dirty cream walls, frozen white frost on the window. The bread: near-black rye brown with visible sawdust flecks. The darkest object on screen.
+Flat even lighting. Starvation palette — cold slate blue-grey, dirty bone white walls, dark brown bread, soot black coats on queue figures. The ration card a faded yellow-grey. A single bare bulb hanging — flat pale light.
 
-Foreground: The bread ration on newspaper. A blunt knife. A ration card with clipped squares. Breadcrumbs.
+Foreground: The wooden counter surface. The bread ration — dark brown, small, specked with visible sawdust texture. A tattered ration card with punched-out squares. A kitchen knife with a worn handle.
 
-Midground: The figure at the table. Bare kitchen — empty shelves, dead stove, wallpaper with scraped-off patches.
+Midground: The figure hunched at the counter. The queue of simplified gaunt figures in dark coats and headscarves.
 
-Background: Frost-covered window. A metronome on a shelf. A stopped clock. A framed family photograph in flat sepia.
+Background: Bare plaster walls in dirty bone white. A hand-lettered sign with reduced ration amounts: "125г". A map of Leningrad with the encirclement marked in flat red.
 
 Audio direction:
-- SFX: The knife sawing through the dense bread with a dry, gritty scrape, the crinkle of newspaper as the half is wrapped, the faint click of the bread being set down on wood, the creak of the chair as the figure shifts weight
-- Ambience: Interior frozen apartment silence. The metronome tick from a distant loudspeaker — steady, mechanical, relentless. The faint whistle of wind at the frosted window. A water pipe somewhere in the building making a slow drip-drip-drip of melting ice. Total domestic desolation.
+- SFX: The dry scrape of the bread across the wooden counter, the soft shuffle of feet in the queue — dozens of people barely moving, the tap of the knife cutting a ration portion behind the counter, the rustle of the ration card being handled, the faint creak of the wooden floor under shifting weight
+- Ambience: Interior silence broken only by the shuffling queue. The ticking of a clock. A child whimpering once, quietly, somewhere in the line. The distant thud of shelling — felt more than heard, a vibration in the walls. The bare bulb buzzing faintly
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

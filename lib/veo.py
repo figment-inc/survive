@@ -336,9 +336,6 @@ def generate_video(
     Falls back through: ASSET refs -> first-frame -> text-only.
     style_ref_bytes is the global style guide image (highest priority slot).
     style_anchor_refs are placed next to enforce cross-clip visual consistency.
-    When first_frame_path is available, its bytes are injected as an ASSET ref
-    (after style ref and anchors) so Veo sees the target composition alongside
-    the style/character sheets.
     """
     output_path.parent.mkdir(parents=True, exist_ok=True)
     prompt = _wrap_prompt(prompt, episode_style=episode_style)
@@ -348,18 +345,12 @@ def generate_video(
         "resolution": resolution,
     }
 
-    keyframe_bytes: bytes | None = None
-    if first_frame_path and first_frame_path.exists():
-        keyframe_bytes = first_frame_path.read_bytes()
-
     MAX_REFS = 3
     combined_refs: list[bytes] = []
     if style_ref_bytes:
         combined_refs.append(style_ref_bytes)
     if style_anchor_refs:
         combined_refs.extend(style_anchor_refs[:2])
-    if keyframe_bytes:
-        combined_refs.append(keyframe_bytes)
     if use_reference:
         combined_refs.extend(ref_images or [])
 
@@ -368,28 +359,20 @@ def generate_video(
         remaining = MAX_REFS - n_style
         anchor_list = style_anchor_refs or []
         char_list = (ref_images or []) if use_reference else []
-        has_kf = 1 if keyframe_bytes else 0
-
         if not char_list:
-            n_anchors = min(len(anchor_list), remaining - has_kf)
-            n_kf = has_kf
+            n_anchors = min(len(anchor_list), remaining)
             n_chars = 0
         else:
-            slots_for_anchors_kf = max(remaining - 1, 0)
-            n_kf = min(has_kf, slots_for_anchors_kf)
-            n_anchors = min(len(anchor_list), slots_for_anchors_kf - n_kf)
-            n_chars = remaining - n_anchors - n_kf
-
+            n_anchors = min(len(anchor_list), max(remaining - 1, 0)) if anchor_list else 0
+            n_chars = remaining - n_anchors
         combined_refs = (
             ([style_ref_bytes] if style_ref_bytes else [])
             + list(anchor_list[:n_anchors])
-            + ([keyframe_bytes] if n_kf else [])
             + list(char_list[:n_chars])
         )
-        print(f"  [{_ts()}] Ref slots: {n_style} style + {n_anchors} anchors"
-              f" + {n_kf} keyframe + {n_chars} char = {len(combined_refs)}")
+        print(f"  [{_ts()}] Ref slots: {n_style} style + {n_anchors} anchors + {n_chars} char = {len(combined_refs)}")
 
-    if combined_refs:
+    if use_reference and combined_refs:
         ref_entries = [
             types.VideoGenerationReferenceImage(
                 reference_type="ASSET",

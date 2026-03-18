@@ -2,29 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
 
-Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. The figure stands in a doorway of the Vavilov Institute, looking into a dim office where a botanist has slumped at a desk, surrounded by tons of edible grain in jars and sacks.
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands in a doorway looking into a small office at the Vavilov Institute of Plant Industry. At a desk in the center, a simplified 2D figure of a man in a worn lab coat slumps forward, head on folded arms. Glass jars of rice, cloth sacks of wheat, and seed envelopes surround the motionless man. Classic adult animation medium staging.
 
-Visual transition: From the exterior frozen street to an interior institutional scene. From physical cold to moral weight. The palette shifts from frozen white to muted warm tones of grain and wood — the warmth of abundance that was never eaten.
+Visual transition: From the frozen exterior street to a quiet, somber interior. The palette shifts from frozen whites and blues to warm browns of wood and the cream and gold tones of stored seeds — but the warmth is deceptive. The room is freezing.
 
-Visual focus: The contrast between the lifeless botanist and the shelves overflowing with edible grain — the unbearable proximity of food to starvation.
+Visual focus: The glass jars of rice and wheat surrounding the motionless botanist — untouched food in the presence of death by starvation.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: At second 0, the figure stands in the doorway, one hand on the frame, leaning slightly forward and looking into the office. At second 2, the figure's orb-like eyes widen as they take in the scene — the slumped botanist, the shelves of grain. At second 3, the figure slowly steps into the room. At second 5, the figure reaches toward a glass jar of golden wheat on the shelf — fingers approaching the jar. At second 6, the figure stops. The hand hovers an inch from the jar. At second 7, the figure slowly pulls the hand back and lowers it to the side. At second 8, the figure bows the head in respect. Understanding the choice.
+Character action over 8 seconds: The figure stands in the doorway at second 0, one hand on the doorframe, looking into the room. At second 2, the figure steps slowly into the office, moving toward the desk. At second 3, the figure stops beside the desk and looks down at the slumped botanist. At second 4, the figure's gaze moves from the man to the glass jars of rice surrounding him — the pale cream grains clearly visible. At second 5, the figure reaches out and touches the surface of a jar, fingertips resting on the glass. At second 6, the figure pulls the hand back. At second 7, the figure steps back and looks at the entire scene — the food, the man, the choice. The orb-like eyes are wide, understanding. The figure stands still for the final beat, head slightly bowed.
 
-Flat even lighting. Reverence palette — dark wood brown, seed-packet cream and tan, grain gold in glass jars, cold slate blue window light. The grains are the warmest color in the frame — ironic abundance.
+Flat even lighting. Somber palette — dirty bone white walls, warm brown wood, cream and gold seed colors in jars, cold grey light from the frosted window. The botanist's lab coat off-white.
 
-Foreground: Heavy dark wood doorframe. A Cyrillic card pinned to the door. The figure's translucent hand on the wood.
+Foreground: The doorframe and threshold. Fallen botanical journals. Wire-rimmed spectacles on the floor.
 
-Midground: The desk — slumped botanist in dark coat, round spectacles, pen in still hand. Notebook, dried inkwell, empty tea glass. Hundreds of small labeled seed drawers surrounding the desk.
+Midground: The desk with the slumped botanist. Glass jars of rice. Cloth sacks marked "ПШЕНИЦА". Seed envelopes with Latin names. All sealed. None opened.
 
-Background: Floor-to-ceiling shelves of glass jars filled with grain, labeled seed packets, burlap sacks. Frost on the window behind. Framed portrait of Nikolai Vavilov on the wall.
+Background: Bookshelves with journals and seed catalogs. A portrait of Vavilov on the wall. Frost on the window. Cold grey light.
 
 Audio direction:
-- SFX: The creak of the doorframe as the figure leans on it, the soft footstep on wooden floor as the figure enters, the faint rattle of seeds in jars as vibrations from distant artillery travel through the building, the figure's hand brushing near the glass jar — a whisper of air, the dry rustle of paper from the open notebook on the desk
-- Ambience: Deep interior quiet. The muffled tick of the metronome broadcast through thick walls. The building's old wooden structure creaking in the cold. A very faint, steady draft from the frosted window making the notebook pages flutter occasionally. The silence of a sealed room where someone has been alone for a long time.
+- SFX: The soft creak of the doorframe as the figure leans on it, the quiet tap of footsteps on the wooden floor — slow, deliberate, the faint rattle of rice grains shifting inside a glass jar as the figure touches it, the whisper of a page turning in a draft — a botanical journal fluttering open, the soft thud of the figure's hand withdrawing from the jar
+- Ambience: Profound interior silence. The ticking of frost crystals forming on window glass. A faint draft moving through the room — the pages of an open journal lifting and settling. The distant, muffled ticking of the Leningrad metronome broadcast. The building's wooden structure creaking in the cold. Total stillness from the figure at the desk
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

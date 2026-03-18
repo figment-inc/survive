@@ -2,29 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
 
-Camera: Static wide shot, slightly high angle. Locked camera, flat composition, no movement. A frozen Leningrad street scene from three stories up — the figure hunches on a windowsill scraping snow into a pot. Below, the street is an ice-locked canyon with burst pipe formations.
+Camera: Static medium wide shot, eye level. Locked camera, flat composition, no movement. The figure kneels in a snowbank beside a burst, frozen water main encased in grotesque flat pale blue ice. A small fire of burning book pages flickers in flat orange on the ground. The figure holds a dented tin pot of snow over the flame. A frozen Leningrad street stretches behind. Classic adult animation medium-wide staging.
 
-Visual transition: From the interior stove scene to an exterior wide shot. Opening up to show the frozen city at scale. The cold palette intensifies — zero warm colors now. From the small stove's glow to absolute frozen white and grey.
+Visual transition: From the confined apartment interior to the frozen exterior street — expanding the frame. The palette shifts from apartment decay to frozen cityscape: flat white snow, pale blue ice, dark slate grey sky, with the single warm accent of the burning book pages in flat orange.
 
-Visual focus: The burst water pipes and their surreal ice cascades on building facades — the city's infrastructure frozen and dead.
+Visual focus: The small fire of burning book pages — Cyrillic text visible as the pages curl and burn.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: At second 0, the figure is perched on the windowsill — one leg inside, one braced on the outer ledge — scraping snow from the sill into a dented tin pot. At second 2, the figure pauses and looks down at the frozen street below — a figure dragging a sled moves slowly. At second 4, the figure returns to scraping, but the snow on the sill is nearly gone. At second 5, the figure reaches further out the window, stretching for snow on a decorative ledge. At second 6, the figure pulls back in with the pot now half-full of dirty grey snow. At second 7, the figure looks at the pot, then touches a loose tooth through the closed translucent lips — a wince of pain. Mouth stays closed.
+Character action over 8 seconds: The figure kneels on the frozen ground, hunched over. A heavy dark coat over the shoulders, a cloth around the head. At second 1, the figure scoops snow into the dented tin pot with stiff, mechanical movements. At second 3, the figure holds the pot over the small fire of burning book pages — the pages curl and blacken, Cyrillic text briefly visible. At second 4, the figure feeds another page into the fire — tearing it from a book held in the other hand. At second 5, the figure watches the page burn — orb-like eyes reflecting flat orange. At second 6, the figure breaks a plank from the bookshelf lying beside them and adds it to the fire — it catches slowly. At second 7, the figure looks into the pot — the snow is beginning to melt, a thin film of water. The figure's hands shake.
 
-Flat even lighting. Deep winter palette — frozen white, ice blue-white, slate grey, charcoal, pale blue. No warm colors anywhere. The coldest, most desaturated clip.
+Flat even lighting. Frozen palette — flat white snow, pale blue ice, dark slate grey sky, dirty ochre buildings coated in frost. The tiny flat orange fire the only warmth. Fine snow particles drift.
 
-Foreground: The windowsill — thick ice coating. The figure's reddened translucent fingertips. The dented pot of dirty grey snow.
+Foreground: The small fire — burning pages in flat orange and amber. Broken bookshelf planks. The dented pot with snow. A book with Cyrillic text, pages being torn.
 
-Midground: Building facade — cracked cream plaster, pockmarked by shrapnel. Two-meter icicles from burst pipes creating ice cascades. A dark broken window below with a frozen-stiff curtain.
+Midground: The figure kneeling. The burst frozen water main — a thick pipe encased in pale blue and white ice, icicles hanging. A wooden sled with a bucket behind the figure.
 
-Background: Frozen street below — burst water main creating a flat ice sheet. Sagging trolleybus wires under ice. Grey-white sky. Snow drifts against doorways. A figure dragging a sled with a wrapped form.
+Background: A frozen street — snowdrifts against walls, buildings in frosted muted ochre. A frozen trolleybus half-buried. The dark slate grey sky. A distant figure dragging a sled. Another figure leaning motionless against a wall.
 
 Audio direction:
-- SFX: The scrape of fingernails on frozen snow and stone, the creak of the wooden window frame under the figure's weight, the tinkle of small ice particles falling, a distant crack — a frozen pipe expanding somewhere in the building, the dull thud of the pot being set on the interior floor
-- Ambience: Arctic wind howling through the frozen street canyon below, the groan and crack of ice expanding in burst pipes, the complete absence of city sounds — no trolleybuses, no voices, no machines. Only wind and ice. Occasionally, a very distant anti-aircraft gun fires — flat pop-pop-pop sounds. The city sounds dead.
+- SFX: The crackle and hiss of book pages burning — a dry, papery crackle, the snap of a wooden shelf plank breaking, the scrape of a tin pot against frozen ground, wind whistling around the corner of a building, the drip of a single water drop as snow begins to melt in the pot
+- Ambience: The howling of wind through an empty frozen city — a constant, low moan. The deep silence beneath it — no engines, no footsteps, no life sounds. Distant groaning of frozen pipes. The faint, rhythmic ticking of the metronome broadcast from a faraway loudspeaker. Occasional distant crack of ice
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

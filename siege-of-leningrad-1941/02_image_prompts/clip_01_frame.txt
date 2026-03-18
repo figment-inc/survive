@@ -1,21 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Leningrad, Soviet Union, autumn 1941.
+Classic American adult animation frame, vertical 9:16 composition. Leningrad, Soviet Union, late autumn 1941.
 
-Medium close-up shot, eye level. The figure stands in a dim room, both hands cupped around a tiny dark chunk of bread — barely larger than a matchbox. The figure stares down at the bread with hollow, wide orb-like eyes. The bread is the visual center of the frame.
+Medium shot, eye level. The figure stands in the center of a wide, empty boulevard, facing the camera. In one hand, the figure holds a tiny rectangle of dark bread — barely visible, absurdly small against the palm. The figure looks down at it. Behind the figure, the grand neoclassical façades of Nevsky Prospekt stretch into the flat grey distance.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. The figure holds the bread at chest height, fingers trembling slightly, shoulders hunched forward. Expression: grim focus, mouth closed in a thin line.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. The figure stands upright, shoulders slightly hunched forward. Head tilted down, orb-like eyes fixed on the bread in the open palm. Expression: hollow stillness. The other arm hangs limp at the side.
 
-Foreground: A rough wooden table edge in the lower frame, a tin cup with frozen water, breadcrumbs scattered on a scrap of newspaper.
+Foreground: A cracked cobblestone street surface in cold slate grey. A thin dusting of flat white snow on the stones. A discarded tin canister and a torn ration card lie on the ground near the figure's feet.
 
-Midground: The figure standing, the tiny dark bread loaf in cupped hands. Flat grey plaster wall behind, a crack running diagonally across it.
+Midground: The figure on the empty boulevard. A severed trolleybus cable hangs limp from a leaning pole to the figure's right. A frozen puddle of dark water reflects nothing — flat black shape on the ground.
 
-Background: A frosted window with ice crystals covering the glass in flat white patterns. Through the ice, a blurred suggestion of Leningrad rooftops — flat slate blue and grey. A distant column of flat rust-orange fire rises behind the skyline.
+Background: The grand colonnaded façades of Nevsky Prospekt in muted ochre and bone white, windows dark and empty. An anti-aircraft gun silhouette on a distant rooftop. The sky is flat overcast steel grey, low and oppressive, filling the upper third of the frame. Fine grey ash particles drift in the air.
 
-Flat even lighting. Cold palette — frozen slate blue, ash grey, dirty snow white. The bread is dark rye-brown, nearly black. The fire accent is muted rust-orange. Everything muted, desaturated.
+Flat even lighting. Cold palette — steel grey, cold slate blue, bone white, muted ochre on buildings, the bread a dull dark brown. Grey ash drifts.
 
-Period texture: The bread itself — dense, dark, visibly coarse with sawdust flecks pressed into the surface. A ration card on the table printed in Cyrillic text with stamped dates.
+Period texture: A Soviet propaganda poster pasted on a column — red star and Cyrillic text, edges curling and rain-stained. Sandbags stacked around a shop entrance. A hand-painted sign reading "БОМБОУБЕЖИЩЕ" (bomb shelter) with an arrow pointing down.
 
-Background activity: Through the frosted window, a simplified silhouette of a figure dragging a child's sled loaded with a bundle along a snowy street.
+Background activity: Two distant simplified figures in dark coats and headscarves trudge along the far sidewalk, hunched against the cold. A military truck in flat olive drab is parked at the far end of the boulevard, barely visible.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

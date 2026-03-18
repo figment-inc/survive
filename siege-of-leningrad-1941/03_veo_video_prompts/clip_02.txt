@@ -2,29 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
 
-Camera: Static wide shot, slightly low angle. Locked camera, flat composition, no movement. The interior of the Kirov Plant factory floor — massive industrial space with the figure working at a lathe in the center of the frame. Heavy machinery, a tank hull under construction, workers moving in the background.
+Camera: Static medium close-up, slightly low angle. Locked camera, flat composition, no movement. The figure stands at a heavy industrial lathe inside the Kirov Factory. A half-assembled KV-1 tank hull visible behind. Industrial pendant lights in flat warm amber hang from steel trusses. Classic adult animation close-up staging.
 
-Visual transition: Dramatic shift from the dark frozen apartment to a warm, active industrial interior. From intimate to expansive. From silent despair to the noise of production.
+Visual transition: From the cold empty boulevard to the warm, active interior of the factory — a shift from desolation to purposeful labor. The palette warms from steel grey to amber and olive drab.
 
-Visual focus: The figure's grease-blackened hands working the lathe — the physical labor that defines this person before starvation strips everything away.
+Visual focus: The figure's grease-blackened hands gripping the wrench — the physical evidence of labor.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: The figure stands at a lathe, both grease-blackened hands gripping the controls. At second 1, the figure pulls a heavy lever — the lathe spins. At second 3, the figure leans in to inspect the work, one hand wiping sweat from the brow with the back of a wrist, leaving a grease smear on the translucent forehead. At second 5, the figure steps back and looks at the hands — spreading the blackened fingers wide, examining the grease that coats every crease and knuckle up to the wrist. At second 7, the figure wipes hands on a rag and returns to work with a determined nod.
+Character action over 8 seconds: The figure grips a large steel wrench with both grease-blackened hands and pulls it in a slow, effortful arc — tightening a bolt on a turret ring. At second 3, the figure pauses, wipes one hand on a grease rag, leaving a dark smear. At second 4, the figure examines the blackened knuckles and forearms — grease stains up to the wrists clearly visible against the translucent skin. At second 6, the figure returns to the wrench, leaning in with renewed effort. Metal sparks fly briefly from a nearby station.
 
-Flat even lighting. Industrial palette — iron grey, tarnished brass, olive drab, dark grease-black, flat pale window light from high clerestory windows.
+Flat even lighting. Industrial palette — soot black, steel grey, flat olive drab on the tank hull, warm amber from pendant lights, grease-black on the figure's hands and arms. Muted ochre on distant brick walls.
 
-Foreground: Metal toolbox with wrenches, curled metal shavings on concrete, a tin mug of black tea on a stool.
+Foreground: A steel workbench with tools — calipers, a ball-peen hammer, metal shavings in flat silver curls, a tin mug of dark tea, a grease rag.
 
-Midground: The figure at the lathe. A partially assembled KV-1 tank hull in flat olive-drab on a platform behind.
+Midground: The figure at the lathe, the KV-1 hull behind on a factory dolly.
 
-Background: Tall factory columns, iron catwalks, overhead cranes. Red Soviet banners with flat gold stars. Workers in dark coveralls at other stations. Flat orange sparks from a distant welding station.
+Background: Rows of lathes and presses, workers in dark coveralls operating machines. Flat orange sparks from a distant welding station. Red Soviet banners with gold stars hanging from trusses. High clerestory windows with flat pale light.
 
 Audio direction:
-- SFX: The grinding whir of the lathe motor, metal-on-metal cutting sounds with a high-pitched squeal, the heavy clank of a lever being pulled, the wet slap of a grease rag on metal, the distant clang of a hammer on steel plate
-- Ambience: Continuous industrial roar of a wartime factory at full production — multiple machines running simultaneously, the echo of voices calling out over the noise, the rhythmic punch of a stamping press, the hiss of steam from pipes overhead
+- SFX: The heavy metallic clang of the wrench on the bolt, the grind of the lathe mechanism engaging, a sharp hiss of a welding torch in the distance, metal shavings tinkling as they fall to the concrete floor, the clunk of the tin mug being set down on steel
+- Ambience: The constant low roar of a working factory — machines humming, presses stamping in rhythmic thuds, the whine of spinning lathes, distant shouted instructions between workers (indistinct, not dialogue), the hiss of steam pipes overhead
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

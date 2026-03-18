@@ -840,7 +840,6 @@ def run_videos_independent_phase(episode, ep_dir):
         print(f"  [{ts()}] Episode style: {episode_style[:80]}...")
 
     style_anchor_refs = None
-    prev_clip_last_frame: bytes | None = None
     clips = episode.get("clips", [])
     for i, prompt in enumerate(episode["video_prompts"]):
         clip_id = f"{i + 1:02d}"
@@ -853,9 +852,6 @@ def run_videos_independent_phase(episode, ep_dir):
                 if anchor_frames:
                     style_anchor_refs = [f.read_bytes() for f in anchor_frames]
                     print(f"  [{ts()}] Using existing clip 01 as style anchor ({len(anchor_frames)} frames)")
-            last_frame_path = output_path.with_suffix(".anchor_last.png")
-            if last_frame_path.exists():
-                prev_clip_last_frame = last_frame_path.read_bytes()
             continue
 
         clip_meta = clips[i] if i < len(clips) else {}
@@ -866,13 +862,8 @@ def run_videos_independent_phase(episode, ep_dir):
 
         ref_images = select_refs_for_prompt(all_refs, prompt) if use_reference else None
 
-        effective_anchors = list(style_anchor_refs) if style_anchor_refs else []
-        if prev_clip_last_frame and i > 0:
-            effective_anchors = [prev_clip_last_frame] + effective_anchors[:1]
-
         print(f"\n  --- Clip {clip_id} ({duration}s @ {resolution})"
-              f"{' +style_anchor' if effective_anchors and i > 0 else ''}"
-              f"{' +prev_frame' if prev_clip_last_frame and i > 0 else ''} ---")
+              f"{' +style_anchor' if style_anchor_refs and i > 0 else ''} ---")
 
         max_safety_retries = 3
         for attempt in range(max_safety_retries):
@@ -885,7 +876,7 @@ def run_videos_independent_phase(episode, ep_dir):
                 ref_images=ref_images,
                 first_frame_path=first_frame if first_frame.exists() else None,
                 use_reference=use_reference,
-                style_anchor_refs=effective_anchors if i > 0 and effective_anchors else None,
+                style_anchor_refs=style_anchor_refs if i > 0 else None,
                 episode_style=episode_style,
                 style_ref_bytes=style_ref_bytes,
             )
@@ -922,14 +913,6 @@ def run_videos_independent_phase(episode, ep_dir):
             if anchor_frames:
                 style_anchor_refs = [f.read_bytes() for f in anchor_frames]
                 print(f"  [{ts()}] Clip 01 set as style anchor ({len(anchor_frames)} frames)")
-
-        if output_path.exists():
-            anchor_frames_current = extract_style_anchor_frames(output_path)
-            last_frame_candidates = [f for f in anchor_frames_current if "anchor_last" in f.name]
-            if last_frame_candidates:
-                prev_clip_last_frame = last_frame_candidates[0].read_bytes()
-            elif anchor_frames_current:
-                prev_clip_last_frame = anchor_frames_current[-1].read_bytes()
 
     print(f"  [{ts()}] Videos independent phase complete.")
     return True
@@ -1580,6 +1563,11 @@ def main():
     continuous_narration = False
     if not args.skip_audio:
         continuous_narration = run_audio_phase(episode, ep_dir)
+    else:
+        narration_full = ep_dir / "output" / "audio" / "narration_full.mp3"
+        if narration_full.exists():
+            continuous_narration = True
+            print(f"  [{ts()}] Audio skipped but narration_full.mp3 exists — will use for final mix")
 
     if not args.skip_videos:
         if args.no_chain:

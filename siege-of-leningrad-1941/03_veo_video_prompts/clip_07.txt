@@ -2,29 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
 
-Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure sits on the floor beside a small burzhuika stove, feeding a leather belt into a pot of boiling water. The stripped apartment surrounds — furniture gone, wallpaper scraped.
+Camera: Static close-up, slightly high angle looking down. Locked camera, flat composition, no movement. The figure is seated on the floor of a freezing apartment, knees drawn up, back against a bare wall where wallpaper has been stripped. The figure holds a strip of torn wallpaper. A chipped enamel bowl with grey paste residue sits beside the figure. Classic adult animation close-up staging.
 
-Visual transition: Same apartment, but tighter framing and further decay. The table from clip 06 is gone — burned for fuel. The walls are more bare. The cold has deepened. From static bread-cutting to active desperate cooking.
+Visual transition: From the ration queue close-up to an even more intimate space — the apartment floor. The palette remains cold but shifts from institutional grey to domestic decay — faded burgundy wallpaper, dirty grey plaster, frost white.
 
-Visual focus: The leather belt being fed into the boiling pot — the image of starvation forcing the consumption of inedible objects.
+Visual focus: The strip of wallpaper in the figure's hand — the paste being eaten for its starch content.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: At second 0, the figure sits cross-legged beside the burzhuika stove, slowly feeding the leather belt into the bubbling pot. At second 2, the figure pauses and touches a hand to the mouth area — the fingertips come away with a flat dark red smear from bleeding gums. At second 4, the figure examines the bloody fingertips with dull recognition — this is not new. At second 5, the figure wipes the hand on the floor and returns to feeding the belt into the pot. At second 7, the figure reaches for a clump of hair on the floor — from a previous occupant — and stares at it before dropping it. Mouth remains closed throughout.
+Character action over 8 seconds: The figure sits on the floor, legs drawn up, spine curved. The ribcage is sharply visible — the figure has wasted visibly. At second 1, the figure holds a strip of faded burgundy floral wallpaper and slowly scrapes the back of it with a fingernail, collecting the dried paste. At second 3, the figure brings the strip to the closed mouth and presses the paste-side against the lips — not eating in a normal sense, more pressing the residue to absorb it. Mouth stays closed. At second 4, the figure lowers the strip and stares at it. At second 5, the figure's head rolls to the side, resting against the bare wall — exhaustion. At second 6, the figure looks at the bare wall patches where the wallpaper has been stripped. At second 7, the figure pulls another strip from the wall with a slow, weak tug — the wallpaper tears with a soft ripping sound.
 
-Flat even lighting. Deepening starvation palette — iron grey, cold slate blue, dirty cream, flat dark red gum blood, dark leather brown. A dull rust-orange glow from the burzhuika's open fuel door — the only warmth.
+Flat even lighting. Starvation palette — bone white, dirty grey plaster, faded burgundy wallpaper, cold slate blue frost on the windows, no warmth. The figure paper-white.
 
-Foreground: The leather belt coil — cracked dark brown — partially in the pot. Clumps of hair on the wooden floor. An empty paste jar scraped clean.
+Foreground: Strips of torn wallpaper on the floor — faded burgundy and cream floral pattern. The chipped enamel bowl with grey paste. A spoon. Bare wooden boards.
 
-Midground: The figure beside the burzhuika stove — cylindrical iron with chimney pipe to window. A chair leg protrudes from the fuel door. Flat grey smoke wisps.
+Midground: The figure on the floor against the stripped wall. A heavy coat draped over the figure's shoulders — flat dark grey.
 
-Background: Stripped apartment. No furniture. Ghost outlines on walls where furniture stood. Frost-opaque window. Burned book spines in the ash pile.
+Background: The apartment — a small iron burzhuika stove with no fire. Frost patterns in flat white on the inside of the window. A stopped clock. A frosted family photograph on a shelf.
 
 Audio direction:
-- SFX: The soft bubbling of water in the pot, the creak of leather as the belt is bent and pushed in, the faint scrape of the figure touching bleeding gums, the crackle and pop of burning chair leg in the stove, a small piece of plaster falling from the ceiling and hitting the floor
-- Ambience: The burzhuika stove ticking with heat expansion. Wind howling outside — a sustained low moan. The metronome broadcast barely audible through frozen walls. The building settling and creaking in the extreme cold. Complete isolation.
+- SFX: The soft, slow rip of wallpaper peeling from the wall — a dry tearing sound, the scrape of a fingernail against dried paste, the clink of the enamel bowl as it is nudged on the floor, the creak of the figure shifting weight on the wooden boards, the faint tinkle of ice crystals on the window as a draft moves through the room
+- Ambience: Deep winter silence inside a freezing apartment. The low moan of wind through gaps in the boarded window. The tick of ice forming on interior surfaces. Distant artillery — a muffled, rhythmic thudding that vibrates the walls. The building settling — wooden groans. Total absence of human activity sounds — no footsteps, no neighbors, no plumbing
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

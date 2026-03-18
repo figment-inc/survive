@@ -1,21 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Piskaryovskoye Memorial Cemetery, Leningrad, after the siege.
+Classic American adult animation frame, vertical 9:16 composition. Leningrad, aerial-perspective view, symbolic composition, 1941-1944.
 
-Extreme wide shot, high angle looking down. The figure stands tiny at the center of an enormous field of mass graves — long earthen mounds stretching in geometric rows to the horizon. Each mound is identical. The scale is overwhelming. The figure is dwarfed — barely visible.
+Extreme wide shot, high overhead angle. The figure stands alone in the center of an enormous empty city square — Palace Square or a similar grand space — reduced to a tiny pale form against the dark, empty expanse. The square is barren. The surrounding buildings are darkened, windowless.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing at the center of the frame, arms at sides, head bowed. A tiny pale figure against the vast dark earth. Expression: unreadable at this distance — the smallness is the point.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Posture: standing in the center of the square, tiny against the enormous space. Arms at sides. Head slightly bowed. Expression: unreadable at this distance — a small, solitary figure.
 
-Foreground: The nearest grave mound — raw dark earth, flat umber and brown, a simple wooden marker with a year: 1942. Dead grass at the edges in flat straw-yellow.
+Foreground: The cobblestone expanse of the square — flat dark grey, cracked, with patches of frozen dirt. An abandoned anti-aircraft battery — four flat olive-drab barrels pointing skyward — sits in the near foreground.
 
-Midground: Rows upon rows of identical mounds radiating outward from the figure's position. A simple gravel path between the rows. A few scattered wooden markers. The geometric repetition creates a pattern of devastating scale.
+Midground: The figure, alone, at the center of the vast space. Empty. No vehicles, no market stalls, no life. The number "800,000" is not shown — the emptiness conveys it. A single wooden post with a loudspeaker mounted on it — Leningrad's famous metronome speaker system.
 
-Background: The mounds continue to the horizon in every direction. At the far edge, a tree line of bare birches in flat pale grey. The sky is flat overcast — heavy slate grey, pressing down on the earth. No color relief.
+Background: The grand neoclassical buildings ringing the square — the Winter Palace or General Staff Building in muted ochre and bone white, but dark-windowed, damaged. Shell craters in the façade. The sky is flat dark steel grey. Grey ash drifts across the entire frame.
 
-Flat even lighting. Memorial palette — raw earth umber, dead grass straw-yellow, gravel grey, birch-bark white, heavy slate grey sky. The flatness of the palette mirrors the flatness of the loss.
+Flat even lighting. Emptiness palette — dark steel grey, cold slate, muted ochre on damaged buildings, bone white. The figure the palest point — a single white form in a grey void.
 
-Period texture: Piskaryovskoye Cemetery — the largest mass grave site of World War Two, where approximately 500,000 siege victims are buried. Simple wooden grave markers with years rather than names.
+Period texture: The loudspeaker on the post — during the siege, a metronome ticking was broadcast over Leningrad's speaker system to indicate the city was still alive. The abandoned anti-aircraft emplacement. Shell damage on the Winter Palace façade.
 
-Background activity: A few distant figures — flat silhouettes — walk among the rows. One kneels at a mound. A single crow perches on a marker.
+Background activity: Almost none. A single distant figure crosses the far edge of the square — barely a speck. A stray dog sits at the base of a column. The emptiness is the point.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

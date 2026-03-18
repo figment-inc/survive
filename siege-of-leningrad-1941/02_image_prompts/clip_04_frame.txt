@@ -1,21 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Southern outskirts of Leningrad, September 8, 1941.
+Classic American adult animation frame, vertical 9:16 composition. Badayev Warehouses, Leningrad, early September 1941. Before the bombing.
 
-Medium shot, low angle. The figure stands at the edge of a railway embankment, staring at a destroyed rail line — tracks twisted upward like bent wire, cratered earth exposing torn crossties. The figure's posture conveys dawning horror. Behind, a flat grey expanse of Lake Ladoga stretches to the horizon.
+Low angle shot looking upward. The figure stands in the centre of the frame at the base of towering wooden warehouse shelves. The shelves stretch high toward the wooden ceiling — stacked with hundreds of white flour sacks, each bulging and tied with rope. The figure looks upward at the massive stockpile, one hand resting on a sack at waist height.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing at the embankment's edge, one foot on a broken crosstie, body angled toward the destruction. One hand grips a useless rail schedule — a piece of paper. Expression: wide-eyed realization, mouth closed tight.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Posture: standing, head tilted back looking up at the shelves. One hand pats a flour sack. Expression: a false sense of security, almost reassured.
 
-Foreground: Destroyed railway track — flat iron-grey rails bent at grotesque angles. Splintered wooden crossties in dark brown. Artillery shell craters in raw earth — flat dark umber and ochre.
+Foreground: Two flour sacks on the wooden plank floor, one split slightly with white flour spilling out in a flat white pile. A wooden hand cart with iron wheels. A clipboard with inventory papers rests on a sack.
 
-Midground: The figure on the embankment. A damaged railway signal post leans at forty-five degrees, its flat red signal lamp dark. Smoke drifts as flat grey wisps from a burning railcar further down the line.
+Midground: The figure dwarfed by the shelves. The wooden shelving — warm honey-brown planks — rises to the top of the frame. Sacks are stacked five high on each shelf, labeled in stenciled Cyrillic. The spacing between warehouse buildings is visible through a doorway — six metres of open air to the next wooden structure.
 
-Background: The vast flat grey surface of Lake Ladoga stretching to the horizon, flat and featureless. The sky is heavy overcast — flat dark slate grey pressing down. On the far shore, barely visible, a thin flat line suggesting land — Russia, unreachable.
+Background: The wooden plank walls and ceiling of the warehouse interior. Dust motes float in flat pale beams of light from high windows. Through the open loading bay door, another identical wooden warehouse is visible six metres away — a second building full of sugar crates.
 
-Flat even lighting. Severance palette — dark slate grey, iron grey, raw umber earth, ash grey smoke, flat cold blue-grey lake water. The paper in the figure's hand is the lightest element — dirty cream.
+Flat even lighting. Warm interior palette — honey brown wood, bone white flour sacks, muted ochre, dusty cream. A deceptive warmth — this is abundance about to be destroyed.
 
-Period texture: A toppled railway distance marker showing kilometers to Moscow in Cyrillic. A derailed freight car on its side, flat olive-drab, red star emblem still visible on the side panel.
+Period texture: Stenciled text on the sacks — "МУКА ПШЕНИЧНАЯ 50 КГ". A warehouse worker's leather apron hung on a nail. A Soviet municipal inventory stamp on the clipboard — bureaucratic precision. The six-metre gap between buildings visible through the door — the fatal spacing.
 
-Background activity: A squad of Red Army soldiers in flat olive uniforms attempts to clear debris from the tracks. A horse-drawn cart waits on a dirt road beside the rail line, the driver sitting motionless.
+Background activity: Two workers in flat grey coveralls carry a sack between them toward a shelf. A supervisor with a pencil behind his ear checks a list. A rat sits atop a distant sack, nibbling.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

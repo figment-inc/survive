@@ -2,29 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
 
-Camera: Static medium close-up shot. Locked camera, flat composition, no movement. The figure fills the lower two-thirds of the frame, standing in a dim room holding a tiny dark bread ration. A frosted window with distant fire glow fills the upper portion.
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands in the center of an empty Leningrad boulevard, Nevsky Prospekt. Grand neoclassical buildings in muted ochre flank the street. A flat steel-grey overcast sky fills the upper third. Classic adult animation medium staging.
 
-Opening shot — no previous clip. A quiet, devastating opening image: one person, one piece of bread, one city dying.
+Opening shot — no previous clip. A cold, empty city that sets the tone for the entire siege.
 
-Visual focus: The tiny dark bread ration in the figure's cupped hands — the central object of the entire episode.
+Visual focus: The tiny dark rectangle of bread in the figure's open palm — the central image of the entire episode.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: The figure stands holding the tiny bread ration in cupped hands at chest height. At second 1, the figure slowly raises the bread closer to the face, examining it — orb-like eyes focused intently. At second 3, the figure's thumbs slowly press into the bread's surface, feeling its dense, wrong texture — sawdust and filler. At second 5, the figure's hands begin to tremble visibly. At second 6, the figure slowly closes the eyes. At second 7, the figure pulls the bread to the chest, cradling it. Mouth remains closed throughout.
+Character action over 8 seconds: The figure stands still on the empty boulevard for 2 seconds, looking straight ahead — hollow, vacant stare. At second 2, the figure slowly raises one hand and opens the palm toward the camera, revealing a tiny dark rectangle of bread. At second 4, the figure looks down at the bread. At second 5, the other hand reaches toward it, hesitates, then withdraws. At second 7, the figure closes the hand around the bread and pulls it to the chest protectively. Head drops forward slightly.
 
-Flat even lighting. Cold palette — frozen slate blue, ash grey, dirty snow white. The bread is near-black rye brown. A faint flat rust-orange glow from the frosted window suggests distant fires.
+Flat even lighting. Cold palette — steel grey sky, cold slate blue shadows, muted ochre buildings, bone white snow dusting, the bread a tiny dark brown rectangle. Grey ash particles drift slowly through the air.
 
-Foreground: A rough wooden table edge with breadcrumbs on newspaper. A tin cup with frozen water. A ration card with clipped squares.
+Foreground: Cracked cobblestones dusted with flat white snow. A torn ration card on the ground. A discarded tin canister.
 
-Midground: The figure standing, the bread in cupped hands. Flat grey cracked plaster wall behind.
+Midground: The figure on the boulevard. A severed trolleybus cable hangs limp from a leaning pole. A frozen puddle — flat black shape.
 
-Background: Frosted window — ice crystals in flat white patterns. Through the ice, blurred Leningrad rooftops in flat slate blue. A distant column of flat rust-orange fire.
+Background: Nevsky Prospekt façades in muted ochre and bone white. Dark empty windows. An anti-aircraft gun silhouette on a rooftop. Two distant figures trudge along the far sidewalk. Grey ash drifts.
 
 Audio direction:
-- SFX: The faint creak of floorboards under shifting weight, the dry crackle of the bread's crust as thumbs press into it, a distant muffled artillery shell impact — a low thud felt more than heard, the tick of ice expanding on the windowpane
-- Ambience: Near-silence of a frozen apartment. The steady slow tick of the Leningrad metronome broadcast — a metronomic heartbeat rhythm from a distant loudspeaker. Faint wind pressing against the window. The absolute quiet of a starving city at night
+- SFX: A bitter wind whistling down the empty boulevard, the creak of a swinging trolleybus cable, distant artillery — a low, dull thud repeating every few seconds, the crinkle of the ration card scraping across cobblestones in the wind, the figure's coat flapping softly
+- Ambience: Deep winter silence over a vast city — the absence of traffic, of voices, of life. The wind is the dominant sound, low and constant. A metronome ticking faintly from a distant loudspeaker — the heartbeat of besieged Leningrad. Very distant, the rumble of shelling
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

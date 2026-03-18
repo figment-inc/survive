@@ -2,29 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
 
-Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. The figure stands at the front of a bread queue in a bakery, receiving a tiny dark bread ration from a gloved hand behind the counter. The bread is centered in the frame between the two hands.
+Camera: Static medium close-up, low angle looking up. Locked camera, flat composition, no movement. The figure stands on the scorched ground of the destroyed Badayev warehouse site. Behind the figure, blackened timber skeletons of the burned warehouses stand against a flat dark grey sky. The figure holds one hand out, palm up, with a clump of dark sugar-soaked earth on it. Classic adult animation medium close-up staging.
 
-Visual transition: From the vast memorial field back to the intimate scale of one person and one piece of bread. Full circle — returning to the opening image. From the high angle of cosmic scale back to eye level. From the earth of graves to the bread of survival.
+Visual transition: From the vast empty square to a return to the Badayev site — closing the loop. The frame tightens back to the figure. The palette is callback: charcoal black, dark amber, scorched earth brown — the warm tones of the warehouse clip, but now as ashes.
 
-Visual focus: The 125-gram bread ration passing from the shopkeeper's hand to the figure's trembling hands — the callback to the opening. The bread that killed and the bread that kept them alive. The same object, the same suffering, the same survival.
+Visual focus: The clump of sugar-soaked earth in the figure's palm — the only remnant of the food supply that could have saved the city.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: At second 0, the figure stands at the counter, both translucent hands extended, waiting. At second 1, the shopkeeper's gloved hand places the tiny dark bread ration into the figure's palms. At second 2, the figure slowly closes the fingers around the bread — gently, carefully, as if it might crumble. At second 4, the figure draws the bread close to the chest, both hands wrapping around it protectively. At second 5, the figure looks down at the bread with an expression that contains everything — pain, endurance, defiance, gratitude, grief. At second 7, the figure slowly turns and walks toward the door, bread held to the chest. The queue shuffles forward behind. Mouth remains closed.
+Character action over 8 seconds: The figure stands amid the scorched ruins, one hand extended palm-up with the dark sugar-earth clump. At second 1, the figure looks down at it — orb-like eyes studying the clump. At second 3, the figure slowly closes the fingers around it, crumbling the earth slightly — dark amber sugar-dirt falls through the fingers. At second 4, the figure opens the hand again — the remaining earth sits there, diminished. At second 5, the figure looks up at the burned-out warehouse frames — the charred vertical timbers silhouetted against the dark grey sky. At second 6, the figure looks back at the hand. At second 7, the figure lets the remaining earth fall from the open palm — it drops to the scorched ground. The hand stays extended, empty, palm up. The figure stares at the empty hand as grey ash drifts across the frame.
 
-Flat even lighting. Callback palette — frozen slate blue, ash grey, dirty snow white, near-black rye bread. Returning to clip 01's exact colors. The loop closes.
+Flat even lighting. Callback palette — charcoal black, dark amber, scorched earth brown, soot grey, flat dark grey sky. The figure's pale form stark against the blackened ground. Grey ash drifts.
 
-Foreground: Counter edge — rough wood. Brass balance scales with small weights. Shopkeeper's gloved hand. Breadcrumbs.
+Foreground: Scorched ground — blackened earth with patches of hardened dark amber sugar. Charred wooden beams. A partially burned flour sack.
 
-Midground: The figure receiving the bread. Behind, the bread queue — dozens of gaunt, bundled figures in coats and scarves.
+Midground: The figure standing amid the ruins. Burned-out warehouse frames — blackened vertical timbers.
 
-Background: Near-empty bakery shelves. The last stack of dark ration loaves. A Cyrillic sign. Through the window, snow falls on a frozen street. A loudspeaker pole with the metronome broadcast.
+Background: The destroyed site — rectangular burn scars. Thin grey smoke wisps. The Leningrad skyline in muted ochre under dark grey sky. Simplified figures crouch and dig in the sugar-earth.
 
 Audio direction:
-- SFX: The soft thud of the bread being placed in the figure's hands, the crinkle and shift of the figure's fingers closing around it, shuffling feet of the queue moving forward one step, the clink of the brass scale weights settling, the door opening with a cold rush of air as another person exits
-- Ambience: The bread queue soundscape — shuffling feet, the steady breathing of many cold people in a small space, the whisper of winter wind through the open door, the metronome tick from the loudspeaker outside — steady, persistent, alive. The sound of a city that refused to die. Snowfall hitting the window — a soft, continuous patter.
+- SFX: The soft crumble of sugar-earth falling from the figure's fingers — a gritty, dry patter, the creak of a charred timber shifting in the wind, the scrape of hands digging in soil from the background figures, wind pushing through the burned-out warehouse frames with a hollow whistle, the gentle hiss of ash landing on scorched ground
+- Ambience: The aftermath quiet of a burned site — a faint acrid stillness. Wind moving across open scorched ground. The distant, ever-present ticking of the Leningrad metronome from a faraway loudspeaker. The low murmur of the front line — artillery as a constant, distant vibration. Crows circling and calling
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

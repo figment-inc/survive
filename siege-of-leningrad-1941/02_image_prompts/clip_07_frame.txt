@@ -1,21 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. The same communal apartment, Leningrad, December 1941.
+Classic American adult animation frame, vertical 9:16 composition. A Leningrad apartment interior, deep winter 1941-1942.
 
-Medium shot, eye level. The figure sits on the floor beside a small cast-iron burzhuika stove, feeding a leather belt into the pot of boiling water on top. The figure's free hand touches bleeding gums — a smear of flat dark red on the translucent fingertips. Clumps of hair lie on the floor around the figure.
+Close-up, slightly high angle looking down. The figure is seated on the floor against a wall, knees drawn up. The figure's translucent skin reveals the skeleton beneath with painful clarity — the ribcage is prominent, limb bones stark against the thinning flesh. One hand holds a curling strip of peeled wallpaper, bringing it toward the closed mouth. Orb-like eyes are sunken, half-lidded.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Sitting cross-legged on the floor, one hand pushing the leather belt into the pot, the other touching the mouth area with dark red on the fingertips. Expression: vacant suffering, eyes half-lidded.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Posture: seated on the floor, legs drawn up, spine curved. The figure has become visibly thinner — ribs and pelvis bones sharper beneath the translucent skin. One hand holds a strip of wallpaper. Expression: exhausted, mechanical. Gums visible — a dark pink line with loosened teeth suggested by small gaps.
 
-Foreground: A coil of leather belt — dark brown, cracked — partially submerged in a dented tin pot. Clumps of fallen hair on the wooden floor (from other inhabitants). An empty wallpaper paste jar scraped clean.
+Foreground: Strips of torn wallpaper on the floor — floral patterned in faded burgundy and cream, the paste scraped off the back. A chipped enamel bowl with grey wallpaper paste residue. A spoon. The floor is bare wooden boards, scuffed and cold.
 
-Midground: The figure beside the burzhuika stove — a small cylindrical iron stove with a chimney pipe running to the window. The stove is fed with broken furniture pieces — a chair leg protrudes from the fuel door. Faint flat grey smoke wisps from the pipe joints.
+Midground: The figure on the floor against the wall. The wall behind shows large bare patches where wallpaper has been stripped away, revealing dirty grey plaster beneath. A heavy coat is draped over the figure's shoulders — flat dark grey wool.
 
-Background: The apartment stripped bare. Furniture is gone — fed to the stove. Only the wall shelves remain, empty. The walls show the ghostly outlines where furniture once stood — lighter rectangles on the dirty grey wallpaper. The window is covered in thick frost, opaque white.
+Background: The apartment — bare, cold, stripped of comfort. A small iron burzhuika stove in the corner with a thin pipe venting through a boarded window. No fire burns in it. Frost patterns in flat white coat the inside of the window glass. A framed photograph on a shelf — a family portrait, now covered in frost.
 
-Flat even lighting. Deepening starvation palette — iron grey, cold slate blue, dirty cream, flat dark red accents from the bleeding gums, dark leather brown. The burzhuika stove provides a tiny warm accent — dull rust-orange glow from its open fuel door.
+Flat even lighting. Starvation palette — bone white, dirty grey plaster, faded burgundy wallpaper, cold slate blue frost, the figure's skin paper-white and stretched. No warmth in any color.
 
-Period texture: The burzhuika stove — the iconic small improvised stove of the siege, with its crooked chimney pipe threaded through a boarded window. Burned book spines in the ash pile beside the stove. A water bucket with a cracked ice surface.
+Period texture: The wallpaper pattern — a pre-revolutionary floral design common in Leningrad apartments. The burzhuika stove — a small improvised metal cylinder stove used by siege survivors. Frost on the inside of windows — the apartment is below freezing.
 
-Background activity: None. The apartment is empty of other movement. Total stillness. The isolation of starvation.
+Background activity: None. The apartment is still and silent. A frozen cockroach on the floor. A pendulum clock on the wall, stopped.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

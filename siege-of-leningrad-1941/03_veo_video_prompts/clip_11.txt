@@ -2,29 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
 
-Camera: Static extreme wide shot, high angle looking down. Locked camera, flat composition, no movement. An enormous field of mass graves — long earthen mounds in geometric rows stretching to the horizon. The figure stands tiny at the center.
+Camera: Static extreme wide shot, high overhead angle. Locked camera, flat composition, no movement. The figure is a tiny pale form standing alone in the center of an enormous empty city square — Palace Square. Grand neoclassical buildings ring the square in muted ochre and bone white, dark-windowed and damaged. An abandoned anti-aircraft battery in the foreground. Classic adult animation extreme-wide staging.
 
-Visual transition: From the street-level aftermath to a high, pulling-back perspective — the god's-eye view of the cost. From individual walking to standing still. From one street to the entire memorial landscape. The scale shift is the emotional blow.
+Visual transition: From the burial field to the empty city center — the frame widens to its maximum. The figure shrinks to near-insignificance. The palette becomes the most austere of the episode: dark steel grey, cold slate, muted ochre, bone white. Emptiness as the dominant visual.
 
-Visual focus: The geometric rows of mass grave mounds extending to the horizon in every direction — the overwhelming, mathematical scale of one million dead.
+Visual focus: The solitary figure in the center of the vast empty square — the scale of absence.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: At second 0, the figure stands at the center of the frame — a tiny pale shape amid the vast dark mounds. Head bowed. Arms at sides. At second 3, the figure slowly raises the head and looks outward — scanning the rows of graves extending in all directions. At second 5, the figure's head turns slowly, taking in the scale. At second 7, the figure's head drops again. The arms remain at the sides. There is nothing to do here. Just stand and witness.
+Character action over 8 seconds: The figure stands motionless in the center of the square — a tiny pale shape against the dark cobblestones. At second 2, the figure slowly turns in place, looking around at the empty square — the darkened buildings, the absent crowds. At second 4, the figure stops turning, facing the camera. Arms at sides. At second 5, the figure takes one step forward, then stops. At second 6, the figure's head tilts down — looking at the empty expanse around them. At second 7, the figure is still. The wind moves grey ash across the square around the motionless form. The figure stands as the sole living presence in a dead city.
 
-Flat even lighting. Memorial palette — raw earth umber, dead grass straw-yellow, gravel grey, birch-bark white, heavy slate grey sky. Flat, muted, enormous.
+Flat even lighting. Emptiness palette — dark steel grey cobblestones, cold slate sky, muted ochre damaged buildings, bone white accents. The figure the palest point. Grey ash drifts across the entire frame.
 
-Foreground: Nearest grave mound — raw dark earth, flat umber. A wooden marker with "1942." Dead straw-yellow grass at edges.
+Foreground: An abandoned anti-aircraft battery — flat olive-drab barrels pointing skyward. Cracked cobblestones with frozen dirt patches.
 
-Midground: Rows of identical mounds radiating from the figure. Gravel paths between. Scattered wooden markers.
+Midground: The tiny figure alone in the center of the square. A wooden post with a loudspeaker — the metronome system. Empty.
 
-Background: Mounds to the horizon. Bare birch tree line in flat pale grey. Heavy flat slate grey sky pressing down.
+Background: Neoclassical buildings — Winter Palace façade in muted ochre and bone white, shell craters in the walls, dark windows. Flat dark steel grey sky. Grey ash drifting.
 
 Audio direction:
-- SFX: Wind moving across open ground — a steady, empty sound, a single crow cawing twice from a distant marker, gravel crunching faintly as the figure shifts weight, a birch branch creaking in the wind
-- Ambience: Vast open silence. The wind is the primary sound — continuous, low, mournful across the flat landscape. No city sounds. No metronome. No artillery. The siege is over. Only the wind and the earth and the weight of what happened here. Distant birdsong — a few notes, incongruously peaceful.
+- SFX: The steady tick-tock of the Leningrad metronome broadcast from the loudspeaker — slow, mechanical, the heartbeat of the city, wind gusting across the open square sending grit and ash scraping over cobblestones, a distant metallic bang — a loose piece of anti-aircraft equipment swinging in the wind, the creak of a damaged building façade
+- Ambience: Vast empty silence — the sound of a city of three million reduced to near-nothing. Wind is the dominant sound — low, mournful, sweeping across the open space. The metronome ticking — persistent, mechanical, the only proof of life. Very distant, almost subliminal — the low rumble of the front line. A single crow calling far away
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

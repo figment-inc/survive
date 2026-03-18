@@ -2,29 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
 
-Camera: Static medium shot, low angle. Locked camera, flat composition, no movement. The figure stands at a destroyed railway embankment, looking at twisted tracks. Lake Ladoga stretches vast and grey behind.
+Camera: Static low-angle shot looking upward. Locked camera, flat composition, no movement. The figure stands at the base of towering wooden warehouse shelves stacked with bulging white flour sacks inside the Badayev warehouse. The shelves fill the frame vertically — an imposing wall of stored food. Classic adult animation low-angle staging.
 
-Visual transition: From the warm, bright city scene to a cold, grey exterior at the severed rail line. Color temperature drops sharply — from cream and gold to iron grey and dark slate. From abundance to severance.
+Visual transition: From the wide outdoor school scene to a confined interior — the frame tightens. The palette shifts from autumnal gold to warm honey-brown wood and bone-white flour sacks. The mood shifts from domestic calm to institutional false reassurance.
 
-Visual focus: The twisted, destroyed railway tracks — the severed lifeline. The last connection to Russia, broken.
+Visual focus: The towering stacks of flour sacks on wooden shelves — three thousand tonnes of food that will burn.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: At second 0, the figure stands at the embankment edge staring at the twisted tracks. At second 2, the figure slowly crouches and picks up a torn rail schedule from the ground — a useless piece of paper. At second 4, the figure stands and turns to look toward Lake Ladoga — the vast grey expanse. At second 5, the figure's hand slowly crumples the schedule. At second 6, the figure drops the paper and it flutters to the ground. At second 7, the figure stands frozen, staring across the lake. The realization settles in: there is no way out.
+Character action over 8 seconds: The figure stands at the base of the shelves, head tilted back, looking up at the massive stockpile. At second 2, one hand reaches out and pats a flour sack at waist level — a reassured gesture. At second 3, the figure steps back to take in the full scale — head craning upward. At second 5, the figure turns toward the open loading bay door and sees the next warehouse building six metres away — the gap between the wooden structures. At second 6, the figure looks back up at the wooden shelves, then at the wooden walls. At second 7, the figure pauses. A subtle shift — the hand that patted the sack now hangs still. Something about the wood, the spacing, registers as wrong.
 
-Flat even lighting. Severance palette — dark slate grey sky, iron grey twisted metal, raw umber earth, ash grey smoke, cold blue-grey lake water. No warm tones. The world has changed.
+Flat even lighting. Warm interior palette — honey-brown wooden shelves and walls, bone-white flour sacks, muted ochre, dusty cream. A deceptive warmth. Flat pale beams of light through high windows.
 
-Foreground: Destroyed railway track — flat iron-grey rails bent upward. Splintered dark brown crossties. Shell craters in raw umber earth.
+Foreground: Flour sacks on the plank floor, one slightly split with flat white flour spilling. A wooden hand cart. A clipboard with inventory papers.
 
-Midground: The figure on the embankment. A leaning railway signal with its dark red lamp. Flat grey smoke from a burning railcar.
+Midground: The figure dwarfed by the shelves. The six-metre gap visible through the loading bay door — another wooden warehouse beyond.
 
-Background: Vast flat grey Lake Ladoga stretching to the horizon. Heavy overcast pressing down. A thin line of land barely visible on the far shore — unreachable Russia.
+Background: Wooden plank walls and ceiling. Dust motes floating in flat pale light. The second warehouse through the door — stacked with sugar crates.
 
 Audio direction:
-- SFX: The crumple of paper in the figure's hand, wind whistling across the open lake, the groan of a damaged rail shifting under its own weight, distant artillery — a series of muffled thumps from the southern front, a horse snorting from the waiting cart
-- Ambience: Open windswept landscape — steady cold wind across Lake Ladoga creating a low moan, the distant pop-pop-pop of small arms fire, the crackle of the burning railcar, the lapping of lake water against the shore. The sound of isolation.
+- SFX: The dry rustle of flour sacks as the figure pats one, the creak of wooden shelf planks under the weight of stores, a rat scratching and scurrying across wooden boards, the heavy wooden door creaking in a draft, the clipboard papers fluttering
+- Ambience: The enclosed quiet of a large storage building — the muffled quality of sound in a space packed with sacks. A distant drone of aircraft engines — barely audible, ambiguous. Wind pushing through gaps in the wooden wall slats. The warehouse settling — small wooden groans and pops
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

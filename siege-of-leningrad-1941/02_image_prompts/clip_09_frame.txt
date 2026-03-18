@@ -1,21 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. The Vavilov Institute of Plant Industry, Leningrad, winter 1942.
+Classic American adult animation frame, vertical 9:16 composition. The Vavilov Institute of Plant Industry (VIR), Leningrad, winter 1941-1942.
 
-Medium close-up, eye level. The figure stands in a doorway, looking into a dim office. At a desk sits a simplified flat-style man slumped forward, head resting on folded arms, still and lifeless. Surrounding the desk on all sides — shelves and drawers overflowing with labeled seed packets, grain samples in glass jars, burlap sacks of rice and wheat. Tons of edible material. Untouched.
+Medium shot, eye level. The figure stands in a doorway looking into a small office. At a desk in the center of the room, a simplified 2D figure of a man — thin, in a worn lab coat — slumps forward, head resting on folded arms on the desk surface. He is still. Surrounding him on the desk and shelves: glass jars of rice grains, cloth sacks of wheat seeds, tins labeled with botanical names, paper envelopes of almond seeds.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing in the doorway, one hand on the doorframe, body leaning slightly forward. Expression: stunned reverence, orb-like eyes wide.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Posture: standing in the doorway, one hand on the doorframe, body angled slightly inward. The figure looks at the botanist at the desk. Expression: quiet recognition, stillness. Orb-like eyes wide but not shocked — understanding.
 
-Foreground: The doorframe — heavy dark wood. A small card pinned to the door with Cyrillic text. The figure's translucent hand gripping the wood.
+Foreground: The doorframe and threshold. A fallen stack of botanical journals on the floor. A pair of wire-rimmed spectacles resting on the floor beside the door, as if dropped.
 
-Midground: The desk scene — the slumped botanist in a dark coat, round spectacles still on his face, a pen in his still hand. On the desk: a notebook open, a dried inkwell, a single empty tea glass. The desk is surrounded by seed collection drawers — hundreds of small labeled wooden drawers, organized meticulously.
+Midground: The desk with the slumped botanist. Surrounding the botanist: glass specimen jars filled with rice — pale cream grains visible through the glass. Cloth sacks marked "ПШЕНИЦА" (wheat). Small paper envelopes with Latin botanical names written in ink. Tins of seeds stacked neatly. None have been opened. The botanist has not touched them.
 
-Background: Floor-to-ceiling shelving packed with glass jars of grain, labeled seed packets in neat rows, burlap sacks stamped with botanical Latin names. The abundance is staggering and obscene against the starvation. Frost coats the window behind the shelves. Flat pale light enters.
+Background: The institute office — tall bookshelves filled with bound journals and seed catalogs. A portrait of Nikolai Vavilov on the wall. A window with frost on the inside, pale grey light filtering through. The room is freezing — visible frost on the desk surface near the window.
 
-Flat even lighting. Reverence palette — muted tones. Dark wood brown, seed-packet cream and tan, grain gold trapped in glass jars, cold slate blue from the window. The warmest colors are the grains — ironic abundance.
+Flat even lighting. Somber palette — dirty bone white walls, warm brown wood of desk and shelves, cream and gold seed colors in the jars, the cold grey light from the window. The botanist's lab coat is off-white, stained.
 
-Period texture: The Vavilov Institute's seed collection — one of the world's largest, maintained by scientists who chose to starve rather than consume irreplaceable genetic material. Labeled drawers with botanical names in Cyrillic and Latin. A framed portrait of Nikolai Vavilov on the wall.
+Period texture: The Vavilov Institute seed collection — one of the world's largest, protected by staff who chose to starve rather than eat the irreplaceable samples. The glass jars with hand-written labels. The formal botanical filing system intact while the man who maintained it has perished.
 
-Background activity: In the corridor behind the figure, another institute worker — gaunt, wrapped in a blanket — shuffles past carrying a stack of seed catalogs. Dedicated even now.
+Background activity: None inside. Through the frosted window, barely visible — a distant figure crosses the courtyard pulling a sled. The room is profoundly still.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

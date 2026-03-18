@@ -1,21 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Kirov Plant factory floor, Leningrad, late summer 1941.
+Classic American adult animation frame, vertical 9:16 composition. Kirov Factory, Leningrad, late summer 1941.
 
-Wide shot, slightly low angle looking up at the figure amid massive industrial machinery. The figure stands at a lathe, arms extended, hands gripping iron levers. Grease visibly blackens the figure's translucent hands and forearms up to the wrists, rendered as flat dark patches over the visible bone structure beneath.
+Medium close-up, slightly low angle. The figure stands at a heavy industrial lathe inside the cavernous factory floor. Both hands grip a steel wrench, knuckles and forearms smeared with thick black grease up to the wrists. The figure leans into the work, torso angled forward, orb-like eyes focused on a partially assembled tank turret ring clamped to the machine.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. The figure leans into the lathe with working posture — back slightly bent, weight on the front foot, jaw set with concentration. Expression: determined focus.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Posture: leaning forward with effort, arms tensed on the wrench, feet braced wide. Expression: focused determination, brow area slightly creased.
 
-Foreground: A metal toolbox open on the factory floor, wrenches and heavy spanners arranged inside. Curled metal shavings on the concrete. A half-drunk tin mug of black tea on a stool.
+Foreground: A steel workbench cluttered with tools — calipers, a ball-peen hammer, a tin mug of dark tea. Metal shavings curl on the bench surface in flat silver-grey. A grease-blackened rag draped over the bench edge.
 
-Midground: The figure at the lathe. Behind, a partially assembled KV-1 tank hull sits on a platform — flat olive-drab green, heavy riveted steel plates visible. Other workers in flat dark blue coveralls operate machines along the line.
+Midground: The figure at the lathe. Behind the figure, the hull of a KV-1 heavy tank in flat olive drab sits on a factory dolly, half-assembled, armour plates bolted in place.
 
-Background: The massive Kirov Plant interior — tall industrial columns, iron catwalks, overhead cranes. High clerestory windows let in flat pale light. Red Soviet banners with flat gold star motifs hang from the rafters. Flat tarnished brass and iron-grey tones dominate.
+Background: The factory interior — massive steel roof trusses in soot black, rows of lathes and presses stretching into the distance. Industrial pendant lights hang from chains — flat warm amber circles. High clerestory windows let in flat pale light. Red Soviet banners with gold stars hang from the trusses.
 
-Flat even lighting. Industrial palette — iron grey, tarnished brass, olive drab, dark grease-black, flat pale window light. Warm but muted. The factory has a functional, muscular quality.
+Flat even lighting. Industrial palette — soot black, steel grey, flat olive drab, warm amber from the factory lights, grease-black on the figure's hands. Muted ochre on distant brick walls.
 
-Period texture: A production quota board chalked in Cyrillic mounted on the wall. Heavy leather work aprons hanging on pegs. A propaganda poster showing a flat-style clenched fist and Cyrillic slogans pasted to a support column.
+Period texture: A chalk-written production quota on a blackboard mounted to a pillar — "ПЛАН: 40 КОРПУСОВ" with tally marks. A worker's tin lunch pail on the floor. A calendar page pinned to a post showing August 1941 in Cyrillic.
 
-Background activity: Workers in dark coveralls carry shell casings on hand trucks. A woman in a headscarf operates a drill press. Sparks fly in flat orange from a welding station in the distance.
+Background activity: Simplified workers in dark coveralls operate machines along the factory floor. Sparks fly in flat orange from a distant welding station. A foreman in a flat cap gestures at a blueprint pinned to a wall.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

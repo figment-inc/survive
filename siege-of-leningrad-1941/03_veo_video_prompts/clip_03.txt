@@ -2,29 +2,29 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
 
-Camera: Static high-angle wide shot. Locked camera, flat composition, no movement. Looking down on Nevsky Prospekt — the broad avenue filled with pedestrians, a trolleybus, market activity. The figure walks among the crowd in the lower-center of the frame.
+Camera: Static wide shot, high angle looking down onto a residential street. Locked camera, flat composition, no movement. The figure stands at the left on a sidewalk near a school building. Children in dark uniforms with white collars gather at the school entrance. Birch trees in muted gold line the street. Classic adult animation wide staging.
 
-Visual transition: From the enclosed factory interior to an open exterior wide shot. From industrial warmth to bright overcast daylight. The city is alive, functioning, unaware.
+Visual transition: From the enclosed factory interior to a bright, open outdoor scene — a widening of the frame. The palette shifts to warmer autumnal tones: muted gold, pale ochre, soft blue-grey. The mood is deceptively calm and domestic.
 
-Visual focus: The abundance — a bread shop window stacked high with round dark loaves. The city's normality before the siege.
+Visual focus: The small girl in the white pinafore walking away from the figure toward the school — innocence about to be shattered.
 
 2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
 
 The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
 
-Character action over 8 seconds: The figure walks at a relaxed pace along Nevsky Prospekt among the crowd. At second 2, the figure pauses at a bread shop window, looking at the stacked loaves with a calm, untroubled expression. At second 4, the figure glances up at the passing trolleybus, head turning to follow it. At second 6, the figure resumes walking, passing a grandmother feeding pigeons. The figure's gait is easy, unhurried — the walk of someone who does not yet know hunger.
+Character action over 8 seconds: The figure stands on the sidewalk, right hand raised in a gentle wave as the small girl walks away. At second 2, the figure lowers the hand slowly. At second 4, the figure's head turns slightly — noticing a thin column of distant dark smoke rising on the horizon beyond the rooftops. At second 5, the figure stares at the smoke for a beat. At second 6, the figure looks back toward the girl entering the school, then back at the smoke. At second 7, the figure's posture stiffens slightly — a premonition. The hand that was waving now hangs at the side, fingers curling.
 
-Flat even lighting. Pre-siege palette — slate blue overcast sky, cream and pale yellow building facades, tarnished gold Admiralty spire, dark green trolleybus, warm bread-brown tones. The brightest, warmest clip of the episode.
+Flat even lighting. Warm autumnal palette — muted gold birch leaves, pale ochre school building, soft blue-grey sky, white pinafores, dark school uniforms. The distant smoke column in dark grey — the only discordant note.
 
-Foreground: An ornate iron street lamp with flat warm yellow globe. A Soviet flag — flat red, flat gold hammer and sickle — on a building bracket.
+Foreground: A wrought-iron fence with chipped pale green paint. Red asters on the fence post. Fallen birch leaves in muted gold on the pavement.
 
-Midground: The figure among crowds — women in headscarves with string bags, men in peaked caps, children in school uniforms. A trolleybus rolling on embedded tracks.
+Midground: The figure at left, the girl walking toward the school at center-right. Other children cluster at the entrance. A woman adjusts a boy's collar.
 
-Background: Neoclassical facades in cream and pale yellow. The Admiralty spire in flat tarnished gold. Workers stacking sandbags against a building base — the only ominous detail.
+Background: The three-storey school building in muted ochre. Beyond the rooftops, the thin column of dark smoke. Birch trees in gold. Pale blue-grey sky.
 
 Audio direction:
-- SFX: The electric hum and bell ding of the trolleybus passing, footsteps of many pedestrians on stone pavement, pigeons cooing and wing-flapping, the creak of a shop door opening, the rustle of newspaper from a kiosk
-- Ambience: A functioning Soviet city — continuous murmur of pedestrian conversation, distant factory whistles, the rattle of trolleybus wheels on tracks, a radio broadcast from an open window with indistinct speech, children's laughter from a courtyard
+- SFX: Children's shoes on pavement — light tapping footsteps, a school bell ringing in a clear, bright tone, birch leaves rustling as they fall to the ground, the creak of the wrought-iron gate opening and closing, the distant whinny of the milk cart horse
+- Ambience: A peaceful September morning — birdsong from the birch trees, distant voices of parents and children (indistinct, not dialogue), the gentle rattle of the milk cart, a faint and barely perceptible low rumble from the direction of the smoke — too distant to identify. The normalcy of the sounds contrasts with what is coming
 - NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
 
 Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

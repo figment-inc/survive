@@ -1,21 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. A frozen Leningrad street, January 1942. Minus forty degrees.
+Classic American adult animation frame, vertical 9:16 composition. A Leningrad street, deep winter 1941-1942. Minus forty degrees.
 
-Wide shot, slightly high angle. The figure hunches on a windowsill three stories up, scraping snow from the ledge into a dented pot. Below, the street is a frozen canyon — burst water pipes have created grotesque ice formations on building facades. The city is locked in white and grey.
+Medium wide shot, eye level. The figure kneels in a snowbank beside a frozen public water pipe — a burst main encased in a grotesque sculpture of flat pale blue ice. The figure holds a dented tin pot, scooping snow into it. A small fire of burning book pages flickers in flat orange beside the figure on the ground — a broken bookshelf serves as fuel.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Perched on the windowsill, one leg inside the room, one braced against the outer ledge. Both hands scrape snow into the pot with desperate urgency. Expression: grim determination, teeth visible through closed translucent lips — the teeth appearing loose.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Posture: kneeling in the snow, hunched over the pot, scooping snow with stiff hands. The figure's skeleton is stark — wasting visible. A heavy dark coat draped over the shoulders, a cloth wrapped around the head. Expression: mechanical focus, no energy for emotion.
 
-Foreground: The windowsill — thick ice coating the stone ledge. The figure's translucent hands raw and reddened at the fingertips. The dented tin pot half-full of dirty grey snow.
+Foreground: The small fire on the frozen pavement — torn book pages curling and burning in flat orange and amber. Readable Cyrillic text visible on the pages before they burn. Broken wooden bookshelf planks stacked beside the fire. The dented tin pot with snow in it, held over the flames.
 
-Midground: The building facade — flat cream plaster cracked and pockmarked by shrapnel. Icicles two meters long hang from burst pipes, creating cascades of flat pale blue-white ice down the building face. A window below is dark, its glass blown out, curtain frozen stiff.
+Midground: The figure kneeling. The frozen water main — a thick pipe encased in a mass of flat pale blue and white ice, burst open, icicles hanging. A wooden sled behind the figure with a metal bucket strapped to it — the water transport.
 
-Background: The street below — a frozen wasteland. A burst water main has turned the intersection into a flat sheet of ice. Abandoned trolleybus wires sag under ice weight. Flat grey-white sky presses down. Snow drifts against building doorways. The entire scene is white, grey, and ice-blue.
+Background: A frozen Leningrad street. Buildings in muted ochre and dirty bone white coated with frost. Snowdrifts piled high against walls. No vehicles — the street is buried. The sky is flat dark slate grey, heavy and low. Fine snow particles drift in the air. A distant figure pulls a sled along the street.
 
-Flat even lighting. Deep winter palette — frozen white, ice blue-white, slate grey, charcoal, pale blue. No warm colors anywhere. The coldest clip in the episode.
+Flat even lighting. Frozen palette — pale blue ice, flat white snow, dark slate grey sky, dirty ochre buildings, the tiny flat orange of the book fire the only warm accent. Bone white on the figure.
 
-Period texture: The burst water pipes — a defining image of siege Leningrad, where the water system froze and created surreal ice cascades on buildings. An anti-aircraft gun emplacement visible on a rooftop in the distance, its barrel pointed skyward, coated in frost.
+Period texture: The burning book pages — Cyrillic text from a Russian novel. The improvised bookshelf fuel. The frozen burst water main — a common sight during the siege winter. The child's wooden sled repurposed for hauling water.
 
-Background activity: Far below, a single bundled figure drags a child's sled bearing a wrapped body along the frozen street. Another figure leans against a building wall, motionless, snow accumulating on the shoulders.
+Background activity: A distant simplified figure drags a sled with a bucket. Another figure leans against a wall, motionless — unclear if resting or collapsed. A frozen trolleybus sits half-buried in a snowdrift, its windows dark.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.
