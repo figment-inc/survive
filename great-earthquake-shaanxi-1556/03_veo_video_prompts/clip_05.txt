@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium shot, slightly Dutch angle — the frame is tilted five degrees off-axis. Locked camera, flat composition, no camera movement — the tilt is fixed. Interior of the yaodong cave. The earthquake has just struck. Classic adult animation crisis staging.
+
+Visual transition: Cut from the calm geological cross-section to the cave interior mid-quake — maximum contrast. The warm amber palette is disrupted by cold grey-tan dust. The frame tilt signals the world has shifted.
+
+Visual focus: The cracks appearing in the cave ceiling and the dust pouring from them — the yaodong, carved to endure, is failing.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure is bolt upright on the kang, both hands braced against the brick surface — just jolted awake. Orb eyes wide and stark. At second 1, the figure's head snaps upward to the ceiling as cracks appear — jagged black lines radiating across the smooth arch. At second 2, dust begins pouring from the cracks in flat tan streams. The figure throws both arms over the skull protectively. At second 4, a chunk of loess ceiling drops — a flat ochre block hitting the kang near the figure. The figure rolls sideways off the kang. At second 5, on the floor now, crouched, the figure looks toward the doorway. At second 6, through the doorway, the cliff across the valley is visibly shifting — a dark mass detaching. At second 7, the figure scrambles toward the doorway on hands and knees, slipping on loose silt covering the floor.
+
+Flat even lighting shifting to crisis lighting — warm amber extinguishing as the oil lamp tips and goes out at second 2. Replaced by cold grey-tan dust tones and the faint indigo of the pre-dawn sky visible through the cracking doorway.
+
+Foreground: Objects in mid-fall — the clay oil lamp tipping, ceramic bowl airborne, chopsticks scattering. Cracks in the earthen floor — jagged black lines. Dust pouring as flat tan-grey streams.
+
+Midground: The figure on the shaking kang, then rolling to the floor. Fresh cracks in the cave walls. The quilted blanket thrown aside. Shattered kang bricks.
+
+Background: Through the cracked doorway — the cliff across the valley shifting. People emerging from cave entrances as flat shapes. A donkey bolting. Dust clouds rising.
+
+Audio direction:
+- SFX: A deep, violent rumbling from below — a low-frequency grinding of rock, the sharp crack of earth splitting — like timber breaking but deeper, the clatter of falling pottery shattering on earthen floor, the heavy thud of a loess chunk hitting the kang, the scrape of the figure's body sliding across silt-covered floor
+- Ambience: A continuous deep seismic roar — the sound of the earth itself moving, rising in intensity throughout the 8 seconds. The rattling vibration of every object in the cave. Distant muffled crashes as other caves collapse. The panicked braying of a donkey. The atmospheric pressure shifting — a low whooshing sound as air is displaced by moving earth
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium close-up, straight-on eye level. Locked camera, flat composition, no movement. The figure is centered in the frame, facing the camera directly. A field of rubble stretches at foot level. Classic adult animation confrontational close-up staging.
+
+Visual transition: Cut from the vast aerial view to an intimate, direct confrontation — the figure faces the viewer. Maximum emotional contrast with the wide landscape. Palette becomes nearly monochromatic — grey-tan earth, grey sky, the ghostly pale figure.
+
+Visual focus: The figure's face — the empty, hollow stare of someone carrying the weight of 830,000 deaths.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure stands perfectly still, facing the camera. Arms at sides. Eyes wide, staring directly at the viewer. No expression — devastating blankness. The translucent skin is coated in flat tan dust. At second 2, the figure does not move. Complete stillness. The only animation is the faint drift of dust particles around the figure. At second 4, a single slow blink — the orb-like eyes close and reopen. At second 5, the figure's head tilts very slightly — barely perceptible — as though the weight of the number is physical. At second 6, the eyes close. At second 7, they reopen. The stare resumes. Unbroken. Unflinching. The figure does not move for the remaining second.
+
+Flat even lighting. Mourning palette — grey-tan earth, flat grey sky, dusty ochre mounds, pale ghostly white figure. Almost monochromatic. Drained of warmth.
+
+Foreground: Objects protruding from settled loess at the figure's feet — a child's cloth shoe, a cracked ceramic rice bowl, a wooden comb, a bronze incense burner on its side. A Ming ceramic pillow with blue floral patterns, cracked. A wooden abacus with scattered beads.
+
+Midground: The figure, centered, dust-coated. Mounds of settled loess on either side. Bare wooden posts protruding like grave markers.
+
+Background: Vast, flat, featureless settled silt stretching to a grey horizon. The loess plateau as a uniform grey-tan plain. Flat grey sky merging with grey earth.
+
+Audio direction:
+- SFX: Absolute near-silence — only the faintest whisper of settling dust particles, a single tiny click as a bead from the buried abacus shifts under the weight of silt, the barely perceptible sound of the figure blinking — eyelids closing and opening
+- Ambience: The silence of mass death — oppressive, physical, total. No birds. No insects. No wind. No water. Just the vast, flat quiet of a depopulated landscape. The occasional micro-sound of earth settling — a soft tick, a grain of silt falling. The silence is the loudest thing.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

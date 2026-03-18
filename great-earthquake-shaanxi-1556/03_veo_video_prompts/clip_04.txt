@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static full wide shot, straight-on eye level. Locked camera, flat composition, no movement. A dramatic cross-section view of the loess plateau — the figure stands on the surface at the top of the frame, tiny against the massive vertical cross-section filling most of the 9:16 frame. Classic adult animation informational wide staging.
+
+Visual transition: Cut from intimate nighttime cave interior to expansive geological cross-section — a jarring scale shift. Palette changes from warm amber to cool geological tones — dusty tan, ochre, pale cream.
+
+Visual focus: The eight hundred feet of layered loess visible in cross-section — the compressed, uniform bands of silt that hold shape beautifully until they don't.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands at the top of the frame on the plateau surface, very small in scale. At second 0, the figure is looking down at the ground beneath its feet. At second 2, the figure takes a tentative step — the foot placement is deliberate, testing. At second 3, a tiny cascade of silt breaks away from the cliff edge near the figure's feet — a handful of particles falling down the exposed cross-section. The figure steps back. At second 5, the figure spreads both arms slightly outward for balance, sensing something unstable. At second 6, the figure looks slowly down the entire height of the cross-section — following the layers with its gaze. At second 7, the figure wraps arms around itself. Dawning realization.
+
+Flat even lighting. Geological palette — dusty tan, ochre yellow, pale cream, raw sienna bands in the cross-section. Dark brown at the base. Flat grey-blue river at the valley floor. Pre-dawn indigo sky above.
+
+Foreground: The surface layer — dry scrub grass, bare winter trees as flat shapes, yaodong cave entrances visible in the cliff top.
+
+Midground: The massive exposed cross-section — eight hundred feet of alternating horizontal bands of dusty tan, ochre, cream, and sienna. Tiny dark cave openings at various levels. The bands are compressed, uniform, but the small cascade of silt reveals their fragility.
+
+Background: Valley floor in dark brown. A thin flat grey-blue river at the bottom. The opposite valley wall with matching layered loess. A single flat black bird silhouette drifts across the cross-section.
+
+Audio direction:
+- SFX: The tiny patter of silt cascading down the cliff face — like sand in an hourglass, the scrape of the figure's foot testing the ground, a low creak from deep within the earth — almost sub-audible, the rustle of dry scrub grass in wind, a distant splash as silt hits the river far below
+- Ambience: The deep geological quiet of the plateau — wind sighing across the exposed cliff face, a low-frequency hum suggesting the immense mass of earth, the hollow whistle of wind through cave openings at different levels creating an eerie chord, the silence of compressed millennia
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

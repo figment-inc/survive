@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands behind a kneeling magistrate amid village ruins. Classic adult animation two-character medium staging.
+
+Visual transition: Cut from the flowing earth to the stillness of aftermath — days later. The movement and chaos of clip 08 gives way to exhausted, muted stillness. Palette shifts from the active ochre-tan flow to desaturated grey-tan rubble under a flat grey overcast sky.
+
+Visual focus: The magistrate's scroll on the ground — the act of counting the dead by village name, and the moment the count becomes impossible.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure stands behind and to the right of the kneeling magistrate, one hand raised to the temple area of the skull. Head bowed. At second 1, the figure watches as the magistrate's writing brush moves across the scroll — adding village names. At second 3, the magistrate's brush hand pauses. Trembles. The brush hovers over the paper. At second 4, the figure lowers its hand from the temple and takes a step closer, looking down at the scroll. At second 5, the magistrate sets down the brush and covers his face with both hands. At second 6, the figure looks from the magistrate to the devastation stretching beyond — the flattened landscape. At second 7, the figure's hand slowly rises and rests on the magistrate's shoulder — a gesture of shared grief. Then the hand drops. There is nothing to say.
+
+Flat even lighting. Grief palette — muted grey-tan, dusty ochre, flat grey overcast sky, dark blue of the magistrate's torn robes as the only color accent. Exhausted, drained.
+
+Foreground: The scroll on a flat stone, covered in columns of characters. Cracked ink stone, damaged brush. Rubble — broken bricks, splintered wood. The magistrate's cracked official seal in two pieces.
+
+Midground: The figure and the magistrate. The magistrate in torn dark blue Ming robes, dusty gauze cap askew. Behind them, a single standing wooden post — the remains of a village gate.
+
+Background: Flattened landscape — an undulating field of loess rubble. Jagged wall remnants protruding. No intact structures. Flat grey sky. Thin smoke wisps. Survivors digging. A figure sitting alone on rubble, head in hands. A thin dog in the debris.
+
+Audio direction:
+- SFX: The soft scratch of a writing brush on paper — delicate, precise, then stopping. The click of the brush being set down on stone. The soft rustle of the magistrate's torn robes as he covers his face. The faint scrape of the figure's foot stepping on rubble. A distant sound of digging — hands on earth.
+- Ambience: The quiet of massive devastation — not silence, but the absence of normal sounds. A low wind across rubble carrying fine dust. Distant, scattered sounds of survivors. The occasional crack of settling debris. A dog whimpering far away. The flat, heavy grey-sky quiet of a world that has been unmade.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

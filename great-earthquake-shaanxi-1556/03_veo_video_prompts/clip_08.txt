@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium-wide shot, eye level. Locked camera, flat composition, no movement. The figure is embedded waist-deep in flowing liquefied loess, arms flailing above the surface. The earth flows from upper-left to lower-right across the frame. Classic adult animation mid-disaster medium-wide staging.
+
+Visual transition: Cut from the suffocating cave interior to the exterior — the earth is now liquid and moving. The confinement of clip 07 gives way to the terrifying openness of being carried by flowing ground. Palette shifts from dark near-black to the full ochre-tan-brown of the flowing earth under a sickly grey-pink sky.
+
+Visual focus: The liquefied loess flowing like a thick river — the ground itself has become water, carrying the figure and everything else downhill.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure is waist-deep in the flowing earth, arms above the surface, fingers spread wide. The upper body twists against the current. At second 1, the figure reaches for a passing stone archway frame — the remnant of a yaodong entrance — and grabs hold. At second 3, the archway tilts and begins sinking. The figure loses grip and is carried further. At second 4, the silt level rises to the figure's ribcage — the flow is deepening. Arms windmill for balance. At second 5, a wooden door floats past and the figure grabs onto it — a momentary raft. At second 6, the door begins to submerge under the weight. The figure scrambles to keep the upper body above the surface. At second 7, the flow carries the figure past a half-buried stone lion statue. The figure looks at it as it passes — a momentary recognition of civilization being swallowed.
+
+Flat even lighting. Liquefaction palette — ochre tan, muddy brown, dusty grey, pale grey-pink sky. The flowing earth dominates. The figure's pale translucent skin contrasts starkly against the tan-brown flow.
+
+Foreground: The flowing loess — flat ochre-tan with darker brown streaks. Debris riding the flow: a wooden door, pottery shards, timber, a woven basket. Surface of the flow animated with slow, thick movement.
+
+Midground: The figure in the flow. A partially intact stone archway tilting and sinking. The half-buried Ming stone lion.
+
+Background: A valley being filled. Where terraced fields were, now uniform flowing silt. Dust in flat grey-tan clouds. Trees snapping and toppling. Other figures visible — arms above the surface. A rooftop breaking the surface before submerging.
+
+Audio direction:
+- SFX: The thick, wet sliding sound of liquefied earth moving — like heavy mud being poured at enormous scale, the crack of a stone archway breaking, the splash of the figure grabbing the floating door, the deep groan of a tree trunk snapping, the heavy thud of the stone lion being pushed along the bottom of the flow
+- Ambience: A continuous deep, heavy rumbling — the sound of earth flowing at landscape scale. The wet, sucking sound of liquefied silt. Muffled crashes as structures are engulfed and crushed within the flow. The rush of air being displaced as valleys fill. A low, constant roar unlike anything natural — the sound of solid ground becoming liquid.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

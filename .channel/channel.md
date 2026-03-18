@@ -86,30 +86,21 @@ Each beat spans 1–3 clips. The narration is one continuous audio stream — se
 
 ## Script Writing Rules
 
-- **Story first.** You are writing a 90-second story, not a 90-second lecture. If a sentence could appear unchanged on Wikipedia, rewrite it with "you" as the subject or add sensory texture.
-- **Nature documentary tone.** Calm, measured, authoritative. Warm British naturalist guiding you through the extraordinary. Genuine awe. Scientific precision.
-- **Continuous prose.** Write one flowing narrative, not isolated per-clip scripts. Sentences flow across clip boundaries.
-- **Present tense ONLY.** "You wake up" not "You've arrived." Immediacy is everything.
-- **Rhythm varies by beat.** Immersion + Attempt: longer, flowing sentences that build the world. Catastrophe: staccato punches averaging 5 words (max 8), each sentence causing or revealing the next. The rhythm shift IS the pacing.
-- **Causal narrative thread.** Every sentence connects to the one before it — causation, not just sequence. If a sentence could be deleted without the next sentence losing meaning, it's a factoid, not a story beat.
-- **Sensory texture.** At least two sentences must describe what the disaster FEELS like to the viewer's body — heat on skin, dust in lungs, the floor shaking, something cracking above you. These moments separate a story from a report.
-- **You in the catastrophe.** "You" must be the SUBJECT of at least one sentence in clips 06, 07, and 08. The disaster happens TO you, not around you while you watch statistics.
-- **Facts through feeling.** Every beat includes at least one specific, verifiable fact — but delivered through the viewer's experience, not as exposition.
-- **Sensory continuity.** If clip 03 establishes smoke, clip 04 still has smoke. The environment accumulates.
-- **Agency verbs.** The viewer acts: "You run", "You grab", "You shout." Not passive observation.
-- **Tension ratchet.** Every clip raises the stakes from the previous one. No plateaus. No breathing room.
-- **Callback endings.** The twist/payoff should echo or invert the hook for structural satisfaction.
-- **Definitive ending.** End with a verdict that lands on YOU, not a statistic. Leave the viewer stunned.
-- **95-105 words total.** Continuous prose, overlaid on the final stitched video.
+- **Story first.** You are writing a 90-second story, not a 90-second lecture. If a sentence could appear unchanged on Wikipedia, rewrite it.
+- **Nature documentary tone.** Calm, measured, authoritative — National Geographic meets PBS. The horror comes from composure, never snark.
+- **Continuous prose.** One flowing narrative across 12 clips. Sentences cross clip boundaries via em dash (—).
+- **Second person, present tense.** Always "you." Always now. "You" appears in every clip including the catastrophe — the disaster happens TO you.
+- **Causal chain.** Every sentence connects to the one before it. If a sentence could be deleted without the next losing meaning, cut it.
+- **Sensory texture.** What the disaster feels like in your body — heat, dust, shaking, cold. These moments separate a story from a report.
+- **The narrator never foreshadows.** No "little did you know," no "until it doesn't," no commentary on what is about to happen. Let the viewer discover it.
+- **190–220 words total.** At 2.4 words/second, every word earns its 0.4 seconds. Continuous narration overlaid on the final stitched video.
 
 ## TikTok / YouTube Shorts Optimization
 
-- **Voice on frame 1.** The dramatic hook statement plays over the very first visual. ZERO seconds of silence.
-- **Hook + framing line.** Hook = devastating fact (NEVER a question), immediately followed by "You would not want to be in the [Event], [Year]." The framing line tells the cold viewer what this video is about (narrated only, not rendered as on-screen text).
-- Target **~48 seconds** total video (8 clips), narration 95-105 words as continuous prose
-- **5-beat formula**: Hook + Framing (0-4s) grabs attention + identifies the event, Immersion (4-16s) builds the world, Attempt (16-28s) teaches through failure, Catastrophe (28-40s) delivers clinical devastation, Conclusion (40-48s) leaves the viewer stunned
-- **Visual change every 4–6 seconds** — fast cuts, angle changes, new information in every shot
-- **Every clip raises the stakes** — the tension ratchet is the retention engine
+- **Voice on frame 1.** The hook plays over the very first visual. ZERO seconds of silence.
+- **Hook + framing line.** Clip 01 ends with "You would not want to be in [Event], [Year]." Never open with a question. The hook is whatever makes a stranger stop scrolling — there is no formula.
+- Target **~90 seconds** total video (12 clips x 8s = 96s raw, ~92s effective after crossfades), narration 190–220 words as continuous prose
+- **Visual change every 8 seconds** — each clip is a new shot, new information
+- **Every clip raises the stakes** — no plateaus, no breathing room
 - Narrator fills EVERY clip — no silent clips, no dead air
-- **Callback ending** — the twist/payoff echoes the hook for structural satisfaction
-- End with an **open-loop** — an unresolved fact that drives comments and shares
+- **Callback ending** — the last line echoes or reframes the hook. The viewer re-hears the opening with new meaning.

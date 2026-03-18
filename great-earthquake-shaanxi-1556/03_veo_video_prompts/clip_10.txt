@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static extreme wide shot, high angle looking down. Locked camera, flat composition, no movement. An aerial-perspective view of the transformed Shaanxi landscape. The figure is tiny on a ridge at the edge of the frame. Classic adult animation scale-of-aftermath extreme wide staging.
+
+Visual transition: Cut from the intimate human grief of the magistrate scene to the vast transformed landscape — pulling back to maximum scale. The devastation is no longer personal; it is geological. Palette shifts from the muted grey-tan of rubble to the broader aftermath palette — grey-blue water, raw ochre scars, flat grey sky.
+
+Visual focus: The new lake filling where villages once stood — the landscape itself has been permanently rewritten.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands on the ridge, tiny in scale, upper-right of the frame. At second 0, the figure is perfectly still — arms at sides, looking out over the devastation. At second 2, the figure slowly raises one hand to gesture toward the new lake below — not pointing, just an open-palmed gesture of incomprehension. At second 4, the figure turns slightly to follow the river that now flows in the wrong direction — head tracking its reversed course. At second 6, the hand drops. The figure stands absolutely still. At second 7, the figure's head drops — chin to chest. Witnessing what cannot be undone.
+
+Flat even lighting. Aftermath palette — grey-blue new lake water, raw ochre-yellow fresh earth scars, weathered tan, flat grey sky. Muted, exhausted. No warmth. Desaturated.
+
+Foreground: The cracked ridge — dead bare trees with white trunks, a toppled stone boundary marker.
+
+Midground: The new lake of flat grey-blue water filling a former valley. A river flowing in the wrong direction — flat blue-grey line curving away from its original channel. Massive fresh scars on hills where cliff faces collapsed — raw ochre against weathered tan.
+
+Background: Rolling loess hills with massive collapse scars stretching to the horizon. New gullies and canyons. A section of damaged Great Wall visible on a distant ridge. Thin lines of refugees on ridge paths. Smoke from temporary camps. Tiny boats on the new lake. Flat grey sky meeting grey earth at an indistinct horizon.
+
+Audio direction:
+- SFX: The distant lapping of water in the new lake — a sound that shouldn't be there, a low creak of a dead tree shifting in the wind, the faint splash of a boat's oar far below, a stone dislodging from the ridge edge and tumbling down — clacking against rock as it falls
+- Ambience: The wind across an altered landscape — different from before, the acoustics changed by new valleys and lakes. A low, hollow moaning as wind moves through newly created gullies. Distant water sounds where there was never water before. The eerie quiet of a depopulated landscape — no village sounds, no farm sounds, just wind and water and emptiness.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

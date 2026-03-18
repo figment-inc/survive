@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, low angle looking up at the collapsing cliff face. Locked camera, flat composition, no movement. The figure is in the lower third, tiny against the massive falling wall of earth. Classic adult animation scale-of-disaster wide staging.
+
+Visual transition: Cut from interior cave to exterior — the scale of destruction explodes outward. From the intimate cracking ceiling to entire cliff faces collapsing. Palette intensifies — dusty tan saturates to deep amber, dust fills the frame.
+
+Visual focus: The collapsing cliff face — sixty feet of loess detaching as a single wall and falling into the valley, burying everything.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure is mid-sprint across the valley floor, tiny in the lower third of the frame. Arms thrown over the skull defensively. At second 1, the entire cliff face above begins to detach — a massive wall of flat ochre silt slides forward. At second 2, the yaodong entrances disappear — swallowed by the cascading earth. Stone archways crumble. At second 3, the figure stumbles, nearly falls, catches balance. At second 4, the wall of silt hits the valley floor — an enormous flat cloud of tan-grey dust explodes outward. At second 5, the dust cloud engulfs the figure's lower half. At second 6, the opposite valley wall begins collapsing too — a mirror catastrophe visible through the dust. At second 7, the figure is barely visible through the dense dust — just the pale ghostly form and the stark black outlines, arms still over the skull, staggering.
+
+Flat even lighting. Catastrophe palette — ochre yellow saturated to deep amber, charcoal grey dust, dusty tan, flat grey-pink dawn sky barely visible above. Everything choked with silt rendered as flat overlapping tan shapes.
+
+Foreground: Chunks of loess tumbling into the frame — flat ochre and tan blocks with black outlines. A broken wooden beam. Thick dust as flat tan-grey clouds. A stone Buddha niche tumbling.
+
+Midground: The figure running. The cliff face in full collapse behind — yaodong mouths disappearing. Stone archways crumbling. The valley filling with silt.
+
+Background: The opposite valley wall collapsing. A grey-pink dawn sky. Dozens of simplified flat figures fleeing. Animals scattering. A wooden cart crushed.
+
+Audio direction:
+- SFX: The thunderous roar of a cliff face collapsing — a deep, sustained avalanche sound, the crack and splinter of stone archways breaking, the heavy impact of massive loess blocks hitting the valley floor — each a deep percussive thud, the snap of wooden beams, the whoosh of displaced air as the dust cloud surges outward
+- Ambience: An overwhelming wall of sound — the continuous deep grinding roar of earth moving at scale, punctuated by individual collapses. The hiss of silt pouring like water. Distant identical collapses along the entire valley — the sound echoing from cliff face to cliff face. The panicked sounds of animals — donkeys braying, chickens squawking — growing muffled as dust fills the air
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

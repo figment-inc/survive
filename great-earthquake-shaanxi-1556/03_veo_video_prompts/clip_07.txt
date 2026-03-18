@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static extreme close-up, slightly high angle looking down. Locked camera, flat composition, no movement. The figure is crouched in a tiny collapsing space — the cave ceiling inches above. The frame is almost entirely filled with the figure and the enclosing earth. Classic adult animation claustrophobic extreme close-up.
+
+Visual transition: Cut from the vast exterior collapse to the suffocating interior — maximum scale contrast. From wide destruction to absolute confinement. Palette collapses to almost monochromatic deep ochre and charcoal.
+
+Visual focus: The ceiling pressing down — the gap between the loess ceiling and the figure's skull shrinking in real time.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure is crouched in fetal position, arms wrapped over the skull, elbows to knees. The ceiling is a hand's width above. Dust fills the space in dense flat tan-grey. At second 1, the ceiling drops another inch — visibly pressing closer. The figure's spine compresses. At second 2, the figure's orb eyes open wide — visible through the gap between the arms wrapped over the skull. Pure panic. At second 3, the figure tries to push upward against the ceiling with both hands — the arms straighten, pressing against the loess. The earth does not move. At second 5, the arms buckle. The ceiling wins. The figure returns to the fetal crouch, tighter now. At second 6, the figure's head turns sideways, trying to find air. Dust covers the translucent skin. At second 7, the eyes squeeze shut. The body goes still — not dead, but surrendering to the compression. The dust continues to fill the space.
+
+Flat even lighting — almost no light. Suffocation palette — deep ochre, raw sienna, charcoal darkness at edges. The figure is ghostly pale white against the enclosing earth. The flat amber is nearly extinguished. Near-darkness.
+
+Foreground: The collapsed ceiling — rough loess pressing down. Broken wooden beam fragments. Dense flat tan-grey dust.
+
+Midground: The figure in the crushing space. Walls closed in. The kang is shattered. Cracks web across every surface.
+
+Background: No background — the space has closed. Only earth. The faintest suggestion of the cave's original shape in slightly different tones.
+
+Audio direction:
+- SFX: The slow, grinding creak of earth compressing — a low, steady pressure sound, the crack of a wooden beam snapping under weight, the scrape of the figure's hands pushing against the ceiling — fingertips on dry earth, the patter of loose silt falling in the darkness, the muffled thud of the ceiling dropping another fraction of an inch
+- Ambience: Suffocating near-silence — all outside sounds completely blocked by the enclosing earth. Only the figure's own physical sounds are present — the scrape against earth, the shift of body weight. A deep, sub-audible rumble of the ongoing earthquake transmitted through the solid earth, felt more than heard. The soft hiss of silt pouring into the shrinking space.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

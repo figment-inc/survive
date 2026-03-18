@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, slightly low angle — mirroring clip 01's exact composition. Locked camera, flat composition, no movement. The figure at the base of a loess cliff, one hand on the wall. Same framing as the opening — but the world has changed. Classic adult animation callback bookend staging.
+
+Visual transition: Cut from the close-up confrontation to the wide callback shot — a deliberate mirror of clip 01. Same composition, same pose, devastated world. Palette mirrors clip 01's ochre and sienna but desaturated, greyed, drained of life.
+
+Visual focus: The figure's hand pressing against the broken, cracked cliff wall — the same gesture as clip 01, but now the earth has answered.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure stands at the cliff base — same position as clip 01. One palm pressed against the loess wall. But the posture is different — heavy, defeated. The head hangs instead of looking up. At second 1, the figure slowly traces a finger along the wall — the same gesture as clip 01 — but now the finger follows a jagged crack instead of smooth layered striations. At second 3, a larger cascade of silt crumbles away under the touch — more than in clip 01. The figure does not pull back this time. Just watches it fall. At second 5, the figure slowly turns to look where the yaodong entrances used to be — they are gone. Sealed. Buried. Dark scars in the cliff face. At second 6, the figure turns back to the wall. Presses the palm flat again — harder this time. As if asking the earth something. At second 7, the figure's hand slowly slides down the wall and drops to its side. Head bows. The figure stands still at the base of the ruined cliff.
+
+Flat even lighting. Callback palette — the same ochre, raw sienna, and dusty tan from clip 01, but desaturated, greyed, drained. The same colors robbed of warmth. Flat grey sky instead of pre-dawn indigo. The figure is dust-coated pale white.
+
+Foreground: The same stone path from clip 01, cracked and buckled. The ceramic water pot — shattered. The wooden handcart — buried under loess. Dust particles drift as flat tan stipple — the same motif, carrying the weight of death.
+
+Midground: The figure at the cliff base. Where yaodong entrances were — sealed, collapsed dark scars. Stone arches broken. The red lantern crushed under rubble. One cloth shoe barely visible above the silt.
+
+Background: The loess cliff with massive sections missing — fresh raw ochre scars. Layered striations exposed and broken. Flat grey sky. The toppled stone stele cracked in half. A single crow on the fallen stele.
+
+Audio direction:
+- SFX: The soft scrape of a finger tracing a crack in dry earth — rougher than in clip 01, the cascade of crumbled loess falling — larger than before, hitting the stone path with a heavier patter, the gentle press of a palm against broken earth, the crow cawing once — sharp, solitary, the soft hiss of wind-carried dust against the cliff face
+- Ambience: The same pre-dawn plateau quiet as clip 01 — but emptied. No rooster. No donkey. No distant figure with water buckets. Just the wind through broken cave openings making a lower, more hollow sound. The settling of damaged earth — occasional soft cracks and shifts. The absence of everything that was alive in clip 01 is the loudest sound.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
