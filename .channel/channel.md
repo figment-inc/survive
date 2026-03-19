@@ -28,7 +28,7 @@ Classic American adult animation (Family Guy seasons 10-20 aesthetic):
 ## Format
 
 - Vertical 9:16 short-form video optimized for YouTube Shorts, TikTok, and Instagram Reels
-- **~35 seconds per episode** (35s raw, ~33s effective after crossfades)
+- **~35 seconds per episode** (40s raw, ~38s effective after crossfades — narration fills ~33s, final seconds are visual-only)
 - **75–85 words of narration** at ~2.4 words/second (measured ElevenLabs pacing) as **continuous prose** — narration flows across clip boundaries as one unbroken audio stream, overlaid on the final stitched video in post-production
 - Classic American adult animation style (flat cel-shaded, thick outlines)
 - The skeleton appears on camera but never speaks — narration is off-screen voiceover
@@ -39,13 +39,13 @@ Classic American adult animation (Family Guy seasons 10-20 aesthetic):
   - **Whisper**: Word-level timestamps on the continuous narration for visual sync reference
   - **ffmpeg**: Overlays full narration + music onto final stitched video in a single pass
 - Remotion-rendered karaoke captions (Whisper transcription + transparent overlay)
-- **5 clips** (all 7s) — target visual change every 7 seconds
+- **5 clips** (all 8s) — target visual change every 8 seconds
 - Static locked camera throughout — flat 2D animated compositions
 - Native Veo output durations only — NEVER crop or trim video
 
 ## Episode Structure (3-Beat Narrative Arc)
 
-Every episode follows this arc across 5 clips (~33s effective video, narration as continuous prose ~75-85 words):
+Every episode follows this arc across 5 clips (~38s effective video, narration as continuous prose ~75-85 words):
 
 1. **The Hook** (clip 01, 0–5s) — Voice starts IMMEDIATELY on frame 1. No silent establishing shots. No questions. One visceral, scroll-stopping line that makes the viewer think "wait, what?" followed by the framing line: "You would not want to be in/at [Event], [Year]." Goal: curiosity gap + instant event identification.
 2. **Easy Explanation** (clips 02–04, 5–26s) — Three clips that build the situation fast. Clip 02 grounds the viewer in a place and time with one sensory detail. Clip 03 introduces the fatal element and activates it. Clip 04 is the catastrophe — staccato, sensory, physical. The disaster reaches you. The viewer should understand what happened and FEEL it in their body.
@@ -93,8 +93,8 @@ Each beat spans 1–3 clips. The narration is one continuous audio stream — se
 
 - **Voice on frame 1.** The hook plays over the very first visual. ZERO seconds of silence.
 - **Hook + framing line.** Clip 01 includes "You would not want to be in [Event], [Year]." Never open with a question. The hook is whatever makes a stranger stop scrolling.
-- Target **~35 seconds** total video (5 clips x 7s = 35s raw, ~33s effective after crossfades), narration 75–85 words as continuous prose
-- **Visual change every 7 seconds** — each clip is a new shot, new information
+- Target **~35 seconds** total video (5 clips x 8s = 40s raw, ~38s effective after crossfades), narration 75–85 words as continuous prose
+- **Visual change every 8 seconds** — each clip is a new shot, new information
 - **Every clip raises the stakes** — no plateaus, no breathing room
 - Narrator fills EVERY clip — no silent clips, no dead air
 - **Twist payoff ending** — the last line reframes or inverts the hook, leaving the viewer viscerally relieved they weren't there.

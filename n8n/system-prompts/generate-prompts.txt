@@ -39,11 +39,11 @@ Return valid JSON with this exact structure:
   "framing_line": "<The exact 'You would not want to be in [Event], [Year]' line from clip 01>",
   "style_description": "<3-5 sentences: dominant color palette with specific named colors, lighting mood, atmospheric quality, recurring visual motifs>",
   "clips": [
-    {"id": "01", "duration": 7, "type": "HOOK", "has_character": true, "resolution": "720p"},
-    {"id": "02", "duration": 7, "type": "SCENE", "has_character": true, "resolution": "1080p"},
-    {"id": "03", "duration": 7, "type": "SCENE", "has_character": true, "resolution": "720p"},
-    {"id": "04", "duration": 7, "type": "SCENE", "has_character": true, "resolution": "1080p"},
-    {"id": "05", "duration": 7, "type": "SCENE", "has_character": true, "resolution": "720p"}
+    {"id": "01", "duration": 8, "type": "HOOK", "has_character": true, "resolution": "720p"},
+    {"id": "02", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "1080p"},
+    {"id": "03", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "720p"},
+    {"id": "04", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "1080p"},
+    {"id": "05", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "720p"}
   ],
   "image_prompts": ["<clip_01 prompt>", "... 5 total"],
   "video_prompts": ["<clip_01 prompt>", "... 5 total"],
