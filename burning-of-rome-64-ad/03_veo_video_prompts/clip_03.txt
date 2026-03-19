@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static wide shot, slightly high angle looking down into a narrow alley. Locked camera, flat composition, no movement. The figure stands at ground level in the alley, dwarfed by towering tenement buildings on both sides.
+
+Visual transition: From the tight interior stairwell to a wide exterior view — pulling back to show the full scale of Rome's dangerous urban density. Both shots emphasize verticality but from opposite perspectives.
+
+Visual focus: The impossibly narrow alley with buildings leaning inward — arm-width between walls.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure walks slowly through the narrow alley (seconds 0-3), arms slightly extended, fingertips brushing both walls. Head cranes upward, looking at the towering buildings (seconds 3-5). At second 5, a splash of liquid falls from above — the figure flinches and sidesteps, pressing against one wall. The figure looks up in disgust, then continues walking, now with arms pulled in close to the body (seconds 5-8). A man squeezes past sideways in the opposite direction, and the figure has to press flat against the wall to let him pass (seconds 7-8).
+
+Flat even lighting. Cramped palette — shadow charcoal, timber brown, dirty plaster beige, muddy green at ground level, thin strip of pale blue sky above. Flat and oppressive.
+
+Foreground: A protruding wooden beam at head height. Refuse on the ground — vegetable scraps, broken pottery, dark puddles in flat muddy brown-green.
+
+Midground: The figure in the narrow alley. Timber buildings lean inward — upper storeys jutting out, nearly touching overhead. Laundry crisscrosses, blocking the sky.
+
+Background: Looking upward — six, seven storeys of stacked timber and plaster, each extending further over the alley. A thin strip of pale blue sky at the very top. Wooden braces between opposing walls.
+
+Audio direction:
+- SFX: Sandals squelching in refuse, fingertips scraping along rough plaster walls, a loud splash of liquid hitting the ground from above, the figure's feet scuffling sideways to dodge, cloth brushing against cloth as the man squeezes past
+- Ambience: Dense claustrophobic alley sounds — echoing voices bouncing between close walls, the drip of water from leaking pipes, flies buzzing around refuse, the creak of wooden overhangs, distant hammering from a workshop, the muffled thump of footsteps on floors above
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

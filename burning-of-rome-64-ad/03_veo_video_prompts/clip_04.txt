@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands at the end of a market street facing a burning oil merchant's stall near the Circus Maximus.
+
+Visual transition: From the calm daytime alley to an evening market scene where chaos is erupting — the palette shifts abruptly from muted browns to saturated orange. The fire is HERE now.
+
+Visual focus: The burning oil merchant's stall — spilled oil feeding the flames, the fire spreading along the ground toward adjacent stalls.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands watching the burning stall (seconds 0-2), arms at sides, body tense. At second 2, the oil slick on the ground ignites — a line of flat orange flame races along the spilled oil toward the figure. The figure stumbles backward (seconds 2-4), one arm raised to shield the face. At second 4, a gust of wind hits — ember particles blast horizontally across the frame, and the canvas awning of the next stall erupts in flame. The figure turns and breaks into a run toward the camera (seconds 5-7), arms pumping. At second 7-8, the figure looks back over one shoulder — the entire market row behind is now on fire.
+
+Flat even lighting. Ignition palette — bright orange, deep Roman red, charcoal black smoke, dark cobblestone grey, the flat dark slick of spilled oil. Ember particles increase exponentially through the clip.
+
+Foreground: Overturned wooden table, shattered amphorae, dark oil slick with flame racing along it. Scattered figs and grain.
+
+Midground: The figure and the burning stalls. Flat flame shapes, thick smoke columns. Adjacent stalls catching fire in sequence.
+
+Background: The curved stone wall of the Circus Maximus. The valley between hills channeling wind and fire. Ember particles streaming horizontally.
+
+Audio direction:
+- SFX: A sudden whoosh as oil ignites — a deep rushing flame sound, timber cracking and popping in the heat, clay amphorae shattering from thermal shock, the canvas awning catching fire with a flapping roar, running sandals slapping cobblestones, a market table collapsing
+- Ambience: Rising fire roar — starting as a crackling and building to a deep continuous rushing sound. Wind gusting through the valley between hills — a funneling howl. Crowd panic in all directions — running feet, wordless shouts, cart wheels on stone. The fire consuming wood — a continuous snapping and groaning
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium wide shot, eye level. Locked camera, flat composition, no movement. The figure stands in Nero's gardens, receiving bread from a Roman official in a white toga. Displaced people line up behind.
+
+Visual transition: From the grey exhaustion of the refugee field to the green of Nero's gardens — a stark visual shift. Color returns for the first time since the fire started — but the burnt ruins are visible beyond the garden wall, undercutting the relief.
+
+Visual focus: The bread loaf being handed over — a simple human gesture in the middle of devastation.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure shuffles forward in a line of people (seconds 0-2), looking down, exhausted. Reaches the front of the line and the official extends a bread loaf (seconds 2-4). The figure reaches out slowly and takes the bread with both hands (seconds 4-5). Holds it and looks at it — a moment of relief mixed with suspicion (seconds 5-7). Then the figure looks past the official toward the garden — beautiful green, marble columns — and then beyond the wall to the smoking ruins of the city. Expression shifts from gratitude to wariness (seconds 7-8).
+
+Flat even lighting. Relief palette — muted garden green, marble white, pale grey-blue sky, with burnt grey ruins visible beyond. The figure is flat pale white.
+
+Foreground: Wooden table with stacked grain sacks and clay bowls. Bronze grain measure. Spilled wheat on stone.
+
+Midground: The figure receiving bread from the official. Displaced people in rough tunics lining up along a cypress-lined garden path.
+
+Background: Nero's gardens — flat green cypress trees, marble columns. Beyond the garden wall — grey rubble and thin smoke wisps. Clearing sky with lingering haze.
+
+Audio direction:
+- SFX: Shuffling sandals on a stone garden path, the soft thud of bread placed into cupped hands, grain pouring from a measure into a clay bowl, a wooden cart wheel creaking, water trickling in a garden irrigation channel
+- Ambience: A garden setting — birdsong returning tentatively, wind in cypress trees, the murmur of a relief line — shuffling, coughing, children fidgeting. Beyond the wall, the faint residual crackle of cooling ruins. A soldier's armor clinking as he shifts his weight on guard duty
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

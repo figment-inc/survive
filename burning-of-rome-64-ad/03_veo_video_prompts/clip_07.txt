@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static wide environmental shot, low angle. Locked camera, flat composition, no movement. The figure sits in the foreground of an open field, staring at the burning city on the distant horizon.
+
+Visual transition: From the tight trapped intersection to the widest shot of the episode — pulling all the way back to show the entire city ablaze from the perspective of those who escaped. A dramatic scale shift.
+
+Visual focus: The entire Rome skyline ablaze — a solid wall of flat orange-red fire stretching across the full width of the frame.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure sits huddled on the ground, knees to chest, arms wrapped around shins, staring forward (seconds 0-4). A slow, slight rocking motion — barely perceptible. At second 4, a distant crash is heard — a temple collapsing — and a fresh column of orange flame shoots upward on the horizon. The figure flinches slightly but does not look away (seconds 4-6). At seconds 6-8, the figure slowly lowers its head until the forehead rests on the knees. Defeated. The burning city continues behind.
+
+Flat even lighting. Devastation panorama palette — flat saturated orange-red across the entire horizon, charcoal black sky above, dry ochre-brown field. The figure is flat pale white — the smallest and palest shape.
+
+Foreground: Dry grass and bare earth. A discarded clay jug. A torn linen cloth. Ember particles settle on the grass.
+
+Midground: The figure among dozens of displaced people — families, elderly, children. Makeshift blanket shelters. A mother and child. People staring at the fire.
+
+Background: The entire seven-hilled skyline ablaze. The Circus Maximus with flat flames inside. Columns of black smoke merging into solid flat charcoal sky. Stone temples glowing orange with cracks.
+
+Audio direction:
+- SFX: A distant massive crash — the deep, reverberating collapse of a stone temple, a rush of distant fire as a new section ignites, small embers landing on dry grass with tiny hissing sounds, the creak of makeshift shelters shifting in the wind
+- Ambience: The deep, continuous roar of a city-wide fire — audible even at this distance, like a constant low thunder. Hot dry wind blowing across the field, rustling dry grass. The quiet sounds of exhausted people — shuffling, coughing (not speech). Distant fire punctuated by periodic crashes and collapses
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

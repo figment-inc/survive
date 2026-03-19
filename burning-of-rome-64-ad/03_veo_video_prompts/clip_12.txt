@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium wide shot, slightly low angle. Locked camera, flat composition, no movement. The figure stands in Nero's gardens at night — the same garden from clip 09, now transformed into a scene of horror with rows of burning stakes lining the paths.
+
+Visual transition: From the cold political crowd scene to a nighttime garden — the same location as clip 09 but utterly transformed. The gentle green garden is now lit in the same flat orange as the Great Fire. The visual callback is the point — the fire color has returned, but now it's deliberate.
+
+Visual focus: The rows of burning stakes receding into the distance — the horrifying repetition and the deliberate use of fire as illumination for a garden party, echoing the fire that destroyed the city.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure walks into the garden (seconds 0-2) — recognizing the same path from the bread distribution. The figure stops — seeing the rows of burning stakes (seconds 2-3). Both hands slowly rise to press against the sides of the skull-like head — a classic horror pose (seconds 3-5). The figure staggers backward one step (seconds 5-6). The figure turns slightly and sees the banquet in the portico — reclining feasters, music, laughter (seconds 6-7). The figure turns back to the burning stakes. Hands still on head. Frozen (seconds 7-8). The orb-like eyes are wide and unblinking throughout.
+
+Flat even lighting. Final horror palette — deep indigo-black sky, flat orange-amber torch glow, dark garden green, bone white on the figure. The orange matches the Great Fire palette exactly — deliberate visual echo.
+
+Foreground: The same garden path — marble bench with lion-paw feet, the irrigation channel. Torches lining the path in flat orange-amber.
+
+Midground: The figure on the path. Rows of tall wooden stakes on both sides, with abstracted flame-wrapped forms burning — simplified dark silhouettes on poles. Stylized, not graphic. Horror is in repetition and context.
+
+Background: The garden portico lit for a banquet — torches, garlands, a long table with reclining feasters. The same cypress trees, backlit by burning stakes. Deep indigo-black sky. A lyre player in silhouette.
+
+Audio direction:
+- SFX: The figure's slow footsteps on stone path, a sudden gasp-like intake of breath (non-verbal — just a sharp inhale), the continuous crackle and pop of burning stakes — a sickening echo of the Great Fire sounds, distant clinking of metal goblets and bronze platters from the banquet, a lyre being plucked — faint, distant, obscenely cheerful
+- Ambience: The steady, horrible crackling of the burning stakes — the same fire sound from the catastrophe clips, now smaller and more intimate. Night insects. The distant murmur of a party — laughter (not speech — just the sound). The contrast between the festive ambience and the crackling stakes is the entire audio point. A dry hot wind through the garden
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

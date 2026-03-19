@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static low-angle shot looking upward through a tenement stairwell. Locked camera, flat composition, no movement. The figure climbs the wooden stairs carrying an amphora, with multiple storeys visible above.
+
+Visual transition: From the wide exterior street shot to a tight interior vertical composition — emphasizing the claustrophobic danger of these buildings.
+
+Visual focus: The staggering vertical height of the wooden staircase — the death trap nature of the building.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure climbs the stairs slowly, straining under the weight of a large clay amphora balanced on one shoulder (seconds 0-3). At second 3, the entire building sways — the figure stumbles, grabs the wooden railing with the free hand, the amphora nearly slips. The figure steadies (seconds 3-5). Continues climbing, the stairs creaking audibly with each step (seconds 5-7). At second 7, the figure pauses at a landing, breathing heavily, and looks upward at the remaining storeys above. An old woman squeezes past on the narrow stairs (seconds 7-8).
+
+Flat even lighting. Interior palette — dry ochre yellow, warm timber brown, dusty plaster beige, flat charcoal in the deeper stairwell above. A small oil lamp gives a flat yellow circle on one wall.
+
+Foreground: The bottom stair railing, cracked and splintered. Worn leather sandals on a lower step. Dust particles rendered as small flat pale dots.
+
+Midground: The figure on the stairs. Exposed timber framing visible through crumbling plaster walls. The staircase visibly flexes and sways.
+
+Background: Multiple landings above — laundry on railings, a child peering down, the building leaning. A thin sliver of blue sky through a small window.
+
+Audio direction:
+- SFX: Heavy wooden stairs creaking and groaning under weight, the scrape of clay amphora against plaster wall, a loud structural groan as the building sways — deep timber stress sound, the figure's hand slapping the railing to catch balance, the old woman's shuffling sandals as she passes
+- Ambience: Dense tenement life — muffled arguments through thin walls, a baby crying on an upper floor, the sizzle of cooking from behind a door, wooden framework popping and settling, the constant low groan of an overstressed building
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

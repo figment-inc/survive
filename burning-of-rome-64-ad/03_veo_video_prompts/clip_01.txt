@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium wide shot. Locked camera, flat composition, no movement. The figure stands in a narrow Roman street looking toward a distant orange glow above the rooftops. Classic adult animation medium wide staging.
+
+Opening shot — no previous clip. Establishes the calm before the catastrophe — a normal Roman evening suddenly interrupted by a distant glow.
+
+Visual focus: The distant orange glow over the rooftops — the fire has just started and is still far away.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure walks casually down the narrow street (seconds 0-3), then slows and stops as the orange glow becomes visible above the rooftops (second 3-4). The figure tilts head upward, squinting at the glow (seconds 4-5). One hand reaches up to touch the wall for balance. The figure takes a tentative step backward (seconds 5-7). At second 7, a drift of flat ember particles floats past the figure's face. The figure flinches and turns, looking back down the street toward the viewer with widened orb-like eyes — dawning alarm (second 7-8).
+
+Flat even lighting. Evening palette — terracotta orange, dry ochre yellow, burnt sienna, charcoal shadow, deep Roman red sky glow. Flat and warm.
+
+Foreground: A toppled clay amphora leaking dark oil across cobblestones. A wooden stool. Flat orange ember particles drift across the lower frame, increasing in density over the 8 seconds.
+
+Midground: The figure in the narrow street. Tall timber-and-plaster tenement walls rise on both sides. Laundry lines with drying tunics sway slightly in a breeze.
+
+Background: Above the roofline, the flat orange-red glow intensifies gradually over the 8 seconds — starting as a faint warm tinge and growing to a clear fiery presence. Dark charcoal smoke columns slowly build. The silhouette of the Circus Maximus is visible. A few distant figures appear on rooftops.
+
+Audio direction:
+- SFX: Leather sandals scuffing on cobblestones, the hollow thunk of the amphora being kicked as the figure walks past, a distant crash of timber — faint and far away, the soft crackle of a fire growing at a distance, a dog barking in alarm somewhere nearby
+- Ambience: A warm Roman evening — the murmur of families in tenements, the clatter of cookware through open windows, a distant crowd noise from the Circus Maximus. Over the 8 seconds, the ambient sound shifts — the crowd noise becomes agitated, the dog barking becomes more frantic, a faint roar of fire begins to build at the edge of hearing
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

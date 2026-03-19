@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands in a crowd in the Roman Forum, listening to an official on a raised platform making an accusatory announcement.
+
+Visual transition: From the wide construction site to a political crowd scene — the visual scale shifts from landscape to human density. The palette moves from warm ash-greys to cold marble-greys and political whites.
+
+Visual focus: The official on the rostra pointing accusingly — and the small group of frightened people at the edge of the crowd who have been singled out.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands in the crowd, looking up at the platform (seconds 0-3). The official gestures dramatically — the crowd reacts. The figure's head tilts in confusion — one hand comes up to the chin (seconds 3-5). The figure looks around at the angry crowd, bewildered — who are these people being blamed? (seconds 5-6). The figure's gaze lands on the small frightened group at the crowd's edge — plainly dressed, huddled together (seconds 6-7). The figure looks back at the official, then back at the frightened group — understanding dawning, expression shifting from confusion to unease (seconds 7-8).
+
+Flat even lighting. Scapegoating palette — cold marble grey, pale blue, toga white, angry red on flushed crowd faces. A colder, more political palette.
+
+Foreground: Shoulders and heads of crowd members in rough tunics. A raised fist. The back of a shaved head.
+
+Midground: The figure in the crowd. The official on the rostra with purple-striped toga. A Praetorian Guard in armor. A painted proclamation board.
+
+Background: The damaged Roman Forum — blackened temple columns, cracked marble, scaffolding. Clearing pale blue sky.
+
+Audio direction:
+- SFX: The sharp crack of a fist striking a wooden railing on the platform for emphasis, the rumble of an angry crowd surging — feet stamping on stone, a fist pounding a palm, the metallic clank of the Praetorian Guard's armor as he shifts, a clay pot thrown and shattering against stone
+- Ambience: A politically charged crowd — the low murmur of anger building, scattered stomping in unison, the hiss of whispered accusations passing through the crowd. Forum acoustics — sounds echoing off marble facades. The wind through damaged columns making a hollow whistling sound
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

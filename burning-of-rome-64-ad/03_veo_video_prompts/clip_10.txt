@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, low angle. Locked camera, flat composition, no movement. The figure stands small in the lower frame, looking up at surveyors driving stakes into the charred ground — the foundations of Nero's Domus Aurea (Golden Palace) being marked out.
+
+Visual transition: From the gentle garden relief to the harsh reality of Nero's rebuilding — the green garden is gone, replaced by the same ashen rubble from before, now being surveyed for a palace. The palette returns to greys but with cold, political undertones.
+
+Visual focus: The enormous scale of the staked-out foundations — stretching into the distance, dwarfing the figure and the ruins of homes.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands stiffly, looking at the surveyors working on higher ground (seconds 0-3). The figure's fists clench slowly at the sides (seconds 3-4). The figure steps forward, as if to approach, then stops — a soldier moves to block the path (seconds 4-6). The figure looks down at the scorched ground — a child's wooden toy horse is half-buried in ash at the figure's feet (seconds 6-7). The figure looks back up at the stakes and measuring ropes stretching endlessly. Fists shake at the sides (seconds 7-8).
+
+Flat even lighting. Aftermath palette — ashen grey, charcoal black, burnt brown. The surveyors' white tunics and fresh rope are the only clean elements — a stark contrast.
+
+Foreground: Charred rubble — blackened timber, cracked stone, a crushed terracotta pot. A sooty child's wooden horse toy half-buried in ash.
+
+Midground: Roman surveyors with a groma instrument, stretching measuring ropes. Wooden stakes marking enormous foundations.
+
+Background: Staked foundations stretching far into the distance. Architectural plans on a wooden board. Ruined city beyond — broken walls, standing columns. Pale grey-blue sky, slightly hazy.
+
+Audio direction:
+- SFX: The sharp thwack of wooden stakes being hammered into the ground — rhythmic and relentless, measuring ropes snapping taut, the figure's foot crunching on charred rubble, the metallic clink of the groma's plumb bobs swaying, a distant wooden cart being loaded with rubble — scraping and thumping
+- Ambience: A construction site emerging from ruins — the rhythmic hammering of stakes, workers dragging debris, the creak of wooden carts, wind blowing ash across open ground. The absence of neighborhood sounds — no cooking, no children playing, no daily life. Just construction
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

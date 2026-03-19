@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, high angle looking down at a street intersection. Locked camera, flat composition, no movement. The figure stands trapped at a crossroads — one direction blocked by collapsed burning rubble, the other obscured by dense flat smoke.
+
+Visual transition: From the tight close-up crowd scene to a wide overhead view — showing the full scope of entrapment. The claustrophobia of the crowd gives way to the isolation of being completely surrounded by fire.
+
+Visual focus: The collapsed tenement building blocking the street — a wall of burning timber and rubble cutting off escape.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure runs into the intersection from the bottom of frame (seconds 0-2) and skids to a halt seeing the collapsed building blocking the left route. The figure spins to the right — dense smoke wall (seconds 2-4). The figure turns back, then forward — looking in all directions, arms raised in frantic indecision (seconds 4-6). At second 6, part of the burning rubble pile shifts and collapses further, sending a burst of ember particles toward the figure. The figure throws arms up defensively and staggers backward to the center of the intersection (seconds 6-8). Frozen, surrounded.
+
+Flat even lighting. Full catastrophe palette — saturated orange-red, deep charcoal black, burnt sienna, hot amber. The sky is entirely flat orange-red. Dense flat ember particles fill the air.
+
+Foreground: Burning timber chunks on cobblestones. A collapsed beam on fire. Broken terracotta tiles. A smashed water barrel.
+
+Midground: The figure at center. A five-storey tenement collapsed to the left — pancaked floors, burning rubble wall. To the right — impenetrable flat charcoal smoke with orange glow behind.
+
+Background: Above the rooftops, solid flat orange-red sky. Tenement silhouettes leaning, on fire. More buildings beginning to collapse in the distance.
+
+Audio direction:
+- SFX: Running sandals skidding to a halt on stone, the massive rumble and crash of additional rubble collapsing — deep concussive thuds, timber cracking like gunshots, a rush of hot air — a sharp whooshing hiss, embers raining down with tiny pinging sounds on stone, the groan of another building about to give way
+- Ambience: Overwhelming fire roar — a deep, resonant, all-encompassing rushing sound. The wind created by the firestorm — a howling vortex as the fire pulls air inward. Distant crashes and collapses in a continuous rhythm. The hiss and pop of moisture in heated stone. A constant rain of small debris pattering on the ground
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
