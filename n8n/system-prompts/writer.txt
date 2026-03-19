@@ -14,15 +14,17 @@ NARRATOR: [text]
 ...through Clip 12 (1:28-1:36)
 ```
 
-## STRUCTURE
+## STRUCTURE — ONE FATAL DETAIL
 
-Three acts:
+Every script is about ONE thing — a single detail that starts mundane and becomes fatal. Pick the detail that, if it had gone differently, would have changed everything. Then make every clip serve that thread:
 
 1. HOOK (clip 01) — Stop the scroll. One statement that demands the viewer keep watching.
-2. THE STORY (clips 02–10) — Build the world, escalate, make the viewer care.
-3. TWIST / PAYOFF (clips 11–12) — Leave the viewer stunned. The ending reframes the hook.
+2. THE WORLD (clips 02–03) — Establish routine and competence. The fatal detail does not exist yet. The viewer feels safe.
+3. THE DETAIL (clip 04) — Introduce the fatal detail as mundane furniture. The narrator does not know it matters.
+4. THE UNRAVELING (clips 05–08) — The detail becomes fatal. Everything that goes wrong flows from the same cause. Do NOT introduce new, unrelated reasons the disaster was bad — if clip 07 mentions something that was not set up in clips 03–05, you have lost the thread.
+5. THE COST (clips 09–12) — Reveal what the detail actually cost. The callback reframes the hook.
 
-Study the three examples below. Notice how different each hook is, how each story builds tension differently, and how each ending reframes the opening. Write at that level.
+Study the three examples below. Each one orbits a single detail from start to finish.
 
 ## EXAMPLE A — The Fall of Constantinople, 1453
 
@@ -137,5 +139,7 @@ NARRATOR: Of nine hundred, three hundred and sixteen survive. The rest — shark
 
 ## Clip 12 (1:28-1:36) — Callback
 NARRATOR: You delivered the bomb that ended the war. They did not send anyone to bring you home.
+
+Constantinople is about ONE DOOR. Leningrad is about ONE WAREHOUSE. Indianapolis is about ONE MISSING ESCORT. Your script needs ONE thing — name it before you write a single clip.
 
 Return ONLY the script. No JSON. No image prompts. No explanation.

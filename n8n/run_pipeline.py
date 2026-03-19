@@ -318,18 +318,18 @@ def generate_script(topic):
         word_count = _count_script_words(raw)
         print(f"  [{ts()}] Script attempt {attempt + 1}: {word_count} words")
 
-        if 180 <= word_count <= 250:
+        if 190 <= word_count <= 220:
             print(f"  [{ts()}] Script accepted ({word_count} words)")
             return raw
 
         if attempt < max_retries:
             feedback = f"REVISION: Your script had {word_count} words. "
-            if word_count > 250:
+            if word_count > 220:
                 feedback += (
                     f"The HARD LIMIT is 190-220 words. CUT {word_count - 210} words. "
                     f"Remove adjectives, compress sentences. Every word costs 0.4 seconds."
                 )
-            elif word_count < 180:
+            elif word_count < 190:
                 feedback += "Too thin. Add sensory detail. Target 190-220 words."
             topic_with_feedback = f"{topic}\n\n{feedback}"
             raw, stop_reason = _call_claude_streaming(
@@ -342,7 +342,7 @@ def generate_script(topic):
             raw = raw.strip()
             word_count = _count_script_words(raw)
             print(f"  [{ts()}] Script revision {attempt + 1}: {word_count} words")
-            if 180 <= word_count <= 250:
+            if 190 <= word_count <= 220:
                 print(f"  [{ts()}] Script accepted ({word_count} words)")
                 return raw
 
@@ -415,11 +415,11 @@ def generate_script_v2(topic):
     word_count = _count_script_words(final)
     max_retries = 2
     for attempt in range(max_retries):
-        if 190 <= word_count <= 240:
+        if 190 <= word_count <= 220:
             break
         print(f"  [{ts()}] Word count {word_count} out of range — revision {attempt + 1}/{max_retries}")
         feedback = f"REVISION: Your script had {word_count} words. "
-        if word_count > 240:
+        if word_count > 220:
             feedback += (
                 f"Target is 200 words (hard max 220). You need to cut {word_count - 210} words. "
                 f"Remove ENTIRE SENTENCES that contribute the least to the story. "
