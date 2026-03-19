@@ -17,20 +17,19 @@ Classic American adult animation (Family Guy seasons 10-20 aesthetic):
 
 ## Tone
 
-- **Story first, encyclopedia never.** Each episode is a 90-second STORY, not a lecture. The viewer should FEEL something — dread, hope, then devastation. Facts are the skeleton; feeling is the flesh. A script that teaches five facts but creates no emotion has failed.
-- **Nature documentary meets apocalypse.** The narrator speaks like a British naturalist guiding you through the most extraordinary forces on Earth — geological, meteorological, human. The tone is reverent, unhurried, and intimately curious. The horror comes from the calm, measured delivery of devastating facts, not from snark or humor.
-- **Immersive thriller, never lecture.** The viewer IS the skeleton — they make decisions, try to survive, and fail. The script reads like a first-person survival story narrated by a world-class National Geographic documentarian.
-- **Agency and failure loops.** Every 10-15 seconds the character tries something and it fails. Each attempt has HOPE behind it — the viewer tries because they believe it will work. The fact that kills the hope IS the teaching moment.
+- **Story first, encyclopedia never.** Each episode is a 35-second gut punch, not a lecture. The viewer should FEEL something — dread, then devastation, then relief they weren't there. A script that teaches facts but creates no emotion has failed.
+- **Nature documentary meets apocalypse.** The narrator speaks like a British naturalist guiding you through the most extraordinary forces on Earth — geological, meteorological, human. The horror comes from the calm, measured delivery of devastating facts, not from snark or humor.
+- **Immersive thriller, never lecture.** The viewer IS the skeleton — the disaster happens TO them. The script reads like a first-person survival story narrated by a world-class documentarian.
 - **Teach through feeling, not exposition.** Facts land because the viewer encounters them in their body. Not "the tank holds two million gallons" (textbook) but "the tank above your street holds two million gallons — and it has been groaning all winter" (story). The viewer learns the same fact but FEELS the dread.
-- **Measured gravitas, not dark comedy.** The narrator treats every disaster with the respect it deserves. Scientific precision. Genuine awe at scale. The tone of a National Geographic special — warm, wise, and unhurried — even as the world falls apart around you.
-- **Suspense through contrast.** Real NatGeo documentaries build dread by showing safety BEFORE destruction. A moment of calm — children playing, birds singing, the ground still — makes the catastrophe devastating by contrast. A script that starts at maximum danger has nowhere to go. The calm before the storm IS the suspense. Include a false safety moment in the Immersion, a tiny domestic detail the viewer can picture, a tension checkpoint ("the nightmare hadn't begun"), and at least one comparison anchor that makes a number visceral ("faster than a galloping horse").
-- **Second person address, present tense.** Always "you", "your" — and always present tense for immediacy. "You" must be the SUBJECT of sentences in EVERY clip including catastrophe and conclusion. The disaster happens TO you, not around you.
+- **Measured gravitas, not dark comedy.** The narrator treats every disaster with the respect it deserves. Scientific precision. Genuine awe at scale.
+- **The "thank god" test.** Every episode must leave the viewer physically relieved they didn't live through that event. Not intellectually aware of a tragedy — viscerally grateful to be alive now.
+- **Second person address, present tense.** Always "you", "your" — and always present tense for immediacy. "You" must be the SUBJECT of sentences in EVERY clip. The disaster happens TO you, not around you.
 
 ## Format
 
 - Vertical 9:16 short-form video optimized for YouTube Shorts, TikTok, and Instagram Reels
-- **~90 seconds per episode** (96s raw, ~92s effective after crossfades)
-- **190–220 words of narration** at ~2.4 words/second (measured ElevenLabs pacing) as **continuous prose** — narration flows across clip boundaries as one unbroken audio stream, overlaid on the final stitched video in post-production
+- **~35 seconds per episode** (35s raw, ~33s effective after crossfades)
+- **75–85 words of narration** at ~2.4 words/second (measured ElevenLabs pacing) as **continuous prose** — narration flows across clip boundaries as one unbroken audio stream, overlaid on the final stitched video in post-production
 - Classic American adult animation style (flat cel-shaded, thick outlines)
 - The skeleton appears on camera but never speaks — narration is off-screen voiceover
 - **Split audio pipeline**:
@@ -40,21 +39,17 @@ Classic American adult animation (Family Guy seasons 10-20 aesthetic):
   - **Whisper**: Word-level timestamps on the continuous narration for visual sync reference
   - **ffmpeg**: Overlays full narration + music onto final stitched video in a single pass
 - Remotion-rendered karaoke captions (Whisper transcription + transparent overlay)
-- **12 clips** (all 8s) — target visual change every 6–8 seconds
+- **5 clips** (all 7s) — target visual change every 7 seconds
 - Static locked camera throughout — flat 2D animated compositions
 - Native Veo output durations only — NEVER crop or trim video
 
-## Episode Structure (5-Beat Narrative Arc)
+## Episode Structure (3-Beat Narrative Arc)
 
-Every episode follows this arc across 12 clips (~92s effective video, narration as continuous prose ~190-220 words):
+Every episode follows this arc across 5 clips (~33s effective video, narration as continuous prose ~75-85 words):
 
-1. **The Hook + Framing Line** (clip 01, 0–8s) — Voice starts IMMEDIATELY on frame 1. No silent establishing shots. No questions. **Part A**: The narrator delivers a single, calmly stated impossibility — a paradox, an absurdity, or a cruel irony that makes the viewer think "wait, what?" The sentence must be self-contained: a viewer who hears ONLY Part A must need to keep watching. **Part B**: Immediately after the hook, the narrator says "You would not want to be in the [Event Name], [Year]." This framing line is MANDATORY — it tells the viewer what this video is about (narrated only, not rendered as on-screen text). Goal: curiosity gap + instant event identification.
-2. **Routine + False Safety** (clips 02–03, 8–24s) — The PBS move: open with competence. The viewer is doing something skillfully — repairing, building, navigating. Earn the audience's respect before you take everything away. Include one sensory detail that grounds the scene in the body. Clip 03 establishes the viewer is *winning* — a moment of earned calm.
-3. **The Fatal Detail** (clip 04, 24–32s) — Introduce the thing that kills everyone as logistics, not drama. A door, a valve, a crack, a schedule. The narrator does not flag it. The viewer does not yet know it matters.
-4. **The Turn + Escalation** (clips 05–06, 32–48s) — The fatal detail activates. Scale begins to collapse — numbers climbing, stated flat without adjectives. Let the viewer discover the horror.
-5. **The Catastrophe** (clips 07–08, 48–64s) — Staccato impact. Sentences averaging 5 words, max 8. Sensory texture — what you feel, hear, see. The disaster reaches you physically. Each sentence CAUSES the next.
-6. **The Human Gesture + Aftermath** (clips 09–10, 64–80s) — One person makes a small, precise, devastating choice. Then: what remains, stated flat. No commentary.
-7. **The Conclusion** (clips 11–12, 80–96s) — The toll as verdict. Then the callback ending that echoes or inverts the hook with a revelation that reframes the entire episode.
+1. **The Hook** (clip 01, 0–5s) — Voice starts IMMEDIATELY on frame 1. No silent establishing shots. No questions. One visceral, scroll-stopping line that makes the viewer think "wait, what?" followed by the framing line: "You would not want to be in/at [Event], [Year]." Goal: curiosity gap + instant event identification.
+2. **Easy Explanation** (clips 02–04, 5–26s) — Three clips that build the situation fast. Clip 02 grounds the viewer in a place and time with one sensory detail. Clip 03 introduces the fatal element and activates it. Clip 04 is the catastrophe — staccato, sensory, physical. The disaster reaches you. The viewer should understand what happened and FEEL it in their body.
+3. **Twist Payoff** (clip 05, 26–33s) — The gut-punch reframe. A single detail or statistic that recontextualizes everything the viewer just heard. This is the "thank god I didn't live through that" beat — the line that makes the viewer's stomach drop and leaves them grateful to be alive now.
 
 Each beat spans 1–3 clips. The narration is one continuous audio stream — sentences flow freely across clip boundaries. Visual cuts happen mid-narration, pulling the viewer forward.
 
@@ -62,14 +57,13 @@ Each beat spans 1–3 clips. The narration is one continuous audio stream — se
 
 - Calm, measured, authoritative British naturalist — the voice of a National Geographic documentary narrator who has spent decades in the field
 - Warm curiosity and genuine reverence for the forces involved — geological, meteorological, human
-- Unhurried pacing, as if guiding the viewer through something extraordinary and fragile
 - The horror comes from the steady, composed delivery of devastating facts — not from humor or theatrics
 - Scientific precision: specific numbers, temperatures, distances, chemical reactions
 - Addresses the viewer directly in second person present tense: "you wake up", "you feel the ground shift"
-- Pacing: ~2.4 words per second (measured ElevenLabs output), **190–220 words per episode** as continuous prose
+- Pacing: ~2.4 words per second (measured ElevenLabs output), **75–85 words per episode** as continuous prose
 - Narration is generated as ONE continuous audio file and overlaid on the final stitched video in post-production
-- **Sentence structure**: Varies by beat — flowing and immersive for Immersion/Attempt, staccato punches for Catastrophe/Cliffhanger. Sentences freely cross clip boundaries.
-- **Sensory texture**: What does the disaster FEEL like to the viewer's body? Not just numbers but sensation — heat on skin, dust in lungs, the floor shaking. "Eighteen hundred degrees" is a number. "The heat blisters your hands before the flames reach you" is a story.
+- **Sentence structure**: Flowing for explanation clips, staccato for catastrophe. Sentences freely cross clip boundaries.
+- **Sensory texture**: What does the disaster FEEL like to the viewer's body? Not just numbers but sensation — heat on skin, dust in lungs, the floor shaking.
 - Generated via **ElevenLabs TTS** (Dan — British Documentary Narrator, voice ID `BHr135B5EUBtaWheVj8S`)
 - Voice settings: stability 0.85, similarity_boost 0.75, style 0.15
 - Mixed with Veo video in post-production at 100% volume
@@ -86,21 +80,21 @@ Each beat spans 1–3 clips. The narration is one continuous audio stream — se
 
 ## Script Writing Rules
 
-- **Story first.** You are writing a 90-second story, not a 90-second lecture. If a sentence could appear unchanged on Wikipedia, rewrite it.
+- **Story first.** You are writing a 35-second story, not a lecture. If a sentence could appear unchanged on Wikipedia, rewrite it.
 - **Nature documentary tone.** Calm, measured, authoritative — National Geographic meets PBS. The horror comes from composure, never snark.
-- **Continuous prose.** One flowing narrative across 12 clips. Sentences cross clip boundaries via em dash (—).
-- **Second person, present tense.** Always "you." Always now. "You" appears in every clip including the catastrophe — the disaster happens TO you.
+- **Continuous prose.** One flowing narrative across 5 clips. Sentences cross clip boundaries via em dash (—).
+- **Second person, present tense.** Always "you." Always now. "You" appears in every clip — the disaster happens TO you.
 - **Causal chain.** Every sentence connects to the one before it. If a sentence could be deleted without the next losing meaning, cut it.
 - **Sensory texture.** What the disaster feels like in your body — heat, dust, shaking, cold. These moments separate a story from a report.
 - **The narrator never foreshadows.** No "little did you know," no "until it doesn't," no commentary on what is about to happen. Let the viewer discover it.
-- **190–220 words total.** At 2.4 words/second, every word earns its 0.4 seconds. Continuous narration overlaid on the final stitched video.
+- **75–85 words total.** At 2.4 words/second, every word earns its 0.4 seconds. Continuous narration overlaid on the final stitched video.
 
 ## TikTok / YouTube Shorts Optimization
 
 - **Voice on frame 1.** The hook plays over the very first visual. ZERO seconds of silence.
-- **Hook + framing line.** Clip 01 ends with "You would not want to be in [Event], [Year]." Never open with a question. The hook is whatever makes a stranger stop scrolling — there is no formula.
-- Target **~90 seconds** total video (12 clips x 8s = 96s raw, ~92s effective after crossfades), narration 190–220 words as continuous prose
-- **Visual change every 8 seconds** — each clip is a new shot, new information
+- **Hook + framing line.** Clip 01 includes "You would not want to be in [Event], [Year]." Never open with a question. The hook is whatever makes a stranger stop scrolling.
+- Target **~35 seconds** total video (5 clips x 7s = 35s raw, ~33s effective after crossfades), narration 75–85 words as continuous prose
+- **Visual change every 7 seconds** — each clip is a new shot, new information
 - **Every clip raises the stakes** — no plateaus, no breathing room
 - Narrator fills EVERY clip — no silent clips, no dead air
-- **Callback ending** — the last line echoes or reframes the hook. The viewer re-hears the opening with new meaning.
+- **Twist payoff ending** — the last line reframes or inverts the hook, leaving the viewer viscerally relieved they weren't there.

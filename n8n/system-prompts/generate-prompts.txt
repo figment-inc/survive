@@ -8,7 +8,7 @@ The series uses classic American adult animation style: flat cel-shaded coloring
 
 You will receive a message containing:
 1. **TOPIC**: The historical event (e.g., "The eruption of Mount Vesuvius, Pompeii, 79 AD")
-2. **SCRIPT**: The complete 12-clip narration script with clip headers and NARRATOR: lines
+2. **SCRIPT**: The complete 5-clip narration script with clip headers and NARRATOR: lines
 
 ---
 
@@ -39,21 +39,14 @@ Return valid JSON with this exact structure:
   "framing_line": "<The exact 'You would not want to be in [Event], [Year]' line from clip 01>",
   "style_description": "<3-5 sentences: dominant color palette with specific named colors, lighting mood, atmospheric quality, recurring visual motifs>",
   "clips": [
-    {"id": "01", "duration": 8, "type": "HOOK", "has_character": true, "resolution": "720p"},
-    {"id": "02", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "1080p"},
-    {"id": "03", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "720p"},
-    {"id": "04", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "1080p"},
-    {"id": "05", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "720p"},
-    {"id": "06", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "1080p"},
-    {"id": "07", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "720p"},
-    {"id": "08", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "1080p"},
-    {"id": "09", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "720p"},
-    {"id": "10", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "1080p"},
-    {"id": "11", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "720p"},
-    {"id": "12", "duration": 8, "type": "SCENE", "has_character": true, "resolution": "1080p"}
+    {"id": "01", "duration": 7, "type": "HOOK", "has_character": true, "resolution": "720p"},
+    {"id": "02", "duration": 7, "type": "SCENE", "has_character": true, "resolution": "1080p"},
+    {"id": "03", "duration": 7, "type": "SCENE", "has_character": true, "resolution": "720p"},
+    {"id": "04", "duration": 7, "type": "SCENE", "has_character": true, "resolution": "1080p"},
+    {"id": "05", "duration": 7, "type": "SCENE", "has_character": true, "resolution": "720p"}
   ],
-  "image_prompts": ["<clip_01 prompt>", "... 12 total"],
-  "video_prompts": ["<clip_01 prompt>", "... 12 total"],
+  "image_prompts": ["<clip_01 prompt>", "... 5 total"],
+  "video_prompts": ["<clip_01 prompt>", "... 5 total"],
   "dialogue_script": "<The EXACT script you received — do not modify it>"
 }
 ```
@@ -72,7 +65,7 @@ Every clip's palette must derive from this base palette — catastrophe clips pu
 
 ---
 
-## IMAGE PROMPT REQUIREMENTS (12 prompts, 15-25 lines each)
+## IMAGE PROMPT REQUIREMENTS (5 prompts, 15-25 lines each)
 
 Each image prompt generates a keyframe for one clip. Follow this exact structure:
 
@@ -111,7 +104,7 @@ Then describe posture, gesture, expression, body angle for this specific clip.
 
 ---
 
-## VIDEO PROMPT REQUIREMENTS (12 prompts, 25-35 lines each)
+## VIDEO PROMPT REQUIREMENTS (5 prompts, 25-35 lines each)
 
 Each video prompt generates a SILENT video clip. Veo generates ONLY visual content + environmental SFX + ambient sounds. NO narrator speech, NO dialogue, NO voiceover, NO music.
 
@@ -122,7 +115,7 @@ Follow this exact structure:
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 ```
 
-2. **Format line**: `Classic American adult animation scene, vertical 9:16, [1080p for 8s clips / 720p for HOOK and 4s clips].`
+2. **Format line**: `Classic American adult animation scene, vertical 9:16, [1080p or 720p for 7s clips].`
 
 3. **Camera behavior**: `Camera: Static [shot type]. Locked camera, flat composition, no movement.` The world within the frame IS alive — describe layered movement in foreground, midground, background. Every clip should have 2-3 animated environmental elements.
 
@@ -213,11 +206,11 @@ When describing atmosphere, use: "grey smoke fills the air" not "volumetric smok
 ## CRITICAL RULES
 
 - The `dialogue_script` in your output must be the EXACT script you received — copy it verbatim, do not rewrite
-- The figure is present in ALL 12 clips — every image and video prompt includes the character block
+- The figure is present in ALL 5 clips — every image and video prompt includes the character block
 - The figure NEVER speaks, NEVER moves their mouth — include silent+closed-mouth directive in every video prompt
 - Video prompts: SILENT video only — no narrator lines, no dialogue, no music
-- ALL image prompts: 15-25 lines each (12 total)
-- ALL video prompts: 25-35 lines each (12 total)
+- ALL image prompts: 15-25 lines each (5 total)
+- ALL video prompts: 25-35 lines each (5 total)
 - Static locked camera in all video prompts
 - Flat 2D animation — no gradients, no 3D, no photorealistic elements
 - Cross-clip visual consistency: all prompts use the same palette from style_description
