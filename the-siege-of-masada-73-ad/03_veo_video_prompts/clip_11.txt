@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static wide shot, high angle looking down into the fortress courtyard. Locked camera, flat composition, no movement. Roman legionaries pour through the breach in the western wall at dawn, then slow and stop as they find the fortress silent.
+
+Visual transition: Time jump to dawn. The night's darkness gives way to pale gold and rose light. The perspective pulls back to high angle — witnessing the Romans' discovery from above, like the mountain itself watching.
+
+Visual focus: The Roman soldiers' aggressive advance turning to confused stillness as they encounter the silence. The figure standing motionless in the courtyard center.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands in the courtyard center, perfectly still, arms at sides. At second 0, the figure is a pale still point as Roman soldiers rush through the breach around them. At second 3, the soldiers begin slowing — lowering shields, looking around. The figure remains motionless. At second 5, a soldier near the figure stops and looks at the still forms in doorways. At second 6, the figure slowly turns head to look at the soldiers — blank expression, hollow orb-like eyes. At second 7, the figure returns gaze to center distance. A ghost among ghosts.
+
+Flat even lighting. Dawn palette — pale gold, rose, pale blue sky, iron-grey Roman armor, flat grey smoke from storerooms, bone-white figure, sandstone tan courtyard.
+
+Foreground: A Roman legionary's arm and shield edge at frame bottom. Booted feet on courtyard stones.
+
+Midground: The figure in the center. Still forms under linen in doorways. Romans spreading out, postures softening.
+
+Background: Smoke from destroyed storerooms. The breach. Dawn sky — pale gold and rose. Dead Sea catching first light — bright turquoise-grey.
+
+Audio direction:
+- SFX: The heavy clatter of Roman hobnailed sandals on stone — initially rapid and aggressive, then slowing, shield edges bumping together as formation loosens, a sword being sheathed — metal sliding into leather scabbard, a soldier's foot crunching on broken pottery, a centurion's arm gesture — the creak of leather armor straps
+- Ambience: The initial rush of military movement gives way to stunned silence, wind through the breach — gentle now, the crackle of still-burning storerooms in the distance, the vast desert quiet reasserting itself, morning birds beginning to call — oblivious, the hollow echo of the courtyard amplifying the silence
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

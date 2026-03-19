@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static extreme wide shot, high angle — near-aerial view. Locked camera, flat composition, no movement. The entire fortress of Masada visible from above — the diamond-shaped plateau, the siege ramp, the breached wall, smoke rising. The figure is a tiny pale shape at the eastern cliff edge.
+
+Visual transition: The widest possible pull-back — from the intimate courtyard to the entire mountain from above. Restores the scale of clip 01 but now everything is changed: the wall is breached, the storerooms burn, the fortress is conquered but empty. Full circle.
+
+Visual focus: The fortress as a whole — conquered but empty. The tiny figure alone at the cliff edge overlooking the Dead Sea. The siege ramp — enormous and now pointless.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure is tiny in the extreme wide shot — standing at the eastern cliff edge. At second 0, the figure is still, facing the Dead Sea. The wind moves — suggested by the figure's posture leaning slightly. At second 3, the figure slowly turns to look back over the shoulder at the fortress behind — the smoke, the soldiers, the silence. At second 5, the figure turns back to face the Dead Sea. At second 7, the figure stands perfectly still — a pale point on the edge of the rock. No movement. Absolute stillness. The mountain endures.
+
+Flat even lighting. Morning aftermath palette — pale blue sky, pale gold light, sandstone tan, flat grey smoke, turquoise-grey Dead Sea, bone-white figure.
+
+Foreground: Top of a watchtower — pale sandstone with dark charring — framing the upper edge.
+
+Midground: The fortress plateau from above — grid of ruined rooms, courtyard, breached wall. Roman soldiers as tiny dark shapes. Flat grey smoke from buildings.
+
+Background: Judean Desert stretching in all directions — pale tan and ochre. Dead Sea — vast flat turquoise-grey. Eight Roman camps on the plain. The siege ramp — enormous pale scar on the western slope. Clear pale blue sky. A single bird circling.
+
+Audio direction:
+- SFX: Wind at altitude — open and clean, the distant sound of smoke hissing from burning storerooms, a single stone dislodging from the cliff edge and falling — silence following, the faint metallic sounds of Roman soldiers moving through the fortress far below and behind
+- Ambience: The vast empty silence of the desert morning — enormous and consuming, wind steady across the plateau — a low constant tone, the distant Dead Sea — a faint mineral stillness in the air quality, one bird — a raptor's thin cry circling overhead, the mountain itself seeming to breathe in the wind
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

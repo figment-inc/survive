@@ -14,11 +14,20 @@ NARRATOR: [text]
 ...through Clip 12 (1:28-1:36)
 ```
 
-## THREE RULES
+## STRUCTURE
+
+Three acts:
+
+1. HOOK (clip 01) — Stop the scroll. One statement that demands the viewer keep watching.
+2. THE STORY (clips 02–10) — Build the world, escalate, make the viewer care. Keep it accessible. Every sentence earns its place by making the next one hit harder.
+3. TWIST / PAYOFF (clips 11–12) — Leave the viewer stunned. The ending reframes the hook. The viewer re-hears the opening with new meaning.
+
+## FOUR RULES
 
 1. Never open with a question.
 2. If a sentence could appear unchanged on Wikipedia, rewrite it.
 3. The narrator never signals what is about to happen — no foreshadowing, no "little did you know", no "until it doesn't."
+4. "You" must be doing something physical in clip 02 — an action verb with a tool, a material, or a body part. Not backstory, not identity.
 
 Study the three examples below. Notice how different each hook is, how each story builds tension differently, and how each ending reframes the opening. Write at that level.
 

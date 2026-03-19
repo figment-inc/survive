@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands in the fortress courtyard facing the gaping breach in the western wall. Dusk light. The fire has died to embers. The ramp beyond the breach is empty — Rome has pulled back.
+
+Visual transition: The fire chaos of clip 07 has subsided. The palette shifts from orange inferno to cool indigo dusk. The silence after violence. The breach — a dark ragged opening — is the new visual anchor.
+
+Visual focus: The breach in the wall — wide enough for an army to march through. Empty now, but filled at dawn.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands motionless facing the breach. At second 2, the figure takes one slow step forward toward the opening. At second 4, the figure stops and stares through the breach at the darkening sky and the empty ramp. At second 5, the figure looks down — scorched rubble, embedded ballista bolts. At second 7, the figure slowly turns away from the breach to face the interior of the fortress. The decision-making begins.
+
+Flat even lighting. Dusk palette — deep indigo, burnt sienna horizon through the breach, dark amber ember spots in rubble, charcoal black, pale bone-white figure against darkness.
+
+Foreground: Scattered rubble and charred timber. Glowing dark orange ember spots. A broken bent sword blade.
+
+Midground: The figure in the courtyard. The ragged breach — crumbled sandstone blocks, blackened by fire, framing the darkening sky.
+
+Background: Through the breach — empty siege ramp, Roman camps below with flat amber torch dots, sky from burnt sienna to deep indigo. The Dead Sea — dark strip.
+
+Audio direction:
+- SFX: Embers popping and hissing softly in the rubble, a stone settling and shifting with a low scrape, the figure's footstep on gravel — a single crunch, a distant metallic clatter from the Roman camp below, the creak of a damaged timber beam still cooling
+- Ambience: Near-silence after the fire's roar — the sudden quiet is oppressive, a low wind through the breach like breathing through a gap, very distant Roman camp sounds — clinking, murmuring, the faint chirp of desert insects as dusk settles, cooling stone ticking
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

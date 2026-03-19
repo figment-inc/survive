@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static high-angle shot, looking steeply down from the cliff top. Locked camera, flat composition, no movement. The figure grips the parapet wall, leaning forward to peer down at the desert plain where thousands of Roman soldiers and laborers work on the siege ramp.
+
+Visual transition: Cut from the enclosed storeroom to the exposed cliff edge — from false safety to the reality below. The high angle emphasizes vulnerability and the scale of the Roman engineering.
+
+Visual focus: The growing siege ramp — a pale wedge of packed earth crawling up the mountainside, and the endless ant-like lines of laborers carrying baskets.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure leans over the parapet, gripping the stone with both hands, knuckles visible through translucent skin. At second 1, the figure stares down at the ramp, motionless. At second 3, the figure's grip tightens — orb-like eyes narrowing. At second 5, the figure looks along the ramp to where a new line of laborers approaches carrying baskets — each one adding another increment. At second 7, the figure pushes back from the parapet slightly, head dropping. The slow inevitability sinks in.
+
+Flat even lighting. Harsh desert palette — bleached sandstone tan, dusty ochre ramp, dry bone white, iron-black Roman equipment, flat pale blue sky.
+
+Foreground: The stone parapet — warm tan with dark mortar lines. The figure's translucent hands gripping the stone. A small lizard on the warm wall.
+
+Midground: The cliff face dropping away. The siege ramp — a growing pale wedge against the mountain, its surface covered with moving figures carrying baskets.
+
+Background: The Roman camp — orderly tents, siege equipment, timber stocks. The circumvallation wall. Desert to the horizon. Flat pale blue sky.
+
+Audio direction:
+- SFX: Stone scraping under the figure's grip, the distant rhythmic thud of earth being dumped — basket after basket, a Roman centurion's distant whistle-command, timber beams being dropped into place with heavy crashes, the creak of ox-cart wheels
+- Ambience: Desert wind at altitude — stronger and more exposed than in the storeroom, the constant low murmur of thousands of workers far below like a distant hive, iron tools striking rock in irregular rhythm, the dry heat audible in the shimmering quality of the sound
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

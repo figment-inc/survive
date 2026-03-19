@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static wide shot, slightly low angle. Locked camera, flat composition, no movement. The figure stumbles backward from the burning wall, which is now fully ablaze. The entire timber-and-stone defensive wall is a mass of flat orange flame. Wind drives the fire inward toward the fortress.
+
+Visual transition: Pulled back from the tight low-angle of clip 06 to reveal the full scale of the fire. The wind shift is the catastrophic moment — what had been blowing flames toward the Romans now drives the fire toward the defenders.
+
+Visual focus: The burning wall — the last defense — consumed entirely. The wind-driven flames pushing inward.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure stands near the wall, arm raised against the heat. At second 2, a sudden wind gust — the flames reverse direction, surging inward. The figure is hit by a wave of heat and staggers backward, both arms thrown up defensively. At second 4, the figure stumbles back further, tripping on rubble. At second 5, the figure catches balance and stares at the wall — now entirely consumed. At second 7, the figure's arms drop slowly, defeated. The last wall is gone.
+
+Flat even lighting from fire. Fire palette — flat orange, ember amber, charcoal black, dark crimson fracture accents, grey smoke filling the upper frame. The figure's translucent skin tinted amber.
+
+Foreground: Burning timber debris. Flat amber spark-dots drifting. A cracked clay pot overturned.
+
+Midground: The figure recoiling. The wall — flat orange flame and charcoal timber skeletons. Stone cracking with flat dark crimson at fracture lines.
+
+Background: Through flames — dark shapes of Roman soldiers and ramp. Sky choked with flat grey smoke and dark amber. Fortress buildings behind the figure lit in flat amber.
+
+Audio direction:
+- SFX: The roar of wind shifting direction — a sudden whoosh, fire surging with a deep crackling rush, timber beams collapsing with heavy crashes, stone popping and cracking in the heat, hot embers hissing as they land on stone, the figure's feet scraping on rubble as they stumble
+- Ambience: The overwhelming roar of a large fire — continuous crackling, popping, rushing, wind feeding the flames in irregular gusts, distant shouts of Roman soldiers (unintelligible — just vocal texture), the groan of the burning wall structure shifting
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

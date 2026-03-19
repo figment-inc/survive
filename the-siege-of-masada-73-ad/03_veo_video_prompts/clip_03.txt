@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium wide shot, eye level. Locked camera, flat composition, no movement. The figure walks between rows of clay amphorae in one of Herod's storerooms. Stone pillars recede into the room.
+
+Visual transition: Cut from the harsh cliff exterior to the cool, enclosed storeroom interior — safety and abundance. A deliberate contrast with the exposed vulnerability of clip 02.
+
+Visual focus: The abundance of supplies — rows of amphorae floor to ceiling, grain sacks, provisions. The false safety of Herod's fortress.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure walks slowly between the rows of amphorae, one hand trailing along the jars — fingertips tapping each one lightly. At second 2, the figure pauses and pats one amphora with mild satisfaction. At second 4, the figure looks down the length of the storeroom — the rows stretching deep. At second 6, two children run past behind the figure between the pillars, and the figure turns slightly to watch them go, head tilting — a moment of domestic normalcy. At second 7, the figure turns back and continues walking.
+
+Flat even lighting. Interior palette — cool sandstone cream, warm terracotta red amphorae, dark olive-brown grain sacks, pale gold sunlight from a distant doorway. Cooler and calmer than the exterior clips.
+
+Foreground: Open wooden crate of dried dates on the stone floor. A child's small woven sandal beside it. A clay oil lamp on a stone shelf.
+
+Midground: The figure walking between amphora rows. Stone pillars creating rhythm. A woman crouching beside a large jar scooping grain.
+
+Background: The storeroom depth — more jars, more pillars. A bright pale gold rectangle of sunlight from a far doorway. A glimpse of mosaic floor tiles beyond.
+
+Audio direction:
+- SFX: Fingertips tapping clay amphorae — hollow ceramic resonance, the soft shuffle of bare feet on stone floor, children's footsteps running and fading, grain pouring from a scoop into a vessel — a dry hissing sound, a clay lamp flame flickering in a draft
+- Ambience: The cool, enclosed quiet of thick stone walls — muffled outside sounds, the faint echo quality of a vaulted room, distant outside sounds of wind and birds filtered through stone, the subtle drip of water from a cistern somewhere nearby
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

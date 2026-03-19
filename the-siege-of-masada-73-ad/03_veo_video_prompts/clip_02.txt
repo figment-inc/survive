@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure crouches at the cliff edge, sharpening a blade on stone. The Dead Sea is visible as a flat band on the horizon. The cliff drops away beside the figure into haze.
+
+Visual transition: Cut from the wide establishing shot to an intimate medium shot on the cliff edge — bringing us onto the mountain, into the daily routine.
+
+Visual focus: The blade scraping against stone — the figure's morning ritual, the four-hundred-metre drop inches from their knee.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure kneels at the cliff edge, drawing a short iron blade rhythmically across a flat sandstone ledge — back and forth, back and forth. At second 2, the figure pauses, looks over the cliff edge straight down at the drop. At second 4, the figure resumes sharpening, more deliberately. At second 6, a gust of wind — the figure's posture stiffens as pebbles near the edge tumble and disappear into the void. At second 7, the figure glances toward the Dead Sea, then returns to sharpening.
+
+Flat even lighting. Early morning palette — pale gold, warm sandstone tan, dusty ochre, iron-grey blade, Dead Sea turquoise-grey, pale blue sky.
+
+Foreground: The sandstone ledge with the blade scraping across it. A clay water cup. Loose pebbles at the cliff edge, some tumbling off during the wind gust.
+
+Midground: The figure kneeling. A coiled rope and woven basket beside them. The cliff edge drops to nothing — flat strata bands of pale rock fading into dusty haze.
+
+Background: The vast desert plain far below — hazy and pale. The Dead Sea as a flat turquoise-grey strip. Pale gold and blue early morning sky.
+
+Audio direction:
+- SFX: The rhythmic scrape of iron on sandstone — a harsh grating sound with each stroke, pebbles clicking and tumbling off the cliff edge followed by silence as they fall, a clay cup shifting on stone, the whistle of a sudden wind gust across exposed rock, distant below — the faint sound of a Roman trumpet call
+- Ambience: Desert morning wind — dry and steady, the vast hollow sound of open air over a cliff, the faint salt-mineral smell of the Dead Sea conveyed through the dry quality of the wind sound, distant bird — a kestrel's high thin cry
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

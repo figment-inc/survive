@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands alone in the great storeroom — the same room from clip 03 — now being set on fire. The figure holds a lit torch, touching it to the stacked amphorae and grain sacks.
+
+Visual transition: The storeroom from clip 03 returns — but now the figure is destroying it. The visual callback is deliberate: same pillars, same amphorae, same room — now in flames. The child's sandal from clip 03 is still on the floor.
+
+Visual focus: The deliberate destruction of the storerooms — Rome will find nothing of use. The child's sandal illuminated by firelight.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands extending the torch to a row of grain sacks. At second 1, the sacks catch — flat orange flames climb. The figure steps back. At second 3, the figure moves to the next row of amphorae and touches the torch to olive oil spilling from a cracked jar — it ignites instantly. At second 5, the figure lowers the torch and looks at the room burning around them. At second 6, the figure looks down — the child's sandal on the floor. A beat of stillness. At second 7, the figure turns and walks toward the doorway, torch trailing. An iron sword lies on the floor near the exit.
+
+Flat even lighting from fire. Night fire palette — flat orange, deep amber, charcoal black, dark crimson, bone-white figure lit amber. The same room from clip 03, transformed.
+
+Foreground: Flames on amphorae. Broken pottery. The child's woven sandal from clip 03 illuminated by firelight.
+
+Midground: The figure with the torch. Storeroom pillars. Amphorae cracking, olive oil pooling and burning.
+
+Background: Far end of storeroom fully ablaze. Through the doorway, other rooms glowing amber. The iron sword on the floor.
+
+Audio direction:
+- SFX: The torch touching grain — a soft whump as it catches fire, clay amphorae cracking in heat — sharp ceramic snaps, olive oil igniting with a liquid whoosh, the figure's footsteps slow and deliberate on the stone floor, fire climbing the stacked supplies with a rising crackle
+- Ambience: The growing roar of fire in an enclosed stone space — echoing and amplifying, the pop and snap of dry grain burning, the rush of air being drawn into the fire through doorways — a breathing quality to the flames, total solitude — no other living sounds
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
