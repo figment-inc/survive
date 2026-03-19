@@ -1,0 +1,21 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. Boston fire station stable, days after November 10, 1872. Callback to clip 04.
+
+Medium close-up, eye level. The figure stands again at the same horse stall from clip 04, but now looking directly at the viewer. One hand rests on the stall gate — the same gate, the same stable. Inside the stall, the horse lies in the same position — still sick, still unable to stand. The empty leather harnesses still hang from the ceiling hooks behind. The figure's orb-like eyes are fixed forward — knowing, accusing. Through the stable's open back door, the distant glow of still-smoldering rubble is visible.
+
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing at the stall gate, one hand on the rail, body facing the viewer. Expression: flat, direct, knowing. No dramatic gesture — just a still, heavy gaze. Mouth firmly closed.
+
+Foreground: The same wooden stall gate with iron hinges. The same leather feed bag on the floor, still untouched. Straw scattered on the planks.
+
+Midground: The figure at the gate. The sick horse in the stall — same dark brown coat, same flat dark sweat patches. The empty harnesses hang behind — leather collars, brass buckles, trace chains. Unchanged from clip 04.
+
+Background: Through the open stable door at the far end, the distant cityscape is visible — instead of intact buildings, there is now a flat grey rubble field with lone chimneys and thin smoke wisps. The stable survived; the city it served did not.
+
+Flat even lighting. Callback palette — the same sickly yellow-green and stable brown from clip 04, but now mixed with cold ash grey from the aftermath visible through the door. A palette collision — the illness colors meet the destruction colors.
+
+Period texture: The same veterinary bottle on the shelf, now empty. The same iron horseshoes on their nails. But soot and ash dust coats every surface — a fine flat grey layer on the stall rails, the harnesses, the floor.
+
+Background activity: The stable is nearly empty of people. One firefighter sits on a bench in the background, head bowed, helmet in his lap. The dalmatian from clip 03 lies curled beside him.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

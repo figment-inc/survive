@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide environmental shot, high angle looking down at the water's surface. Locked camera, flat composition, no movement. The Mary Rose's masts rise from the flat grey-green sea. Below the surface, the figure is faintly visible — pressed against the netting, looking upward. Classic adult animation aftermath staging.
+
+Visual transition: From the shore perspective to this aerial-style view of the wreck — pulling back to show the scale of what happened. The figure moves from tiny and distant to visible beneath the water.
+
+Visual focus: The masts still above water with flags flying — the eerie sight of a ship that sank so fast its flags didn't even get wet — and the figure sealed beneath.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure is visible below the water surface as a pale ghostly shape pressed against the anti-boarding netting, looking upward. Still. Hands still on the mesh. Seconds 3-5: The figure's hands slowly release the netting — fingers uncurling. Seconds 5-8: The figure drifts slightly downward, away from the surface. Arms drifting to the sides. Eyes still open, staring upward at the sky through the water and the mesh. Resignation. Stillness.
+
+Flat even lighting. Aftermath palette — cold Channel blue-green dominating, grey-green water, dark timber brown of the protruding masts, wet canvas grey, the pale figure beneath the surface fading. Muted, cold, still.
+
+Foreground: Flat water surface with floating debris — broken planks, a leather bucket, rope tangles, a yew longbow. Small ripples.
+
+Midground: Protruding masts and rigging. The ship's stern castle barely above waterline. Below the surface — the figure against the netting, fading.
+
+Background: The flat grey-green Solent. Small boats rowing toward the wreck. Southsea Castle on the distant shore. Other English warships. Flat overcast sky.
+
+Audio direction:
+- SFX: The slow creak of masts settling under uneven weight, the gentle lap of water against protruding timber, the distant splash of oars from approaching boats, the quiet settling of debris — a plank bumping against another in the water, the deep underwater groan of the hull settling on the seabed
+- Ambience: An eerie calm after catastrophe — the wind across flat water, distant seagulls, the muffled underwater sounds of a ship settling, the contrast between the peaceful surface and the sealed horror beneath, the gentle persistent lap of the Channel
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

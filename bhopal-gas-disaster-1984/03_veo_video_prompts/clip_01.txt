@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands on a dusty road with the Union Carbide plant silhouette behind. Classic adult animation medium staging — the figure occupies the center-lower frame, the plant fills the upper background.
+
+Opening shot — no previous clip. A deceptively calm evening scene. The hook — everything looks normal, but something is deeply wrong.
+
+Visual focus: The massive industrial plant looming behind the figure, its pipes and tanks rendered in flat steel grey and rust orange against deep midnight blue sky. The contrast between domestic life and industrial danger.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands on the road, looking toward the camera with a neutral expression. At second 2, the figure slowly turns head to look over the shoulder at the plant behind. At second 4, the figure raises one hand and gestures toward the plant — a slow, open-palmed gesture of presentation, as if showing the viewer. At second 6, the hand drops. The figure turns back to face the camera. The orb-like eyes narrow slightly — a subtle shift from calm to unease. At second 7.5, the figure takes one small step backward, away from the plant.
+
+Flat even lighting. Palette: industrial steel grey, rust orange, deep midnight blue, sodium yellow, dusty brown, sickly yellow-green. Flat sodium-yellow pools of light from the plant's lamps. Warm kerosene glow from shanty doorways. Hazy, still atmosphere.
+
+Foreground: Rusted chain-link fence with a torn section. A faded warning sign on a corroded post. A stray dog sleeping at the fence base — its ear twitches at second 3. Dry brown dust on the ground.
+
+Midground: The figure on the road. Behind, the narrow lane of J.P. Nagar shanties — low concrete and brick with tin roofs. A woman in a green sari hangs laundry, the fabric swaying gently. A kerosene lantern flickers in a doorway.
+
+Background: The Union Carbide plant — cylindrical tanks, lattice of rusted pipes, dark idle flare stack, dark idle scrubber tower. Flat sodium-yellow lights. Deep midnight blue sky. No stars through the haze. A thin wisp of sickly yellow-green vapour drifts from a pipe joint — barely visible, easily missed.
+
+Audio direction:
+- SFX: A distant metallic clang from inside the plant, a dog shifting on gravel, the soft creak of a tin roof panel in a breeze, the gentle flap of wet laundry on a line, a cricket chirping nearby
+- Ambience: A quiet Indian night — distant radio playing faint Hindi music from a shanty, low murmur of conversation from a tea stall, the constant low industrial hum of the plant's machinery, a faint chemical smell suggested by the hiss of a distant steam vent
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

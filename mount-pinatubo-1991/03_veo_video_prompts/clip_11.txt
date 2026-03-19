@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands in a damaged but intact military briefing room at Clark Air Base, facing a wall-mounted display board covered with hazard maps and evacuation charts. Classic adult animation medium interior staging.
+
+Visual transition: From the desolate grey plain, cut inside — to the intact, evacuated military briefing room. The contrast is devastating: the maps that saved the base are displayed neatly on the wall. The room is functional. The village is gone.
+
+Visual focus: The display board full of maps — the same hazard maps, neatly pinned, annotated with success markers. The maps worked perfectly for everyone who had them.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure stands before the display board, fists clenched at sides. Head tilted upward reading the pinned materials — the maps, the charts, the evacuation routes annotated with green checkmarks. Seconds 2-4: The figure takes a step closer. One hand unclenches and reaches up to touch one of the hazard maps — the same map, clean and complete, pinned neatly. The translucent finger traces the red boundary line. Seconds 4-6: The finger reaches the edge where the map goes blank — the same edge as clip 04. The figure's hand presses flat against the map. The orb-like eyes narrow. Seconds 6-8: The figure pulls the hand away slowly. Turns partially away from the board. One fist clenches again. Head drops slightly. The figure stands in the empty room surrounded by the evidence of a successful evacuation that did not include them. A sheet of paper detaches from the board and drifts to the floor.
+
+Flat even lighting — institutional flat fluorescent. Bitter palette — military olive drab, institutional grey-green walls, off-white paper, red map annotations, flat grey ash dust coating everything. The pale figure stark against the orderly military backdrop.
+
+Foreground: An overturned metal folding chair. Scattered papers and memos on the floor. A coffee mug with a Clark Air Base insignia. Grey ash dust on all surfaces.
+
+Midground: The figure before the display board. Maps pinned neatly — hazard maps with green checkmarks, evacuation route charts, timeline schedules. A printed casualty report pinned to the side.
+
+Background: The briefing room interior — olive-drab walls, fluorescent fixtures (one flickering). Through a partially open door, the empty ash-covered base is visible — intact, orderly, abandoned.
+
+Audio direction:
+- SFX: A fluorescent light flickering with a faint electric buzz, a fist clenching — the faint creak of tension, a fingertip sliding across paper, a pin dropping from the cork board with a tiny metallic clink, a sheet of paper detaching and floating to the floor with a whisper
+- Ambience: Near-silence inside the abandoned building. The distant low moan of wind outside. The faint electrical hum of surviving systems. The building settling — occasional small creaks. A drip of water somewhere from a damaged pipe. The profound quiet of an evacuated military facility.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

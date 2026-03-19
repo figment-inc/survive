@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, low angle. Locked camera, flat composition, no movement. The figure stands knee-deep in lahar mud on the village side of the Clark Air Base perimeter fence, one hand gripping the chain-link, looking through to the empty evacuated base. Classic adult animation medium staging with the fence as a literal dividing line.
+
+Visual transition: From the wide chaos of the lahar, cut to this stark medium shot — the fence dividing protected from unprotected, the central metaphor of the episode made physical.
+
+Visual focus: The chain-link fence — the literal boundary between the mapped and unmapped, the saved and the unsaved. Mud pours through the fence diamonds. The base beyond is empty and intact.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure grips the chain-link fence with one translucent hand — finger bones visible curling through the metal diamonds. In the other hand, the ruined hazard map disintegrates in the rain and mud. The figure looks through the fence at the evacuated base. Seconds 2-4: Grey-brown lahar mud rises slowly around the figure's legs — from knee to thigh level. The mud oozes through the chain-link diamonds, dripping onto the base side. The figure presses closer to the fence. Seconds 4-6: The figure turns head to look back at the village behind — rooftops disappearing under mud, debris floating past. Then turns back to the fence. The base buildings beyond are grey, ash-dusted, but intact — orderly rows of barracks, undamaged. Seconds 6-8: The figure releases the fence slowly. The hand drops. The head drops. The figure stands in the rising mud, not moving. The ruined map falls from the other hand into the grey slurry and disappears.
+
+Flat even lighting — dim, dark. Division palette — flat military grey-green and concrete for the base side, dark grey-brown mud and destruction for the village side. The fence is the dividing line. The pale figure stands at the boundary.
+
+Foreground: The chain-link fence diagonal across the frame — grey metal with grey-brown mud oozing through. A military base boundary warning sign. The disintegrating map falling into the mud.
+
+Midground: The figure knee-to-thigh deep in rising mud, gripping then releasing the fence. Behind the figure, the village is being consumed — rooftops barely visible.
+
+Background: Through the fence — the empty Clark Air Base. Flat-roofed barracks, a control tower, a runway strip. Ash-dusted but intact. Empty. The stark contrast — order vs. chaos, one side of the fence vs. the other.
+
+Audio direction:
+- SFX: Chain-link fence rattling as the figure grips it, the thick slow gurgle of lahar mud rising against metal, wet paper disintegrating — a soft tearing sound — as the map dissolves, a distant building collapsing on the village side — a dull crash muffled by mud, the ping of debris hitting the fence
+- Ambience: The lahar's deep continuous rumble — low, grinding, relentless. Rain hitting the fence in a metallic patter. On the village side — chaos: groaning structures, sloshing mud, wind. On the base side — silence. Emptiness. The contrast in ambient sound across the fence is stark.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

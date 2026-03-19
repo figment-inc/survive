@@ -107,16 +107,14 @@ Catastrophe clip (04) must use staccato sentences — 5–8 words max. Earlier c
 
 ### 10. WORD COUNT (1–10)
 
-Total narration must be 75–85 words. This is a hard engineering constraint — the audio must fit a 33-second video window at 2.4 words/second.
+Total narration should aim for around 80 words. This is a soft target — coherence and storytelling quality always take priority over hitting an exact number. Score based on whether the length feels right for the pacing, not on strict range enforcement.
 
-- **10**: 78–82 words. Perfect budget.
-- **7**: 75–85 words. Acceptable range.
-- **5**: 65–74 or 86–95 words. Will require speedup or padding.
-- **1**: Under 65 or over 95. The video will break.
+- **10**: 78–85 words. Well-paced.
+- **7**: 70–95 words. Workable — the story flows naturally at this length.
+- **5**: 60–69 or 96–110 words. Noticeably too short or long for the format.
+- **3**: Under 60 or over 110. Will feel rushed or draggy.
 
-AUTOMATIC FAILURES (score 1):
-- Over 95 words (narration will be truncated)
-- Under 65 words (dead air in the video)
+This axis is informational — a low word count score alone should NOT trigger a REWRITE REQUIRED verdict if the story is strong.
 
 Count ONLY words after "NARRATOR:" — ignore clip headers and beat labels.
 

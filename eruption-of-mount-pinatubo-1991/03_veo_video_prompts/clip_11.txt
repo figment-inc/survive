@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level, divided composition. Locked camera, flat composition, no movement. The chain-link base fence runs vertically through the center of the frame. The figure stands on the civilian side in grey-brown mud. The base side is intact and empty. Classic adult animation medium shot — the fence as visual thesis.
+
+Visual transition: From the wide empty aftermath to a deliberate return to the fence — the visual metaphor that has run through the episode. The divided frame makes the argument explicit: two worlds, one fence, one set of maps.
+
+Visual focus: The chain-link fence dividing the frame — devastation on the civilian side, intact emptiness on the base side. The contrast between the two halves.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands on the civilian side of the fence, one hand resting on the chain-link. At second 0, the figure stares through the fence at the intact base buildings. At second 2, the figure's hand slowly slides down the fence — fingers dragging across the chain-link with visible effort. At second 4, the figure turns slightly to look behind — at the devastated civilian landscape. At second 5, the figure turns back to the fence. At second 6, the figure's orb-like eyes narrow — bitter recognition. At second 7, the figure's hand falls from the fence to the side. The body language communicates: understanding without acceptance.
+
+Flat even lighting. Contrast palette — base side: institutional grey-green, clean concrete, painted white. Civilian side: lahar grey-brown, destruction ochre, mud brown. The fence divides the two color worlds.
+
+Foreground: Grey-brown lahar sediment on the civilian side. A child's rubber sandal half-buried. On the base side, clean paved road with lane markings.
+
+Midground: The figure at the fence. A bulletin board with a newspaper shape on the base side. A Filipino woman in a mud-stained dress sitting on a concrete block on the civilian side.
+
+Background: Outside the fence — devastated landscape, grey sediment, displaced people walking. Inside the fence — orderly military buildings, empty lots. Mount Pinatubo in the far distance, crater visible, slopes bare.
+
+Audio direction:
+- SFX: Fingers dragging across chain-link — a soft metallic scraping, rhythmic. A distant helicopter — flat rotor chop, fading. Wind flapping loose material against the fence. On the base side: an American flag halyard clinking against a metal pole — a lonely metallic ping. On the civilian side: footsteps in mud — wet squelching of displaced people walking.
+- Ambience: Two distinct sound environments divided by the fence. Base side: wind through empty buildings, a door banging somewhere, mechanical silence. Civilian side: the murmur of a displaced population — quiet conversations, a child's distant cry, the shuffle of many feet in mud. The contrast between institutional silence and human misery.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

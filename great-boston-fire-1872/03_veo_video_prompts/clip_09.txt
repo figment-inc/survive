@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The figure watches a dynamited building collapse as fire leaps the intended firebreak. Classic adult animation wide staging.
+
+Visual transition: Cut from tight close-up of collapsing facade to wide establishing shot of the firebreak attempt. A step back in framing to show the scale of the failed strategy. The palette holds at destruction tones — granite grey, flat orange fire — with a bright yellow-white blast flash at center.
+
+Visual focus: The fire leaping the gap created by the demolished building — burning debris arcing across the firebreak, embers bridging the gap, flames igniting the next row of structures on the far side.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands at the left of the frame. At second 1, the dynamited building in the center of the frame begins its collapse — walls splaying outward, a flat bright yellow-white blast flash at the core. The figure braces against the shockwave, leaning back. At second 3, the blast clears — the building is rubble, a gap in the street. At second 5, burning debris from the explosion arcs across the gap and lands on the buildings on the far side — flames catch immediately. At second 7, the figure's arms drop to its sides. Head lowers. The fire has jumped the firebreak. The strategy has failed. The figure stands motionless in defeat.
+
+Flat even lighting. Explosive palette — flat bright yellow-white blast, vivid flat orange, soot black, rubble grey-brown, charcoal smoke.
+
+Foreground: Scattered bricks, splintered timber, a coil of fuse wire, an empty powder barrel.
+
+Midground: The figure at left. The dynamited building in mid-collapse at center. Burning debris arcing across the gap.
+
+Background: Beyond the gap, the fire rages unbroken — flat orange flames consuming the next block. Flat dark smoke. Soldiers and firefighters retreat.
+
+Audio direction:
+- SFX: A massive explosion — a deep, concussive boom that rolls and echoes off granite walls. Granite blocks crashing down — heavy, percussive thuds. The whistle of burning debris arcing through the air. The crackling ignition of the far-side buildings catching fire. Smaller secondary collapses
+- Ambience: The sustained fire roar continues — louder now, closer. Shouts of men retreating. The rattle of powder kegs being carried. Stone dust settling with a continuous hiss. The distant crack of another dynamite charge being detonated elsewhere
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

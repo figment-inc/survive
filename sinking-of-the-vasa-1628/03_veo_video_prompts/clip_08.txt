@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static close-up, slightly high angle. Locked camera, flat composition, no movement. The figure is chest-deep in dark water, one arm reaching upward. The capsizing Vasa hull rolls behind. Classic adult animation close-up for maximum emotional impact.
+
+Visual transition: Cut from the tilting deck to submerged in the water — the figure has gone from standing on the ship to being in the harbor. The deck is gone. Only dark water and wreckage. The palette is nearly monochrome — dark Baltic blue-black, cold steel grey, the pale figure.
+
+Visual focus: The figure's hand reaching upward and finding nothing — the moment of total helplessness.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 1-2, the figure surfaces, chest-deep in dark water, gasping silently — mouth closed but head thrown back, orb-like eyes wide with shock. Arms flail briefly. At second 3-4, the figure reaches upward with one hand — fingers spread, grasping at nothing above. The skeletal hand bones visible through translucent skin. Behind, the Vasa's hull rolls slowly onto its side, masts plunging into the water. At second 5-6, the figure's reaching hand closes on empty air. The other arm paddles weakly. Debris floats past — timber, rope, canvas. At second 7-8, the figure sinks slightly lower in the water, chin at the waterline. The orb-like eyes stare forward — blank shock. The massive hull behind continues its slow roll, gilded carvings disappearing beneath the surface.
+
+Flat even lighting. Catastrophe palette — dominant dark Baltic blue-black water, cold steel grey sky, the figure paper-white and pale against the dark, tarnished gold of sinking carvings. Cold, desaturated, near-monochrome.
+
+Foreground: Dark water filling the lower two-thirds of the frame. Floating debris — broken timber, rope, canvas scraps. Air bubbles rising as flat white circles.
+
+Midground: The figure in the water. Nearby — other heads and arms visible, thrashing.
+
+Background: The Vasa's hull rolling — dark keel partially exposed, masts at angles in the water. Tangled rigging dragging sails under. Gilded stern sinking. Grey sky.
+
+Audio direction:
+- SFX: The enormous groan of the hull rolling over — a deep, resonant timber-cracking sound, water rushing into the hull in a thunderous pour, bubbles erupting from the submerging gun ports in a violent gurgling, floating debris bumping together — hollow wooden thuds, the snap of a mast rope breaking under tension
+- Ambience: Underwater chaos blending with surface sound — the muffled roar of the sinking ship, water sloshing and churning, wind above, the constant creak and groan of the dying ship settling into the harbor bed, distant indistinct shouts from shore (no words)
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

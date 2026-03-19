@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium shot, Dutch angle tilted fifteen degrees to starboard. Locked camera, flat composition, no movement. The gun deck interior tilts as the ship heels — the entire frame is canted. The figure braces between a cannon and a hull beam. Classic adult animation crisis staging with Dutch angle.
+
+Visual transition: The calm detail shot snaps to chaos — the Dutch angle immediately communicates that something is catastrophically wrong. The mood shifts from unease to alarm.
+
+Visual focus: The tilting deck and the starboard gunports approaching the waterline — the moment the ship commits to its fatal heel.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure is thrown off balance as the deck tilts — feet sliding on the planks, grabbing an overhead beam with one hand. Seconds 2-4: Loose objects begin sliding starboard — a cannonball rolls, a bucket slides. The figure watches in horror as the starboard gunports dip toward the sea. Seconds 4-6: The sea is at the port lips — a thin line of Channel water begins to seep over the sills. The figure's eyes go wide, head snapping from port to port, realizing every one is about to flood. Seconds 6-8: The first real surge of water pours through a port. The figure lunges for the nearest ladder, scrambling uphill on the tilting deck. Arms reaching.
+
+Flat even lighting. Crisis palette — warm oak interior cut with cold Channel blue-green light reflecting off the approaching water. Storm grey, tarnished bronze, cold blue-green, weathered oak brown. The flat daylight through the ports shifts as the ship rolls.
+
+Foreground: Loose cannonball rolling across the tilted deck. Sliding bucket. Coiled rope unraveling downhill. The cannon beside the figure straining against its breeching ropes.
+
+Midground: The figure bracing and then scrambling. The starboard gunports — the sea rising to meet them, then beginning to pour through.
+
+Background: The gun deck in chaos — other crews grabbing handholds, figures falling. Through the port-side gunports, sky visible where sea should be. The asymmetry is dramatic.
+
+Audio direction:
+- SFX: The deep shuddering groan of the hull as the ship heels, the heavy rolling thunder of a loose cannonball on oak planking, water suddenly rushing through gunports with a sharp surging roar, breeching ropes creaking and straining under enormous tension, a wooden bucket shattering against a cannon carriage
+- Ambience: The terrifying acceleration of the heel — timber cracking, rope fibers popping, the rush of water growing from a trickle to a torrent, chaotic footsteps and scrambling on tilted wood, the deep bass note of an enormous ship listing beyond recovery
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

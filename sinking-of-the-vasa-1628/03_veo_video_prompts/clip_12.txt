@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. The figure faces the viewer directly with arms crossed. The harbor and protruding mast tips behind. Classic adult animation fourth-wall-break close-up.
+
+Visual transition: Cut from the wide kneeling shot to a direct medium close-up facing the viewer. The figure has risen and now confronts the audience. The broken gilded lion at the figure's feet is the final visual anchor — the destroyed symbol of the ship's ambition.
+
+Visual focus: The figure's direct gaze at the viewer — the bitter, knowing conclusion. And the broken gilded lion at their feet.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 1-2, the figure stands facing the viewer with arms crossed over the chest — the translucent ribcage visible beneath crossed forearms. Expression: bitter, sardonic knowing. Orb-like eyes level and direct. At second 3-4, the figure tilts head slightly to one side — a small, wry gesture. The orb-like eyes narrow slightly. At second 5-6, the figure slowly uncrosses arms and lets them drop to the sides. The figure looks down briefly at the broken gilded lion on the wet stone at their feet. At second 7-8, the figure looks back up at the viewer. One final beat of eye contact. Then the figure slowly turns away, looking out over the harbor at the protruding mast tips. The figure is still. The harbor is still. Everything is still.
+
+Flat even lighting. Closing palette — cold steel grey sky, dark Baltic blue-grey water, pale stone quay, the single warm accent of the tarnished gold lion carving at the figure's feet. Muted, final, quiet.
+
+Foreground: The wet stone quayside. The broken gilded lion carving — ornate, chipped gold paint, curled mane, bared teeth — resting face-up on the stones. Pooled water around it. A coil of tarred rope abandoned nearby.
+
+Midground: The figure facing the viewer, then turning to face the harbor.
+
+Background: The calm harbor with the Vasa's mast tips. Stockholm's skyline — spires and rooftops in muted stone grey. Flat pale grey sky. A single seabird on a mast tip. No people. The figure is alone.
+
+Audio direction:
+- SFX: The soft whisper of wind against the figure's translucent skin, water lapping gently against the quay stones, the faint creak of the protruding mast shifting in the current, a seabird calling once — a single high cry — then silence, the barely perceptible groan of the sunken hull settling on the harbor floor far below
+- Ambience: Profound stillness — the wind and water are the only sounds. The harbor is empty. The crowd is gone. A distant church bell strikes once and fades. The hiss of wind across open water. The silence of a thing that should have been spoken and wasn't.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

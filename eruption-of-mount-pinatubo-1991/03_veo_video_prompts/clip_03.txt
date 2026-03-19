@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium-wide shot, slightly high angle. Locked camera, flat composition, no movement. The figure watches geologists spread a hazard map on a truck hood. The USGS pickup truck and the geologists are the anchor of the scene. Classic adult animation medium-wide staging.
+
+Visual transition: From the intimate sugarcane field to the arrival of outsiders — the frame widens to include the geologists and their equipment, signaling a shift from routine to warning.
+
+Visual focus: The hazard map spread on the truck hood — its colored lahar-flow zones radiating from the volcano.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands a few metres from the truck, arms crossed, observing the geologists. At second 1, one geologist points at the map and the figure leans forward slightly, curious. At second 3, the figure takes two steps closer to get a better look at the map. At second 5, the figure tilts head to study the colored zones — expression shifts to attentive concern. At second 7, the figure straightens back up and looks from the map toward the mountain in the distance, then back to the map. Connecting the abstraction to the reality.
+
+Flat even lighting. Warm tropical palette with institutional accents — deep jungle green, sugarcane gold, red-brown earth, USGS white truck, khaki tan on the geologists, hazard-map orange and red zones. Pale blue sky.
+
+Foreground: A seismometer case with orange warning stickers open on the ground. Coiled cables. A clipboard with data sheets. Survey stakes bundled with orange tape.
+
+Midground: The figure and the two geologists at the white USGS pickup truck. The geologists gesture at the map — one traces a lahar flow channel with a pen. The map's colored zones are visible — flat yellow, orange, and red bands.
+
+Background: The sugarcane field behind. Mount Pinatubo with thicker steam venting than clip 01 — the plume has grown. Clark Air Base hangars visible. A second USGS vehicle parked further down the road, tailgate open.
+
+Audio direction:
+- SFX: Paper crinkling as the map is spread and smoothed on the truck hood. A pen tapping on paper — sharp rhythmic taps as the geologist indicates locations. A truck engine ticking as it cools. The metallic click of a seismometer case latch being opened. A walkie-talkie crackling with a burst of static.
+- Ambience: The same tropical agricultural soundscape as clip 02 — cicadas, breeze through sugarcane — but now layered with the industrial sounds of the survey team. A generator humming somewhere off-frame. The low idling of a vehicle engine.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

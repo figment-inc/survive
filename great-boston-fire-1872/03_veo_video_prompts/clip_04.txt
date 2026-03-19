@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static close-up, eye level. Locked camera, flat composition, no movement. The figure stands at a horse stall gate, looking in at a sick, fallen draft horse. Empty harnesses hang from ceiling hooks behind. Classic adult animation close-up staging.
+
+Visual transition: Cut from bright, confident fire station to dim, sickly stable interior. The palette collapses from polished red and gold to sickly yellow-green and dull brown. The same location, utterly transformed.
+
+Visual focus: The empty leather harnesses hanging from ceiling hooks — leather collars, brass buckles, trace chains — swaying gently, unused. The absence they represent.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands at the stall gate gripping the top rail. At second 1, the figure looks down at the sick horse — its body tenses, the grip on the rail tightens. At second 3, the figure slowly looks up from the horse to the row of empty harnesses hanging behind — head tracking along the line of unused leather and brass. At second 5, the figure turns back toward the viewer, orb-like eyes wide with dawning horror. At second 7, the figure's hand on the rail opens and closes in a helpless grasping motion. Expression shifts from concern to dread.
+
+Flat even lighting. Illness palette — sickly yellow-green, dull stable brown, flat muted amber, leather tan, iron grey. Dim and oppressive.
+
+Foreground: Wooden stall gate with iron hinges. A leather feed bag on the ground. Scattered straw in flat pale yellow.
+
+Midground: The figure at the gate. The sick horse lying in straw. Empty harnesses hanging from ceiling hooks, swaying slightly.
+
+Background: More stalls with sick or drooping horses. A stable hand sits on an overturned bucket with head in hands. A veterinarian examines another horse.
+
+Audio direction:
+- SFX: A horse breathing laboriously — wet, raspy inhales and exhales. Leather harnesses creaking as they sway on their hooks. The figure's fingers tightening on wood — a faint creak. A hoof weakly scraping straw. A glass veterinary bottle clinking on a shelf
+- Ambience: Sick stable atmosphere — the oppressive quiet of illness. Multiple horses breathing unevenly. Straw rustling. Flies buzzing. The absence of healthy horse sounds — no strong stamping, no snorting, no whinnying. A distant fire alarm bell rings outside, unanswered
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -305,48 +305,17 @@ def generate_script(topic):
     print(f"  [{ts()}] Generating script for: {topic}")
     print(f"  [{ts()}] Model: {model}")
 
-    max_retries = 3
-    for attempt in range(max_retries + 1):
-        raw, stop_reason = _call_claude_streaming(client, model, system_prompt, topic, max_tokens=2000)
+    raw, stop_reason = _call_claude_streaming(client, model, system_prompt, topic, max_tokens=2000)
 
-        if raw.startswith("```"):
-            raw = raw.split("\n", 1)[1] if "\n" in raw else raw[3:]
-            if raw.endswith("```"):
-                raw = raw[:-3]
-        raw = raw.strip()
+    if raw.startswith("```"):
+        raw = raw.split("\n", 1)[1] if "\n" in raw else raw[3:]
+        if raw.endswith("```"):
+            raw = raw[:-3]
+    raw = raw.strip()
 
-        word_count = _count_script_words(raw)
-        print(f"  [{ts()}] Script attempt {attempt + 1}: {word_count} words")
+    word_count = _count_script_words(raw)
+    print(f"  [{ts()}] Script complete: {word_count} words")
 
-        if 75 <= word_count <= 85:
-            print(f"  [{ts()}] Script accepted ({word_count} words)")
-            return raw
-
-        if attempt < max_retries:
-            feedback = f"REVISION: Your script had {word_count} words. "
-            if word_count > 85:
-                feedback += (
-                    f"The HARD LIMIT is 75-85 words. CUT {word_count - 80} words. "
-                    f"Remove adjectives, compress sentences. Every word costs 0.4 seconds."
-                )
-            elif word_count < 75:
-                feedback += "Too thin. Add sensory detail. Target 75-85 words."
-            topic_with_feedback = f"{topic}\n\n{feedback}"
-            raw, stop_reason = _call_claude_streaming(
-                client, model, system_prompt, topic_with_feedback, max_tokens=2000
-            )
-            if raw.startswith("```"):
-                raw = raw.split("\n", 1)[1] if "\n" in raw else raw[3:]
-                if raw.endswith("```"):
-                    raw = raw[:-3]
-            raw = raw.strip()
-            word_count = _count_script_words(raw)
-            print(f"  [{ts()}] Script revision {attempt + 1}: {word_count} words")
-            if 75 <= word_count <= 85:
-                print(f"  [{ts()}] Script accepted ({word_count} words)")
-                return raw
-
-    print(f"  [{ts()}] WARNING: Script at {word_count} words after {max_retries} retries — proceeding anyway")
     return raw
 
 
@@ -411,33 +380,8 @@ def generate_script_v2(topic):
         final_words = _count_script_words(final)
         print(f"  [{ts()}] Rewrite complete ({final_words} words)")
 
-    # Word count validation with trim/expand loop
+    # Log final word count (no enforcement — word count is soft guidance)
     word_count = _count_script_words(final)
-    max_retries = 2
-    for attempt in range(max_retries):
-        if 75 <= word_count <= 85:
-            break
-        print(f"  [{ts()}] Word count {word_count} out of range — revision {attempt + 1}/{max_retries}")
-        feedback = f"REVISION: Your script had {word_count} words. "
-        if word_count > 85:
-            feedback += (
-                f"Target is 80 words (hard max 85). You need to cut {word_count - 80} words. "
-                f"Remove ENTIRE SENTENCES that contribute the least to the story. "
-                f"Do NOT fragment or shorten existing sentences — cut whole sentences instead. "
-                f"Every remaining sentence must be grammatically complete and sound natural when read aloud."
-            )
-        elif word_count < 75:
-            feedback += (
-                "Too thin. Add sensory detail — what the disaster feels like in the body. "
-                "Target 80 words. Add complete, flowing sentences, not fragments."
-            )
-        rewriter_prompt = REWRITER_PROMPT_PATH.read_text()
-        trim_input = f"## ORIGINAL DRAFT\n\n{final}\n\n## CRITIQUE\n\n{feedback}"
-        final, _ = _call_claude_streaming(
-            client, model, rewriter_prompt, trim_input, max_tokens=2000, temperature=0.7
-        )
-        final = _strip_code_fences(final)
-        word_count = _count_script_words(final)
 
     print(f"\n  [{ts()}] Final script: {word_count} words")
     artifacts = {"draft": draft, "critique": critique}
@@ -1621,29 +1565,6 @@ def main():
     elif args.legacy_prompt:
         episode = generate_episode_content(topic)
         total_words, num_clips = validate_word_counts(episode)
-
-        max_retries = 2
-        for retry in range(max_retries):
-            if 65 <= total_words <= 95:
-                break
-            print(f"\n  [{ts()}] Script validation failed (words={total_words}, clips={num_clips}). "
-                  f"Retry {retry + 1}/{max_retries}...")
-            feedback = (
-                f"REVISION REQUIRED. Your previous output had {total_words} words "
-                f"and {num_clips} clips. "
-            )
-            if total_words > 95:
-                feedback += (
-                    f"You produced {total_words} words — the HARD LIMIT is 75-85 words. "
-                    f"CUT {total_words - 80} words. Remove adjectives, compress sentences, "
-                    f"eliminate any words that do not teach a fact or create dread. "
-                    f"The narration must fit in 35 seconds of audio. "
-                )
-            if total_words < 65:
-                feedback += "Add sensory detail — script is too thin. Target 75-85 words. "
-            feedback += "Regenerate the entire episode."
-            episode = generate_episode_content(f"{topic}\n\n{feedback}")
-            total_words, num_clips = validate_word_counts(episode)
     else:
         if args.legacy_script:
             script = generate_script(topic)

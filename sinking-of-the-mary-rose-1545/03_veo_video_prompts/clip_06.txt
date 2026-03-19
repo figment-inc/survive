@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium-close shot, eye level. Locked camera, flat composition, no movement. The figure stands in rising water on the flooded gun deck, reaching desperately upward for the ladder to the upper deck. Water pours through every starboard gunport in thick flat torrents. Classic adult animation escalation staging.
+
+Visual transition: The tilt intensifies — what was seeping is now flooding. The water level rises visibly through the clip. The cold blue-green palette overwhelms the warm oak tones.
+
+Visual focus: The rising water — from shin height to waist height over the course of the clip, and the figure's desperate reach for the ladder.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: Water hits the figure's shins — cold shock, the figure staggers, looks down at the water swirling around the legs. Seconds 2-4: The water rises fast — thigh height now. The figure wades toward the ladder, fighting the current from the flooding ports. Arms pushing through the water. Seconds 4-6: Waist-deep. The figure reaches the ladder and grabs a rung with both hands. The deck is tilting away — the ladder is at an angle. The figure pulls upward, struggling. Seconds 6-8: The figure manages to pull up one rung, then the water surges — a fresh flood through the ports lifts the figure off the deck, floating momentarily, clinging to the ladder. Eyes wide with terror.
+
+Flat even lighting. Flooding palette — dark Channel blue-green water dominating the lower two-thirds, weathered oak brown above the waterline, tarnished bronze half-submerged, flat amber slow-match glow reflected on water, cold grey. The cold water color takes over.
+
+Foreground: Rising flat water surface with floating debris — leather cartridge, wooden ladle, splinters. Flat white bubbles. A submerged cannonball visible beneath the surface.
+
+Midground: The figure reaching for the ladder. Water pouring through the nearest port in a thick flat torrent — completely submerged. The bronze cannon half-submerged, breeching ropes straining.
+
+Background: The gun deck flooding — water streaming through every port. Other figures struggling. The interior darkening as ports submerge. Flat amber slow-match glow above the waterline.
+
+Audio direction:
+- SFX: The overwhelming roar of seawater flooding through multiple gunports simultaneously, the gurgle and rush of water rising on timber, the heavy splash of the figure wading through thigh-deep water, hands gripping wet wood on the ladder with a desperate scraping sound, the metallic groan of a cannon shifting in its breeching as water lifts it
+- Ambience: The all-consuming sound of flooding — water rushing, gurgling, rising. Air pockets releasing with deep bubbling groans. The bass creak of the hull structure under asymmetric water weight. The terrifying speed of the inundation — the sound growing louder every second
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

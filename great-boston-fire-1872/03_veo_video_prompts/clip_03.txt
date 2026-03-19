@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static low-angle shot looking upward. Locked camera, flat composition, no movement. The figure stands in the doorway of a fire station, with gleaming engines and healthy horses visible behind. Classic adult animation low-angle staging.
+
+Visual transition: Cut from dim warehouse interior to bright fire station doorway. The palette shifts from dusty amber to clean fire-engine red and polished brass. A tone of confidence and false security.
+
+Visual focus: The row of powerful, healthy draft horses in their stalls — the very resource that will soon be lost.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands in the doorway, arms crossed confidently. At second 2, the figure gestures behind with one hand — a casual thumb-point toward the gleaming engines and strong horses. At second 4, the figure straightens up taller, puffing out the ribcage slightly — false pride. At second 6, the figure leans back against the doorframe, arms re-crossed. A dalmatian trots past the figure's feet. The figure's expression remains calm and assured throughout — orb-like eyes relaxed, head held high.
+
+Flat even lighting. Confidence palette — fire-engine red, polished brass gold, warm stable brown, clean granite grey, flat warm gold daylight. Bright, optimistic.
+
+Foreground: Stone threshold. A brass fire pole descends from above. Rubber boots and a leather helmet on a bench.
+
+Midground: The figure in the doorway. Behind: red steam engines with brass fittings. Three dark brown draft horses — strong, healthy — in their stalls.
+
+Background: Well-maintained station interior — tools on pegs, coiled hoses, an American flag. Firefighters polish equipment. Flat warm gold daylight from a high window.
+
+Audio direction:
+- SFX: Horse hooves stamping on wooden stable floor, a horse snorting and whinnying contentedly, brass fittings being rubbed with a cloth — a squeaking shine, the dalmatian's claws clicking on the stone floor, a leather harness jingling as it shifts on its hook
+- Ambience: A healthy, active fire station — the steady breathing and shifting of large horses, distant laughter of firefighters, the creak of well-oiled equipment, a church clock striking the hour outside, the bustle of a confident, well-equipped operation
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

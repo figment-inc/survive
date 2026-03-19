@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static close-up, eye level. Locked camera, flat composition, no movement. The figure sits on the grey sediment plain, holding a torn fragment of the hazard map up to eye level, staring at the red boundary line. Classic adult animation close-up final staging.
+
+Visual transition: From the interior of the briefing room, cut back outside — to the grey plain where the village was. The final image mirrors the map examination in clip 04, but now the map is destroyed and the village is gone. Full circle.
+
+Visual focus: The red boundary line on the map fragment — the last remnant of color in a grey world. The line that ended before the village began.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure sits on the flat grey sediment, legs extended forward, back slightly curved. One hand holds up the torn, mud-stained map fragment at eye level. The orb-like eyes stare at the red boundary line on the paper. Still. Seconds 2-4: A faint wind rustles the map fragment. The figure's eyes follow the red line to where it ends — the edge of the torn paper, the edge of the base perimeter, the edge of concern. The other hand rests on the grey sediment, translucent fingers spread, finger bones visible pressing into the dried mud. Seconds 4-6: The figure slowly lowers the map fragment. Looks past it at the grey plain stretching to the bare grey mountain. Nothing moves. No one is here. The figure places the map fragment on the ground beside the knee. Seconds 6-8: The figure's head lifts slightly — looking at Mount Pinatubo in the distance. The grey slopes. The empty sky. Then the head drops again, chin toward chest. The map fragment lies on the grey sediment, the red line visible. A faint wind moves it slightly. Stillness.
+
+Flat even lighting — flat grey diffuse. Final palette — uniform grey sediment, pale grey sky, the dull red of the map's boundary line as the only remaining color, the pale translucent figure nearly blending into the grey. A tiny accent of faded pink from a floral fabric scrap near the figure's knee.
+
+Foreground: The map fragment with the red boundary line. Other smaller fragments scattered. A faded floral fabric scrap — from a child's dress. Grey sediment.
+
+Midground: The figure sitting on the plain. The faint ridge of a buried roof beam behind. The barangay sign post — just its top two inches visible, paint scoured away.
+
+Background: The grey lahar plain to the horizon. Mount Pinatubo — bare, grey, scarred with erosion channels. Flat pale grey sky. Nothing moving. Complete stillness except a faint wind rippling the map fragment.
+
+Audio direction:
+- SFX: Wind rustling the paper map fragment — a soft crinkle, the figure's hand pressing into dried sediment — a faint dry crunch, the map fragment being placed on the ground with a soft paper-on-grit sound, wind lifting the fragment slightly — paper scraping on dried mud
+- Ambience: Profound emptiness. A low, constant wind across the featureless plain — a hollow moan. No insects. No birds. No life sounds. Just wind and the vast, dead silence of a buried landscape. The occasional distant crack of drying sediment contracting in the heat. Nothing else.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

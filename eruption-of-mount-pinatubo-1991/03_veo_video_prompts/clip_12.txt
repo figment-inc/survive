@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium close-up, slightly high angle looking down. Locked camera, flat composition, no movement. The figure sits on the flat grey sediment plain, holding the crumpled hazard map fragment. The cartographic edge is the visual anchor. Classic adult animation close-up — the final emotional beat.
+
+Visual transition: From the divided fence composition to a final intimate close-up. The visual tightens to the figure and the map — the two elements that have carried the story. The palette reaches its most muted — grey-white sediment, pale grey sky, the faded colors of a useless map.
+
+Visual focus: The hazard map fragment in the figure's hands — the sharp straight edge where the colored zones end, the blank space beyond. The figure sits in the real-world space that corresponds to that blankness.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure sits on the sediment, knees drawn up, holding the map fragment in both hands. At second 0, the figure stares down at the map — orb-like eyes fixed on the cartographic edge. At second 2, the figure's thumb slowly traces along the edge of the mapped area — where the colors end and the blank paper begins. At second 4, the figure slowly lifts head and looks outward at the empty sediment plain — the real space that was left blank. At second 5, the figure looks back down at the map. At second 6, the figure slowly folds the map and places it on the ground beside — a deliberate, resigned gesture. At second 7, the figure's hands rest on the knees, head bowed. Stillness. The final image is the figure alone on the grey plain, the folded map beside them.
+
+Flat even lighting — diffused, grey, melancholic. Final palette — sediment grey-white, dried mud ochre, faded map colors (washed-out orange and red), pale grey sky. Quiet. Still. Empty.
+
+Foreground: The flat grey sediment surface with fine cracks. A few blades of cogon grass. A rusted nail. The folded map on the ground.
+
+Midground: The figure seated. The immediate grey plain around. A rebar memorial cross in the mid-distance.
+
+Background: The flat grey sediment plain to the horizon. Mount Pinatubo in the distance, crater visible, slopes bare grey. Pale grey overcast sky. A single black bird circling. Nothing else moves.
+
+Audio direction:
+- SFX: Paper folding — a soft deliberate crinkle as the map is folded. The figure placing the map on the ground — a quiet paper-on-sediment rustle. Wind moving across the flat plain — a low steady whistle. A single bird call — sharp and distant. The fine crackle of dried sediment shifting under the figure's weight.
+- Ambience: Near-silence. Flat wind across the empty sediment plain — steady, unobstructed, hollow. The complete absence of the sounds that once defined this place — no animals, no village life, no machinery, no people. The sediment plain sounds like nothing. The wind is the only continuous presence. The quietest clip in the episode — the silence is the statement.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

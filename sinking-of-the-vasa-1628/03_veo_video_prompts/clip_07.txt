@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium shot, low angle from the tilting deck. Locked camera, flat composition, no movement. The deck is pitched sharply, water rushing across. The figure clings to a stay line. Classic adult animation dynamic medium staging.
+
+Visual transition: Cut from the wide celebratory departure to a sudden close-in shot on the tilting deck. The palette crashes from bright festive to cold dark blue and grey. Everything is moving — water, objects, people. The crisis hits instantly.
+
+Visual focus: Cold dark water rushing across the deck through the open gun ports — the moment the ship begins to capsize.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 1, a gust hits the sails above — the canvas billows and the deck lurches to port. The figure stumbles. At second 2-3, the figure grabs a stay line with both hands as the deck tilts sharply. Feet slide on the wet planking. Dark water begins rushing across the low side of the deck. At second 4-5, water pours through the open gun ports — a flood of cold Baltic blue rushing across the planking and over the figure's feet. The figure's orb-like eyes go wide. At second 6-7, passengers slide across the wet deck — a woman clutching a child, a man falling against the rail. The figure's grip tightens on the stay line, the translucent hands showing knuckle bones. At second 8, the tilt worsens — the deck is now at a severe angle, and the figure's feet are in ankle-deep water.
+
+Flat even lighting shifting to crisis — cold dark Baltic blue water dominates, steel grey sky, aged oak brown deck darkened with water, flat white foam on rushing water. Cold and sudden.
+
+Foreground: Dark water rushing across deck planking, a loose barrel rolling through the flood, a woman's linen cap floating on the surface. Foam around a cannon carriage.
+
+Midground: The figure clinging to the stay line. Passengers and crew in panic — sliding, falling, grabbing at anything.
+
+Background: Sails billowing against grey sky. The Stockholm waterfront visible in the distance — impossibly close. Dark churning harbor water at the low rail.
+
+Audio direction:
+- SFX: A sharp crack of wind hitting canvas sails, the deep groan of the hull tilting — timber creaking and popping, water rushing across the deck with a violent sloshing roar, a heavy barrel slamming against the rail, bronze cannons shifting on their carriages with metallic scraping
+- Ambience: The sudden transition from calm to chaos — wind howling through rigging, water flooding through gun ports in a continuous pouring rush, the hull groaning under asymmetric stress, distant indistinct cries from the waterfront (no words), seagulls screeching
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

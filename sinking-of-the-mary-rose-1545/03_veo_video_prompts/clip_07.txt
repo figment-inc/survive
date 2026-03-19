@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static close-up, slightly low angle looking up from below the hatch. Locked camera, flat composition, no movement. The figure is pressed against the anti-boarding netting from below, hands clawing at the mesh. Through the netting, the overcast sky is visible. Classic adult animation claustrophobic close-up.
+
+Visual transition: From the flooding gun deck to this tighter, more desperate framing — the figure has reached the hatch only to find it blocked. The visual narrows as hope does.
+
+Visual focus: The anti-boarding netting — thick hemp rope in a grid pattern, knotted tight, stretched across the hatch, blocking escape. The irony made visible.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure is pressed against the netting from below, hands pushed through the mesh squares, fingers gripping the hemp rope. Pulling hard. The netting bows slightly but holds. Seconds 2-4: The figure shifts grip, tries to tear at a knot with both hands — fingers scraping, pulling. The knot holds. The figure shakes the mesh in frustration. Seconds 4-6: The figure tries to push the skull through a mesh square — it's too small. The orb-like eyes are wild, darting. Water is rising from below — it reaches the figure's chest. Seconds 6-8: The figure's grip tightens as the water reaches the neck. The hands pull one final time — the knots hold. The figure's head tilts back, eyes staring upward through the mesh at the sky. Resignation beginning.
+
+Flat even lighting. Entrapment palette — rope-tan netting against flat grey sky above, cold Channel blue-green water rising from below, dark oak hatch frame, pale translucent skin of the figure the brightest element. Claustrophobic, cold.
+
+Foreground: The thick hemp netting filling the upper portion of the frame — each rope visible, each knot detailed, stretched taut. The figure's pale fingers gripping through the mesh.
+
+Midground: The figure pressed against the underside of the netting. Ribcage pressed against the mesh. Water rising around the figure.
+
+Background: Through the mesh — flat overcast sky, the ship's tilting mast, rigging at wrong angles. A Tudor pennant still flying. The world above, unreachable.
+
+Audio direction:
+- SFX: The straining creak of hemp rope under tension as the figure pulls, the scrape of translucent fingers on coarse rope, the wet slap of rising water against the figure's body, the dull thud of fists hitting the mesh, the gurgle of water rising through deck seams below
+- Ambience: The rushing flood from below — water pouring up through hatches and seams. Trapped air escaping in deep groaning bubbles. The distant muffled chaos of the ship breaking apart. The sound narrowing to just water and rope and the figure's desperate physical effort
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium-wide shot, eye level. Locked camera, flat composition, no movement. The figure stands to the left watching two American geologists setting up seismic monitoring equipment and unfolding a large hazard map on the hood of a white USGS pickup truck in the sugarcane field. Classic adult animation medium-wide staging.
+
+Visual transition: From the peaceful routine, cut to the arrival of outsiders — scientists with equipment and maps, introducing the central object of the episode: the hazard map.
+
+Visual focus: The hazard map on the truck hood — the central prop of the episode, with its red boundary lines and blank spaces beyond.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure stands to the left of frame, arms crossed over the visible ribcage, watching the geologists with cautious curiosity. Head tilts as they unfold the large paper map. Seconds 3-5: The figure takes two steps forward, leaning in to look at the map on the truck hood. One translucent hand reaches out to trace the red boundary line on the map. Seconds 5-8: The figure's hand stops at the edge of the red zone — where the map goes blank. The figure pulls the hand back slowly. Head turns to look in the direction beyond the map's edge — toward the village. A beat of still, uneasy recognition.
+
+Flat even lighting. Transition palette — tropical greens muting slightly, olive-drab military tones introduced, off-white map paper, red hazard lines, grey instrument housings. A thin flat grey-white haze layer above the horizon near the mountain.
+
+Foreground: The hazard map on the truck hood — topographic contour lines in flat brown, river channels in flat blue, red-inked lahar zones, and the bold red boundary line that terminates at the base perimeter. A compass and yellow pencil on the map.
+
+Midground: The figure and two geologists near the truck. A portable seismograph on a metal tripod with trailing cables. Olive-green equipment cases stacked.
+
+Background: Sugarcane fields stretching to Pinatubo — visible grey scar near the summit, a wisp of white steam. Clark Air Base perimeter fence with watchtower and American flag. A military helicopter flies low in the distance.
+
+Audio direction:
+- SFX: A truck tailgate banging open, heavy equipment cases thudding on the ground, the crinkle and snap of a large paper map being unfolded, the metallic click of a seismograph being calibrated, a compass spinning on paper
+- Ambience: Field sounds mixed with military activity — cicadas overlaid with the distant thrum of helicopter rotors, a jeep engine idling, the crackle of a handheld Motorola radio with indistinct chatter, wind rustling sugarcane stalks
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

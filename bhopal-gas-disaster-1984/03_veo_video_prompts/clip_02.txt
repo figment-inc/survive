@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, low angle looking up. Locked camera, flat composition, no movement. The figure is dwarfed at the base of the massive MIC storage tank E610, which fills the upper two-thirds of the frame. Classic adult animation wide staging emphasizing industrial scale versus human vulnerability.
+
+Visual transition: Cut from the exterior road to the interior of the plant. The palette shifts from warm dusty browns and midnight blue to cold steel grey and rust orange. The scale shifts dramatically — the figure shrinks against industrial enormity.
+
+Visual focus: The massive Tank E610 towering above the figure — forty tonnes of methyl isocyanate stored in a single vessel, rendered in flat steel grey with rust patches and riveted seams.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands at the base of the tank, neck craned upward, staring at its enormous scale. At second 2, the figure slowly reaches out and places one palm flat against the tank's surface. At second 4, the figure pulls the hand back sharply — as if the surface is warm — and looks at the palm. At second 5, the figure takes a step back, looking up again. At second 6.5, the figure wraps both arms around itself in a self-protective embrace, still staring up at the tank. Orb-like eyes wide with growing dread throughout.
+
+Flat even lighting. Palette: steel grey, rust orange, sickly yellow-green, sodium yellow, stained concrete beige, midnight blue visible through pipe gaps above. Cold industrial atmosphere. Flat chemical residue stains on all surfaces.
+
+Foreground: Corroded pipes at ground level with bolted flanges showing rust streaks. A puddle of brownish water on stained concrete. A discarded cotton rag stained yellow-green. A cracked pressure gauge with needle in the red zone.
+
+Midground: The figure at the tank base. Tank E610 — flat steel grey, riveted, with a faded hazard placard. A corroded valve wheel on a pipe from the tank's base. Temperature gauge reading abnormally high.
+
+Background: Maze of industrial piping, catwalks, a second tank partially visible. The vent gas scrubber tower — dark, idle, non-operational. The flare tower — cold, unlit. A single sodium-yellow overhead lamp. Deep midnight blue sky through gaps in the pipe lattice.
+
+Audio direction:
+- SFX: The deep metallic groan of the tank under internal pressure — a low, unsettling resonance, the clang of the figure's hand against the warm tank surface, a drip of water hitting a metal pipe in a steady rhythm, the squeak of a corroded valve shifting slightly on its own, a distant metallic rattle of loose fittings
+- Ambience: The industrial hum of a chemical plant at night — but wrong, too quiet, missing the normal sounds of operational safety systems. The refrigeration unit is silent. The scrubber is silent. Only the low groan of pressurized steel and the irregular dripping of water. A faint chemical hiss from a corroded joint.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

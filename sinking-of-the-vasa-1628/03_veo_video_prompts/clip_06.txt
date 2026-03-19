@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, eye level from the quayside. Locked camera, flat composition, no movement. The Vasa sails away from the dock, moving left to right across the frame. The figure is visible at the port rail among passengers. Classic adult animation wide establishing shot.
+
+Visual transition: Cut from the dark interior office back to the bright harbor — the day of the maiden voyage. The palette opens up — bright flat blue sky, festive pennants, celebratory atmosphere. A false sense of hope.
+
+Visual focus: The Vasa under sail — beautiful, ornate, and doomed — departing to cheering crowds.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands at the port rail among passengers. At second 1-2, the mooring lines are cast off — ropes fall into the water. The crowd on the quay cheers (silently — no voices). The figure raises one hand in a stiff, uncertain half-wave to shore. At second 3-4, the ship begins to move, sails catching wind. Passengers around the figure wave enthusiastically. The figure's hand lowers. At second 5-6, the figure's gaze drops to the waterline — watching how low the ship sits. At second 7-8, the figure grips the rail tightly, knuckles visible through the translucent skin, staring at the water. The celebration continues around, but the figure is frozen in private dread.
+
+Flat even lighting. Departure palette — bright flat pale blue sky, dark Baltic blue water, aged oak brown hull, tarnished gold gilding, blue-gold pennants streaming. Festive but fragile.
+
+Foreground: The stone quayside edge with flower garlands and discarded confetti. A child's wooden toy on the stones.
+
+Midground: The Vasa's port side moving past — dark hull, gilded carvings, open gun ports, canvas sails filling. The figure at the rail among colorful passengers.
+
+Background: Stockholm's waterfront buildings and church spires. A salute cannon on the dock fires a flat puff of white smoke. Rowboats following the ship. Bright pale sky.
+
+Audio direction:
+- SFX: Heavy mooring ropes splashing into the water, canvas sails snapping taut as they catch the wind, the creak of massive timber as the ship begins to move, a salute cannon firing with a flat boom and echo across the harbor, the lapping of water against the departing hull
+- Ambience: A festive harbor departure — crowd cheering and clapping (distant, indistinct — no words), seagulls calling excitedly, wind filling the sails with a steady rushing sound, small waves slapping against the quay, church bells ringing in the distance
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

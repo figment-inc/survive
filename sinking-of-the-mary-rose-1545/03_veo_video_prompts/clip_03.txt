@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static wide shot, high angle from the ship's rail looking out over the Solent. Locked camera, flat composition, no movement. The figure stands at the rail in the lower third, with the vast French fleet spread across the flat grey-green water filling the upper two-thirds. Classic adult animation environmental wide shot.
+
+Visual transition: Cut from the close interior gun deck to the wide exterior view — opening up the world, showing the scale of the battle and the false confidence before disaster.
+
+Visual focus: The massive French armada filling the Solent — two hundred ships against eighty — and the figure's confident stance at the rail.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure stands at the rail, hands gripping the oak, looking out at the French fleet with alert confidence — chin raised, posture upright. Seconds 3-5: The figure turns head left to watch as the wind shifts — English pennants changing direction, fluttering more favorably. The figure nods slightly, satisfied. Seconds 5-8: The figure looks right as a nearby English ship fires a broadside — a flash of flat orange and a cloud of flat white smoke. The figure's posture straightens further. Confidence building.
+
+Flat even lighting. Exterior overcast palette — storm grey sky, Channel blue-green sea, sail-canvas cream, Tudor red pennants, weathered oak brown rail, flat white gunsmoke patches. Bright flat diffused daylight.
+
+Foreground: Oak rail with coiled hemp rope, belaying pin rack, the thick knotted anti-boarding netting strung above — prominent and detailed. A Tudor red and white pennant fluttering.
+
+Midground: The figure at the rail. English longbowmen beside the figure stringing yew bows. Sheaves of arrows against the castle wall.
+
+Background: The Solent filled with the French armada — rows of flat-colored galleys and carracks. The English fleet in a tighter formation. Distant puffs of flat white smoke from ranging shots. Flat overcast sky.
+
+Audio direction:
+- SFX: The snap of pennants in shifting wind, the distant boom of a broadside firing from a nearby English ship, the creak of yew bows being strung, the slap of waves against the hull, the rattle of arrows being sorted in sheaves
+- Ambience: Strong wind gusting through rigging and sails, the general bustle of a warship preparing for battle — footsteps on deck, ropes being hauled, the distant rumble of French cannon fire, seagulls calling, the constant low rush of the sea past the hull
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

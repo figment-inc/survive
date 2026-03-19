@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static wide shot, low angle. Locked camera, flat composition, no movement. The figure stands small in front of the nipa hut looking up at the massive eruption column rising from Pinatubo, while a long military convoy streams out of Clark Air Base in the middle distance. Classic adult animation wide-scale staging.
+
+Visual transition: A dramatic escalation — from the intimate map close-up, cut wide to show the full scale of the eruption and the military evacuation. The contrast between the organized convoy and the figure standing alone is the visual point.
+
+Visual focus: The stark contrast — the orderly military convoy evacuating vs. the figure standing alone, left behind.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure stands rigid in front of the nipa hut, head craned back looking up at the eruption column. Fists clench at the sides. Pumice stones begin bouncing off the hut roof. Seconds 2-5: The figure's head snaps down from the sky to look at the military convoy — the long line of olive-drab vehicles streaming away on the highway. The figure takes one step toward the road, arm reaching out. Seconds 5-7: The figure stops. Watches the convoy recede. The arm drops. Seconds 7-8: The figure turns back to look at the nipa hut, then up at the darkening sky. Small pumice stones bounce off the figure's shoulders. The figure does not move — frozen in the realization of abandonment.
+
+Flat even lighting dimming. Eruption palette — dark volcanic ash grey, flat pale pumice, olive-drab military green, muted sugarcane green dusted with grey, sulfurous yellow-ochre at the eruption column's base. The light dims from flat tropical bright to dark grey overcast.
+
+Foreground: Falling flat grey pumice stones scattering on the ground. Sugarcane stalks bending under ash. A cracked clay water jar by the hut steps.
+
+Midground: The figure in front of the ash-dusted nipa hut. Neighbors in adjacent doorways looking up. An agitated carabao pulling at its tether.
+
+Background: The colossal eruption column — a towering pillar of flat dark grey ash spreading into an anvil canopy. The military convoy — olive-drab vehicles with flat yellow headlights — streaming along the highway. Clark Air Base concrete buildings behind the chain-link fence. The sky transitioning from pale blue at the edges to dark ash grey above.
+
+Audio direction:
+- SFX: Pumice stones pinging off corrugated tin roofs like hail, the low grinding rumble of the eruption — a deep bass tremor that vibrates through everything, distant vehicle engines in convoy — a continuous mechanical drone, a carabao bellowing in distress, a clay jar cracking as a pumice stone hits it
+- Ambience: A growing wall of sound — the eruption's continuous deep rumble overlaid with the patter of falling pumice, the mechanical drone of the convoy fading with distance, dogs barking frantically across the village, the creak and groan of bamboo structures under accumulating ash weight
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

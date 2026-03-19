@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands at the edge of the village holding a crumpled hazard map fragment, the cartographic edge visible. The village and the empty unmapped space are the setting. Classic adult animation medium staging.
+
+Visual transition: From the overwhelming wide shot of the eruption to a tighter medium — returning to the figure's personal scale. The military convoy is gone. The figure is alone with the map fragment and the knowledge of what it means.
+
+Visual focus: The hazard map fragment in the figure's hand — the sharp straight edge where the mapping stops. The blank space on the paper corresponds to the real space around the figure.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure holds the crumpled map fragment at chest height. At second 1, the figure looks down at the map — orb-like eyes scanning the colored zones. At second 3, the figure's thumb traces along the cartographic edge — the line where the mapping stops. At second 4, the figure looks up from the map toward the village behind — the dry riverbed, the valley channel leading up toward the volcano. Connecting the map to the terrain. At second 6, the figure crumples the map slightly tighter in one fist, expression hardening to grim realization. At second 7, the figure's head turns toward the distant base — now dark and empty. No help coming.
+
+Flat even lighting — dim and oppressive, the premature darkness of the eruption. Palette — ash grey, charcoal, muted ochre of concrete block, dried-mud brown of the riverbed, sulfurous yellow-green sky tinge, faded hazard-map orange and red.
+
+Foreground: A concrete barangay marker post. A drainage ditch with grey-brown water. Flat grey ash drifting steadily like grey snow.
+
+Midground: The figure with the map. The village behind — concrete-block and nipa hut structures. The dry riverbed along the village edge — the lahar channel.
+
+Background: Dark charcoal grey sky. The eruption column partially visible through ash haze. Clark Air Base in the far distance — dark, lights off, evacuated. The chain-link fence barely visible. Open unmapped land between base and village.
+
+Audio direction:
+- SFX: Paper crinkling as the figure tightens grip on the map fragment. Ash pattering softly on concrete and corrugated tin. A distant deep rumble from the mountain — continuous, rolling. A transistor radio crackling with static from somewhere in the village — no clear signal. A metal gate banging repeatedly in the wind.
+- Ambience: The volcanic roar is more distant here but constant — a low bass drone. Ash falling creates a continuous soft hiss. Wind carrying ash particles. The village is eerily quiet — no animals, no normal sounds. An occasional distant shout from a villager. The absence of sirens, of official warning sounds, of any organized response.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

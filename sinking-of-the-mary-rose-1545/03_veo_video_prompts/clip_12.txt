@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, eye level from shore. Locked camera, flat composition, no movement. The figure stands on the stone parapet of Southsea Castle in the foreground, looking out at the wreck. King Henry VIII's broad back is visible in the midground. The Mary Rose's masts protrude from the distant Solent. Classic adult animation callback composition — returning to the shore perspective.
+
+Visual transition: From the dark underwater tomb to the bright shore — the final contrast. The figure is back above water, a ghostly observer on the parapet, standing where the king watches. The palette returns to the base episode palette but muted and exhausted.
+
+Visual focus: The two fatal details visible on the wreck — the open gunports and the anti-boarding netting — both visible on the protruding hull section, the twin causes of death.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure stands on the parapet, arms at sides, looking out at the wreck. Still. Expression: hollow, empty, knowing. Seconds 3-5: The figure slowly turns head to look at King Henry VIII's back — the king who watched every second and could do nothing. The figure's eyes narrow slightly. Seconds 5-7: The figure turns back to the wreck in the distance. The camera is locked but the figure raises one hand — pointing at the distant wreck, at the open ports, at the netting. Pointing at the cause. Seconds 7-8: The hand drops. The figure stands still. Eyes fixed on the Solent.
+
+Flat even lighting. Callback palette — storm grey, weathered oak brown, cold Channel blue-green, Tudor red dulled, flat grey-gold late afternoon light. The figure is pale against the grey world. Muted. Exhausted.
+
+Foreground: Stone parapet edge. The figure at the wall. A dropped telescope. An overturned goblet with flat dark red wine spilled.
+
+Midground: King Henry VIII from behind — broad silhouette, flat cap, fur-lined gown. Motionless. A Tudor standard planted in stone, limp.
+
+Background: The Solent — the Mary Rose's masts protruding, flags still flying. The open gunports and anti-boarding netting visible on the hull section. Small boats. French fleet withdrawing. Flat late-afternoon sky.
+
+Audio direction:
+- SFX: Wind across the stone parapet — a low moan through the castle crenellations, the soft flap of the limp Tudor standard, the distant creak of the Mary Rose's protruding masts settling, the faint splash of oars from boats at the wreck site, the ceramic scrape of the overturned goblet rocking slightly on stone
+- Ambience: Late afternoon wind off the Solent — steady, cold, carrying the faint sounds of the aftermath across the water. Distant seagulls. The quiet shuffle of courtiers on the parapet. The vast, indifferent sound of the sea continuing as it always has. A profound, ringing quiet
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

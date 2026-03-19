@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands in the shipyard among the massive curved oak ribs of the hull under construction. Classic adult animation medium staging.
+
+Visual transition: Cut from the wide harbor shot to the interior of the shipyard — going back in time to the construction. Warmer tones, sawdust in the air, the intimacy of labor.
+
+Visual focus: The adze striking green oak — the physical labor of building the doomed ship.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands over a large oak timber, adze in both hands. At second 1, the figure raises the adze overhead. At second 2, the figure swings downward — a powerful stroke into the green oak. Wood shavings curl from the blade. At second 3-4, the figure straightens, rolls shoulders as if in pain from the effort, then raises the adze again. At second 5, another stroke. At second 6-7, the figure pauses, wiping brow with the back of one hand, and looks up at the towering ribs of the hull above — the enormous scale of what they're building. At second 8, the figure grips the adze handle and squares up for another swing.
+
+Flat even lighting. Shipyard palette — pale honey-gold raw oak, dark aged oak brown, pine green roof timbers, packed earth brown, flat pale grey sky above. Sawdust particles drift as flat pale specks.
+
+Foreground: Curled oak shavings accumulating on the packed earth. A mallet and chisel on a sawhorse. An iron clamp holding a plank.
+
+Midground: The figure working among the towering curved ribs of the hull. Other shipwrights move in the background — hammering, carrying planks.
+
+Background: The open-air shipyard — long timber sheds with dark pine-green roofs, stacks of lumber. The mast of another ship visible over a fence. Flat grey sky.
+
+Audio direction:
+- SFX: The sharp thwack of an adze biting into green oak, wood shavings curling and falling with a dry whisper, iron hammer strikes on wooden pegs echoing through the yard, a heavy timber beam being dropped into place with a deep thud, the scrape of a hand plane on wood
+- Ambience: A busy shipyard — continuous hammering from multiple directions at varying distances, men grunting with effort, the creak of wooden scaffolding under weight, seagulls overhead, a steady wind off the harbor, sawdust settling with a faint hiss
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

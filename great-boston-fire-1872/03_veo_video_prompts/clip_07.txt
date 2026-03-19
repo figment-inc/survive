@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static low-angle shot looking upward. Locked camera, flat composition, no movement. The figure in the street below, mansard roofs ablaze above. Classic adult animation low-angle staging.
+
+Visual transition: Cut from medium street-level to dramatic low-angle looking up at the rooftops. The fire has climbed — it now crowns the buildings. The palette intensifies — flat bright orange dominates the upper two-thirds against soot black sky.
+
+Visual focus: The mansard roofs catching fire one after another in a chain — steep slate-sided pyramids crowned with flat bright orange flames, igniting sequentially like matchheads.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands in the street, head craned fully back looking up at the rooftops. At second 1, the nearest mansard roof erupts in flat orange flame — the figure flinches. At second 3, embers shower down — the figure raises both arms, palms out, warding them off. Flat orange specks land on the figure's shoulders. At second 5, the figure takes a step backward, then another — retreating. At second 7, the figure turns and walks quickly down the street, looking back over its shoulder. The roofs burn in a continuous line above.
+
+Flat even lighting on ground level. Catastrophe palette — vivid flat orange, bright amber, soot black, dark smoke grey, charcoal. Ember particles drift across the entire frame.
+
+Foreground: Burning debris on cobblestones — a charred sign, a smoldering fabric bolt. Glowing embers scattered on the ground.
+
+Midground: The figure stepping backward. People fleeing around it. A firefighter's water stream falls short of the roofline.
+
+Background: A wall of mansard roofs — steep pyramids of flat bright orange flame against black sky. Thick flat dark smoke. Cast-iron cresting melts.
+
+Audio direction:
+- SFX: The sharp crack of slate roof tiles exploding from heat — like gunshots. The sustained whoosh of each roof catching in sequence. Embers hitting shoulders and cobblestones with tiny sizzles. A wooden dormer frame collapsing with a crash. Molten iron dripping and hissing on stone
+- Ambience: An overwhelming fire roar — the sound of sixty acres of city burning, a sustained freight-train rumble. Constant cracking and popping. The rush of superheated air being drawn upward. Distant screams and shouts. The clatter of people running with belongings
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

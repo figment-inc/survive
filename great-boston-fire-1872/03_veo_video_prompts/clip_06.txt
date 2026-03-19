@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands at the curb as a building across the street burns and a firefighter struggles with a mismatched hydrant coupling. Classic adult animation medium staging.
+
+Visual transition: Cut from wide street-hauling scene to tighter street-level fire scene. The orange glow that was on the horizon now fills the frame. The fire has arrived. The palette shifts from distant threat to immediate engulfment — vivid flat orange dominates.
+
+Visual focus: The hydrant coupling that does not fit — the brass fitting is the wrong size, water spraying uselessly from the gap between coupling and hydrant. The mechanical failure at the worst possible moment.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands at the curb watching the firefighter struggle with the coupling. At second 1, a blast of heat from across the street pushes the figure backward — it stumbles, grabbing a lamppost. At second 3, the figure looks down at the firefighter wrestling with the ill-fitting coupling — water spraying everywhere uselessly. At second 5, the figure looks across the street as fire visibly jumps the gap — embers and flames arc from the burning building to the roof of the near-side building. At second 7, the figure raises one arm across its face defensively, leaning away from the heat. Orb-like eyes wide with alarm above the shielding arm.
+
+Flat even lighting on the figure. Fire palette — vivid flat orange, bright amber, brick red, soot black, dark smoke grey. Intense warm tones dominate.
+
+Foreground: The firefighter at the hydrant — dark blue coat, leather helmet — water spraying uselessly. Tools on the ground. Broken glass.
+
+Midground: The figure at the curb. The building across the street fully engulfed in flat orange fire.
+
+Background: The fire jumping the street — flames reaching from one building to another. Thick flat dark smoke. Embers as flat orange specks. Silhouettes of retreating firefighters.
+
+Audio direction:
+- SFX: The sharp hiss and spray of water under pressure escaping a loose coupling. A wrench clanging against a brass hydrant fitting. Glass shattering from heat — a sharp crack followed by tinkling. The deep whoosh of fire jumping across the street. Cobblestones popping from heat
+- Ambience: The fire's roar — a sustained, throaty rush of air being consumed. Crackling of burning wood and fabric at high intensity. Distant shouts of alarm. Running footsteps. The constant patter of falling embers on stone
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

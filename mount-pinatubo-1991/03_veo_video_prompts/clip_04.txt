@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static close-up, high angle looking down. Locked camera, flat composition, no movement. Looking down over the figure's shoulder at the unfolded hazard map on a rough wooden table inside a nipa hut. The map fills most of the frame. Classic adult animation close-up detail staging.
+
+Visual transition: From the wide field scene with geologists, cut dramatically closer — into the intimate space of the nipa hut at night, examining the map in detail. The mood shifts from curiosity to unease.
+
+Visual focus: The map's red boundary line — the line that ends at the base perimeter, leaving the figure's village in blank space.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure's translucent hands rest on the map edges, head bowed over it. The finger bones are visible through the skin as the hands press flat on the paper. Seconds 2-5: One translucent finger begins tracing the red boundary line slowly, following it across the map. The finger moves from the detailed hazard zone — red shading, blue river channels, brown contour lines — toward the edge. Seconds 5-7: The finger reaches the point where the red line simply stops — the edge of the base perimeter. Beyond it, blank white paper. The figure's hand hovers over the blank space. The head tilts — the orb-like eyes widen. Seconds 7-8: The figure's hand moves into the blank zone and taps once — right where the village would be. The hand pulls back and clenches into a fist on the table.
+
+Flat even lighting — warm kerosene-lamp yellow on the map surface, dim elsewhere. Tension palette — off-white map paper, dull red hazard zones, flat blue river lines, warm nipa-hut tan, flat yellow kerosene light. The sky visible through the hut doorway is flat grey-white overcast.
+
+Foreground: The hazard map dominates — detailed topographic contours, river channels, red lahar zones, and the bold red boundary line terminating at the base perimeter. USGS and PHIVOLCS logos in flat ink on the legend. A coffee-ring stain on one corner.
+
+Midground: The figure hunched over the table. A kerosene lamp with a flat yellow flame on the table corner. A portable AM radio with a red power light.
+
+Background: The nipa hut interior — woven bamboo walls, a sleeping mat rolled in the corner. Through the open doorway, the darkening landscape and a neighbor walking past with a sleeping mat.
+
+Audio direction:
+- SFX: Paper crinkling as the figure's hands press on the map, a fingertip dragging across paper, the faint hiss and flicker of a kerosene lamp flame, the soft static-crackle of a transistor radio tuned between stations, a fist thumping softly on a wooden table
+- Ambience: Evening in a Philippine village — crickets beginning their chorus, a dog barking distantly, the low murmur of neighbors' conversations carried on warm air, the distant rumble of a heavy vehicle on the base road, the continuous soft hiss of the kerosene lamp
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

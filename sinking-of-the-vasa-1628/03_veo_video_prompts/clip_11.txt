@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static extreme wide shot, slightly high angle. Locked camera, flat composition, no movement. The figure stands alone on the quayside looking down at the harbor. The submerged Vasa's mast tips protrude from the water. Classic adult animation wide desolation staging.
+
+Visual transition: Cut from the interior inquiry chamber to the open harbor again — but now empty and quiet. The color drains further — cold grey dominates. The scale reverses — from the enclosed chamber to the vast empty harbor. The figure is small and alone.
+
+Visual focus: The absurd gap between the protruding mast tips and the waterline — visualizing less than five feet of freeboard. The most powerful warship on earth, barely above the water even before it sank.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 1-2, the figure stands at the quay edge, arms at sides, looking down at the dark water. At second 3-4, the figure's gaze shifts to the protruding mast tips — the only evidence of the Vasa below. A seabird lands on one of the masts. At second 5-6, the figure slowly kneels at the quay edge, one hand touching the wet stone. At second 7-8, the figure remains kneeling, head bowed, looking at the still water. Shoulders slumped. The quiet devastation of knowing you built something magnificent and fatally flawed.
+
+Flat even lighting. Desolation palette — dark Baltic blue-grey water, pale stone grey quay, muted grey buildings, dark wood mast tips, wilted garlands in faded color. Emptied-out, still.
+
+Foreground: Stone quayside edge with iron mooring rings. Wilted flower garlands on wet stones. A severed mooring rope dangling into the water.
+
+Midground: The figure at the water's edge, small in the wide frame. Mast tips protruding from the calm dark water.
+
+Background: Stockholm's waterfront in muted stone grey. Other ships moored distantly. Flat pale grey sky. A single seabird on a mast tip.
+
+Audio direction:
+- SFX: The soft lap of water against the stone quayside, a severed rope creaking as it shifts in the current, a seabird landing on the protruding mast with a wooden tap and a flutter of wings, the figure's hand touching wet stone with a faint scrape, a distant church bell tolling once — low and solemn
+- Ambience: Near-silence — the harbor is emptied of activity. Only wind, water, and the occasional seabird call. The creak of distant moored ships. A dog barking far away. The wind carrying the faint hiss of the open Baltic beyond the harbor.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

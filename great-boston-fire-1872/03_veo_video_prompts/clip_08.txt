@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static close-up, slightly low angle. Locked camera, flat composition, no movement. The figure crouches as a granite facade collapses behind it. Classic adult animation close-up staging.
+
+Visual transition: Cut from low-angle rooftop view to tight close-up at ground level. The fire has reached the structures — stone itself is failing. The palette shifts from bright rooftop orange to heavy granite grey and rubble brown with deep orange fire visible inside the collapsing buildings.
+
+Visual focus: The granite facade shearing away from the building — massive flat grey stone blocks separating and falling. The supposedly fireproof stone cracking apart from the heat.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure crouches with arms thrown protectively over its skull. At second 1, the ground vibrates — the figure jolts, feeling it through its feet. At second 3, a massive granite facade behind the figure begins to peel away — flat grey blocks separating. The figure ducks lower, arms tighter over the skull. At second 5, rubble crashes down around the figure — granite blocks, timber, mortar dust. A fire hose on the ground is crushed and disappears under debris. At second 7, the figure slowly raises its head, peering out from under its arms at the destruction. Eyes wide, body trembling.
+
+Flat even lighting. Destruction palette — granite grey, rubble brown, flat deep orange fire visible inside collapsed structures, soot black, charcoal smoke. Heavy and oppressive.
+
+Foreground: Broken granite blocks, a crushed leather fire hose, mortar dust as flat pale grey, an abandoned leather helmet.
+
+Midground: The crouching figure. The collapsing facade behind — flat grey blocks separating, iron tie-rods snapping, interior floors burning.
+
+Background: More burning buildings. The street choked with rubble and smoke. Downed telegraph wires.
+
+Audio direction:
+- SFX: A deep, grinding crack as granite splits — a low tonal shift from stone under stress. The heavy crash of stone blocks hitting cobblestones. Iron tie-rods snapping with a metallic twang. The crunch of a leather fire hose being crushed. Mortar dust pattering like heavy rain
+- Ambience: The constant roar of fire behind the collapsing facade. Groaning of stressed building structures — a continuous low moan of iron and stone. The thud of falling debris from all directions. Distant dynamite explosions as crews attempt firebreaks
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

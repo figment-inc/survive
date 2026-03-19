@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, high angle looking down. Locked camera, flat composition, no movement. The figure stands tiny on the vast grey lahar plain that has replaced the landscape — a featureless expanse of dried sediment with only the tips of buried structures poking through. Classic adult animation wide aftermath staging.
+
+Visual transition: From the desperate close-up on the church roof, cut dramatically wide and high — the catastrophe is over. Time has passed. The landscape is unrecognizable. The lush green is replaced by uniform grey.
+
+Visual focus: The vast grey featureless plain — the total erasure of the landscape. Only the barest hints of the buried village remain.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure stands in the center of the vast grey plain, arms hanging limp. Head slowly turns, surveying the desolation. The figure is the only vertical element in the flat landscape. Seconds 3-5: The figure takes a few slow steps toward a slight ridge in the sediment — the buried roof beam of the nipa hut. The figure stops, looks down at it. Seconds 5-7: The figure looks toward the protruding church cross finial — just inches above the grey surface. Then toward the basketball backboard tip. These are the only markers of the buried village. The figure's shoulders sag. Seconds 7-8: In the middle distance, a fresh lahar flow — brown-grey mud — moves slowly through a channel during monsoon rain. The figure watches it re-bury what was already buried. Head drops.
+
+Flat even lighting — grey, diffuse, flat. Aftermath palette — uniform flat grey sediment, darker grey sky, dull brown fresh lahar flows, muted rust on exposed metal. The figure's pale translucent form is the only non-grey element.
+
+Foreground: Flat grey dried lahar sediment — cracked like dried mud. A child's rubber sandal on the surface. The tip of a corrugated tin roof protruding.
+
+Midground: The figure walking on the grey plain. The church cross finial and basketball backboard tip protruding from the sediment. The ridge of a buried roof beam.
+
+Background: The grey plain stretching to Pinatubo's stripped bare grey slopes. A fresh monsoon lahar flow snaking through a channel. A yellow bulldozer working in the distance. A line of displaced villagers on a temporary dike. A military helicopter flying low.
+
+Audio direction:
+- SFX: Boots crunching on dried lahar sediment — a gritty crunch with each step, the distant grind of a bulldozer engine working, a helicopter's rotor thump growing louder then fading, the wet slurp of a fresh lahar flow moving through a channel, wind whistling across the flat open plain
+- Ambience: A hollow, empty landscape — wind across flat sediment creating a low constant moan, the absence of all previous natural sounds — no insects, no birds, no rustling plants, nothing alive. The distant mechanical sounds of relief operations. Occasional monsoon rain pattering on the hardened grey surface.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, low angle. Locked camera, flat composition, no movement. A narrow lane between shanty houses fills the frame. The figure stumbles forward through the center of the lane, blinded. A massive wall of flat chemical-white fog rolls through the street from the background, engulfing everything in its path. Classic adult animation wide staging — chaos at scale.
+
+Visual transition: Hard cut from the plant interior close-up to the streets. The palette shifts dramatically — the industrial greys and oranges are swallowed by overwhelming chemical white. The midnight blue sky is barely visible above the advancing wall of gas. The scale opens from claustrophobic close-up to wide street chaos.
+
+Visual focus: The wall of white chemical gas rolling through the narrow street at ground level — heavier than air, swallowing shanties, people, and animals as it advances. The figure is directly in its path.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure is mid-stride, stumbling forward with arms outstretched, fingers splayed, eyes clenched shut — blinded by the gas. At second 2, the figure collides with a knocked-over bicycle and staggers, nearly falling. At second 3.5, the figure catches balance and continues forward, one arm now sweeping in front like a blind person feeling for obstacles. At second 5, the white gas thickens around the figure until only the upper torso and skull are visible above the fog. At second 6.5, the figure drops to hands and knees — the gas is thicker at ground level, this is the wrong move. At second 7.5, the figure's skull disappears into the white cloud, only a faint outline of the translucent form visible through the gas.
+
+Flat even lighting. Palette: chemical white dominates — swallowing all other colors. Deep midnight blue sky above. Sickly yellow-green tint where gas is thinnest. Sodium yellow from kerosene lanterns barely penetrating the white. Panic-red and cotton-white clothing on fleeing figures. Dust brown ground disappearing under the white cloud.
+
+Foreground: Scattered abandoned belongings — a knocked-over bicycle, a tin cooking pot, sandals, a child's cloth doll. A motionless goat on its side. The thick white gas curling at ankle height, rising.
+
+Midground: The figure stumbling through the lane. Shanty houses with doors flung open on either side. Multiple flat 2D figures fleeing — a man with a child on his shoulders running, a woman pulling two children, an elderly man collapsed to his knees. The white gas engulfs the lower portions of all figures.
+
+Background: The Union Carbide plant silhouette against midnight blue sky. The MIC tank venting a massive plume of flat chemical white that billows upward and rolls downhill toward the settlement. Sodium-yellow plant lights glow dimly through the haze. The gas plume is the dominant visual — an enormous white mass consuming the neighbourhood.
+
+Audio direction:
+- SFX: The clatter of the bicycle falling as the figure hits it, bare feet slapping on packed earth then splashing through puddles, a tin pot kicked and ringing against a wall, a goat's bell tinkling once then going silent, the creak and bang of shanty doors swinging in the wind created by the gas front's advance
+- Ambience: A rising tide of sound — hundreds of footsteps running on packed earth, the collective panicked breathing of a fleeing crowd rendered as a rushing wind-like sound, dogs howling and barking frantically, the deep continuous hiss of the gas release from the plant — a massive pressurized escape of chemical vapour that sounds like a sustained industrial roar in the distance, growing louder
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

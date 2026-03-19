@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static wide shot, low angle looking upward. Locked camera, flat composition, no movement. The figure stands in the doorway of a nipa hut, tiny at the bottom of the frame, looking up at the massive eruption column that fills the upper two-thirds. Classic adult animation wide shot emphasizing scale.
+
+Visual transition: From the tight close-up at the fence to a sudden dramatic wide shot — the frame explodes open. The sky has transformed. The calm tropical palette is overwhelmed by volcanic ash grey and charcoal. Maximum contrast with previous clip.
+
+Visual focus: The eruption column — a towering flat dark charcoal grey mushroom shape expanding across the entire sky, dwarfing everything below. The military convoy evacuating on the road, moving away from the figure.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure stands in the hut doorway gripping the frame, looking up. At second 2, thick grey ash begins falling visibly — the figure flinches and presses one hand flat against the chest in shock. At second 4, the figure turns to look at the road — a convoy of olive drab military trucks streams past with headlights on in the premature darkness. At second 5, the figure takes one step out of the doorway toward the road, one arm extending as if to signal the convoy. At second 7, the figure's arm drops — the convoy doesn't stop. The figure watches them go, frozen in the doorway.
+
+Flat even lighting shifting to dark premature twilight. Eruption palette — dark charcoal grey sky, volcanic ash grey, dull orange glow at the eruption column base, olive drab military vehicles with flat yellow headlight cones, sulfurous yellow-green. The figure's pale skin stands out starkly.
+
+Foreground: Thick grey ash falling like heavy snow. A corrugated tin roof section torn loose. Chickens scattering. Grey ash accumulating on every horizontal surface.
+
+Midground: The figure in the nipa hut doorway. The dirt road beside the hut — the military convoy of olive drab trucks driving in orderly formation, headlights cutting flat yellow cones through the ash. A Filipino family beside the road loads a carabao cart frantically.
+
+Background: Mount Pinatubo erupting — the eruption column fills the sky, flat dark charcoal grey mushroom expanding outward. The base of the column glows flat dull orange. The jungle slopes are invisible behind ash haze.
+
+Audio direction:
+- SFX: A deep volcanic explosion — a low rolling boom that shakes the frame, lasting 2 seconds. Ash pattering on corrugated tin like heavy rain — a steady metallic drumming. Military truck engines growling in convoy — diesel engines in low gear, one after another. A corrugated tin sheet tearing loose with a metallic screech. Chickens squawking in panic.
+- Ambience: The tropical soundscape is gone — replaced by a continuous low roar from the eruption, like a jet engine at distance. Ash falling creates a constant hiss against every surface. The wind has shifted — now carrying a sulfurous chemical smell indicated by the flat yellow-green tinge. The ground vibrates — a subsonic tremor.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, slightly low angle. Locked camera, flat composition, no movement. The figure stands in a formal inquiry chamber before a table of seated officials. Classic adult animation courtroom staging.
+
+Visual transition: Cut from the wide harbor aftermath to an interior chamber — time has passed. The palette shifts from cold harbor blues to dark wood-paneled warm browns. The action shifts from physical survival to bureaucratic blame.
+
+Visual focus: The chain of blame — the figure pointing at the admiral, the admiral gesturing toward the king's portrait, the king's portrait looming over all.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 1-2, the figure stands before the inquiry table and extends one arm, pointing accusingly to the left — toward the admiral in dark blue who sits with arms crossed. At second 3-4, the admiral uncrosses his arms and points upward toward the portrait of King Gustav II Adolf on the wall behind. At second 5-6, the figure follows the admiral's gesture and looks up at the portrait — the stern face of the king stares down at all of them. At second 7-8, the figure's pointing arm slowly drops. The figure looks down at the floor — no one will be blamed. The officials sit in uncomfortable stillness.
+
+Flat even lighting. Inquiry palette — dark oak brown paneling, black and dark grey robes, white ruff collars, parchment cream, flat gold portrait frame, dim amber candle color. Somber and oppressive.
+
+Foreground: Wooden witness stand with iron railing. Documents and ledgers on the table. A guttering candle.
+
+Midground: The figure, the admiral, the row of officials in dark robes with white ruffs. The ship's model on the table.
+
+Background: Dark paneled walls. The large portrait of Gustav II Adolf in flat gold frame. Iron candelabras. Grey daylight through a window.
+
+Audio direction:
+- SFX: The figure's hand slapping the witness stand railing for emphasis, the scrape of the admiral's chair as he shifts, the scratch of a clerk's quill writing furiously, the soft thud of a fist on the table, a candle guttering with a faint hiss
+- Ambience: A tense interior silence — the creak of old wooden furniture, the muffled sound of wind outside, the barely audible breathing of a room full of men, the scratch of quill on parchment continuous underneath
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

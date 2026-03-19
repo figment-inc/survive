@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static extreme wide shot, slightly elevated angle. Locked camera, flat composition, no movement. The figure stands tiny and alone on a cleared street running through block after block of ruins. Classic adult animation extreme wide staging.
+
+Visual transition: Cut from intimate high-angle rubble mound to extreme wide shot that reveals the full scale. The figure shrinks in the frame — from prominent to tiny. The palette remains cold ash grey but the vastness is the emotional shift.
+
+Visual focus: The sheer scale of destruction — seven hundred and seventy-six buildings gone, visible as block after block of ruined foundations and lone chimneys stretching into the distance on both sides of the figure.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands small in the center of the wide frame on a cleared street. At second 1, the figure stands still, looking left — ruins. At second 3, the figure slowly turns its head to the right — more ruins. At second 5, the figure looks straight ahead down the street — the destruction continues as far as can be seen. At second 7, the figure's head lowers slightly. Arms remain at sides. The figure is motionless — a tiny pale translucent form amid an ocean of grey rubble. Numb.
+
+Flat even lighting. Desolation palette — cold ash grey, granite white, charcoal, pale smoke-white sky, dull brown debris. Vast and empty.
+
+Foreground: A granite threshold step. An iron railing fragment. A charred sign.
+
+Midground: The tiny figure on the street. Ruined foundations on both sides — low walls, chimneys every thirty feet.
+
+Background: Destruction to the horizon. Old South Meeting House spire in the far distance — surviving. Cold flat grey-white sky.
+
+Audio direction:
+- SFX: Wind gusting through the open rubble field — a hollow, mournful sound. A loose shutter banging on a surviving building far away. A wheelbarrow wheel squeaking as distant workers begin cleanup. A stone falling from a damaged chimney — a single sharp crack, then silence
+- Ambience: Emptiness. The wind is the dominant sound — low and steady, unobstructed by the buildings that are no longer there. Very distant sounds of work crews — metal on stone, faint and thin. A dog barking somewhere far off. The creak of a surviving wooden beam shifting in the wind. A profound absence of urban sound — no traffic, no commerce, no bustle
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

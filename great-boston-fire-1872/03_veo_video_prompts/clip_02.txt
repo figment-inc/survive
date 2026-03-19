@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. Interior of a granite warehouse packed with goods. The figure stands amid stacked wool bolts and crates. Classic adult animation medium staging.
+
+Visual transition: Cut from exterior street to interior warehouse. Shift from navy evening to warm interior amber light. Calmer tone — establishing the workplace.
+
+Visual focus: The fine paper dust hanging in the air — tiny flat white specks drifting through the warehouse space, landing on surfaces, coating the figure.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands among the warehouse goods. At second 1, the figure runs a hand along a bolt of dark wool fabric, then looks at its fingers — coated in flat white dust. At second 3, the figure touches its own throat with one hand, grimacing slightly — the dust is everywhere. At second 5, the figure looks around the warehouse interior — up at the timber beams, at the stacks of wool and paper reaching the ceiling. At second 7, the figure's gaze lingers on a hanging oil lantern flame near the combustible goods — a brief flicker of concern crosses the orb-like eyes.
+
+Flat even lighting. Warehouse palette — granite grey, dusty cream, warm amber oil-lamp glow, deep burgundy wool, dark timber brown. Flat pale daylight from arched windows.
+
+Foreground: A wooden hand-truck loaded with paper parcels. Scattered wool fibers on the plank floor. Paper dust drifts as flat white specks.
+
+Midground: The figure among stacked goods. Wooden crates and wool bolts piled high. A thick timber support column.
+
+Background: The warehouse recedes — rows of granite pillars, more goods. Workers move bales in the distance. Tall arched windows.
+
+Audio direction:
+- SFX: The soft scrape of a hand along wool fabric, wooden crate creaking as someone stacks another on top, a rope-and-pulley groaning under weight, the gentle thud of a wool bale landing on a stack, the faint hiss of an oil lantern flame
+- Ambience: Interior warehouse atmosphere — muffled street sounds from outside, wooden floorboards groaning under foot traffic, the constant soft patter of dust settling on surfaces, distant voices of workers calling to each other (indistinct, no words), the low creak of the building itself
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

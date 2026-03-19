@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static low-angle shot looking upward. Locked camera, flat composition, no movement. The figure crouches beside a suspended bronze cannon on the gun deck, looking up at the towering superstructure. Classic adult animation low-angle staging for scale and intimidation.
+
+Visual transition: Cut from the wide shipyard to a tight low-angle inside the ship. The space is enclosed and heavy — weight pressing down from above. The color shifts from warm oak to dark bronze and heavy timber.
+
+Visual focus: The massive bronze cannon suspended from ropes, and the absurd height of gilded ornamentation above — the fatal weight being loaded.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure crouches beside the cannon, both hands guiding it as it swings slowly on its ropes. At second 1-2, the figure pushes the cannon toward its gun port mount — the heavy bronze barrel swings ponderously. At second 3, the figure pauses and looks up through the deck hatch at the ornate upper structure above — row upon row of gilded carvings. At second 4-5, the figure's orb-like eyes widen with growing concern. At second 6-7, the figure looks back at the cannon, then at the row of already-mounted cannons stretching away. At second 8, the figure's hands drop to the sides — a gesture of helpless realization.
+
+Flat even lighting. Gun deck palette — dark bronze-green cannon metal, aged oak brown, tarnished gold gilding above, dim grey-brown interior. Heavy and oppressive.
+
+Foreground: The barrel of the bronze cannon swinging slowly on hemp ropes. Iron gun carriage wheels. A coil of gun tackle rope.
+
+Midground: The figure on the gun deck. Rows of mounted cannons on both decks visible through open hatches. Dark oak beams.
+
+Background: Through the deck hatch above — the towering gilded stern castle carvings. Workers on scaffolding painting. A man on a rope ladder.
+
+Audio direction:
+- SFX: The deep groan of hemp rope under the weight of the bronze cannon, the cannon barrel swinging and bumping against the wooden hull with a heavy metallic thud, iron wheels of a gun carriage scraping on oak deck planking, a wooden mallet strike in the distance, the creak of deck beams flexing under accumulated weight
+- Ambience: The enclosed gun deck — echoing hammering from above and below, the slosh of harbor water against the hull muffled through timbers, the constant creak of wood under strain, distant shouts from workers on the upper decks filtered through planking
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

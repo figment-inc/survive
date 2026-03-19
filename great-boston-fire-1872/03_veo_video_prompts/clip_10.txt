@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static high-angle shot looking down. Locked camera, flat composition, no movement. The figure stands atop a rubble mound surveying a devastated landscape of chimneys and ash. Classic adult animation high-angle staging.
+
+Visual transition: Cut from explosive wide shot to a quiet, elevated aftermath view. The palette collapses — vivid orange drains away, replaced by cold ash grey, granite white, charcoal. The fire is over. Only grey remains.
+
+Visual focus: The vast, flat grey rubble field stretching in every direction — sixty-five acres of downtown reduced to foundations and lone chimneys. The utter emptiness where a city once stood.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands atop the rubble mound, arms at its sides, looking outward. At second 1, thin wisps of flat grey smoke rise from the rubble around the figure's feet. At second 3, the figure shifts its weight — one foot tests the rubble, which is still hot. The figure lifts the foot slightly, then sets it back down — accepting the discomfort. At second 5, the figure slowly turns in place, surveying 360 degrees of devastation. At second 7, the figure stops turning, facing away from the camera, looking out at the endless grey rubble field. Shoulders slumped. Motionless.
+
+Flat even lighting. Aftermath palette — ash grey, cold granite white, charcoal black, pale smoke-white sky, dull brown rubble. No warm tones. Cold and spent.
+
+Foreground: Rubble details — a scorched ledger, a melted brass handle, a cracked keystone. Flat grey smoke wisps.
+
+Midground: The figure on the mound. Lone chimneys and partial walls nearby.
+
+Background: The devastation to the horizon. A warped cast-iron safe. A church bell in the debris. Flat pale grey-white sky.
+
+Audio direction:
+- SFX: Hot rubble crackling and popping as it cools — small, sharp sounds. The figure's footstep on hot stone — a faint sizzle. A stone shifting and tumbling down the rubble mound. A distant iron beam groaning as it cools and contracts. Wind whistling through a lone chimney
+- Ambience: A profound, heavy silence — the absence of a city. Low wind moving through the rubble field with a soft, sustained moan. Faint crackling of residual fires deep in debris piles. The distant sound of a church bell — a single surviving bell tower tolling slowly. Occasional sounds of stone settling
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

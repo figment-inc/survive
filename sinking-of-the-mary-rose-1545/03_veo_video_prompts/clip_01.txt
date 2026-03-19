@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static wide shot, slightly low angle from sea level. Locked camera, flat composition, no movement. The Mary Rose fills the center-right of the frame, heeling sharply to starboard. The figure stands on the tilting main deck. The shore with Southsea Castle is visible in the far background. Classic adult animation wide establishing shot.
+
+Opening shot — no previous clip. The hook — a massive Tudor warship caught mid-capsize, the king watching from shore, immediate catastrophe.
+
+Visual focus: The Mary Rose heeling over — her open gunports dipping toward the waterline as the ship rolls.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure stands on the main deck gripping a rope, looking toward shore — posture tense, alert. Seconds 2-4: The deck begins to tilt — the figure stumbles, feet sliding on the planks, grabbing for the rail. Seconds 4-6: The ship heels dramatically — the figure is thrown against the rail, arms flailing, orb-like eyes wide with terror. Seconds 6-8: The starboard gunports dip below the waterline — water begins to pour in. The figure scrambles toward the center of the deck as sailors around rush in all directions.
+
+Flat even lighting. Overcast palette — storm grey sky, Channel blue-green sea, weathered oak brown hull, sail-canvas cream, Tudor red pennants, tarnished bronze cannon, flat grey-white gunsmoke haze. Flat diffused daylight.
+
+Foreground: Choppy grey-green Channel water. The ship's hull with its open gunport row dipping toward the sea. Anti-boarding netting visible along the ship's waist. Loose barrels rolling on the tilting deck.
+
+Midground: The figure on the main deck. Tudor sailors scrambling. The masts tilting, rigging going taut on one side and slack on the other. Sails catching the wind unevenly.
+
+Background: The flat grey-green Solent. Southsea Castle on the distant shore — a tiny cluster of figures on the ramparts, one broad-shouldered. The French fleet as a line of distant ships. Flat overcast sky.
+
+Audio direction:
+- SFX: The deep groan of stressed timber, hemp ropes snapping with sharp cracks, water surging through open gunports with a rushing hiss, loose barrels thumping and rolling on oak planking, the splash of waves hitting the tilting hull
+- Ambience: Wind gusting through rigging with a low moan, distant cannon fire from the broader battle as flat booming thuds, the creak and strain of an enormous wooden ship under stress, choppy sea slapping against the hull, the general commotion of hundreds of men shouting indistinctly
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

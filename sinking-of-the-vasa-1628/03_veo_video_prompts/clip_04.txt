@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static high-angle shot looking down at the deck. Locked camera, flat composition, no movement. The deck is visible from above with the figure clutching the mast and a group of men running across the tilting surface. Classic adult animation high-angle staging for vulnerability.
+
+Visual transition: Cut from the dark enclosed gun deck to an open high-angle deck shot — suddenly bright and exposed. The visual tension spikes — the deck is tilting, objects are sliding.
+
+Visual focus: The mass of thirty men running across the deck and the visible tilt of the ship — the failed stability test.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands near the mainmast as the test begins. At second 1-2, the group of thirty men run from one side to the other — the deck begins to tilt. The figure grabs the mast with one arm. At second 3-4, the men run back — the deck tilts further in the opposite direction, and the ship rocks dangerously. A barrel rolls across the frame. At second 5-6, the tilt becomes extreme — water visible at the low rail, the men stumble and stop running. The figure clutches the mast with both arms now, feet sliding. At second 7-8, an officer waves his arms frantically to stop the test. The men freeze. The ship slowly rocks back. The figure's wide orb-like eyes stare at the officer, then down at the dangerously low rail.
+
+Flat even lighting. Alarm palette — aged oak brown deck, steel grey sky, dark Baltic blue water visible at the low rail, muted linen whites and dark breeches on the crew. The tilt of the deck is the dominant visual element.
+
+Foreground: A barrel rolling across the tilting deck. Coiled ropes sliding. Iron tools clattering downhill.
+
+Midground: The figure at the mast. The mass of men running, then stopping. The deck visibly angled.
+
+Background: The dockside visible over the rail. Onlookers on the quay. Rigging at a disturbing angle against flat steel-grey sky.
+
+Audio direction:
+- SFX: The heavy pounding of thirty pairs of boots running across oak planking, the ship groaning and creaking under the rolling motion, a barrel slamming against the rail with a hollow wooden crack, water sloshing violently against the lower hull, a belaying pin clattering free and rolling across the deck
+- Ambience: The harbor setting — wind in the rigging, water against the hull, seagulls — but now overlaid with the alarming sounds of a ship listing — deep hull creaks, water splashing through scuppers, the rigging singing under uneven tension
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

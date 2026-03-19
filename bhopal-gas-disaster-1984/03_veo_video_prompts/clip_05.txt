@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. The figure sits on the ground against a low concrete wall, knees drawn to chest. The street stretches behind, lined with white-sheet-covered forms. Classic adult animation medium close-up staging — intimate aftermath, quiet devastation.
+
+Visual transition: Hard cut from the chaotic gas-filled street to the still, grey dawn aftermath. The chemical white is replaced by pale yellow-grey morning haze. The panic and motion of clip 04 gives way to near-total stillness. The palette drains of all warmth — cold ash grey, pale yellow-grey, cotton white.
+
+Visual focus: The figure sitting in hollow survival while the street behind is lined with sheet-covered bodies — the contrast between personal survival and collective death. The Union Carbide plant silhouette in the background, unchanged, indifferent.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure sits against the wall, knees to chest, arms wrapped around shins, head resting against the concrete. Eyes open but vacant — staring at nothing. At second 2, the figure slowly turns head to look down the street at the rows of white-covered forms. At second 4, the figure's head drops forward, chin to chest. At second 5.5, one hand slowly uncurls from the shin and reaches toward the ground — touching the dust beside a pair of abandoned rubber sandals that belonged to someone else. At second 7, the hand withdraws, curling back around the knees. The figure is motionless. The orb-like eyes close slowly.
+
+Flat even lighting. Palette: ash grey, pale yellow-grey, chemical white residue, muted rust orange from the plant, cotton-white sheets, deep brown earth, ghostly pale translucent skin. Cold flat morning light — no warmth. Residual white-grey haze lingers in the air.
+
+Foreground: Crumpled Hindi-language newspaper on the ground. Abandoned rubber sandals. A tin cup on its side. A small empty green canvas medical bag with a red cross, lying open.
+
+Midground: The figure against the wall. The lane behind lined with white cotton sheet-covered forms — simplified flat shapes. A woman in a white sari sits beside one form, head bowed. A man with a cloth over his nose walks between the forms with a clipboard.
+
+Background: The Union Carbide plant silhouette — the same tanks, pipes, flare tower, scrubber tower — unchanged, undamaged, still dark and idle. Pale yellow-grey dawn sky. Lingering white-grey haze. A flat-colored army truck parked at the lane's end. A few birds circling high above.
+
+Audio direction:
+- SFX: The soft scrape of the figure's hand on dusty concrete, a distant truck engine idling with a low diesel rumble, the flutter of a cotton sheet in a faint breeze, the scratch of a pen on a clipboard, the creak of the medical bag's clasp as a breeze shifts it, a single bird call — sharp and clear in the silence
+- Ambience: Near-silence — the devastating quiet after mass death. A faint chemical tang in the air suggested by a barely perceptible continuous hiss. The low distant murmur of rescue workers. A breeze moving through empty lanes, carrying residual haze. The occasional far-off sound of a vehicle. The overwhelming absence of the normal sounds of a living neighbourhood — no children, no vendors, no radio music.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

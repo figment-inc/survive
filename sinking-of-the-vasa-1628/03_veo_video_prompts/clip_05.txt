@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. The figure stands before a heavy oak desk in a dim office, holding a document toward a dismissive admiral. Classic adult animation dialogue-staging close-up.
+
+Visual transition: Cut from the chaotic exterior deck to a quiet, dark interior office. A sharp contrast — from physical danger to bureaucratic silence. The palette shifts from bright grey sky to dim oak-brown interior.
+
+Visual focus: The unaccepted document — the stability report that the figure extends and the admiral refuses to take.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 1-2, the figure holds the folded document out toward the admiral with one hand, arm extended. The admiral — a flat-colored figure in dark blue with grey beard and white ruff — raises one hand dismissively and turns his head away. At second 3-4, the figure pushes the document forward more insistently. The admiral still does not take it. At second 5-6, the figure's extended arm slowly lowers. The figure looks down at the document, then up at the portrait of King Gustav II Adolf on the wall behind the admiral. At second 7-8, the figure slowly folds the document and tucks it away. The arm drops to the side. The figure's head bows slightly — defeated acceptance.
+
+Flat even lighting. Interior palette — dark oak brown paneling, dim amber from flat candle color, navy blue doublet, parchment cream, flat grey through the window. Oppressive and enclosed.
+
+Foreground: The corner of the oak desk — inkwell, quill, wax seal, rolled naval chart. A candle in a brass holder.
+
+Midground: The figure and the admiral at the desk. A clerk at a side table, head down.
+
+Background: Dark paneled walls. The portrait of King Gustav II Adolf in flat gold frame. Swedish naval flags. A window with grey harbor light.
+
+Audio direction:
+- SFX: The soft rustle of a folded parchment document being extended and then withdrawn, the scrape of the admiral's chair as he shifts away, the scratch of the clerk's quill on paper in the corner, the soft thud of the figure's hand dropping to their side, a wax candle guttering with a faint hiss
+- Ambience: A quiet interior — the muffled sound of the harbor outside through the window, distant hammering from the shipyard barely audible, the tick of a weighted clock mechanism, the faint whisper of wind through the window crack
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

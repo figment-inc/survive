@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium close-up, eye level. Locked camera, flat composition, no movement. The figure stands at the same horse stall from clip 04, looking at the viewer. The ruined cityscape is visible through the stable's open back door. Classic adult animation medium close-up staging.
+
+Visual transition: Cut from vast exterior ruins to intimate interior callback. The framing deliberately mirrors clip 04 — same stall, same angle, same harnesses. But now the world visible through the stable door has been destroyed. The palette merges the sickly yellow-green of illness with the cold ash grey of aftermath.
+
+Visual focus: The empty leather harnesses hanging from ceiling hooks — unchanged from clip 04. The same harnesses. The same sick horse. The ruined city visible through the door behind them. The cause and the consequence in a single frame.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands at the stall gate, one hand on the rail, facing the viewer. At second 1, the figure is still — orb-like eyes looking directly at the camera. A knowing, heavy stare. At second 3, the figure slowly reaches up with one hand and touches an empty leather harness hanging from a ceiling hook — the same gesture as clip 01 with the harness on the street. The harness swings gently. At second 5, the figure's hand drops back to the stall rail. The figure does not look at the horse. Does not look at the ruins. Looks only at the viewer. At second 7, the figure's head tilts very slightly — the smallest gesture of grim acknowledgment. The harness still swings. The horse still breathes. The city is gone.
+
+Flat even lighting. Callback palette — sickly yellow-green and dull stable brown from clip 04, merged with cold ash grey and charcoal visible through the open door. Two palettes colliding — illness and aftermath.
+
+Foreground: The stall gate, the untouched feed bag, straw on the floor — all coated in a thin layer of flat grey ash.
+
+Midground: The figure at the gate. The sick horse. The empty harnesses swinging from the figure's touch.
+
+Background: Through the open stable door — the grey rubble field, lone chimneys, thin smoke wisps. A firefighter sits on a bench in the background, head bowed. The dalmatian from clip 03 curled beside him.
+
+Audio direction:
+- SFX: A leather harness swinging on its iron hook — a slow, rhythmic creak. The sick horse's labored breathing — wet, shallow. The figure's hand sliding off the wooden rail — a soft scrape. Ash dust settling on leather with a barely perceptible whisper. A distant chimney collapsing outside — a muffled crunch
+- Ambience: Near-silence of the stable interior. The horse breathing. Wind from outside carrying the smell of smoke — a faint, hollow whistle through the open door. The absence of healthy horse sounds — no stamping, no whinnying. The profound quiet of a city that has stopped functioning. One surviving church bell tolls once, distantly, then silence
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

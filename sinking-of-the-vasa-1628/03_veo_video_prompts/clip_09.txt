@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static wide shot, eye level from the waterfront. Locked camera, flat composition, no movement. The figure clings to floating wreckage in the harbor. The crowd watches from the distant quay. Classic adult animation wide aftermath staging.
+
+Visual transition: Cut from the close-up catastrophe to a wide shot — pulling back to show the full scope. The figure is now small in the frame, surrounded by debris and dark water. The watching crowd on the waterfront is the new background element — silent witnesses.
+
+Visual focus: The enormous crowd watching in silence from the waterfront — the whole city witnessing the humiliation.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 1-2, the figure clings to a large piece of ornately carved timber wreckage, arms draped over it, mostly submerged. The figure is still, recovering from shock. At second 3-4, the figure slowly raises head and turns to look toward the waterfront. At second 5-6, the figure sees the massive silent crowd lining the quay — hundreds of flat figures standing motionless, watching. The figure stares at them. At second 7-8, the figure's head slowly drops — chin to the wreckage. The hollow exhaustion of being watched in catastrophe. Orb-like eyes go half-lidded.
+
+Flat even lighting. Aftermath palette — dark Baltic blue-grey water, pale stone quayside, muted crowd colors in browns and greys, flat pale overcast sky. The warm gold of protruding mast tips is the only accent.
+
+Foreground: Floating debris — gilded carvings, a torn pennant in flat blue and gold, wooden fragments. The tips of the Vasa's masts protruding from the water.
+
+Midground: The figure on the wreckage, small in the frame. Other survivors on floating debris. A rescue rowboat approaching.
+
+Background: Stockholm's waterfront packed with a dense silent crowd. Church spires behind. Flat pale grey sky.
+
+Audio direction:
+- SFX: Water lapping against floating wreckage, the creak of waterlogged timber shifting, a distant hull settling with a deep underwater groan, oars splashing as a rescue boat approaches, a piece of gilded carving breaking free and splashing into the water
+- Ambience: Eerie near-silence — the crowd is stunned quiet, only the wind and water audible. Seagulls circling. The faint creak of the protruding masts. A dog barking on the waterfront far away. The soft hiss of small waves against the stone quay.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

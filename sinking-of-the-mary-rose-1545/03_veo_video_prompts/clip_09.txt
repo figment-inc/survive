@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level from shore. Locked camera, flat composition, no movement. Split composition — the shore parapet in the lower half, the Solent in the upper. Lady Carew at the parapet gripping stone. King Henry's broad silhouette beside her. The Mary Rose's masts in the distance, protruding from the water. The figure — tiny and pale — sinking near the masts. Classic adult animation shore-perspective shot.
+
+Visual transition: A jarring shift from the dark, chaotic underwater interior to the bright, still shore — the same event from the outside. The violence is replaced by helpless distance.
+
+Visual focus: The contrast between the watchers on shore and the tiny distant figure sinking — the unbridgeable distance of a bowshot.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure is small in the frame — a distant pale shape in the water near the protruding masts. Seconds 0-3: The figure is barely visible at the surface, one pale arm reaching upward among debris. Seconds 3-5: The arm slips below the surface. The figure disappears beneath the flat grey-green water. Seconds 5-8: The water surface where the figure was is now empty — just floating debris and the protruding masts. On shore, the woman at the parapet clutches the stone and brings one hand to her face.
+
+Flat even lighting. Shore palette — Southsea stone grey, Tudor red and gold on Henry's clothing, dark fabric, flat grey-green sea, the pale figure a distant ghost vanishing. Flat overcast daylight.
+
+Foreground: Stone parapet. The woman's hands gripping the stone. A dropped silk handkerchief.
+
+Midground: Lady Carew in a dark Tudor gown. King Henry VIII — broad silhouette, flat cap, jeweled chain, Tudor red doublet. Courtiers behind.
+
+Background: The Solent — the Mary Rose's masts jutting from the water, rigging tangled, pennants still flying. The figure sinking. Small boats rowing toward the wreck. The French fleet distant.
+
+Audio direction:
+- SFX: The distant splash and gurgle of the sinking ship — muffled across the water, the creak of the masts settling, the faint sound of small boats' oars splashing, stone scraping as hands grip the parapet, a silk handkerchief fluttering to the ground
+- Ambience: Wind across the open water carrying the distant sounds of the catastrophe, seagulls calling, the lap of waves against the shore, the eerie quiet on the parapet — stunned silence from the watchers, the distant murmur of the ongoing naval engagement
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

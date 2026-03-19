@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static wide shot, slightly high angle. Locked camera, flat composition, no movement. A cobblestone street with men dragging a massive steam engine by ropes. An orange glow rises above the rooftops in the background. Classic adult animation wide staging.
+
+Visual transition: Cut from dim stable interior to exterior night street. The palette shifts from sickly yellow-green to urgent cobblestone grey and gaslight yellow with ominous orange on the horizon. Energy surges — bodies straining, the fire beginning.
+
+Visual focus: The physical strain of men dragging a four-tonne steam engine by hand through the streets — the massive red and brass machine moving agonizingly slowly behind straining human bodies.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure is in the middle of a line of men hauling the engine by thick hemp ropes. At second 1, the figure leans forward hard, pulling — every bone visible through the translucent skin as muscles strain. At second 3, the engine's wheels grind forward a few feet on the cobblestones. The figure's feet slip slightly on the wet stones. At second 5, the figure looks up and over its shoulder toward the orange glow above the rooftops — the fire is growing. At second 7, the figure redoubles its effort, pulling harder, jaw clenched, head down. The engine moves another foot.
+
+Flat even lighting. Transition palette — cobblestone grey-brown, gaslight yellow, urgent flat orange glow on the horizon, dark navy sky, brass gold, soot black.
+
+Foreground: Cobblestones, a dropped leather glove, a coiled hose fallen from the engine.
+
+Midground: The line of straining men and the figure. The massive steam engine behind — red iron, brass boiler, heavy wheels grinding on stone.
+
+Background: Granite commercial buildings, gaslight lamps, the vivid orange glow above the rooftops growing brighter. People running toward the fire.
+
+Audio direction:
+- SFX: Heavy iron wheels grinding and scraping on cobblestones — a low, grating rumble. Hemp ropes creaking under enormous tension. Men grunting with physical effort (wordless exertion sounds). Hobnail boots scraping on wet stone. A fire alarm bell clanging urgently in the distance
+- Ambience: The growing roar of the fire as a distant sustained wind-like sound. Shouts of alarm from side streets (indistinct). Running footsteps on cobblestones. The metallic rattle of the engine's brass fittings bouncing as it moves. The ominous absence of horse hooves
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

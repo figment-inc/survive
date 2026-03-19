@@ -1,0 +1,21 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. Interior of the Union Carbide Bhopal plant, Tank E610 area, approximately 11:00 PM, December 2, 1984.
+
+Close-up shot, slightly high angle looking down at the figure. The figure crouches beside a pipe junction at the base of the MIC tank. Both hands grip the sides of the figure's skull in a gesture of horrified realization. Orb-like eyes are wide and locked on a specific point — a corroded pipe fitting where a thin stream of water visibly drips into the line connected to the tank. Expression: frozen alarm.
+
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Crouching low, knees bent, both hands gripping the sides of the skull. Spine curved, shoulders hunched. Mouth closed tight. Every bone visible through the taut translucent skin.
+
+Foreground: The corroded pipe junction in sharp detail — a missing slip-blind plate where water enters the MIC line. Droplets of water bead on rust-orange corroded metal. A disconnected hose lies coiled on the stained floor. A row of valve wheels — every one tagged with a faded red "OUT OF SERVICE" cloth tied to it.
+
+Midground: The figure crouching beside the pipe. The base of Tank E610 — a temperature gauge mounted on the tank reads abnormally high.  The tank's surface shows beads of condensation. A faint wisp of sickly yellow-green vapour curls from a corroded joint above the figure's head.
+
+Background: The dark idle scrubber tower and cold flare stack, both rendered in flat dark grey against deep midnight blue sky. A control room window glows with dim sodium-yellow light — a single silhouette of a worker visible inside, back turned. Pipes and catwalks recede into shadow.
+
+Flat even lighting. Palette: rust orange, sickly yellow-green, steel grey, sodium yellow, deep midnight blue, chemical white for the vapour wisps. Tight, claustrophobic framing. The atmosphere is suffocating — every safety system visually marked as disabled.
+
+Period texture: The specific missing slip-blind plate — a flat steel disc that should seal the pipe junction during maintenance, its absence allowing water ingress into the MIC tank. The red cloth tags on disabled valves. The out-of-date inspection stickers peeling from equipment.
+
+Background activity: Through the control room window, the lone operator sits with his back to the plant, a cup of tea on the console beside him. No alarms sound. No warning lights flash. The plant is quiet.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

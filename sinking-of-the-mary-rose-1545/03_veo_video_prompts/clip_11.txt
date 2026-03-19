@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static close-up, slightly low angle. Locked camera, flat composition, no movement. The figure floats in the dark underwater interior of the sunken hull. Above, the anti-boarding netting is a dark grid against faint grey light. The figure is the brightest element. Classic adult animation underwater close-up.
+
+Visual transition: From the wide surface view to this intimate underwater interior — descending into the sealed tomb of the Mary Rose. The palette darkens to near-total underwater murk.
+
+Visual focus: The figure floating motionless in the dark interior — sealed in, surrounded by the objects of a life at sea, the netting above like a cage.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure floats motionless in the murky water — arms slightly out, head tilted back, eyes open and staring upward through the netting toward the faint light above. Completely still. Seconds 3-5: A slight current shifts the figure — the body rotates slowly, drifting. A strand of rope netting brushes against the figure's shoulder. Seconds 5-8: The figure settles — drifting slowly downward in the dark water. The pale orb-like eyes remain open, still looking upward. Stillness. The light from above grows dimmer as sediment begins to cloud the water.
+
+Flat even lighting. Underwater palette — deep Channel blue-green, dark murky grey, the figure's pale translucent skin the brightest element, dark timber brown, iron black. Cold, dark, final.
+
+Foreground: Floating debris — a leather jerkin, scattered arrows, a wooden bowl, the carved handle of a weapon. Fewer bubbles now.
+
+Midground: The figure floating. Tilted beams, the hull at wrong angles. The netting above.
+
+Background: The dark hull interior — shadows, cannon shapes, other still figures. A faint grey-green glow from above fading. The last pocket of trapped air against the hull, shrinking.
+
+Audio direction:
+- SFX: The deep, slow creak of the hull settling on the seabed — timber groaning at very low frequency, a single air bubble rising with a quiet pop, the soft bump of a floating object nudging against the figure, the very faint scrape of sediment beginning to settle on surfaces
+- Ambience: Underwater silence — deep, oppressive quiet with only the low-frequency groans of the settling wreck. The muffled, distant sound of the surface world — waves, wind — impossibly far away. The deep bass hum of water pressing on the hull. Near-total stillness
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

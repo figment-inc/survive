@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static close-up, eye level. Locked camera, flat composition, no movement. The figure stands pressed against the Clark Air Base chain-link fence, gripping the metal with both hands, staring at a hazard map posted on a bulletin board on the military side. Classic adult animation close-up staging.
+
+Visual transition: From the medium-wide of the geologists to a tight close-up at the fence — the visual narrows dramatically, claustrophobic. The map that was spread openly in clip 03 is now behind a fence.
+
+Visual focus: The hazard map on the bulletin board inside the fence — specifically the sharp straight edge where the colored zones end, corresponding to the base boundary. The blank space beyond that line.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure grips the chain-link with both hands, face close to the metal diamonds. At second 1, the orb-like eyes scan the hazard map — following the colored zones. At second 3, the eyes trace to the edge of the map — the line where the mapping stops. The figure's grip tightens visibly on the chain-link, fingers pressing deeper into the metal. At second 5, the figure slowly turns head to look over the shoulder — toward the village, toward the unmapped space. At second 7, the figure turns back to the map, one hand sliding down the fence in a slow, defeated gesture. Dawning realization: the map wasn't made for them.
+
+Flat even lighting. Divided palette — inside the fence: military olive drab, concrete grey, institutional white, manicured flat green lawn. Outside the fence: red-brown earth, weathered wood, nipa palm tan. The chain-link fence is flat silver-grey. Sulfurous yellow-green tinge developing in the sky.
+
+Foreground: The chain-link fence filling the left side of the frame — flat silver-grey diamonds with thick black outlines. Barbed wire along the top. A faded "RESTRICTED AREA" sign bolted to the fence.
+
+Midground: The figure pressed against the fence. The bulletin board with the hazard map on the base side — colored zones in flat yellow, orange, and red, ending at the clean straight boundary line.
+
+Background: Through the fence — manicured military grounds, concrete barracks, olive drab vehicles. Behind the figure — the red-brown dirt road, nipa huts, the sugarcane field. Mount Pinatubo with a growing grey plume.
+
+Audio direction:
+- SFX: Chain-link fence rattling softly as the figure adjusts grip — a metallic musical shiver. The creak of the figure's weight shifting against the fence. A distant siren from inside the base — brief, testing. A US military jet taking off from the base runway — a rising flat roar that fades. Wind flapping the paper edges of the posted map.
+- Ambience: The base side is quiet and orderly — a distant PA system murmur, vehicle engines. The civilian side has the usual tropical sounds — cicadas, a dog barking, a jeepney horn. The contrast between the two soundscapes divided by the fence.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static close-up, low angle from below the gunport level looking up. Locked camera, flat composition, no movement. The figure crouches beside the cannon, one forearm extended vertically between the sea surface and the gunport sill — measuring the sixteen-inch gap. Classic adult animation detail close-up.
+
+Visual transition: Cut from the wide exterior confidence to this tight interior close-up — the contrast between the grand battle and this one terrifying detail. The mood shifts from confidence to unease.
+
+Visual focus: The sixteen-inch gap between the open gunport's lower lip and the sea surface — the length of a forearm, the margin between floating and sinking.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure crouches beside the cannon and looks at the open gunport — the sea visible through it, rolling gently. The figure extends one forearm vertically, measuring the distance between water and port sill. Seconds 3-5: The figure looks at the forearm, then at the gap. The orb-like eyes widen slightly with realization. Seconds 5-7: A wave rolls past outside — the water level rises momentarily, almost touching the port sill, then drops back. Salt spray mists in. The figure flinches back. Seconds 7-8: The figure looks down the row of open ports — every one showing the same thin margin — and the unease deepens.
+
+Flat even lighting. Interior palette — dark oak brown, tarnished bronze cannon, flat grey daylight from ports, Channel blue-green visible outside, iron-black, rope-tan. The bright sea through the ports draws the eye.
+
+Foreground: The bronze cannon barrel, stacked cannonballs in a wooden rack, thick oak hull planking with visible caulking seams.
+
+Midground: The figure kneeling, forearm extended. The open gunport — heavy oak lid hinged up, rope lanyard, the sea surface rolling just below the sill. Salt spray misting through.
+
+Background: The gun deck stretching away — row of open ports, each showing the same narrow margin. Gun crews working, one gunner peering out his port with a frown.
+
+Audio direction:
+- SFX: The gentle lap and surge of sea water against the hull just outside the port, a sharp hiss of salt spray misting through the opening, the creak of the cannon carriage, the low grind of iron on oak as the ship shifts, a wave slapping hard against the port sill with a wet thud
+- Ambience: The constant proximity of the sea — water rushing past the hull inches away, the hull groaning with each wave, distant muffled cannon fire, the rhythmic creak of timber under stress, the low murmur of the gun deck crew working
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

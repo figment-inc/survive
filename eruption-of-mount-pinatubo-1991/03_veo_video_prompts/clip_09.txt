@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static close-up, low angle looking up. Locked camera, flat composition, no movement. The figure kneels on the corrugated tin church roof, holding a small child figure protectively. The mud is visible below at window level. Classic adult animation close-up — intimate, emotional.
+
+Visual transition: From the wide-scale lahar destruction to an intensely personal close-up. The chaos of clip 08 resolves into a single human gesture — a parent holding a child above the rising mud. The palette contracts to the immediate: tin roof, grey-brown mud, dark sky.
+
+Visual focus: The figure's arms wrapped around the small child figure — the protective embrace on the church roof. The mud visible at the window level below.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure kneels on the roof, holding the child tightly to the chest. At second 0, the figure is hunched over the child, body curved protectively. At second 2, the figure slowly lifts head and looks down at the mud level — it's at the church windows. The orb-like eyes widen. At second 4, the figure lifts the child slightly higher, adjusting grip — the protective instinct. At second 5, the figure looks around at the submerged village — only rooftops visible. At second 6, the figure pulls the child closer and bows head down over the child's form. At second 7, the figure is still — just holding, bracing, enduring. Fierce determination in the locked jaw and rigid arms.
+
+Flat even lighting — dim, oppressive, the only illumination a dull volcanic glow and distant flashlight beams. Palette — grey-brown mud, corrugated tin silver, charcoal sky, sulfurous yellow-green glow, concrete grey church walls.
+
+Foreground: The corrugated tin roof — dented, streaked with grey-brown mud and ash. The broken wooden church cross leaning at an angle. Grey diagonal rain streaks.
+
+Midground: The figure kneeling with the child. The church walls below — mud at the window frames, windows dark with grey-brown slurry pressed against glass.
+
+Background: The village submerged — only rooftops and treetops above the flat grey-brown mud surface. Other rooftops with huddled figures. Dark charcoal sky with sulfurous yellow-green volcanic glow.
+
+Audio direction:
+- SFX: The mud gurgling and sloshing against the church walls — thick, viscous sounds. A window pane cracking under the pressure of the mud. The corrugated tin roof creaking under the weight of the figure and accumulated ash-mud. Rain hitting the tin roof — a steady metallic patter. A distant structure collapsing into the mud with a heavy wet crunch.
+- Ambience: The storm has slightly lessened — the wind is lower, the volcanic roar more distant. The dominant sound is the mud — its continuous slow movement, its thick gurgling against stone and wood. An eerie near-quiet compared to the chaos of clip 07. The occasional distant call for help — barely audible, formless, swallowed by the mud sounds.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

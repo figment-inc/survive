@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static wide shot, high angle looking down. Locked camera, flat composition, no movement. The figure stands at the edge of the riverbed valley as a massive wall of flat grey-brown lahar surges through. The chain-link base fence is visible in the mid-distance — the lahar flows past it and into the village. Classic adult animation wide establishing of destruction.
+
+Visual transition: From the tight chaotic close-up of the typhoon to a pulling-back wide shot — revealing the full scale of the lahar. The visual opens up to show the geographic truth: the mud follows the riverbeds, crosses the base fence, reaches the village.
+
+Visual focus: The lahar — the wall of flat grey-brown volcanic mud surging through the valley channel. And the chain-link fence — torn open, the mud passing through unimpeded.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure is at the riverbank edge. At second 0, the figure is frozen, staring at the lahar flowing past. At second 2, the riverbank begins to crumble — chunks of earth break off — and the figure stumbles backward, one arm reaching back for balance. At second 4, the figure regains footing and turns to look toward the village — the mud is already reaching the first houses. At second 5, the figure breaks into a run toward the village — running away from camera, toward the structures. At second 7, the figure pauses and turns back to look at the fence in the mid-distance — torn open by the lahar. The gesture of looking at the useless fence.
+
+Flat even lighting — dark and oppressive. Palette — lahar grey-brown, dark mud ochre, charcoal sky, dull orange volcanic glow, chain-link silver, rain-streak grey.
+
+Foreground: The lahar surface — flat grey-brown mud with dark boulders, uprooted tree trunks, corrugated tin debris. Churning, thick, viscous.
+
+Midground: The figure at the riverbank, then running. The village — a concrete-block house with mud reaching its foundation. Crumbling riverbank.
+
+Background: The valley channel stretching upslope. The torn chain-link base fence in the mid-distance — posts bent flat by the lahar. Beyond the fence: empty evacuated base buildings. Before the fence: the village being consumed. Villagers fleeing uphill.
+
+Audio direction:
+- SFX: The lahar itself — a deep grinding roar like concrete being poured, mixed with the crack of boulders colliding inside the flow. Earth crumbling and splashing as the riverbank collapses. Tree trunks snapping like dry twigs as they're pulled into the flow. Chain-link fence metal tearing and screeching as it's ripped from posts. The thud of mud hitting a concrete wall.
+- Ambience: The lahar roar is overwhelming — a continuous bass rumble that vibrates everything. Rain continues — hitting the mud surface with muted thuds. The typhoon wind still howling. Beneath it all, the volcanic tremor continues. Distant shouts of fleeing villagers barely audible above the noise.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
