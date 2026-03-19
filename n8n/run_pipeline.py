@@ -35,6 +35,9 @@ CHANNEL_DIR = REPO_DIR / ".channel"
 SYSTEM_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "generate-episode-legacy.txt"
 SCRIPT_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "generate-script.txt"
 PROMPTS_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "generate-prompts.txt"
+WRITER_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "writer.txt"
+CRITIC_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "critic.txt"
+REWRITER_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "rewriter.txt"
 
 sys.path.insert(0, str(REPO_DIR))
 
@@ -345,6 +348,95 @@ def generate_script(topic):
 
     print(f"  [{ts()}] WARNING: Script at {word_count} words after {max_retries} retries — proceeding anyway")
     return raw
+
+
+def _strip_code_fences(text):
+    """Remove leading/trailing markdown code fences from LLM output."""
+    if text.startswith("```"):
+        text = text.split("\n", 1)[1] if "\n" in text else text[3:]
+        if text.endswith("```"):
+            text = text[:-3]
+    return text.strip()
+
+
+def generate_script_v2(topic):
+    """Phase 1a: Writer-Critic-Rewriter pipeline for script generation.
+    
+    Returns (final_script, artifacts_dict) where artifacts_dict has
+    'draft' and 'critique' keys for saving to disk later.
+    """
+    phase_banner("PHASE 1a: GENERATE SCRIPT (Writer → Critic → Rewriter)")
+
+    import anthropic
+    client = anthropic.Anthropic(api_key=load_env_key("ANTHROPIC_API_KEY"))
+    model = load_env_key("ANTHROPIC_MODEL") or "claude-opus-4-6"
+
+    print(f"  [{ts()}] Model: {model}")
+    print(f"  [{ts()}] Topic: {topic}")
+
+    # Step 1: Writer drafts
+    print(f"\n  [{ts()}] Step 1/3: Writer drafting...")
+    writer_prompt = WRITER_PROMPT_PATH.read_text()
+    draft, _ = _call_claude_streaming(client, model, writer_prompt, topic, max_tokens=2000)
+    draft = _strip_code_fences(draft)
+    draft_words = _count_script_words(draft)
+    print(f"  [{ts()}] Draft complete ({draft_words} words)")
+
+    # Step 2: Critic scores and tears apart
+    print(f"\n  [{ts()}] Step 2/3: Critic reviewing...")
+    critic_prompt = CRITIC_PROMPT_PATH.read_text()
+    critique, _ = _call_claude_streaming(client, model, critic_prompt, draft, max_tokens=4000)
+    critique = critique.strip()
+    print(f"  [{ts()}] Critique complete")
+
+    import re
+    avg_match = re.search(r"\*\*AVERAGE\*\*.*?\*\*(\d+\.?\d*)/10\*\*", critique)
+    avg_score = float(avg_match.group(1)) if avg_match else 0.0
+    verdict_match = re.search(r"VERDICT:\s*(PUBLISH|REWRITE REQUIRED)", critique)
+    verdict = verdict_match.group(1) if verdict_match else "REWRITE REQUIRED"
+    print(f"  [{ts()}] Critic verdict: {verdict} (avg {avg_score}/10)")
+
+    if verdict == "PUBLISH" and avg_score >= 7.0:
+        print(f"  [{ts()}] Draft passed critique — using as final")
+        final = draft
+    else:
+        # Step 3: Rewriter fixes based on critique
+        print(f"\n  [{ts()}] Step 3/3: Rewriter revising...")
+        rewriter_prompt = REWRITER_PROMPT_PATH.read_text()
+        rewriter_input = f"## ORIGINAL DRAFT\n\n{draft}\n\n## CRITIQUE\n\n{critique}"
+        final, _ = _call_claude_streaming(
+            client, model, rewriter_prompt, rewriter_input, max_tokens=2000
+        )
+        final = _strip_code_fences(final)
+        final_words = _count_script_words(final)
+        print(f"  [{ts()}] Rewrite complete ({final_words} words)")
+
+    # Word count validation with trim/expand loop
+    word_count = _count_script_words(final)
+    max_retries = 2
+    for attempt in range(max_retries):
+        if 180 <= word_count <= 250:
+            break
+        print(f"  [{ts()}] Word count {word_count} out of range — revision {attempt + 1}/{max_retries}")
+        feedback = f"REVISION: Your script had {word_count} words. "
+        if word_count > 250:
+            feedback += (
+                f"The HARD LIMIT is 190-220 words. CUT {word_count - 210} words. "
+                f"Remove adjectives, compress sentences. Every word costs 0.4 seconds."
+            )
+        elif word_count < 180:
+            feedback += "Too thin. Add sensory detail. Target 190-220 words."
+        rewriter_prompt = REWRITER_PROMPT_PATH.read_text()
+        trim_input = f"## ORIGINAL DRAFT\n\n{final}\n\n## CRITIQUE\n\n{feedback}"
+        final, _ = _call_claude_streaming(
+            client, model, rewriter_prompt, trim_input, max_tokens=2000
+        )
+        final = _strip_code_fences(final)
+        word_count = _count_script_words(final)
+
+    print(f"\n  [{ts()}] Final script: {word_count} words")
+    artifacts = {"draft": draft, "critique": critique}
+    return final, artifacts
 
 
 def generate_episode_from_script(topic, script):
@@ -1480,12 +1572,15 @@ def main():
     parser.add_argument("--schedule", type=str, default="", help="Schedule publish at ISO datetime (e.g. '2026-03-17T17:00:00' UTC)")
     parser.add_argument("--force-publish", action="store_true", help="Publish even if visual QA quality gate fails")
     parser.add_argument("--legacy-prompt", action="store_true", help="Use legacy single-pass prompt (generate-episode.txt) instead of two-phase script+prompts")
+    parser.add_argument("--legacy-script", action="store_true", help="Use single-shot script generation instead of Writer-Critic-Rewriter pipeline")
     parser.add_argument("--script-file", type=str, default="", help="Path to a pre-written script file — skips script generation, goes straight to prompt generation")
     args = parser.parse_args()
 
     topic = " ".join(args.topic) if args.topic else None
 
-    prompt_mode = "Legacy (single-pass)" if args.legacy_prompt else "Two-phase (script → prompts)"
+    prompt_mode = "Legacy (single-pass)" if args.legacy_prompt else "Writer-Critic-Rewriter (script → critique → rewrite → prompts)"
+    if args.legacy_script:
+        prompt_mode = "Two-phase legacy (script → prompts)"
     if args.script_file:
         prompt_mode = f"Pre-written script ({args.script_file})"
 
@@ -1505,6 +1600,7 @@ def main():
     if not topic:
         topic = generate_topic()
 
+    _script_artifacts = None
     if args.script_file:
         script_path = Path(args.script_file)
         if not script_path.is_absolute():
@@ -1544,12 +1640,20 @@ def main():
             episode = generate_episode_content(f"{topic}\n\n{feedback}")
             total_words, num_clips = validate_word_counts(episode)
     else:
-        script = generate_script(topic)
+        if args.legacy_script:
+            script = generate_script(topic)
+        else:
+            script, _script_artifacts = generate_script_v2(topic)
         print(f"\n  [{ts()}] Script:\n{script}\n")
         episode = generate_episode_from_script(topic, script)
         total_words, num_clips = validate_word_counts(episode)
 
     ep_dir, slug = write_episode_files(episode)
+
+    if _script_artifacts:
+        (ep_dir / "00_draft_script.txt").write_text(_script_artifacts["draft"])
+        (ep_dir / "00_critique.md").write_text(_script_artifacts["critique"])
+        print(f"  [{ts()}] Saved draft + critique artifacts to {slug}/")
 
     if not episode.get("style_description"):
         restored = _load_style_description_from_storyboard(ep_dir)
