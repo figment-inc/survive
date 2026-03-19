@@ -250,7 +250,7 @@ def generate_episode_content(topic):
 # ── Phase 1 (two-phase): Script-only generation + prompt generation ──
 
 
-def _call_claude_streaming(client, model, system_prompt, user_message, max_tokens=32000):
+def _call_claude_streaming(client, model, system_prompt, user_message, max_tokens=32000, temperature=1.0):
     """Call Claude with streaming and API-level retries. Returns raw text."""
     api_max_retries = 5
     collected = []
@@ -259,7 +259,7 @@ def _call_claude_streaming(client, model, system_prompt, user_message, max_token
             with client.messages.stream(
                 model=model,
                 max_tokens=max_tokens,
-                temperature=1.0,
+                temperature=temperature,
                 system=system_prompt,
                 messages=[{"role": "user", "content": user_message}],
             ) as stream:
@@ -405,7 +405,7 @@ def generate_script_v2(topic):
         rewriter_prompt = REWRITER_PROMPT_PATH.read_text()
         rewriter_input = f"## ORIGINAL DRAFT\n\n{draft}\n\n## CRITIQUE\n\n{critique}"
         final, _ = _call_claude_streaming(
-            client, model, rewriter_prompt, rewriter_input, max_tokens=2000
+            client, model, rewriter_prompt, rewriter_input, max_tokens=2000, temperature=0.7
         )
         final = _strip_code_fences(final)
         final_words = _count_script_words(final)
@@ -415,21 +415,27 @@ def generate_script_v2(topic):
     word_count = _count_script_words(final)
     max_retries = 2
     for attempt in range(max_retries):
-        if 180 <= word_count <= 250:
+        if 190 <= word_count <= 240:
             break
         print(f"  [{ts()}] Word count {word_count} out of range — revision {attempt + 1}/{max_retries}")
         feedback = f"REVISION: Your script had {word_count} words. "
-        if word_count > 250:
+        if word_count > 240:
             feedback += (
-                f"The HARD LIMIT is 190-220 words. CUT {word_count - 210} words. "
-                f"Remove adjectives, compress sentences. Every word costs 0.4 seconds."
+                f"Target is 200 words (hard max 220). You need to cut {word_count - 210} words. "
+                f"Remove ENTIRE SENTENCES that contribute the least to the story. "
+                f"Do NOT fragment or shorten existing sentences — cut whole sentences instead. "
+                f"Every remaining sentence must be grammatically complete and sound natural when read aloud. "
+                f"Prefer cutting from clips 09-11 (aftermath/numbers) before touching clips 02-08 (the core story)."
             )
-        elif word_count < 180:
-            feedback += "Too thin. Add sensory detail. Target 190-220 words."
+        elif word_count < 190:
+            feedback += (
+                "Too thin. Add sensory detail — what the disaster feels like in the body. "
+                "Target 200 words. Add complete, flowing sentences, not fragments."
+            )
         rewriter_prompt = REWRITER_PROMPT_PATH.read_text()
         trim_input = f"## ORIGINAL DRAFT\n\n{final}\n\n## CRITIQUE\n\n{feedback}"
         final, _ = _call_claude_streaming(
-            client, model, rewriter_prompt, trim_input, max_tokens=2000
+            client, model, rewriter_prompt, trim_input, max_tokens=2000, temperature=0.7
         )
         final = _strip_code_fences(final)
         word_count = _count_script_words(final)
