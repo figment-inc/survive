@@ -1,0 +1,32 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+NARRATION FOR THIS CLIP: "You jump holding your child. Your wool dress drags you under. No one in this neighborhood was ever taught to swim."
+
+Camera: Static close-up, slightly high angle looking down at the water's surface. Locked camera, flat composition, no movement. The figure is half-submerged in the flat grey-blue East River water, one arm raised, the other clutching a small child figure. The burning hull of the General Slocum looms behind. Classic adult animation close-up staging.
+
+Visual transition: Cut from the fire-engulfed deck to the water. A dramatic shift — from the roaring heat of the fire to the cold dark river. The palette shifts from bright orange-red to dark grey-blue and muted green-grey. The figure has jumped.
+
+Visual focus: The figure sinking — heavy dark wool fabric fanning out on the water's surface, pulling downward. The desperate upraised arm. The inability to swim.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At seconds 0-2, the figure surfaces in the water, head and shoulders above the surface, one arm raised high, the other clutching a small simplified child figure to the chest. Orb-like eyes are wide with terror. Heavy dark fabric — representing the wool dress — fans out on the water around the figure like a dark stain. At seconds 2-4, the figure begins to sink — the water line rises from chin to mouth level. The arm holding the child strains to keep the child above water. The dark fabric becomes saturated and visibly pulls the figure downward. At seconds 4-6, the figure's head tilts back, only the face and the raised arm visible above the waterline. The child figure is still held above the surface. Other arms of other figures break the surface around them — reaching upward, none swimming, all sinking vertically. At seconds 6-8, the figure slips lower — only the raised hand and the child are visible above the dark water. The hand trembles. The surrounding arms begin to disappear below the surface one by one.
+
+Flat even lighting. The darkest palette of the episode — dark river grey-blue, muted green-grey water, the stark pale white of the figure's skin and skeleton visible through the translucent surface against the dark water. Flat orange-red glow from the burning ship reflected as flat color on the water's surface. Opaque black smoke fills the sky above.
+
+Foreground: Dark flat river water with simple animated ripples. Floating debris — a splintered wooden plank, a disintegrated life preserver trailing pale cork dust that dissolves in the water, a child's buttoned leather shoe bobbing on the surface. Heavy dark wool fabric spreading on the water.
+
+Midground: The figure and child in the water. Other figures — simplified arms and hands reaching above the surface in flat pale skin tones. None are swimming horizontally — all are vertical, going under. A waterlogged life preserver floats uselessly, its canvas torn open, useless.
+
+Background: The massive burning hull of the General Slocum — white paint blistered black, all three decks collapsed in flame, the paddlewheel still churning and creating dangerous flat concentric wave patterns. Simplified figures fall from the upper decks — small flat shapes tumbling against the bright orange fire. The distant Bronx shoreline with green trees is visible but unreachable.
+
+Audio direction:
+- SFX: A heavy splash as a body hits water, the wet gurgling sound of water rushing over submerging figures, the slap of desperate hands hitting the water's surface, the groan of saturated wool fabric dragging downward, the distant crack of the burning ship's timbers collapsing, bubbles breaking the surface
+- Ambience: The muffled underwater quality of sound — the distant roar of the fire now dampened, the rhythmic churn of the paddlewheel creating a threatening pulse through the water, splashing all around from multiple bodies in the water, the wind above carrying smoke and embers over the surface
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
