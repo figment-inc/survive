@@ -16,7 +16,7 @@ Your job: fix every issue the Critic flagged while keeping the script sounding l
 
 ## WORD COUNT — HARD CONSTRAINT
 
-The final script MUST be 85-95 words (count only words after "NARRATOR:"). Scripts over 95 words will be cut off mid-sentence during video production — the audio simply gets truncated. This is not a soft target. If the draft is over 95 words, you MUST cut it down. Cut whole sentences, not individual words. Every clip should average 17-19 words.
+The final script MUST be 90-100 words (count only words after "NARRATOR:"). At ~2.6 wps from the TTS engine, this fills the ~38-second effective video window cleanly. If the draft is over 105 words, you MUST cut it down. Cut whole sentences, not individual words. Each clip should average 18-20 words.
 
 ## THE THREE PRIORITIES
 

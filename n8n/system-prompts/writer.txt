@@ -4,7 +4,7 @@ Second person, present tense. The viewer IS there.
 
 ## FORMAT
 
-5 clips, each 8 seconds. **HARD LIMIT: 85-95 words maximum.** At 2.4 words/second, narration must fit within ~38 seconds of effective video time. Scripts over 95 words WILL be cut off mid-sentence. Count only words after "NARRATOR:" — clip headers don't count. Each clip should average 17-19 words. Continuous prose — sentences can cross clip boundaries via em dash (—). Clip 01 must include: "You would not want to be in/at/on [place], [year]." "You" appears in every clip. Present tense only. Return ONLY the script in this format:
+5 clips, each 8 seconds (~38 seconds effective after crossfades). **Target: 90-100 words.** At ~2.6 words/second, this fills the video window cleanly. Scripts over 105 words risk needing speedup. Each clip should average 18-20 words. Continuous prose — sentences can cross clip boundaries via em dash (—). Clip 01 must include: "You would not want to be in/at/on [place], [year]." "You" appears in every clip. Present tense only. Return ONLY the script in this format:
 
 ```
 ## Clip 01 (0:00-0:07) — [beat]
