@@ -1,0 +1,32 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static close-up, high angle looking down into the water. Locked camera, flat composition, no movement. The figure is in the churning water, clinging to a large piece of splintered hull planking. The frame is filled with wreckage and sinking ships. Classic adult animation close-up staging.
+
+Visual transition: Cut from the low-angle ship view to a high-angle looking down into the water. The figure has gone from clinging to the ship to being in the ocean. The palette remains midnight navy and storm-black but is now dominated by floating debris and the ghostly pale figure against the black water.
+
+Visual focus: The figure in the black water surrounded by splintered timber — and behind, the sequential sinking of the ships: one going down, then another, then all of them.
+
+NARRATION FOR THIS CLIP: "You're thrown into black water full of splintered timber. One ship goes down. Then another. Then all of them."
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 1-2, the figure surfaces in the churning black-blue water, gasping silently (mouth stays closed — face shows strain, neck muscles taut), grabbing onto a large floating piece of dark-brown hull planking. Arms wrap over it desperately. At second 3-4, the figure's head turns to the left — watching a galleon's stern rise vertically out of the water as it sinks bow-first, the stern lantern glowing flat amber for a final moment before it slides under. The figure's orb-like eyes widen. At second 5-6, the figure's head whips to the right — another ship is breaking in half across a reef, the hull splitting with a visible gap, timber spraying outward. At second 7-8, the figure looks forward in all directions — only mast tips protrude from the water where ships have gone under. The figure presses forehead against the timber plank, orb-like eyes squeezed shut. Total despair.
+
+Flat even lighting. Black-blue water, storm-black sky, flat white foam and lightning flashes. Dark timber brown wreckage. Tarnished gold coins sinking beneath the surface. Flat amber glow from the final stern lantern. The figure's pale translucent skin is the brightest element — ghostly white against the black water.
+
+Foreground: Jagged splinters of dark-brown timber floating directly around the figure. Tangled hemp rope snaking across the water surface. Flat tarnished-gold coins floating momentarily before sinking. A torn cream-colored canvas sail section draped over debris.
+
+Midground: The figure in the water clinging to the hull plank. Dense floating wreckage — barrel staves, broken mast sections, a ship's wooden wheel spinning slowly in the current. Flat black-blue water with flat white foam streaks.
+
+Background: At left, a galleon's stern rises vertically, ornate carvings and the flat red-and-gold Spanish royal standard visible as it sinks bow-first. At center-right, another ship breaks in half across a reef. At far right, only mast tips protrude from the water. Flat white lightning illuminates the scene. Flat grey rain fills the sky. Silhouettes of figures clinging to distant wreckage.
+
+Audio direction:
+- SFX: The deep, groaning death sound of a wooden ship sinking — timbers cracking, air bubbling up in a massive rush, a low sucking sound as the hull goes under. Then a second ship — the sharp, explosive crack of a hull breaking in half on a reef, followed by a cascade of splashing debris. Water slapping against timber debris. The bright metallic clinking of gold coins hitting water and sinking. A distant mast snapping with a final crack
+- Ambience: The hurricane roaring at full fury — wind screaming, rain hammering the water surface in a continuous dense hiss. Churning ocean — a deep, chaotic, violent water sound from all directions. The sound of a fleet dying — overlapping groans, cracks, and collapses blending into a continuous roar of destruction. Brief moments of relative quiet between wave impacts that somehow feel worse
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

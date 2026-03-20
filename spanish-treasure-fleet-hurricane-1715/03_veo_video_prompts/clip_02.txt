@@ -1,0 +1,32 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands in the cramped timber cargo hold of the galleon surrounded by treasure. Classic adult animation medium staging.
+
+Visual transition: Cut from the wide exterior ocean shot to a tight interior hold. The palette shifts from cool blues and golds to warm amber and tarnished gold. The space feels compressed and heavy with treasure.
+
+Visual focus: The overwhelming quantity of treasure packed into the hold — gold, silver, emeralds — three years of Spain's colonial wealth crammed into wooden chests and crates.
+
+NARRATION FOR THIS CLIP: "Spain has spent three years collecting this cargo — gold, silver, emeralds — waiting for calm seas. You've been told July is safe."
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 1-2, the figure stands hunched in the low-ceilinged hold, one hand resting on an open chest lid, orb-like eyes scanning the treasure around. At second 3-4, the figure reaches into the chest and lifts a single large emerald — flat muted green — holding it up to examine it near eye level, head tilting with cautious curiosity. At second 5-6, the figure sets the emerald back down and looks around the hold at the sheer volume of cargo — head turning slowly left to right. At second 7-8, the figure looks up toward the hatch above where flat pale blue daylight filters down — a moment of false reassurance — then the ship sways slightly and gold coins shift and clink in the chest. The figure steadies against a crate.
+
+Flat even lighting. Warm amber from the hanging oil lantern. Tarnished gold, flat grey-white silver, muted emerald green, dark timber brown. Pale blue daylight from the open hatch above provides a cool accent.
+
+Foreground: Stacked flat tarnished-gold bars on the deck planks. Loose flat grey-white silver coins scattered on the timber floor. A heavy iron padlock and chain draped over a barrel.
+
+Midground: The figure among the treasure. Open wooden chests overflowing — one with gold coins, another with silver bars, a third with rough-cut emeralds. Sealed crates stamped with the Spanish royal seal. Burlap sacks bulging. A hanging oil lantern sways gently with the ship's motion.
+
+Background: Curved timber ribs of the ship's hull in dark brown with thick black caulking. More stacked chests receding into the dim hold. A wooden ladder leading up to the hatch where flat pale blue daylight filters down. Two sailors in sweat-stained white shirts carry a heavy chest deeper into the hold. An officer checks a ledger by lantern light.
+
+Audio direction:
+- SFX: Gold coins clinking against each other as the ship sways, the creak of wooden chest lids opening, heavy boots on timber planks, the metallic scrape of a gold bar being set down, the gentle thud of a burlap sack being placed on a stack, the ship's hull timbers groaning with each wave
+- Ambience: The low constant creak of a wooden ship under sail — planks flexing, ropes stretching, joints shifting. Muffled sounds of the ocean outside the hull — dull, rhythmic water pressure. The soft murmur of the crew working above deck, indistinct. A calm, enclosed, heavy atmosphere — everything feels weighed down by wealth
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
