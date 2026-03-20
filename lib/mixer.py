@@ -972,6 +972,9 @@ def mix_final_audio(
     Unlike mix_clip_audio (which works per-clip), this operates on the
     already-stitched video so narration flows unbroken across clip boundaries.
     narration_atempo > 1.0 speeds up narration to fit within the video duration.
+
+    If narration still overflows after atempo, the video is extended by freezing
+    the last frame so audio is never cut off mid-sentence.
     """
     if output_path.exists() and not force:
         print(f"  [{_ts()}] Skipping (exists): {output_path.name}")
@@ -988,10 +991,28 @@ def mix_final_audio(
 
     video_duration = probe_audio_duration(video_path)
 
+    narr_end_time = 0.0
+    if has_narration:
+        raw_narr_dur = probe_audio_duration(narration_path)
+        effective_atempo = narration_atempo if narration_atempo > 1.001 else 1.0
+        narr_end_time = narration_delay + raw_narr_dur / effective_atempo
+
+    output_duration = max(video_duration, narr_end_time)
+    needs_video_extension = narr_end_time > video_duration + 0.1
+    extension_secs = narr_end_time - video_duration if needs_video_extension else 0.0
+
     inputs = ["-i", str(video_path)]
     filter_parts: list[str] = []
+    video_filter_parts: list[str] = []
     audio_streams: list[str] = []
     stream_idx = 1
+
+    if needs_video_extension:
+        video_filter_parts.append(
+            f"[0:v]tpad=stop_mode=clone:stop_duration={extension_secs:.2f}[vout]"
+        )
+        print(f"  [{_ts()}] Extending video by {extension_secs:.1f}s (freeze last frame) "
+              f"to prevent narration cutoff")
 
     veo_vol = veo_audio_volume if has_narration else 0.30
     filter_parts.append(f"[0:a]asetpts=PTS-STARTPTS,volume={veo_vol},apad[veo]")
@@ -1014,7 +1035,7 @@ def mix_final_audio(
     if has_music:
         inputs.extend(["-i", str(music_path)])
         filter_parts.append(
-            f"[{stream_idx}:a]atrim=start=0:duration={video_duration:.2f},"
+            f"[{stream_idx}:a]atrim=start=0:duration={output_duration:.2f},"
             f"asetpts=PTS-STARTPTS,volume={music_volume},apad[mus]"
         )
         audio_streams.append("[mus]")
@@ -1023,25 +1044,32 @@ def mix_final_audio(
     mix_count = len(audio_streams)
     streams_str = "".join(audio_streams)
     filter_parts.append(f"{streams_str}amix=inputs={mix_count}:duration=first:normalize=0[a]")
-    filter_complex = ";".join(filter_parts)
+
+    all_filters = video_filter_parts + filter_parts
+    filter_complex = ";".join(all_filters)
+
+    video_map = "[vout]" if needs_video_extension else "0:v"
+    video_codec = ["-c:v", "libx264", "-preset", "fast", "-crf", "18"] if needs_video_extension else ["-c:v", "copy"]
 
     cmd = [
         "ffmpeg", "-y",
         *inputs,
         "-filter_complex", filter_complex,
-        "-map", "0:v",
+        "-map", video_map,
         "-map", "[a]",
-        "-c:v", "copy",
+        *video_codec,
         "-c:a", "aac",
         "-b:a", "192k",
-        "-t", f"{video_duration:.2f}",
+        "-t", f"{output_duration:.2f}",
         str(output_path),
     ]
 
     tempo_str = f", atempo={narration_atempo:.3f}x" if narration_atempo > 1.001 else ""
+    ext_str = f", extended +{extension_secs:.1f}s" if needs_video_extension else ""
     print(f"  [{_ts()}] Final mix: narr={'yes' if has_narration else 'no'} "
           f"music={'yes' if has_music else 'no'} "
-          f"(video={video_duration:.1f}s, delay={narration_delay}s{tempo_str})")
+          f"(video={video_duration:.1f}s, output={output_duration:.1f}s, "
+          f"delay={narration_delay}s{tempo_str}{ext_str})")
 
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:

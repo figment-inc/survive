@@ -33,6 +33,40 @@ class WordTimestamp:
     end: float
 
 
+NARRATION_DELAY = 0.5
+
+
+def build_words_from_script(
+    narration_text: str,
+    video_duration: float,
+    narration_delay: float = NARRATION_DELAY,
+) -> list[WordTimestamp]:
+    """Build proportionally-timed word timestamps from the original script text.
+
+    Distributes words evenly across the available narration window
+    (video_duration - narration_delay) so captions show the full script
+    regardless of whether the actual audio was truncated by ffmpeg.
+    """
+    words = narration_text.split()
+    if not words:
+        return []
+
+    available = video_duration - narration_delay
+    if available <= 0:
+        return []
+
+    word_dur = available / len(words)
+    result = []
+    for i, w in enumerate(words):
+        start = narration_delay + i * word_dur
+        end = start + word_dur
+        result.append(WordTimestamp(word=w, start=round(start, 3), end=round(end, 3)))
+
+    print(f"  [{_ts()}] Built {len(result)} word timestamps from script text "
+          f"({available:.1f}s window, {word_dur:.3f}s/word)")
+    return result
+
+
 def transcribe_audio(video_path: Path, api_key: str | None = None) -> list[WordTimestamp]:
     """Extract audio from video and transcribe with OpenAI Whisper for word-level timestamps."""
     from openai import OpenAI
@@ -315,16 +349,27 @@ def run_captions_pipeline(
     video_path: Path,
     output_path: Path,
     openai_api_key: str | None = None,
+    narration_text: str | None = None,
 ) -> Path | None:
     """Full captions pipeline: transcribe -> build segments -> render overlay -> composite.
+
+    When narration_text is provided, uses proportionally-timed word timestamps
+    from the original script instead of Whisper transcription. This ensures all
+    words appear in captions even when narration audio overflows the video
+    duration and gets truncated by ffmpeg.
 
     Returns the path to the captioned video, or None if any step fails.
     """
     print(f"  [{_ts()}] Starting Remotion captions pipeline...")
 
-    words = transcribe_audio(video_path, api_key=openai_api_key)
+    if narration_text and narration_text.strip():
+        video_duration = _get_video_duration(video_path)
+        words = build_words_from_script(narration_text.strip(), video_duration)
+    else:
+        words = transcribe_audio(video_path, api_key=openai_api_key)
+
     if not words:
-        print(f"  [{_ts()}] WARNING: No words transcribed — skipping captions")
+        print(f"  [{_ts()}] WARNING: No words produced — skipping captions")
         return None
 
     actual_w, _ = _get_video_dimensions(video_path)

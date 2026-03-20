@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static extreme close-up, slightly high angle. Locked camera, flat composition, no movement. The figure is pinned beneath rubble — only the head, one shoulder, and one outstretched arm visible. Dense flat grey-white dust fills the air. Classic adult animation extreme close-up entrapment staging.
+
+Visual transition: Cut from the wide chaos of collapse to claustrophobic intimacy. The violence is over — now the horror is stillness and suffocation. The palette narrows dramatically to grey and dust-white with only the figure's pale skin providing contrast.
+
+Visual focus: The figure's outstretched hand reaching upward through choking dust — fingers splayed, trembling, grasping at nothing. The dust filling the space between the rubble.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0-2, the figure's hand pushes upward through rubble, fingers splayed and trembling. The skull is visible — orb-like eyes wide, dust coating the translucent skin. Mouth firmly closed, jaw clenched. At second 3, the figure's chest expands as though trying to breathe — the ribs visible through the skin pressing against a concrete slab pinning the torso. At second 4-5, the hand reaches higher, then the fingers slowly begin to curl inward — weakening. At second 6, the figure turns its head to the side — the orb-like eyes catch sight of a motionless hand protruding from rubble nearby. At second 7, the figure's eyes go wide with recognition. At second 8, the figure's outstretched hand slowly drops to the rubble surface. The fingers go still.
+
+Flat even lighting. Entrapment palette — flat grey-white dust saturating the entire frame, coal grey concrete, dark brick red-brown rubble fragments, midnight blue-black void spaces between debris. The figure's pale translucent skin is coated in grey dust — the bones beneath appear stark by contrast.
+
+Foreground: Dense flat grey-white dust particles drifting slowly in the still air. A single brick balanced precariously directly above the figure's face. The bent wire-rimmed glasses lying in the dust, one lens cracked.
+
+Midground: The figure pinned in rubble — bricks, concrete slabs, splintered wood compressing the body. The thin cotton blanket bunched and grey, partially visible. The crushed thermos flask leaking dark liquid. A section of the Mao-era calendar partially visible under debris.
+
+Background: Near-total darkness beyond the immediate rubble. Vague shapes of other collapsed structures receding into flat black. A faint flat amber glow from a distant fire barely visible through gaps in the debris. Another motionless hand protruding from rubble in the middle distance — fingers curled, completely still.
+
+Audio direction:
+- SFX: Small debris settling — a brick sliding off a pile with a dry scrape, concrete dust sifting with a soft whisper, a faint creak from a wooden beam under stress, the barely audible sound of the figure's hand scraping against concrete as it reaches upward, a single distant thud — another structure collapsing far away
+- Ambience: Muffled, claustrophobic near-silence. The sound is compressed — as though heard from inside a collapsed space. Faint distant rumbling from aftershocks. The continuous soft hiss of settling dust. Occasional muffled sounds from above — impossible to identify. The silence where voices should be — the absence of the neighbors, the absence of the city
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

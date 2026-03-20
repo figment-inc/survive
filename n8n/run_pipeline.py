@@ -1319,13 +1319,23 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
 
 
 def run_captions_phase(final_path, ep_dir):
-    phase_banner("PHASE 4b: REMOTION KARAOKE CAPTIONS (Whisper + Remotion)")
+    phase_banner("PHASE 4b: REMOTION KARAOKE CAPTIONS (Script Text + Remotion)")
 
     from lib.captions import run_captions_pipeline
+    from lib.elevenlabs import extract_continuous_narration
 
     openai_key = load_env_key("OPENAI_API_KEY")
-    if not openai_key:
-        print(f"  [{ts()}] WARNING: OPENAI_API_KEY not found — skipping captions")
+
+    narration_text = None
+    dialogue_path = ep_dir / "04_dialogue_script.txt"
+    if dialogue_path.exists():
+        raw = dialogue_path.read_text().strip()
+        narration_text = extract_continuous_narration(raw)
+        if narration_text:
+            print(f"  [{ts()}] Using script text for captions ({len(narration_text.split())} words)")
+
+    if not narration_text and not openai_key:
+        print(f"  [{ts()}] WARNING: No script text and no OPENAI_API_KEY — skipping captions")
         return final_path
 
     captioned_path = final_path.with_stem(final_path.stem + "_captioned")
@@ -1333,6 +1343,7 @@ def run_captions_phase(final_path, ep_dir):
         video_path=final_path,
         output_path=captioned_path,
         openai_api_key=openai_key,
+        narration_text=narration_text,
     )
 
     if result and result.exists():

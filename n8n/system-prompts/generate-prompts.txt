@@ -158,13 +158,40 @@ Plan your shot sequence as a visual arc — wide and calm at the start, tighteni
 
 ---
 
-## MATCHING VISUALS TO SCRIPT
+## MATCHING VISUALS TO SCRIPT — THE MOST IMPORTANT SECTION
 
-Read each clip's narration carefully. The visual must serve the narration beat:
-- If the narration describes false safety, the visual should be calm
-- If the narration has staccato catastrophe, the visual should be chaotic
-- If the narration references a specific object (a crack in a wall, water receding), that object must be the visual focus
-- The figure's physical reaction must match the emotional beat of the narration
+The transcript is SACRED. You must NOT modify, rewrite, or rephrase any narration text. Copy the dialogue_script verbatim into the output JSON.
+
+Each clip's visual MUST illustrate exactly what the narration says in that clip. The visual is the narration made visible. Follow these rules:
+
+### 1. NARRATION-VISUAL COUPLING
+
+For each clip, include this line in BOTH the image prompt and video prompt:
+
+```
+NARRATION FOR THIS CLIP: "[exact narration text from the script]"
+```
+
+Then design every visual element to illustrate that specific text:
+- If the narration says "men drag engines by hand," the visual MUST show figures pulling a large machine
+- If the narration says "fire jumps block to block," the visual MUST show flames spreading across rooftops
+- If the narration says "you retreat one block," the visual MUST show the figure backing away
+
+The visual focus MUST be whatever the narration is describing. No orphan visuals — nothing on screen that the narration doesn't reference.
+
+### 2. CROSS-CLIP SENTENCE CONTINUITY
+
+Sentences may cross clip boundaries via em dash (—). When this happens:
+- Both clips MUST share the same environment (location, time of day, weather)
+- Both clips MUST use the same camera angle family (e.g., both medium shots, or a medium pulling to a close-up)
+- The figure MUST be in a consistent position — don't teleport them between the clips of a mid-sentence split
+
+### 3. 8-SECOND VISUAL PACING
+
+Each clip is 8 seconds. The visual must illustrate the ENTIRE narration line within that window:
+- If the narration describes a sequence (arriving → finding fire → retreating), plan the visual so all stages are visible or implied within 8 seconds
+- For staccato catastrophe clips (clip 04), match the rapid cuts with distinct, intense visual moments
+- The figure's physical reaction must match the emotional beat: grounded in setup, active in escalation, overwhelmed in catastrophe
 
 ---
 

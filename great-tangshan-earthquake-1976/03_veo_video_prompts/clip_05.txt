@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static extreme wide shot, high angle looking down. Locked camera, flat composition, no movement. The figure is a tiny pale speck standing on a rubble mound in the center of a totally flattened city. Dawn light. Classic adult animation extreme wide aftermath staging.
+
+Visual transition: Cut from the suffocating close-up to the widest possible shot. The scale shift is devastating — from one trapped person to a destroyed city stretching to the horizon. The palette shifts from claustrophobic grey-black to the pale grey-amber of dust-filtered dawn.
+
+Visual focus: The sheer totality of the destruction — an entire city of one million people reduced to uniform rubble no higher than one story. The figure is nearly invisible against the scale of devastation.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure stands small in the center of the frame atop a rubble mound. At second 0-2, the figure is motionless — head bowed, arms hanging at sides. Coated head to foot in flat grey dust. At second 3, the figure slowly raises its head and looks outward — scanning the horizon in every direction. At second 4-5, the figure slowly turns in place — a quarter turn — taking in the scope of the destruction. Every direction is the same: flat rubble. At second 6, the figure's arms lift slightly from the sides and then drop back — a defeated, helpless gesture. At second 7-8, the figure is still again. Head bowed. Motionless. The dust drifts around the figure.
+
+Flat even lighting. Aftermath palette — flat grey rubble, dark brick red-brown fragments, pale concrete dust white, flat pale grey-amber sky, dull ochre smoke columns. Everything is the same grey-brown color. The figure's pale translucent skin, even coated in dust, is the palest point in the frame.
+
+Foreground: A twisted iron bed frame protruding from rubble. A single cloth shoe sitting upright on a concrete slab. A child's cloth doll face-down in the dust. A dented enamel washbasin. Personal items scattered across the rubble surface.
+
+Midground: The figure on the rubble mound, surrounded on all sides by flattened apartment blocks — uniform mounds of dark brick red-brown rubble, none higher than one story. Concrete floor slabs tilted at angles. Streets indistinguishable from building footprints. Occasional larger debris — a section of staircase, a wardrobe face-down.
+
+Background: The devastation extending to the horizon in every direction. Buckled Kailuan coal mine headframes in the far distance. Thin columns of flat grey smoke rising from scattered fires. The flat pale grey-amber sky — dawn light filtered through suspended dust. Distant simplified figures moving through the rubble — some digging with bare hands, some sitting motionless on debris piles. A line of people walking along a cleared path.
+
+Audio direction:
+- SFX: The soft crunch of the figure's feet shifting on rubble, a distant structure groaning and settling with a low rumble, the faint scrape of hands digging through brick — a rhythmic scratching sound from far away, a piece of debris sliding off a pile and hitting the ground with a flat thud, wind moving through exposed structural remnants with a low whistle
+- Ambience: The vast, hollow quiet of a destroyed city at dawn. Wind carrying fine dust particles — a constant soft hiss. Distant sounds of human activity — faint, scattered, disorganized. No machinery, no vehicles — just the sound of hands on brick. Occasional distant aftershock rumble. The overwhelming silence where a city of one million should be making noise
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -72,6 +72,12 @@ class Settings:
     publish_enforce_compliance: bool = True
     request_timeout_seconds: int = 20
 
+    # S3 Storage
+    s3_enabled: bool = False
+    s3_bucket: str = ""
+    s3_region: str = "us-east-1"
+    s3_prefix: str = "episodes"
+
     # Paths
     repo_dir: Path = field(default_factory=lambda: REPO_DIR)
     channel_dir: Path = field(default_factory=lambda: CHANNEL_DIR)
@@ -102,6 +108,10 @@ def load_settings() -> Settings:
         publish_platforms=_env("PUBLISH_PLATFORMS", "metricool"),
         publish_enforce_compliance=_env("PUBLISH_ENFORCE_COMPLIANCE", "true").lower() == "true",
         request_timeout_seconds=int(_env("REQUEST_TIMEOUT_SECONDS", "20")),
+        s3_enabled=_env("S3_ENABLED", "false").lower() == "true",
+        s3_bucket=_env("S3_BUCKET"),
+        s3_region=_env("S3_REGION", "us-east-1"),
+        s3_prefix=_env("S3_PREFIX", "episodes"),
     )
 
 

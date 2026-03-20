@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static low-angle shot looking upward from floor level. Locked camera, flat composition, no movement. The figure is thrown from the bed as the ceiling above splits apart and bricks begin to fall. The entire frame conveys violent downward collapse. Classic adult animation low-angle catastrophe staging.
+
+Visual transition: Same interior room — but the stillness is shattered. Cut from the quiet medium shot to a violent low-angle. The crack in the ceiling has become total structural failure. Color shifts from midnight blue to dust grey-white as brick pulverizes.
+
+Visual focus: The brick ceiling breaking apart — individual bricks separating from mortar and falling downward toward the camera. The unreinforced construction failing catastrophically.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure is mid-tumble off the bed, thrown by the shaking — arms flailing, legs tangled in the blanket. At second 1, the figure hits the floor, one arm thrown upward defensively as the first bricks fall from the ceiling. At second 2-3, the figure curls into a fetal position on the floor, arms over the skull, as bricks rain down around the body. At second 4, a massive section of the ceiling drops — a flat slab of brick and mortar descends toward the figure. At second 5-6, flat grey-white dust explodes outward from the impact, progressively obscuring the figure. At second 7-8, the dust is so thick that the figure is barely visible — just the pale glow of translucent skin through the choking haze. The outstretched hand is the last visible element.
+
+Flat even lighting. Collapse palette — dark brick red-brown fragments, flat grey-white dust clouds dominating the frame, midnight blue-black through cracking walls, dull ochre of splintering wood. The dust progressively bleaches the entire frame toward grey-white.
+
+Foreground: Falling bricks tumbling toward the camera — individual bricks with mortar still attached, trailing dust. The tin alarm clock in mid-flight. Shattered ceramic cup fragments. A cloud of flat grey-white pulverized brick billowing upward from the floor.
+
+Midground: The figure on the floor beneath the collapsing ceiling. The wooden bed frame buckling and splintering. The wardrobe toppling forward, its mirror cracking. The adjacent wall splitting diagonally — a massive jagged crack racing from ceiling to floor.
+
+Background: The ceiling in total collapse — the grid of bricks disintegrating. Through gaps in the crumbling wall, the neighboring building also collapsing — its facade peeling away in sheets. Flat grey-white dust obliterating all detail in the deep background.
+
+Audio direction:
+- SFX: An enormous low-frequency crack — the sound of a building's spine breaking, bricks smashing against the concrete floor in rapid succession like heavy hail, wood splintering with sharp snaps, the ceramic cup shattering — a bright sharp sound amid the bass roar, the whoosh of displaced air as a ceiling section drops, the grinding of brick against brick
+- Ambience: A continuous deep roar — the sound of an entire city's buildings collapsing simultaneously. The ground itself vibrating — a subsonic shaking that underpins everything. Muffled impacts from neighboring buildings collapsing. The hiss of pulverized brick dust filling the air. The roar builds for the first 5 seconds then begins to subside into grinding, settling sounds
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

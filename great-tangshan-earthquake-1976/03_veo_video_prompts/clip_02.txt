@@ -1,0 +1,30 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. Interior of a small apartment bedroom. The figure lies on a narrow wooden bed, staring up at a heavy brick-and-mortar ceiling that dominates the upper half of the frame. Classic adult animation interior medium staging.
+
+Visual transition: Cut from the wide exterior rooftop to a claustrophobic interior. The scale contracts dramatically — from a whole city to a single room. The ceiling of bricks becomes the visual threat.
+
+Visual focus: The brick-and-mortar ceiling directly above the figure — row after row of heavy bricks with visible mortar lines, oppressively close, filling the entire upper third of the frame. A single crack in the mortar slowly widens.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure lies on its back on the narrow bed, eyes closed. At second 2, the figure's eyes snap open — the orb-like pale eyes stare straight up at the ceiling. At second 3, the figure's hands grip the blanket edges. At second 4, the figure slowly turns its head to look at the tin alarm clock on the bedside table — it reads 3:42. At second 5, the figure looks back up at the ceiling. At second 6, the crack in the ceiling mortar visibly widens — a thin line of dust sifts down onto the blanket. At second 7, the figure's body goes rigid, gripping the bed frame. Eyes wide.
+
+Flat even lighting. Interior night palette — midnight blue-black shadows, faded pale green walls, dark brick red-brown ceiling bricks, flat pale blue moonlight through the window, dull ochre wood tones of the bed and furniture. Oppressive closeness.
+
+Foreground: Bedside table with the tin Diamond brand alarm clock, ceramic tea cup, folded wire-rimmed glasses. The edge of a second bed — another sleeping figure under a blanket, breathing slowly.
+
+Midground: The figure on the bed beneath the brick ceiling. The wardrobe against the wall. A Mao-era calendar pinned to the faded green wall. Thin cotton curtains over the small window.
+
+Background: The brick ceiling — each brick and mortar joint clearly drawn. The crack in the center slowly extends. Through the window, identical dark brick buildings visible. Total exterior darkness.
+
+Audio direction:
+- SFX: The soft tick-tick of the tin alarm clock, a faint creak from the wooden bed frame as the figure shifts, the barely audible sound of mortar dust sifting — a whisper of grit hitting cotton fabric, a low groan from the building's structure — deep and tonal, like a wooden ship flexing, a distant rumble beginning — felt more than heard, vibrating the tea in the ceramic cup
+- Ambience: Deep interior silence — the breathing of the sleeping neighbor, the tick of the clock, the hum of absolute nighttime quiet. Then at second 6, a subsonic tremor begins — a low frequency vibration that makes the alarm clock rattle faintly against the wooden table surface
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
