@@ -1,0 +1,32 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+NARRATION FOR THIS CLIP: "Horses collapse under you. The man beside you disappears. You keep charging because stopping means dying too."
+
+Camera: Static medium-close shot, eye level. Locked camera, flat composition, no movement. The figure is center frame, caught in the act of leaping from a collapsing horse. Chaos fills every layer. Classic adult animation action staging.
+
+Visual transition: Cut from the tight close-up crossfire of clip 03 to this slightly wider medium-close framing — opening up just enough to show the full horror of the collapse around the figure. The palette intensifies further — more flat orange, thicker smoke, darker earth.
+
+Visual focus: The collapsing horse and the empty saddle beside the figure — the two key images from the narration: "horses collapse" and "the man beside you disappears."
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0-2, the figure is still mounted as the horse beneath begins to buckle — the horse's front legs fold forward, and the figure rocks forward, arms grabbing at the mane. The skeleton inside lurches — the ribcage shifts visibly. At second 2-4, the horse collapses fully to the left and the figure kicks free, swinging the right leg over the falling horse and launching into a stumbling run forward. Saber still gripped in one hand. At second 4-5, mid-stumble, the figure looks RIGHT — at the riderless horse galloping past with a completely empty saddle, stirrups swinging wildly. The figure stares for one beat — the man who was there is gone. At second 5-7, the figure turns forward again and RUNS — legs pumping, arms swinging, skull locked forward with desperate determination. The translucent body shows the entire skeleton in motion — pelvis driving, spine flexing, ribcage heaving. At second 7-8, the figure is still running forward through smoke toward the distant cannons, refusing to stop.
+
+Flat even lighting. Peak catastrophe palette — darkened gunmetal grey, intensified flat orange cannon flash, dense white-grey smoke filling most of the frame, churned dark brown-black earth, cavalry blue now dusty and torn, dried blood crimson scattered on the ground.
+
+Foreground: The collapsing horse — flat dark brown, legs folding, thick outlines. A broken saber blade stuck in the earth. A cavalryman's busby hat crushed flat. Churned earth with hoof-prints.
+
+Midground: The figure in mid-leap/run. To the right, a riderless grey horse gallops past — empty saddle, stirrups swinging, no rider. To the left, one remaining mounted cavalryman charges ahead with saber raised. Dense smoke swirls around them all.
+
+Background: The Russian cannon battery is now CLOSE — large dark cannon barrels visible through gaps in the smoke. Flat orange muzzle flashes from three cannons. Russian artillerymen in flat dark green reload frantically. The valley ridges still fire but are mostly hidden by smoke. The sky is invisible — just flat grey-white smoke.
+
+Audio direction:
+- SFX: The sickening thud of a horse collapsing — a heavy body hitting packed earth with a deep impact, followed by a whinnying scream cutting short. The clatter of cavalry equipment scattering — saber, canteen, saddle hardware hitting the ground in rapid succession. The thunder of a riderless horse galloping past with jingling empty stirrups. A cannon blast at close range — a deep concussive boom that overwhelms all other sound for a half-second. The figure's footsteps — rapid, uneven, boots pounding churned earth.
+- Ambience: Peak chaos — overlapping cannon blasts creating continuous rolling thunder, the screaming of horses, the drum of hooves from multiple directions, the whistle of projectiles, the hiss of hot metal, the rush of displaced air from close cannon blasts. The sound is dense, layered, overwhelming.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

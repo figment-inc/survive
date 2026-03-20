@@ -1,0 +1,32 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+NARRATION FOR THIS CLIP: "Cannons fire from your left, your right, and straight ahead. You're riding into a corridor of crossfire with a saber."
+
+Camera: Static close-up, slightly high angle looking down. Locked camera, flat composition, no movement. The figure is framed tight — head, shoulders, upper torso — crouching low on a galloping horse. Cannon flashes erupt from both edges of the frame and from above. Classic adult animation close-up staging emphasizing vulnerability.
+
+Visual transition: Cut from the wide calm assembly of clip 02 to this tight, chaotic close-up inside the valley. The palette shifts dramatically — from muted pre-battle grey-blue to intense flat orange cannon flash and choking white-grey smoke. Tighter framing creates claustrophobia.
+
+Visual focus: The three-directional cannon fire — left, right, and straight ahead — creating the corridor of crossfire the narration describes. The figure with only a saber in this hellscape.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0-2, the figure crouches low on the galloping horse, one hand on reins, the other gripping the saber pressed flat against the horse's neck. Orb-eyes scan left. At second 2-3, a massive flat orange cannon flash erupts from the LEFT edge of the frame — the figure's head snaps left, flinching. At second 3-5, ANOTHER flat orange flash erupts from the RIGHT edge — the figure's head whips right. The skull is caught between the two blasts, orb-eyes wide and darting. At second 5-7, a THIRD flash erupts from directly AHEAD (upper frame) — the figure ducks the entire upper body down against the horse's neck, ribcage and spine pressing flat. At second 7-8, the figure slowly raises head again, saber still gripped, pressing forward through the crossfire with terrified determination.
+
+Flat even lighting. Crossfire palette — flat orange muzzle flash dominating both frame edges, thick white-grey smoke rolling through the center, gunmetal grey, olive-brown earth below, dull cavalry blue on the figure's horse tack. The orange flashes are the brightest and most saturated elements.
+
+Foreground: Thick rolling bands of flat white-grey cannon smoke sweep across the frame from left to right. A spray of flat dark iron canister shot pellets arcs across the upper-left corner. Clods of dark brown earth fly upward from a nearby impact.
+
+Midground: The figure hunched on the galloping horse. The horse's eye is wide, flat white with a dark pupil. The saber blade catches flat dull grey light. Part of another cavalryman's horse is visible at the right frame edge — just the neck and streaming mane.
+
+Background: Both valley ridgelines visible above the smoke — dark cannon silhouettes lined along each ridge, firing in staggered sequence. Flat orange flashes pop along the left ridge, then the right, then the end battery. The sky above is barely visible — flat grey choked with drifting smoke layers.
+
+Audio direction:
+- SFX: Three distinct cannon blasts in sequence — boom from the left (second 2), boom from the right (second 3.5), boom from ahead (second 5) — each with a deep percussive thud followed by a whistling projectile pass, the metallic ping of canister shot hitting something metal nearby, the dull thump of earth erupting from a near-miss impact, horse hooves pounding in frantic gallop rhythm
+- Ambience: Continuous overlapping cannon thunder creating an unbroken wall of percussive sound, the roar of wind mixed with smoke and grit, the drumming of multiple horses in full gallop, the high thin whistle of projectiles cutting air from three directions, the hiss of hot metal in cold air
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

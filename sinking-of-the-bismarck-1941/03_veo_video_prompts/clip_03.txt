@@ -1,0 +1,32 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+Camera: Static high-angle shot looking down at the Bismarck's stern from above and behind. Locked camera, flat composition, no movement. The figure clings to a stern railing. The ship's wake curves visibly. A Swordfish biplane pulls away low over the water. Classic adult animation high-angle staging.
+
+Visual transition: Shift from the medium eye-level railing shot to a dramatic high angle — the viewer now sees the full scope of the disaster. The palette darkens further — storm-cloud charcoal replaces the lighter overcast grey. The time has jumped to evening.
+
+Visual focus: The massive torpedo-impact water eruption at the stern and the ship's wake beginning to curve — the single moment that sealed the Bismarck's fate.
+
+NARRATION FOR THIS CLIP: "You're fast enough to outrun the fleet. Then a single torpedo from a biplane hits your rudder and jams it. Your ship can only sail in circles."
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0, the figure is braced at the stern railing, looking up at the sky — anti-aircraft tracers streak upward in flat amber lines. At second 2, the torpedo strikes — a massive flat white water column erupts from the stern waterline. The entire ship shudders. The figure is thrown violently sideways, losing grip on the railing with one hand, the other arm flung outward. At second 4, the figure recovers, gripping the railing with both hands, and looks down at the stern — where the water eruption is subsiding and the rudder area is visibly damaged, churning with disturbed water. At second 6, the figure looks at the ship's wake — it is curving. The figure's head drops. Hands tighten on the rail until the knuckles of the visible skeleton blanch. At second 7.5, the figure slowly turns to watch the absurdly primitive Swordfish biplane — canvas and wire, open cockpit — pull away low over the waves. The mightiest battleship in the Atlantic, stopped by an antique.
+
+Flat even lighting. Storm palette — dark iron grey, deep navy, storm-cloud charcoal, torpedo-splash white, flat muted amber on the Swordfish's fabric, dull brass shell casings. Darker and more oppressive than previous clips.
+
+Foreground: The Bismarck's stern deck plating in dark grey. Anti-aircraft gun mounts pointing skyward. Spent brass shell casings scattered on the deck. Flat amber tracer lines streak upward into the sky from the gun positions.
+
+Midground: The figure at the stern railing. The massive flat white water column from the torpedo impact erupting at the waterline. The disturbed, churning water around the rudder area. The departing Swordfish biplane — fabric-covered biplane with fixed landing gear and open cockpit, absurdly antiquated — pulling away low and flat over the dark water.
+
+Background: The dark Atlantic in every direction — deep navy blue with flat white wave crests and storm chop. The ship's wake is the key detail — it curves visibly, tracing the beginning of a helpless circle. Heavy overcast storm-cloud sky in charcoal grey. More tiny Swordfish silhouettes circle in the far distance.
+
+Audio direction:
+- SFX: The rapid hammering of anti-aircraft guns — sharp, rhythmic metallic banging. The droning buzz of the Swordfish biplane's radial engine — low and stuttering. Then the TORPEDO IMPACT — a deep, resonant underwater explosion that shudders through the entire hull, followed by the rushing roar of the water column erupting. Brass shell casings tinkling across the steel deck. The creak and groan of stressed metal as the rudder jams
+- Ambience: Howling Atlantic wind — stronger now, storm-force. Heavy seas crashing against the hull. The constant deep vibration of the engines continuing unchanged, but the ship's motion has shifted — an irregular, cycling lurch as the jammed rudder takes hold. The wind whistling through damaged stern structures
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

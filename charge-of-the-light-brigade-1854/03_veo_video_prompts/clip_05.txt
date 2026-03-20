@@ -1,0 +1,32 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+NARRATION FOR THIS CLIP: "Six hundred rode in. Less than two hundred rode back — because someone misread a note on a hilltop."
+
+Camera: Static wide shot, high angle looking down from a hilltop. Locked camera, flat composition, no movement. The entire valley is visible below — a long smoke-filled corridor. The figure on a limping horse is small in the frame, riding slowly out of the valley mouth. Classic adult animation wide pullback staging for the aftermath.
+
+Visual transition: Hard cut from the tight, chaotic catastrophe of clip 04 to this wide, quiet, high-angle aftermath. The palette drains — from intense orange and black to muted grey, faded blue, and exhausted olive-brown. The sudden silence and space after the overwhelming noise and chaos of the previous clip.
+
+Visual focus: The crumpled piece of paper in the foreground — the misread order — held in a British officer's hand. The tiny, scattered handful of survivors emerging from the valley behind the figure. The emptiness.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0-3, the figure rides a limping horse slowly out of the valley mouth — slumped forward, one hand loosely on reins, the other hanging limp. The spine is visible curved in exhaustion through the translucent back. The skull hangs forward, orb-eyes half-closed. The saber is gone. At second 3-5, the figure slowly turns the skull to look back over the shoulder — back at the smoke-filled valley, at the scattered dark shapes on the ground, at the pitifully few riders following. At second 5-7, the figure turns forward again — the orb-eyes stare emptily at nothing. A long, slow blink. At second 7-8, the figure's head drops — chin to chest — as the horse limps onward. The hand holding the reins opens slightly, fingers loosening. Total exhaustion. Total defeat.
+
+Flat even lighting. Aftermath palette — drained, muted gunmetal grey, faded cavalry blue, exhausted olive-brown, flat white-grey lingering smoke, one flat crimson pennant crushed in the dirt as the only bright color. Cold, empty, still.
+
+Foreground: The hilltop observation point — flat olive-brown grass and grey stone. A British officer's gloved hand holds a crumpled cream-colored piece of paper — the written order. The hand trembles slightly. A brass telescope lies on the ground. Polished boots stand at the frame edge. This is the hilltop from which the fatal order was sent.
+
+Midground: The figure on a limping horse, moving slowly away from the valley. Behind the figure, a thin straggle of perhaps fifteen surviving cavalrymen — scattered, no formation, some wounded and slumping, some on horses, some walking and leading lame horses. Several riderless horses drift among them. The group is tiny and pathetic against the valley's scale.
+
+Background: The full Valley of Death — the long corridor between ridgelines now filled with flat grey-white smoke hanging in still, heavy layers. Through gaps in the smoke, dark shapes dot the valley floor — fallen horses and scattered equipment. The Russian cannon batteries on the ridges are silent, their dark silhouettes still visible. A single trampled crimson cavalry pennant lies in the dirt at the valley's mouth. The flat grey overcast sky presses down, unchanged.
+
+Audio direction:
+- SFX: The slow, uneven clip-clop of a limping horse on packed earth — irregular rhythm, one hoof dragging. The soft crinkle of paper being gripped — the crumpled order in the officer's hand. A horse snorting weakly. The distant clank of a loose stirrup against a saddle. A cavalry saber scabbard dragging on the ground. The whisper of wind across the hilltop grass.
+- Ambience: Near-silence after the overwhelming cannon thunder — the absence of sound is itself the most powerful sound. A low, cold wind blowing steadily across the valley and hilltop. The faint crackle of small fires in the valley. The distant, muffled sounds of surviving horses moving slowly. The total absence of the hundreds of voices and hooves that filled this valley minutes ago. Stillness.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,32 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+NARRATION FOR THIS CLIP: "You're British light cavalry — fast, lightly armed, meant to chase retreating soldiers. Not meant to charge head-on into artillery."
+
+Camera: Static wide shot, eye level. Locked camera, flat composition, no movement. The figure stands among assembling cavalrymen and horses in a staging area. The valley is visible in the background. Classic adult animation wide establishing shot.
+
+Visual transition: Hard cut from the mid-charge chaos of clip 01 to this calmer pre-charge staging scene — a temporal flashback. The palette shifts from smoke-choked grey-orange to clearer, colder grey-blue-brown. The contrast underscores what the light cavalry was designed for versus what they're about to face.
+
+Visual focus: The figure examining a thin cavalry saber — the inadequacy of light cavalry equipment against artillery, exactly as the narration describes.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: At second 0-2, the figure stands holding a curved cavalry saber, turning it over in both hands, examining the thin blade with skeptical tilted head. At second 2-4, the figure looks up toward the valley in the background — the skull tilts, orb-eyes narrow with dawning unease. At second 4-6, the figure looks left at a cavalryman mounting a horse, then right at another cavalryman adjusting a light lance — taking stock of how lightly armed everyone is. At second 6-8, the figure's shoulders drop slightly — resigned understanding — and slowly slides the saber into a flat leather scabbard at the waist of the horse's saddle.
+
+Flat even lighting. Pre-battle palette — gunmetal grey sky, olive-brown earth, dull cavalry blue jackets, tarnished brass gold on buckles and braid, flat crimson trouser stripes, muted white horse blankets. Cold and still.
+
+Foreground: A wooden ammunition crate with a broad arrow stamp sits open and empty. A canvas feed bag spills oats. Coiled rope lies on the ground. A cavalry gauntlet rests on the crate.
+
+Midground: The figure among a line of horses and cavalrymen. Troopers in flat dark blue hussar jackets with gold frogging check equipment, tighten girths, mount up. Horses — flat chestnut, bay, grey — stamp and shift. A bugler holds a brass instrument at his side.
+
+Background: The valley stretches beyond — the long corridor between ridgelines. Distant dark shapes of cannon emplacements barely visible on the ridges. A British command flag — flat crimson — hangs from a pole. The flat grey sky is unbroken. An officer on horseback waves a folded piece of paper, gesturing urgently.
+
+Audio direction:
+- SFX: Horses snorting and stamping on packed earth, the clink of brass buckles being fastened, a saber sliding into a leather scabbard with a soft rasp, the creak of leather saddles as men mount, a horse whinnying nervously, the metallic rattle of bit chains
+- Ambience: Restless cavalry assembly sounds — the low murmur of hundreds of horses shifting weight, distant artillery rumbling on the far side of the valley like approaching thunder, wind blowing steadily across the open plain carrying the faint smell-suggesting hiss of cold air, the snap of the command flag in the breeze
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,32 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+Camera: Static medium shot, eye level. Locked camera, flat composition, no movement. The figure stands at the port railing of the Bismarck, leaning forward and gripping the rail, staring out at the sea. The massive smoke column from the sunken Hood dominates the background. Classic adult animation medium staging.
+
+Visual transition: Cut from the wide deck shot to a tighter medium framing. The atmosphere has shifted — the ship has just destroyed the Hood and the sea is littered with debris. The palette adds dark oil-slick black and smoke-column grey.
+
+Visual focus: The enormous smoke column rising from where the Hood sank, and the floating debris in the water below — the reality of what just happened.
+
+NARRATION FOR THIS CLIP: "You just sank the HMS Hood — Britain's most famous warship — in six minutes. Now every British vessel within a thousand miles has one order: find you and sink you."
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: The figure leans over the port railing, both hands gripping the steel rail, staring down at the debris-strewn water. At second 1, the figure's head tracks slowly across the water — taking in the floating wreckage, the oil slick, the absence of survivors. At second 3, the figure lifts its gaze to the massive smoke column in the distance — the pale orb-like eyes widen. At second 5, the figure's head snaps to the right — looking toward the retreating silhouette of HMS Prince of Wales, which is still firing its rear turret. The figure flinches slightly at a distant shell splash. At second 7, the figure slowly turns back forward, shoulders hunching, grip tightening on the railing. The realization: this victory has made them the most hunted ship in the ocean.
+
+Flat even lighting. Cold palette with aftermath tones — deep Atlantic navy, iron grey, black oil-slick, smoke-column dark grey and charcoal, foam white, faint dull amber glow at the base of the distant smoke.
+
+Foreground: The steel railing in dark iron grey. Floating debris in the water directly below — fragments of grey-painted wood, a white life ring, a section of teak decking, dark fuel oil spreading in a flat black slick. The figure's translucent hands gripping the rail, skeleton bones visible in the fingers.
+
+Midground: The figure at the railing. Behind the figure, the Bismarck's port secondary gun turrets with faint flat grey smoke wisps trailing from barrels. Sailors crowd the railing behind the figure, pointing toward the smoke column.
+
+Background: The vast dark Atlantic. The massive smoke column from the Hood — dark grey and charcoal, billowing upward against the overcast sky. Faint dull amber at its base where surface fires burn. The retreating silhouette of Prince of Wales trailing smoke. Overcast iron grey sky.
+
+Audio direction:
+- SFX: The creak and groan of the ship's hull in heavy swells, the wet slap of debris-laden water against the hull, a distant muffled explosion — a magazine detonating in the Hood's wreckage below the surface — sending a low shudder through the water, the metallic ping of a piece of floating debris striking the Bismarck's hull, the sharp report of a distant gun — Prince of Wales firing a parting shot
+- Ambience: Heavy Atlantic wind, the low constant rumble of the Bismarck's engines, the rhythmic crash of waves. An eerie quality — the sea where 1,415 men just died is already going quiet. Oil bubbles popping on the surface. The wind carrying the acrid smell of burning fuel, rendered as a faint crackling hiss from the distant fire
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
