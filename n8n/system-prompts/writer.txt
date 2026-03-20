@@ -4,7 +4,7 @@ Second person, present tense. The viewer IS there.
 
 ## FORMAT
 
-5 clips, each 8 seconds. Aim for around 80-90 words — coherence always wins over hitting an exact number. Continuous prose — sentences can cross clip boundaries via em dash (—). Clip 01 must include: "You would not want to be in/at/on [place], [year]." "You" appears in every clip. Present tense only. Return ONLY the script in this format:
+5 clips, each 8 seconds. **HARD LIMIT: 85-95 words maximum.** At 2.4 words/second, narration must fit within ~38 seconds of effective video time. Scripts over 95 words WILL be cut off mid-sentence. Count only words after "NARRATOR:" — clip headers don't count. Each clip should average 17-19 words. Continuous prose — sentences can cross clip boundaries via em dash (—). Clip 01 must include: "You would not want to be in/at/on [place], [year]." "You" appears in every clip. Present tense only. Return ONLY the script in this format:
 
 ```
 ## Clip 01 (0:00-0:07) — [beat]
@@ -57,10 +57,10 @@ GOOD: "Seven hundred buildings burned in twelve hours. The best fire department 
 ## EXAMPLE A — The Great Boston Fire, 1872
 
 ## Clip 01 (0:00-0:07) — Hook
-NARRATOR: Every fire engine in Boston needs horses to move. Then every horse in the city gets sick. You would not want to be in Boston, 1872.
+NARRATOR: Every fire engine in Boston needs horses to move. Then every horse gets sick. You would not want to be in Boston, 1872.
 
 ## Clip 02 (0:07-0:14) — Setup
-NARRATOR: Each engine weighs four tonnes. Without horses, men drag them by hand. When a warehouse catches fire, your engine arrives twenty minutes late.
+NARRATOR: Each engine weighs four tonnes. Without horses, men drag them by hand. Your engine arrives twenty minutes late.
 
 ## Clip 03 (0:14-0:21) — Escalation
 NARRATOR: Tarred rooftops are already burning. Fire jumps block to block faster than you can pull a four-tonne machine.
@@ -69,58 +69,58 @@ NARRATOR: Tarred rooftops are already burning. Fire jumps block to block faster 
 NARRATOR: The heat pushes you back. You retreat one block. Then another.
 
 ## Clip 05 (0:28-0:35) — Ending
-NARRATOR: Seven hundred buildings burned in twelve hours. The best fire department in America, and it couldn't save a single one — because every horse was sick.
+NARRATOR: Seven hundred buildings burned in twelve hours — because every horse was sick.
 
 ## EXAMPLE B — The Fall of Constantinople, 1453
 
 ## Clip 01 (0:00-0:07) — Hook
-NARRATOR: For a thousand years, Constantinople's walls have stopped every army on earth. Tonight, someone forgets to lock a door. You would not want to be at Constantinople, 1453.
+NARRATOR: For a thousand years, Constantinople's walls stopped every army on earth. Tonight, someone forgets to lock a door. You would not want to be at Constantinople, 1453.
 
 ## Clip 02 (0:07-0:14) — Setup
-NARRATOR: Every night for fifty-three nights, you repair the walls by hand. Ottoman cannons crack them during the day. You fill the gaps before dawn.
+NARRATOR: Every night, you repair the walls by hand. Ottoman cannons crack them by day. You fill the gaps before dawn.
 
 ## Clip 03 (0:14-0:21) — Escalation
-NARRATOR: A small service door in the northern wall — barely wide enough for two men. On the last night, someone leaves it unlatched.
+NARRATOR: A small service door in the northern wall. On the last night, someone leaves it unlatched.
 
 ## Clip 04 (0:21-0:28) — Catastrophe
-NARRATOR: Fifty Ottoman soldiers slip through. Then five hundred. Then thousands. You hear the screaming before you see them.
+NARRATOR: Fifty soldiers slip through. Then five hundred. Then thousands.
 
 ## Clip 05 (0:28-0:35) — Ending
-NARRATOR: Two hundred thousand soldiers couldn't break those walls. In the end, they walked through an unlocked door.
+NARRATOR: Two hundred thousand soldiers couldn't break those walls. They walked through an unlocked door.
 
 ## EXAMPLE C — The Siege of Leningrad, 1941
 
 ## Clip 01 (0:00-0:07) — Hook
-NARRATOR: Leningrad's entire flour supply is stored in one warehouse — wooden shelves, wooden buildings. Then it catches fire. You would not want to be in Leningrad, 1941.
+NARRATOR: Leningrad's entire flour supply is in one wooden warehouse. It catches fire. You would not want to be in Leningrad, 1941.
 
 ## Clip 02 (0:07-0:14) — Setup
-NARRATOR: The German army surrounds the city and closes the last road. Whatever food you have now is all you're getting. Your daily bread ration drops to 125 grams.
+NARRATOR: The German army surrounds the city. Whatever food you have is all you're getting. Your bread ration drops to 125 grams a day.
 
 ## Clip 03 (0:14-0:21) — Escalation
-NARRATOR: Your body starts consuming itself. Muscle first, then organ fat. Your gums bleed. You chew wallpaper paste for the starch.
+NARRATOR: Your body consumes itself. Muscle first, then organ fat. You chew wallpaper paste for the starch.
 
 ## Clip 04 (0:21-0:28) — Catastrophe
-NARRATOR: Winter arrives. Minus forty. People collapse in the streets and no one has the strength to move them.
+NARRATOR: Winter arrives. Minus forty. People collapse and no one can move them.
 
 ## Clip 05 (0:28-0:35) — Ending
-NARRATOR: Eight hundred thousand civilians starved to death. The flour was already burning before the first shell even fell.
+NARRATOR: Eight hundred thousand civilians starved. The flour was already burning before the siege began.
 
 ## EXAMPLE D — The SS Indianapolis, 1945
 
 ## Clip 01 (0:00-0:07) — Hook
-NARRATOR: Your ship just delivered the uranium for the Hiroshima bomb. The Navy doesn't assign an escort for the trip home. You would not want to be on the Indianapolis, 1945.
+NARRATOR: Your ship just delivered the uranium for the atomic bomb. The Navy doesn't send an escort home. You would not want to be on the Indianapolis, 1945.
 
 ## Clip 02 (0:07-0:14) — Setup
-NARRATOR: You cross the Philippine Sea alone. Two torpedoes hit after midnight. The ship sinks in twelve minutes. Nine hundred men are in the water.
+NARRATOR: Two torpedoes hit after midnight. The ship sinks in twelve minutes. Nine hundred men are in the water.
 
 ## Clip 03 (0:14-0:21) — Escalation
-NARRATOR: Nobody knows you're there. The sharks arrive by dawn — they take the wounded first. Men drink seawater and swim toward islands that aren't real.
+NARRATOR: Nobody knows you're there. Sharks arrive by dawn. Men drink seawater and swim toward islands that aren't real.
 
 ## Clip 04 (0:21-0:28) — Catastrophe
-NARRATOR: You kick. You huddle. Four days pass. The Navy still hasn't noticed you're missing.
+NARRATOR: You kick. You huddle. Four days. The Navy hasn't noticed you're missing.
 
 ## Clip 05 (0:28-0:35) — Ending
-NARRATOR: You delivered the bomb that ended the war. They didn't send anyone to bring you home. Only 316 of 900 survived.
+NARRATOR: You delivered the bomb that ended the war. They didn't send anyone to bring you home. Only 316 survived.
 
 ---
 

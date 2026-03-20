@@ -87,14 +87,14 @@ Tension must build continuously. Clip 02 feels grounded. Clip 04 feels like the 
 
 ### 8. WORD COUNT (1–10)
 
-Total narration should aim for around 80-90 words. Coherence and storytelling quality always take priority over hitting an exact number.
+Total narration must be 85-95 words. Scripts over 95 words will be cut off mid-sentence during video production. This is a HARD constraint, not a soft target.
 
-- **10**: 78–90 words. Well-paced.
-- **7**: 70–95 words. Workable.
-- **5**: 60–69 or 96–110 words. Noticeably too short or too long.
-- **3**: Under 60 or over 110. Will feel rushed or draggy.
+- **10**: 85–95 words. Perfect fit.
+- **7**: 80–84 words. Slightly short but workable.
+- **5**: 96–105 words. OVER LIMIT — will be truncated or sped up noticeably.
+- **3**: Under 75 or over 105. Unshippable.
 
-This axis is informational — a low word count score alone should NOT trigger a REWRITE REQUIRED verdict if the story is strong.
+A score of 5 or below on word count SHOULD trigger a REWRITE REQUIRED verdict — the audio will literally be cut off.
 
 Count ONLY words after "NARRATOR:" — ignore clip headers and beat labels.
 
