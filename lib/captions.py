@@ -18,7 +18,12 @@ from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 
-REMOTION_PROJECT = Path("/Users/eliotchang/Local/Github/Figment/captions/captions-cloudflare/apps/remotion")
+REMOTION_PROJECT = Path(
+    os.environ.get(
+        "REMOTION_PROJECT_DIR",
+        "/Users/eliotchang/Local/Github/Figment/captions/captions-cloudflare/apps/remotion",
+    )
+)
 FPS = 30
 
 
@@ -229,7 +234,12 @@ def render_caption_overlay(
     """Render transparent caption overlay via Remotion CLI.
 
     Outputs ProRes 4444 MOV with alpha channel for compositing.
+    Returns False gracefully if the Remotion project directory is missing.
     """
+    if not REMOTION_PROJECT.exists():
+        print(f"  [{_ts()}] Remotion project not found at {REMOTION_PROJECT} — skipping caption render")
+        return False
+
     duration_secs = _get_video_duration(video_path)
     total_frames = math.ceil(duration_secs * FPS)
     actual_w, actual_h = _get_video_dimensions(video_path)
