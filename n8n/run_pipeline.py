@@ -38,8 +38,11 @@ PROMPTS_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "gene
 WRITER_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "writer.txt"
 CRITIC_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "critic.txt"
 REWRITER_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "rewriter.txt"
+SOURCES_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "sources.txt"
 
 sys.path.insert(0, str(REPO_DIR))
+
+from lib.sources import format_sources_comment
 
 
 def ts():
@@ -386,6 +389,38 @@ def generate_script_v2(topic):
     print(f"\n  [{ts()}] Final script: {word_count} words")
     artifacts = {"draft": draft, "critique": critique}
     return final, artifacts
+
+
+def generate_sources(topic, script):
+    """Extract key factual claims and their historical sources from a finished script.
+
+    Returns a list of {fact, source} dicts, or an empty list on failure.
+    """
+    phase_banner("PHASE 1a+: EXTRACT SOURCES (Claude)")
+
+    import anthropic
+    client = anthropic.Anthropic(api_key=load_env_key("ANTHROPIC_API_KEY"))
+    system_prompt = SOURCES_PROMPT_PATH.read_text()
+    model = load_env_key("ANTHROPIC_MODEL") or "claude-opus-4-6"
+
+    user_message = f"TOPIC: {topic}\n\nSCRIPT:\n{script}"
+    print(f"  [{ts()}] Extracting sources for: {topic}")
+
+    raw, _ = _call_claude_streaming(client, model, system_prompt, user_message, max_tokens=2000, temperature=0.3)
+    raw = _strip_code_fences(raw)
+
+    try:
+        sources = json.loads(raw)
+        if not isinstance(sources, list):
+            print(f"  [{ts()}] WARNING: Sources response is not a list, wrapping")
+            sources = [sources] if isinstance(sources, dict) else []
+    except json.JSONDecodeError as e:
+        print(f"  [{ts()}] WARNING: Failed to parse sources JSON: {e}")
+        print(f"  [{ts()}] Raw response: {raw[:300]}")
+        sources = []
+
+    print(f"  [{ts()}] Extracted {len(sources)} source entries")
+    return sources
 
 
 def generate_episode_from_script(topic, script):
@@ -1401,6 +1436,7 @@ def create_github_release(slug, title, final_path):
     return None
 
 
+
 def publish_to_metricool_with_upload(episode, final_path, asset_url=None, schedule=""):
     """Upload video to Metricool S3 then publish to YouTube Shorts + Instagram Reels + TikTok."""
     phase_banner("PHASE 5b: METRICOOL PUBLISH")
@@ -1423,6 +1459,10 @@ def publish_to_metricool_with_upload(episode, final_path, asset_url=None, schedu
     if schedule:
         print(f"  [{ts()}] Scheduled publish at: {schedule} (UTC)")
 
+    first_comment = format_sources_comment(episode.get("sources", []))
+    if first_comment:
+        print(f"  [{ts()}] First comment: {len(first_comment)} chars ({len(episode.get('sources', []))} sources)")
+
     print(f"  [{ts()}] Uploading {final_path.name} ({final_path.stat().st_size / (1024*1024):.1f} MB) to Metricool S3...")
     try:
         media_url = upload_media_file(settings, str(final_path))
@@ -1444,6 +1484,7 @@ def publish_to_metricool_with_upload(episode, final_path, asset_url=None, schedu
         caption_instagram=caption,
         caption_youtube=caption,
         desired_publish_at=schedule,
+        first_comment=first_comment,
     )
 
     print(f"  [{ts()}] Publish status: {result.status}")
@@ -1561,6 +1602,7 @@ def main():
         topic = generate_topic()
 
     _script_artifacts = None
+    _sources = []
     if args.script_file:
         script_path = Path(args.script_file)
         if not script_path.is_absolute():
@@ -1571,6 +1613,7 @@ def main():
         script = script_path.read_text().strip()
         word_count = _count_script_words(script)
         print(f"  [{ts()}] Loaded pre-written script: {script_path.name} ({word_count} words)")
+        _sources = generate_sources(topic, script)
         episode = generate_episode_from_script(topic, script)
         total_words, num_clips = validate_word_counts(episode)
     elif args.legacy_prompt:
@@ -1582,10 +1625,18 @@ def main():
         else:
             script, _script_artifacts = generate_script_v2(topic)
         print(f"\n  [{ts()}] Script:\n{script}\n")
+        _sources = generate_sources(topic, script)
         episode = generate_episode_from_script(topic, script)
         total_words, num_clips = validate_word_counts(episode)
 
+    if _sources:
+        episode["sources"] = _sources
+
     ep_dir, slug = write_episode_files(episode)
+
+    if _sources:
+        (ep_dir / "05_sources.json").write_text(json.dumps(_sources, indent=2, ensure_ascii=False))
+        print(f"  [{ts()}] Saved {len(_sources)} sources to {slug}/05_sources.json")
 
     if _script_artifacts:
         (ep_dir / "00_draft_script.txt").write_text(_script_artifacts["draft"])

@@ -11,6 +11,7 @@ Usage:
 """
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -18,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from lib.config import load_settings, REPO_DIR
 from lib.metricool import publish_to_metricool
+from lib.sources import format_sources_comment
 
 
 def main():
@@ -43,6 +45,18 @@ def main():
         print(f"ERROR: Episode directory not found: {episode_dir}")
         sys.exit(1)
 
+    first_comment = args.first_comment
+    if not first_comment:
+        sources_path = episode_dir / "05_sources.json"
+        if sources_path.exists():
+            try:
+                sources = json.loads(sources_path.read_text())
+                first_comment = format_sources_comment(sources)
+                if first_comment:
+                    print(f"  Auto-loaded sources from {sources_path.name} ({len(sources)} entries)")
+            except (json.JSONDecodeError, KeyError) as e:
+                print(f"  WARNING: Failed to parse {sources_path.name}: {e}")
+
     title = args.title
     if not title:
         slug_parts = args.episode.replace("-", " ").replace("_", " ").split()
@@ -59,6 +73,8 @@ def main():
     print(f"  Schedule:     {args.schedule or 'now + 2min'}")
     print(f"  Platforms:    {', '.join(settings.metricool_target_platforms)}")
     print(f"  Publish on:   {'ENABLED' if settings.metricool_publish_enabled else 'DISABLED'}")
+    if first_comment:
+        print(f"  1st comment:  {first_comment[:60]}{'...' if len(first_comment) > 60 else ''}")
     print(f"{'=' * 60}")
 
     if args.dry_run:
@@ -74,7 +90,7 @@ def main():
         caption_tiktok=args.caption_tiktok,
         caption_youtube=args.caption_youtube,
         desired_publish_at=args.schedule,
-        first_comment=args.first_comment,
+        first_comment=first_comment,
     )
 
     print(f"\n  Status:          {result.status}")
