@@ -1,0 +1,32 @@
+[
+  {
+    "fact": "A forty-mile-per-hour wind caused the bridge's fatal oscillations on November 7, 1940",
+    "source": "Washington State Department of Transportation – Tacoma Narrows Bridge history",
+    "url": "https://wsdot.wa.gov/engineering-standards/design-topics/bridges-structures/tacoma-narrows-bridge-background"
+  },
+  {
+    "fact": "The bridge deck was only thirty-nine feet wide with two lanes",
+    "source": "\"Tacoma Narrows Bridge\" – Wikipedia, citing original engineering specifications",
+    "url": "https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)"
+  },
+  {
+    "fact": "The bridge was nicknamed 'Galloping Gertie' due to its persistent vertical oscillations",
+    "source": "American Society of Civil Engineers – Tacoma Narrows Bridge case study",
+    "url": "https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)#Nickname"
+  },
+  {
+    "fact": "The deck tilted up to approximately forty-five degrees during the final torsional oscillations before collapse",
+    "source": "Physics of the Tacoma Narrows Bridge Collapse – University of Washington archival film analysis; widely documented in engineering literature",
+    "url": "https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)#Collapse"
+  },
+  {
+    "fact": "A six-hundred-foot section of the center span broke free and fell into Puget Sound",
+    "source": "\"Catastrophe to Triumph: Bridges of the Tacoma Narrows\" by Richard S. Hobbs (2006); the center span was 2,800 ft total and collapsed in large sections",
+    "url": "https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)#Collapse"
+  },
+  {
+    "fact": "The collapse was caused by a moderate sustained wind (not a major storm), through aeroelastic flutter",
+    "source": "Federal Works Agency report on the Tacoma Narrows Bridge collapse (1941); widely documented",
+    "url": "https://archive.org/details/investigationdes00ammarich"
+  }
+]
