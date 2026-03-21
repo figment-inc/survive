@@ -45,18 +45,28 @@ def build_words_from_script(
     narration_text: str,
     video_duration: float,
     narration_delay: float = NARRATION_DELAY,
+    narration_duration: float | None = None,
+    narration_atempo: float = 1.0,
 ) -> list[WordTimestamp]:
     """Build proportionally-timed word timestamps from the original script text.
 
-    Distributes words evenly across the available narration window
-    (video_duration - narration_delay) so captions show the full script
-    regardless of whether the actual audio was truncated by ffmpeg.
+    When narration_duration and narration_atempo are provided (from the mixer),
+    the caption window is computed as narration_duration / atempo — matching
+    the actual speed-adjusted audio playback. Otherwise falls back to
+    video_duration - narration_delay (which can desync if the video was
+    extended by freeze-frame or the audio was sped up).
     """
     words = narration_text.split()
     if not words:
         return []
 
-    available = video_duration - narration_delay
+    effective_atempo = narration_atempo if narration_atempo > 1.001 else 1.0
+
+    if narration_duration is not None and narration_duration > 0:
+        available = narration_duration / effective_atempo
+    else:
+        available = video_duration - narration_delay
+
     if available <= 0:
         return []
 
@@ -67,8 +77,10 @@ def build_words_from_script(
         end = start + word_dur
         result.append(WordTimestamp(word=w, start=round(start, 3), end=round(end, 3)))
 
+    tempo_note = f", atempo={effective_atempo:.3f}x" if effective_atempo > 1.0 else ""
+    source = "narration audio" if narration_duration is not None else "video duration"
     print(f"  [{_ts()}] Built {len(result)} word timestamps from script text "
-          f"({available:.1f}s window, {word_dur:.3f}s/word)")
+          f"({available:.1f}s window from {source}{tempo_note}, {word_dur:.3f}s/word)")
     return result
 
 
@@ -193,7 +205,34 @@ def _karaoke_html(word: str, font_size_px: int = 58) -> str:
 
 
 def _get_video_duration(video_path: Path) -> float:
-    """Get video duration in seconds via ffprobe."""
+    """Get video duration in seconds via ffprobe.
+
+    Uses stream-level duration (more accurate than container/format duration
+    which can be off by 20-50ms due to AAC encoder priming samples).
+    Falls back to format-level duration if stream duration is unavailable.
+    """
+    result = subprocess.run(
+        [
+            "ffprobe", "-v", "quiet",
+            "-show_entries", "stream=duration",
+            "-of", "csv=p=0",
+            str(video_path),
+        ],
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode == 0 and result.stdout.strip():
+        durations = []
+        for line in result.stdout.strip().splitlines():
+            line = line.strip()
+            if line and line != "N/A":
+                try:
+                    durations.append(float(line))
+                except ValueError:
+                    continue
+        if durations:
+            return max(durations)
+
     result = subprocess.run(
         [
             "ffprobe", "-v", "quiet",
@@ -360,13 +399,16 @@ def run_captions_pipeline(
     output_path: Path,
     openai_api_key: str | None = None,
     narration_text: str | None = None,
+    narration_duration: float | None = None,
+    narration_atempo: float = 1.0,
 ) -> Path | None:
     """Full captions pipeline: transcribe -> build segments -> render overlay -> composite.
 
     When narration_text is provided, uses proportionally-timed word timestamps
-    from the original script instead of Whisper transcription. This ensures all
-    words appear in captions even when narration audio overflows the video
-    duration and gets truncated by ffmpeg.
+    from the original script instead of Whisper transcription. narration_duration
+    and narration_atempo (from the mixer phase) ensure caption timing matches the
+    actual speed-adjusted audio playback rather than the video duration (which may
+    include freeze-frame extension).
 
     Returns the path to the captioned video, or None if any step fails.
     """
@@ -374,7 +416,12 @@ def run_captions_pipeline(
 
     if narration_text and narration_text.strip():
         video_duration = _get_video_duration(video_path)
-        words = build_words_from_script(narration_text.strip(), video_duration)
+        words = build_words_from_script(
+            narration_text.strip(),
+            video_duration,
+            narration_duration=narration_duration,
+            narration_atempo=narration_atempo,
+        )
     else:
         words = transcribe_audio(video_path, api_key=openai_api_key)
 

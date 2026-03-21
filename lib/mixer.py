@@ -1008,15 +1008,30 @@ def mix_final_audio(
     stream_idx = 1
 
     if needs_video_extension:
+        outro_fade_dur = 1.5
+        extended_total = video_duration + extension_secs
+        fade_start = max(0, extended_total - outro_fade_dur)
         video_filter_parts.append(
-            f"[0:v]tpad=stop_mode=clone:stop_duration={extension_secs:.2f}[vout]"
+            f"[0:v]tpad=stop_mode=clone:stop_duration={extension_secs:.2f},"
+            f"fade=t=out:st={fade_start:.3f}:d={outro_fade_dur:.3f}[vout]"
         )
         print(f"  [{_ts()}] Extending video by {extension_secs:.1f}s (freeze last frame) "
-              f"to prevent narration cutoff")
+              f"with {outro_fade_dur}s fade-to-black at {fade_start:.1f}s")
 
     veo_vol = veo_audio_volume if has_narration else 0.30
-    filter_parts.append(f"[0:a]asetpts=PTS-STARTPTS,volume={veo_vol},apad[veo]")
-    audio_streams.append("[veo]")
+    has_veo_audio = veo_vol > 0.001
+    if has_veo_audio:
+        probe_cmd = [
+            "ffprobe", "-v", "quiet", "-select_streams", "a",
+            "-show_entries", "stream=index", "-of", "csv=p=0",
+            str(video_path),
+        ]
+        probe_result = subprocess.run(probe_cmd, capture_output=True, text=True)
+        has_veo_audio = bool(probe_result.stdout.strip())
+
+    if has_veo_audio:
+        filter_parts.append(f"[0:a]asetpts=PTS-STARTPTS,volume={veo_vol},apad[veo]")
+        audio_streams.append("[veo]")
 
     if has_narration:
         inputs.extend(["-i", str(narration_path)])
@@ -1042,6 +1057,12 @@ def mix_final_audio(
         stream_idx += 1
 
     mix_count = len(audio_streams)
+    if mix_count == 0:
+        print(f"  [{_ts()}] No audio sources — copying video without audio mix")
+        import shutil
+        shutil.copy2(video_path, output_path)
+        return True
+
     streams_str = "".join(audio_streams)
     filter_parts.append(f"{streams_str}amix=inputs={mix_count}:duration=first:normalize=0[a]")
 

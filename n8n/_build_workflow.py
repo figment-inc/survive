@@ -74,7 +74,9 @@ add(
         "options": {},
         "assignments": {
             "assignments": [
-                {"id": uid(), "name": "ANTHROPIC_API_KEY", "type": "string", "value": ""},
+                {"id": uid(), "name": "AWS_ACCESS_KEY_ID_BEDROCK", "type": "string", "value": ""},
+                {"id": uid(), "name": "AWS_SECRET_ACCESS_KEY_BEDROCK", "type": "string", "value": ""},
+                {"id": uid(), "name": "AWS_BEDROCK_REGION", "type": "string", "value": "us-east-1"},
                 {"id": uid(), "name": "GEMINI_API_KEY", "type": "string", "value": ""},
                 {"id": uid(), "name": "NANOBANANA_API_KEY", "type": "string", "value": ""},
                 {"id": uid(), "name": "NANOBANANA_MODEL", "type": "string", "value": "nano-banana-pro"},
@@ -106,7 +108,9 @@ add(
     {
         "command": (
             '=cd {{ $json.REPO_DIR }} && '
-            'ANTHROPIC_API_KEY={{ $json.ANTHROPIC_API_KEY }} '
+            'AWS_ACCESS_KEY_ID_BEDROCK={{ $json.AWS_ACCESS_KEY_ID_BEDROCK }} '
+            'AWS_SECRET_ACCESS_KEY_BEDROCK={{ $json.AWS_SECRET_ACCESS_KEY_BEDROCK }} '
+            'AWS_BEDROCK_REGION={{ $json.AWS_BEDROCK_REGION }} '
             'GEMINI_API_KEY={{ $json.GEMINI_API_KEY }} '
             'NANOBANANA_API_KEY={{ $json.NANOBANANA_API_KEY }} '
             'NANOBANANA_MODEL={{ $json.NANOBANANA_MODEL }} '

@@ -14,9 +14,11 @@ End-to-end automation: autonomous topic selection → content generation → ima
 Create a `.env` file in the repo root with:
 
 ```env
-# AI Content Generation
-ANTHROPIC_API_KEY=sk-ant-...
-ANTHROPIC_MODEL=claude-opus-4-6
+# AI Content Generation (Claude via AWS Bedrock)
+AWS_ACCESS_KEY_ID_BEDROCK=AKIA...
+AWS_SECRET_ACCESS_KEY_BEDROCK=...
+AWS_BEDROCK_REGION=us-east-1
+ANTHROPIC_MODEL=anthropic.claude-opus-4-6-v1
 
 # Image Generation (NanoBanana Pro)
 NANOBANANA_API_KEY=...

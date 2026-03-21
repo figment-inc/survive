@@ -1,5 +1,5 @@
 requests>=2.31.0
 google-genai>=1.44.0
-anthropic>=0.42.0
+anthropic[bedrock]>=0.42.0
 python-dotenv>=1.0.1
 boto3>=1.35.0

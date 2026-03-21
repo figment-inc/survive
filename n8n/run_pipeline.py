@@ -3,23 +3,31 @@
 You Wouldn't Wanna Be — Automated Episode Pipeline
 
 End-to-end from autonomous topic selection to published YouTube Short + Instagram Reel.
-Family Guy animation style with split audio pipeline: Veo 3.1 silent video + ElevenLabs British documentary narration/music.
+Family Guy animation style with image-based slideshow pipeline (default) or Veo video pipeline (--use-veo).
 
-Phases:
+Default pipeline (image-based slideshow):
   0. Topic generation (Claude — picks history's worst moments, avoids duplicates)
-  1. Episode content generation (Claude — image prompts, video prompts, dialogue script)
+  1. Episode content generation (Claude — per-sentence image prompts, dialogue script)
   1b. Write prompts to disk
-  2. Image generation (NanoBanana Pro — keyframe images with skeleton reference, Family Guy style)
+  2. Image generation (NanoBanana Pro — 1-2 images per sentence, skeleton Family Guy style)
   2b. Audio generation (ElevenLabs — Dan British documentary narrator voice + cinematic underscore music)
-  3. Video generation (Veo 3.1 — silent clips with SFX/ambience only, NO speech)
-  3b. Per-clip audio mixing (ffmpeg — Veo SFX 40% + narration 100% + music 20%)
-  4. Stitch + LUFS normalize (ffmpeg — concat mixed clips + loudnorm to -14 LUFS)
+  3. Slideshow assembly (ffmpeg — Ken Burns zoom/pan effects with crossfade transitions)
+  4. Final mix (ffmpeg — overlay narration + music onto slideshow)
+  4b. Remotion karaoke captions
   5. Publish (GitHub Release upload + Metricool API → IG Reel + YT Short + TikTok)
 
+Legacy Veo pipeline (--use-veo):
+  0-2b. Same as above (but uses per-clip image/video prompts)
+  3. Video generation (Veo 3.1 — silent clips with SFX/ambience only, NO speech)
+  3b. Per-clip audio mixing (ffmpeg)
+  4. Stitch + LUFS normalize (ffmpeg)
+  5. Publish
+
 Usage:
-  python n8n/run_pipeline.py                          # autonomous topic + local only
+  python n8n/run_pipeline.py                          # autonomous topic + image-based
   python n8n/run_pipeline.py "The Great Fire of London, 1666"  # manual topic
   python n8n/run_pipeline.py --publish                # autonomous + publish
+  python n8n/run_pipeline.py --use-veo                # use Veo video generation
 """
 
 import argparse
@@ -67,6 +75,15 @@ def load_env_key(name):
     return None
 
 
+def _create_bedrock_client():
+    from anthropic import AnthropicBedrock
+    return AnthropicBedrock(
+        aws_access_key=load_env_key("AWS_ACCESS_KEY_ID_BEDROCK"),
+        aws_secret_key=load_env_key("AWS_SECRET_ACCESS_KEY_BEDROCK"),
+        aws_region=load_env_key("AWS_BEDROCK_REGION") or "us-east-1",
+    )
+
+
 def get_existing_slugs():
     """Return set of episode slugs already in the repo root."""
     return {
@@ -84,8 +101,7 @@ def get_existing_slugs():
 def generate_topic():
     phase_banner("PHASE 0: TOPIC GENERATION (Claude)")
 
-    import anthropic
-    client = anthropic.Anthropic(api_key=load_env_key("ANTHROPIC_API_KEY"))
+    client = _create_bedrock_client()
 
     existing = sorted(get_existing_slugs())
     existing_list = "\n".join(f"- {s}" for s in existing) if existing else "(none yet)"
@@ -114,7 +130,7 @@ def generate_topic():
         f"## ALREADY PRODUCED (do NOT repeat):\n{existing_list}"
     )
 
-    model = load_env_key("ANTHROPIC_MODEL") or "claude-opus-4-6"
+    model = load_env_key("ANTHROPIC_MODEL") or "us.anthropic.claude-opus-4-6-v1"
 
     print(f"  [{ts()}] Asking Claude for a new topic...")
     print(f"  [{ts()}] Existing episodes: {len(existing)}")
@@ -166,8 +182,7 @@ def load_example_prompts():
 def generate_episode_content(topic):
     phase_banner("PHASE 1: GENERATE EPISODE CONTENT (Claude)")
 
-    import anthropic
-    client = anthropic.Anthropic(api_key=load_env_key("ANTHROPIC_API_KEY"))
+    client = _create_bedrock_client()
     system_prompt = SYSTEM_PROMPT_PATH.read_text()
 
     examples = load_example_prompts()
@@ -187,7 +202,7 @@ def generate_episode_content(topic):
         )
         system_prompt += examples
 
-    model = load_env_key("ANTHROPIC_MODEL") or "claude-opus-4-6"
+    model = load_env_key("ANTHROPIC_MODEL") or "us.anthropic.claude-opus-4-6-v1"
 
     print(f"  [{ts()}] Sending topic to Claude: {topic}")
     print(f"  [{ts()}] Model: {model}")
@@ -209,11 +224,15 @@ def generate_episode_content(topic):
                         collected.append(text)
                 response = stream.get_final_message()
                 break
-            except (anthropic.APIStatusError, anthropic.APIConnectionError) as e:
-                wait = 30 * (api_attempt + 1)
-                print(f"  [{ts()}] API error ({e}). Retry {api_attempt+1}/{api_max_retries} in {wait}s...")
-                import time; time.sleep(wait)
-                collected = []
+            except Exception as e:
+                import anthropic as _anth
+                if isinstance(e, (_anth.APIStatusError, _anth.APIConnectionError)):
+                    wait = 30 * (api_attempt + 1)
+                    print(f"  [{ts()}] API error ({e}). Retry {api_attempt+1}/{api_max_retries} in {wait}s...")
+                    import time; time.sleep(wait)
+                    collected = []
+                else:
+                    raise
         else:
             raise RuntimeError("Claude API unavailable after retries — try again later")
 
@@ -300,10 +319,9 @@ def generate_script(topic):
     """Phase 1a: Generate script-only narration using the focused script prompt."""
     phase_banner("PHASE 1a: GENERATE SCRIPT (Claude — script-only)")
 
-    import anthropic
-    client = anthropic.Anthropic(api_key=load_env_key("ANTHROPIC_API_KEY"))
+    client = _create_bedrock_client()
     system_prompt = SCRIPT_PROMPT_PATH.read_text()
-    model = load_env_key("ANTHROPIC_MODEL") or "claude-opus-4-6"
+    model = load_env_key("ANTHROPIC_MODEL") or "us.anthropic.claude-opus-4-6-v1"
 
     print(f"  [{ts()}] Generating script for: {topic}")
     print(f"  [{ts()}] Model: {model}")
@@ -339,9 +357,8 @@ def generate_script_v2(topic):
     """
     phase_banner("PHASE 1a: GENERATE SCRIPT (Writer → Critic → Rewriter)")
 
-    import anthropic
-    client = anthropic.Anthropic(api_key=load_env_key("ANTHROPIC_API_KEY"))
-    model = load_env_key("ANTHROPIC_MODEL") or "claude-opus-4-6"
+    client = _create_bedrock_client()
+    model = load_env_key("ANTHROPIC_MODEL") or "us.anthropic.claude-opus-4-6-v1"
 
     print(f"  [{ts()}] Model: {model}")
     print(f"  [{ts()}] Topic: {topic}")
@@ -383,8 +400,11 @@ def generate_script_v2(topic):
         final_words = _count_script_words(final)
         print(f"  [{ts()}] Rewrite complete ({final_words} words)")
 
-    # Log final word count (no enforcement — word count is soft guidance)
     word_count = _count_script_words(final)
+
+    if word_count > 150:
+        print(f"\n  [{ts()}] WARNING: Script at {word_count} words — exceeds Shorts ceiling "
+              f"(~150 words / ~58s). May need manual trimming.")
 
     print(f"\n  [{ts()}] Final script: {word_count} words")
     artifacts = {"draft": draft, "critique": critique}
@@ -398,10 +418,9 @@ def generate_sources(topic, script):
     """
     phase_banner("PHASE 1a+: EXTRACT SOURCES (Claude)")
 
-    import anthropic
-    client = anthropic.Anthropic(api_key=load_env_key("ANTHROPIC_API_KEY"))
+    client = _create_bedrock_client()
     system_prompt = SOURCES_PROMPT_PATH.read_text()
-    model = load_env_key("ANTHROPIC_MODEL") or "claude-opus-4-6"
+    model = load_env_key("ANTHROPIC_MODEL") or "us.anthropic.claude-opus-4-6-v1"
 
     user_message = f"TOPIC: {topic}\n\nSCRIPT:\n{script}"
     print(f"  [{ts()}] Extracting sources for: {topic}")
@@ -427,8 +446,7 @@ def generate_episode_from_script(topic, script):
     """Phase 1b: Generate full episode JSON (image/video prompts + metadata) from a finished script."""
     phase_banner("PHASE 1b: GENERATE PROMPTS FROM SCRIPT (Claude)")
 
-    import anthropic
-    client = anthropic.Anthropic(api_key=load_env_key("ANTHROPIC_API_KEY"))
+    client = _create_bedrock_client()
     system_prompt = PROMPTS_PROMPT_PATH.read_text()
 
     examples = load_example_prompts()
@@ -442,7 +460,7 @@ def generate_episode_from_script(topic, script):
         )
         system_prompt += examples
 
-    model = load_env_key("ANTHROPIC_MODEL") or "claude-opus-4-6"
+    model = load_env_key("ANTHROPIC_MODEL") or "us.anthropic.claude-opus-4-6-v1"
     user_message = f"TOPIC: {topic}\n\nSCRIPT:\n{script}"
 
     print(f"  [{ts()}] Generating prompts for: {topic}")
@@ -468,8 +486,15 @@ def generate_episode_from_script(topic, script):
 
     print(f"  [{ts()}] Generated episode: {episode['title']}")
     print(f"  [{ts()}] Slug: {episode['episode_slug']}")
-    print(f"  [{ts()}] Image prompts: {len(episode['image_prompts'])}")
-    print(f"  [{ts()}] Video prompts: {len(episode['video_prompts'])}")
+
+    if "sentence_images" in episode:
+        total_imgs = sum(len(si.get("image_prompts", [])) for si in episode["sentence_images"])
+        print(f"  [{ts()}] Sentences: {len(episode['sentence_images'])}, total images: {total_imgs}")
+    elif "image_prompts" in episode:
+        print(f"  [{ts()}] Image prompts: {len(episode['image_prompts'])}")
+        if "video_prompts" in episode:
+            print(f"  [{ts()}] Video prompts: {len(episode['video_prompts'])}")
+
     return episode
 
 
@@ -513,22 +538,35 @@ def write_episode_files(episode):
     slug = episode["episode_slug"]
     ep_dir = REPO_DIR / slug
     img_dir = ep_dir / "02_image_prompts"
-    vid_dir = ep_dir / "03_veo_video_prompts"
     out_dirs = [
         ep_dir / "output" / d
-        for d in ["images", "videos", "audio/narration", "mixed_clips", "mixed"]
+        for d in ["images", "audio/narration", "slideshow", "mixed"]
     ]
 
-    for d in [img_dir, vid_dir] + out_dirs:
+    dirs_to_create = [img_dir] + out_dirs
+    if "video_prompts" in episode:
+        vid_dir = ep_dir / "03_veo_video_prompts"
+        dirs_to_create.append(vid_dir)
+
+    for d in dirs_to_create:
         d.mkdir(parents=True, exist_ok=True)
 
-    for i, prompt in enumerate(episode["image_prompts"]):
-        clip_id = f"{i + 1:02d}"
-        (img_dir / f"clip_{clip_id}_frame.txt").write_text(prompt)
+    if "sentence_images" in episode:
+        for si in episode["sentence_images"]:
+            s_idx = si["sentence_index"]
+            for p_idx, prompt in enumerate(si.get("image_prompts", [])):
+                fname = f"sentence_{s_idx:02d}_img_{p_idx + 1:02d}.txt"
+                (img_dir / fname).write_text(prompt)
+    elif "image_prompts" in episode:
+        for i, prompt in enumerate(episode["image_prompts"]):
+            clip_id = f"{i + 1:02d}"
+            (img_dir / f"clip_{clip_id}_frame.txt").write_text(prompt)
 
-    for i, prompt in enumerate(episode["video_prompts"]):
-        clip_id = f"{i + 1:02d}"
-        (vid_dir / f"clip_{clip_id}.txt").write_text(prompt)
+    if "video_prompts" in episode:
+        vid_dir = ep_dir / "03_veo_video_prompts"
+        for i, prompt in enumerate(episode["video_prompts"]):
+            clip_id = f"{i + 1:02d}"
+            (vid_dir / f"clip_{clip_id}.txt").write_text(prompt)
 
     if episode.get("dialogue_script"):
         (ep_dir / "04_dialogue_script.txt").write_text(episode["dialogue_script"])
@@ -545,14 +583,28 @@ def write_episode_files(episode):
         storyboard += f"\n**Style Description**: {style_desc}\n"
 
     storyboard += f"\n## Clips\n\n"
-    for clip in episode.get("clips", []):
-        storyboard += (
-            f"### Clip {clip['id']}\n"
-            f"- **Duration**: {clip['duration']}s\n"
-            f"- **Type**: {clip['type']}\n"
-            f"- **Character**: {'Yes' if clip.get('has_character') else 'No'}\n"
-            f"- **Resolution**: {clip.get('resolution', '1080p')}\n\n"
-        )
+    if episode.get("sentence_images"):
+        storyboard += f"**Mode**: Image-based slideshow (Ken Burns)\n"
+        storyboard += f"**Sentences**: {len(episode['sentence_images'])}\n"
+        total_imgs = sum(len(si.get('image_prompts', [])) for si in episode['sentence_images'])
+        storyboard += f"**Total images**: {total_imgs}\n\n"
+        for si in episode["sentence_images"]:
+            s_idx = si["sentence_index"]
+            storyboard += (
+                f"### Sentence {s_idx}\n"
+                f"- **Text**: {si.get('narration_text', '')[:80]}...\n"
+                f"- **Images**: {len(si.get('image_prompts', []))}\n"
+                f"- **Character**: {'Yes' if si.get('has_character', True) else 'No'}\n\n"
+            )
+    else:
+        for clip in episode.get("clips", []):
+            storyboard += (
+                f"### Clip {clip['id']}\n"
+                f"- **Duration**: {clip['duration']}s\n"
+                f"- **Type**: {clip['type']}\n"
+                f"- **Character**: {'Yes' if clip.get('has_character') else 'No'}\n"
+                f"- **Resolution**: {clip.get('resolution', '1080p')}\n\n"
+            )
     (ep_dir / "01_storyboard.md").write_text(storyboard)
 
     print(f"  [{ts()}] Written episode files to: {ep_dir}")
@@ -611,8 +663,15 @@ def run_images_phase(episode, ep_dir):
         print(f"  [{ts()}] Episode style: {episode_style[:80]}...")
 
     style_anchor_path = None
+
+    if "sentence_images" in episode:
+        return _run_images_sentence_mode(
+            episode, ep_dir, api_key, model, ref_paths,
+            style_ref_path, images_dir, episode_style,
+        )
+
     clips = episode.get("clips", [])
-    for i, prompt in enumerate(episode["image_prompts"]):
+    for i, prompt in enumerate(episode.get("image_prompts", [])):
         clip_id = f"{i + 1:02d}"
         output_path = images_dir / f"clip_{clip_id}_frame.png"
 
@@ -642,6 +701,53 @@ def run_images_phase(episode, ep_dir):
             print(f"  [{ts()}] Clip 01 set as style anchor for remaining images")
 
     print(f"  [{ts()}] Images phase complete.")
+    return True
+
+
+def _run_images_sentence_mode(
+    episode, ep_dir, api_key, model, ref_paths,
+    style_ref_path, images_dir, episode_style,
+):
+    """Generate images from sentence_images[] — 1-2 images per sentence."""
+    from lib.nanobanana import generate_image
+
+    style_anchor_path = None
+    img_counter = 0
+
+    for si in episode["sentence_images"]:
+        s_idx = si["sentence_index"]
+        has_character = si.get("has_character", True)
+
+        for p_idx, prompt in enumerate(si.get("image_prompts", [])):
+            img_counter += 1
+            fname = f"sentence_{s_idx:02d}_img_{p_idx + 1:02d}.png"
+            output_path = images_dir / fname
+
+            if output_path.exists():
+                print(f"  [{ts()}] Skipping (exists): {output_path.name}")
+                if style_anchor_path is None:
+                    style_anchor_path = output_path
+                    print(f"  [{ts()}] Using existing image as style anchor")
+                continue
+
+            print(f"\n  --- Sentence {s_idx}, Image {p_idx + 1} ---")
+            generate_image(
+                api_key=api_key,
+                model=model,
+                prompt=prompt,
+                output_path=output_path,
+                reference_paths=ref_paths if has_character else None,
+                has_character=has_character,
+                style_anchor_path=style_anchor_path if style_anchor_path else None,
+                episode_style=episode_style,
+                style_ref_path=style_ref_path,
+            )
+
+            if output_path.exists() and style_anchor_path is None:
+                style_anchor_path = output_path
+                print(f"  [{ts()}] First image set as style anchor for remaining")
+
+    print(f"  [{ts()}] Images phase complete ({img_counter} images generated).")
     return True
 
 
@@ -785,7 +891,90 @@ def _run_audio_phase_legacy(episode, ep_dir):
         generate_narration(el_key, voice_id, text, output_path)
 
 
-# ── Phase 3: Video generation (Veo 3.1) ──
+# ── Phase 3 (image-based): Slideshow assembly ──
+
+
+def run_slideshow_phase(episode, ep_dir):
+    """Build a Ken Burns slideshow video from per-sentence images synced to narration.
+
+    Uses Whisper word-level timestamps to time each image to its narration sentence.
+    Falls back to even distribution if timestamps are unavailable.
+    """
+    phase_banner("PHASE 3: SLIDESHOW ASSEMBLY (Ken Burns — ffmpeg)")
+
+    from lib.slideshow import (
+        parse_narration_sentences, assign_image_counts,
+        sync_images_to_timestamps, build_slideshow_video,
+    )
+
+    images_dir = ep_dir / "output" / "images"
+    slideshow_dir = ep_dir / "output" / "slideshow"
+    slideshow_dir.mkdir(parents=True, exist_ok=True)
+    output_path = slideshow_dir / "slideshow.mp4"
+
+    if output_path.exists():
+        print(f"  [{ts()}] Skipping (exists): {output_path.name}")
+        return output_path
+
+    script = episode.get("dialogue_script", "")
+    sentences = parse_narration_sentences(script)
+    sentences = assign_image_counts(sentences)
+
+    if "sentence_images" in episode:
+        for si in episode["sentence_images"]:
+            s_idx = si["sentence_index"] - 1
+            if 0 <= s_idx < len(sentences):
+                sentences[s_idx].image_count = len(si.get("image_prompts", []))
+
+    print(f"  [{ts()}] Parsed {len(sentences)} sentences, "
+          f"{sum(s.image_count for s in sentences)} total images")
+
+    timestamps_path = ep_dir / "output" / "audio" / "narration_timestamps.json"
+    word_timestamps = []
+    if timestamps_path.exists():
+        word_timestamps = json.loads(timestamps_path.read_text())
+        print(f"  [{ts()}] Loaded {len(word_timestamps)} word timestamps")
+    else:
+        print(f"  [{ts()}] No word timestamps — using even distribution")
+
+    timings = sync_images_to_timestamps(sentences, word_timestamps)
+
+    if "sentence_images" in episode:
+        img_idx = 0
+        for si in episode["sentence_images"]:
+            s_idx = si["sentence_index"]
+            for p_idx in range(len(si.get("image_prompts", []))):
+                fname = f"sentence_{s_idx:02d}_img_{p_idx + 1:02d}.png"
+                img_path = images_dir / fname
+                if img_idx < len(timings):
+                    timings[img_idx].image_path = img_path if img_path.exists() else None
+                img_idx += 1
+    else:
+        img_idx = 0
+        for s in sentences:
+            for img_i in range(s.image_count):
+                clip_id = f"{s.index + 1:02d}"
+                img_path = images_dir / f"clip_{clip_id}_frame.png"
+                if img_idx < len(timings):
+                    timings[img_idx].image_path = img_path if img_path.exists() else None
+                img_idx += 1
+
+    valid_count = sum(1 for t in timings if t.image_path and t.image_path.exists())
+    print(f"  [{ts()}] Mapped {valid_count}/{len(timings)} images to timestamps")
+
+    if valid_count == 0:
+        print(f"  [{ts()}] ERROR: No valid images found — cannot build slideshow")
+        return None
+
+    success = build_slideshow_video(timings, output_path)
+    if not success:
+        print(f"  [{ts()}] ERROR: Slideshow assembly failed")
+        return None
+
+    return output_path
+
+
+# ── Phase 3 (legacy): Video generation (Veo 3.1) ──
 
 
 def run_videos_chain_phase(episode, ep_dir):
@@ -1235,7 +1424,8 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
         stitch_clips, stitch_clips_with_transitions,
         burn_location_title, mix_final_audio,
         validate_narration_timing, validate_clip_narration_alignment,
-        probe_audio_duration,
+        probe_audio_duration, estimate_crossfade_loss,
+        NARRATION_DELAY, MAX_ATEMPO,
     )
 
     slug = episode["episode_slug"]
@@ -1285,8 +1475,25 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
         clip_paths = normalized_paths
 
     stitched_path = final_dir / f"stitched_{slug}.mp4"
+
+    narr_overflow = False
+    if continuous_narration and use_transitions:
+        narration_path = ep_dir / "output" / "audio" / "narration_full.mp3"
+        if narration_path.exists():
+            narr_dur = probe_audio_duration(narration_path)
+            raw_video_dur = sum(float(c.get("duration", 8)) for c in clips)
+            xfade_loss = estimate_crossfade_loss(len(clips))
+            effective = raw_video_dur - xfade_loss - NARRATION_DELAY
+            narr_at_max_tempo = narr_dur / MAX_ATEMPO
+            narr_overflow = narr_at_max_tempo > effective + 0.5
+            if narr_overflow:
+                print(f"  [{ts()}] Narration overflow detected — deferring dip-to-black to final mix")
+
     if use_transitions:
-        stitch_clips_with_transitions(clip_paths, stitched_path)
+        stitch_clips_with_transitions(
+            clip_paths, stitched_path,
+            outro_fade=0.0 if narr_overflow else 1.5,
+        )
     else:
         stitch_clips(clip_paths, stitched_path)
 
@@ -1298,7 +1505,9 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
         print(f"\n  [{ts()}] Overlaying full narration + music onto stitched video...")
 
         atempo = 1.0
+        post_narr_dur = 0.0
         if narration_path.exists() and stitched_path.exists():
+            post_narr_dur = probe_audio_duration(narration_path)
             atempo = validate_narration_timing(narration_path, probe_audio_duration(stitched_path))
 
         timestamps_path = ep_dir / "output" / "audio" / "narration_timestamps.json"
@@ -1332,6 +1541,8 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
             final_path = final_dir / f"final_{slug}.mp4"
             stitched_path.rename(final_path)
     else:
+        atempo = 1.0
+        post_narr_dur = 0.0
         final_path = final_dir / f"final_{slug}.mp4"
         if stitched_path != final_path:
             stitched_path.rename(final_path)
@@ -1347,13 +1558,77 @@ def run_post_phase(episode, ep_dir, use_transitions: bool = True, continuous_nar
     elif not (location and year):
         print(f"  [{ts()}] WARNING: No location/year in episode JSON — skipping title overlay")
 
-    return final_path
+    return final_path, atempo, post_narr_dur
+
+
+def run_slideshow_post_phase(episode, ep_dir, slideshow_path):
+    """Mix narration + music onto the slideshow video and burn titles.
+
+    Simplified version of run_post_phase — the slideshow is already one
+    continuous silent video, so no per-clip stitching or normalization needed.
+    """
+    phase_banner("PHASE 4: FINAL MIX (Slideshow + Narration + Music)")
+
+    from lib.mixer import (
+        burn_location_title, mix_final_audio,
+        validate_narration_timing, probe_audio_duration,
+    )
+
+    slug = episode["episode_slug"]
+    final_dir = ep_dir / "output" / "mixed"
+    final_dir.mkdir(parents=True, exist_ok=True)
+
+    narration_path = ep_dir / "output" / "audio" / "narration_full.mp3"
+    music_path = ep_dir / "output" / "audio" / "music.mp3"
+
+    final_mixed_path = final_dir / f"final_mixed_{slug}.mp4"
+
+    print(f"\n  [{ts()}] Overlaying narration + music onto slideshow video...")
+
+    atempo = 1.0
+    narr_dur = 0.0
+    if narration_path.exists() and slideshow_path.exists():
+        narr_dur = probe_audio_duration(narration_path)
+        atempo = validate_narration_timing(
+            narration_path, probe_audio_duration(slideshow_path),
+        )
+
+    mix_ok = mix_final_audio(
+        video_path=slideshow_path,
+        output_path=final_mixed_path,
+        narration_path=narration_path if narration_path.exists() else None,
+        music_path=music_path if music_path.exists() else None,
+        narration_atempo=atempo,
+        veo_audio_volume=0.0,
+    )
+
+    if mix_ok and final_mixed_path.exists():
+        final_path = final_dir / f"final_{slug}.mp4"
+        final_mixed_path.rename(final_path)
+    else:
+        print(f"  [{ts()}] WARNING: Final mix failed — using slideshow without audio")
+        final_path = final_dir / f"final_{slug}.mp4"
+        import shutil
+        shutil.copy2(slideshow_path, final_path)
+
+    location = episode.get("location")
+    year = episode.get("year")
+    if location and year and final_path.exists():
+        titled_path = final_dir / f"final_{slug}_titled.mp4"
+        if burn_location_title(final_path, titled_path, location, year):
+            final_path.unlink(missing_ok=True)
+            titled_path.rename(final_path)
+            print(f"  [{ts()}] Location title applied: \"{location}, {year}\"")
+    elif not (location and year):
+        print(f"  [{ts()}] WARNING: No location/year in episode JSON — skipping title overlay")
+
+    return final_path, atempo, narr_dur
 
 
 # ── Phase 4b: Remotion captions ──
 
 
-def run_captions_phase(final_path, ep_dir):
+def run_captions_phase(final_path, ep_dir, narration_atempo=1.0, narration_duration=0.0):
     phase_banner("PHASE 4b: REMOTION KARAOKE CAPTIONS (Script Text + Remotion)")
 
     from lib.captions import run_captions_pipeline
@@ -1379,6 +1654,8 @@ def run_captions_phase(final_path, ep_dir):
         output_path=captioned_path,
         openai_api_key=openai_key,
         narration_text=narration_text,
+        narration_duration=narration_duration if narration_duration > 0 else None,
+        narration_atempo=narration_atempo,
     )
 
     if result and result.exists():
@@ -1496,12 +1773,11 @@ def publish_to_metricool_with_upload(episode, final_path, asset_url=None, schedu
 
 
 def validate_word_counts(episode):
-    """Check that narration word counts fit within the crossfade-adjusted video duration.
+    """Check that narration word counts fit within the video duration budget.
 
-    The narration is continuous prose generated as one audio file and
-    overlaid on the final stitched video. Crossfade transitions eat ~2.3s
-    of video time, and narration starts with a 0.5s delay, so the effective
-    audio window is shorter than the raw clip sum.
+    For image-based (slideshow) episodes, the video duration is driven by
+    narration length so there's no fixed budget to overflow — just log stats.
+    For Veo-based episodes, checks crossfade-adjusted video duration.
     """
     from lib.mixer import estimate_crossfade_loss, NARRATION_DELAY
 
@@ -1509,13 +1785,32 @@ def validate_word_counts(episode):
 
     full_text = _extract_full_narration_text(episode)
     total_words = len(full_text.split()) if full_text else 0
+    narration_seconds = total_words / WORDS_PER_SEC
+
+    is_slideshow = "sentence_images" in episode
+
+    if is_slideshow:
+        num_sentences = len(episode.get("sentence_images", []))
+        total_imgs = sum(len(si.get("image_prompts", [])) for si in episode.get("sentence_images", []))
+        print(f"  Total narration: {total_words} words")
+        print(f"  Estimated narration duration: {narration_seconds:.1f}s (at {WORDS_PER_SEC} wps)")
+        print(f"  Mode: Image-based slideshow ({num_sentences} sentences, {total_imgs} images)")
+        print(f"  [{ts()}] Slideshow duration will match narration — no fixed video budget")
+
+        if narration_seconds > 58:
+            print(f"  [{ts()}] WARNING: Estimated {narration_seconds:.1f}s exceeds ~58s Shorts/Reels ceiling")
+
+        script = episode.get("dialogue_script", "")
+        if script and "you" not in script.lower():
+            print(f"  [{ts()}] WARNING: No second-person POV ('you') found in script")
+
+        return total_words, num_sentences
 
     clips = episode.get("clips", [])
     num_clips = len(clips)
     raw_video_duration = sum(float(c.get("duration", 8)) for c in clips)
     crossfade_loss = estimate_crossfade_loss(num_clips)
     effective_duration = raw_video_duration - crossfade_loss - NARRATION_DELAY
-    narration_seconds = total_words / WORDS_PER_SEC
 
     word_max = int(effective_duration * WORDS_PER_SEC)
     word_min = max(80, word_max - 15)
@@ -1563,13 +1858,14 @@ def main():
     parser.add_argument("topic", nargs="*", help="Episode topic (omit for autonomous selection)")
     parser.add_argument("--publish", action="store_true", help="Publish to YouTube + Instagram via Metricool")
     parser.add_argument("--skip-images", action="store_true", help="Skip image generation phase")
-    parser.add_argument("--skip-videos", action="store_true", help="Skip video generation phase")
-    parser.add_argument("--skip-post", action="store_true", help="Skip stitch phase")
+    parser.add_argument("--skip-videos", action="store_true", help="Skip video/slideshow generation phase")
+    parser.add_argument("--skip-post", action="store_true", help="Skip stitch/mix phase")
     parser.add_argument("--skip-audio", action="store_true", help="Skip ElevenLabs audio generation phase")
-    parser.add_argument("--skip-mix", action="store_true", help="Skip per-clip audio mixing phase")
+    parser.add_argument("--skip-mix", action="store_true", help="Skip per-clip audio mixing phase (Veo mode only)")
     parser.add_argument("--skip-captions", action="store_true", help="Skip Remotion karaoke captions phase")
-    parser.add_argument("--no-chain", action="store_true", help="Use independent clip generation instead of extension chain")
-    parser.add_argument("--no-qa-regen", action="store_true", help="Skip auto-regeneration of clips that fail visual consistency QA")
+    parser.add_argument("--use-veo", action="store_true", help="Use Veo video generation instead of image-based slideshow")
+    parser.add_argument("--no-chain", action="store_true", help="(Veo mode) Use independent clip generation instead of extension chain")
+    parser.add_argument("--no-qa-regen", action="store_true", help="(Veo mode) Skip auto-regeneration of clips that fail visual consistency QA")
     parser.add_argument("--schedule", type=str, default="", help="Schedule publish at ISO datetime (e.g. '2026-03-17T17:00:00' UTC)")
     parser.add_argument("--force-publish", action="store_true", help="Publish even if visual QA quality gate fails")
     parser.add_argument("--legacy-prompt", action="store_true", help="Use legacy single-pass prompt (generate-episode.txt) instead of two-phase script+prompts")
@@ -1578,6 +1874,7 @@ def main():
     args = parser.parse_args()
 
     topic = " ".join(args.topic) if args.topic else None
+    use_veo = args.use_veo or args.legacy_prompt
 
     prompt_mode = "Legacy (single-pass)" if args.legacy_prompt else "Writer-Critic-Rewriter (script → critique → rewrite → prompts)"
     if args.legacy_script:
@@ -1585,17 +1882,24 @@ def main():
     if args.script_file:
         prompt_mode = f"Pre-written script ({args.script_file})"
 
+    video_mode = "Veo 3.1"
+    if use_veo:
+        video_mode += " (extension chain)" if not args.no_chain else " (independent clips)"
+    else:
+        video_mode = "Image-based slideshow (Ken Burns)"
+
     print(f"\n{'=' * 60}")
     print(f"  You Wouldn't Wanna Be — Automated Pipeline")
     print(f"  Mode: {'Autonomous' if not topic else 'Manual'}")
     print(f"  Prompt: {prompt_mode}")
-    print(f"  Video: {'Independent clips' if args.no_chain else 'Extension chain (default)'}")
+    print(f"  Video: {video_mode}")
     print(f"  Publish: {'YES' if args.publish else 'no (local only)'}")
     print(f"{'=' * 60}")
 
-    anthropic_key = load_env_key("ANTHROPIC_API_KEY")
-    if not anthropic_key:
-        print("  ERROR: ANTHROPIC_API_KEY not found")
+    bedrock_key = load_env_key("AWS_ACCESS_KEY_ID_BEDROCK")
+    bedrock_secret = load_env_key("AWS_SECRET_ACCESS_KEY_BEDROCK")
+    if not bedrock_key or not bedrock_secret:
+        print("  ERROR: AWS_ACCESS_KEY_ID_BEDROCK / AWS_SECRET_ACCESS_KEY_BEDROCK not found")
         sys.exit(1)
 
     if not topic:
@@ -1615,10 +1919,10 @@ def main():
         print(f"  [{ts()}] Loaded pre-written script: {script_path.name} ({word_count} words)")
         _sources = generate_sources(topic, script)
         episode = generate_episode_from_script(topic, script)
-        total_words, num_clips = validate_word_counts(episode)
+        total_words, _ = validate_word_counts(episode)
     elif args.legacy_prompt:
         episode = generate_episode_content(topic)
-        total_words, num_clips = validate_word_counts(episode)
+        total_words, _ = validate_word_counts(episode)
     else:
         if args.legacy_script:
             script = generate_script(topic)
@@ -1627,7 +1931,7 @@ def main():
         print(f"\n  [{ts()}] Script:\n{script}\n")
         _sources = generate_sources(topic, script)
         episode = generate_episode_from_script(topic, script)
-        total_words, num_clips = validate_word_counts(episode)
+        total_words, _ = validate_word_counts(episode)
 
     if _sources:
         episode["sources"] = _sources
@@ -1661,28 +1965,44 @@ def main():
             continuous_narration = True
             print(f"  [{ts()}] Audio skipped but narration_full.mp3 exists — will use for final mix")
 
-    if not args.skip_videos:
-        if args.no_chain:
-            run_videos_independent_phase(episode, ep_dir)
-        else:
-            run_videos_chain_phase(episode, ep_dir)
+    slideshow_path = None
 
-    severe_clip_count = 0
-    if not args.skip_videos:
-        _qa_passed, severe_clip_count = run_qa_phase(episode, ep_dir, regen=not args.no_qa_regen)
+    if use_veo:
+        if not args.skip_videos:
+            if args.no_chain:
+                run_videos_independent_phase(episode, ep_dir)
+            else:
+                run_videos_chain_phase(episode, ep_dir)
 
-    if not args.skip_mix:
-        run_mix_phase(episode, ep_dir, continuous_narration=continuous_narration)
+        severe_clip_count = 0
+        if not args.skip_videos:
+            _qa_passed, severe_clip_count = run_qa_phase(episode, ep_dir, regen=not args.no_qa_regen)
 
-    final_path = None
-    if not args.skip_post:
-        final_path = run_post_phase(episode, ep_dir, continuous_narration=continuous_narration)
+        if not args.skip_mix:
+            run_mix_phase(episode, ep_dir, continuous_narration=continuous_narration)
+
+        final_path = None
+        narr_atempo = 1.0
+        narr_dur = 0.0
+        if not args.skip_post:
+            final_path, narr_atempo, narr_dur = run_post_phase(episode, ep_dir, continuous_narration=continuous_narration)
+    else:
+        if not args.skip_videos:
+            slideshow_path = run_slideshow_phase(episode, ep_dir)
+
+        severe_clip_count = 0
+
+        final_path = None
+        narr_atempo = 1.0
+        narr_dur = 0.0
+        if not args.skip_post and slideshow_path:
+            final_path, narr_atempo, narr_dur = run_slideshow_post_phase(episode, ep_dir, slideshow_path)
 
     if final_path is None:
         final_path = ep_dir / "output" / "mixed" / f"final_{slug}.mp4"
 
     if not args.skip_captions and final_path.exists():
-        final_path = run_captions_phase(final_path, ep_dir)
+        final_path = run_captions_phase(final_path, ep_dir, narration_atempo=narr_atempo, narration_duration=narr_dur)
 
     phase_banner("GENERATION COMPLETE")
     if final_path.exists():
@@ -1696,12 +2016,13 @@ def main():
             sys.exit(1)
 
     images = list((ep_dir / "output" / "images").glob("*.png"))
-    videos = list((ep_dir / "output" / "videos").glob("*.mp4"))
     print(f"  Images: {len(images)}")
-    print(f"  Videos: {len(videos)}")
+    if use_veo:
+        videos = list((ep_dir / "output" / "videos").glob("*.mp4"))
+        print(f"  Videos: {len(videos)}")
 
     if args.publish and final_path.exists():
-        if severe_clip_count > 2 and not args.force_publish:
+        if use_veo and severe_clip_count > 2 and not args.force_publish:
             print(f"\n  QUALITY GATE FAILED: {severe_clip_count} clips at severity >= 4/5")
             print(f"  Publishing blocked. Use --force-publish to override.")
             sys.exit(1)

@@ -47,9 +47,14 @@ class Settings:
     # AI Services
     gemini_api_key: str = ""
     anthropic_api_key: str = ""
-    anthropic_model: str = "claude-opus-4-6"
+    anthropic_model: str = "us.anthropic.claude-opus-4-6-v1"
     nanobanana_api_key: str = ""
     nanobanana_model: str = "nano-banana-pro"
+
+    # AWS Bedrock (Claude via Bedrock)
+    aws_bedrock_access_key: str = ""
+    aws_bedrock_secret_key: str = ""
+    aws_bedrock_region: str = "us-east-1"
 
     # ElevenLabs
     elevenlabs_api_key: str = ""
@@ -90,7 +95,10 @@ def load_settings() -> Settings:
     return Settings(
         gemini_api_key=_env("GEMINI_API_KEY"),
         anthropic_api_key=_env("ANTHROPIC_API_KEY"),
-        anthropic_model=_env("ANTHROPIC_MODEL", "claude-opus-4-6"),
+        anthropic_model=_env("ANTHROPIC_MODEL", "us.anthropic.claude-opus-4-6-v1"),
+        aws_bedrock_access_key=_env("AWS_ACCESS_KEY_ID_BEDROCK"),
+        aws_bedrock_secret_key=_env("AWS_SECRET_ACCESS_KEY_BEDROCK"),
+        aws_bedrock_region=_env("AWS_BEDROCK_REGION", "us-east-1"),
         nanobanana_api_key=_env("NANOBANANA_API_KEY"),
         nanobanana_model=_env("NANOBANANA_MODEL", "nano-banana-pro"),
         elevenlabs_api_key=_env("ELEVENLABS_API_KEY"),

@@ -5,21 +5,25 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Optional
 
-import anthropic
+from anthropic import AnthropicBedrock
 
 from lib.config import load_channel_file, load_settings
 
 
-_client: anthropic.Anthropic | None = None
+_client: AnthropicBedrock | None = None
 
 
-def get_client() -> anthropic.Anthropic:
+def get_client() -> AnthropicBedrock:
     global _client
     if _client is None:
         settings = load_settings()
-        if not settings.anthropic_api_key:
-            raise RuntimeError("ANTHROPIC_API_KEY not found. Set it in .env.")
-        _client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
+        if not settings.aws_bedrock_access_key or not settings.aws_bedrock_secret_key:
+            raise RuntimeError("AWS_ACCESS_KEY_ID_BEDROCK / AWS_SECRET_ACCESS_KEY_BEDROCK not found. Set them in .env.")
+        _client = AnthropicBedrock(
+            aws_access_key=settings.aws_bedrock_access_key,
+            aws_secret_key=settings.aws_bedrock_secret_key,
+            aws_region=settings.aws_bedrock_region or "us-east-1",
+        )
     return _client
 
 
