@@ -475,11 +475,12 @@ def build_slideshow_video(
 
         cmd = [
             "ffmpeg", "-y",
-            "-loop", "1", "-t", f"{t.duration:.3f}",
             "-i", str(t.image_path),
             "-vf", f"scale=2500:-1,{zp},format=yuv420p",
+            "-frames:v", str(d_frames),
             "-c:v", "libx264", "-preset", "fast", "-crf", "18",
             "-pix_fmt", "yuv420p",
+            "-r", str(fps),
             "-an",
             str(clip_path),
         ]
@@ -495,7 +496,7 @@ def build_slideshow_video(
         return False
 
     concat_file = tmp_dir / "concat.txt"
-    concat_file.write_text("\n".join(f"file '{p}'" for p in clip_paths))
+    concat_file.write_text("\n".join(f"file '{p.name}'" for p in clip_paths))
 
     duration_args = ["-t", f"{effective_total:.3f}"] if max_duration > 0 else []
 
@@ -538,11 +539,12 @@ def _single_image_video(
 
     cmd = [
         "ffmpeg", "-y",
-        "-loop", "1", "-t", f"{duration:.3f}",
         "-i", str(timing.image_path),
         "-vf", f"scale=2500:-1,{zp},format=yuv420p",
+        "-frames:v", str(d_frames),
         "-c:v", "libx264", "-preset", "fast", "-crf", "18",
         "-pix_fmt", "yuv420p",
+        "-r", str(fps),
         "-an",
         str(output_path),
     ]
