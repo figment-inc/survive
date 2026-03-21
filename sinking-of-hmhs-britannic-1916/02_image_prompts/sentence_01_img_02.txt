@@ -1,0 +1,23 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. Interior of the Britannic, 1916. A cross-section view showing the engineering improvements.
+
+NARRATION FOR THIS IMAGE: "After the Titanic, they redesigned everything — bigger lifeboats, watertight doors, a double hull."
+
+SHOT TYPE: Medium shot. CAMERA ANGLE: Eye-level, straight-on. CHARACTER POSITION: Center. The figure stands in a lower deck corridor beside a massive open watertight door — a heavy riveted steel bulkhead door on hydraulic hinges. The figure reaches out and touches the thick steel door frame, examining it with cautious optimism.
+
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. The figure faces the watertight door at a three-quarter angle, one hand pressed flat against the cold steel. Head tilted slightly, examining the mechanism. Expression: cautious hope, one orb-eye slightly narrowed.
+
+Foreground: A coiled fire hose mounted on the corridor wall in flat red. Steel floor plates with riveted seams. A metal bucket and mop leaning against the wall.
+
+Midground: The figure beside the watertight door. The door itself is a massive flat steel-grey panel with a thick rubber gasket around its frame and heavy mechanical hinges. The inner double hull is visible as a second layer of riveted steel plating running along the corridor wall, showing the gap between inner and outer hulls.
+
+Background: The corridor extends into shadow — flat dark steel-grey receding into flat charcoal. Overhead pipes in oxidized copper-green run along the ceiling. Another watertight door is visible further down the corridor in the closed position.
+
+Flat even lighting. Interior palette: steel grey walls, flat charcoal shadow areas, oxidized copper-green pipes, flat white ceiling panels, hospital white trim. Cold and industrial.
+
+Period texture: The hydraulic watertight door mechanism — a hand-wheel override and a pneumatic closer specific to the Britannic's upgraded compartmentalization system, with forty-eight watertight compartments compared to the Titanic's sixteen.
+
+Background activity: A stoker in a flat dark undershirt walks through the distant watertight door. A ship's officer in a dark navy uniform checks a pressure gauge mounted on the wall.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.
