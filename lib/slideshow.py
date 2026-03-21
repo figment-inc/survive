@@ -352,7 +352,17 @@ def _fallback_even_timing(
     return timings
 
 
-# ── Ken Burns effects — simple alternation ──
+# ── Ken Burns effects — varied for visual rhythm ──
+
+_EFFECTS = [
+    "zoom_in",
+    "zoom_out",
+    "pan_left",
+    "pan_right",
+    "pan_up",
+    "zoom_in_pan_left",
+    "zoom_in_pan_right",
+]
 
 
 def _zoompan_filter(
@@ -362,19 +372,59 @@ def _zoompan_filter(
     height: int = 1920,
     fps: int = 30,
 ) -> str:
-    """Build an ffmpeg zoompan filter string for a gentle Ken Burns effect."""
+    """Build an ffmpeg zoompan filter string for a Ken Burns effect.
+
+    Effects cycle through zoom and pan variants so consecutive images
+    feel visually distinct even when their content is similar.
+    """
     d = duration_frames
     s = f"{width}x{height}"
+    zoom_rate = 0.0015
 
-    if effect == "slow_zoom_out":
+    if effect == "zoom_out":
         return (
-            f"zoompan=z='if(eq(on,1),1.15,max(zoom-0.0008,1.0))':"
+            f"zoompan=z='if(eq(on,1),1.20,max(zoom-{zoom_rate},1.0))':"
             f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={d}:s={s}:fps={fps}"
         )
 
+    if effect == "pan_left":
+        return (
+            f"zoompan=z='1.10':"
+            f"x='iw/2-(iw/zoom/2)-on*0.15':y='ih/2-(ih/zoom/2)':"
+            f"d={d}:s={s}:fps={fps}"
+        )
+
+    if effect == "pan_right":
+        return (
+            f"zoompan=z='1.10':"
+            f"x='iw/2-(iw/zoom/2)+on*0.15':y='ih/2-(ih/zoom/2)':"
+            f"d={d}:s={s}:fps={fps}"
+        )
+
+    if effect == "pan_up":
+        return (
+            f"zoompan=z='1.10':"
+            f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)-on*0.12':"
+            f"d={d}:s={s}:fps={fps}"
+        )
+
+    if effect == "zoom_in_pan_left":
+        return (
+            f"zoompan=z='min(zoom+{zoom_rate},1.20)':"
+            f"x='iw/2-(iw/zoom/2)-on*0.10':y='ih/2-(ih/zoom/2)':"
+            f"d={d}:s={s}:fps={fps}"
+        )
+
+    if effect == "zoom_in_pan_right":
+        return (
+            f"zoompan=z='min(zoom+{zoom_rate},1.20)':"
+            f"x='iw/2-(iw/zoom/2)+on*0.10':y='ih/2-(ih/zoom/2)':"
+            f"d={d}:s={s}:fps={fps}"
+        )
+
     return (
-        f"zoompan=z='min(zoom+0.0008,1.15)':"
+        f"zoompan=z='min(zoom+{zoom_rate},1.20)':"
         f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
         f"d={d}:s={s}:fps={fps}"
     )
@@ -420,7 +470,7 @@ def build_slideshow_video(
     for i, t in enumerate(valid_timings):
         clip_path = tmp_dir / f"slide_{i:03d}.mp4"
         d_frames = int(t.duration * fps)
-        effect = "slow_zoom_in" if i % 2 == 0 else "slow_zoom_out"
+        effect = _EFFECTS[i % len(_EFFECTS)]
         zp = _zoompan_filter(effect, d_frames, width, height, fps)
 
         cmd = [
@@ -484,7 +534,7 @@ def _single_image_video(
     """Create video from a single image with Ken Burns effect."""
     duration = max_duration if max_duration > 0 else timing.duration
     d_frames = int(duration * fps)
-    zp = _zoompan_filter("slow_zoom_in", d_frames, width, height, fps)
+    zp = _zoompan_filter("zoom_in", d_frames, width, height, fps)
 
     cmd = [
         "ffmpeg", "-y",

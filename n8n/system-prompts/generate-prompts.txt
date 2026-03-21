@@ -105,12 +105,7 @@ MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation s
 
 3. **Narration coupling**: `NARRATION FOR THIS IMAGE: "[exact sentence text this image illustrates]"`
 
-4. **Camera + scene composition**: Shot type, angle, character position. Vary across images to create visual rhythm:
-   - Medium shot, eye level → neutral/grounding
-   - Close-up → emotional weight, dread
-   - Low-angle → scale, intimidation
-   - High-angle → vulnerability
-   - Wide environmental → scale, setting
+4. **Camera + scene composition** (MANDATORY — state explicitly): `SHOT TYPE: [Wide/Medium/Close-up/Extreme close-up/POV]. CAMERA ANGLE: [Eye-level/Low-angle/High-angle/Over-shoulder/Bird's-eye]. CHARACTER POSITION: [left-third/center/right-third/absent].` Then describe the scene composition. Every prompt MUST include these three declarations — they enforce visual variety across the image sequence.
 
 5. **Character visual consistency block** (in EVERY prompt where has_character is true):
 ```
@@ -133,20 +128,41 @@ Then describe posture, gesture, expression, body angle for this specific image.
 
 ---
 
-## IMAGE-TO-IMAGE VISUAL CONTRAST
+## IMAGE-TO-IMAGE VISUAL CONTRAST — MANDATORY
 
-Consecutive images MUST vary in at least ONE dimension:
-1. Shot scale (wide vs medium vs close-up)
-2. Character position in frame (left/center/right, near/far)
-3. Dominant color temperature shift
-4. Amount of environmental activity (calm vs chaotic)
+Each image MUST look obviously different from the previous image when viewed at short-form video speed (2-4 seconds per image). Subtle differences are invisible at this pace. You need DRAMATIC visual contrast.
 
-Plan your image sequence as a visual arc — wide and calm at the start, tightening and intensifying toward catastrophe, pulling back for the aftermath.
+### SHOT SEQUENCE PLAN (do this BEFORE writing any prompts)
 
-When a sentence has 2 images, the second image should show either:
-- A different moment in time (before → after)
-- A different angle on the same scene (wide → close)
-- A different focal subject (environment → character reaction)
+Before writing prompts, plan the shot sequence as a list:
+- Assign each image a SPECIFIC shot type from this cycle: WIDE → MEDIUM → CLOSE-UP → POV → WIDE → ...
+- No two consecutive images may use the same shot type
+- The sequence should form a visual rhythm: establishing → grounding → emotional → visceral → pull-back
+
+### MANDATORY CONTRAST RULES
+
+Every image must differ from the PREVIOUS image in at least TWO of these dimensions:
+
+1. **Shot scale** — alternate between wide establishing shots, medium character shots, and close-ups. NEVER put two medium shots back-to-back.
+2. **Camera angle** — rotate through: eye-level, low-angle (looking up), high-angle (looking down), over-shoulder, POV (what the character sees). State the angle explicitly in every prompt.
+3. **Subject focus** — alternate between character-centric frames and environment-centric frames. If one image is "the figure standing in a theatre," the next should be "rows of seats from above" or "the curtain from stage level."
+4. **Composition** — vary where the main subject sits: left-third, center, right-third, top-heavy, bottom-heavy. Never center two consecutive images.
+
+### IMAGE PAIR RULES (when a sentence has 2 images)
+
+The two images MUST show a clear visual difference:
+- OPTION A: Wide establishing → tight close-up of a detail
+- OPTION B: Before-state → after-state (calm → chaos, intact → broken)
+- OPTION C: Character looking at something → POV of what they see
+- Never just "same scene from slightly different angle" — that reads as a freeze-frame at playback speed
+
+### ESCALATION ARC
+
+Plan your full image sequence as a visual escalation:
+- **Hook images**: Wide, calm, establishing. Show the setting in its normal state.
+- **Story images**: Medium shots tightening around the character. Environment starts changing.
+- **Catastrophe images**: Close-ups, POV shots, chaotic compositions. Dominant colors shift hotter/darker.
+- **Ending images**: Pull back to wide. Show scale of aftermath. Character small in frame.
 
 ---
 
