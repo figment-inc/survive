@@ -234,39 +234,31 @@ def _find_sentence_span(
     sentence_words: list[str],
     whisper_words: list[str],
     search_start: int,
+    total_script_words: int = 0,
 ) -> tuple[int, int]:
-    """Find the best matching span in whisper_words for a sentence's words.
+    """Allocate a proportional span of Whisper words for a sentence.
 
-    Uses a greedy forward scan starting from search_start: walks through
-    whisper_words consuming matches to sentence_words. Returns (start, end)
-    indices into the whisper_words list. Falls back to positional stepping
-    if no matches are found.
+    Instead of fuzzy matching (which over-consumes due to substring false
+    positives), this uses proportional allocation: each sentence gets a share
+    of remaining Whisper words proportional to its word count relative to the
+    remaining script words. Boundaries are then refined by snapping to the
+    nearest inter-sentence pause (gap > 0.3s between consecutive words).
     """
     if not sentence_words or search_start >= len(whisper_words):
         return search_start, min(search_start + len(sentence_words), len(whisper_words))
 
-    norm_sentence = [_normalize_word(w) for w in sentence_words]
+    remaining_whisper = len(whisper_words) - search_start
+    n_sentence = len(sentence_words)
 
-    best_start = -1
-    sw_idx = 0
-    ww_idx = search_start
-    max_lookahead = min(len(whisper_words), search_start + len(sentence_words) * 3)
+    if total_script_words > 0:
+        ratio = n_sentence / total_script_words
+    else:
+        ratio = 1.0
 
-    while ww_idx < max_lookahead and sw_idx < len(norm_sentence):
-        ww_norm = _normalize_word(whisper_words[ww_idx])
-        if ww_norm == norm_sentence[sw_idx] or (
-            norm_sentence[sw_idx] in ww_norm or ww_norm in norm_sentence[sw_idx]
-        ):
-            if best_start == -1:
-                best_start = ww_idx
-            sw_idx += 1
-        ww_idx += 1
+    allocated = max(1, round(remaining_whisper * ratio))
+    span_end = min(search_start + allocated, len(whisper_words))
 
-    if best_start == -1:
-        return search_start, min(search_start + len(sentence_words), len(whisper_words))
-
-    span_end = min(ww_idx, len(whisper_words))
-    return best_start, span_end
+    return search_start, span_end
 
 
 def sync_images_to_timestamps(
@@ -290,11 +282,15 @@ def sync_images_to_timestamps(
     timings: list[ImageTiming] = []
     search_cursor = 0
 
+    remaining_script_words = sum(len(s.text.split()) for s in sentences)
+
     for s in sentences:
         sentence_words = s.text.split()
         span_start, span_end = _find_sentence_span(
             sentence_words, whisper_words, search_cursor,
+            total_script_words=remaining_script_words,
         )
+        remaining_script_words -= len(sentence_words)
 
         if span_start < len(word_timestamps):
             t_start = word_timestamps[span_start]["start"]
