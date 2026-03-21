@@ -1,23 +1,20 @@
 """Image-based slideshow video assembly — Ken Burns zoom/pan effects via ffmpeg.
 
-Replaces Veo video generation with a sentence-driven image pipeline:
+Sentence-driven image pipeline:
   1. Parse narration into sentences
   2. Assign 1-2 images per sentence based on word count
   3. Merge ultra-short sentences with neighbours to avoid dead frames
   4. Sync image display durations to Whisper word-level timestamps
-  5. Select Ken Burns effects + xfade transitions by narrative beat
-  6. Assemble into a single video with zoompan + crossfade transitions
+  5. Assemble into a single video with gentle zoompan + hard cuts
 """
 
 from __future__ import annotations
 
-import math
 import re
 import subprocess
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-from typing import Any
 
 
 def _ts() -> str:
@@ -276,14 +273,12 @@ def sync_images_to_timestamps(
     sentences: list[Sentence],
     word_timestamps: list[dict],
     narration_delay: float = 0.5,
-    crossfade_duration: float = 0.3,
 ) -> list[ImageTiming]:
     """Map sentence images to display durations using Whisper word timestamps.
 
-    Uses fuzzy text alignment to match script sentences to Whisper words,
-    preventing cumulative drift from contractions/number expansions.
-    Inflates each image duration to compensate for crossfade overlap loss
-    so the assembled slideshow matches narration length.
+    Each image's duration equals its sentence's narration span divided by
+    image count — no inflation, no crossfade compensation. The resulting
+    total duration matches the narration length exactly.
     """
     if not word_timestamps:
         return _fallback_even_timing(sentences)
@@ -291,11 +286,6 @@ def sync_images_to_timestamps(
     total_narr_duration = word_timestamps[-1]["end"] if word_timestamps else 30.0
     whisper_words = [w.get("word", "") for w in word_timestamps]
     total_images = sum(s.image_count for s in sentences)
-
-    xfade_loss_per_image = 0.0
-    if total_images > 1:
-        total_xfade_loss = (total_images - 1) * crossfade_duration
-        xfade_loss_per_image = total_xfade_loss / total_images
 
     timings: list[ImageTiming] = []
     search_cursor = 0
@@ -317,7 +307,7 @@ def sync_images_to_timestamps(
             t_end = total_narr_duration
 
         sentence_duration = max(t_end - t_start, 1.0)
-        img_duration = sentence_duration / s.image_count + xfade_loss_per_image
+        img_duration = sentence_duration / s.image_count
 
         for img_i in range(s.image_count):
             timings.append(ImageTiming(
@@ -331,23 +321,19 @@ def sync_images_to_timestamps(
         search_cursor = span_end
 
     if timings:
+        total_dur = sum(t.duration for t in timings)
         print(f"  [{_ts()}] Timing sync: {len(timings)} images, "
-              f"xfade compensation +{xfade_loss_per_image:.2f}s/image "
-              f"({(total_images - 1) * crossfade_duration:.1f}s total)")
+              f"{total_dur:.1f}s total (narration={total_narr_duration:.1f}s)")
 
     return timings
 
 
 def _fallback_even_timing(
     sentences: list[Sentence],
-    total_duration: float = 55.0,
+    total_duration: float = 35.0,
     narration_delay: float = 0.5,
 ) -> list[ImageTiming]:
-    """Even distribution when Whisper timestamps are unavailable.
-
-    Default 55s matches the Shorts/Reels ceiling for longer scripts.
-    Callers should pass actual narration duration when known.
-    """
+    """Even distribution when Whisper timestamps are unavailable."""
     total_images = sum(s.image_count for s in sentences)
     if total_images == 0:
         return []
@@ -370,107 +356,23 @@ def _fallback_even_timing(
     return timings
 
 
-# ── Ken Burns effects ── narrative-aware selection
-
-
-_EFFECTS = [
-    "slow_zoom_in",
-    "slow_zoom_out",
-    "pan_left",
-    "pan_right",
-    "pan_up",
-    "zoom_in_pan_right",
-    "zoom_out_pan_left",
-    "fast_zoom_in",
-]
-
-_BEAT_EFFECTS: dict[str, list[str]] = {
-    "hook": ["slow_zoom_out", "pan_right"],
-    "setup": ["pan_left", "pan_right", "slow_zoom_out", "pan_up"],
-    "escalation": ["slow_zoom_in", "zoom_in_pan_right", "pan_left"],
-    "catastrophe": ["fast_zoom_in", "zoom_in_pan_right", "slow_zoom_in"],
-    "ending": ["slow_zoom_out", "zoom_out_pan_left"],
-    "story": ["slow_zoom_in", "pan_left", "pan_right", "slow_zoom_out"],
-}
-
-_BEAT_TRANSITIONS: dict[str, list[str]] = {
-    "hook": ["wipeleft", "slideleft"],
-    "setup": ["dissolve", "fade", "smoothleft"],
-    "escalation": ["smoothleft", "fadeblack", "circlecrop", "dissolve"],
-    "catastrophe": ["radial", "horzopen", "fadeblack"],
-    "ending": ["fade", "dissolve"],
-    "story": ["fade", "dissolve", "smoothleft"],
-}
-
-
-def _select_effect(beat: str, image_index: int) -> str:
-    """Pick a Ken Burns effect that matches the narrative beat."""
-    pool = _BEAT_EFFECTS.get(beat, _BEAT_EFFECTS["story"])
-    return pool[image_index % len(pool)]
-
-
-def _select_transition(beat: str, image_index: int) -> str:
-    """Pick an xfade transition that matches the incoming image's beat."""
-    pool = _BEAT_TRANSITIONS.get(beat, _BEAT_TRANSITIONS["story"])
-    return pool[image_index % len(pool)]
+# ── Ken Burns effects — simple alternation ──
 
 
 def _zoompan_filter(
     effect: str,
     duration_frames: int,
-    width: int = 720,
-    height: int = 1280,
+    width: int = 1080,
+    height: int = 1920,
     fps: int = 30,
 ) -> str:
-    """Build an ffmpeg zoompan filter string for a given Ken Burns effect."""
+    """Build an ffmpeg zoompan filter string for a gentle Ken Burns effect."""
     d = duration_frames
     s = f"{width}x{height}"
 
-    if effect == "slow_zoom_in":
-        return (
-            f"zoompan=z='min(zoom+0.0008,1.15)':"
-            f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
-            f"d={d}:s={s}:fps={fps}"
-        )
-    elif effect == "slow_zoom_out":
+    if effect == "slow_zoom_out":
         return (
             f"zoompan=z='if(eq(on,1),1.15,max(zoom-0.0008,1.0))':"
-            f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
-            f"d={d}:s={s}:fps={fps}"
-        )
-    elif effect == "pan_left":
-        return (
-            f"zoompan=z='1.08':"
-            f"x='iw*0.08*(1-on/{d})':y='ih/2-(ih/zoom/2)':"
-            f"d={d}:s={s}:fps={fps}"
-        )
-    elif effect == "pan_right":
-        return (
-            f"zoompan=z='1.08':"
-            f"x='iw*0.08*on/{d}':y='ih/2-(ih/zoom/2)':"
-            f"d={d}:s={s}:fps={fps}"
-        )
-    elif effect == "pan_up":
-        return (
-            f"zoompan=z='1.08':"
-            f"x='iw/2-(iw/zoom/2)':y='ih*0.06*(1-on/{d})':"
-            f"d={d}:s={s}:fps={fps}"
-        )
-    elif effect == "zoom_in_pan_right":
-        return (
-            f"zoompan=z='min(zoom+0.0006,1.12)':"
-            f"x='iw*0.06*on/{d}':y='ih/2-(ih/zoom/2)':"
-            f"d={d}:s={s}:fps={fps}"
-        )
-    elif effect == "zoom_out_pan_left":
-        return (
-            f"zoompan=z='if(eq(on,1),1.12,max(zoom-0.0006,1.0))':"
-            f"x='iw*0.06*(1-on/{d})':y='ih/2-(ih/zoom/2)':"
-            f"d={d}:s={s}:fps={fps}"
-        )
-    elif effect == "fast_zoom_in":
-        return (
-            f"zoompan=z='min(zoom+0.0020,1.25)':"
             f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={d}:s={s}:fps={fps}"
         )
@@ -491,13 +393,13 @@ def build_slideshow_video(
     width: int = 1080,
     height: int = 1920,
     fps: int = 30,
-    crossfade_duration: float = 0.3,
+    max_duration: float = 0.0,
 ) -> bool:
-    """Assemble images into a single Ken Burns slideshow video with crossfade transitions.
+    """Assemble images into a slideshow with gentle Ken Burns zoom and hard cuts.
 
-    Each image gets a zoompan effect selected by narrative beat (hook, setup,
-    escalation, catastrophe, ending). Adjacent images crossfade with beat-aware
-    transition types for visual variety. Output is a silent video (no audio track).
+    Each image gets a subtle slow_zoom_in or slow_zoom_out effect, alternating
+    for visual rhythm. Images are concatenated with hard cuts (no crossfades).
+    Output is a silent video trimmed to max_duration if specified.
     """
     valid_timings = [t for t in timings if t.image_path and t.image_path.exists()]
     if not valid_timings:
@@ -507,72 +409,68 @@ def build_slideshow_video(
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     n = len(valid_timings)
+    raw_total = sum(t.duration for t in valid_timings)
+    effective_total = max_duration if max_duration > 0 else raw_total
     print(f"  [{_ts()}] Building slideshow: {n} images, "
-          f"{sum(t.duration for t in valid_timings):.1f}s total, {width}x{height}")
+          f"{raw_total:.1f}s raw, {effective_total:.1f}s target, {width}x{height}")
 
     if n == 1:
-        return _single_image_video(valid_timings[0], output_path, width, height, fps)
+        return _single_image_video(valid_timings[0], output_path, width, height, fps, max_duration)
 
-    inputs: list[str] = []
-    filter_parts: list[str] = []
+    tmp_dir = output_path.parent / "_slideshow_tmp"
+    tmp_dir.mkdir(parents=True, exist_ok=True)
+    clip_paths: list[Path] = []
 
     for i, t in enumerate(valid_timings):
-        inputs.extend(["-loop", "1", "-t", f"{t.duration:.3f}", "-i", str(t.image_path)])
-
-        effect = _select_effect(t.beat, i)
+        clip_path = tmp_dir / f"slide_{i:03d}.mp4"
         d_frames = int(t.duration * fps)
+        effect = "slow_zoom_in" if i % 2 == 0 else "slow_zoom_out"
         zp = _zoompan_filter(effect, d_frames, width, height, fps)
 
-        filter_parts.append(
-            f"[{i}:v]scale=8000:-1,{zp},"
-            f"setpts=PTS-STARTPTS,format=yuv420p[v{i}]"
-        )
+        cmd = [
+            "ffmpeg", "-y",
+            "-loop", "1", "-t", f"{t.duration:.3f}",
+            "-i", str(t.image_path),
+            "-vf", f"scale=8000:-1,{zp},format=yuv420p",
+            "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+            "-pix_fmt", "yuv420p",
+            "-an",
+            str(clip_path),
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode == 0:
+            clip_paths.append(clip_path)
+        else:
+            print(f"  [{_ts()}] WARNING: slide {i} failed: {result.stderr[-300:]}")
 
-    current = "[v0]"
-    cumulative_offset = 0.0
-    xfade_dur = min(crossfade_duration, 0.3)
+    if not clip_paths:
+        print(f"  [{_ts()}] ERROR: No slide clips generated")
+        _cleanup_tmp(tmp_dir)
+        return False
 
-    for i in range(1, n):
-        prev_dur = valid_timings[i - 1].duration
-        offset = cumulative_offset + prev_dur - xfade_dur
+    concat_file = tmp_dir / "concat.txt"
+    concat_file.write_text("\n".join(f"file '{p}'" for p in clip_paths))
 
-        if offset < 0:
-            offset = max(0, cumulative_offset + prev_dur - 0.1)
-            xfade_dur = cumulative_offset + prev_dur - offset
-
-        transition = _select_transition(valid_timings[i].beat, i)
-        is_last = i == n - 1
-        if is_last:
-            transition = "fade"
-            xfade_dur = min(0.5, valid_timings[i].duration * 0.4)
-
-        out_label = f"[xf{i}]" if i < n - 1 else "[vout]"
-        filter_parts.append(
-            f"{current}[v{i}]xfade=transition={transition}:duration={xfade_dur:.3f}"
-            f":offset={offset:.3f}{out_label}"
-        )
-        cumulative_offset = offset
-        current = out_label
-        xfade_dur = min(crossfade_duration, 0.3)
-
-    filter_complex = ";".join(filter_parts)
+    duration_args = ["-t", f"{effective_total:.3f}"] if max_duration > 0 else []
 
     cmd = [
         "ffmpeg", "-y",
-        *inputs,
-        "-filter_complex", filter_complex,
-        "-map", "[vout]",
-        "-c:v", "libx264", "-preset", "fast", "-crf", "18",
-        "-pix_fmt", "yuv420p",
+        "-f", "concat", "-safe", "0",
+        "-i", str(concat_file),
+        "-c:v", "copy",
         "-an",
+        *duration_args,
         str(output_path),
     ]
 
-    print(f"  [{_ts()}] Running ffmpeg slideshow assembly...")
+    print(f"  [{_ts()}] Running ffmpeg concat assembly ({n} clips)...")
     result = subprocess.run(cmd, capture_output=True, text=True)
+
+    _cleanup_tmp(tmp_dir)
+
     if result.returncode != 0:
-        print(f"  [{_ts()}] ERROR: ffmpeg slideshow failed: {result.stderr[-800:]}")
-        return _fallback_concat_slideshow(valid_timings, output_path, width, height, fps)
+        print(f"  [{_ts()}] ERROR: concat assembly failed: {result.stderr[-500:]}")
+        return False
 
     size_mb = output_path.stat().st_size / (1024 * 1024)
     print(f"  [{_ts()}] Slideshow assembled: {output_path.name} ({size_mb:.1f} MB)")
@@ -585,14 +483,16 @@ def _single_image_video(
     width: int,
     height: int,
     fps: int,
+    max_duration: float = 0.0,
 ) -> bool:
     """Create video from a single image with Ken Burns effect."""
-    d_frames = int(timing.duration * fps)
+    duration = max_duration if max_duration > 0 else timing.duration
+    d_frames = int(duration * fps)
     zp = _zoompan_filter("slow_zoom_in", d_frames, width, height, fps)
 
     cmd = [
         "ffmpeg", "-y",
-        "-loop", "1", "-t", f"{timing.duration:.3f}",
+        "-loop", "1", "-t", f"{duration:.3f}",
         "-i", str(timing.image_path),
         "-vf", f"scale=8000:-1,{zp},format=yuv420p",
         "-c:v", "libx264", "-preset", "fast", "-crf", "18",
@@ -611,65 +511,10 @@ def _single_image_video(
     return True
 
 
-def _fallback_concat_slideshow(
-    timings: list[ImageTiming],
-    output_path: Path,
-    width: int,
-    height: int,
-    fps: int,
-) -> bool:
-    """Simpler fallback: generate each image as a clip, then concat without xfade."""
-    print(f"  [{_ts()}] Falling back to simple concat slideshow (no crossfades)...")
-
-    tmp_dir = output_path.parent / "_slideshow_tmp"
-    tmp_dir.mkdir(parents=True, exist_ok=True)
-    clip_paths: list[Path] = []
-
-    for i, t in enumerate(timings):
-        clip_path = tmp_dir / f"slide_{i:03d}.mp4"
-        d_frames = int(t.duration * fps)
-        effect = _select_effect(t.beat, i)
-        zp = _zoompan_filter(effect, d_frames, width, height, fps)
-
-        cmd = [
-            "ffmpeg", "-y",
-            "-loop", "1", "-t", f"{t.duration:.3f}",
-            "-i", str(t.image_path),
-            "-vf", f"scale=8000:-1,{zp},format=yuv420p",
-            "-c:v", "libx264", "-preset", "fast", "-crf", "18",
-            "-pix_fmt", "yuv420p",
-            "-an",
-            str(clip_path),
-        ]
-        result = subprocess.run(cmd, capture_output=True, text=True)
-        if result.returncode == 0:
-            clip_paths.append(clip_path)
-
-    if not clip_paths:
-        print(f"  [{_ts()}] ERROR: No slide clips generated")
-        return False
-
-    concat_file = tmp_dir / "concat.txt"
-    concat_file.write_text("\n".join(f"file '{p}'" for p in clip_paths))
-
-    cmd = [
-        "ffmpeg", "-y",
-        "-f", "concat", "-safe", "0",
-        "-i", str(concat_file),
-        "-c:v", "copy",
-        "-an",
-        str(output_path),
-    ]
-    result = subprocess.run(cmd, capture_output=True, text=True)
-
+def _cleanup_tmp(tmp_dir: Path) -> None:
+    """Remove temporary slide clips directory."""
+    if not tmp_dir.exists():
+        return
     for f in tmp_dir.iterdir():
         f.unlink(missing_ok=True)
     tmp_dir.rmdir()
-
-    if result.returncode != 0:
-        print(f"  [{_ts()}] ERROR: concat fallback failed: {result.stderr[-500:]}")
-        return False
-
-    size_mb = output_path.stat().st_size / (1024 * 1024)
-    print(f"  [{_ts()}] Slideshow (concat fallback): {output_path.name} ({size_mb:.1f} MB)")
-    return True

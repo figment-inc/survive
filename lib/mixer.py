@@ -998,6 +998,9 @@ def mix_final_audio(
         narr_end_time = narration_delay + raw_narr_dur / effective_atempo
 
     output_duration = max(video_duration, narr_end_time)
+    POST_NARRATION_TAIL = 1.5
+    if has_narration and narr_end_time > 0:
+        output_duration = min(output_duration, narr_end_time + POST_NARRATION_TAIL)
     needs_video_extension = narr_end_time > video_duration + 0.1
     extension_secs = narr_end_time - video_duration if needs_video_extension else 0.0
 

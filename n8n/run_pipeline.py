@@ -984,6 +984,10 @@ def run_slideshow_phase(episode, ep_dir):
 
     timings = sync_images_to_timestamps(sentences, word_timestamps)
 
+    narr_duration = 0.0
+    if word_timestamps:
+        narr_duration = word_timestamps[-1]["end"]
+
     if "sentence_images" in episode:
         img_idx = 0
         for si in episode["sentence_images"]:
@@ -1011,7 +1015,10 @@ def run_slideshow_phase(episode, ep_dir):
         print(f"  [{ts()}] ERROR: No valid images found — cannot build slideshow")
         return None
 
-    success = build_slideshow_video(timings, output_path)
+    SLIDESHOW_TAIL = 1.5
+    max_dur = narr_duration + SLIDESHOW_TAIL if narr_duration > 0 else 0.0
+
+    success = build_slideshow_video(timings, output_path, max_duration=max_dur)
     if not success:
         print(f"  [{ts()}] ERROR: Slideshow assembly failed")
         return None
