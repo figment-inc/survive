@@ -354,3 +354,139 @@ def check_clip01_style(
         print(f"  [{_ts()}]   Issues: {'; '.join(issues)}")
 
     return result
+
+
+# ── Slideshow-mode image QA ──
+
+
+QA_PROMPT_SLIDESHOW = (
+    "You are a visual QA inspector for an animated series. The series uses a consistent "
+    "flat 2D cel-shaded animation style with thick black outlines, flat colors (zero "
+    "gradients), and no photorealistic elements.\n\n"
+    "Image 1 is the STYLE REFERENCE — the canonical target art style.\n"
+    "The remaining images are generated illustrations for an episode.\n\n"
+    "For each generated image, evaluate:\n"
+    "1. ART STYLE: Flat 2D cel-shaded? Flag photorealism, 3D, gradients.\n"
+    "2. LINE WEIGHT: Thick uniform black outlines present?\n"
+    "3. RENDERING QUALITY: AI artifacts — morphing, extra limbs, text, incoherent geometry.\n"
+    "4. CHARACTER (when present): Translucent figure with visible skeleton consistent with reference?\n\n"
+    "Respond with a JSON array — one object per generated image (in order):\n"
+    '[ {"image": 1, "pass": true, "severity": 0, "issues": []}, ... ]\n\n'
+    "Severity: 1=barely noticeable, 3=should regenerate, 5=completely wrong.\n"
+    "Only flag genuine art style deviations. Content and palette differences are expected."
+)
+
+
+@dataclass
+class ImageQAResult:
+    image_index: int
+    image_path: Path
+    passed: bool
+    severity: int
+    issues: list[str]
+
+
+def check_slideshow_images(
+    image_paths: list[Path],
+    style_ref_path: Path,
+    api_key: str,
+    severity_threshold: int = 3,
+) -> list[ImageQAResult]:
+    """Lightweight QA pass for slideshow-mode generated images.
+
+    Compares each image against the style reference for art style consistency.
+    Returns results for all images; callers should regenerate those with
+    severity >= severity_threshold.
+
+    Processes images in batches of 8 to stay within Gemini context limits.
+    """
+    if not image_paths or not style_ref_path.exists():
+        print(f"  [{_ts()}] Slideshow QA: No images or style ref — skipping.")
+        return []
+
+    existing = [p for p in image_paths if p.exists()]
+    if not existing:
+        print(f"  [{_ts()}] Slideshow QA: No images exist on disk — skipping.")
+        return []
+
+    client = genai.Client(api_key=api_key)
+    style_bytes = style_ref_path.read_bytes()
+    style_mime = "image/png" if style_ref_path.suffix.lower() == ".png" else "image/jpeg"
+
+    all_results: list[ImageQAResult] = []
+    batch_size = 8
+
+    for batch_start in range(0, len(existing), batch_size):
+        batch = existing[batch_start:batch_start + batch_size]
+        batch_label = f"batch {batch_start // batch_size + 1}"
+        print(f"  [{_ts()}] Slideshow QA: Checking {len(batch)} images ({batch_label})...")
+
+        content_parts: list[types.Part | str] = [
+            QA_PROMPT_SLIDESHOW,
+            "\n\nImage 0 — STYLE REFERENCE:",
+            types.Part.from_bytes(data=style_bytes, mime_type=style_mime),
+        ]
+
+        for i, img_path in enumerate(batch, 1):
+            content_parts.append(f"\n\nImage {i} — {img_path.name}:")
+            img_bytes = img_path.read_bytes()
+            img_mime = "image/png" if img_path.suffix.lower() == ".png" else "image/jpeg"
+            content_parts.append(types.Part.from_bytes(data=img_bytes, mime_type=img_mime))
+
+        try:
+            response = client.models.generate_content(
+                model=VISION_MODEL,
+                contents=content_parts,
+            )
+            raw_text = response.text.strip()
+        except Exception as e:
+            print(f"  [{_ts()}] Slideshow QA: Vision call failed ({batch_label}): {e}")
+            for img_path in batch:
+                all_results.append(ImageQAResult(
+                    image_index=image_paths.index(img_path),
+                    image_path=img_path,
+                    passed=True, severity=0, issues=[],
+                ))
+            continue
+
+        results_json = _parse_gemini_json(raw_text)
+        if results_json is None:
+            for img_path in batch:
+                all_results.append(ImageQAResult(
+                    image_index=image_paths.index(img_path),
+                    image_path=img_path,
+                    passed=True, severity=0, issues=[],
+                ))
+            continue
+
+        for j, item in enumerate(results_json):
+            if j >= len(batch):
+                break
+            img_path = batch[j]
+            passed = bool(item.get("pass", True))
+            severity = int(item.get("severity", 0))
+            issues = item.get("issues", [])
+            if not passed and severity == 0 and issues:
+                severity = 3
+
+            all_results.append(ImageQAResult(
+                image_index=image_paths.index(img_path),
+                image_path=img_path,
+                passed=passed,
+                severity=severity,
+                issues=issues,
+            ))
+
+    passed_count = sum(1 for r in all_results if r.passed)
+    flagged = [r for r in all_results if not r.passed]
+    regen_count = sum(1 for r in flagged if r.severity >= severity_threshold)
+
+    print(f"  [{_ts()}] Slideshow QA: {passed_count} passed, {len(flagged)} flagged, "
+          f"{regen_count} need regeneration (severity >= {severity_threshold})")
+
+    for r in flagged:
+        issue_str = "; ".join(r.issues)
+        print(f"  [{_ts()}] QA ISSUE {r.image_path.name} "
+              f"(severity {r.severity}/5): {issue_str}")
+
+    return all_results

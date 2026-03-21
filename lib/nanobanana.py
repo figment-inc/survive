@@ -1,7 +1,11 @@
-"""NanoBanana Pro (Gemini 3 Pro Image) generation via the Google GenAI SDK."""
+"""NanoBanana Pro (Gemini 3 Pro Image) generation via the Google GenAI SDK.
+
+Includes retry with exponential backoff and basic image validation.
+"""
 
 from __future__ import annotations
 
+import struct
 import time
 from datetime import datetime
 from pathlib import Path
@@ -18,6 +22,11 @@ SAFETY_SETTINGS = [
     types.SafetySetting(category="HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold="BLOCK_ONLY_HIGH"),
 ]
 
+MAX_RETRIES = 3
+RETRY_DELAYS = [2, 4, 8]
+MIN_IMAGE_SIZE_KB = 10
+MIN_IMAGE_DIMENSION = 256
+
 
 def _ts() -> str:
     return datetime.now().strftime("%H:%M:%S")
@@ -26,6 +35,46 @@ def _ts() -> str:
 def _mime_for_path(path: Path) -> str:
     suffix = path.suffix.lower()
     return {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg"}.get(suffix, "image/png")
+
+
+def _png_dimensions(data: bytes) -> tuple[int, int] | None:
+    """Extract width and height from PNG header (IHDR chunk)."""
+    if len(data) < 24 or data[:8] != b'\x89PNG\r\n\x1a\n':
+        return None
+    w, h = struct.unpack('>II', data[16:24])
+    return w, h
+
+
+def _jpeg_dimensions(data: bytes) -> tuple[int, int] | None:
+    """Extract width and height from JPEG SOF markers."""
+    if len(data) < 4 or data[0:2] != b'\xff\xd8':
+        return None
+    i = 2
+    while i < len(data) - 9:
+        if data[i] != 0xFF:
+            break
+        marker = data[i + 1]
+        if marker in (0xC0, 0xC1, 0xC2):
+            h, w = struct.unpack('>HH', data[i + 5:i + 9])
+            return w, h
+        length = struct.unpack('>H', data[i + 2:i + 4])[0]
+        i += 2 + length
+    return None
+
+
+def _validate_image(data: bytes, filename: str) -> str | None:
+    """Return an error string if the image data fails basic quality checks."""
+    size_kb = len(data) / 1024
+    if size_kb < MIN_IMAGE_SIZE_KB:
+        return f"too small ({size_kb:.0f} KB < {MIN_IMAGE_SIZE_KB} KB)"
+
+    dims = _png_dimensions(data) or _jpeg_dimensions(data)
+    if dims:
+        w, h = dims
+        if w < MIN_IMAGE_DIMENSION or h < MIN_IMAGE_DIMENSION:
+            return f"dimensions too small ({w}x{h}, min {MIN_IMAGE_DIMENSION}px)"
+
+    return None
 
 
 def generate_image(
@@ -43,13 +92,8 @@ def generate_image(
 ) -> bool:
     """Generate a single image via Nano Banana Pro (Gemini 3 Pro Image).
 
-    Uses the official Google GenAI SDK with the Gemini API key.
-    If has_character is True and reference_paths are provided, a character
-    consistency prefix is prepended to the prompt.
-    style_ref_path is the global style guide image (e.g. Family Guy frame) —
-    always passed as the first visual input to ground the art style.
-    style_anchor_path adds a previously generated frame as a style reference.
-    episode_style injects the episode's unified visual identity text.
+    Retries up to 3 times with exponential backoff on transient failures.
+    Validates output image dimensions and file size before accepting.
     """
     if has_character and reference_paths:
         prefix = (
@@ -104,30 +148,66 @@ def generate_image(
 
     contents.append(prompt)
 
-    try:
-        response = client.models.generate_content(
-            model=GEMINI_IMAGE_MODEL,
-            contents=contents,
-            config=types.GenerateContentConfig(
-                response_modalities=["TEXT", "IMAGE"],
-                safety_settings=SAFETY_SETTINGS,
-            ),
-        )
-    except Exception as e:
-        print(f"  [{_ts()}] ERROR: {e}")
-        return False
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = client.models.generate_content(
+                model=GEMINI_IMAGE_MODEL,
+                contents=contents,
+                config=types.GenerateContentConfig(
+                    response_modalities=["TEXT", "IMAGE"],
+                    safety_settings=SAFETY_SETTINGS,
+                ),
+            )
+        except Exception as e:
+            delay = RETRY_DELAYS[min(attempt, len(RETRY_DELAYS) - 1)]
+            print(f"  [{_ts()}] Attempt {attempt + 1}/{MAX_RETRIES} failed: {e}")
+            if attempt < MAX_RETRIES - 1:
+                print(f"  [{_ts()}] Retrying in {delay}s...")
+                time.sleep(delay)
+                continue
+            print(f"  [{_ts()}] ERROR: All {MAX_RETRIES} attempts failed for {output_path.name}")
+            return False
 
-    if not response.candidates or not response.candidates[0].content.parts:
-        print(f"  [{_ts()}] ERROR: Empty response for {output_path.name}")
-        return False
+        if not response.candidates or not response.candidates[0].content.parts:
+            delay = RETRY_DELAYS[min(attempt, len(RETRY_DELAYS) - 1)]
+            print(f"  [{_ts()}] Attempt {attempt + 1}/{MAX_RETRIES}: empty response")
+            if attempt < MAX_RETRIES - 1:
+                print(f"  [{_ts()}] Retrying in {delay}s...")
+                time.sleep(delay)
+                continue
+            print(f"  [{_ts()}] ERROR: All {MAX_RETRIES} attempts returned empty for {output_path.name}")
+            return False
 
-    for part in response.candidates[0].content.parts:
-        if part.inline_data and part.inline_data.mime_type.startswith("image/"):
-            output_path.parent.mkdir(parents=True, exist_ok=True)
-            output_path.write_bytes(part.inline_data.data)
-            size_kb = output_path.stat().st_size / 1024
-            print(f"  [{_ts()}] Saved: {output_path} ({size_kb:.0f} KB)")
-            return True
+        for part in response.candidates[0].content.parts:
+            if part.inline_data and part.inline_data.mime_type.startswith("image/"):
+                image_data = part.inline_data.data
 
-    print(f"  [{_ts()}] ERROR: No image in response for {output_path.name}")
+                validation_err = _validate_image(image_data, output_path.name)
+                if validation_err:
+                    delay = RETRY_DELAYS[min(attempt, len(RETRY_DELAYS) - 1)]
+                    print(f"  [{_ts()}] Attempt {attempt + 1}/{MAX_RETRIES}: "
+                          f"validation failed — {validation_err}")
+                    if attempt < MAX_RETRIES - 1:
+                        print(f"  [{_ts()}] Retrying in {delay}s...")
+                        time.sleep(delay)
+                        break
+                    print(f"  [{_ts()}] WARNING: Accepting image despite validation "
+                          f"failure after {MAX_RETRIES} attempts")
+
+                output_path.parent.mkdir(parents=True, exist_ok=True)
+                output_path.write_bytes(image_data)
+                size_kb = output_path.stat().st_size / 1024
+                attempt_label = f" (attempt {attempt + 1})" if attempt > 0 else ""
+                print(f"  [{_ts()}] Saved: {output_path}{attempt_label} ({size_kb:.0f} KB)")
+                return True
+        else:
+            delay = RETRY_DELAYS[min(attempt, len(RETRY_DELAYS) - 1)]
+            print(f"  [{_ts()}] Attempt {attempt + 1}/{MAX_RETRIES}: no image in response")
+            if attempt < MAX_RETRIES - 1:
+                print(f"  [{_ts()}] Retrying in {delay}s...")
+                time.sleep(delay)
+                continue
+            print(f"  [{_ts()}] ERROR: No image after {MAX_RETRIES} attempts for {output_path.name}")
+            return False
+
     return False

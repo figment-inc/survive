@@ -641,12 +641,22 @@ def run_images_phase(episode, ep_dir):
 
     ref_dir = CHANNEL_DIR / "reference_images"
     ref_paths = []
-    for name in ["skeleton_front_neutral.jpg", "skeleton_front_neutral.png"]:
+    for name in [
+        "skeleton_familyguy_front.png",
+        "skeleton_familyguy_threequarter.png",
+        "skeleton_familyguy_side.png",
+        "skeleton_familyguy_back.png",
+    ]:
         path = ref_dir / name
         if path.exists():
             ref_paths.append(path)
-            print(f"  [{ts()}] Loaded reference: {name}")
-            break
+            print(f"  [{ts()}] Loaded character ref: {name}")
+
+    if not ref_paths:
+        fallback = ref_dir / "skeleton_front_neutral.jpg"
+        if fallback.exists():
+            ref_paths.append(fallback)
+            print(f"  [{ts()}] Loaded fallback character ref: {fallback.name}")
 
     style_ref_path = ref_dir / "style_reference.png"
     if style_ref_path.exists():
@@ -746,6 +756,38 @@ def _run_images_sentence_mode(
             if output_path.exists() and style_anchor_path is None:
                 style_anchor_path = output_path
                 print(f"  [{ts()}] First image set as style anchor for remaining")
+
+    generated_paths = sorted(images_dir.glob("sentence_*_img_*.png"))
+    if generated_paths and style_ref_path:
+        from lib.visual_qa import check_slideshow_images
+        qa_api_key = load_env_key("NANOBANANA_API_KEY") or load_env_key("GEMINI_API_KEY")
+        if qa_api_key:
+            qa_results = check_slideshow_images(
+                generated_paths, style_ref_path, qa_api_key,
+            )
+            flagged = [r for r in qa_results if r.severity >= 3]
+            for r in flagged:
+                print(f"  [{ts()}] Regenerating flagged image: {r.image_path.name} "
+                      f"(severity {r.severity})")
+                si_match = next(
+                    (si for si in episode["sentence_images"]
+                     if f"sentence_{si['sentence_index']:02d}" in r.image_path.name),
+                    None,
+                )
+                if si_match:
+                    p_idx = int(r.image_path.stem.split("_img_")[1]) - 1
+                    prompts = si_match.get("image_prompts", [])
+                    if p_idx < len(prompts):
+                        r.image_path.unlink(missing_ok=True)
+                        generate_image(
+                            api_key=api_key, model=model, prompt=prompts[p_idx],
+                            output_path=r.image_path,
+                            reference_paths=ref_paths if si_match.get("has_character", True) else None,
+                            has_character=si_match.get("has_character", True),
+                            style_anchor_path=style_anchor_path,
+                            episode_style=episode_style,
+                            style_ref_path=style_ref_path,
+                        )
 
     print(f"  [{ts()}] Images phase complete ({img_counter} images generated).")
     return True
@@ -904,6 +946,7 @@ def run_slideshow_phase(episode, ep_dir):
 
     from lib.slideshow import (
         parse_narration_sentences, assign_image_counts,
+        label_beats, merge_short_sentences,
         sync_images_to_timestamps, build_slideshow_video,
     )
 
@@ -919,6 +962,8 @@ def run_slideshow_phase(episode, ep_dir):
     script = episode.get("dialogue_script", "")
     sentences = parse_narration_sentences(script)
     sentences = assign_image_counts(sentences)
+    sentences = label_beats(sentences, script)
+    sentences = merge_short_sentences(sentences)
 
     if "sentence_images" in episode:
         for si in episode["sentence_images"]:

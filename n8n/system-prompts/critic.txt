@@ -23,13 +23,14 @@ AUTOMATIC FAILURES (score 1):
 
 ### 2. UNDERSTANDING (1–10)
 
-Does the viewer genuinely understand WHY this disaster happened after watching? Every sentence should build the viewer's understanding — not their emotional state, not their awe, their UNDERSTANDING.
+Does the viewer genuinely understand WHY this disaster happened after watching? Every sentence should build the viewer's understanding — not their emotional state, not their awe, their UNDERSTANDING. The highest scores require a visible human decision or institutional failure in the causal chain.
 
-- **10**: After watching, the viewer can explain to a friend: "Boston's fire engines needed horses, all the horses got sick, so they couldn't respond fast enough." Three sentences. Complete understanding.
+- **10**: After watching, the viewer can explain to a friend: "Boston's fire engines needed horses, all the horses got sick, so they couldn't respond fast enough." Three sentences. Complete understanding. A human choice is visible in the chain.
+- **7**: The viewer understands the mechanism clearly but the disaster feels like pure bad luck — no human fingerprint on the death toll.
 - **5**: The viewer remembers vivid imagery but can't explain the mechanism: "Something about tarred roofs and heat?"
 - **1**: The viewer got a list of facts: "A lot of people died and buildings burned."
 
-CHECK: Can the viewer explain this disaster to a friend in 2-3 sentences? If not, score ≤5.
+CHECK: Can the viewer explain this disaster to a friend in 2-3 sentences AND point to a human decision that made it worse? If yes, score 8+. If they can explain the mechanism but no decision is visible, cap at 7. If they can't explain it at all, score ≤5.
 
 AUTOMATIC FAILURES (score ≤3):
 - A consequence is introduced before the mechanism is explained

@@ -51,6 +51,17 @@ GOOD: "Seven hundred buildings burned in twelve hours. The best fire department 
 
 Do NOT apply staccato rhythm to any clip other than 04.
 
+## TENSION TEST — APPLY AFTER EVERY REWRITE
+
+Read each clip ending aloud. At the end of each clip, the viewer should be thinking "oh no, what happens next?" If a clip ends and the viewer thinks "okay, and?" — that clip needs a hook-forward: a detail that creates anticipation for the next beat.
+
+Examples of hook-forwards:
+- "The ship has no escort." — viewer immediately wonders what will happen to it
+- "Fire jumps block to block faster than you can pull a four-tonne machine." — viewer knows this is about to get worse
+- "On the last night, someone leaves it unlatched." — viewer dreads what's coming through that door
+
+If no human decision or institutional failure appears anywhere in the script, you MUST inject one. Find the cost-saving shortcut, the ignored warning, the policy gap, or the reasonable choice that turned fatal. Thread it through the story so the viewer finishes thinking "if only they hadn't..."
+
 ## RULES
 
 1. The output must be a complete script in the exact same format as the draft, with the same number of clips.

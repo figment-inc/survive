@@ -3,8 +3,10 @@
 Replaces Veo video generation with a sentence-driven image pipeline:
   1. Parse narration into sentences
   2. Assign 1-2 images per sentence based on word count
-  3. Sync image display durations to Whisper word-level timestamps
-  4. Assemble into a single video with zoompan + crossfade transitions
+  3. Merge ultra-short sentences with neighbours to avoid dead frames
+  4. Sync image display durations to Whisper word-level timestamps
+  5. Select Ken Burns effects + xfade transitions by narrative beat
+  6. Assemble into a single video with zoompan + crossfade transitions
 """
 
 from __future__ import annotations
@@ -31,6 +33,7 @@ class Sentence:
     text: str
     word_count: int
     image_count: int = 1
+    beat: str = "story"
 
 
 def parse_narration_sentences(script_text: str) -> list[Sentence]:
@@ -86,6 +89,132 @@ def assign_image_counts(sentences: list[Sentence]) -> list[Sentence]:
     return sentences
 
 
+def label_beats(sentences: list[Sentence], script_text: str) -> list[Sentence]:
+    """Tag each sentence with its narrative beat based on clip headers.
+
+    Reads ## Clip headers from the script to determine beat zones, then maps
+    each sentence to the beat active at its position in the narration.
+    Falls back to positional heuristic when headers are absent.
+    """
+    beat_map: list[tuple[int, str]] = []
+    narrator_idx = 0
+    current_beat = "hook"
+
+    for line in script_text.strip().splitlines():
+        stripped = line.strip()
+        header_m = re.match(r"##\s*Clip\s+\d+.*?—\s*(.+)", stripped, re.IGNORECASE)
+        if header_m:
+            raw_beat = header_m.group(1).strip().lower()
+            if "hook" in raw_beat:
+                current_beat = "hook"
+            elif "setup" in raw_beat:
+                current_beat = "setup"
+            elif "escalat" in raw_beat:
+                current_beat = "escalation"
+            elif "catastroph" in raw_beat:
+                current_beat = "catastrophe"
+            elif "end" in raw_beat or "clos" in raw_beat or "conclusion" in raw_beat:
+                current_beat = "ending"
+            else:
+                current_beat = "story"
+            continue
+
+        narrator_m = re.match(r"NARRATOR:\s*[\"']?(.+?)[\"']?\s*$", stripped)
+        if narrator_m:
+            text = narrator_m.group(1).strip()
+            sub_sentences = re.split(r"(?<=[.!?])\s+", text)
+            for _ in sub_sentences:
+                if narrator_idx < len(sentences):
+                    beat_map.append((narrator_idx, current_beat))
+                    narrator_idx += 1
+
+    if not beat_map:
+        n = len(sentences)
+        for i, s in enumerate(sentences):
+            ratio = i / max(n - 1, 1)
+            if ratio <= 0.15:
+                s.beat = "hook"
+            elif ratio <= 0.35:
+                s.beat = "setup"
+            elif ratio <= 0.60:
+                s.beat = "escalation"
+            elif ratio <= 0.80:
+                s.beat = "catastrophe"
+            else:
+                s.beat = "ending"
+        return sentences
+
+    for idx, beat in beat_map:
+        if idx < len(sentences):
+            sentences[idx].beat = beat
+
+    return sentences
+
+
+_SHORT_SENTENCE_THRESHOLD = 4
+
+
+def merge_short_sentences(sentences: list[Sentence]) -> list[Sentence]:
+    """Merge ultra-short sentences (< 4 words) with their neighbours.
+
+    Short fragments like "It rises." or "You run." produce dead-looking frames
+    when displayed alone with a slow Ken Burns effect. Merging them with the
+    next or previous sentence keeps the visual energy matched to the narration.
+    The merged sentence inherits the image_count of the absorbing neighbour.
+    """
+    if len(sentences) <= 1:
+        return sentences
+
+    merged: list[Sentence] = []
+    skip_next = False
+
+    for i, s in enumerate(sentences):
+        if skip_next:
+            skip_next = False
+            continue
+
+        if s.word_count < _SHORT_SENTENCE_THRESHOLD:
+            if i + 1 < len(sentences):
+                nxt = sentences[i + 1]
+                combined_text = s.text + " " + nxt.text
+                combined = Sentence(
+                    index=s.index,
+                    text=combined_text,
+                    word_count=len(combined_text.split()),
+                    image_count=max(s.image_count, nxt.image_count),
+                    beat=nxt.beat,
+                )
+                merged.append(combined)
+                skip_next = True
+                continue
+            elif merged:
+                prev = merged[-1]
+                combined_text = prev.text + " " + s.text
+                merged[-1] = Sentence(
+                    index=prev.index,
+                    text=combined_text,
+                    word_count=len(combined_text.split()),
+                    image_count=max(prev.image_count, s.image_count),
+                    beat=prev.beat,
+                )
+                continue
+
+        merged.append(s)
+
+    for i, s in enumerate(merged):
+        s.index = i
+
+    if any(s.word_count < _SHORT_SENTENCE_THRESHOLD for s in merged):
+        short_count = sum(1 for s in merged if s.word_count < _SHORT_SENTENCE_THRESHOLD)
+        print(f"  [{_ts()}] Note: {short_count} sentence(s) still under "
+              f"{_SHORT_SENTENCE_THRESHOLD} words after merge pass")
+
+    print(f"  [{_ts()}] Sentence merge: {len(sentences)} → {len(merged)} "
+          f"({len(sentences) - len(merged)} short fragments absorbed)")
+
+    return merged
+
+
 # ── Timestamp sync ──
 
 
@@ -96,6 +225,7 @@ class ImageTiming:
     image_path: Path | None = None
     start_time: float = 0.0
     duration: float = 3.0
+    beat: str = "story"
 
 
 def _normalize_word(w: str) -> str:
@@ -195,6 +325,7 @@ def sync_images_to_timestamps(
                 image_idx=img_i,
                 start_time=narration_delay + t_start + img_i * (sentence_duration / s.image_count),
                 duration=img_duration,
+                beat=s.beat,
             ))
 
         search_cursor = span_end
@@ -232,13 +363,14 @@ def _fallback_even_timing(
                 image_idx=img_i,
                 start_time=t,
                 duration=per_image,
+                beat=s.beat,
             ))
             t += per_image
 
     return timings
 
 
-# ── Ken Burns effects ──
+# ── Ken Burns effects ── narrative-aware selection
 
 
 _EFFECTS = [
@@ -249,7 +381,38 @@ _EFFECTS = [
     "pan_up",
     "zoom_in_pan_right",
     "zoom_out_pan_left",
+    "fast_zoom_in",
 ]
+
+_BEAT_EFFECTS: dict[str, list[str]] = {
+    "hook": ["slow_zoom_out", "pan_right"],
+    "setup": ["pan_left", "pan_right", "slow_zoom_out", "pan_up"],
+    "escalation": ["slow_zoom_in", "zoom_in_pan_right", "pan_left"],
+    "catastrophe": ["fast_zoom_in", "zoom_in_pan_right", "slow_zoom_in"],
+    "ending": ["slow_zoom_out", "zoom_out_pan_left"],
+    "story": ["slow_zoom_in", "pan_left", "pan_right", "slow_zoom_out"],
+}
+
+_BEAT_TRANSITIONS: dict[str, list[str]] = {
+    "hook": ["wipeleft", "slideleft"],
+    "setup": ["dissolve", "fade", "smoothleft"],
+    "escalation": ["smoothleft", "fadeblack", "circlecrop", "dissolve"],
+    "catastrophe": ["radial", "horzopen", "fadeblack"],
+    "ending": ["fade", "dissolve"],
+    "story": ["fade", "dissolve", "smoothleft"],
+}
+
+
+def _select_effect(beat: str, image_index: int) -> str:
+    """Pick a Ken Burns effect that matches the narrative beat."""
+    pool = _BEAT_EFFECTS.get(beat, _BEAT_EFFECTS["story"])
+    return pool[image_index % len(pool)]
+
+
+def _select_transition(beat: str, image_index: int) -> str:
+    """Pick an xfade transition that matches the incoming image's beat."""
+    pool = _BEAT_TRANSITIONS.get(beat, _BEAT_TRANSITIONS["story"])
+    return pool[image_index % len(pool)]
 
 
 def _zoompan_filter(
@@ -305,6 +468,12 @@ def _zoompan_filter(
             f"x='iw*0.06*(1-on/{d})':y='ih/2-(ih/zoom/2)':"
             f"d={d}:s={s}:fps={fps}"
         )
+    elif effect == "fast_zoom_in":
+        return (
+            f"zoompan=z='min(zoom+0.0020,1.25)':"
+            f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
+            f"d={d}:s={s}:fps={fps}"
+        )
 
     return (
         f"zoompan=z='min(zoom+0.0008,1.15)':"
@@ -319,16 +488,16 @@ def _zoompan_filter(
 def build_slideshow_video(
     timings: list[ImageTiming],
     output_path: Path,
-    width: int = 720,
-    height: int = 1280,
+    width: int = 1080,
+    height: int = 1920,
     fps: int = 30,
     crossfade_duration: float = 0.3,
 ) -> bool:
     """Assemble images into a single Ken Burns slideshow video with crossfade transitions.
 
-    Each image gets a zoompan effect cycling through different Ken Burns styles.
-    Adjacent images crossfade for smooth visual transitions.
-    Output is a silent video (no audio track).
+    Each image gets a zoompan effect selected by narrative beat (hook, setup,
+    escalation, catastrophe, ending). Adjacent images crossfade with beat-aware
+    transition types for visual variety. Output is a silent video (no audio track).
     """
     valid_timings = [t for t in timings if t.image_path and t.image_path.exists()]
     if not valid_timings:
@@ -339,7 +508,7 @@ def build_slideshow_video(
 
     n = len(valid_timings)
     print(f"  [{_ts()}] Building slideshow: {n} images, "
-          f"{sum(t.duration for t in valid_timings):.1f}s total")
+          f"{sum(t.duration for t in valid_timings):.1f}s total, {width}x{height}")
 
     if n == 1:
         return _single_image_video(valid_timings[0], output_path, width, height, fps)
@@ -350,7 +519,7 @@ def build_slideshow_video(
     for i, t in enumerate(valid_timings):
         inputs.extend(["-loop", "1", "-t", f"{t.duration:.3f}", "-i", str(t.image_path)])
 
-        effect = _EFFECTS[i % len(_EFFECTS)]
+        effect = _select_effect(t.beat, i)
         d_frames = int(t.duration * fps)
         zp = _zoompan_filter(effect, d_frames, width, height, fps)
 
@@ -371,13 +540,20 @@ def build_slideshow_video(
             offset = max(0, cumulative_offset + prev_dur - 0.1)
             xfade_dur = cumulative_offset + prev_dur - offset
 
+        transition = _select_transition(valid_timings[i].beat, i)
+        is_last = i == n - 1
+        if is_last:
+            transition = "fade"
+            xfade_dur = min(0.5, valid_timings[i].duration * 0.4)
+
         out_label = f"[xf{i}]" if i < n - 1 else "[vout]"
         filter_parts.append(
-            f"{current}[v{i}]xfade=transition=fade:duration={xfade_dur:.3f}"
+            f"{current}[v{i}]xfade=transition={transition}:duration={xfade_dur:.3f}"
             f":offset={offset:.3f}{out_label}"
         )
         cumulative_offset = offset
         current = out_label
+        xfade_dur = min(crossfade_duration, 0.3)
 
     filter_complex = ";".join(filter_parts)
 
@@ -452,7 +628,7 @@ def _fallback_concat_slideshow(
     for i, t in enumerate(timings):
         clip_path = tmp_dir / f"slide_{i:03d}.mp4"
         d_frames = int(t.duration * fps)
-        effect = _EFFECTS[i % len(_EFFECTS)]
+        effect = _select_effect(t.beat, i)
         zp = _zoompan_filter(effect, d_frames, width, height, fps)
 
         cmd = [

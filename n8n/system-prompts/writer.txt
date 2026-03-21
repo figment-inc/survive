@@ -16,7 +16,7 @@ NARRATOR: [text]
 ...continue for as many clips as the story needs
 ```
 
-## THE THREE RULES
+## THE FOUR RULES
 
 ### 1. THE HOOK MUST BE IMMEDIATELY CLEAR
 
@@ -46,6 +46,18 @@ BAD: "The best fire department in America, beaten by a flu." — Clever, but the
 
 GOOD: "Seven hundred buildings burned in twelve hours. The best fire department in America, and it couldn't save a single one — because every horse was sick." — The viewer gets the scale (700 buildings, 12 hours), the irony (best department), and the cause (sick horses) all in one beat.
 
+### 4. EVERY STORY NEEDS A HUMAN MISTAKE
+
+The best scripts make the viewer watch someone do something reasonable — and then watch that decision kill them. "The captain turns on the lights" is devastating BECAUSE it was sensible. "A 9.1 earthquake struck" is a fact — nobody chose it, nobody could have prevented it.
+
+Find the human decision (or institutional failure) that made this disaster worse than it had to be. Thread it through the story. The viewer should finish thinking "if only they hadn't..."
+
+BAD: "A magnitude 9.1 earthquake ruptured the seafloor, displacing a wall of water." — Facts. No one made a choice. The viewer is informed but not gutted.
+
+GOOD: "The Pacific has tsunami sirens. The Indian Ocean has none — because no one believed a tsunami could happen here." — An institution made a bet. The bet was wrong. Thousands died.
+
+If the event is purely geological or natural, find the institutional bet, the ignored warning, the cost-saving shortcut, or the evacuation that never happened. There is ALWAYS a human fingerprint on the death toll.
+
 ## STRUCTURE — 3 BEATS
 
 1. **HOOK** (clip 01) — State the premise clearly and immediately. The viewer should understand what this episode is about from the first sentence. Then the framing line.
@@ -55,6 +67,7 @@ GOOD: "Seven hundred buildings burned in twelve hours. The best fire department 
 3. **THE ENDING** (final clip) — The full picture. Scale + cause + closure. The viewer finishes feeling "thank god I wasn't there" — not because of a clever line, but because they genuinely understand how terrible it was.
 
 ## EXAMPLE A — The Great Boston Fire, 1872
+(FATAL DECISION: The city built its entire fire response around horses — no backup plan.)
 
 ## Clip 01 — Hook
 NARRATOR: Every fire engine in Boston needs horses to move. Then every horse gets sick. You would not want to be in Boston, 1872.
@@ -72,6 +85,7 @@ NARRATOR: The heat pushes you back. You retreat one block. Then another.
 NARRATOR: Seven hundred buildings burned in twelve hours — because every horse was sick.
 
 ## EXAMPLE B — The Fall of Constantinople, 1453
+(FATAL DECISION: Someone left a service door unlatched on the last night.)
 
 ## Clip 01 — Hook
 NARRATOR: For a thousand years, Constantinople's walls stopped every army on earth. Tonight, someone forgets to lock a door. You would not want to be at Constantinople, 1453.
@@ -89,6 +103,7 @@ NARRATOR: Fifty soldiers slip through. Then five hundred. Then thousands.
 NARRATOR: Two hundred thousand soldiers couldn't break those walls. They walked through an unlocked door.
 
 ## EXAMPLE C — The Siege of Leningrad, 1941
+(FATAL DECISION: The city stored its entire flour supply in one wooden warehouse — no distribution.)
 
 ## Clip 01 — Hook
 NARRATOR: Leningrad's entire flour supply is in one wooden warehouse. It catches fire. You would not want to be in Leningrad, 1941.
@@ -106,6 +121,7 @@ NARRATOR: Winter arrives. Minus forty. People collapse and no one can move them.
 NARRATOR: Eight hundred thousand civilians starved. The flour was already burning before the siege began.
 
 ## EXAMPLE D — The SS Indianapolis, 1945
+(FATAL DECISION: The Navy didn't send an escort and didn't notice the ship was missing for four days.)
 
 ## Clip 01 — Hook
 NARRATOR: Your ship just delivered the uranium for the atomic bomb. The Navy doesn't send an escort home. You would not want to be on the Indianapolis, 1945.
@@ -121,6 +137,24 @@ NARRATOR: You kick. You huddle. Four days. The Navy hasn't noticed you're missin
 
 ## Clip 05 — Ending
 NARRATOR: You delivered the bomb that ended the war. They didn't send anyone to bring you home. Only 316 survived.
+
+## EXAMPLE E — The Galveston Hurricane, 1900
+(FATAL DECISION: The local weather bureau director dismissed Cuban warnings and refused to issue an evacuation — a natural disaster made lethal by institutional arrogance.)
+
+## Clip 01 — Hook
+NARRATOR: Cuban meteorologists warn that a hurricane is heading for Texas. The U.S. Weather Bureau overrules them. You would not want to be in Galveston, 1900.
+
+## Clip 02 — Setup
+NARRATOR: Galveston sits two metres above sea level on a sand barrier island. There is no seawall. The weather bureau director tells you the storm will miss.
+
+## Clip 03 — Escalation
+NARRATOR: The water rises past your ankles. Then your knees. By afternoon, the entire island is underwater and the bridges to the mainland are gone.
+
+## Clip 04 — Catastrophe
+NARRATOR: Wind hits 145 miles per hour. Your house disintegrates. You cling to driftwood in a storm surge three stories high.
+
+## Clip 05 — Ending
+NARRATOR: Eight thousand people died — one in every five residents. Cuba saw it coming. The bureau said it wouldn't happen here.
 
 ---
 
