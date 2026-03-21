@@ -245,7 +245,11 @@ def check_clip_consistency(
     for item in results_json:
         clip_id = str(item.get("clip", "??"))
         passed = bool(item.get("pass", True))
-        issues = item.get("issues", [])
+        raw_issues = item.get("issues", [])
+        issues = [
+            str(i) if isinstance(i, str) else "; ".join(f"{k}: {v}" for k, v in i.items()) if isinstance(i, dict) else str(i)
+            for i in raw_issues
+        ]
         max_severity = int(item.get("max_severity", 0))
         if not passed and max_severity == 0 and issues:
             max_severity = 3
@@ -465,7 +469,11 @@ def check_slideshow_images(
             img_path = batch[j]
             passed = bool(item.get("pass", True))
             severity = int(item.get("severity", 0))
-            issues = item.get("issues", [])
+            raw_issues = item.get("issues", [])
+            issues = [
+                str(i) if isinstance(i, str) else "; ".join(f"{k}: {v}" for k, v in i.items()) if isinstance(i, dict) else str(i)
+                for i in raw_issues
+            ]
             if not passed and severity == 0 and issues:
                 severity = 3
 
