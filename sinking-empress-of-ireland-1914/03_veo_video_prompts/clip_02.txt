@@ -1,0 +1,32 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 1080p. Duration: 8 seconds.
+
+NARRATION FOR THIS CLIP: "It's a warm May night, so passengers sleep with their portholes open. A coal freighter appears out of the fog and hits you broadside."
+
+Camera: Static medium shot, eye level, looking down a narrow interior cabin corridor. Locked camera, flat composition, no movement. The figure stands in a doorway midway down the corridor. Cabin doors line both sides. Through an open cabin behind the figure, an open porthole shows the black night. Classic adult animation medium staging.
+
+Visual transition: Cutting from the exterior wide shot to the interior of the ship — moving inside the vessel to show the passengers' vulnerability. The palette shifts from cold exterior blues to warm interior ambers, which will be violently disrupted.
+
+Visual focus: The moment of collision — the sudden violent lurch of the ship as the coal freighter strikes broadside, everything in the corridor shifting and falling.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-3: The figure stands in the corridor doorway, one hand on the doorframe, looking into the cabin behind — the open porthole, the warm amber-lit space, the peaceful sleeping quarters. The figure appears calm, examining the porthole. At second 3.5: IMPACT. The figure is thrown violently sideways — slamming into the opposite corridor wall. Both hands fly out to brace. At second 4-6: The corridor begins to tilt — the figure struggles to stay upright, sliding along the wall, grabbing at a brass wall sconce. Objects cascade off shelves and walls. At second 6-8: The figure scrambles to hold position as the tilt increases. A rush of black water begins flooding under the nearest cabin door. The figure stares at the water with wide orb-like eyes, frozen in horror.
+
+Flat even lighting. Interior night palette — warm amber sconce light, dark mahogany walls and trim, muted burgundy carpet runner, dull brass fixtures, white cabin linens visible through doorways. After the impact at second 3.5, the warm amber flickers and dims — the palette shifts colder as emergency takes hold.
+
+Foreground: The corridor floor — polished dark wood with a thin burgundy-and-gold runner carpet. After impact: shoes, a leather bag, a glass bottle, and a brass candlestick slide across the tilting floor. Black water seeps under the nearest cabin door.
+
+Midground: The figure in the corridor. Cabin doors on both sides — some swing open from the impact, revealing narrow bunks and open portholes. A steward's white jacket lies crumpled on the floor.
+
+Background: The corridor stretches away in both directions, amber-lit, wood-paneled. After impact, the corridor visibly tilts — the far end appears to slope downward. A woman in a white nightgown stumbles out of a far cabin, bracing against the wall.
+
+Audio direction:
+- SFX: Seconds 0-3: quiet ship interior — the soft creak of wood, a distant gentle engine hum. Second 3.5: ENORMOUS metallic impact — a deep, grinding, tearing crash of steel on steel that shudders through the entire frame. Metal buckling and screaming. Second 4-8: Objects crashing to the floor — glass shattering, brass clattering, wood splintering. The groan of the ship's hull bending. The gush of water flooding under a door — a wet, rushing hiss. A distant muffled scream from behind a wall.
+- Ambience: Pre-impact: warm, quiet, safe interior ship sounds — the low throb of engines, creaking timbers. Post-impact: the constant deep groan of stressed metal, the rising sound of water flooding into enclosed spaces, muffled chaos from adjacent cabins, the ship tilting with long structural moans
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.

@@ -1,0 +1,32 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation scene, vertical 9:16, 720p. Duration: 8 seconds.
+
+NARRATION FOR THIS CLIP: "The ship rolls onto its side. Water pours through a thousand open portholes. You can't climb to the lifeboats — the deck is now a wall."
+
+Camera: Static low angle shot, looking upward. Locked camera, flat composition, no movement. The ship's deck is now nearly vertical — it reads as a wall stretching upward. The figure clings to a railing partway up. A lifeboat dangles uselessly above, out of reach. Black water surges below. Classic adult animation low-angle staging for overwhelming scale.
+
+Visual transition: Cutting from the interior corridor to the exterior of the capsizing ship — the crisis has exploded outward. The palette shifts from warm interior amber to cold exterior midnight blue and black. The tilt that began subtly in clip 02 is now extreme — the entire world is sideways.
+
+Visual focus: The impossible geometry of a ship on its side — the deck as a vertical wall, the lifeboats unreachable above, the open portholes swallowing water below.
+
+2D animation character description: A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character.
+
+The on-screen character does NOT speak and does NOT move their mouth. Mouth remains closed. Silent physical reactions only.
+
+Character action over 8 seconds: Seconds 0-2: The figure hangs from a now-vertical deck railing by both hands, legs dangling. The ship has rolled completely — the deck stretches upward like a cliff face. The figure kicks, trying to find footing on the smooth deck planks. At second 2-4: The figure looks down — black water churns below, pouring into open portholes along the submerging hull. The figure's legs pull upward, trying to get further from the water. At second 4-6: The figure looks up — a lifeboat hangs from its davit far above, completely inaccessible, swinging slowly. The figure reaches up with one hand toward it — impossibly far. At second 6-8: The figure's grip slips slightly — one hand loses its hold and the figure drops a few inches before catching again with both hands. Panic in every line of the body — limbs rigid, orb-like eyes wide.
+
+Flat even lighting. Crisis palette — deep midnight blue, black churning water, cold steel grey hull, fog white, the last dying warm amber glow from portholes not yet submerged, muted rust-orange hull patches. The warm light is disappearing as portholes go under one by one.
+
+Foreground: Churning black river water at the bottom of the frame — flat cold steel-blue highlights. A deck chair tumbles downward through the frame into the water. Ropes and rigging hang loose, swaying. A cork life ring falls past.
+
+Midground: The figure clinging to the vertical railing. The deck planks stretch upward — a wall of flat wood-brown. Open portholes along the now-horizontal hull below are submerging sequentially, each one gulping flat black water with a visible pour. The ship's name painted on the hull is sideways.
+
+Background: The ship's funnels are nearly horizontal — one funnel's tip touches the water, flat dark smoke pouring sideways. The lifeboat above hangs at a crazy angle, ropes tangled, never to be launched. Dense flat white-grey fog fills the sky. Other small figures slide or fall down the vertical deck in the distance.
+
+Audio direction:
+- SFX: The deep groaning of the ship's hull rolling — metal stressed beyond limits, long and agonizing. Water roaring as it pours into open portholes — a hundred individual gushes creating a continuous rushing torrent. The clang of the figure's hands gripping steel railing. A deck chair hitting the water with a flat splash. Ropes snapping with sharp cracks. The lifeboat above creaking on its davit, swinging.
+- Ambience: Overwhelming water sounds — the river claiming the ship in a continuous, rising roar. The deep structural moaning of a vessel rolling over. Distant shouts reduced to abstract sound — no intelligible words. The hiss and bubble of air escaping from submerging compartments. Wind across the exposed hull bottom.
+- NO speech. NO narration. NO voiceover. NO dialogue. NO music. Environmental sounds only.
+
+Exclusions: No text overlays, no watermarks, no logos, no captions, no subtitles. No speech, no narration, no voiceover, no dialogue, no character vocalizations. No photorealistic rendering. No handheld camera movement. No depth-of-field blur. No 3D shading or gradients. Maintain flat 2D adult animation style throughout the entire clip.
