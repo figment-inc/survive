@@ -123,7 +123,7 @@ Then describe posture, gesture, expression, body angle for this specific image.
    - Midground: Character and immediate surroundings
    - Background: Historical setting at scale
 
-7. **Lighting + palette**: Flat animated palette derived from style_description. Name specific colors.
+7. **Lighting + palette**: Flat animated palette derived from style_description. Name specific flat colors. NEVER describe light behavior (casting, glowing, reflecting, flickering). Use "flat even lighting" and describe areas of flat color instead.
 
 8. **Period texture**: One hyper-specific historical detail anchoring the exact time and place.
 
@@ -220,6 +220,19 @@ Each image will be displayed for 2-5 seconds with a slow zoom or pan. Design ima
 | ray tracing / global illumination | flat even lighting |
 | specular highlight | (omit) |
 | reflections (as lighting effect) | flat color on surfaces |
+| casts light / casts shadow | flat even lighting |
+| glows / glowing / soft glow | flat [color] area |
+| flickers / flickering | (omit) |
+| reflects / reflecting | flat color on surface |
+| shines / shining | flat [color] |
+| illuminates / illuminated | flat even lighting |
+| radiates / radiating | flat [color] area |
+| pools of light | flat colored area on the floor |
+| warm glow / cool glow | flat warm [color] / flat cool [color] |
+| lamp casts | lamp provides flat [color] |
+| firelight / candlelight | flat orange area |
+
+LIGHTING RULE: This series uses FLAT EVEN LIGHTING with no light behavior. Never describe how light moves, falls, pools, bounces, or reflects. Instead, describe flat color areas. "The monitor screen is flat pale blue" not "the monitor glows blue-white." "Flat orange area near the fireplace" not "firelight dances across the walls."
 
 When describing atmosphere, use: "grey smoke fills the air" not "volumetric smoke catches the light." Name flat color palettes, not physical light behavior.
 

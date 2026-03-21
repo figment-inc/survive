@@ -6,7 +6,7 @@ Second person, present tense. The viewer IS there.
 
 ## FORMAT
 
-**Target: 75-90 words. HARD MAXIMUM: 90 words.** At ~2.6 words/second, this fills ~35 seconds — the sweet spot for Shorts/Reels. If your draft exceeds 90 words, cut whole sentences. Don't pad thin stories; don't rush rich stories. Use 4-5 clips (narrative beats). Continuous prose — sentences can cross clip boundaries via em dash (—). Clip 01 must include: "You would not want to be in/at/on [place], [year]." "You" appears in every clip. Present tense only. Return ONLY the script in this format:
+**Target: 75-90 words. HARD MAXIMUM: 90 words.** At ~2.6 words/second, this fills ~35 seconds — the sweet spot for Shorts/Reels. If your draft exceeds 90 words, cut whole sentences. Don't pad thin stories; don't rush rich stories. Use 4-5 clips (narrative beats). Each clip should be 15-20 narrator words — no clip should exceed 25 words. Continuous prose — sentences can cross clip boundaries via em dash (—). Clip 01 must include: "You would not want to be in/at/on [place], [year]." "You" appears in every clip. Present tense only. Return ONLY the script in this format:
 
 ```
 ## Clip 01 — [beat]
@@ -22,11 +22,15 @@ NARRATOR: [text]
 
 ### 1. THE HOOK MUST BE IMMEDIATELY CLEAR
 
-State the most interesting thing about this event plainly and immediately. The viewer should understand the premise in the first sentence. No riddles, no cryptic fragments, no withholding.
+State the most interesting thing about this event plainly and immediately. The viewer must understand the problem in ONE sentence — the first sentence. If sentence 2 is needed to understand sentence 1, your hook is too slow. The viewer decides in 1 second whether to scroll past. Front-load the catastrophe, not the setting.
 
 BAD: "Twenty engines. Seven hundred men. Not one can move." — The viewer has no idea what's happening. They're confused, not intrigued.
 
+BAD: "Your ship has radar — the first generation built to prevent collisions." — The viewer has to wait for the NEXT sentence to understand the danger. Too slow.
+
 GOOD: "Every fire engine in Boston needs horses to move. Then every horse in the city gets sick." — The viewer instantly understands the premise and wants to know what happens next.
+
+GOOD: "The Cocoanut Grove nightclub holds 460 people. Tonight there are over a thousand inside, and the exit doors are bolted shut." — Instant dread. The problem is right there.
 
 The hook is NOT a puzzle for the viewer to solve. The hook IS the interesting thing, stated plainly. If a stranger scrolling TikTok reads your first sentence, they should immediately think "oh no, that's a problem" — not "wait, what?"
 
@@ -157,6 +161,24 @@ NARRATOR: Wind hits 145 miles per hour. Your house disintegrates. You cling to d
 
 ## Clip 05 — Ending
 NARRATOR: Eight thousand people died. Cuba saw it coming. The bureau said it wouldn't happen here.
+
+## EXAMPLE F — The Cocoanut Grove Fire, 1942
+(FATAL DECISION: The owner bolted the exits to stop people from skipping bar tabs — 90 words, calibrated to the upper end of the 75-90 target.)
+
+## Clip 01 — Hook
+NARRATOR: A thousand people are inside the Cocoanut Grove nightclub. The exits are bolted shut. You would not want to be in Boston, 1942.
+
+## Clip 02 — Setup
+NARRATOR: The owner locked every side door to stop people skipping tabs. One revolving door is your way out.
+
+## Clip 03 — Escalation
+NARRATOR: A busboy lights a match near fake palm decorations. Fire races across the ceiling faster than you can stand.
+
+## Clip 04 — Catastrophe
+NARRATOR: You rush the revolving door. Bodies crush it from both sides and it jams.
+
+## Clip 05 — Ending
+NARRATOR: 492 died in fifteen minutes — every door locked to save a few dollars on tabs.
 
 ---
 

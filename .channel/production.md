@@ -13,7 +13,7 @@
 ## Clip Specs
 
 - **Aspect ratio**: 9:16 vertical
-- **Episode length**: 5 clips, **~40 seconds** raw video (~38s effective after crossfades), narration ~75-85 words
+- **Episode length**: 5 clips, **~40 seconds** raw video (~38s effective after crossfades), narration ~75-90 words
 - **Split audio pipeline**:
   - Veo 3.1 generates SILENT video with environmental SFX + ambient sounds only
   - ElevenLabs TTS generates narrator voiceover (Dan voice, ID `BHr135B5EUBtaWheVj8S`)

@@ -93,6 +93,17 @@ _TEXT_SANITIZE_PATTERNS: list[tuple[re.Pattern, str]] = [
     (re.compile(r'[Cc]ity of [A-Z][a-z]+.{0,20}letterhead[^.]*', re.IGNORECASE), 'official papers'),
     (re.compile(r'(?:license plate|number plate|registration plate)[^.]*', re.IGNORECASE), ''),
     (re.compile(r'(?:name tag|badge|ID card)\s+(?:reading|showing|displaying)[^.]*', re.IGNORECASE), ''),
+    # Lighting verb sanitization -- prevent gradient/glow artifacts
+    (re.compile(r'(?:casts?|casting)\s+(?:a\s+)?(?:warm|cool|soft|harsh|pale|bright|dim)?\s*(?:light|shadow|glow)', re.IGNORECASE), 'flat even lighting'),
+    (re.compile(r'(?:glows?|glowing)\s+(?:with\s+)?(?:a\s+)?(?:warm|cool|soft|pale|bright)?[^.]{0,30}', re.IGNORECASE), 'flat colored area'),
+    (re.compile(r'(?:flickers?|flickering)\s+[^.]{0,20}', re.IGNORECASE), ''),
+    (re.compile(r'(?:reflects?|reflecting)\s+(?:off|on|in)\s+[^.]{0,30}', re.IGNORECASE), 'flat color on the surface'),
+    (re.compile(r'(?:shines?|shining)\s+(?:on|through|from|into)\s+[^.]{0,30}', re.IGNORECASE), 'flat even lighting'),
+    (re.compile(r'(?:illuminates?|illuminating|illuminated)\s+[^.]{0,30}', re.IGNORECASE), 'flat even lighting'),
+    (re.compile(r'(?:radiates?|radiating)\s+[^.]{0,30}', re.IGNORECASE), 'flat colored area'),
+    (re.compile(r'pools?\s+of\s+(?:light|shadow)', re.IGNORECASE), 'flat colored area on the floor'),
+    (re.compile(r'(?:firelight|candlelight|torchlight|lamplight)', re.IGNORECASE), 'flat orange area'),
+    (re.compile(r'(?:warm|cool|soft)\s+glow', re.IGNORECASE), 'flat colored area'),
 ]
 
 
@@ -240,4 +251,76 @@ def generate_image(
             print(f"  [{_ts()}] ERROR: No image after {MAX_RETRIES} attempts for {output_path.name}")
             return False
 
+    return False
+
+
+FALLBACK_PROMPT_TEMPLATE = (
+    "MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. "
+    "Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements. "
+    "Clean flat colors, no shading variation, no lighting effects, no 3D rendering.\n\n"
+    "Classic American adult animation frame, vertical 9:16 composition.\n\n"
+    "NARRATION FOR THIS IMAGE: \"{narration}\"\n\n"
+    "A moody atmospheric establishing shot related to the narration above. "
+    "Wide angle, no characters, no faces, no text, no readable writing. "
+    "Focus on environment, architecture, or objects that evoke the scene. "
+    "Flat cel-shaded style with thick black outlines. No gradients, no glow effects.\n\n"
+    "No text, no watermarks, no logos, no captions, no overlays."
+)
+
+
+def generate_image_with_fallback(
+    api_key: str,
+    model: str,
+    prompt: str,
+    output_path: Path,
+    narration: str = "",
+    previous_image_path: Path | None = None,
+    reference_paths: list[Path] | None = None,
+    aspect_ratio: str = "9:16",
+    image_size: str = "2K",
+    has_character: bool = False,
+    style_anchor_path: Path | None = None,
+    episode_style: str | None = None,
+    style_ref_path: Path | None = None,
+) -> bool:
+    """Generate an image with automatic fallback on total failure.
+
+    Fallback chain:
+    1. Try the original prompt (3 retries inside generate_image)
+    2. Try a simplified atmospheric prompt with no characters (3 retries)
+    3. Duplicate the previous image if available
+    """
+    ok = generate_image(
+        api_key=api_key, model=model, prompt=prompt, output_path=output_path,
+        reference_paths=reference_paths, aspect_ratio=aspect_ratio,
+        image_size=image_size, has_character=has_character,
+        style_anchor_path=style_anchor_path, episode_style=episode_style,
+        style_ref_path=style_ref_path,
+    )
+    if ok:
+        return True
+
+    print(f"  [{_ts()}] Primary prompt failed — trying simplified atmospheric fallback")
+    fallback_prompt = FALLBACK_PROMPT_TEMPLATE.format(
+        narration=narration[:200] if narration else "a dramatic historical moment"
+    )
+    ok = generate_image(
+        api_key=api_key, model=model, prompt=fallback_prompt, output_path=output_path,
+        reference_paths=None, aspect_ratio=aspect_ratio,
+        image_size=image_size, has_character=False,
+        style_anchor_path=style_anchor_path, episode_style=None,
+        style_ref_path=style_ref_path,
+    )
+    if ok:
+        print(f"  [{_ts()}] Fallback atmospheric image succeeded for {output_path.name}")
+        return True
+
+    if previous_image_path and previous_image_path.exists():
+        import shutil
+        shutil.copy2(previous_image_path, output_path)
+        print(f"  [{_ts()}] Duplicated previous image as fallback: "
+              f"{previous_image_path.name} → {output_path.name}")
+        return True
+
+    print(f"  [{_ts()}] ERROR: All fallback attempts exhausted for {output_path.name}")
     return False

@@ -91,12 +91,14 @@ Tension must build continuously. Clip 02 feels grounded. Clip 04 feels like the 
 Total narration should be 75-90 words. At ~2.6 wps from the TTS engine, this fills ~35 seconds — the TikTok sweet spot. Every word over 90 costs screen time you don't have.
 
 - **10**: 75–90 words. Tight, punchy, fills the Shorts window perfectly.
-- **7**: 65–74 or 91–100 words. Workable but either thin or needs trimming.
-- **3**: Under 65 or over 100. Too short for the story or blows the time budget.
+- **7**: 65–74 or 91–95 words. Workable but either thin or needs trimming.
+- **5**: 96–100 words. Over budget — needs a trim pass.
+- **3**: Under 65 or 101–110 words. Way off target. Major cuts required.
+- **1**: Over 110 words. Script is double the time budget. Total rewrite.
 
-AUTOMATIC FAILURE (score capped at 5): Over 100 words. REWRITE REQUIRED regardless of other scores.
+HARD RULE: Over 100 words = REWRITE REQUIRED. This is not negotiable. A script at 105 words produces a 40+ second video that blows the Shorts window. No amount of quality on other axes compensates.
 
-A score of 5 or below SHOULD trigger a REWRITE REQUIRED — script needs adjustment.
+AUTOMATIC FAILURE: Word Count score of 5 or below = REWRITE REQUIRED regardless of average score on other axes. This overrides the average >= 7.0 publish threshold.
 
 Count ONLY words after "NARRATOR:" — ignore clip headers and beat labels.
 
@@ -121,7 +123,7 @@ Return your critique in EXACTLY this format:
 
 ## VERDICT: [PUBLISH / REWRITE REQUIRED]
 
-(PUBLISH if average >= 7.0 AND no axis below 5. Otherwise REWRITE REQUIRED.)
+(PUBLISH if average >= 7.0 AND no axis below 5 AND Word Count >= 6. If Word Count is 5 or below, REWRITE REQUIRED regardless of average. Otherwise REWRITE REQUIRED.)
 
 ## LINE-LEVEL CRITIQUE
 

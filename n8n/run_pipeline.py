@@ -143,7 +143,14 @@ def generate_topic():
         messages=[{"role": "user", "content": "Pick a new episode topic."}],
     )
 
-    topic = response.content[0].text.strip().strip('"').strip("'")
+    raw_topic = response.content[0].text.strip().strip('"').strip("'")
+
+    lines = [ln.strip() for ln in raw_topic.splitlines() if ln.strip()]
+    if len(lines) > 1:
+        topic = lines[-1].strip('"').strip("'")
+    else:
+        topic = raw_topic
+
     print(f"  [{ts()}] Selected topic: {topic}")
     return topic
 
@@ -315,6 +322,49 @@ def _count_script_words(script_text):
     return len(words)
 
 
+def _trim_longest_clip(script_text):
+    """Remove the longest clip (by word count) to bring an over-length script under budget.
+
+    Preserves clip 01 (hook) and the final clip (ending). Removes the longest
+    middle clip and renumbers the remaining clips sequentially.
+    """
+    import re
+    clips = []
+    current_header = None
+    current_lines = []
+    for line in script_text.strip().splitlines():
+        if line.strip().startswith("## Clip"):
+            if current_header is not None:
+                clips.append((current_header, "\n".join(current_lines)))
+            current_header = line
+            current_lines = []
+        else:
+            current_lines.append(line)
+    if current_header is not None:
+        clips.append((current_header, "\n".join(current_lines)))
+
+    if len(clips) <= 3:
+        return script_text
+
+    middle_clips = clips[1:-1]
+    longest_idx = max(
+        range(len(middle_clips)),
+        key=lambda i: len(re.findall(r"\S+", middle_clips[i][1])),
+    )
+    removed = middle_clips[longest_idx]
+    print(f"  [{ts()}] Trimmed clip: {removed[0].strip()}")
+
+    kept = [clips[0]] + [c for i, c in enumerate(middle_clips) if i != longest_idx] + [clips[-1]]
+
+    result_lines = []
+    for i, (header, body) in enumerate(kept):
+        beat = re.search(r"—\s*(.+)", header)
+        beat_name = beat.group(1).strip() if beat else "Beat"
+        result_lines.append(f"## Clip {i + 1:02d} — {beat_name}")
+        result_lines.append(body)
+    return "\n".join(result_lines)
+
+
 def generate_script(topic):
     """Phase 1a: Generate script-only narration using the focused script prompt."""
     phase_banner("PHASE 1a: GENERATE SCRIPT (Claude — script-only)")
@@ -371,28 +421,50 @@ def generate_script_v2(topic):
     draft_words = _count_script_words(draft)
     print(f"  [{ts()}] Draft complete ({draft_words} words)")
 
-    # Step 2: Critic scores and tears apart
-    print(f"\n  [{ts()}] Step 2/3: Critic reviewing...")
-    critic_prompt = CRITIC_PROMPT_PATH.read_text()
-    critique, _ = _call_claude_streaming(client, model, critic_prompt, draft, max_tokens=4000)
-    critique = critique.strip()
-    print(f"  [{ts()}] Critique complete")
-
     import re
-    avg_match = re.search(r"\*\*AVERAGE\*\*.*?\*\*(\d+\.?\d*)/10\*\*", critique)
-    avg_score = float(avg_match.group(1)) if avg_match else 0.0
-    verdict_match = re.search(r"VERDICT:\s*(PUBLISH|REWRITE REQUIRED)", critique)
-    verdict = verdict_match.group(1) if verdict_match else "REWRITE REQUIRED"
-    print(f"  [{ts()}] Critic verdict: {verdict} (avg {avg_score}/10)")
+    MAX_PASSES = 3
+    HARD_WORD_CEILING = 100
+    final = draft
+    all_critiques = []
 
-    if verdict == "PUBLISH" and avg_score >= 7.0:
-        print(f"  [{ts()}] Draft passed critique — using as final")
-        final = draft
-    else:
-        # Step 3: Rewriter fixes based on critique
-        print(f"\n  [{ts()}] Step 3/3: Rewriter revising...")
+    for pass_num in range(MAX_PASSES):
+        word_count = _count_script_words(final)
+
+        # Critique the current script
+        pass_label = f"Pass {pass_num + 1}/{MAX_PASSES}"
+        print(f"\n  [{ts()}] Critic reviewing ({pass_label})...")
+        critic_prompt = CRITIC_PROMPT_PATH.read_text()
+        critique, _ = _call_claude_streaming(client, model, critic_prompt, final, max_tokens=4000)
+        critique = critique.strip()
+        all_critiques.append(critique)
+        print(f"  [{ts()}] Critique complete")
+
+        avg_match = re.search(r"\*\*AVERAGE\*\*.*?\*\*(\d+\.?\d*)/10\*\*", critique)
+        avg_score = float(avg_match.group(1)) if avg_match else 0.0
+        verdict_match = re.search(r"VERDICT:\s*(PUBLISH|REWRITE REQUIRED)", critique)
+        verdict = verdict_match.group(1) if verdict_match else "REWRITE REQUIRED"
+        print(f"  [{ts()}] Critic verdict: {verdict} (avg {avg_score}/10), {word_count} words")
+
+        passes_word_gate = word_count <= HARD_WORD_CEILING
+        passes_critic = verdict == "PUBLISH" and avg_score >= 7.0
+
+        if passes_word_gate and passes_critic:
+            print(f"  [{ts()}] Script passed critique + word gate ({word_count} words) — shipping")
+            break
+
+        if not passes_word_gate:
+            print(f"  [{ts()}] Word gate FAILED: {word_count} > {HARD_WORD_CEILING} — forcing rewrite")
+        elif not passes_critic:
+            print(f"  [{ts()}] Critic requested rewrite")
+
+        if pass_num == MAX_PASSES - 1:
+            print(f"  [{ts()}] Max passes reached ({MAX_PASSES}) — using best available")
+            break
+
+        # Rewrite
+        print(f"\n  [{ts()}] Rewriter revising ({pass_label})...")
         rewriter_prompt = REWRITER_PROMPT_PATH.read_text()
-        rewriter_input = f"## ORIGINAL DRAFT\n\n{draft}\n\n## CRITIQUE\n\n{critique}"
+        rewriter_input = f"## ORIGINAL DRAFT\n\n{final}\n\n## CRITIQUE\n\n{critique}"
         final, _ = _call_claude_streaming(
             client, model, rewriter_prompt, rewriter_input, max_tokens=2000, temperature=0.7
         )
@@ -402,12 +474,15 @@ def generate_script_v2(topic):
 
     word_count = _count_script_words(final)
 
-    if word_count > 150:
-        print(f"\n  [{ts()}] WARNING: Script at {word_count} words — exceeds Shorts ceiling "
-              f"(~150 words / ~58s). May need manual trimming.")
+    if word_count > HARD_WORD_CEILING:
+        print(f"\n  [{ts()}] WARNING: Script still at {word_count} words after {MAX_PASSES} passes."
+              f" Trimming longest clip...")
+        final = _trim_longest_clip(final)
+        word_count = _count_script_words(final)
+        print(f"  [{ts()}] After trim: {word_count} words")
 
     print(f"\n  [{ts()}] Final script: {word_count} words")
-    artifacts = {"draft": draft, "critique": critique}
+    artifacts = {"draft": draft, "critique": all_critiques[-1] if all_critiques else ""}
     return final, artifacts
 
 
@@ -719,14 +794,16 @@ def _run_images_sentence_mode(
     style_ref_path, images_dir, episode_style,
 ):
     """Generate images from sentence_images[] — 1-2 images per sentence."""
-    from lib.nanobanana import generate_image
+    from lib.nanobanana import generate_image, generate_image_with_fallback
 
     style_anchor_path = None
     img_counter = 0
+    previous_image_path = None
 
     for si in episode["sentence_images"]:
         s_idx = si["sentence_index"]
         has_character = si.get("has_character", True)
+        narration = si.get("text", "")
 
         for p_idx, prompt in enumerate(si.get("image_prompts", [])):
             img_counter += 1
@@ -738,14 +815,17 @@ def _run_images_sentence_mode(
                 if style_anchor_path is None:
                     style_anchor_path = output_path
                     print(f"  [{ts()}] Using existing image as style anchor")
+                previous_image_path = output_path
                 continue
 
             print(f"\n  --- Sentence {s_idx}, Image {p_idx + 1} ---")
-            generate_image(
+            generate_image_with_fallback(
                 api_key=api_key,
                 model=model,
                 prompt=prompt,
                 output_path=output_path,
+                narration=narration,
+                previous_image_path=previous_image_path,
                 reference_paths=ref_paths if has_character else None,
                 has_character=has_character,
                 style_anchor_path=style_anchor_path if style_anchor_path else None,
@@ -753,9 +833,11 @@ def _run_images_sentence_mode(
                 style_ref_path=style_ref_path,
             )
 
-            if output_path.exists() and style_anchor_path is None:
-                style_anchor_path = output_path
-                print(f"  [{ts()}] First image set as style anchor for remaining")
+            if output_path.exists():
+                previous_image_path = output_path
+                if style_anchor_path is None:
+                    style_anchor_path = output_path
+                    print(f"  [{ts()}] First image set as style anchor for remaining")
 
     generated_paths = sorted(images_dir.glob("sentence_*_img_*.png"))
     if generated_paths and style_ref_path:
