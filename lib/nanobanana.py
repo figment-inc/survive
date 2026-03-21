@@ -5,6 +5,7 @@ Includes retry with exponential backoff and basic image validation.
 
 from __future__ import annotations
 
+import re
 import struct
 import time
 from datetime import datetime
@@ -77,6 +78,33 @@ def _validate_image(data: bytes, filename: str) -> str | None:
     return None
 
 
+_TEXT_SANITIZE_PATTERNS: list[tuple[re.Pattern, str]] = [
+    (re.compile(r'reading a [^.]*?newspaper', re.IGNORECASE), 'holding a folded newspaper'),
+    (re.compile(r'reading a [^.]*?Tribune[^.]*', re.IGNORECASE), 'holding a folded newspaper'),
+    (re.compile(r'(?:sign|placard|banner|board)\s+(?:reading|that says|saying)\s+"[^"]*"', re.IGNORECASE), 'a weathered wooden placard'),
+    (re.compile(r'"(?:CLOSED|OPEN|NOW SERVING|KEEP OUT|DANGER|WARNING|NO [A-Z]+)[^"]*"', re.IGNORECASE), ''),
+    (re.compile(r'[Aa]\s+"[^"]{3,}"\s+sign', re.IGNORECASE), 'a wooden placard'),
+    (re.compile(r'(?:letterhead|headed paper)\s+(?:visible|reading|showing)[^.]*', re.IGNORECASE), 'a stack of papers'),
+    (re.compile(r'"[^"]{2,}"\s+letterhead', re.IGNORECASE), 'a stack of official papers'),
+    (re.compile(r'(?:number display|scoreboard|ticker|digital readout|readout)\s+(?:showing|displaying|reading)[^.]*', re.IGNORECASE), ''),
+    (re.compile(r'[Aa] "Now Serving"[^.]*', re.IGNORECASE), ''),
+    (re.compile(r'(?:painted|stenciled|hand-lettered|handwritten)\s+(?:number|letter|text|word|sign|label)[^.]*', re.IGNORECASE), ''),
+    (re.compile(r'[Aa] painted number on[^.]*', re.IGNORECASE), ''),
+    (re.compile(r'[Cc]ity of [A-Z][a-z]+.{0,20}letterhead[^.]*', re.IGNORECASE), 'official papers'),
+    (re.compile(r'(?:license plate|number plate|registration plate)[^.]*', re.IGNORECASE), ''),
+    (re.compile(r'(?:name tag|badge|ID card)\s+(?:reading|showing|displaying)[^.]*', re.IGNORECASE), ''),
+]
+
+
+def _sanitize_text_references(prompt: str) -> str:
+    """Strip or replace phrases that would cause Gemini to render garbled text."""
+    for pattern, replacement in _TEXT_SANITIZE_PATTERNS:
+        prompt = pattern.sub(replacement, prompt)
+    prompt = re.sub(r'\.\s*\.', '.', prompt)
+    prompt = re.sub(r'\s{2,}', ' ', prompt)
+    return prompt.strip()
+
+
 def generate_image(
     api_key: str,
     model: str,
@@ -95,6 +123,8 @@ def generate_image(
     Retries up to 3 times with exponential backoff on transient failures.
     Validates output image dimensions and file size before accepting.
     """
+    prompt = _sanitize_text_references(prompt)
+
     if has_character and reference_paths:
         prefix = (
             "The attached reference image shows a humanoid figure with translucent, "

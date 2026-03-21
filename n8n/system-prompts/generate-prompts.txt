@@ -33,7 +33,7 @@ Read through ALL the NARRATOR: lines in the script as continuous prose. Split th
 
 Do NOT split on em dashes (—) within a single NARRATOR: line — those are mid-sentence pauses, keep them as one sentence.
 
-A typical ~90-140 word script will yield **6-18 sentences**.
+A typical ~75-90 word script will yield **5-12 sentences**.
 
 ---
 
@@ -222,6 +222,39 @@ Each image will be displayed for 2-5 seconds with a slow zoom or pan. Design ima
 | reflections (as lighting effect) | flat color on surfaces |
 
 When describing atmosphere, use: "grey smoke fills the air" not "volumetric smoke catches the light." Name flat color palettes, not physical light behavior.
+
+---
+
+## TEXT-FREE IMAGE RULE — ZERO READABLE TEXT IN ANY IMAGE
+
+AI image generators produce garbled, ugly artifacts when they attempt to render text. Every prompt must be designed so the model never attempts to draw letters, words, or numbers.
+
+### NEVER describe objects whose primary visual feature is readable text:
+
+| BANNED OBJECT | REPLACEMENT |
+|---------------|-------------|
+| newspaper with visible headline | a rolled-up newspaper tucked under an arm |
+| sign reading "..." / sign that says "..." | a weathered wooden placard (no readable content) |
+| "Now Serving" display / number display | (omit entirely) |
+| letterhead / document with visible writing | a stack of papers / a manila folder |
+| ticket with a number | a small paper slip |
+| license plate | (omit or describe car without plate detail) |
+| branded packaging / labeled bottles | plain containers in flat colors |
+| chalkboard / whiteboard with writing | a blank board mounted on the wall |
+| banner with text / protest sign | a plain cloth banner / a raised placard |
+| book cover with title / magazine cover | a closed book / a stack of magazines |
+| scoreboard / ticker / digital readout | (omit entirely) |
+| street sign / road sign | a metal post at the corner |
+| menu board / price list | a wooden board mounted on the wall |
+| name tag / badge / ID card | (omit entirely) |
+| telegram / letter with legible content | a folded piece of paper |
+
+### Rules:
+
+1. If a period-texture detail involves readable text (e.g., "a city permit placard," "a 'CLOSED' sign"), replace it with a non-text equivalent or omit it entirely
+2. NEVER put quoted text inside a prompt that describes what text says — the model WILL try to render it and WILL fail
+3. Objects like newspapers, books, and documents may appear but ONLY as physical shapes (rolled, folded, stacked) — never with visible content
+4. The exclusion line already says "No text" — your prompt body must not contradict this by describing text-bearing surfaces
 
 ---
 
