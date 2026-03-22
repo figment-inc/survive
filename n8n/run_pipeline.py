@@ -1852,8 +1852,25 @@ def create_github_release(slug, title, final_path):
     )
 
     if result.returncode != 0:
-        print(f"  [{ts()}] gh release create failed: {result.stderr}")
-        return None
+        if "already exists" in result.stderr:
+            print(f"  [{ts()}] Release {tag} already exists — deleting old and re-creating")
+            subprocess.run(["gh", "release", "delete", tag, "--yes", "--cleanup-tag"],
+                           capture_output=True, text=True)
+            result = subprocess.run(
+                [
+                    "gh", "release", "create", tag,
+                    str(final_path),
+                    "--title", title,
+                    "--notes", f"Automated episode: {title}\nSlug: {slug}",
+                ],
+                capture_output=True, text=True,
+            )
+            if result.returncode != 0:
+                print(f"  [{ts()}] gh release create failed on retry: {result.stderr}")
+                return None
+        else:
+            print(f"  [{ts()}] gh release create failed: {result.stderr}")
+            return None
 
     release_url = result.stdout.strip()
     print(f"  [{ts()}] Release created: {release_url}")
