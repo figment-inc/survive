@@ -1794,9 +1794,9 @@ def run_slideshow_post_phase(episode, ep_dir, slideshow_path):
 
 
 def run_captions_phase(final_path, ep_dir, narration_atempo=1.0, narration_duration=0.0):
-    phase_banner("PHASE 4b: REMOTION KARAOKE CAPTIONS (Script Text + Remotion)")
+    phase_banner("PHASE 4b: KARAOKE CAPTIONS")
 
-    from lib.captions import run_captions_pipeline
+    from lib.captions import run_captions_pipeline, REMOTION_PROJECT
     from lib.elevenlabs import extract_continuous_narration
 
     openai_key = load_env_key("OPENAI_API_KEY")
@@ -1813,19 +1813,42 @@ def run_captions_phase(final_path, ep_dir, narration_atempo=1.0, narration_durat
         print(f"  [{ts()}] WARNING: No script text and no OPENAI_API_KEY — skipping captions")
         return final_path
 
-    captioned_path = final_path.with_stem(final_path.stem + "_captioned")
-    result = run_captions_pipeline(
-        video_path=final_path,
-        output_path=captioned_path,
-        openai_api_key=openai_key,
-        narration_text=narration_text,
-        narration_duration=narration_duration if narration_duration > 0 else None,
-        narration_atempo=narration_atempo,
-    )
+    if REMOTION_PROJECT.exists():
+        print(f"  [{ts()}] Remotion project found — using Remotion captions")
+        captioned_path = final_path.with_stem(final_path.stem + "_captioned")
+        result = run_captions_pipeline(
+            video_path=final_path,
+            output_path=captioned_path,
+            openai_api_key=openai_key,
+            narration_text=narration_text,
+            narration_duration=narration_duration if narration_duration > 0 else None,
+            narration_atempo=narration_atempo,
+        )
+        if result and result.exists():
+            print(f"  [{ts()}] Captioned video ready: {result}")
+            return result
+        print(f"  [{ts()}] Remotion captions failed — falling back to ASS burn")
 
-    if result and result.exists():
-        print(f"  [{ts()}] Captioned video ready: {result}")
-        return result
+    if narration_text:
+        print(f"  [{ts()}] Using ffmpeg ASS caption burn (no Remotion)")
+        from lib.mixer import (
+            generate_word_captions, burn_captions, probe_audio_duration,
+        )
+
+        effective_atempo = narration_atempo if narration_atempo > 1.001 else 1.0
+        if narration_duration > 0:
+            available = narration_duration / effective_atempo
+        else:
+            available = probe_audio_duration(final_path) - 0.5
+
+        ass_path = final_path.with_suffix(".ass")
+        if generate_word_captions(narration_text, available, ass_path):
+            captioned_path = final_path.with_stem(final_path.stem + "_captioned")
+            if burn_captions(final_path, ass_path, captioned_path):
+                ass_path.unlink(missing_ok=True)
+                print(f"  [{ts()}] ASS captioned video ready: {captioned_path}")
+                return captioned_path
+            ass_path.unlink(missing_ok=True)
 
     print(f"  [{ts()}] Captions failed — using uncaptioned video")
     return final_path
