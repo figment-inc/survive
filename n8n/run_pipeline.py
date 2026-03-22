@@ -38,6 +38,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+import requests
+
 REPO_DIR = Path(__file__).resolve().parent.parent
 CHANNEL_DIR = REPO_DIR / ".channel"
 SYSTEM_PROMPT_PATH = Path(__file__).resolve().parent / "system-prompts" / "generate-episode-legacy.txt"
@@ -1877,6 +1879,23 @@ def create_github_release(slug, title, final_path):
 
 
 
+def _resolve_github_release_url(url: str) -> str:
+    """Follow GitHub Release 302 redirect to get a direct download URL.
+
+    GitHub Release download URLs redirect to a time-limited signed Azure Blob URL.
+    Metricool can't follow this redirect chain, so we resolve it upfront.
+    """
+    try:
+        resp = requests.head(url, allow_redirects=False, timeout=10)
+        if resp.status_code in (301, 302) and "location" in resp.headers:
+            direct = resp.headers["location"]
+            print(f"  [{ts()}] Resolved to direct URL: {direct[:100]}...")
+            return direct
+    except requests.RequestException as e:
+        print(f"  [{ts()}] WARNING: Could not resolve redirect: {e}")
+    return url
+
+
 def publish_to_metricool_with_upload(episode, final_path, asset_url=None, schedule=""):
     """Upload video to Metricool S3 then publish to YouTube Shorts + Instagram Reels + TikTok."""
     phase_banner("PHASE 5b: METRICOOL PUBLISH")
@@ -1911,7 +1930,7 @@ def publish_to_metricool_with_upload(episode, final_path, asset_url=None, schedu
         print(f"  [{ts()}] S3 upload failed: {e}")
         if asset_url:
             print(f"  [{ts()}] Falling back to GitHub Release URL")
-            media_url = asset_url
+            media_url = _resolve_github_release_url(asset_url)
         else:
             print(f"  [{ts()}] No fallback URL available, cannot publish")
             sys.exit(1)
