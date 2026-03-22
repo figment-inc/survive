@@ -323,10 +323,12 @@ def _count_script_words(script_text):
 
 
 def _trim_longest_clip(script_text):
-    """Remove the longest clip (by word count) to bring an over-length script under budget.
+    """Remove a middle clip to bring an over-length script under budget.
 
-    Preserves clip 01 (hook) and the final clip (ending). Removes the longest
-    middle clip and renumbers the remaining clips sequentially.
+    Preserves clip 01 (hook), the final clip (ending), and the Escalation
+    clip (the educational mechanism). Removes the longest eligible middle
+    clip and renumbers. If no clip can be safely removed, trims sentences
+    from the longest clip instead.
     """
     import re
     clips = []
@@ -346,15 +348,42 @@ def _trim_longest_clip(script_text):
     if len(clips) <= 3:
         return script_text
 
+    PROTECTED_BEATS = {"escalation", "setup"}
     middle_clips = clips[1:-1]
-    longest_idx = max(
-        range(len(middle_clips)),
-        key=lambda i: len(re.findall(r"\S+", middle_clips[i][1])),
-    )
-    removed = middle_clips[longest_idx]
-    print(f"  [{ts()}] Trimmed clip: {removed[0].strip()}")
 
-    kept = [clips[0]] + [c for i, c in enumerate(middle_clips) if i != longest_idx] + [clips[-1]]
+    eligible = [
+        i for i in range(len(middle_clips))
+        if not any(
+            beat in middle_clips[i][0].lower()
+            for beat in PROTECTED_BEATS
+        )
+    ]
+
+    if eligible:
+        longest_idx = max(
+            eligible,
+            key=lambda i: len(re.findall(r"\S+", middle_clips[i][1])),
+        )
+        removed = middle_clips[longest_idx]
+        print(f"  [{ts()}] Trimmed clip: {removed[0].strip()}")
+        kept = [clips[0]] + [c for i, c in enumerate(middle_clips) if i != longest_idx] + [clips[-1]]
+    else:
+        print(f"  [{ts()}] All middle clips are protected — trimming last sentence from longest clip")
+        longest_idx = max(
+            range(len(middle_clips)),
+            key=lambda i: len(re.findall(r"\S+", middle_clips[i][1])),
+        )
+        header, body = middle_clips[longest_idx]
+        narrator_match = re.search(r"(NARRATOR:\s*)(.*)", body, re.DOTALL)
+        if narrator_match:
+            text = narrator_match.group(2).strip()
+            sentences = re.split(r'(?<=[.!?])\s+', text)
+            if len(sentences) > 1:
+                trimmed_text = " ".join(sentences[:-1])
+                body = f"{narrator_match.group(1)}{trimmed_text}"
+                print(f"  [{ts()}] Removed last sentence from: {header.strip()}")
+        middle_clips[longest_idx] = (header, body)
+        kept = [clips[0]] + middle_clips + [clips[-1]]
 
     result_lines = []
     for i, (header, body) in enumerate(kept):
