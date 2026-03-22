@@ -1,23 +1,23 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. The ruins of Stalingrad after the German surrender, February 1943.
+Classic American adult animation frame, vertical 9:16 composition. The steppe outside Stalingrad, February 1943. The surrender.
 
 NARRATION FOR THIS IMAGE: "Of 300,000 trapped, 6,000 came home — because one man wouldn't say retreat."
 
-SHOT TYPE: Wide establishing shot. CAMERA ANGLE: Eye-level. CHARACTER POSITION: left-third, small in frame. A long column of captured German soldiers stretches from the foreground deep into the background, trudging through the frozen ruins of Stalingrad. The figure walks among them in the left third of the frame, small and dwarfed by the endless column. The line of prisoners extends as far as the eye can see, disappearing into flat grey haze.
+SHOT TYPE: Wide shot. CAMERA ANGLE: High-angle, bird's-eye view at roughly 60 degrees. CHARACTER POSITION: center, small. A devastating pullback — the figure is tiny, a pale speck in an enormous landscape. The figure walks among an endless column of captured German soldiers stretching from the foreground into the infinite distance across the frozen steppe. The scale is crushing — thousands of dark figures trudging through white snow in a long winding line toward Soviet captivity.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Walking in the column, hunched forward, arms wrapped around the torso. The skull face is downcast, orb-like eyes hollow and defeated. Each step looks labored.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Walking slowly in the column, head bowed, arms hanging at sides. The figure is distinguishable by the pale translucent body among the dark-clad soldiers. Posture: total defeat, shuffling forward.
 
-Foreground: The nearest prisoners in the column — gaunt soldiers in tattered greatcoats, some wrapped in rags and blankets, some barefoot in the snow, some supporting each other. A dropped personal item on the ground — a frozen photograph face-down in the snow, rendered as a small blank rectangle. A broken rifle stock.
+Foreground: The snow-covered steppe at the high-angle camera position. Soviet guards in brown winter uniforms and ushankas stand with PPSh-41 submachine guns at intervals along the column. A Soviet T-34 tank sits at the road edge, its flat olive drab hull dusted with snow.
 
-Midground: The figure walking among the vast column. Soviet guards in padded winter uniforms and fur hats flank the column at intervals, rifles slung. The road is a flat grey-white frozen surface between ruined buildings.
+Midground: The column of prisoners — hundreds of simplified figures in ragged, filthy field-grey greatcoats, many wrapped in blankets, rags around their boots, some supporting each other. The translucent figure walks among them, barely distinguishable at this distance. Dark shapes of collapsed soldiers lie at the column's edges — those who couldn't go on.
 
-Background: The destroyed cityscape of Stalingrad — endless ruins in muted brick red and concrete grey stretching to the horizon. The column of prisoners disappears into flat grey atmospheric haze in the far distance. The flat pale grey sky presses down. Flat white snow covers everything.
+Background: The column stretches to the vanishing point across the vast white steppe. The ruined skyline of Stalingrad is visible far behind — a jagged dark line of destroyed buildings against the flat grey sky. Flat white snow covers everything. The column curves and winds across the landscape like a dark river flowing away from the dead city.
 
-Flat even lighting. Defeat palette — cold steel grey, dirty snow white, frozen blue-white, muted brick red ruins, charcoal, dull olive-green of Soviet uniforms. The most muted, drained palette of the episode.
+Flat even lighting. Aftermath palette — dirty snow white, dark field-grey column of prisoners, flat olive-brown Soviet forces, steel grey sky, charcoal for the distant Stalingrad ruins. The overwhelming whiteness of the steppe dominates. The dark column of prisoners is the strongest visual element — a line of defeat stretching to infinity.
 
-Period texture: A destroyed German Panzer IV tank hull sits at the roadside, half-buried in snow, its turret blown off and lying inverted nearby — rendered in flat dark grey with rust-brown accents. The tank's iron cross marking is barely visible under soot and snow.
+Period texture: The captured soldiers have removed their insignia — torn collar tabs visible on some greatcoats. Improvised footwear — straw stuffed into torn boots, blanket strips wrapped around feet. Some prisoners carry nothing; others clutch small bundles. Soviet guards wear padded telogreika jackets and felt valenki boots.
 
-Background activity: Prisoners stumble and fall — some are helped up by others, some are not. A Soviet soldier on horseback rides alongside the column. Crows rendered as simple flat black bird shapes sit on the ruins above.
+Background activity: Soviet soldiers on horseback ride alongside the column. A horse-drawn sled carries supplies. At the column's edges, Soviet medics inspect collapsed prisoners, pulling some onto sleds.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

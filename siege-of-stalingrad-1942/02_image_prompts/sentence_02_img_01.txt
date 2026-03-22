@@ -1,21 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. A German military command post in a ruined Stalingrad basement, winter 1942.
+Classic American adult animation frame, vertical 9:16 composition. A German command bunker, Stalingrad front, 1942.
 
 NARRATION FOR THIS IMAGE: "Hitler won't let them leave."
 
-SHOT TYPE: Medium shot. CAMERA ANGLE: Eye-level. CHARACTER POSITION: absent. A cramped underground bunker room. A German officer in a field-grey greatcoat stands rigid at a makeshift table constructed from ammunition crates, one hand pressing a field telephone receiver to his ear, his face drawn tight with disbelief. Another officer sits at the table with his head in his hands.
+SHOT TYPE: Close-up. CAMERA ANGLE: Eye-level. CHARACTER POSITION: absent. A tight framing on a wooden field table inside a cramped underground bunker. A gloved fist in black leather slams down on the table surface. The fist belongs to an unseen figure — only the forearm in a dark grey uniform sleeve is visible from the right edge of the frame.
 
-Foreground: A folded military map spread across the ammunition-crate table, a kerosene lamp (unlit appearance — flat dull brass), a tin cup, and a half-eaten crust of dark bread on a tin plate.
+Foreground: The wooden table surface dominates — covered with a large flat paper map showing the Stalingrad region with river lines and position markers. Small wooden tokens representing military units are scattered across the map. A black iron cross medal sits on the table edge. The black-gloved fist presses down hard on the map, knuckles white.
 
-Midground: The two officers in the confined bunker. The standing officer's knuckles are white on the telephone receiver. Concrete and timber-beam ceiling presses low overhead. The walls are raw earth reinforced with wooden planks.
+Midground: The table edge and the bunker walls — rough-hewn timber beams supporting a low ceiling of packed earth. A field telephone with a cloth-wrapped cord sits on the table corner. A kerosene lamp (unlit appearance, flat dull brass color) sits nearby.
 
-Background: A narrow stairway leading up to ground level, where flat grey winter light enters. Sandbags stacked against the entrance. A third soldier sits on a crate near the stairs, staring blankly at the floor, rifle across his knees.
+Background: The dark interior of the bunker recedes into flat charcoal darkness. A single wooden chair pushed back. A grey military greatcoat hangs on a nail in the timber wall.
 
-Flat even lighting. Muted interior palette — dull earth brown, timber tan, field-grey uniform tones, charcoal shadows, flat pale yellow from the lamp's brass surface. Cold, claustrophobic atmosphere.
+Flat even lighting. Dark oppressive palette — charcoal black, dark timber brown, flat brass, black leather, dirty parchment tan for the map. The bunker interior is uniformly dark with flat muted tones.
 
-Period texture: A German Enigma-style field radio set on a side crate, its dial face and knobs rendered in flat dark green and brass tones. Worn leather officer's gloves draped over the table edge.
+Period texture: The field map shows the distinctive loop of the Volga River around Stalingrad. Wehrmacht unit position tokens are small carved wooden rectangles. The field telephone is a Feldfernsprecher 33 model with its distinctive rectangular box shape.
 
-Background activity: The soldier near the stairs slowly wraps a dirty bandage around his own hand. Steam rises in flat white wisps from someone's breath in the cold air.
+Background activity: None — the claustrophobic stillness of a command decision made far from the front line.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

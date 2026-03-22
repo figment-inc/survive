@@ -1,21 +1,23 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. A German command bunker deep underground, Stalingrad pocket, November 1942.
+Classic American adult animation frame, vertical 9:16 composition. A makeshift German airfield near Stalingrad, late November 1942.
 
 NARRATION FOR THIS IMAGE: "You're ordered to hold — the Luftwaffe will fly in supplies."
 
-SHOT TYPE: Medium close-up. CAMERA ANGLE: Eye-level. CHARACTER POSITION: absent. A German general stands before a wall-mounted map of the Stalingrad region, one fist pressed flat against it. The map shows the German pocket drawn in flat field-grey surrounded by a thick ring of flat dark olive-green — the encirclement visualized. Another officer holds a radio handset away from his ear, face blank with disbelief. A third officer sits at a plank table with his head bowed.
+SHOT TYPE: Medium shot. CAMERA ANGLE: Low-angle, looking up at an aircraft passing overhead. CHARACTER POSITION: left-third. The figure stands on a frozen airstrip, neck craned upward, watching a single Junkers Ju 52 transport plane passing overhead against the flat grey sky. The figure's posture is one of desperate hope — both hands slightly raised, orb-like eyes tracking the aircraft.
 
-Foreground: The edge of the plank table — scattered brass message capsules, a half-empty bottle of schnapps, a field telephone with its cord coiled. A crushed paper cup.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing with head tilted far back, looking straight up. Both arms slightly extended at sides, palms upward in an almost pleading gesture. Expression: anxious hope, eyes wide and tracking the aircraft.
 
-Midground: The officers in the cramped timber-reinforced bunker. The general's posture is rigid, jaw set. Low timber ceiling beams press down. The walls are packed frozen earth with condensation frozen into flat white frost patterns.
+Foreground: Frozen mud and compacted snow of the airstrip surface. A wooden supply crate — small, barely half-full — sits open at the figure's feet. A few tin cans and a single loaf of dark bread visible inside. Wehrmacht soldiers' footprints crisscross the frozen ground.
 
-Background: Through a narrow doorway, a corridor leads to another room where a radio operator sits hunched over a field radio set, adjusting dials. Sandbags line the corridor walls.
+Midground: The figure on the airstrip. Behind the figure, a cluster of Wehrmacht soldiers in worn field-grey greatcoats huddle together, also looking up at the sky. A damaged Ju 52 sits on the ground nearby — one engine cowling missing, propeller bent, clearly not airworthy.
 
-Flat even lighting. Command bunker palette — dark earth brown, timber tan, flat pale yellow brass accents, field-grey uniforms, charcoal shadows, frozen white frost on the earthen walls. Claustrophobic and grim.
+Background: The flat grey winter sky dominates the upper two-thirds of the frame. A single Ju 52 transport — its distinctive corrugated metal fuselage, three engines, fixed landing gear — flies overhead, painted in flat dark grey Luftwaffe colors with small cross markings. The frozen steppe stretches flat to the horizon in all directions. Distant flat grey smoke columns mark the front lines.
 
-Period texture: A Luftwaffe supply manifest pinned to the wall — rendered as a plain white rectangle with no visible content, just a series of horizontal lines suggesting a list. A pair of Luftwaffe aviator wings insignia on one officer's collar.
+Flat even lighting. Airfield palette — frozen mud brown, dirty snow white, steel grey sky, dark grey aircraft, field-grey uniforms, flat charcoal for engine parts. Cold and desolate.
 
-Background activity: The radio operator in the background adjusts his headset and taps a key. Frost crystals hang from the ceiling beams.
+Period texture: The Ju 52's distinctive corrugated Junkers-patent metal skin. The wooden supply crate has rope handles and metal corner brackets. Wehrmacht soldiers wearing improvised winter gear — blankets wrapped over uniforms, rags around boots.
+
+Background activity: A ground crew of three soldiers dragging a fuel drum across the ice. Two soldiers carrying a stretcher toward the grounded Ju 52, hoping for evacuation.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

@@ -1,23 +1,23 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. A high vantage point overlooking Stalingrad, November 1942.
+Classic American adult animation frame, vertical 9:16 composition. Stalingrad, Soviet Union, November 1942.
 
 NARRATION FOR THIS IMAGE: "By November, you hold the city."
 
-SHOT TYPE: Wide panoramic shot. CAMERA ANGLE: High-angle, looking down from an elevated position. CHARACTER POSITION: bottom-center, seen from behind. The figure stands at the edge of a destroyed upper floor of a tall building, looking out over the conquered but utterly devastated city. The figure is seen from behind, small against the vast panorama of ruin.
+SHOT TYPE: Wide shot. CAMERA ANGLE: Eye-level. CHARACTER POSITION: right-third. The figure stands atop a massive pile of rubble at the crest of a destroyed city block, looking out over the conquered ruins. Arms at sides. A brief moment of hollow victory — the figure surveys an ocean of destruction.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing at the broken edge of a floor, seen from behind, hands at sides, posture upright but weary. Shoulders slightly slumped. Looking out over the destroyed city.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing upright on the rubble peak, weight on both feet, arms hanging loosely. Head turned slightly to the left, surveying the panorama. Expression: exhausted emptiness, not triumph.
 
-Foreground: The crumbling concrete edge where the figure stands — exposed rebar, broken floor tiles, a chunk of ceiling hanging by wire. A German field-grey military cap rests on a rubble pile nearby.
+Foreground: The rubble slope in the lower portion of the frame — broken bricks, twisted iron, a shattered ceramic stove, a child's wooden toy wagon half-buried in debris. Flat white snow dusting everything.
 
-Midground: The figure silhouetted against the panorama. Immediately below, German soldiers have established positions — a machine gun nest behind sandbags on a rooftop, supply lines visible along a cleared road.
+Midground: The figure at the crest of the rubble. Nearby, a makeshift German position — sandbags, ammunition crates, a mounted MG-34 machine gun on a bipod, a Wehrmacht flag (plain field-grey cloth on a pole, no visible insignia detail) stuck into the rubble.
 
-Background: The vast destroyed cityscape of Stalingrad — block after block of shattered buildings in muted brick red and concrete grey, punctuated by the dark ribbon of the Volga River at the far edge. Flat grey smoke rises from scattered fires. The sky is heavy overcast in dark steel grey, pressing down. Early snow covers everything in a thin dirty white layer.
+Background: The panorama of destroyed Stalingrad stretching in all directions — a vast flat expanse of grey rubble, skeletal building frames, collapsed roofs. The wide grey Volga River visible in the distance, its far bank a flat dark line. Heavy flat overcast sky in uniform steel grey. First heavy snow falling — flat white dots against grey.
 
-Flat even lighting. November desolation palette — dark steel grey, frozen blue-white, muted brick red, charcoal, dirty snow white. A pyrrhic victory — you hold ruins.
+Flat even lighting. Cold November palette — steel grey, concrete grey, dirty snow white, charcoal, rust-red brick accents, dull olive drab of military equipment. Desaturated and bleak. The figure's pale form almost blends with the snow-dusted landscape.
 
-Period texture: A German field radio antenna rigged on the rooftop below, its wire stretching between two bent poles. A frozen water pipe burst open along a wall, icicles rendered in flat pale blue.
+Period texture: German Heer ammunition crates stacked in threes, their wooden slats rough-hewn. A Feldfernsprecher field telephone wire running along the ground, pinned under bricks. Wehrmacht soldiers' mess tins and canteens hanging from a makeshift rack.
 
-Background activity: A column of German supply trucks crawls along a cleared road far below. Soldiers huddle around a flat orange fire in a barrel on a rooftop. A lone figure carries water pails across a courtyard.
+Background activity: Small groups of Wehrmacht soldiers visible in the distance occupying positions among the ruins — one group huddled around a small fire (flat orange area), another carrying supplies along a cleared path. A horse-drawn supply cart moving slowly along a rubble-cleared road.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

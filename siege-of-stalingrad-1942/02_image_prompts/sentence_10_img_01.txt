@@ -1,23 +1,23 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Inside a frozen dugout bunker, Stalingrad pocket, winter 1942-1943.
+Classic American adult animation frame, vertical 9:16 composition. Inside a frozen German trench, Stalingrad pocket, January 1943.
 
 NARRATION FOR THIS IMAGE: "Your rations drop to a slice of bread."
 
-SHOT TYPE: Close-up. CAMERA ANGLE: High-angle, looking down at the figure's hands. CHARACTER POSITION: center, only upper body and hands visible. A tight downward view of the figure's translucent skeletal hands holding a single thin slice of dark bread — the bones of the fingers clearly visible through the pale skin gripping the tiny ration. The bread is dark, dense, almost black rye, barely the size of a palm.
+SHOT TYPE: Extreme close-up. CAMERA ANGLE: Eye-level, tight on the figure's hands. CHARACTER POSITION: center. An intimate, devastating close-up — the figure's translucent hands hold a single thin slice of dark Kommissbrot (German military rye bread) at chest height. The hands tremble slightly. Through the translucent skin, the finger bones and wrist bones are starkly visible. The slice of bread is tiny — barely the size of the palm — and this is everything.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Only the upper chest, arms, and hands are visible in this tight framing. The hands tremble slightly — rendered by showing the bread at a slight angle. The ribcage is prominently visible through the translucent chest. Expression: the skull face is partially visible at the top of the frame, orb-like eyes cast downward at the bread, hollow despair.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Only the hands, wrists, and lower forearms visible in this tight framing. The hands cup the bread slice delicately, protectively — fingers curled around it as if it were precious.
 
-Foreground: The figure's hands and the single slice of bread dominate the frame. A dented tin mess plate sits on the figure's lap — empty except for crumbs. A bent tin spoon lies beside it.
+Foreground: The figure's translucent hands and the bread slice dominate the frame — flat dark brown bread against pale translucent skin with visible metacarpal bones. Frost crystals cling to the figure's wrist area. The bread has a rough, dense texture rendered in flat dark brown with flat dark specks.
 
-Midground: The figure's lap and torso. Behind, the frozen earthen wall of the dugout, frost patterns rendered in flat white on the dark brown earth.
+Midground: Just below the hands, the figure's midsection is barely visible — ribcage through translucent skin, the hollow concavity of a starving torso. Behind, the frozen trench wall — packed earth with frost, timber shoring.
 
-Background: The dim interior of the bunker — other soldiers sit in the shadows, hunched shapes in frost-covered greatcoats. A stack of empty supply crates. The ceiling is low timber beams coated in flat white frost.
+Background: The trench extends in both directions. Other soldiers sit slumped against the trench walls, wrapped in frozen blankets and rags, too exhausted to move. Flat ice-blue frost covers every surface. The grey sky visible in a strip at the top of the frame above the trench edge.
 
-Flat even lighting. Starvation palette — dark bread brown-black, frost white, cold earth brown, pale blue-grey, charcoal. The bread is the only warm-toned object — a pitiful dark brown rectangle.
+Flat even lighting. Starvation palette — ice blue-white, frozen earth brown, flat dark brown bread, pale translucent figure, charcoal grey for trench timber, dirty white frost. The tiny brown bread slice is the visual focal point — a speck of sustenance in a frozen void.
 
-Period texture: A German mess kit with its distinctive kidney-shaped canteen, frozen shut. A ration card — a small folded paper — tucked into a belt loop, rendered as a plain folded paper with no visible writing.
+Period texture: Kommissbrot — dense German military rye bread, nearly black, baked in rectangular loaves. The slice is roughly 50 grams — barely a mouthful. Wehrmacht soldiers' standard ration in the pocket had dropped from 350g of bread daily to this.
 
-Background activity: A soldier in the background gnaws on something — a frozen piece of leather from a boot strap. Another soldier stares at his own empty hands.
+Background activity: A soldier beside the figure stares at the bread in the figure's hands with hollow, envious eyes. Another soldier chews on a leather belt strap.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

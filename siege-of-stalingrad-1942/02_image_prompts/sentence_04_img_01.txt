@@ -1,23 +1,23 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Interior of a destroyed apartment building, Stalingrad, autumn 1942.
+Classic American adult animation frame, vertical 9:16 composition. Inside a destroyed apartment building, Stalingrad, autumn 1942.
 
 NARRATION FOR THIS IMAGE: "You fight room by room, floor by floor."
 
-SHOT TYPE: Medium shot. CAMERA ANGLE: Eye-level. CHARACTER POSITION: left-third. The figure crouches behind an overturned cast-iron bathtub inside a gutted apartment room, peering around its edge. The room is devastated — the exterior wall is blown open revealing the grey sky beyond. Rubble covers the floor. The figure grips the bathtub rim with both skeletal-visible hands.
+SHOT TYPE: Medium close-up. CAMERA ANGLE: Over-shoulder, looking past the figure into a dark doorway. CHARACTER POSITION: left-third, seen from behind. The figure crouches at the edge of a blown-open doorway inside a wrecked Soviet apartment, peering cautiously into the next room. The figure's translucent back and visible spine and ribcage face the camera.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Crouching low behind the bathtub, knees bent, spine curved. Expression: tense focus, orb-like eyes narrowed, jaw clenched.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Crouching low, one hand braced against the splintered door frame, the other held up defensively. Spine curved, weight on the balls of the feet. Tense, coiled posture.
 
-Foreground: Shattered floorboards and plaster chunks. A broken ceramic teapot. A spent rifle cartridge. The heavy cast-iron bathtub tipped on its side as makeshift cover.
+Foreground: The figure's translucent shoulder and upper back dominate the left side. Splintered wooden door frame with chunks of plaster hanging. Spent brass cartridge casings scattered on the concrete floor. A broken ceramic teapot in pieces.
 
-Midground: The figure crouched in the left third. Beyond the blown-open wall, a cross-section view of the adjacent room shows another floor level with a collapsed staircase connecting them — emphasizing the vertical, floor-by-floor nature of the combat.
+Midground: Through the doorway — a destroyed apartment room. An overturned iron bed frame, a collapsed wardrobe spilling moth-eaten clothes, bullet holes stitched across the far wall in a diagonal line. A dark shape of a fallen soldier's boot visible behind the bed frame.
 
-Background: Through the gaping hole in the wall, the ruined cityscape of Stalingrad — more shattered apartment blocks, flat grey smoke, and an overcast sky in cold blue-grey. Flat white snow particles drift through the exposed interior.
+Background: Through the blown-out exterior wall of the apartment, the grey ruins of Stalingrad visible outside — gutted buildings, flat grey sky, drifting flat white snow particles. A staircase on the far wall leads upward, its railing broken, several steps missing.
 
-Flat even lighting. Interior destruction palette — dusty plaster cream, charcoal rubble, muted brick red, steel grey, cold blue-grey sky. Flat even tones with no warm areas.
+Flat even lighting. Interior darkness palette — deep charcoal, flat dark grey, muted concrete white where exterior wall is missing, rust-brown for iron fixtures, dirty plaster cream. The figure's pale translucent form contrasts sharply against the dark interior.
 
-Period texture: A Soviet-era wallpaper pattern barely visible on one remaining wall section — faded floral motif in muted green and cream, peeling and scorched at the edges. A child's wooden toy horse half-buried in debris.
+Period texture: Soviet domestic details — a floral-patterned wallpaper hanging in torn strips from the walls, a small framed photograph face-down on the floor (no visible image), a cast-iron radiator riddled with bullet holes.
 
-Background activity: Through the hole in the wall, two simplified soldier figures on the floor above exchange fire across a hallway, muzzle flashes rendered as flat orange-yellow starbursts.
+Background activity: Through the gap in the exterior wall, two Wehrmacht soldiers crouch on the floor below, one gesturing upward toward this floor with an outstretched arm.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

@@ -1,32 +1,32 @@
 [
   {
-    "fact": "The German army fought approximately five months to take Stalingrad (roughly August 1942 – February 1943)",
+    "fact": "The German army fights five months for Stalingrad (roughly August 1942 – February 1943)",
     "source": "Stalingrad, Antony Beevor (1998)",
     "url": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad"
   },
   {
-    "fact": "Some buildings changed hands multiple times a day during the urban fighting",
-    "source": "Stalingrad, Antony Beevor (1998) — describes Pavlov's House and other strongpoints changing hands repeatedly",
-    "url": "https://en.wikipedia.org/wiki/Pavlov%27s_House"
+    "fact": "A million Soviets surround you — Operation Uranus involved over 1 million Soviet troops",
+    "source": "Stalingrad, Antony Beevor (1998); Soviet strength figures widely documented",
+    "url": "https://en.wikipedia.org/wiki/Operation_Uranus"
   },
   {
-    "fact": "Temperatures dropped to around minus 30°C during the winter of 1942–43 at Stalingrad",
-    "source": "Widely documented; detailed in Stalingrad: The Fateful Siege, Antony Beevor (1998), and German 6th Army war diaries",
-    "url": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad#Axis_collapse"
+    "fact": "The Luftwaffe will fly in supplies — they deliver a tenth of what you need (needed ~700 tons/day, delivered roughly 85–105 tons/day on average)",
+    "source": "Stalingrad: The Fateful Siege, Antony Beevor (1998); also Joel Hayward, 'Stopped at Stalingrad: The Luftwaffe and Hitler's Defeat in the East' (1998)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad#Axis_air_supply"
   },
   {
-    "fact": "Rations for encircled German troops dropped to starvation levels — as low as 50–100 grams of bread per day",
-    "source": "Stalingrad, Antony Beevor (1998); also documented in the German Federal Military Archive (Bundesarchiv-Militärarchiv)",
-    "url": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad#German_supply_situation"
+    "fact": "Temperatures dropped to minus thirty degrees (Celsius) during the siege",
+    "source": "Widely documented; Stalingrad, Antony Beevor (1998) describes temperatures reaching −30°C and below in January 1943",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad#Soviet_counter-offensive"
   },
   {
-    "fact": "Of roughly 300,000 German soldiers encircled, approximately 91,000 were captured and only about 5,000–6,000 survived Soviet captivity to return home",
-    "source": "Stalingrad, Antony Beevor (1998); figures corroborated by the German Red Cross tracing service and Soviet archival records",
+    "fact": "Of 300,000 trapped, roughly 6,000 eventually returned home to Germany (after years in Soviet captivity)",
+    "source": "Stalingrad, Antony Beevor (1998) — approximately 91,000 surrendered; about 5,000–6,000 survived Soviet POW camps to return to Germany by 1955",
     "url": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad#Aftermath"
   },
   {
-    "fact": "Hitler refused to allow the 6th Army to attempt a breakout or retreat from the encirclement",
-    "source": "Hitler's order to hold at all costs is documented in the war diary of the 6th Army and in Stalingrad, Antony Beevor (1998)",
-    "url": "https://en.wikipedia.org/wiki/6th_Army_(Wehrmacht)#Stalingrad"
+    "fact": "Hitler refused to allow a retreat or breakout from the encirclement ('one man wouldn't say retreat')",
+    "source": "Stalingrad, Antony Beevor (1998); Hitler's no-retreat order to Paulus's 6th Army is widely documented",
+    "url": "https://en.wikipedia.org/wiki/Friedrich_Paulus#Stalingrad"
   }
 ]

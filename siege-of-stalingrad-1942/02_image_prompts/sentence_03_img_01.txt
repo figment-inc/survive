@@ -1,23 +1,23 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Stalingrad, Soviet Union, winter 1942.
+Classic American adult animation frame, vertical 9:16 composition. Stalingrad, Soviet Union, 1942.
 
 NARRATION FOR THIS IMAGE: "You would not want to be in Stalingrad, 1942."
 
-SHOT TYPE: Close-up. CAMERA ANGLE: Low-angle, looking up at the figure. CHARACTER POSITION: center. The figure stands in a narrow rubble-choked alley between two destroyed buildings, looking directly toward the viewer with wide, alarmed pale orb-like eyes. The skeletal structure visible through the translucent skin is stark against the cold grey ruins behind. Snow falls in flat white flecks around the figure.
+SHOT TYPE: Medium shot. CAMERA ANGLE: Low-angle, looking up at the figure from ground level. CHARACTER POSITION: center. The figure stands in the middle of a bombed-out street, small against the towering ruins of gutted apartment blocks rising on either side. The figure looks directly toward the viewer with a grim, knowing expression — orb-like eyes narrowed, head tilted slightly forward.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. The figure stands slightly hunched, arms pulled close to the body, shoulders raised in a defensive posture. Expression: wide-eyed dread, mouth slightly open.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing upright with arms at sides, shoulders slightly hunched, weight shifted back as if reluctant to be here. Expression: wary unease, brow area furrowed.
 
-Foreground: Broken bricks and twisted rebar scattered at ground level. A dented German steel helmet half-buried in rubble. Flat white snow accumulating on debris.
+Foreground: Rubble and broken bricks scattered on the ground at camera level. A dented German Stahlhelm helmet lying upside-down in the dust. A bent rifle barrel protruding from a pile of masonry.
 
-Midground: The figure filling the center of the frame, surrounded by the narrow alley walls — exposed brick in muted red-brown, cracked plaster in dirty cream, jagged edges of destroyed floors visible above.
+Midground: The figure standing on cracked pavement. Behind the figure, a destroyed fountain — the basin cracked in half, no water, filled with debris. Shell craters pockmark the street.
 
-Background: A sliver of flat overcast sky visible between the ruined building tops. A plume of flat dark grey smoke rises from beyond the rooftops. Flat white snow particles drift downward.
+Background: Towering ruins of Soviet apartment blocks — five and six stories of hollow concrete shells with every window blown out, walls partially collapsed showing cross-sections of rooms. Flat steel-grey overcast sky above. Flat white snow particles drifting through the air. Columns of flat dark smoke rising in the distance.
 
-Flat even lighting. Cold winter palette — frozen blue-white, steel grey, muted brick red, charcoal, dirty snow white. The figure's pale translucent skin appears almost blue-tinged against the cold tones.
+Flat even lighting. Cold devastation palette — rubble grey, concrete white, steel blue-grey, charcoal, rust-red exposed brick. The figure's pale translucent skin stands out starkly against the grey ruins. Flat white snow dots against dark surfaces.
 
-Period texture: A bent Soviet PPSh-41 submachine gun drum magazine lying in the rubble. Frozen boot prints pressed into the dirty snow on the ground.
+Period texture: A section of torn railway track twisted into a spiral by an explosion, visible in the mid-distance. Soviet-era apartment architecture — blocky, utilitarian, now shattered.
 
-Background activity: None visible in this tight composition — isolation and confinement emphasized.
+Background activity: Distant simplified Wehrmacht soldiers moving along the base of a ruined building in single file. A thin column of smoke rises from a basement entrance where soldiers have made a fire.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

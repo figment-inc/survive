@@ -1,23 +1,23 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. The frozen steppe beyond Stalingrad, February 1943.
+Classic American adult animation frame, vertical 9:16 composition. The steppe outside Stalingrad, February 1943.
 
 NARRATION FOR THIS IMAGE: "Of 300,000 trapped, 6,000 came home — because one man wouldn't say retreat."
 
-SHOT TYPE: Extreme wide shot. CAMERA ANGLE: High-angle, near bird's-eye. CHARACTER POSITION: center, tiny in frame. A vast overhead view of the frozen white Russian steppe. A single thin dark line — the column of prisoners — cuts across the white expanse diagonally from bottom-left to upper-right, disappearing into the flat grey horizon. The figure is nearly invisible — a tiny pale dot among thousands of dark specks in the column. The scale is overwhelming — humans reduced to almost nothing against the infinite frozen landscape.
+SHOT TYPE: Close-up. CAMERA ANGLE: Eye-level, facing the figure directly. CHARACTER POSITION: center. The final image — a tight close-up of the figure's face, looking directly at the viewer. The skull is clearly visible through the translucent skin. The orb-like eyes stare straight out of the frame — haunted, hollow, accusing. Behind the figure, the blurred suggestion of the endless prisoner column. This is the face of one of the 6,000 who eventually came home. Or one of the 294,000 who didn't.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Nearly invisible at this scale — a tiny pale translucent dot among the dark column.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Head filling the center of the frame, facing directly at the viewer. The skull structure is prominent through the pale skin — cheekbones, jaw, orbital sockets all sharply defined. Expression: profound exhaustion and loss, orb-like eyes dim and unfocused, mouth slightly open. Frost clings to the surface of the translucent skin along the jawline and brow ridge.
 
-Foreground: The flat white frozen ground nearest the viewer, with scattered dark objects — abandoned equipment, frozen bodies rendered as small dark simplified shapes half-buried in snow.
+Foreground: The figure's face and upper chest dominate the frame. Frost crystals — flat white angular shapes — cling to the figure's translucent skin around the brow, cheeks, and shoulders. The collarbone and upper ribcage are visible through the skin at the bottom of the frame.
 
-Midground: The prisoner column as a thin dark line crossing the white steppe. Individual figures are barely distinguishable at this scale — just a river of dark shapes moving slowly eastward. Soviet escort vehicles — simplified flat dark green truck shapes — accompany the column at intervals.
+Midground: Just past the figure's shoulders, the vague shapes of other prisoners — dark field-grey forms — shuffle past in both directions, out of focus in the flat 2D composition. Soviet guards as dark brown shapes at the edges.
 
-Background: The steppe extends to the horizon in every direction — flat white merging into flat pale grey sky with no clear horizon line. The total emptiness and scale of Russia swallowing the remnants of an army. In the far distance, barely visible, another column — or perhaps just a trick of the grey haze.
+Background: The flat white steppe and flat grey sky, barely distinguishable from each other. The ruined dark skyline of Stalingrad far in the distance — a jagged line of destroyed buildings, the final image of the city that consumed an army.
 
-Flat even lighting. Final desolation palette — flat white, pale grey, charcoal line of the column, tiny dark accent shapes. Almost abstract in its simplicity — the human catastrophe reduced to a thin dark line across white emptiness.
+Flat even lighting. Final palette — frost white, pale translucent figure, steel grey sky, dark field-grey prisoners, charcoal distant ruins. The figure's face is the palest, most prominent element — an almost ghostly visage staring out of a frozen wasteland.
 
-Period texture: Tire tracks and footprints in the snow creating a wide trampled path — the only mark humans have made on this landscape. A wrecked Junkers Ju-52 transport plane sits broken in the snow off to one side, its flat dark grey fuselage half-covered in drift snow — a failed supply run.
+Period texture: The frost on the figure's skin evokes the minus-thirty temperatures that killed as many soldiers as Soviet bullets. The distant Stalingrad skyline shows the distinctive shapes of destroyed Soviet industrial buildings — the grain elevator, the tractor factory — reduced to dark angular silhouettes.
 
-Background activity: The column moves imperceptibly — at this scale, it appears frozen, a permanent scar on the landscape. Black bird shapes circle above.
+Background activity: The shuffling column continues behind the figure, but the tight framing reduces it to abstract dark shapes. The focus is entirely on the figure's haunted face.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

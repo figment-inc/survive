@@ -1,21 +1,23 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. A stairwell inside a destroyed building, Stalingrad, autumn 1942.
+Classic American adult animation frame, vertical 9:16 composition. A bombed-out stairwell inside a Stalingrad apartment building, autumn 1942.
 
 NARRATION FOR THIS IMAGE: "You fight room by room, floor by floor."
 
-SHOT TYPE: POV shot — looking upward through a destroyed stairwell. CAMERA ANGLE: Extreme low-angle, looking straight up. CHARACTER POSITION: absent from direct view (POV perspective). The viewer looks up through a bombed-out stairwell shaft — broken concrete landings spiral upward three or four floors. Holes blown through each floor are visible. Soldiers' boots and legs are visible on different levels, crouching and moving.
+SHOT TYPE: Extreme close-up. CAMERA ANGLE: High-angle, looking straight down the stairwell from above. CHARACTER POSITION: center-bottom. A dramatic top-down view looking down through multiple floors of a destroyed apartment stairwell. The figure is visible two floors below, climbing upward over rubble-choked stairs. The spiral of broken railings and collapsed landings recedes downward.
 
-Foreground: The jagged edge of the current floor level — broken concrete, exposed rebar bent into twisted shapes, dust and plaster debris hanging from the edge. A dropped rifle leans against the wall.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Seen from directly above — the skull visible, ribcage foreshortened, climbing hand gripping a broken railing. Hauling upward with effort, one knee on a cracked step.
 
-Midground: The stairwell shaft ascending — each landing is partially destroyed, with chunks missing. On the second floor landing, two soldier figures crouch with rifles. On the third floor, a figure throws something downward — a flat grey object (grenade) mid-arc.
+Foreground: The jagged edge of a collapsed concrete landing at the top of the frame, rebar exposed and bent. Dust and small debris particles in flat grey. A dangling electrical wire with a bare socket.
 
-Background: The top of the stairwell opens to flat overcast sky where the roof has been blown away entirely. Flat grey smoke drifts across the opening. Snowflakes enter from above in flat white.
+Midground: The stairwell shaft — cracked walls, peeling wallpaper in faded green, broken wooden banisters. The figure climbing two floors below, pale form visible against the dark stairwell. Another Wehrmacht soldier in field-grey climbs behind the figure one floor lower.
 
-Flat even lighting. Vertical composition palette — concrete grey, charcoal, dusty cream, muted olive-green of soldier uniforms, flat orange-yellow muzzle flash accent on one level. Cold and oppressive.
+Background: The bottom of the stairwell, four floors down — a pile of rubble, broken furniture, and a collapsed section of wall blocking the ground floor. Flat charcoal darkness at the very bottom.
 
-Period texture: Soviet-era iron stairwell railing, ornamental pattern half-destroyed, bent outward. A military boot print in plaster dust on a landing.
+Flat even lighting. Vertical composition palette — dark charcoal stairwell walls, faded institutional green paint, concrete grey, rust-brown railings, pale figure as the brightest element. Flat white dust particles hanging in the shaft.
 
-Background activity: A soldier on the second landing signals to another with a flat hand gesture. Dust particles drift downward through the shaft in flat white specks.
+Period texture: Soviet-era institutional stairwell — wide stone steps with rounded nosings, iron pipe railings, apartment numbers stamped into small metal plates on doors (numbers not legible, just metal rectangles).
+
+Background activity: The Wehrmacht soldier below the figure looks upward nervously, holding a stick grenade in one hand.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

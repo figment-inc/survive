@@ -1,21 +1,21 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. The frozen steppe outside Stalingrad, deep winter 1942-1943.
+Classic American adult animation frame, vertical 9:16 composition. The frozen steppe outside Stalingrad, January 1943.
 
 NARRATION FOR THIS IMAGE: "Minus thirty."
 
-SHOT TYPE: Extreme close-up. CAMERA ANGLE: Eye-level, tight. CHARACTER POSITION: absent. An extreme close-up of a German military thermometer mounted on a wooden post — the mercury column sits at the very bottom. The glass tube and the wooden backing are coated in thick white frost. Icicles hang from the bottom of the thermometer housing. Everything in the frame is frozen — encrusted in flat blue-white and white frost textures.
+SHOT TYPE: Wide establishing shot. CAMERA ANGLE: Eye-level, looking across a vast frozen landscape. CHARACTER POSITION: absent. A brutal environmental establishing shot — nothing but frozen white emptiness. The steppe is a flat expanse of hard-packed snow under a sky so cold it appears almost white-grey. This image should feel like the temperature itself — empty, hostile, killing.
 
-Foreground: The thermometer dominates the frame. The wooden post it's nailed to is split from the cold, frost filling the crack in flat white. A soldier's frozen glove is draped over the post top, stiff and ice-encrusted in flat blue-grey.
+Foreground: The frozen ground — a flat plane of blue-white ice and compressed snow. Frost crystals rendered as small flat white angular shapes on every surface. A frozen canteen lies on the ground, burst open from the ice expanding inside it. A Wehrmacht belt buckle half-buried in ice.
 
-Midground: Immediately behind the post, a frozen trench wall — packed earth and snow, with a shovel frozen into the ground at an angle, its handle coated in flat white frost.
+Midground: A lone barbed-wire fence line stretching across the frame horizontally, every wire coated in thick flat white frost. The wire sags under the weight of ice. A frozen grey blanket hangs on the wire, stiff as a board, encrusted in flat white frost.
 
-Background: A flat white expanse of frozen steppe under a flat pale grey sky — no horizon line distinguishable, the ground and sky merging into a uniform frozen void. Flat white snow particles drift horizontally, driven by wind.
+Background: The vast empty steppe — perfectly flat, perfectly white, stretching to a barely distinguishable horizon where flat white ground meets flat pale grey sky. No landmarks. No buildings. No trees. Just the crushing emptiness of the Russian winter. A thin line of distant figures — barely visible dark specks — suggests a column of soldiers trudging across the void.
 
-Flat even lighting. Deep freeze palette — ice blue-white, frost white, pale grey, charcoal accents on frozen metal and wood. The coldest image in the episode — almost monochromatic in its frozen blue-white tones.
+Flat even lighting. Deep freeze palette — ice blue-white, frost white, pale grey sky, steel blue shadows on snow, charcoal for the few man-made objects. Everything locked in flat pale frozen tones. No warmth anywhere in the frame.
 
-Period texture: The thermometer is a German Wehrmacht-issue field instrument with a flat brass housing, the metal turned blue-grey with frost. A coil of frozen barbed wire sits at the base of the post, each barb tipped with a bead of flat white ice.
+Period texture: The burst canteen is a Wehrmacht M31 model — aluminium, with its distinctive cup-cap. The frozen blanket on the wire still shows a faint pattern — German military issue wool.
 
-Background activity: None — absolute frozen stillness. The emptiness is the point.
+Background activity: The distant column of specks — soldiers marching — is the only sign of life. Even they seem frozen in place at this distance.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

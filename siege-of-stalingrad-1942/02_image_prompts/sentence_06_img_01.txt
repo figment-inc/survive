@@ -1,23 +1,23 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. The frozen steppe surrounding Stalingrad, November 1942.
+Classic American adult animation frame, vertical 9:16 composition. The steppe outside Stalingrad, November 19, 1942. Operation Uranus.
 
 NARRATION FOR THIS IMAGE: "A million Soviets surround you."
 
-SHOT TYPE: Extreme wide shot. CAMERA ANGLE: High-angle, near bird's-eye. CHARACTER POSITION: center, tiny in frame. A vast overhead view of the flat frozen steppe around Stalingrad. The figure stands at the center of a German defensive position — a small pale translucent shape among grey-coated soldiers in a ring of hastily dug trenches and foxholes. In every direction, enormous columns of Soviet troops and armored vehicles close in from the horizon, converging on the German pocket like a tightening noose.
+SHOT TYPE: POV shot — what the figure sees. CAMERA ANGLE: Eye-level, looking outward from the German perimeter. CHARACTER POSITION: absent from main frame, but the figure's translucent hands grip the edge of a trench parapet in the extreme bottom of the frame. A terrifying first-person view: the flat frozen steppe stretching before the viewer, and across that steppe, an endless wave of Soviet forces advancing.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing rigid in the center of the defensive ring, head turning to look at the approaching forces. Expression: dawning horror, orb-like eyes wide, jaw slack.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Only the figure's hands visible at the bottom of the frame — translucent fingers with visible bone structure gripping the frozen earth of the trench edge, knuckles tight.
 
-Foreground: The edge of the German trench line — frozen sandbags, a toppled anti-tank gun in flat dark grey, coils of barbed wire in charcoal. Ammunition crates stacked and half-buried in snow.
+Foreground: The dirt and ice-crusted edge of a German trench, the figure's pale translucent hands gripping it. Coils of barbed wire in front of the trench, snow caught in the barbs. A spent shell casing near the hands.
 
-Midground: The figure among a cluster of German soldiers in field-grey huddled in their positions, looking outward. The defensive perimeter is thin and improvised — shallow trenches in frozen earth, overturned vehicles used as barricades.
+Midground: The flat frozen steppe — a vast expanse of dirty white snow. Across this expanse, rows upon rows of Soviet soldiers in dark brown-green winter uniforms advancing in massed formation. Soviet T-34 tanks — flat olive drab — rolling forward in a line, their tracks churning dark earth through the snow.
 
-Background: The flat white steppe stretches to every horizon. From the north, south, and west, vast dark formations of Soviet troops advance — rendered as dense dark olive-green masses flowing across the white landscape. T-34 tanks in flat olive-green lead the columns. The scale is overwhelming — the German pocket is a tiny island in an ocean of advancing forces. Flat grey overcast sky presses down.
+Background: The advancing Soviet force extends to the horizon — an overwhelming mass of dark figures against white snow. Flat grey explosions — artillery bursts — dot the landscape. The sky is heavy flat steel grey, pressing down on the steppe. Soviet Katyusha rocket trails streak across the sky in flat red-orange lines.
 
-Flat even lighting. Encirclement palette — flat white frozen steppe, dark olive-green Soviet formations, field-grey German positions, charcoal, steel grey sky. The contrast between the small grey pocket and the massive dark green advance is the visual story.
+Flat even lighting. Encirclement palette — frozen dirty white snow, dark olive-brown Soviet forces, steel grey sky, flat red-orange rocket trails, charcoal explosion bursts. The sheer scale of the Soviet advance dominates the frame.
 
-Period texture: A German Panzer III sits at the perimeter with its turret traversed, flat dark grey hull low on fuel — track marks in the snow behind it show it hasn't moved in days.
+Period texture: The distinctive silhouette of T-34 tanks with their sloped armor and wide tracks. Soviet soldiers wearing ushankas (fur-flap hats) and carrying PPSh-41 submachine guns with their distinctive drum magazines. Katyusha rocket launchers visible on truck beds in the far distance.
 
-Background activity: German soldiers point and gesture toward the approaching formations. A runner sprints between foxholes carrying a message. On the horizon, flat grey-white smoke rises from Soviet artillery positions.
+Background activity: Soviet infantry advancing in dense waves, some at a running crouch. Tank commanders visible in open hatches. A Soviet flag bearer visible in the mid-distance.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

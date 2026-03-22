@@ -1,23 +1,23 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. A frozen trench on the Stalingrad perimeter, deep winter 1942-1943.
+Classic American adult animation frame, vertical 9:16 composition. A German trench, Stalingrad pocket, January 1943.
 
 NARRATION FOR THIS IMAGE: "You freeze in your trench."
 
-SHOT TYPE: Medium shot. CAMERA ANGLE: Low-angle, looking up from within the trench. CHARACTER POSITION: center. The figure stands rigid and upright in a narrow frozen trench, completely still — frozen in place. The translucent body is tinged blue-white with cold. Ice crystals form on the surface of the translucent skin. The skeleton inside is rendered in stark contrast — pale bones visible through frost-covered translucent skin. The figure's arms are locked at the sides, posture unnaturally stiff.
+SHOT TYPE: Medium shot. CAMERA ANGLE: Low-angle, looking up from the trench floor. CHARACTER POSITION: center. The figure sits curled in a fetal position at the bottom of a frozen trench, knees drawn up to the chest, arms wrapped around the knees. The camera looks up at the figure from below, making the frozen trench walls rise on either side like a grave. The narrow strip of grey sky above is the only way out.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing perfectly rigid, arms straight at sides, locked in an upright position. The orb-like eyes stare straight ahead, unblinking. Frost texture in flat white rendered on the skin surface. The figure is becoming part of the frozen landscape.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Curled into a tight ball at the trench bottom, spine curved, skull tucked against the knees. Arms wrapped tightly around shins. The posture of someone trying to conserve the last scraps of body heat. Expression: eyes half-closed, the blankness of hypothermia.
 
-Foreground: The trench walls rise on either side — frozen earth and packed snow in flat dark brown and dirty white. A rifle with a frozen bolt mechanism leans against the trench wall, its metal coated in flat blue-grey frost. Icicles hang from the trench edge above.
+Foreground: The frozen trench floor — hard-packed ice, frozen mud. A discarded rifle lies beside the figure, its bolt frozen open, coated in flat white frost. Empty shell casings embedded in ice. A tin cup on its side, frozen solid to the ground.
 
-Midground: The figure standing rigid in the center of the trench. On either side, other frozen figures — German soldiers in greatcoats — stand or sit in similarly rigid frozen poses. One has his hands still wrapped around a rifle. Another is slumped against the trench wall, frost covering his coat and helmet in flat white.
+Midground: The figure curled at the trench bottom. The trench walls rise steeply on both sides — frozen earth reinforced with splintered timber planks, ice hanging from every edge in flat blue-white. Two other soldiers sit slumped against the trench wall nearby — one is motionless, head lolled to one side, possibly dead, frost covering the shoulders; the other stares blankly upward.
 
-Background: Above the trench lip, the flat white frozen steppe stretches to the horizon under a heavy flat pale grey sky. Barbed wire strung along wooden posts runs along the trench edge, each wire encased in flat white ice. Flat white snow particles blow horizontally across the scene.
+Background: The narrow strip of sky visible above the trench edge — flat pale grey-white, oppressive, featureless. The top edge of the trench is rimmed with frost and a thin line of barbed wire. Flat white snow particles drift downward into the trench from above.
 
-Flat even lighting. Frozen death palette — ice blue-white, frost white, pale grey, dark earth brown frozen solid, charcoal accents. The most lifeless colors in the episode — approaching monochrome.
+Flat even lighting. Hypothermia palette — ice blue-white, frozen earth grey-brown, frost white, steel blue shadow tones, pale translucent figure blending into the ice. The entire frame feels frozen solid — no warm tones anywhere.
 
-Period texture: A German MG-42 machine gun mounted on the trench parapet, its barrel and bipod encased in a thick layer of flat blue-white ice, rendered completely inoperable. Frozen sandbags split open with earth and ice spilling out.
+Period texture: The Mauser K98k rifle frozen beside the figure, its wooden stock cracked from the cold. German jackboots visible on the motionless soldier nearby — the leather split and curling from the freeze-thaw cycle. A rosary of wooden beads clutched in the still soldier's frozen fingers.
 
-Background activity: Absolute stillness. No movement. The frozen soldiers around the figure are as motionless as the landscape — the line between living and dead is invisible.
+Background activity: None. Absolute stillness. The only movement is the slow drift of snow particles falling into the trench.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.
