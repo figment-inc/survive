@@ -791,6 +791,23 @@ def _location_fontsize(location: str) -> int:
     return 36
 
 
+def _font_spec() -> str:
+    """Return an ffmpeg drawtext font specification that works on macOS and Linux."""
+    import platform
+    mac_font = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+    linux_fonts = [
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+        "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf",
+    ]
+    if platform.system() == "Darwin" and Path(mac_font).exists():
+        return f"fontfile={mac_font}"
+    for lf in linux_fonts:
+        if Path(lf).exists():
+            return f"fontfile={lf}"
+    return "font=sans"
+
+
 def validate_narration_timing(
     narration_path: Path,
     video_duration: float,
@@ -1037,12 +1054,10 @@ def mix_final_audio(
         audio_streams.append("[veo]")
 
     if has_narration:
-        inputs.extend(["-i", str(narration_path)])
-        delay_ms = int(narration_delay * 1000)
+        inputs.extend(["-itsoffset", f"{narration_delay:.3f}", "-i", str(narration_path)])
         narr_chain = []
         if narration_atempo > 1.001:
             narr_chain.append(f"atempo={narration_atempo:.4f}")
-        narr_chain.append(f"adelay={delay_ms}|{delay_ms}")
         narr_chain.append("volume=1.0")
         narr_chain.append("apad")
         narr_filters = ",".join(narr_chain)
@@ -1067,7 +1082,7 @@ def mix_final_audio(
         return True
 
     streams_str = "".join(audio_streams)
-    filter_parts.append(f"{streams_str}amix=inputs={mix_count}:duration=first:normalize=0[a]")
+    filter_parts.append(f"{streams_str}amix=inputs={mix_count}:duration=longest:normalize=0[a]")
 
     all_filters = video_filter_parts + filter_parts
     filter_complex = ";".join(all_filters)
@@ -1145,9 +1160,9 @@ def burn_location_title(
         f"if(lt(t,{duration}),(({duration}-t)/{fade_out}),0)))"
     )
 
-    font = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+    font_spec = _font_spec()
     common_style = (
-        f"fontfile={font}:"
+        f"{font_spec}:"
         f"fontcolor=white:"
         f"borderw=4:"
         f"bordercolor=black:"
@@ -1244,12 +1259,12 @@ def burn_framing_line(
         f"if(lt(t,{duration}),(({duration}-t)/{fade_out}),0)))"
     )
 
-    font = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+    font_spec = _font_spec()
 
     text_filter = (
         f"drawtext="
         f"text='{escaped}':"
-        f"fontfile={font}:"
+        f"{font_spec}:"
         f"fontsize={font_size}:"
         f"fontcolor=white:"
         f"borderw=3:"
