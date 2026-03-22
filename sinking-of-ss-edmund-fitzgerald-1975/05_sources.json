@@ -1,0 +1,32 @@
+[
+  {
+    "fact": "The SS Edmund Fitzgerald was the largest ship on the Great Lakes at the time of her sinking",
+    "source": "National Museum of the Great Lakes / widely documented; she was the largest when launched in 1958 and remained among the largest at the time of her loss",
+    "url": "https://en.wikipedia.org/wiki/SS_Edmund_Fitzgerald"
+  },
+  {
+    "fact": "The Fitzgerald was carrying twenty-six thousand tons of iron ore (taconite pellets)",
+    "source": "U.S. National Transportation Safety Board, Marine Accident Report: SS Edmund Fitzgerald Sinking in Lake Superior, November 10, 1975 (NTSB-MAR-78-3)",
+    "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/MAR7803.pdf"
+  },
+  {
+    "fact": "Captain McSorley radioed that a fence rail was down and two vents were lost or damaged, exposing the hull to flooding",
+    "source": "U.S. Coast Guard Marine Casualty Report: SS Edmund Fitzgerald; Sinking in Lake Superior, 10 November 1975 (Report No. USCG 16732/64216)",
+    "url": "https://en.wikipedia.org/wiki/SS_Edmund_Fitzgerald#Final_voyage"
+  },
+  {
+    "fact": "Waves on Lake Superior reached approximately 35 feet during the storm on November 10, 1975",
+    "source": "NTSB Marine Accident Report MAR-78-3; the National Weather Service recorded sustained winds of 60+ knots and wave heights estimated at 25–35 feet",
+    "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/MAR7803.pdf"
+  },
+  {
+    "fact": "All twenty-nine crew members were lost and the ship sank rapidly, with no distress signal or survivors",
+    "source": "U.S. Coast Guard Marine Casualty Report and NTSB Report MAR-78-3; widely documented",
+    "url": "https://en.wikipedia.org/wiki/SS_Edmund_Fitzgerald#Sinking"
+  },
+  {
+    "fact": "No voyage data recorder was carried aboard the Fitzgerald, and the exact cause of the sinking was never definitively confirmed",
+    "source": "NTSB Marine Accident Report MAR-78-3; the NTSB and USCG reached differing conclusions, and VDRs were not required on Great Lakes vessels at the time",
+    "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/MAR7803.pdf"
+  }
+]
