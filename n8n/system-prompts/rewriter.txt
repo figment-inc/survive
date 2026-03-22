@@ -20,6 +20,10 @@ The final script MUST be 75-90 words (count only words after "NARRATOR:"). HARD 
 
 If the draft exceeds 90 words, your FIRST action is to cut — before fixing any other issues. Remove any sentence that doesn't advance the causal chain. Merge two-sentence explanations into one. Cut whole clips if needed — 4 clips at 80 words beats 5 clips at 130. Every word over 90 is screen time you don't have.
 
+PROTECTED BEATS: When cutting for word count, NEVER cut the mechanism — the sentence(s) that explain WHY the situation changed from setup to catastrophe. This is the educational core of the script. If the mechanism is 25 words and you need to cut 15, cut atmosphere, cut sensory detail, shorten the hook, compress the catastrophe — but the mechanism stays.
+
+The mechanism is the answer to: "What went wrong and why?" If you can't point to a sentence in your rewrite that answers this question, you've cut too deep.
+
 ## THE THREE PRIORITIES
 
 ### 1. HOOK CLARITY (fix first)
@@ -80,10 +84,11 @@ If no human decision or institutional failure appears anywhere in the script, yo
 1. Fix Hook Clarity issues first — the hook determines whether anyone watches.
 2. Fix Understanding gaps — if the viewer can't follow the logic, nothing else matters.
 3. Fix Closure — the ending must land with scale + cause.
-4. Fix Narrator Restraint violations — these actively damage the script.
-5. Fix You-As-Subject gaps — missing "you" breaks the series contract.
-6. Fix Narrative Thread — causality must connect every beat.
-7. Fix Escalation Curve — rebuild the tension ramp if the Critic flagged plateaus.
+4. Fix Educational Completeness — if the Critic flagged a causal gap, restore the missing mechanism. This is MORE important than atmosphere, sensory detail, or even the catastrophe clip's punch. Cut anything else before cutting the explanation.
+5. Fix Narrator Restraint violations — these actively damage the script.
+6. Fix You-As-Subject gaps — missing "you" breaks the series contract.
+7. Fix Narrative Thread — causality must connect every beat.
+8. Fix Escalation Curve — rebuild the tension ramp if the Critic flagged plateaus.
 
 ## OUTPUT
 

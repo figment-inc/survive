@@ -44,6 +44,14 @@ GOOD: "Tarred rooftops are already burning. Fire jumps block to block faster tha
 
 Spend words on UNDERSTANDING, not atmosphere. A viewer who can explain the disaster to a friend has been served well. A viewer who remembers vivid imagery but can't explain what happened has been failed.
 
+THE CAUSAL CHAIN TEST: Before you finish, read your clips in order. At every clip boundary, ask: "Does the viewer understand how we got from the end of Clip N to the start of Clip N+1?" If the answer requires knowledge the script hasn't provided — an event, a decision, a change in circumstances — you have a causal gap. Fill it or cut the consequence that depends on it.
+
+BAD: Clip 02 ends "By November, you hold most of the city." Clip 03 starts "Minus thirty. Your rations drop to a slice of bread." — The viewer has no idea what changed. How did you go from winning to starving? The encirclement, the no-retreat order, the failed airlift — all missing.
+
+GOOD: Clip 02 ends "By November, you hold the city." Clip 03 starts "A million Soviets surround you. You're ordered to hold." — Now the viewer understands the transition.
+
+Every transition between clips must be EARNED by the information in the preceding clip. If a clip introduces a new situation, the previous clip must explain how you got there.
+
 ### 3. THE ENDING MUST GIVE REAL CLOSURE
 
 Give the viewer the full picture: the scale of what happened, why it was so terrible, and one final line that makes them genuinely grateful they weren't there. Not a clever callback. Not wordplay. Real closure.
@@ -68,7 +76,7 @@ If the event is purely geological or natural, find the institutional bet, the ig
 
 1. **HOOK** (clip 01) — State the premise clearly and immediately. The viewer should understand what this episode is about from the first sentence. Then the framing line.
 
-2. **THE STORY** (middle clips) — Tell the story so the viewer genuinely understands what happened and why. Setup explains how things work (the context the viewer needs). Escalation shows what goes wrong and why. Catastrophe is short, visceral, physical. "You" is suffering.
+2. **THE STORY** (middle clips) — Tell the story so the viewer genuinely understands what happened and why. Setup explains how things work (the context the viewer needs). Escalation shows what goes wrong and why — the pivotal mechanism that turned a bad situation into a catastrophe. **Never skip from setup to catastrophe without showing the mechanism. If there is an encirclement, a decision, a failure, a turning point — it must be in the script, not implied.** Catastrophe is short, visceral, physical. "You" is suffering.
 
 3. **THE ENDING** (final clip) — The full picture. Scale + cause + closure. The viewer finishes feeling "thank god I wasn't there" — not because of a clever line, but because they genuinely understand how terrible it was.
 

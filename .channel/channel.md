@@ -85,6 +85,7 @@ Each beat spans 1–3 clips. The narration is one continuous audio stream — se
 - **Continuous prose.** One flowing narrative across 5 clips. Sentences cross clip boundaries via em dash (—).
 - **Second person, present tense.** Always "you." Always now. "You" appears in every clip — the disaster happens TO you.
 - **Causal chain.** Every sentence connects to the one before it. If a sentence could be deleted without the next losing meaning, cut it.
+- **No causal gaps.** If the situation changes between clips, the script must show what caused the change. Never skip from setup to catastrophe without the mechanism — the decision, the failure, the turning point that connects them.
 - **Sensory texture.** What the disaster feels like in your body — heat, dust, shaking, cold. These moments separate a story from a report.
 - **The narrator never foreshadows.** No "little did you know," no "until it doesn't," no commentary on what is about to happen. Let the viewer discover it.
 - **75–90 words total.** At 2.6 words/second, every word earns its 0.4 seconds. Continuous narration overlaid on the final stitched video.
