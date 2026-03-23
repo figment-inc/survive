@@ -285,7 +285,7 @@ def render_caption_overlay(
 
     props = {
         "segments": segments,
-        "position": {"x": 50, "y": 72},
+        "position": {"x": 50, "y": 87},
         "styleToggles": {
             "scrapbook": False,
             "scatter": False,
@@ -293,14 +293,14 @@ def render_caption_overlay(
             "highlightBorderRadius": 8,
             "singleWord": False,
             "lineByLine": True,
-            "karaokeHighlight": True,
-            "karaokeTextColor": "#FFD500",
+            "karaokeHighlight": False,
+            "karaokeTextColor": None,
             "entranceAnimation": "none",
             "entranceSpeed": "fast",
             "emphasisAnimation": "none",
             "highlightAnimation": "none",
             "highlightScale": 1.0,
-            "highlightColor": "#FFD500",
+            "highlightColor": None,
         },
         "backgroundColor": "transparent",
         "transparentBackground": True,

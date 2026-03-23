@@ -26,8 +26,8 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Liberation Sans,90,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,5,2,5,40,40,480,1
-Style: Highlight,Liberation Sans,90,&H0000D5FF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,5,2,5,40,40,480,1
+Style: Default,Liberation Sans,90,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,5,2,5,40,40,192,1
+Style: Highlight,Liberation Sans,90,&H0000D5FF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,5,2,5,40,40,192,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -449,10 +449,10 @@ def generate_word_captions(
     output_path: Path,
     narration_delay: float = NARRATION_DELAY,
 ) -> bool:
-    """Generate an ASS subtitle file with TikTok-style word-by-word captions.
+    """Generate an ASS subtitle file with chunk-based captions.
 
-    Shows 1-3 words at a time centered on screen, with the active word
-    highlighted in yellow/orange and text in uppercase for punchy readability.
+    Shows 1-3 words at a time centered on screen in uppercase white text.
+    Each chunk appears and disappears as a unit — no per-word highlighting.
     """
     words = narration_text.split()
     if not words:
@@ -461,23 +461,15 @@ def generate_word_captions(
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     word_duration = narration_duration / len(words)
+    max_chunk = 3
     lines: list[str] = []
 
-    for i, word in enumerate(words):
-        start_time = narration_delay + i * word_duration
-        end_time = narration_delay + (i + 1) * word_duration
+    for chunk_start in range(0, len(words), max_chunk):
+        chunk_words = words[chunk_start:chunk_start + max_chunk]
+        start_time = narration_delay + chunk_start * word_duration
+        end_time = narration_delay + (chunk_start + len(chunk_words)) * word_duration
 
-        context_start = max(0, i - 1)
-        context_end = min(len(words), i + 2)
-        parts: list[str] = []
-        for j in range(context_start, context_end):
-            w = words[j].upper()
-            if j == i:
-                parts.append(r"{\c&H00D5FF&}" + w + r"{\c&HFFFFFF&}")
-            else:
-                parts.append(w)
-
-        display_text = " ".join(parts)
+        display_text = " ".join(w.upper() for w in chunk_words)
         ass_start = _format_ass_time(start_time)
         ass_end = _format_ass_time(end_time)
         lines.append(
