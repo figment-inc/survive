@@ -3,3 +3,4 @@ google-genai>=1.44.0
 anthropic[bedrock]>=0.42.0
 python-dotenv>=1.0.1
 boto3>=1.35.0
+Pillow>=10.0.0

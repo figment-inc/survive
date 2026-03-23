@@ -1994,6 +1994,71 @@ def publish_to_metricool_with_upload(episode, final_path, asset_url=None, schedu
     return True
 
 
+def publish_carousel_post(episode, ep_dir, schedule=""):
+    """Generate polaroid carousel images and publish as an Instagram carousel post."""
+    phase_banner("PHASE 5c: INSTAGRAM CAROUSEL")
+
+    from lib.config import load_settings
+    from lib.metricool import publish_carousel_to_metricool
+    from lib.polaroid import create_carousel_images
+
+    settings = load_settings()
+
+    sentence_data = episode.get("sentence_images")
+    if not sentence_data:
+        print(f"  [{ts()}] No sentence_images in episode — skipping carousel")
+        return False
+
+    print(f"  [{ts()}] Generating polaroid carousel images...")
+    carousel_paths = create_carousel_images(ep_dir, sentence_data)
+
+    if not carousel_paths:
+        print(f"  [{ts()}] No carousel images generated — skipping")
+        return False
+
+    print(f"  [{ts()}] Generated {len(carousel_paths)} polaroid slides")
+
+    title = episode.get("title", "You Wouldn't Wanna Be")
+    hook = episode.get("hook", "")
+
+    caption = (
+        f"{title}\n\n"
+        f"{hook}\n\n"
+        f"Swipe through the full story \u2192\n\n"
+        f"#YouWouldntWannaBe #History #HistoryFacts "
+        f"#DarkHistory #Education"
+    )
+
+    first_comment = format_sources_comment(episode.get("sources", []))
+
+    carousel_schedule = ""
+    if schedule:
+        from datetime import datetime as _dt, timedelta as _td
+        try:
+            base_dt = _dt.fromisoformat(schedule)
+            carousel_dt = base_dt + _td(minutes=3)
+            carousel_schedule = carousel_dt.strftime("%Y-%m-%dT%H:%M:%S")
+        except ValueError:
+            carousel_schedule = schedule
+
+    print(f"  [{ts()}] Publishing carousel ({len(carousel_paths)} images) to Instagram...")
+    if carousel_schedule:
+        print(f"  [{ts()}] Carousel scheduled at: {carousel_schedule}")
+
+    result = publish_carousel_to_metricool(
+        settings=settings,
+        image_paths=carousel_paths,
+        caption=caption,
+        desired_publish_at=carousel_schedule,
+        first_comment=first_comment,
+    )
+
+    print(f"  [{ts()}] Carousel publish status: {result.status}")
+    if result.error_message:
+        print(f"  [{ts()}] Carousel error: {result.error_message}")
+    return result.status == "published"
+
+
 def validate_word_counts(episode):
     """Check that narration word counts fit within the video duration budget.
 
@@ -2250,6 +2315,7 @@ def main():
             sys.exit(1)
         asset_url = create_github_release(slug, episode["title"], final_path)
         publish_to_metricool_with_upload(episode, final_path, asset_url, schedule=args.schedule)
+        publish_carousel_post(episode, ep_dir, schedule=args.schedule)
 
     phase_banner("ALL DONE")
     print(f"  Episode: {episode['title']}")

@@ -165,6 +165,93 @@ def upload_media_file(settings: Settings, file_path: str) -> str:
     raise RuntimeError("No file URL available after upload")
 
 
+def upload_image_file(settings: Settings, file_path: str) -> str:
+    """Upload a local image file to Metricool via S3 presigned upload and return the hosted URL."""
+    import hashlib
+    import base64
+
+    p = Path(file_path)
+    if not p.exists():
+        raise FileNotFoundError(f"Image file not found: {file_path}")
+
+    ext = p.suffix.lstrip(".").lower()
+    content_type_map = {"png": "image/png", "jpg": "image/jpeg", "jpeg": "image/jpeg"}
+    content_type = content_type_map.get(ext, "image/png")
+
+    file_size = p.stat().st_size
+    base_url = settings.metricool_api_url.rstrip("/")
+    auth_params = _metricool_auth_query(settings)
+    headers = {
+        "X-Mc-Auth": settings.metricool_user_token,
+        "Content-Type": "application/json",
+    }
+
+    LOGGER.info("Uploading image %s (%d bytes) to Metricool S3...", p.name, file_size)
+
+    with open(file_path, "rb") as f:
+        file_bytes = f.read()
+
+    sha256_hash = base64.b64encode(hashlib.sha256(file_bytes).digest()).decode()
+
+    tx_body = {
+        "resourceType": "planner",
+        "contentType": content_type,
+        "fileExtension": ext if ext != "jpeg" else "jpg",
+        "parts": [{
+            "size": file_size,
+            "startByte": 0,
+            "endByte": file_size,
+            "hash": sha256_hash,
+        }],
+    }
+
+    tx_resp = requests.put(
+        f"{base_url}/v2/media/s3/upload-transactions",
+        params=auth_params,
+        headers=headers,
+        json=tx_body,
+        timeout=30,
+    )
+    LOGGER.info("Create image upload transaction status: %d", tx_resp.status_code)
+
+    if tx_resp.status_code not in (200, 201):
+        raise RuntimeError(f"Failed to create image upload transaction: {tx_resp.status_code} {tx_resp.text[:300]}")
+
+    tx_data = tx_resp.json()
+    file_url = tx_data.get("fileUrl")
+
+    presigned_url = tx_data.get("presignedUrl")
+    if not presigned_url and tx_data.get("parts"):
+        presigned_url = tx_data["parts"][0].get("presignedUrl")
+
+    if not presigned_url:
+        raise RuntimeError(f"No presigned URL in image upload response: {tx_data}")
+
+    LOGGER.info("Uploading image to S3 presigned URL...")
+    upload_resp = requests.put(
+        presigned_url,
+        data=file_bytes,
+        headers={"Content-Type": content_type},
+        timeout=120,
+    )
+
+    if upload_resp.status_code not in (200, 201):
+        raise RuntimeError(f"S3 image upload failed: {upload_resp.status_code} {upload_resp.text[:200]}")
+
+    if file_url:
+        LOGGER.info("Metricool S3 image URL: %s", file_url[:80])
+        return file_url
+
+    s3_key = tx_data.get("key")
+    s3_bucket = tx_data.get("bucket")
+    if s3_key and s3_bucket:
+        constructed_url = f"https://{s3_bucket}.s3.eu-west-1.amazonaws.com/{s3_key}"
+        LOGGER.info("Constructed image S3 URL: %s", constructed_url[:80])
+        return constructed_url
+
+    raise RuntimeError("No file URL available after image upload")
+
+
 def _extract_post_id(response_payload: dict) -> Optional[str]:
     """Extract external post ID from Metricool response."""
     if isinstance(response_payload, dict):
@@ -303,6 +390,136 @@ def publish_to_metricool(
 
     provider_names = [p["network"] for p in providers]
     LOGGER.info("Publishing to Metricool: providers=%s", provider_names)
+
+    try:
+        response = requests.post(
+            endpoint,
+            params=_metricool_auth_query(settings=settings),
+            json=request_payload,
+            headers=_metricool_headers(settings=settings),
+            timeout=settings.request_timeout_seconds,
+        )
+        response.raise_for_status()
+        response_payload = response.json() if response.content else {}
+        external_post_id = _extract_post_id(response_payload)
+
+        return PublishResult(
+            status="published",
+            external_post_id=external_post_id,
+            error_message=None,
+            http_status=response.status_code,
+            response_payload=response_payload,
+        )
+
+    except requests.HTTPError as exc:
+        status_code = exc.response.status_code if exc.response is not None else None
+        body = exc.response.text[:500] if exc.response is not None else ""
+        return PublishResult(
+            status="failed",
+            external_post_id=None,
+            error_message=f"HTTP {status_code}: {body}",
+            http_status=status_code,
+            response_payload={},
+        )
+
+    except requests.RequestException as exc:
+        return PublishResult(
+            status="failed",
+            external_post_id=None,
+            error_message=f"Request error: {exc}",
+            http_status=None,
+            response_payload={},
+        )
+
+
+def publish_carousel_to_metricool(
+    settings: Settings,
+    image_paths: list[Path],
+    caption: str = "",
+    desired_publish_at: str = "",
+    first_comment: str = "",
+) -> PublishResult:
+    """Publish an Instagram carousel post with multiple images via Metricool.
+
+    Uploads each image to Metricool S3, then schedules a single POST-type
+    Instagram post with all images in the media array. Instagram only — the
+    Reel post handles TikTok/YouTube separately.
+    """
+    if not settings.metricool_publish_enabled:
+        return PublishResult(
+            status="skipped",
+            external_post_id=None,
+            error_message="Metricool publish is disabled",
+            http_status=None,
+            response_payload={},
+        )
+
+    if not settings.metricool_user_token:
+        return PublishResult(
+            status="failed",
+            external_post_id=None,
+            error_message="METRICOOL_USER_TOKEN not configured",
+            http_status=None,
+            response_payload={},
+        )
+
+    if not image_paths:
+        return PublishResult(
+            status="failed",
+            external_post_id=None,
+            error_message="No carousel images provided",
+            http_status=None,
+            response_payload={},
+        )
+
+    media_urls: list[str] = []
+    for img_path in image_paths:
+        try:
+            url = upload_image_file(settings, str(img_path))
+            normalized = _metricool_normalize_media_url(settings, url)
+            media_urls.append(normalized)
+            LOGGER.info("Carousel image uploaded: %s -> %s", img_path.name, normalized[:60])
+        except Exception as exc:
+            LOGGER.warning("Failed to upload carousel image %s: %s", img_path.name, exc)
+            media_urls.append(url if 'url' in dir() else "")
+
+    media_urls = [u for u in media_urls if u]
+    if not media_urls:
+        return PublishResult(
+            status="failed",
+            external_post_id=None,
+            error_message="All carousel image uploads failed",
+            http_status=None,
+            response_payload={},
+        )
+
+    endpoint = f"{settings.metricool_api_url.rstrip('/')}/v2/scheduler/posts"
+
+    publication_date = {
+        "dateTime": _metricool_publication_datetime(desired_publish_at),
+        "timezone": settings.metricool_schedule_timezone,
+    }
+
+    request_payload: dict[str, Any] = {
+        "text": caption,
+        "firstCommentText": first_comment,
+        "providers": [{"network": "instagram"}],
+        "autoPublish": True,
+        "saveExternalMediaFiles": True,
+        "shortener": False,
+        "draft": False,
+        "media": media_urls,
+        "publicationDate": publication_date,
+        "instagramData": {
+            "autoPublish": True,
+            "type": "POST",
+        },
+    }
+
+    LOGGER.info(
+        "Publishing Instagram carousel: %d images, schedule=%s",
+        len(media_urls), publication_date["dateTime"],
+    )
 
     try:
         response = requests.post(
