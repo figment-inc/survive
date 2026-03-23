@@ -1,0 +1,21 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. Diagrammatic detail view — the hanger rod connection at the fourth-floor walkway box beam.
+
+NARRATION FOR THIS IMAGE: "That doubles the load on a single connection."
+
+SHOT TYPE: Extreme close-up. CAMERA ANGLE: Eye-level, looking at the connection point straight on. CHARACTER POSITION: Absent. A tight close-up of the critical structural connection — the point where a steel hanger rod passes through the box beam of the fourth-floor walkway. This is the fatal detail. The image shows the steel rod, the nut and washer assembly, and the box beam channel — all rendered in flat 2D with thick black outlines. Flat red arrows pointing downward indicate the doubled load pressing on this single connection.
+
+Foreground: The box beam cross-section shown in cutaway — a flat steel-grey C-channel with the rod passing through. The nut and washer are drawn prominently, bearing the entire load. The thin steel of the channel is visibly deforming slightly — beginning to pull through.
+
+Midground: The vertical steel hanger rod in flat silver-grey, thick black outlines. Above: the rod connects to the ceiling structure. Below: the weight of the second-floor walkway hangs from this same connection through a second rod. Flat red downward arrows on both sides show the combined weight of BOTH walkways pressing on this one nut-and-washer assembly.
+
+Background: A simplified flat diagram showing the two walkways in profile — the fourth-floor walkway at center with the connection detail, the second-floor walkway hanging below it. The original single-rod design is shown as a faint flat grey ghost image to the side for comparison. Flat pale blue-grey background.
+
+Flat even lighting. Technical warning palette — flat steel grey for the structural elements, flat crimson red for the load arrows and stress indicators, flat pale blue-grey background, flat off-white for the diagrammatic space. Clinical, alarming atmosphere.
+
+Period texture: The box beam is rendered accurately — a W-shaped steel channel welded into a rectangular tube, with the hanger rod passing through the bottom flange. The nut bears on only the thin bottom flange of the channel — the precise failure point.
+
+Background activity: None — this is a pure technical detail showing the fatal engineering flaw.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.
