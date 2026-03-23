@@ -54,15 +54,16 @@ def _sanitize_text(text: str) -> str:
 
 def _load_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
     preferred_fonts = [
-        "/System/Library/Fonts/Supplemental/Georgia.ttf",
-        "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
-        "/System/Library/Fonts/NewYork.ttf",
-        "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
-        "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf",
+        ("/System/Library/Fonts/Avenir Next.ttc", 0),
+        ("/System/Library/Fonts/Supplemental/Futura.ttc", 0),
+        ("/System/Library/Fonts/HelveticaNeue.ttc", 1),
+        ("/System/Library/Fonts/Supplemental/Verdana.ttf", 0),
+        ("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 0),
+        ("/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf", 0),
     ]
-    for font_path in preferred_fonts:
+    for font_path, index in preferred_fonts:
         if Path(font_path).exists():
-            return ImageFont.truetype(font_path, size)
+            return ImageFont.truetype(font_path, size, index=index)
     return ImageFont.load_default()
 
 
@@ -137,12 +138,15 @@ def create_polaroid_image(
     if caption_text.strip():
         wrapped_text, font = _fit_text(draw, caption_text, TEXT_AREA_W)
         text_y = BORDER_TOP + IMAGE_SIZE + TEXT_MARGIN_TOP
+        text_center_x = CANVAS_W // 2
         draw.multiline_text(
-            (TEXT_MARGIN_X, text_y),
+            (text_center_x, text_y),
             wrapped_text,
             fill=TEXT_COLOR,
             font=font,
-            spacing=6,
+            spacing=8,
+            anchor="ma",
+            align="center",
         )
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
