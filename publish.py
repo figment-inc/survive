@@ -106,9 +106,24 @@ def _publish_carousel(args, settings, episode_dir, title, first_comment):
             print(f"    {p.name}")
         return
 
+    # Try S3 first; fall back to GitHub Release if S3 is disabled
+    from lib.metricool import upload_image_file
+    media_urls = None
+    try:
+        upload_image_file(settings, str(carousel_paths[0]))
+        print("  S3 upload available — using direct upload")
+    except Exception:
+        print("  Metricool S3 disabled — uploading carousel to GitHub Release...")
+        media_urls = _upload_carousel_to_github(args.episode, carousel_paths)
+        if not media_urls:
+            print("  ERROR: GitHub Release upload failed.")
+            sys.exit(1)
+        print(f"  Uploaded {len(media_urls)} images to GitHub Release")
+
     result = publish_carousel_to_metricool(
         settings=settings,
-        image_paths=carousel_paths,
+        image_paths=carousel_paths if media_urls is None else None,
+        media_urls=media_urls,
         caption=caption,
         desired_publish_at=carousel_schedule,
         first_comment=first_comment,
@@ -232,6 +247,49 @@ def main():
         print(f"{'=' * 60}")
 
         _publish_carousel(args, settings, episode_dir, title, first_comment)
+
+
+def _upload_carousel_to_github(episode_slug, carousel_paths):
+    """Upload carousel PNGs to the episode's GitHub Release and return direct URLs."""
+    import subprocess
+    import requests as _requests
+
+    tag = f"episode-{episode_slug}"
+
+    for img_path in carousel_paths:
+        result = subprocess.run(
+            ["gh", "release", "upload", tag, str(img_path), "--clobber"],
+            capture_output=True, text=True,
+        )
+        if result.returncode != 0:
+            print(f"  Failed to upload {img_path.name}: {result.stderr.strip()}")
+            return None
+
+    view_result = subprocess.run(
+        ["gh", "release", "view", tag, "--json", "assets"],
+        capture_output=True, text=True,
+    )
+    if view_result.returncode != 0:
+        return None
+
+    assets = json.loads(view_result.stdout).get("assets", [])
+    asset_map = {a["name"]: a["url"] for a in assets}
+
+    urls = []
+    for img_path in carousel_paths:
+        gh_url = asset_map.get(img_path.name)
+        if not gh_url:
+            continue
+        try:
+            resp = _requests.head(gh_url, allow_redirects=False, timeout=10)
+            if resp.status_code in (301, 302) and "location" in resp.headers:
+                urls.append(resp.headers["location"])
+            else:
+                urls.append(gh_url)
+        except _requests.RequestException:
+            urls.append(gh_url)
+
+    return urls if urls else None
 
 
 if __name__ == "__main__":
