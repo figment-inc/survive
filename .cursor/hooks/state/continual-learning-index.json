@@ -1,205 +1,225 @@
 {
   "version": 1,
   "transcripts": {
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/7bdd4236-2f05-4718-acd4-566ab548ba21/7bdd4236-2f05-4718-acd4-566ab548ba21.jsonl": {
-      "mtimeMs": 1773596551411.9543,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
     "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/050c3db9-ee2e-45f7-9ebc-16df81dddbed/050c3db9-ee2e-45f7-9ebc-16df81dddbed.jsonl": {
-      "mtimeMs": 1773938835536.1462,
-      "lastProcessedAt": "2026-03-19T19:41:39.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/eb6fa8a4-db85-455a-bb30-ac0cc8b6d2e8/eb6fa8a4-db85-455a-bb30-ac0cc8b6d2e8.jsonl": {
-      "mtimeMs": 1773561002206.0596,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/e3738440-387f-4f48-b16c-d78a1120d374/e3738440-387f-4f48-b16c-d78a1120d374.jsonl": {
-      "mtimeMs": 1773452451738.106,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/90b5a896-9938-459b-9600-de96f90369cd/90b5a896-9938-459b-9600-de96f90369cd.jsonl": {
-      "mtimeMs": 1773605163216.0227,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/53fd05b2-45c3-48bf-9880-67f308c9f020/53fd05b2-45c3-48bf-9880-67f308c9f020.jsonl": {
-      "mtimeMs": 1773681361745.5488,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/1287cc0d-81f5-409b-80bf-1e371efc4a56/1287cc0d-81f5-409b-80bf-1e371efc4a56.jsonl": {
-      "mtimeMs": 1773716735806.2734,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/56dcf00d-b965-4544-a25b-fcbac68622b2/56dcf00d-b965-4544-a25b-fcbac68622b2.jsonl": {
-      "mtimeMs": 1773722239396.863,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/5f3dd569-a997-472d-a898-bf66c7b3df0d/5f3dd569-a997-472d-a898-bf66c7b3df0d.jsonl": {
-      "mtimeMs": 1773452347489.4863,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/5bf0f6af-6d24-48d1-9bec-1493364da7cf/5bf0f6af-6d24-48d1-9bec-1493364da7cf.jsonl": {
-      "mtimeMs": 1772673011012.5732,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/46490867-e17a-4713-b2ec-eb4464e7e274/46490867-e17a-4713-b2ec-eb4464e7e274.jsonl": {
-      "mtimeMs": 1773692349584.3538,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/4c013fde-ef65-459d-b468-80a7c60cbf94/4c013fde-ef65-459d-b468-80a7c60cbf94.jsonl": {
-      "mtimeMs": 1773714131119.9165,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/bc0f6dbb-154e-4543-adc9-5764a42694d1/bc0f6dbb-154e-4543-adc9-5764a42694d1.jsonl": {
-      "mtimeMs": 1773612563860.6877,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/6e11e859-a389-4df3-95fc-cf9d0d695db9/6e11e859-a389-4df3-95fc-cf9d0d695db9.jsonl": {
-      "mtimeMs": 1773703114316.049,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/0b373e8c-3fad-4f78-bac1-2526b7e35abb/0b373e8c-3fad-4f78-bac1-2526b7e35abb.jsonl": {
-      "mtimeMs": 1773890633204.137,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/507fe960-decf-4e50-9db5-4a7ecd2d12a3/507fe960-decf-4e50-9db5-4a7ecd2d12a3.jsonl": {
-      "mtimeMs": 1773887088591.7,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/88d960c9-e99b-4d61-a6bd-0cc7cc9ae225/88d960c9-e99b-4d61-a6bd-0cc7cc9ae225.jsonl": {
-      "mtimeMs": 1773493999431.3938,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/1d28f1a7-3926-401a-9b31-2e7244c3c962/1d28f1a7-3926-401a-9b31-2e7244c3c962.jsonl": {
-      "mtimeMs": 1773615499088.8862,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/68b39e9f-6dee-4a98-aa29-e90ce5b4e631/68b39e9f-6dee-4a98-aa29-e90ce5b4e631.jsonl": {
-      "mtimeMs": 1773434766083.2502,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
+      "mtimeMs": 1773938835000,
+      "lastProcessedAt": "2026-03-20T21:27:18.000Z"
     },
     "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/05e0d243-dd0e-4a6a-b876-762353eef7d1/05e0d243-dd0e-4a6a-b876-762353eef7d1.jsonl": {
-      "mtimeMs": 1773612109717.2922,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/b40ecef2-a298-45e9-a899-f8fc2952a055/b40ecef2-a298-45e9-a899-f8fc2952a055.jsonl": {
-      "mtimeMs": 1773615490181.107,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/d83d217c-3ca6-4378-8a5b-e6949277862c/d83d217c-3ca6-4378-8a5b-e6949277862c.jsonl": {
-      "mtimeMs": 1773613943376.9492,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/790181d4-6e73-4bd4-96d6-c59dc07d624c/790181d4-6e73-4bd4-96d6-c59dc07d624c.jsonl": {
-      "mtimeMs": 1773453346503.7014,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/7aa48a03-6bd0-42ff-948f-a0e55829a447/7aa48a03-6bd0-42ff-948f-a0e55829a447.jsonl": {
-      "mtimeMs": 1773606148457.848,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/73d0a00d-366b-47e1-97ed-4571e3e76346/73d0a00d-366b-47e1-97ed-4571e3e76346.jsonl": {
-      "mtimeMs": 1773452111952.3423,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/44363c1b-78cd-4703-8525-ebef6d1a6755/44363c1b-78cd-4703-8525-ebef6d1a6755.jsonl": {
-      "mtimeMs": 1773604308027.1484,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/f979b8b5-0c0f-4c62-a718-f5665eee72f8/f979b8b5-0c0f-4c62-a718-f5665eee72f8.jsonl": {
-      "mtimeMs": 1773694454656.6895,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/91a3229c-106c-42f1-9d39-a3080d823c69/91a3229c-106c-42f1-9d39-a3080d823c69.jsonl": {
-      "mtimeMs": 1773679668557.3677,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/4f13df5d-cf4f-4b4d-9873-960f05265fff/4f13df5d-cf4f-4b4d-9873-960f05265fff.jsonl": {
-      "mtimeMs": 1773613089998.1824,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/1e0f451f-8c2d-47cb-8457-d411c04d0f1d/1e0f451f-8c2d-47cb-8457-d411c04d0f1d.jsonl": {
-      "mtimeMs": 1773680495279.597,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/ba1b11a2-d714-44de-b67d-8bd6ce17ade5/ba1b11a2-d714-44de-b67d-8bd6ce17ade5.jsonl": {
-      "mtimeMs": 1773693194584.7932,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/57b18788-250f-4686-9fc1-2110b3edaed3/57b18788-250f-4686-9fc1-2110b3edaed3.jsonl": {
-      "mtimeMs": 1773645814695.6313,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/d17e4789-5495-41de-8dce-7b3cd2a19168/d17e4789-5495-41de-8dce-7b3cd2a19168.jsonl": {
-      "mtimeMs": 1773699645653.7969,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/1fedb0c3-961b-4bdb-90fb-447b6df8938c/1fedb0c3-961b-4bdb-90fb-447b6df8938c.jsonl": {
-      "mtimeMs": 1773781204817.9788,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/a4d02d71-3b9b-4f0f-8468-babd4da4eb5a/a4d02d71-3b9b-4f0f-8468-babd4da4eb5a.jsonl": {
-      "mtimeMs": 1773712916345.0652,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/e94df0a3-b3b2-46bc-a8fc-fe3de9d95005/e94df0a3-b3b2-46bc-a8fc-fe3de9d95005.jsonl": {
-      "mtimeMs": 1773683665612.1646,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/adcf863c-8ebe-42fc-b668-1ddcb2d1efc3/adcf863c-8ebe-42fc-b668-1ddcb2d1efc3.jsonl": {
-      "mtimeMs": 1773607854136.0127,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/fb8f2ee3-3191-422a-8b6e-775f8d033fe6/fb8f2ee3-3191-422a-8b6e-775f8d033fe6.jsonl": {
-      "mtimeMs": 1773453333415.076,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/5207254c-02a9-49af-a462-d5d8a58fd0d7/5207254c-02a9-49af-a462-d5d8a58fd0d7.jsonl": {
-      "mtimeMs": 1773607348884.6172,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/0a83a488-99e0-4958-8a31-620cce6baec5/0a83a488-99e0-4958-8a31-620cce6baec5.jsonl": {
-      "mtimeMs": 1773704132626.7324,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/ae4849b3-9dce-4a02-b786-16bf85656730/ae4849b3-9dce-4a02-b786-16bf85656730.jsonl": {
-      "mtimeMs": 1772661183748.7031,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/1086c9b6-4ec0-4875-b640-f8d510713838/1086c9b6-4ec0-4875-b640-f8d510713838.jsonl": {
-      "mtimeMs": 1773812299838.848,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
-    },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/c230ef27-f004-4d72-923a-ec55c7a44a6d/c230ef27-f004-4d72-923a-ec55c7a44a6d.jsonl": {
-      "mtimeMs": 1773612738399.983,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
+      "mtimeMs": 1773612109000,
+      "lastProcessedAt": "2026-03-20T21:27:22.000Z"
     },
     "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/0a564940-82e0-44f9-9a5f-b922ad371c75/0a564940-82e0-44f9-9a5f-b922ad371c75.jsonl": {
-      "mtimeMs": 1773694425581.8506,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
+      "mtimeMs": 1773694425000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
     },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/3dcd68ed-58a4-4728-b0a8-2094e4c24532/3dcd68ed-58a4-4728-b0a8-2094e4c24532.jsonl": {
-      "mtimeMs": 1773183703720.0142,
-      "lastProcessedAt": "2026-03-19T03:40:02.000Z"
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/0a83a488-99e0-4958-8a31-620cce6baec5/0a83a488-99e0-4958-8a31-620cce6baec5.jsonl": {
+      "mtimeMs": 1773704132000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
     },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/3d036ce8-88ca-4827-8a19-2f3e8a9a97c1/3d036ce8-88ca-4827-8a19-2f3e8a9a97c1.jsonl": {
-      "mtimeMs": 1773949371990.6167,
-      "lastProcessedAt": "2026-03-20T00:12:12.000Z"
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/0b373e8c-3fad-4f78-bac1-2526b7e35abb/0b373e8c-3fad-4f78-bac1-2526b7e35abb.jsonl": {
+      "mtimeMs": 1773890633000,
+      "lastProcessedAt": "2026-03-20T21:27:21.000Z"
     },
     "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/0b4743ec-1fdf-4caf-a302-7ce38624013c/0b4743ec-1fdf-4caf-a302-7ce38624013c.jsonl": {
-      "mtimeMs": 1773973372000,
-      "lastProcessedAt": "2026-03-20T02:25:00.000Z"
+      "mtimeMs": 1773973621000,
+      "lastProcessedAt": "2026-03-20T21:27:21.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/1086c9b6-4ec0-4875-b640-f8d510713838/1086c9b6-4ec0-4875-b640-f8d510713838.jsonl": {
+      "mtimeMs": 1773812299000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/1287cc0d-81f5-409b-80bf-1e371efc4a56/1287cc0d-81f5-409b-80bf-1e371efc4a56.jsonl": {
+      "mtimeMs": 1773716735000,
+      "lastProcessedAt": "2026-03-20T21:27:19.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/1a90ed49-58f5-4b7e-a225-cb35caa41346/1a90ed49-58f5-4b7e-a225-cb35caa41346.jsonl": {
+      "mtimeMs": 1774027561000,
+      "lastProcessedAt": "2026-03-20T21:27:22.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/1d28f1a7-3926-401a-9b31-2e7244c3c962/1d28f1a7-3926-401a-9b31-2e7244c3c962.jsonl": {
+      "mtimeMs": 1773615499000,
+      "lastProcessedAt": "2026-03-20T21:27:22.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/1e0f451f-8c2d-47cb-8457-d411c04d0f1d/1e0f451f-8c2d-47cb-8457-d411c04d0f1d.jsonl": {
+      "mtimeMs": 1773680495000,
+      "lastProcessedAt": "2026-03-20T21:27:24.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/1fedb0c3-961b-4bdb-90fb-447b6df8938c/1fedb0c3-961b-4bdb-90fb-447b6df8938c.jsonl": {
+      "mtimeMs": 1773781204000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/3d036ce8-88ca-4827-8a19-2f3e8a9a97c1/3d036ce8-88ca-4827-8a19-2f3e8a9a97c1.jsonl": {
+      "mtimeMs": 1773949371000,
+      "lastProcessedAt": "2026-03-20T21:27:23.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/3dcd68ed-58a4-4728-b0a8-2094e4c24532/3dcd68ed-58a4-4728-b0a8-2094e4c24532.jsonl": {
+      "mtimeMs": 1773183703000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/44363c1b-78cd-4703-8525-ebef6d1a6755/44363c1b-78cd-4703-8525-ebef6d1a6755.jsonl": {
+      "mtimeMs": 1773604308000,
+      "lastProcessedAt": "2026-03-20T21:27:23.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/46490867-e17a-4713-b2ec-eb4464e7e274/46490867-e17a-4713-b2ec-eb4464e7e274.jsonl": {
+      "mtimeMs": 1773692349000,
+      "lastProcessedAt": "2026-03-20T21:27:21.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/4c013fde-ef65-459d-b468-80a7c60cbf94/4c013fde-ef65-459d-b468-80a7c60cbf94.jsonl": {
+      "mtimeMs": 1773714131000,
+      "lastProcessedAt": "2026-03-20T21:27:21.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/4f13df5d-cf4f-4b4d-9873-960f05265fff/4f13df5d-cf4f-4b4d-9873-960f05265fff.jsonl": {
+      "mtimeMs": 1773613089000,
+      "lastProcessedAt": "2026-03-20T21:27:24.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/507fe960-decf-4e50-9db5-4a7ecd2d12a3/507fe960-decf-4e50-9db5-4a7ecd2d12a3.jsonl": {
+      "mtimeMs": 1773887088000,
+      "lastProcessedAt": "2026-03-20T21:27:21.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/5207254c-02a9-49af-a462-d5d8a58fd0d7/5207254c-02a9-49af-a462-d5d8a58fd0d7.jsonl": {
+      "mtimeMs": 1773607348000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/53fd05b2-45c3-48bf-9880-67f308c9f020/53fd05b2-45c3-48bf-9880-67f308c9f020.jsonl": {
+      "mtimeMs": 1773681361000,
+      "lastProcessedAt": "2026-03-20T21:27:18.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/56dcf00d-b965-4544-a25b-fcbac68622b2/56dcf00d-b965-4544-a25b-fcbac68622b2.jsonl": {
+      "mtimeMs": 1773722239000,
+      "lastProcessedAt": "2026-03-20T21:27:19.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/57b18788-250f-4686-9fc1-2110b3edaed3/57b18788-250f-4686-9fc1-2110b3edaed3.jsonl": {
+      "mtimeMs": 1773645814000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/5bf0f6af-6d24-48d1-9bec-1493364da7cf/5bf0f6af-6d24-48d1-9bec-1493364da7cf.jsonl": {
+      "mtimeMs": 1772673011000,
+      "lastProcessedAt": "2026-03-20T21:27:20.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/5c08da71-ef67-47e3-a2b2-ccfdd6a3589b/5c08da71-ef67-47e3-a2b2-ccfdd6a3589b.jsonl": {
+      "mtimeMs": 1774040458000,
+      "lastProcessedAt": "2026-03-20T21:27:24.000Z"
     },
     "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/5c36df2b-e8a7-49c9-9d81-83dec0f6f1e8/5c36df2b-e8a7-49c9-9d81-83dec0f6f1e8.jsonl": {
-      "mtimeMs": 1773965048771.936,
-      "lastProcessedAt": "2026-03-20T00:12:12.000Z"
+      "mtimeMs": 1773965048000,
+      "lastProcessedAt": "2026-03-20T21:27:21.000Z"
     },
-    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/d94c1fc6-eb42-43d7-b774-c8b3b6ef347c/d94c1fc6-eb42-43d7-b774-c8b3b6ef347c.jsonl": {
-      "mtimeMs": 1773967057000,
-      "lastProcessedAt": "2026-03-20T02:25:00.000Z"
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/5f3dd569-a997-472d-a898-bf66c7b3df0d/5f3dd569-a997-472d-a898-bf66c7b3df0d.jsonl": {
+      "mtimeMs": 1773452347000,
+      "lastProcessedAt": "2026-03-20T21:27:20.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/68b39e9f-6dee-4a98-aa29-e90ce5b4e631/68b39e9f-6dee-4a98-aa29-e90ce5b4e631.jsonl": {
+      "mtimeMs": 1773434766000,
+      "lastProcessedAt": "2026-03-20T21:27:22.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/6be83609-0f24-4635-a66c-c4bb50610b4b/6be83609-0f24-4635-a66c-c4bb50610b4b.jsonl": {
+      "mtimeMs": 1774041823000,
+      "lastProcessedAt": "2026-03-20T21:27:23.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/6e11e859-a389-4df3-95fc-cf9d0d695db9/6e11e859-a389-4df3-95fc-cf9d0d695db9.jsonl": {
+      "mtimeMs": 1773703114000,
+      "lastProcessedAt": "2026-03-20T21:27:21.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/73d0a00d-366b-47e1-97ed-4571e3e76346/73d0a00d-366b-47e1-97ed-4571e3e76346.jsonl": {
+      "mtimeMs": 1773452111000,
+      "lastProcessedAt": "2026-03-20T21:27:23.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/790181d4-6e73-4bd4-96d6-c59dc07d624c/790181d4-6e73-4bd4-96d6-c59dc07d624c.jsonl": {
+      "mtimeMs": 1773453346000,
+      "lastProcessedAt": "2026-03-20T21:27:23.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/7aa48a03-6bd0-42ff-948f-a0e55829a447/7aa48a03-6bd0-42ff-948f-a0e55829a447.jsonl": {
+      "mtimeMs": 1773606148000,
+      "lastProcessedAt": "2026-03-20T21:27:23.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/7bdd4236-2f05-4718-acd4-566ab548ba21/7bdd4236-2f05-4718-acd4-566ab548ba21.jsonl": {
+      "mtimeMs": 1773596551000,
+      "lastProcessedAt": "2026-03-20T21:27:18.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/88d960c9-e99b-4d61-a6bd-0cc7cc9ae225/88d960c9-e99b-4d61-a6bd-0cc7cc9ae225.jsonl": {
+      "mtimeMs": 1773493999000,
+      "lastProcessedAt": "2026-03-20T21:27:22.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/90b5a896-9938-459b-9600-de96f90369cd/90b5a896-9938-459b-9600-de96f90369cd.jsonl": {
+      "mtimeMs": 1773605163000,
+      "lastProcessedAt": "2026-03-20T21:27:18.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/91a3229c-106c-42f1-9d39-a3080d823c69/91a3229c-106c-42f1-9d39-a3080d823c69.jsonl": {
+      "mtimeMs": 1773679668000,
+      "lastProcessedAt": "2026-03-20T21:27:24.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/a4d02d71-3b9b-4f0f-8468-babd4da4eb5a/a4d02d71-3b9b-4f0f-8468-babd4da4eb5a.jsonl": {
+      "mtimeMs": 1773712916000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/adcf863c-8ebe-42fc-b668-1ddcb2d1efc3/adcf863c-8ebe-42fc-b668-1ddcb2d1efc3.jsonl": {
+      "mtimeMs": 1773607854000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/ae4849b3-9dce-4a02-b786-16bf85656730/ae4849b3-9dce-4a02-b786-16bf85656730.jsonl": {
+      "mtimeMs": 1772661183000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/b40ecef2-a298-45e9-a899-f8fc2952a055/b40ecef2-a298-45e9-a899-f8fc2952a055.jsonl": {
+      "mtimeMs": 1773615490000,
+      "lastProcessedAt": "2026-03-20T21:27:22.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/ba1b11a2-d714-44de-b67d-8bd6ce17ade5/ba1b11a2-d714-44de-b67d-8bd6ce17ade5.jsonl": {
+      "mtimeMs": 1773693194000,
+      "lastProcessedAt": "2026-03-20T21:27:24.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/bc0f6dbb-154e-4543-adc9-5764a42694d1/bc0f6dbb-154e-4543-adc9-5764a42694d1.jsonl": {
+      "mtimeMs": 1773612563000,
+      "lastProcessedAt": "2026-03-20T21:27:21.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/c230ef27-f004-4d72-923a-ec55c7a44a6d/c230ef27-f004-4d72-923a-ec55c7a44a6d.jsonl": {
+      "mtimeMs": 1773612738000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
     },
     "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/d081df63-3a76-4a82-8f27-72c30d9ae79b/d081df63-3a76-4a82-8f27-72c30d9ae79b.jsonl": {
       "mtimeMs": 1773972154000,
-      "lastProcessedAt": "2026-03-20T02:25:00.000Z"
+      "lastProcessedAt": "2026-03-20T21:27:18.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/d17e4789-5495-41de-8dce-7b3cd2a19168/d17e4789-5495-41de-8dce-7b3cd2a19168.jsonl": {
+      "mtimeMs": 1773699645000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/d83d217c-3ca6-4378-8a5b-e6949277862c/d83d217c-3ca6-4378-8a5b-e6949277862c.jsonl": {
+      "mtimeMs": 1773613943000,
+      "lastProcessedAt": "2026-03-20T21:27:23.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/d94c1fc6-eb42-43d7-b774-c8b3b6ef347c/d94c1fc6-eb42-43d7-b774-c8b3b6ef347c.jsonl": {
+      "mtimeMs": 1773967057000,
+      "lastProcessedAt": "2026-03-20T21:27:19.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/dbc4f5b4-5152-4134-8e32-d6a2967a46d9/dbc4f5b4-5152-4134-8e32-d6a2967a46d9.jsonl": {
+      "mtimeMs": 1774041725000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/e3738440-387f-4f48-b16c-d78a1120d374/e3738440-387f-4f48-b16c-d78a1120d374.jsonl": {
+      "mtimeMs": 1773452451000,
+      "lastProcessedAt": "2026-03-20T21:27:18.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/e94df0a3-b3b2-46bc-a8fc-fe3de9d95005/e94df0a3-b3b2-46bc-a8fc-fe3de9d95005.jsonl": {
+      "mtimeMs": 1773683665000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/eb6fa8a4-db85-455a-bb30-ac0cc8b6d2e8/eb6fa8a4-db85-455a-bb30-ac0cc8b6d2e8.jsonl": {
+      "mtimeMs": 1773561002000,
+      "lastProcessedAt": "2026-03-20T21:27:18.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/f3f01d9f-acbd-4dc2-8631-bf62f39a0897/f3f01d9f-acbd-4dc2-8631-bf62f39a0897.jsonl": {
+      "mtimeMs": 1774041593000,
+      "lastProcessedAt": "2026-03-20T21:27:22.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/f979b8b5-0c0f-4c62-a718-f5665eee72f8/f979b8b5-0c0f-4c62-a718-f5665eee72f8.jsonl": {
+      "mtimeMs": 1773694454000,
+      "lastProcessedAt": "2026-03-20T21:27:24.000Z"
+    },
+    "/Users/eliotchang/.cursor/projects/Users-eliotchang-Local-Github-Figment-survive-history/agent-transcripts/fb8f2ee3-3191-422a-8b6e-775f8d033fe6/fb8f2ee3-3191-422a-8b6e-775f8d033fe6.jsonl": {
+      "mtimeMs": 1773453333000,
+      "lastProcessedAt": "2026-03-20T21:27:25.000Z"
     }
   }
 }

@@ -1,0 +1,23 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. Exterior view of Space Shuttle Columbia in orbit, late January 2003.
+
+NARRATION FOR THIS IMAGE: "The foam punched a hole in the heat shield — the only thing between you and 3,000-degree re-entry plasma."
+
+Wide shot, low angle looking upward at the underside of Columbia's left wing from below. The shuttle orbits above Earth. The wing's leading edge — the reinforced carbon-carbon panels — is rendered in flat dark grey. A jagged hole roughly the size of a briefcase is visible in Panel 8, exposing the wing's internal aluminum structure in flat metallic silver beneath. The hole's edges are rough and broken. The figure is visible through a crew window on the shuttle's fuselage above, pressing both hands against the glass, pale orb-like eyes looking downward toward the damaged wing — though the figure cannot actually see it from inside.
+
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Visible through a small window, pressing hands against glass, face close to the pane. Expression: apprehension, searching.
+
+Foreground: The damaged leading edge panel dominates the lower-center frame — flat dark grey carbon-carbon material with a jagged hole showing flat silver aluminum honeycomb structure inside. Small debris particles float nearby in flat black space.
+
+Midground: The full underside of Columbia — the distinctive black thermal tile grid on the belly, white upper fuselage, the payload bay doors, the left wing extending toward the viewer. The figure is small but visible through the crew window.
+
+Background: Earth fills the upper portion of the frame — flat bands of bright blue ocean, green-brown landmass, and white cloud formations. The thin blue line of the atmosphere along the horizon. Flat black space beyond.
+
+Flat even lighting. Orbital damage palette — thermal tile black, shuttle white, dark grey carbon-carbon panels, exposed silver aluminum, Earth blue-green, absolute flat black space. The hole in the wing is the visual focal point — the only break in the shuttle's clean lines.
+
+Period texture: The specific reinforced carbon-carbon (RCC) panels on the wing's leading edge — numbered Panel 8 area, rendered as segmented flat dark grey sections with visible seam lines between panels. The T-seal joints between panels rendered as thin flat lines.
+
+Background activity: The shuttle's robotic arm (Canadarm) is stowed along the payload bay — a long flat white segmented arm folded against the bay wall. Earth rotates slowly below.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

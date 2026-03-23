@@ -1,0 +1,32 @@
+[
+  {
+    "fact": "A chunk of foam hit Columbia's wing during launch, punching a hole in the heat shield",
+    "source": "Columbia Accident Investigation Board (CAIB) Report, Volume 1, NASA (2003)",
+    "url": "https://www.nasa.gov/columbia/home/CAIB_Vol1.html"
+  },
+  {
+    "fact": "Engineers asked for satellite imagery to assess the damage but NASA management declined the request",
+    "source": "Columbia Accident Investigation Board (CAIB) Report, Chapter 6: Decision Making at NASA",
+    "url": "https://history.nasa.gov/columbia/CAIB_reportindex.html"
+  },
+  {
+    "fact": "Re-entry temperatures reached approximately 3,000 degrees (Fahrenheit) — the thermal protection system was the only barrier against re-entry plasma",
+    "source": "NASA Space Shuttle Thermal Protection System overview; CAIB Report Chapter 3",
+    "url": "https://en.wikipedia.org/wiki/Space_Shuttle_thermal_protection_system"
+  },
+  {
+    "fact": "Columbia's mission (STS-107) lasted sixteen days in orbit before re-entry on February 1, 2003",
+    "source": "NASA STS-107 Mission Summary",
+    "url": "https://www.nasa.gov/mission_pages/shuttle/shuttlemissions/sts107/main/index.html"
+  },
+  {
+    "fact": "Columbia broke apart over Texas during re-entry at approximately Mach 18, killing all seven crew members",
+    "source": "Columbia Accident Investigation Board (CAIB) Report, Volume 1, Chapter 2 (2003)",
+    "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia_disaster"
+  },
+  {
+    "fact": "Engineers emailed concerns during the mission and managers closed the discussion, reasoning nothing could be done even if damage existed",
+    "source": "CAIB Report, Chapter 6; also detailed in 'Comm Check: The Final Flight of Shuttle Columbia' by Michael Cabbage and William Harwood (2004)",
+    "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia_disaster#Debris_strike"
+  }
+]
