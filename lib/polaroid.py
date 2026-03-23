@@ -38,11 +38,25 @@ MAX_CAROUSEL_IMAGES = 10
 FONT_SIZES = [32, 28, 24, 20]
 
 
+def _sanitize_text(text: str) -> str:
+    """Normalize unicode punctuation to ASCII equivalents for font compatibility."""
+    return (
+        text
+        .replace("\u2014", " -- ")   # em dash
+        .replace("\u2013", " - ")    # en dash
+        .replace("\u2018", "'")      # left single quote
+        .replace("\u2019", "'")      # right single quote
+        .replace("\u201c", '"')      # left double quote
+        .replace("\u201d", '"')      # right double quote
+        .replace("\u2026", "...")     # ellipsis
+    )
+
+
 def _load_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
     preferred_fonts = [
-        "/System/Library/Fonts/NewYork.ttf",
         "/System/Library/Fonts/Supplemental/Georgia.ttf",
         "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
+        "/System/Library/Fonts/NewYork.ttf",
         "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
         "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf",
     ]
@@ -119,6 +133,7 @@ def create_polaroid_image(
         outline=FRAME_COLOR, width=OUTER_FRAME_WIDTH,
     )
 
+    caption_text = _sanitize_text(caption_text)
     if caption_text.strip():
         wrapped_text, font = _fit_text(draw, caption_text, TEXT_AREA_W)
         text_y = BORDER_TOP + IMAGE_SIZE + TEXT_MARGIN_TOP
