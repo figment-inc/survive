@@ -158,7 +158,7 @@ def create_carousel_images(
 
     for si in sentence_data:
         s_idx = si["sentence_index"]
-        caption = si.get("text", "")
+        caption = si.get("narration_text", "") or si.get("text", "")
         num_images = len(si.get("image_prompts", []))
 
         for p_idx in range(num_images):
@@ -195,7 +195,7 @@ def _select_one_per_sentence(
     slides: list[tuple[Path, str]] = []
     for si in sentence_data:
         s_idx = si["sentence_index"]
-        caption = si.get("text", "")
+        caption = si.get("narration_text", "") or si.get("text", "")
         fname = f"sentence_{s_idx:02d}_img_01.png"
         src_path = images_dir / fname
         if src_path.exists():
