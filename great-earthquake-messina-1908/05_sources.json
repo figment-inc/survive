@@ -1,0 +1,27 @@
+[
+  {
+    "fact": "A 7.1 magnitude earthquake struck Messina at 5:20 a.m. in 1908",
+    "source": "USGS Historic Earthquakes: Messina, Italy, 1908",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/official19081228042036_30"
+  },
+  {
+    "fact": "A twelve-metre tsunami followed the earthquake and struck the ruins",
+    "source": "National Geophysical Data Center / NOAA Historical Tsunami Database; also Baratta, M. (1910), 'La catastrofe sismica calabro-messinese'",
+    "url": "https://en.wikipedia.org/wiki/1908_Messina_earthquake#Tsunami"
+  },
+  {
+    "fact": "Approximately eighty thousand people died in the disaster",
+    "source": "Widely documented; estimates range from 75,000 to over 100,000. USGS and Encyclopedia Britannica cite figures in this range.",
+    "url": "https://www.britannica.com/event/Messina-earthquake-of-1908"
+  },
+  {
+    "fact": "Buildings were centuries-old unreinforced stone with no modern building codes",
+    "source": "Guidoboni, E. & Valensise, G., 'Il peso economico e sociale dei disastri sismici in Italia negli ultimi 150 anni' (2011); also widely documented in accounts of Messina's pre-earthquake construction",
+    "url": "https://en.wikipedia.org/wiki/1908_Messina_earthquake#Destruction"
+  },
+  {
+    "fact": "Relief efforts were delayed for roughly three days because officials initially refused to believe the scale of the disaster",
+    "source": "John Dickie, 'Darkest Italy: The Nation and Stereotypes of the Mezzogiorno, 1860–1900' and contemporary press accounts; the Italian government's slow response is widely documented, with the first significant naval relief arriving on December 30, two days after the quake",
+    "url": "https://en.wikipedia.org/wiki/1908_Messina_earthquake#Aftermath"
+  }
+]
