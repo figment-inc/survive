@@ -1,0 +1,23 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. New York City, March 12, 1888. Exterior view of a buried brownstone row.
+
+NARRATION FOR THIS IMAGE: "You try to force your door open, but snow is piled to your second-story windows and drifts stand twenty feet deep."
+
+SHOT TYPE: Wide shot. CAMERA ANGLE: Eye-level from across the street. CHARACTER POSITION: Absent (has_character override — the figure is visible only as a tiny pale face peering through a second-story window). A row of brownstone buildings is buried in snow up to the second-story windows. The first floors are completely invisible — swallowed by a massive flat white snowdrift that fills the entire street to a depth of twenty feet. Only the upper stories and rooflines of the buildings are visible above the snow line.
+
+2D cel-shaded animation. The figure is barely visible — a tiny pale translucent face with orb-like eyes pressed against a second-story window of one of the brownstones, looking out in desperation. The skeletal features of the skull are faintly visible through the translucent skin even at this small scale.
+
+Foreground: The top surface of the massive snowdrift — a flat white expanse that serves as the new "ground level," roughly twenty feet above the actual street. A chimney pot from a shorter building pokes up through the snow. A single telegraph pole tip barely emerges from the drift.
+
+Midground: The row of four- and five-story brownstones, their lower two floors completely buried. Windows on the second floor are packed with flat white snow pressed against the glass. The cornices and decorative stonework of the upper floors are caked in ice. One building's iron fire escape is encased in thick flat white ice.
+
+Background: More buried buildings receding into the distance. The elevated railway trestle is visible above, its tracks buried under snow, a locomotive frozen in place. The sky is flat dark grey, snow still falling in thick diagonal streaks.
+
+Flat even lighting. Burial palette — overwhelming flat white of the snowdrifts, muted brick-red and brown of the exposed upper building stories, dark iron grey of metal structures, flat dark grey sky. The sheer scale of white dominates the frame.
+
+Period texture: The brownstones feature the distinctive carved brownstone lintels and cornices of 1880s Manhattan row houses. An ornate iron balcony railing on one third-floor window is bent under the weight of accumulated ice.
+
+Background activity: A single figure in dark clothing attempts to climb across the top of the snowdrift on hands and knees, tiny against the massive white expanse. Smoke rises from a chimney — someone burning fuel inside a trapped building.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.
