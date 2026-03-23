@@ -1999,7 +1999,7 @@ def publish_carousel_post(episode, ep_dir, schedule=""):
     phase_banner("PHASE 5c: INSTAGRAM CAROUSEL")
 
     from lib.config import load_settings
-    from lib.metricool import publish_carousel_to_metricool
+    from lib.metricool import publish_carousel_to_metricool, upload_image_file
     from lib.polaroid import create_carousel_images
 
     settings = load_settings()
@@ -2045,9 +2045,23 @@ def publish_carousel_post(episode, ep_dir, schedule=""):
     if carousel_schedule:
         print(f"  [{ts()}] Carousel scheduled at: {carousel_schedule}")
 
+    # Try S3 upload first; fall back to GitHub Release assets if S3 is disabled
+    media_urls = None
+    try:
+        test_url = upload_image_file(settings, str(carousel_paths[0]))
+        print(f"  [{ts()}] S3 image upload works — using direct upload for carousel")
+    except Exception:
+        print(f"  [{ts()}] Metricool S3 upload disabled — uploading carousel to GitHub Release")
+        media_urls = _upload_carousel_to_github_release(episode, carousel_paths)
+        if not media_urls:
+            print(f"  [{ts()}] GitHub Release upload also failed — cannot publish carousel")
+            return False
+        print(f"  [{ts()}] Uploaded {len(media_urls)} carousel images to GitHub Release")
+
     result = publish_carousel_to_metricool(
         settings=settings,
-        image_paths=carousel_paths,
+        image_paths=carousel_paths if media_urls is None else None,
+        media_urls=media_urls,
         caption=caption,
         desired_publish_at=carousel_schedule,
         first_comment=first_comment,
@@ -2057,6 +2071,42 @@ def publish_carousel_post(episode, ep_dir, schedule=""):
     if result.error_message:
         print(f"  [{ts()}] Carousel error: {result.error_message}")
     return result.status == "published"
+
+
+def _upload_carousel_to_github_release(episode, carousel_paths):
+    """Upload carousel images to the existing GitHub Release and return direct URLs."""
+    slug = episode.get("episode_slug", "")
+    tag = f"episode-{slug}"
+
+    for img_path in carousel_paths:
+        result = subprocess.run(
+            ["gh", "release", "upload", tag, str(img_path), "--clobber"],
+            capture_output=True, text=True,
+        )
+        if result.returncode != 0:
+            print(f"  [{ts()}] Failed to upload {img_path.name}: {result.stderr.strip()}")
+            return None
+
+    view_result = subprocess.run(
+        ["gh", "release", "view", tag, "--json", "assets"],
+        capture_output=True, text=True,
+    )
+    if view_result.returncode != 0:
+        return None
+
+    assets = json.loads(view_result.stdout).get("assets", [])
+    asset_map = {a["name"]: a["url"] for a in assets}
+
+    urls: list[str] = []
+    for img_path in carousel_paths:
+        gh_url = asset_map.get(img_path.name)
+        if gh_url:
+            direct_url = _resolve_github_release_url(gh_url)
+            urls.append(direct_url)
+        else:
+            print(f"  [{ts()}] WARNING: No asset found for {img_path.name}")
+
+    return urls if urls else None
 
 
 def validate_word_counts(episode):

@@ -434,16 +434,17 @@ def publish_to_metricool(
 
 def publish_carousel_to_metricool(
     settings: Settings,
-    image_paths: list[Path],
+    image_paths: list[Path] | None = None,
+    media_urls: list[str] | None = None,
     caption: str = "",
     desired_publish_at: str = "",
     first_comment: str = "",
 ) -> PublishResult:
     """Publish an Instagram carousel post with multiple images via Metricool.
 
-    Uploads each image to Metricool S3, then schedules a single POST-type
-    Instagram post with all images in the media array. Instagram only — the
-    Reel post handles TikTok/YouTube separately.
+    Uploads each image to Metricool S3 (or uses pre-resolved media_urls as
+    fallback), then schedules a single POST-type Instagram post with all images
+    in the media array. Instagram only.
     """
     if not settings.metricool_publish_enabled:
         return PublishResult(
@@ -463,28 +464,29 @@ def publish_carousel_to_metricool(
             response_payload={},
         )
 
-    if not image_paths:
+    if not image_paths and not media_urls:
         return PublishResult(
             status="failed",
             external_post_id=None,
-            error_message="No carousel images provided",
+            error_message="No carousel images or URLs provided",
             http_status=None,
             response_payload={},
         )
 
-    media_urls: list[str] = []
-    for img_path in image_paths:
-        try:
-            url = upload_image_file(settings, str(img_path))
-            normalized = _metricool_normalize_media_url(settings, url)
-            media_urls.append(normalized)
-            LOGGER.info("Carousel image uploaded: %s -> %s", img_path.name, normalized[:60])
-        except Exception as exc:
-            LOGGER.warning("Failed to upload carousel image %s: %s", img_path.name, exc)
-            media_urls.append(url if 'url' in dir() else "")
+    resolved_urls: list[str] = list(media_urls or [])
 
-    media_urls = [u for u in media_urls if u]
-    if not media_urls:
+    if image_paths and not resolved_urls:
+        for img_path in image_paths:
+            try:
+                url = upload_image_file(settings, str(img_path))
+                normalized = _metricool_normalize_media_url(settings, url)
+                resolved_urls.append(normalized)
+                LOGGER.info("Carousel image uploaded: %s -> %s", img_path.name, normalized[:60])
+            except Exception as exc:
+                LOGGER.warning("Failed to upload carousel image %s: %s", img_path.name, exc)
+
+    resolved_urls = [u for u in resolved_urls if u]
+    if not resolved_urls:
         return PublishResult(
             status="failed",
             external_post_id=None,
@@ -508,7 +510,7 @@ def publish_carousel_to_metricool(
         "saveExternalMediaFiles": True,
         "shortener": False,
         "draft": False,
-        "media": media_urls,
+        "media": resolved_urls,
         "publicationDate": publication_date,
         "instagramData": {
             "autoPublish": True,
@@ -518,7 +520,7 @@ def publish_carousel_to_metricool(
 
     LOGGER.info(
         "Publishing Instagram carousel: %d images, schedule=%s",
-        len(media_urls), publication_date["dateTime"],
+        len(resolved_urls), publication_date["dateTime"],
     )
 
     try:
