@@ -1,7 +1,8 @@
 """Polaroid-style image framing for Instagram carousel posts.
 
 Takes episode images and narration sentences, composites each into a
-polaroid-framed 1080x1350 (4:5) slide with white border and caption text.
+polaroid-framed 1080x1350 (4:5) slide with white border, square image,
+black borders, and caption text underneath.
 """
 
 from __future__ import annotations
@@ -18,21 +19,23 @@ CANVAS_W = 1080
 CANVAS_H = 1350
 BG_COLOR = (255, 255, 255)
 
-BORDER_SIDE = 40
-BORDER_TOP = 40
-BORDER_BOTTOM = 260
-IMAGE_AREA_W = CANVAS_W - 2 * BORDER_SIDE
-IMAGE_AREA_H = CANVAS_H - BORDER_TOP - BORDER_BOTTOM
+BORDER_SIDE = 50
+BORDER_TOP = 50
+BORDER_BOTTOM = 280
+IMAGE_SIZE = CANVAS_W - 2 * BORDER_SIDE  # 980x980 square image area
 
-TEXT_MARGIN_X = 60
-TEXT_MARGIN_TOP = 20
-TEXT_COLOR = (30, 30, 30)
+TEXT_MARGIN_X = 65
+TEXT_MARGIN_TOP = 24
+TEXT_COLOR = (0, 0, 0)
 TEXT_AREA_W = CANVAS_W - 2 * TEXT_MARGIN_X
+
+FRAME_COLOR = (0, 0, 0)
+FRAME_WIDTH = 2
+OUTER_FRAME_WIDTH = 3
 
 MAX_CAROUSEL_IMAGES = 10
 
 FONT_SIZES = [32, 28, 24, 20]
-MAX_CHARS_PER_LINE = 38
 
 
 def _load_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
@@ -51,7 +54,7 @@ def _load_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
 
 def _fit_text(draw: ImageDraw.ImageDraw, text: str, max_width: int) -> tuple[str, ImageFont.FreeTypeFont | ImageFont.ImageFont]:
     """Find the largest font size that fits the text within max_width and available height."""
-    available_h = BORDER_BOTTOM - TEXT_MARGIN_TOP - 30
+    available_h = BORDER_BOTTOM - TEXT_MARGIN_TOP - 40
 
     for size in FONT_SIZES:
         font = _load_font(size)
@@ -74,6 +77,15 @@ def _fit_text(draw: ImageDraw.ImageDraw, text: str, max_width: int) -> tuple[str
     return wrapped, font
 
 
+def _center_crop_square(img: Image.Image) -> Image.Image:
+    """Center-crop an image to 1:1 square aspect ratio."""
+    w, h = img.size
+    side = min(w, h)
+    left = (w - side) // 2
+    top = (h - side) // 2
+    return img.crop((left, top, left + side, top + side))
+
+
 def create_polaroid_image(
     image_path: Path,
     caption_text: str,
@@ -84,23 +96,32 @@ def create_polaroid_image(
     Returns the output path on success.
     """
     canvas = Image.new("RGB", (CANVAS_W, CANVAS_H), BG_COLOR)
+    draw = ImageDraw.Draw(canvas)
 
     src = Image.open(image_path).convert("RGB")
-    src_w, src_h = src.size
+    cropped = _center_crop_square(src)
+    resized = cropped.resize((IMAGE_SIZE, IMAGE_SIZE), Image.LANCZOS)
 
-    scale = min(IMAGE_AREA_W / src_w, IMAGE_AREA_H / src_h)
-    new_w = int(src_w * scale)
-    new_h = int(src_h * scale)
-    resized = src.resize((new_w, new_h), Image.LANCZOS)
+    img_x = BORDER_SIDE
+    img_y = BORDER_TOP
+    canvas.paste(resized, (img_x, img_y))
 
-    x_offset = BORDER_SIDE + (IMAGE_AREA_W - new_w) // 2
-    y_offset = BORDER_TOP + (IMAGE_AREA_H - new_h) // 2
-    canvas.paste(resized, (x_offset, y_offset))
+    # Black border around the image
+    draw.rectangle(
+        [img_x - FRAME_WIDTH, img_y - FRAME_WIDTH,
+         img_x + IMAGE_SIZE + FRAME_WIDTH - 1, img_y + IMAGE_SIZE + FRAME_WIDTH - 1],
+        outline=FRAME_COLOR, width=FRAME_WIDTH,
+    )
+
+    # Black border around the outer polaroid edge
+    draw.rectangle(
+        [0, 0, CANVAS_W - 1, CANVAS_H - 1],
+        outline=FRAME_COLOR, width=OUTER_FRAME_WIDTH,
+    )
 
     if caption_text.strip():
-        draw = ImageDraw.Draw(canvas)
         wrapped_text, font = _fit_text(draw, caption_text, TEXT_AREA_W)
-        text_y = CANVAS_H - BORDER_BOTTOM + TEXT_MARGIN_TOP
+        text_y = BORDER_TOP + IMAGE_SIZE + TEXT_MARGIN_TOP
         draw.multiline_text(
             (TEXT_MARGIN_X, text_y),
             wrapped_text,
@@ -108,16 +129,6 @@ def create_polaroid_image(
             font=font,
             spacing=6,
         )
-
-    # Subtle drop shadow on the image area
-    draw = ImageDraw.Draw(canvas)
-    shadow_rect = [
-        BORDER_SIDE - 1,
-        BORDER_TOP - 1,
-        BORDER_SIDE + IMAGE_AREA_W + 1,
-        BORDER_TOP + IMAGE_AREA_H + 1,
-    ]
-    draw.rectangle(shadow_rect, outline=(220, 220, 220), width=1)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     canvas.save(output_path, "PNG", optimize=True)
