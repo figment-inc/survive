@@ -186,8 +186,7 @@ def create_carousel_images(
             if not src_path.exists():
                 LOGGER.warning("Missing image for carousel: %s", fname)
                 continue
-            slide_caption = caption if p_idx == 0 else ""
-            slides.append((src_path, slide_caption))
+            slides.append((src_path, caption))
 
     if len(slides) > MAX_CAROUSEL_IMAGES:
         LOGGER.info(
