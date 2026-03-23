@@ -370,7 +370,7 @@ def composite_captions(video_path: Path, overlay_path: Path, output_path: Path) 
             "-i", str(overlay_path),
             "-filter_complex", "[0:v][1:v]overlay=0:0:format=auto",
             "-map", "0:a",
-            "-c:a", "aac", "-b:a", "192k",
+            "-c:a", "aac", "-b:a", "192k", "-ac", "2",
             "-c:v", "libx264",
             "-preset", "medium",
             "-crf", "18",

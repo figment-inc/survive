@@ -1126,7 +1126,7 @@ def burn_location_title(
 
     Line 1 (location) is dynamically sized so it never overflows 1080px width.
     Line 2 (year) is rendered smaller beneath it.  Both lines are centered
-    horizontally in the bottom quarter of the frame with matching fade timing.
+    horizontally in the top quarter of the frame with matching fade timing.
     """
     if output_path.exists() and not force:
         print(f"  [{_ts()}] Skipping (exists): {output_path.name}")
@@ -1170,7 +1170,7 @@ def burn_location_title(
         f"fontsize={loc_size}:"
         f"{common_style}:"
         f"x=(w-tw)/2:"
-        f"y=h*0.86-th-{line_gap}"
+        f"y=h*0.14-th-{line_gap}"
     )
 
     year_filter = (
@@ -1179,7 +1179,7 @@ def burn_location_title(
         f"fontsize={year_size}:"
         f"{common_style}:"
         f"x=(w-tw)/2:"
-        f"y=h*0.86+{line_gap}"
+        f"y=h*0.14+{line_gap}"
     )
 
     cmd = [
