@@ -1,0 +1,27 @@
+[
+  {
+    "fact": "The 1960 Valdivia earthquake was magnitude 9.5, the largest earthquake in recorded history",
+    "source": "U.S. Geological Survey (USGS)",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/official19600522191120_30"
+  },
+  {
+    "fact": "The ground subsided by approximately two metres in parts of the affected region",
+    "source": "USGS: Historic Earthquakes — Chile 1960",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/official19600522191120_30/executive"
+  },
+  {
+    "fact": "Approximately 2,000 people died and 2 million were left homeless",
+    "source": "USGS Earthquake Hazards Program / widely documented figure; also cited in Wikipedia's synthesis of multiple sources",
+    "url": "https://en.wikipedia.org/wiki/1960_Valdivia_earthquake"
+  },
+  {
+    "fact": "Chile's telegraph communications ran along the Pan-American Highway and were severed by the earthquake, cutting off tsunami warnings",
+    "source": "Widely documented in post-disaster analyses. See: 'The Great Chilean Earthquake of 1960: A Case Study in Disaster Response,' and the NOAA historical tsunami database. The concentration of communication lines along the Pan-American Highway is discussed in multiple retrospective accounts.",
+    "url": "https://en.wikipedia.org/wiki/1960_Valdivia_earthquake#Tsunami"
+  },
+  {
+    "fact": "The ocean receded, exposing the seafloor before the tsunami struck, and some people walked out onto the exposed seabed to collect fish",
+    "source": "Oral histories and journalistic accounts from survivors; referenced in multiple Chilean historical sources and documentaries. See also NOAA's International Tsunami Information Center records.",
+    "url": "https://www.ngdc.noaa.gov/hazel/view/hazards/tsunami/event-more-info/2116"
+  }
+]
