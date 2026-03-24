@@ -1,0 +1,27 @@
+[
+  {
+    "fact": "Scientists published a hazard map predicting lahars would devastate Armero before the eruption",
+    "source": "USGS Volcano Hazards Program; also documented in 'The 13 November 1985 eruption of Nevado del Ruiz, Colombia' by various authors in Journal of Volcanology and Geothermal Research, Vol. 41 (1990)",
+    "url": "https://en.wikipedia.org/wiki/Armero_tragedy#Warnings"
+  },
+  {
+    "fact": "The government dismissed the hazard map as alarmist and it was not effectively distributed to residents",
+    "source": "Voight, B. 'The 1985 Nevado del Ruiz volcano catastrophe: anatomy and retrospection,' Journal of Volcanology and Geothermal Research, Vol. 44, Issues 3–4 (1990)",
+    "url": "https://doi.org/10.1016/0377-0273(90)90075-Q"
+  },
+  {
+    "fact": "The eruption occurred on November 13, 1985",
+    "source": "U.S. Geological Survey, 'Nevado del Ruiz — Eruption and Lahars, November 13, 1985'",
+    "url": "https://www.usgs.gov/volcanoes/nevado-del-ruiz"
+  },
+  {
+    "fact": "Lahars (volcanic mudflows) formed from melted glacial ice and volcanic debris traveled down river valleys at approximately 60 km/h",
+    "source": "Pierson, T.C. et al., 'Perturbation and melting of snow and ice by the 13 November 1985 eruption of Nevado del Ruiz, Colombia, and consequent mobilization, flow, and deposition of lahars,' Journal of Volcanology and Geothermal Research, Vol. 41 (1990)",
+    "url": "https://doi.org/10.1016/0377-0273(90)90062-K"
+  },
+  {
+    "fact": "Approximately 23,000 people were killed in the destruction of Armero",
+    "source": "Widely documented; figure cited by USGS, the Colombian Red Cross, and multiple academic sources. The commonly accepted toll is approximately 23,000.",
+    "url": "https://en.wikipedia.org/wiki/Armero_tragedy"
+  }
+]
