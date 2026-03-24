@@ -1,0 +1,23 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. Cutaway diagram view — the Macondo wellbore beneath the Gulf of Mexico seabed, April 20, 2010.
+
+NARRATION FOR THIS IMAGE: "The only thing between you and a blowout is a cement seal at the bottom — and pressure tests say it's failing."
+
+SHOT TYPE: POV / Diagram view. CAMERA ANGLE: Straight-on cross-section. CHARACTER POSITION: Absent.
+
+A stylized cross-section cutaway showing the well structure beneath the ocean floor — rendered as a flat 2D technical diagram in animation style. The vertical composition shows, from top to bottom: flat dark navy ocean water, the flat brown-grey ocean floor (sediment), and then layers of flat-colored rock — tan sandstone, dark grey shale, lighter limestone — with the wellbore cutting straight down through all of them as a narrow vertical channel lined with flat steel-grey casing. At the very bottom, a small plug of flat concrete-grey represents the cement seal — and it is visibly cracked, with flat bright red lines indicating fractures. Below the cracked cement, a pocket of flat yellow-green represents the high-pressure gas reservoir pushing upward.
+
+Foreground: The top of the frame shows the flat dark navy ocean surface with the tiny silhouette of the rig platform floating above.
+
+Midground: The cross-section of rock layers and the wellbore — each geological layer in a distinct flat color. The steel casing is flat grey with coupling joints visible. Flat dark brown mud fills the wellbore.
+
+Background: The deepest portion — the cracked cement plug in flat concrete grey with flat red fracture lines, and the gas pocket below in flat yellow-green, with simplified upward-pointing arrows indicating pressure pushing against the failing seal.
+
+Flat even lighting. Diagram palette — flat dark navy (ocean), flat brown-grey (seafloor), flat tan, flat dark grey, flat cream (rock layers), flat steel grey (casing), flat concrete grey (cement), flat red (cracks), flat yellow-green (gas). Clean and legible, like an animated educational diagram.
+
+Period texture: The well casing shows the specific multi-string design used on Macondo — an outer conductor casing, intermediate casing, and production casing nested inside each other, each a slightly different shade of flat grey. The cement plug at the bottom is the infamous Halliburton nitrogen-foamed cement job — depicted as a thin, inadequate-looking barrier.
+
+Background activity: Small flat arrows in the gas pocket area point upward, indicating the immense pressure pushing against the cement seal. Tiny flat bubbles rise through the wellbore mud above the cracked cement, suggesting gas migration has already begun.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

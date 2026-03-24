@@ -1,0 +1,32 @@
+[
+  {
+    "fact": "The crew disabled the general alarm so it wouldn't wake anyone",
+    "source": "National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling, 'Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling' (2011), Chapter 4",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf"
+  },
+  {
+    "fact": "The Deepwater Horizon was drilling the deepest offshore well in history",
+    "source": "The Macondo well (Deepwater Horizon) was among the deepest offshore wells at the time; widely documented. See National Commission Report, Chapter 2",
+    "url": "https://en.wikipedia.org/wiki/Deepwater_Horizon#Drilling_history"
+  },
+  {
+    "fact": "Pressure tests indicated the cement seal at the bottom of the well was failing, and engineers flagged the negative pressure test results but were overruled by managers",
+    "source": "National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling, 'Deep Water' (2011), Chapter 4; also BP's own internal investigation report (2010)",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf"
+  },
+  {
+    "fact": "Eleven men died in the Deepwater Horizon explosion",
+    "source": "Widely documented. U.S. Coast Guard and Bureau of Ocean Energy Management records; National Commission Report (2011)",
+    "url": "https://en.wikipedia.org/wiki/Deepwater_Horizon_explosion#Deaths"
+  },
+  {
+    "fact": "Oil poured into the Gulf of Mexico for 87 days",
+    "source": "The well blew out on April 20, 2010 and was capped on July 15, 2010 — 87 days. Widely documented; see U.S. Government Accountability Office and National Commission Report",
+    "url": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill"
+  },
+  {
+    "fact": "Multiple safety systems and safeguards existed but were overruled or bypassed in the lead-up to the blowout",
+    "source": "National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling, 'Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling' (2011), Chapters 4 and 5",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf"
+  }
+]

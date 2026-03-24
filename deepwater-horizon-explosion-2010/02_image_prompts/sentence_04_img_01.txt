@@ -1,0 +1,25 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. Deepwater Horizon drilling rig, interior operations room, April 20, 2010.
+
+NARRATION FOR THIS IMAGE: "The only thing between you and a blowout is a cement seal at the bottom — and pressure tests say it's failing."
+
+SHOT TYPE: Medium shot. CAMERA ANGLE: Over-shoulder, looking past the figure at monitoring equipment. CHARACTER POSITION: Left-third, seen from behind.
+
+The figure stands behind a seated rig worker, both looking at a bank of flat-screen monitors and analog pressure gauges mounted on a console. The monitors display simplified line graphs and circular pressure gauge readouts — all rendered as flat colored shapes without readable numbers. One gauge needle is deep in a flat red zone. The figure's skeletal hands rest on the back of the worker's chair. The figure's expression — visible in profile — is worried, orb-like eyes narrowed.
+
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. The figure leans forward slightly, peering over the worker's shoulder at the gauges. One hand grips the chair back, the other points toward the gauge in the red zone. Posture: tense, weight forward.
+
+Foreground: A clipboard with papers face-down on the console edge. A coffee-stained ceramic mug. A pen resting on a printed form. The back of the seated worker's hard hat — white with a corporate sticker (no readable text).
+
+Midground: The figure and the seated worker at the monitoring console. The console is a wall of flat pale blue monitor screens, circular analog gauges with flat white faces and black needle arms, and rows of flat-colored indicator buttons. One large central gauge has its needle in flat red — the negative pressure test result.
+
+Background: The operations room — flat off-white walls with industrial cable conduits running along the ceiling. A cross-section diagram of the well is pinned to a corkboard — showing a simplified illustration of the wellbore, the ocean floor, and the cement plug at the bottom, rendered as flat shapes. Through a porthole-style window, the dark ocean and rig deck are visible.
+
+Flat even lighting. Interior palette — flat off-white walls, flat pale blue screens, flat steel grey console, flat red gauge zone, flat white gauge faces. Clinical and tense. The red gauge is the visual focal point — danger made visible.
+
+Period texture: A 2010-era industrial monitoring setup — a mix of CRT-style monitors and newer flat panels, chunky industrial keyboards with large rubber keys, analog gauges with brass bezels alongside digital readouts. A two-way radio sits in a charging cradle on the console.
+
+Background activity: Another worker in the background talks into a handheld radio, gesturing with concern. A third worker crosses the room carrying a rolled-up technical drawing.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.
