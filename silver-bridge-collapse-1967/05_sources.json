@@ -1,0 +1,32 @@
+[
+  {
+    "fact": "The Silver Bridge stood for about forty years before its collapse (built 1928, collapsed 1967)",
+    "source": "Wikipedia — Silver Bridge",
+    "url": "https://en.wikipedia.org/wiki/Silver_Bridge"
+  },
+  {
+    "fact": "The bridge used eyebar chains rather than wire cables, with each link being a single solid piece of steel and no redundancy",
+    "source": "National Transportation Safety Board, Collapse of U.S. 35 Highway Bridge, Point Pleasant, West Virginia, December 15, 1967 (Report NTSB-HAR-71-1, 1970)",
+    "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR7101.pdf"
+  },
+  {
+    "fact": "The failure originated from a small corrosion-stress crack approximately 2.5 mm (0.1 in) deep in a single eyebar link",
+    "source": "National Transportation Safety Board, Collapse of U.S. 35 Highway Bridge, Point Pleasant, West Virginia, December 15, 1967 (Report NTSB-HAR-71-1, 1970)",
+    "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR7101.pdf"
+  },
+  {
+    "fact": "The bridge collapsed during rush-hour traffic on December 15, 1967",
+    "source": "Wikipedia — Silver Bridge",
+    "url": "https://en.wikipedia.org/wiki/Silver_Bridge"
+  },
+  {
+    "fact": "Forty-six people died in the collapse",
+    "source": "National Transportation Safety Board, Collapse of U.S. 35 Highway Bridge (NTSB-HAR-71-1, 1970); also widely documented in West Virginia state historical records",
+    "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR7101.pdf"
+  },
+  {
+    "fact": "The eyebar chain design had no second strand (no redundancy), meaning a single link failure caused total collapse",
+    "source": "National Transportation Safety Board, Collapse of U.S. 35 Highway Bridge (NTSB-HAR-71-1, 1970)",
+    "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR7101.pdf"
+  }
+]
