@@ -1,0 +1,19 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. Windscale Pile 1 reactor core — cutaway visualization, October 10, 1957.
+
+NARRATION FOR THIS IMAGE: "You push the temperature too high, and the graphite ignites."
+
+SHOT TYPE: Wide cutaway diagram shot. CAMERA ANGLE: Slightly angled bird's-eye view. CHARACTER POSITION: Absent — this is an environment-only image. A dramatic cross-section view of the Windscale reactor core showing the graphite blocks igniting. The reactor is shown in cutaway — stacked graphite blocks in flat dark grey forming a massive cube-like structure, with horizontal fuel channels running through them containing uranium cartridges. In the center of the core, the graphite blocks have changed color from dark grey to intense flat orange and flat bright red, indicating the fire spreading outward from the center. The fire zone is clearly delineated — a jagged boundary between grey (cool) graphite and orange-red (burning) graphite.
+
+Foreground: The cutaway edge of the reactor — showing the thin steel shell in flat steel grey surrounding the graphite. No concrete containment — just steel and graphite. Air channels visible between fuel cartridges.
+
+Midground: The core cross-section. Stacked graphite blocks rendered as a grid pattern — flat dark grey blocks transitioning to flat orange and flat bright red in the ignition zone. Uranium fuel cartridges shown as small cylinders with finned cladding inside the horizontal channels. Some cartridges in the fire zone have distorted shapes — warped and beginning to rupture.
+
+Background: The chimney stack extending upward from the top of the reactor, shown in the cutaway rising above the core. Air flow arrows (flat white chevrons) showing the path from intake at the bottom, through the burning core, and up through the chimney. The filter gallery at the chimney top shown as a cross-hatched barrier.
+
+Flat even lighting. Diagram palette — graphite black and dark grey for cool zones, flat orange and flat bright red for the fire zone, steel grey for the shell, flat white for airflow indicators. Clean, technical illustration feel but in the 2D animation style.
+
+Period texture: The distinctive Windscale air-cooled design — no water coolant, just forced air blown through channels in the graphite, now feeding the fire with oxygen. The horizontal fuel channels characteristic of the Windscale piles.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

@@ -1,0 +1,32 @@
+[
+  {
+    "fact": "The Windscale reactors had no containment building — just a graphite core enclosed in a steel and concrete shell with chimneys venting to the open air.",
+    "source": "Windscale fire, Wikipedia (citing official UK government reports and Penney Report, 1957)",
+    "url": "https://en.wikipedia.org/wiki/Windscale_fire"
+  },
+  {
+    "fact": "The fire was caused by a Wigner energy release (annealing) cycle that raised the graphite core temperature too high, igniting the graphite.",
+    "source": "Lorna Arnold, \"Windscale 1957: Anatomy of a Nuclear Accident\" (2007, Oxford University Press)",
+    "url": "https://global.oup.com/academic/product/windscale-1957-9780198562726"
+  },
+  {
+    "fact": "Uranium fuel cartridges ruptured during the fire, releasing radioactive contamination including plutonium-bearing smoke up the chimney stack.",
+    "source": "UK National Archives, Penney Report on the Windscale Accident (1957, declassified 1988)",
+    "url": "https://en.wikipedia.org/wiki/Windscale_fire#Penney_Report"
+  },
+  {
+    "fact": "The chimney filters (known as 'Cockcroft's Follies') trapped a significant portion of radioactive particulates and prevented far worse contamination of northern England.",
+    "source": "Lorna Arnold, \"Windscale 1957: Anatomy of a Nuclear Accident\" (2007); also widely documented in BBC and UK government retrospectives",
+    "url": "https://en.wikipedia.org/wiki/Windscale_fire#Cockcroft's_Follies"
+  },
+  {
+    "fact": "The filters were nearly not installed — they were added at the last minute at the insistence of Sir John Cockcroft, over objections about cost and delays.",
+    "source": "Lorna Arnold, \"Windscale 1957: Anatomy of a Nuclear Accident\" (2007, Oxford University Press); BBC documentary accounts",
+    "url": "https://en.wikipedia.org/wiki/Windscale_fire#Cockcroft's_Follies"
+  },
+  {
+    "fact": "The Windscale fire occurred on October 10, 1957, and is considered the worst nuclear accident in British history.",
+    "source": "Widely documented; UK Health and Safety Executive historical records; Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Windscale_fire"
+  }
+]
