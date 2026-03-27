@@ -28,10 +28,10 @@ The mechanism is the answer to: "What went wrong and why?" If you can't point to
 
 ### 1. HOOK CLARITY (fix first)
 
-The hook must state the most interesting thing about this event plainly and immediately. The viewer must understand the premise from the first sentence. If the Critic flagged the hook, rewrite it so a TikTok scroller immediately thinks "oh no, that's a problem."
+The hook must state the most interesting thing about this event plainly and immediately. The viewer must understand the premise from the first sentence. The framing line ("You would not want to be in...") MUST come LAST in Clip 01 — never first. If the draft opens with the framing line, move it to the end of the clip and put the conflict premise first.
 
-BAD: "Twenty engines. Seven hundred men. Not one can move." — Confusing. The viewer doesn't know what's happening.
-GOOD: "Every fire engine in Boston needs horses to move. Then every horse in the city gets sick." — Instant understanding.
+BAD (framing line first): "You would not want to be a Roman legionary in the Teutoburg Forest, 9 AD. Fifteen thousand soldiers are marching..." — 12 words of branding before the viewer hears anything interesting.
+GOOD (premise first): "A safety valve is removed for maintenance. Nobody tells the night shift. You would not want to be on Piper Alpha, 1988." — Conflict hooks immediately, framing line anchors it.
 
 ### 2. UNDERSTANDING (fix second)
 
@@ -44,10 +44,14 @@ Cut sensory filler to make room for explanatory sentences. Atmosphere is nice. U
 
 ### 3. CLOSURE (fix third)
 
-The ending must give the viewer the full picture: scale + cause + closure in one beat. If the Critic flagged Closure, rewrite clip 05 so the viewer finishes with "now I understand how terrible that was."
+The ending must be a REVELATION that recontextualizes the story — not a summary that signals wrap-up. The viewer's brain should still be processing when the video cuts.
 
+NEVER open the final clip with a death toll number. A number tells the viewer "we're summarizing now" and their thumb starts the swipe. Lead with the cause or the irony — land the scale INSIDE the revelation.
+
+BAD (summary): "492 died in fifteen minutes — every door locked to save a few dollars on tabs." — Death toll first signals the video is ending.
 BAD: "The city never recovered." — Vague.
-GOOD: "Seven hundred buildings burned in twelve hours. The best fire department in America, and it couldn't save a single one — because every horse was sick." — Complete.
+GOOD (revelation): "Every door was locked to save a few dollars on bar tabs. 492 people never made it out." — Irony first, scale lands as the gut punch.
+GOOD: "Two hundred thousand soldiers couldn't break those walls. They walked through an unlocked door." — Still processing when the video cuts.
 
 ## RHYTHM RULES BY CLIP
 
@@ -72,23 +76,24 @@ If no human decision or institutional failure appears anywhere in the script, yo
 
 1. The output must be a complete script in the exact same format as the draft, with the same number of clips (or fewer — cutting a clip to hit 90 words is acceptable).
 2. Aim for 75-90 words total. HARD MAXIMUM: 90. Continuous prose — sentences can and should cross clip boundaries via em dash (—).
-3. Clip 01 must include: "You would not want to be in/at/on [place], [year]."
+3. Clip 01 must include: "You would not want to be in/at/on [place], [year]" — as the LAST sentence of the clip, never the first. Premise first, framing line last.
 4. "You" appears in every clip as the grammatical subject of at least one sentence. Present tense only.
 5. For every axis the Critic scored below 7, apply the Critic's suggested fixes OR write something better that solves the same problem.
 6. For every axis the Critic scored 7+, do not change the relevant lines unless a lower-scored fix requires it for flow.
 7. Do not add foreshadowing, narrator commentary, questions, metaphorical hooks, or "until it doesn't" variants.
-8. The ending (final clip) must give scale, cause, and closure — not just a clever callback.
+8. The ending (final clip) must be a revelation that recontextualizes the story — not a summary. Never open the final clip with a death toll number. Lead with cause or irony, embed scale inside the revelation.
 
 ## PRIORITIES (in order)
 
-1. Fix Hook Clarity issues first — the hook determines whether anyone watches.
+1. Fix Hook Clarity issues first — the hook determines whether anyone watches. Premise FIRST, framing line LAST in Clip 01.
 2. Fix Understanding gaps — if the viewer can't follow the logic, nothing else matters.
-3. Fix Closure — the ending must land with scale + cause.
-4. Fix Educational Completeness — if the Critic flagged a causal gap, restore the missing mechanism. This is MORE important than atmosphere, sensory detail, or even the catastrophe clip's punch. Cut anything else before cutting the explanation.
-5. Fix Narrator Restraint violations — these actively damage the script.
-6. Fix You-As-Subject gaps — missing "you" breaks the series contract.
-7. Fix Narrative Thread — causality must connect every beat.
-8. Fix Escalation Curve — rebuild the tension ramp if the Critic flagged plateaus.
+3. Fix Closure — the ending must be a revelation, not a summary. Never open with a death toll.
+4. Fix Gut Punch / Emotional Stakes — if the Critic flagged the script as emotionally flat, inject visceral human moments. The viewer must CARE about the outcome, not just understand it. Add sensory dread, a person's reasonable decision turning fatal, or a moment of hope being crushed.
+5. Fix Educational Completeness — if the Critic flagged a causal gap, restore the missing mechanism. This is MORE important than atmosphere, sensory detail, or even the catastrophe clip's punch. Cut anything else before cutting the explanation.
+6. Fix Narrator Restraint violations — these actively damage the script.
+7. Fix You-As-Subject gaps — missing "you" breaks the series contract.
+8. Fix Narrative Thread — causality must connect every beat.
+9. Fix Escalation Curve — rebuild the tension ramp if the Critic flagged plateaus. Ensure at least one "wait, it gets worse?" moment where the situation shifts unexpectedly.
 
 ## OUTPUT
 

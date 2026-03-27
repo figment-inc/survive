@@ -43,15 +43,25 @@ Classic American adult animation (Family Guy seasons 10-20 aesthetic):
 - Static locked camera throughout — flat 2D animated compositions
 - Native Veo output durations only — NEVER crop or trim video
 
-## Episode Structure (3-Beat Narrative Arc)
+## Episode Structure (3-Beat Narrative Arc with optional Turn)
 
-Every episode follows this arc across 5 clips (~38s effective video, narration as continuous prose ~75-90 words):
+Every episode follows this arc across 4-5 clips (~38s effective video, narration as continuous prose ~75-90 words):
 
-1. **The Hook** (clip 01, 0–5s) — Voice starts IMMEDIATELY on frame 1. No silent establishing shots. No questions. One visceral, scroll-stopping line that makes the viewer think "wait, what?" followed by the framing line: "You would not want to be in/at [Event], [Year]." Goal: curiosity gap + instant event identification.
-2. **Easy Explanation** (clips 02–04, 5–26s) — Three clips that build the situation fast. Clip 02 grounds the viewer in a place and time with one sensory detail. Clip 03 introduces the fatal element and activates it. Clip 04 is the catastrophe — staccato, sensory, physical. The disaster reaches you. The viewer should understand what happened and FEEL it in their body.
-3. **Twist Payoff** (clip 05, 26–33s) — The gut-punch reframe. A single detail or statistic that recontextualizes everything the viewer just heard. This is the "thank god I didn't live through that" beat — the line that makes the viewer's stomach drop and leaves them grateful to be alive now.
+1. **The Hook** (clip 01, 0–5s) — Voice starts IMMEDIATELY on frame 1. No silent establishing shots. No questions. The FIRST sentence is the conflict premise — the most interesting thing about this event stated plainly. The framing line ("You would not want to be in/at [Event], [Year]") comes LAST in clip 01, never first. Goal: instant conflict in the first second, then event identification.
+2. **Easy Explanation** (clips 02–03, 5–18s) — Two clips that build the situation fast. Clip 02 grounds the viewer in a place and time with one sensory detail. Clip 03 introduces the fatal element and activates it. The viewer should understand the mechanism — WHY this disaster happened.
+3. **The Turn + Catastrophe** (clip 03-04, 18–28s) — The strongest episodes have a TURN: a moment where the viewer thinks they understand how bad it is, then it gets WORSE in a way they didn't expect (a second failure, an escape closing, an authority refusing to act). Clip 04 is the catastrophe — staccato, sensory, physical. The disaster reaches you.
+4. **Revelation Ending** (clip 05, 28–35s) — NOT a summary. A single revelation that recontextualizes the entire story. The viewer's brain should still be processing when the video cuts. Lead with cause or irony — embed scale inside the revelation. NEVER open with a death toll number. Abrupt cut — never signal the video is ending.
 
-Each beat spans 1–3 clips. The narration is one continuous audio stream — sentences flow freely across clip boundaries. Visual cuts happen mid-narration, pulling the viewer forward.
+Each beat spans 1–2 clips. The narration is one continuous audio stream — sentences flow freely across clip boundaries. Visual cuts happen mid-narration, pulling the viewer forward.
+
+## Retention Principles
+
+- **First frame is the thumbnail.** In autoplay environments (TikTok, Reels, Shorts), the first frame IS the thumbnail. The first image must show the TENSION from the hook, not a calm establishing shot.
+- **Premise first, branding last.** The framing line is branding — it creates zero curiosity. Always open with the conflict premise.
+- **Re-engagement via Turn.** The viewer needs at least one "wait, it gets WORSE?" moment — a shift they didn't predict. This prevents linear escalation from becoming predictable.
+- **Revelation endings, not summary endings.** The final line should make the viewer's brain go "wait—" as the video cuts. Never open the final clip with a death toll number — that signals "we're summarizing now" and the thumb starts swiping.
+- **Abrupt cut.** Never signal the video is ending. The ending is a revelation the viewer is still processing when the screen goes black.
+- **Emotional stakes.** The viewer must CARE, not just understand. Sensory dread, reasonable decisions turning fatal, and hope being crushed create visceral engagement that statistics alone cannot.
 
 ## Narrator Voice
 
@@ -81,21 +91,27 @@ Each beat spans 1–3 clips. The narration is one continuous audio stream — se
 ## Script Writing Rules
 
 - **Story first.** You are writing a 35-second story, not a lecture. If a sentence could appear unchanged on Wikipedia, rewrite it.
+- **Premise first, framing line last.** Clip 01 opens with the conflict — the most interesting thing about this event. The framing line ("You would not want to be in...") comes LAST in the clip, never first.
 - **Nature documentary tone.** Calm, measured, authoritative — National Geographic meets PBS. The horror comes from composure, never snark.
-- **Continuous prose.** One flowing narrative across 5 clips. Sentences cross clip boundaries via em dash (—).
+- **Continuous prose.** One flowing narrative across 4-5 clips. Sentences cross clip boundaries via em dash (—).
 - **Second person, present tense.** Always "you." Always now. "You" appears in every clip — the disaster happens TO you.
 - **Causal chain.** Every sentence connects to the one before it. If a sentence could be deleted without the next losing meaning, cut it.
 - **No causal gaps.** If the situation changes between clips, the script must show what caused the change. Never skip from setup to catastrophe without the mechanism — the decision, the failure, the turning point that connects them.
+- **The Turn.** The strongest scripts have a "wait, it gets worse?" moment — an unexpected escalation that re-engages the viewer mid-story.
 - **Sensory texture.** What the disaster feels like in your body — heat, dust, shaking, cold. These moments separate a story from a report.
 - **The narrator never foreshadows.** No "little did you know," no "until it doesn't," no commentary on what is about to happen. Let the viewer discover it.
+- **Revelation ending.** The final clip is a reveal that recontextualizes the story, not a summary. Never open the final clip with a death toll number. Abrupt cut.
 - **75–90 words total.** At 2.6 words/second, every word earns its 0.4 seconds. Continuous narration overlaid on the final stitched video.
 
 ## TikTok / YouTube Shorts Optimization
 
 - **Voice on frame 1.** The hook plays over the very first visual. ZERO seconds of silence.
-- **Hook + framing line.** Clip 01 includes "You would not want to be in [Event], [Year]." Never open with a question. The hook is whatever makes a stranger stop scrolling.
-- Target **~35 seconds** total video (5 clips x 8s = 40s raw, ~38s effective after crossfades), narration 75–90 words as continuous prose
+- **Premise first, framing line last.** Clip 01 opens with the conflict premise. The framing line ("You would not want to be in [Event], [Year]") comes LAST in the clip. Never burn the first 2-3 seconds on branding.
+- **First frame = scroll-stop.** The first image must show the TENSION from the hook sentence, not a calm establishing shot. In autoplay, this image IS the thumbnail.
+- Target **~35 seconds** total video (4-5 clips, ~38s effective after crossfades), narration 75–90 words as continuous prose
 - **Visual change every 8 seconds** — each clip is a new shot, new information
 - **Every clip raises the stakes** — no plateaus, no breathing room
+- **At least one Turn** — a "wait, it gets worse?" moment that re-engages the viewer mid-video
 - Narrator fills EVERY clip — no silent clips, no dead air
-- **Twist payoff ending** — the last line reframes or inverts the hook, leaving the viewer viscerally relieved they weren't there.
+- **Revelation ending** — the last line recontextualizes the story, leaving the viewer's brain still processing when the video abruptly cuts. Never open the final clip with a death toll number.
+- **Abrupt cut** — never signal the video is ending. The revelation lands and the screen goes black.

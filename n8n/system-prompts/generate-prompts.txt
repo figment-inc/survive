@@ -43,6 +43,7 @@ For each sentence, generate **1 or 2 image prompts**:
 
 - **1 image**: Short sentences (under 10 words), single-moment descriptions, simple statements of fact
 - **2 images**: Longer sentences (10+ words) that describe action, change, or contain two distinct visual moments. The two images should show different stages/angles of what the sentence describes.
+- **2 images (MANDATORY)**: ALL sentences in the Catastrophe beat (clip 04) — rapid visual pacing during the most intense moment amplifies visceral impact. No exceptions.
 
 A typical episode will have **10-25 total images**.
 
@@ -159,9 +160,9 @@ The two images MUST show a clear visual difference:
 ### ESCALATION ARC
 
 Plan your full image sequence as a visual escalation:
-- **Hook images**: Wide, calm, establishing. Show the setting in its normal state.
-- **Story images**: Medium shots tightening around the character. Environment starts changing.
-- **Catastrophe images**: Close-ups, POV shots, chaotic compositions. Dominant colors shift hotter/darker.
+- **Hook images (FIRST FRAME RULE)**: The first image the viewer sees IS the thumbnail for autoplay. It must be SCROLL-STOPPING — show the TENSION from the hook sentence, not a calm establishing shot. If the hook says "every horse is sick," image 1 shows collapsed horses in the street, not a wide shot of Boston at dawn. If the hook says "the exits are bolted shut," image 1 shows the bolted door with the crowd behind it. The first frame must match the conflict in the first sentence of narration. A calm wide establishing shot will get swiped past.
+- **Story images**: Medium shots tightening around the character. Environment starts changing. The visual tension increases with each image.
+- **Catastrophe images**: Close-ups, POV shots, chaotic compositions. Dominant colors shift hotter/darker. EVERY catastrophe sentence MUST have 2 images (force split) — the rapid visual pacing amplifies the visceral impact. Use OPTION B (before-state → after-state) or OPTION C (character → POV of destruction) for catastrophe pairs.
 - **Ending images**: Pull back to wide. Show scale of aftermath. Character small in frame.
 
 ---
@@ -198,11 +199,12 @@ When images cross from one sentence to the next, maintain environmental continui
 
 ### 3. KEN BURNS AWARENESS
 
-Each image will be displayed for 2-5 seconds with a slow zoom or pan. Design images with:
+Each image will be displayed for 2-5 seconds with a slow zoom or pan. Catastrophe images display faster (1.5-2.5 seconds) for visceral pacing. Design images with:
 - Rich detail across the full frame (the camera will slowly reveal different areas)
 - Important elements not crammed into corners (zoom effects crop edges slightly)
 - Enough visual depth that a slow zoom-in reveals more detail
 - The figure and key action centered or in the dominant third of the frame
+- Catastrophe images: bold, simple compositions that read instantly at 1.5s display time — don't rely on slow reveals
 
 ---
 
