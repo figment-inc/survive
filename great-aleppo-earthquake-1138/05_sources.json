@@ -1,0 +1,32 @@
+[
+  {
+    "fact": "The Great Aleppo Earthquake occurred in 1138",
+    "source": "Wikipedia, citing multiple seismological and historical sources",
+    "url": "https://en.wikipedia.org/wiki/1138_Aleppo_earthquake"
+  },
+  {
+    "fact": "An estimated 230,000 people died in the earthquake",
+    "source": "This figure is traditionally cited but considered unreliable by modern seismologists. It originates from later medieval chronicles. The figure appears in Ibn al-Athir's chronicle and is repeated in N.N. Ambraseys' 'Earthquakes in the Mediterranean and Middle East: A Multidisciplinary Study of Seismicity up to 1900' (Cambridge University Press, 2009), though with caveats about accuracy.",
+    "url": "https://en.wikipedia.org/wiki/1138_Aleppo_earthquake"
+  },
+  {
+    "fact": "The earthquake struck at dawn",
+    "source": "Contemporary and near-contemporary Arabic sources describe the earthquake occurring in the early morning. Cited in Ambraseys, N.N., 'Earthquakes in the Mediterranean and Middle East' (Cambridge University Press, 2009). Note: some sources are ambiguous on exact timing.",
+    "url": ""
+  },
+  {
+    "fact": "Aleppo's buildings were constructed of heavy stone on mud mortar, making them vulnerable to seismic activity",
+    "source": "Widely documented in studies of historical Syrian architecture. See also Ambraseys, N.N. and Jackson, J.A., 'Faulting associated with historical and recent earthquakes in the Eastern Mediterranean region,' Geophysical Journal International (1998).",
+    "url": "https://en.wikipedia.org/wiki/Architecture_of_Syria"
+  },
+  {
+    "fact": "Aleppo was a fortress city with significant defensive walls",
+    "source": "The Citadel of Aleppo and the city's fortified walls are well-documented. The citadel is one of the oldest and largest in the world, and the city walls were a major feature of medieval Aleppo.",
+    "url": "https://en.wikipedia.org/wiki/Citadel_of_Aleppo"
+  },
+  {
+    "fact": "No significant earthquake had struck Aleppo in generations before 1138",
+    "source": "The previous major earthquake in the region was the 1114 earthquake near Marash (some distance north), but Aleppo itself had not experienced a catastrophic quake in recent memory. See Guidoboni, E. and Comastri, A., 'Catalogue of Ancient Earthquakes in the Mediterranean Area up to the 10th Century' (1994) and Ambraseys (2009).",
+    "url": "https://en.wikipedia.org/wiki/Dead_Sea_Transform"
+  }
+]
