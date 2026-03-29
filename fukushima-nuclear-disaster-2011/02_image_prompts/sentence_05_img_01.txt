@@ -1,0 +1,21 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. Cross-section diagram view of a Fukushima reactor vessel, March 11, 2011.
+
+NARRATION FOR THIS IMAGE: "But the fuel inside still generates massive heat."
+
+SHOT TYPE: Extreme close-up. CAMERA ANGLE: Straight-on cross-section view. CHARACTER POSITION: Absent. A cutaway diagram-style view of the reactor pressure vessel — a tall cylindrical steel container rendered in flat steel blue-grey with thick black outlines. Inside, the fuel rod assemblies are visible — vertical bundles of long thin rods in flat dark amber, tightly packed in a grid pattern. The water level around the fuel rods is shown in flat pale blue, and the area above the water is filled with flat intense orange-red and amber — the massive decay heat radiating upward. The fuel rods themselves are colored in graduating flat bands from dark amber at the base to intense flat red-orange at the hottest points.
+
+Foreground: The cutaway edge of the reactor vessel wall — thick steel rendered in flat steel blue-grey, with the interior exposed. Bolted flange details along the cut edge.
+
+Midground: The fuel rod assemblies — hundreds of thin vertical lines in flat dark amber, arranged in square grid bundles held by flat grey spacer plates. The water level is clearly shown at mid-height of the rods in flat pale blue. Above the water line, flat intense orange-red fills the space — heat with nowhere to go.
+
+Background: The outer containment structure — a bulbous flask-shaped concrete and steel shell rendered in flat concrete grey with thick black outlines. The distinctive Mark I containment shape — like an inverted lightbulb — surrounds the vessel.
+
+Flat even lighting. Reactor palette — steel blue-grey vessel walls, dark amber fuel rods, flat pale blue coolant water, flat intense orange-red and amber heat areas, concrete grey containment. Technical, ominous.
+
+Period texture: The GE Mark I boiling water reactor design specific to Fukushima Units 1-5 — the distinctive flask-shaped primary containment with its toroidal suppression chamber (rendered as a donut shape at the base in flat concrete grey), connected by thick downcomers.
+
+Background activity: None — this is a technical cutaway illustration showing the invisible threat inside the reactor.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

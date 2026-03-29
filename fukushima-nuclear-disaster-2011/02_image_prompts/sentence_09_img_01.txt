@@ -1,0 +1,23 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. Fukushima Daiichi control room, March 11, 2011, station blackout.
+
+NARRATION FOR THIS IMAGE: "The lights go out."
+
+SHOT TYPE: Close-up. CAMERA ANGLE: Eye-level, straight on. CHARACTER POSITION: Center. The figure's face and upper torso fill the frame against near-total flat black. The control room is completely dark — no indicator panels, no emergency panels, nothing. The figure's translucent pale skin and visible skeleton are the only visible elements, standing out against the flat black void. The pale orb-like eyes are wide, staring forward into darkness. The figure grips a small handheld flashlight — the only source rendered as a flat pale yellow cone shape on the control panel surface in front.
+
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing rigid, one hand holding a small flashlight pointed at the control panel, the other hand flat on the panel surface. Expression: stunned, mouth slightly open, eyes wide. The skull is particularly prominent in the darkness — the pale translucent skin making the bone structure stark.
+
+Foreground: The edge of the control panel, barely visible — just the outline of switches and dial faces in the flat pale yellow area from the flashlight. Everything beyond this small area is flat black.
+
+Midground: The figure, pale and ghostly against the darkness. The ribcage and spine visible through the translucent skin. The small flashlight in hand.
+
+Background: Flat black. Total darkness. The massive control panel that filled the background of sentence 4 is now an invisible void. The faintest outlines of other figures — operators in the dark — are barely suggested as flat dark grey shapes against the flat black.
+
+Flat even lighting — or rather, near-total absence. The only non-black colors are the figure's pale translucent skin and the flat pale yellow area on the panel where the flashlight points. Everything else is flat black and flat very dark grey.
+
+Period texture: The "station blackout" — the total loss of all AC and DC power — was the scenario nuclear engineers considered virtually impossible. Operators described suddenly being unable to see any instruments, unable to determine reactor conditions, working by flashlight in a control room designed to never lose power.
+
+Background activity: The faintest suggestion of other operators — flat dark grey silhouettes holding small flat pale yellow flashlight spots. One silhouette appears to be feeling along the control panel with outstretched hands.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

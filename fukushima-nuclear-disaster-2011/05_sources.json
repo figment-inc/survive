@@ -1,0 +1,32 @@
+[
+  {
+    "fact": "The tsunami that struck Fukushima Daiichi was approximately 40 feet (about 14-15 meters) tall",
+    "source": "Tokyo Electric Power Company (TEPCO) and IAEA reports indicate the tsunami waves were approximately 14-15 meters (46-49 feet) at the plant site",
+    "url": "https://en.wikipedia.org/wiki/Fukushima_Daiichi_nuclear_disaster"
+  },
+  {
+    "fact": "The backup diesel generators were located in the basement and were flooded by the tsunami",
+    "source": "The Official Report of The Fukushima Nuclear Accident Independent Investigation Commission (NAIIC), National Diet of Japan (2012)",
+    "url": "https://www.nirs.org/wp-content/uploads/fukushima/naiic_report.pdf"
+  },
+  {
+    "fact": "The reactors shut down automatically (SCRAMmed) when the earthquake struck, as designed",
+    "source": "IAEA, 'The Fukushima Daiichi Accident: Report by the Director General' (2015)",
+    "url": "https://www.iaea.org/publications/10962/the-fukushima-daiichi-accident"
+  },
+  {
+    "fact": "Residual decay heat from the fuel continued to generate massive heat after shutdown, eventually causing fuel meltdown without cooling",
+    "source": "Nuclear Energy Agency (OECD/NEA), 'Fukushima Daiichi Nuclear Power Plant Accident' — decay heat is a well-documented phenomenon in nuclear engineering; meltdowns in Units 1, 2, and 3 are confirmed by TEPCO",
+    "url": "https://en.wikipedia.org/wiki/Nuclear_meltdowns_at_the_Fukushima_Daiichi_Nuclear_Power_Plant"
+  },
+  {
+    "fact": "Hydrogen gas was vented to relieve pressure and subsequently caused explosions at the reactor buildings",
+    "source": "Investigation Committee on the Accident at the Fukushima Nuclear Power Stations, Interim Report (2011); hydrogen explosions occurred at Units 1, 3, and 4",
+    "url": "https://en.wikipedia.org/wiki/Fukushima_Daiichi_nuclear_disaster#Hydrogen_explosions"
+  },
+  {
+    "fact": "The decision to place backup generators below sea level (in basements vulnerable to flooding) was a critical design flaw that led to the disaster",
+    "source": "The Fukushima Nuclear Accident Independent Investigation Commission (NAIIC), National Diet of Japan (2012), which concluded the disaster was 'man-made' due to foreseeable failures in safety planning",
+    "url": "https://en.wikipedia.org/wiki/National_Diet_of_Japan_Fukushima_Nuclear_Accident_Independent_Investigation_Commission"
+  }
+]
