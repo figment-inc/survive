@@ -1,0 +1,32 @@
+[
+  {
+    "fact": "A safety valve (pressure safety valve, PSV) was removed for maintenance and the permit-to-work paperwork was not communicated to the night shift",
+    "source": "The Public Inquiry into the Piper Alpha Disaster (Cullen Report), Lord Cullen (1990)",
+    "url": "https://www.hse.gov.uk/offshore/piper-alpha-public-inquiry.htm"
+  },
+  {
+    "fact": "Gas escaped through the open pipe where the valve had been removed and found an ignition source, causing the initial explosion",
+    "source": "The Public Inquiry into the Piper Alpha Disaster (Cullen Report), Lord Cullen (1990)",
+    "url": "https://en.wikipedia.org/wiki/Piper_Alpha#Disaster"
+  },
+  {
+    "fact": "Two connected rigs (Tartan and Claymore) continued pumping oil and gas into Piper Alpha through pipelines, feeding the fire, because their managers awaited authorization to shut down",
+    "source": "Piper Alpha: A Survivor's Story, Ed Punchard (2009); also detailed in the Cullen Report",
+    "url": "https://en.wikipedia.org/wiki/Piper_Alpha#Connected_platforms"
+  },
+  {
+    "fact": "Survivors jumped approximately 30 metres (around 100 feet) from the platform into the North Sea to escape the fire",
+    "source": "Fire in the Night (documentary, 2013) and survivor testimonies in the Cullen Report",
+    "url": "https://en.wikipedia.org/wiki/Piper_Alpha#Escape"
+  },
+  {
+    "fact": "167 people died in the Piper Alpha disaster (166 workers plus 1 rescuer from the vessel Sandhaven)",
+    "source": "The Public Inquiry into the Piper Alpha Disaster (Cullen Report), Lord Cullen (1990)",
+    "url": "https://en.wikipedia.org/wiki/Piper_Alpha"
+  },
+  {
+    "fact": "The root cause was a failure in the permit-to-work handover system — a maintenance note that was not passed between shifts",
+    "source": "The Public Inquiry into the Piper Alpha Disaster (Cullen Report), Lord Cullen (1990); widely cited in process safety literature",
+    "url": "https://www.hse.gov.uk/offshore/piper-alpha-public-inquiry.htm"
+  }
+]
