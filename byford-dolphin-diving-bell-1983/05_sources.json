@@ -1,0 +1,27 @@
+[
+  {
+    "fact": "The Byford Dolphin diving bell accident occurred in 1983 on the semi-submersible drilling rig Byford Dolphin in the North Sea",
+    "source": "Wikipedia — Byford Dolphin",
+    "url": "https://en.wikipedia.org/wiki/Byford_Dolphin"
+  },
+  {
+    "fact": "The divers were pressurized to nine atmospheres, equivalent to approximately 300 metres of seawater depth",
+    "source": "Report on the Byford Dolphin accident, Norwegian Petroleum Directorate (1983); also summarized in Wikipedia — Byford Dolphin",
+    "url": "https://en.wikipedia.org/wiki/Byford_Dolphin#Diving_bell_accident"
+  },
+  {
+    "fact": "The accident was caused by a diving tender opening the clamp connecting the diving bell to the transfer chamber before the bell was sealed, causing explosive decompression from 9 atm to 1 atm",
+    "source": "NOU 1983:53 — Report of the Investigation Commission for the Diving Accident on Byford Dolphin on 5 November 1983, Norwegian Government",
+    "url": ""
+  },
+  {
+    "fact": "The explosive decompression forced one diver's body through a narrowly opened trunk door, causing massive physical trauma",
+    "source": "Forensic autopsy report by Dr. Øystein Eidsvik and colleagues, published as part of the Norwegian investigation; referenced in Wikipedia — Byford Dolphin",
+    "url": "https://en.wikipedia.org/wiki/Byford_Dolphin#Diving_bell_accident"
+  },
+  {
+    "fact": "The investigation found no mechanical malfunction — the accident resulted from human error in prematurely opening the clamp",
+    "source": "NOU 1983:53 — Norwegian Government Investigation Commission report on the Byford Dolphin diving accident",
+    "url": ""
+  }
+]

@@ -1,0 +1,23 @@
+MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
+
+Classic American adult animation frame, vertical 9:16 composition. Byford Dolphin drilling rig, North Sea. Aftermath, days later.
+
+NARRATION FOR THIS IMAGE: "The investigation found no malfunction — just one clamp, turned five seconds too soon."
+
+SHOT TYPE: Wide shot. CAMERA ANGLE: Eye-level, straight on from a distance. CHARACTER POSITION: Right-third, small in frame. The figure stands alone on the rig deck beside the now-silent saturation diving system. The chambers, trunks, and bell are all still in place but sealed off — no activity, no crew around them. Investigation markers — small flat orange triangular placards — are placed around the breach point. The figure stands with arms hanging at the sides, staring at the clamp that lies on the deck where it fell. The vast grey North Sea stretches to the flat horizon behind the rig railing. The entire scene is emptied, quiet, industrial.
+
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing still, arms at sides, head bowed slightly. Looking down at the clamp on the deck. Posture: defeated, hollow. The orb-like eyes are downcast. The skeleton visible through the translucent skin looks fragile against the massive steel equipment.
+
+Foreground: The deck surface — anti-slip diamond plate, now cleaned but with scrape marks and staining. A coiled section of umbilical hose neatly placed aside. The flat orange investigation placards around the breach area.
+
+Midground: The figure and the saturation system. The clamp assembly lies on the deck beside the trunk junction — the heavy steel ring with its manual handle, the object that caused everything. It is unremarkable — just a piece of industrial hardware, perfectly functional. The trunk junction is exposed, the flanges separated and tagged. The diving bell sits in its cradle, closed and empty.
+
+Background: The North Sea horizon — flat dark teal-grey water meeting flat grey-green overcast sky in a featureless line. The rig railing. Crane jibs folded and still. No helicopter on the helideck. The rig is quiet — operations suspended for investigation.
+
+Flat even lighting. Aftermath palette — muted steel blue-grey, flat dark teal-grey sea, gunmetal, the pale figure against cold industrial metal. Drained of all warmth — no rust orange accents, no warm tones. Everything is cold and grey and still.
+
+Period texture: The investigation placards and tagging on the equipment — the Norwegian Petroleum Directorate conducted a detailed investigation that concluded the system had no mechanical interlock to prevent human error, and the accident was caused solely by the premature opening of the clamp before pressure equalization was confirmed.
+
+Background activity: None. The deck is deserted. Complete stillness. The only movement implied is the distant grey sea.
+
+No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.
