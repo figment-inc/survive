@@ -2365,7 +2365,6 @@ def main():
             sys.exit(1)
         asset_url = create_github_release(slug, episode["title"], final_path)
         publish_to_metricool_with_upload(episode, final_path, asset_url, schedule=args.schedule)
-        publish_carousel_post(episode, ep_dir, schedule=args.schedule)
 
     phase_banner("ALL DONE")
     print(f"  Episode: {episode['title']}")
