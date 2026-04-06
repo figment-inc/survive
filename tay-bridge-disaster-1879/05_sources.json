@@ -1,0 +1,32 @@
+[
+  {
+    "fact": "The Tay Bridge was the longest bridge in the world at the time of its completion",
+    "source": "Tay Bridge Disaster entry, Encyclopedia Britannica / widely documented in Victorian engineering histories",
+    "url": "https://en.wikipedia.org/wiki/Tay_Bridge"
+  },
+  {
+    "fact": "The bridge's cast iron columns were brittle under stress, and inspectors found cracks that were patched with cement and paint",
+    "source": "The Bridge Is Down! by André Gren (2017) and the official Court of Inquiry report by Henry Rothery (1880). The inquiry documented 'Beaumont egg' cement and iron filings used to fill blowholes in cast iron columns.",
+    "url": "https://en.wikipedia.org/wiki/Tay_Bridge_disaster#Inquiry"
+  },
+  {
+    "fact": "Wind gusts during the storm reached approximately seventy miles per hour",
+    "source": "Court of Inquiry into the Tay Bridge Disaster (1880). Wind speed estimates varied; the inquiry estimated gale-force winds of 10–11 on the Beaufort scale, roughly 60–75 mph.",
+    "url": "https://en.wikipedia.org/wiki/Tay_Bridge_disaster#The_disaster"
+  },
+  {
+    "fact": "The signalman at the south end saw the train enter the bridge and waved it through despite the storm",
+    "source": "Testimony of signalmen recorded in the Board of Trade Court of Inquiry (1880). Signalman Thomas Barclay gave the train the token to proceed.",
+    "url": "https://www.railwaysarchive.co.uk/docsummary.php?docID=64"
+  },
+  {
+    "fact": "Queen Victoria crossed the Tay Bridge roughly six months before the disaster",
+    "source": "Queen Victoria crossed the bridge on June 20, 1879; the disaster occurred December 28, 1879 — approximately six months later. Documented in Queen Victoria's own journal and widely reported.",
+    "url": "https://en.wikipedia.org/wiki/Tay_Bridge_disaster#History"
+  },
+  {
+    "fact": "The bridge's designer, Thomas Bouch, was knighted for building the Tay Bridge",
+    "source": "Thomas Bouch was knighted in June 1879 after Queen Victoria's crossing. His reputation was destroyed by the subsequent inquiry.",
+    "url": "https://en.wikipedia.org/wiki/Thomas_Bouch"
+  }
+]
