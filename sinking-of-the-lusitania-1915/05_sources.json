@@ -1,0 +1,32 @@
+[
+  {
+    "fact": "The Lusitania sank in eighteen minutes after being torpedoed",
+    "source": "Dead Wake: The Last Crossing of the Lusitania, Erik Larson (2015); also widely documented",
+    "url": "https://en.wikipedia.org/wiki/Sinking_of_the_RMS_Lusitania"
+  },
+  {
+    "fact": "The German embassy published a warning in American newspapers before the Lusitania's final voyage",
+    "source": "The warning appeared in New York newspapers on May 1, 1915. Documented in Dead Wake by Erik Larson and widely reproduced.",
+    "url": "https://en.wikipedia.org/wiki/Sinking_of_the_RMS_Lusitania#German_warning"
+  },
+  {
+    "fact": "The British Admiralty had promised a naval escort but quietly cancelled it",
+    "source": "The Lusitania, Colin Simpson (1972); also discussed in Dead Wake, Erik Larson (2015). The Admiralty's failure to provide the escort from HMS Juno is documented, though whether a firm 'promise' was made to passengers is debated.",
+    "url": "https://en.wikipedia.org/wiki/Sinking_of_the_RMS_Lusitania#Admiralty_actions"
+  },
+  {
+    "fact": "A second explosion followed the torpedo hit, possibly caused by munitions the ship was carrying",
+    "source": "The ship's manifest listed rifle cartridges and shrapnel shells. The cause of the second explosion remains debated (coal dust, steam, or munitions). See Dead Wake, Erik Larson (2015) and forensic investigations by Robert Ballard.",
+    "url": "https://en.wikipedia.org/wiki/Sinking_of_the_RMS_Lusitania#Cause_of_the_second_explosion"
+  },
+  {
+    "fact": "The Lusitania was sailing at reduced speed (about three-quarter speed) to save coal, despite being considered too fast for U-boats at full speed",
+    "source": "Cunard had shut down one of the ship's four boiler rooms to economize on coal, reducing her top speed from ~25 knots to ~21 knots. Documented in Dead Wake, Erik Larson (2015) and The Lusitania, Colin Simpson (1972).",
+    "url": "https://en.wikipedia.org/wiki/RMS_Lusitania#Final_voyage"
+  },
+  {
+    "fact": "The Lusitania was the largest passenger liner crossing the Atlantic at the time of her sinking",
+    "source": "By 1915 the Lusitania was no longer the largest — the Aquitania (1914) and Olympic-class ships were larger. This claim in the script is an overstatement.",
+    "url": "https://en.wikipedia.org/wiki/RMS_Lusitania"
+  }
+]
