@@ -1,23 +1,25 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Iroquois Theatre, Chicago, December 30, 1903. The final image.
+Classic American adult animation frame, vertical 9:16 composition. Iroquois Theatre, Chicago, December 30, 1903. The aftermath from the front.
 
-NARRATION FOR THIS IMAGE: "Six hundred two people died in a building that had been open for five weeks."
+NARRATION FOR THIS IMAGE: "You couldn't open a single door — every one bolted shut to protect ticket revenue inside a building they called fireproof."
 
-SHOT TYPE: Extreme close-up. CAMERA ANGLE: High-angle, looking down. CHARACTER POSITION: center. A tight overhead shot looking down at the figure sitting on the snow-dusted curb across the street from the theater. The figure's skull-face is tilted upward, looking directly at the camera — the viewer — with hollow orb-like eyes. Both skeletal hands rest palm-up on the translucent knees. The figure is surrounded by scattered personal effects on the snowy ground — a child's knitted mitten, a woman's hairpin, a small peppermint stick (echoing the one from the matinee scene), a crumpled theatre program (folded, no visible text). Snow falls lightly — small flat white dots drifting down.
+SHOT TYPE: Medium. CAMERA ANGLE: Low-angle, looking up at the theatre's grand facade. CHARACTER POSITION: center, bottom of frame.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Seated on the curb, legs extended slightly, hands palm-up on knees. Looking up at the viewer. Expression: devastated, accusatory, empty. The orb-like eyes seem to ask: why?
+The figure stands before the grand front entrance of the Iroquois Theatre — the same Beaux-Arts facade from the opening image, but now with flat charcoal soot staining the cream stone above every window. Grey smoke drifts from the upper floors. The ornate entrance that looked so grand is now a horror. The figure stands at the base, tiny against the imposing facade, looking up. The building stands. It did not burn down. It is indeed fireproof — the structure survived. Only the people inside died.
 
-Foreground: Falling flat white snow dots. The frame edges are dark — the surrounding street in shadow.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing at the base of the facade, looking up. Arms at sides. Expression: devastated comprehension. Small in frame — dwarfed by the building.
 
-Midground: The figure on the curb, seen from above. The scattered personal belongings around the figure — each one a small, specific, heartbreaking detail. The snowy ground is scuffed with footprints and streaked with flat grey soot.
+Foreground: The street-level debris — a scattered child's bonnet, a woman's glove, abandoned umbrellas. Snow on the sidewalk tracked with soot-grey footprints.
 
-Background: The base of the theater's facade is visible at the top of the frame — the bottom of a Corinthian column, now blackened. The edge of a white sheet covering a form. A pair of small shoes — a child's — placed neatly together by someone, next to the curb.
+Midground: The figure at the theatre entrance. The grand doors now open — firemen visible inside. A stretcher being carried out.
 
-Flat even lighting. Cold, drained palette — flat white snow, ash grey, soot black, pale translucent skin of the figure, muted burgundy of the crumpled program, dull red of the small mitten. All warmth is gone. The flat pale grey sky provides no comfort.
+Background: The full theatre facade rising above — cream stone stained with charcoal soot, windows blackened, but the building structurally intact. It IS fireproof. The walls stand. The roof stands. Only everyone inside is dead. Grey smoke drifting against the flat pale sky.
 
-Period texture: The scattered belongings are all period-appropriate — a hand-knitted child's mitten in dull red wool, a woman's tortoiseshell hairpin, a small striped peppermint candy stick, a crumpled paper program. Each item represents someone who came to a holiday matinee and did not leave.
+Flat even lighting. Bitter irony palette — the same cream and tarnished gold of the opening, now streaked with flat charcoal soot. The building's beauty is obscene against what happened inside. Pale winter sky, grey smoke.
 
-Background activity: None. Stillness. The figure is alone with the remnants.
+Period texture: The theatre's terra-cotta ornamentation — undamaged, pristine above the soot line. The ornate iron lamp posts still intact. The building is fine. It was fireproof.
+
+Background activity: Crowds of onlookers held back by police. Horse-drawn ambulance wagons lined up. Men carrying stretchers. Women weeping in the street.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

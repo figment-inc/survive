@@ -1,23 +1,25 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Iroquois Theatre, stairwell, Chicago, December 30, 1903.
+Classic American adult animation frame, vertical 9:16 composition. Iroquois Theatre exit aftermath, Chicago, December 30, 1903.
 
-NARRATION FOR THIS IMAGE: "Every exit was locked or bolted to keep people from sneaking in without tickets."
+NARRATION FOR THIS IMAGE: "Bodies stack ten deep against locked exits."
 
-SHOT TYPE: High-angle bird's-eye view. CAMERA ANGLE: Looking straight down into a stairwell. CHARACTER POSITION: center, small. A terrifying overhead view looking down a narrow stairwell — the figure is visible below, pressed against the mass of bodies that have piled up at the bottom where a gate or door is bolted shut. The stairwell is packed with people stacked on top of each other — the crush visible from above as a mass of dark Edwardian clothing, hats, outstretched arms. Thick flat grey smoke pours down the stairwell from above like water. The figure's pale translucent form is the only light-colored element in the dark mass.
+SHOT TYPE: Close-up. CAMERA ANGLE: Low-angle, from floor level looking up at the pile against the door. CHARACTER POSITION: right-third, partially visible.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Seen from above, face turned upward toward the camera. Arms outstretched, trapped in the crush. Orb-like eyes looking up — a plea to the viewer.
+A ground-level view looking up at the locked exit door. The perspective is from the floor, looking up at the base of the door and the mass of compressed, motionless figures piled against it. The iron bolt on the door is visible at the top of frame — still locked, unmoved, indifferent. The figure's translucent hand is visible at the edge of the pile, reaching outward along the floor toward the camera.
 
-Foreground: The iron railing of the stairwell from the top-down view. Thick flat grey smoke pouring over the railing and down.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Only the arm and hand visible, extended along the floor, finger bones clearly visible through the translucent skin. The hand is reaching but still.
 
-Midground: The packed stairwell — bodies crushed together, forming an almost solid mass. The figure's pale form is wedged among them. Arms and hands protrude at angles from the pile.
+Foreground: The polished marble floor tile at extreme close range — cream with grey veining, now streaked with flat grey soot. The figure's translucent hand extended along it, palm down, fingers spread.
 
-Background: At the very bottom of the stairwell — visible through the central gap — a bolted iron gate. A heavy padlock hangs from it. Beyond the gate, a sliver of flat pale daylight is visible — the street, freedom, just inches away.
+Midground: The base of the pile of compressed figures against the door. Heavy skirts, boots, a child's small form barely distinguishable. The mass is dense and still.
 
-Flat even lighting. Palette: charcoal black and dark brown of the crowd's clothing, flat grey smoke filling the upper frame, the figure's pale translucent white, flat orange fire area at the top of the stairwell above, iron-black gate and padlock at the bottom, a sliver of pale grey daylight beyond.
+Background: The locked door rising above — dark mahogany, the iron bolt clearly visible and locked. Flat black smoke completely filling the space above.
 
-Period texture: The stairwell is narrow — designed for a theater that was built to maximize seating capacity at the expense of safe egress. The iron gate at the bottom is a security measure, padlocked to prevent entry from the street.
+Flat even lighting. Ground-level palette — flat grey soot on cream marble, dark clothing tones, the ghostly pale hand, dark mahogany door, iron grey bolt. The locked bolt is the visual condemnation — it sits there, mechanical and indifferent.
 
-Background activity: Arms reaching upward from the crush. A child's small hand visible among the mass. The smoke descending like a grey ceiling lowering onto the packed stairwell.
+Period texture: The marble floor tile pattern — expensive, beautiful, now a grave. A woman's beaded evening bag resting on the floor, undamaged. The specific shape of the iron bolt — heavy, industrial, designed to keep people out, now keeping them in.
+
+Background activity: None. Complete stillness. The smoke drifts slowly.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

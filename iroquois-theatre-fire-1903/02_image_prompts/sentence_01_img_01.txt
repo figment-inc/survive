@@ -1,21 +1,25 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Chicago, Illinois, late December 1903.
+Classic American adult animation frame, vertical 9:16 composition. Chicago, Illinois, December 1903.
 
-NARRATION FOR THIS IMAGE: "A brand-new Chicago theater advertises itself as 'absolutely fireproof.'"
+NARRATION FOR THIS IMAGE: "Chicago builds a theatre and calls it absolutely fireproof."
 
-SHOT TYPE: Wide establishing shot. CAMERA ANGLE: Low-angle, looking up at the theater facade. CHARACTER POSITION: absent. The grand exterior of the Iroquois Theatre fills the frame — an imposing beaux-arts facade with massive stone columns, ornate carved molding, and a grand arched entrance. The building looks pristine, newly constructed, impossibly grand against a flat pale winter sky.
+SHOT TYPE: Wide. CAMERA ANGLE: Low-angle, looking up at the theatre facade. CHARACTER POSITION: right-third, small in frame.
 
-Foreground: A dusting of flat white snow on the sidewalk. A row of black iron bollards along the curb. The edge of a horse-drawn carriage wheel visible at the bottom-left corner of the frame.
+The grand exterior of the Iroquois Theatre — an imposing Beaux-Arts facade of flat cream stone with ornate tarnished gold detailing. A massive arched entrance dominates the center. The figure stands on the sidewalk at right, looking up at the building with arms crossed, head tilted back in mild skepticism.
 
-Midground: The full theater facade — tall Corinthian columns in flat ivory stone, ornate gilded cornice details in flat tarnished gold, large dark arched doorways with heavy wooden doors. Decorative wreaths hang from the columns for the holiday season. A wide marquee canopy extends over the entrance.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing upright, arms crossed over ribcage, head tilted back looking up at the facade. Expression: skeptical, one brow-ridge area slightly raised.
 
-Background: The flat grey-white winter sky of Chicago. Adjacent brick buildings flank the theater on either side — darker, older, making the new theater look even more gleaming. Wisps of flat grey chimney smoke rise from nearby rooftops.
+Foreground: A wrought-iron lamp post in flat black, a stack of folded newspapers on a wooden crate, fresh snow piled along the curb in flat white.
 
-Flat even lighting. Palette: pristine ivory stone, tarnished gold ornamental details, charcoal black ironwork, flat white snow, dusty rose accent on decorative bunting, pale grey winter sky. Clean, bright, deceptively grand.
+Midground: The figure on the sidewalk. Well-dressed pedestrians in heavy winter coats and top hats pass by. A woman with a fur muff enters through the grand doors.
 
-Period texture: A horse-drawn hansom cab waiting at the curb, the horse wearing a wool blanket. Gas lamp posts with flat pale yellow fixtures flanking the entrance. Women in long dark wool coats and wide-brimmed hats approaching the entrance.
+Background: The full Iroquois Theatre facade rising four stories — ornate carved columns, arched windows, elaborate cornice work. All rendered in flat cream, tarnished gold, and charcoal grey. The flat pale winter sky above. A large cloth banner hangs from the facade (no readable text).
 
-Background activity: Well-dressed patrons in Edwardian winter attire stream toward the entrance — women in long skirts and fur-trimmed coats, children in knickerbockers and woolen caps. A doorman in a dark uniform holds a door open. A newsboy stands on the corner clutching a stack of folded papers.
+Flat even lighting. Winter palette — flat cream stone, tarnished gold trim, charcoal grey iron, flat white snow, pale grey sky. Clean and opulent.
+
+Period texture: Gas-style lamp posts with ornate iron scrollwork. A horse-drawn carriage with brass fittings waiting at the curb. The theatre's elaborate terra-cotta ornamentation along the roofline.
+
+Background activity: Men in bowler hats and overcoats walking briskly. A newsboy waves papers on the corner. A policeman in a long dark coat stands at the intersection.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

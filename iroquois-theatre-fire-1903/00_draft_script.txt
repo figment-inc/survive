@@ -1,7 +1,7 @@
-I need a topic to write about. Could you complete your request? For example:
+I need a specific historical event to write about. Could you provide a topic? For example:
 
-- "The Challenger disaster"
-- "The sinking of the Lusitania"
-- "The Johnstown Flood"
+- A specific disaster, battle, or catastrophe
+- A place and time period
+- A historical figure's worst day
 
-What event would you like me to script?
+Just give me the event and I'll write the script.

@@ -1,23 +1,25 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Iroquois Theatre exterior, Chicago, December 30, 1903. Aftermath.
+Classic American adult animation frame, vertical 9:16 composition. Iroquois Theatre exterior alley, Chicago, December 30, 1903. Aftermath.
 
-NARRATION FOR THIS IMAGE: "Six hundred two people died in a building that had been open for five weeks."
+NARRATION FOR THIS IMAGE: "You couldn't open a single door — every one bolted shut to protect ticket revenue inside a building they called fireproof."
 
-SHOT TYPE: Wide shot. CAMERA ANGLE: Eye-level, from across the street. CHARACTER POSITION: left-third, small. The grand facade of the Iroquois Theatre — the same pristine beaux-arts exterior from the opening image, but now transformed. Thick flat grey and black smoke pours from every window and the main entrance. The upper windows are dark holes with flat black char marks streaking upward from each. The grand entrance doors are flung open. The holiday wreaths on the columns are burnt black. The figure stands across the street on the snowy sidewalk, facing the building, arms hanging limp at its sides. Tiny in the frame. Alone.
+SHOT TYPE: Wide. CAMERA ANGLE: Eye-level. CHARACTER POSITION: left-third, small in frame.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing on the far sidewalk, body facing the theater, arms hanging at sides. Head slightly bowed. Expression: hollow, empty. The figure is small in the wide frame — dwarfed by the building and the scale of the disaster.
+The figure stands alone in the alley behind the theatre, facing a row of exit doors — all still bolted shut from the outside. Chains and padlocks visible on every one. Thin grey smoke seeps from around each door frame. The figure stands motionless, arms hanging at sides, staring at the row of locked doors. The alley stretches away showing door after door after door — all locked, all with smoke seeping out.
 
-Foreground: The snow-covered street between the viewer and the theater. A horse-drawn ambulance wagon sits at the curb, its dark body marked with a flat red cross shape. Scattered personal belongings on the snowy sidewalk — a woman's hat, a child's shoe, a broken umbrella.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing still, arms hanging limp at sides, facing the doors. Expression: hollow shock, empty stare. The full skeleton visible through the translucent skin — a death figure surveying death.
 
-Midground: The figure on the far sidewalk. Beside the figure, a row of covered forms lies on the sidewalk — long shapes under white sheets, arranged in a row along the building's base. Fire department horse-drawn pump wagons with large wheels are positioned near the entrance. Firefighters in dark helmets and long coats work around the doors.
+Foreground: The nearest bolted door — padlock, chain, iron crossbar all intact. Grey smoke curling from the crack. A discarded ticket stub on the snow.
 
-Background: The full facade of the Iroquois Theatre — the Corinthian columns now streaked with flat black soot, the grand arched entrance gaping open with flat dark grey smoke still drifting out. The ornate cornice is blackened. The adjacent buildings are untouched — the fire was entirely contained within the theater. The flat pale grey winter sky above.
+Midground: The figure standing in the alley. Three more locked doors visible beyond, each with identical padlocks and chains, each with smoke escaping.
 
-Flat even lighting — cold winter palette. Dominant colors: soot-black char marks, flat grey smoke, ivory stone now stained grey, flat white snow, charcoal black of emergency wagons, flat red ambulance marking, pale grey sky. The tarnished gold gilding is gone — burned away or blackened. The entire palette has drained of warmth.
+Background: The alley receding — six, seven, eight locked doors stretching away. The theatre's rear facade rising above in flat cream stone, now stained with flat charcoal soot. Grey smoke rising against a flat pale winter sky.
 
-Period texture: Horse-drawn ambulance wagons and fire pump engines — this is 1903, before motorized emergency vehicles. The firefighters wear leather helmets and wool coats. The covered forms on the sidewalk are wrapped in white sheets and theatre curtain fabric — there are not enough proper coverings.
+Flat even lighting. Aftermath palette — flat iron grey padlocks, dirty brick, flat charcoal soot staining cream stone, flat grey smoke against pale sky. Cold, institutional, criminal.
 
-Background activity: Firefighters carry equipment through the front doors. Police officers in dark blue uniforms hold back a growing crowd of onlookers across the street. A man in a long overcoat kneels beside one of the covered forms. A woman stands at the police line, hands clasped to her face.
+Period texture: Multiple identical Corbin padlocks — purchased in bulk, applied to every exit. The theatre's rear architecture — cheap brick compared to the ornate front facade. Ice forming on the chains in the December cold.
+
+Background activity: Firemen visible at the far end of the alley, beginning to approach with axes. A police officer standing at the alley entrance, hand over mouth.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

@@ -1,21 +1,23 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Backstage of the Iroquois Theatre, Chicago, December 30, 1903.
+Classic American adult animation frame, vertical 9:16 composition. Iroquois Theatre exit door, Chicago, December 30, 1903.
 
-NARRATION FOR THIS IMAGE: "Then a stagehand opens the rear loading door —"
+NARRATION FOR THIS IMAGE: "They open inward."
 
-SHOT TYPE: Medium shot. CAMERA ANGLE: Eye-level, from inside the backstage area looking toward the rear wall. CHARACTER POSITION: absent. A stagehand — a simplified 2D figure in a dark work shirt and suspenders — has just heaved open a large double loading door at the rear of the backstage area. The doors swing outward into a back alley where flat pale winter daylight and cold air pour in. The moment of the door opening is captured — the stagehand's arms are extended pushing the door, his body braced. Behind him, the entire backstage is filled with flat orange and yellow fire and thick flat grey smoke. The critical moment: the cold outside air is about to create a backdraft, funneling the fire toward the auditorium like a blowtorch.
+SHOT TYPE: Extreme close-up. CAMERA ANGLE: Low-angle, looking up at the door and its hinges. CHARACTER POSITION: absent.
 
-Foreground: Debris on the backstage floor — a toppled wooden chair, scattered hemp ropes, a fallen sandbag. Flat orange flame shapes lick along the wooden floor.
+An extreme close-up of the door hinges — massive brass hinges mounted so the door can ONLY swing inward, into the theatre, into the crush of bodies. The design flaw is stark and obvious in this framing. The hinge pin is on the inside. An arrow-like visual composition draws the eye along the hinge direction — inward, toward the mass of people who cannot possibly pull the door toward themselves because they are being crushed forward against it.
 
-Midground: The stagehand at the open loading doors. The doors are large, industrial, made of heavy wood and iron. The alley beyond is visible — brick walls, flat pale grey daylight, a dusting of flat white snow on cobblestones. The contrast between the inferno inside and the cold winter alley outside is stark.
+Foreground: The brass hinge plate fills the frame — ornate Victorian scrollwork, heavy mounting screws, clearly showing the swing direction. Bodies pressed against the door visible at the edge of frame.
 
-Background: Behind the stagehand, the backstage inferno — flat orange and bright yellow flames consuming wooden scenery flats, hemp ropes burning like fuses, the fly gallery above fully engulfed. Thick flat grey smoke rolls across the ceiling toward the now-open door and the auditorium beyond.
+Midground: The door edge and frame junction. The gap between door and frame shows the direction of swing — inward. Smoke pouring through the gap.
 
-Flat even lighting. Palette: flat orange and bright yellow fire dominating the interior, charcoal black smoke, dark brown timber, flat pale grey winter daylight from the alley creating a stark contrast with the warm fire colors inside. The stagehand is a dark silhouetted figure against the pale doorway.
+Background: A compressed mass of bodies and smoke visible through the narrow crack — flat charcoal darkness, glimpses of fabric and hands.
 
-Period texture: The rear loading door is a large freight entrance used for moving scenery — heavy wooden double doors with iron strap hinges, wide enough for theatrical flats. The alley beyond has cobblestones and the back walls of adjacent buildings.
+Flat even lighting. Detail palette — brass gold of the hinge, dark mahogany door wood, flat charcoal smoke, cream-painted door frame. The mechanical detail is clinical and damning.
 
-Background activity: Through the open door, a figure in the alley — a stage worker who has already escaped — turns back in shock. Inside, another stagehand runs past in the background, arms over his head, fleeing toward the open door.
+Period texture: The specific Victorian-era hinge design with decorative tips. Heavy slotted screws. The door frame's ornate profile molding — beautiful craftsmanship in service of a death trap.
+
+Background activity: The suggestion of movement behind the door — bodies pressing, the door vibrating from impact on the other side.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

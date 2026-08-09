@@ -1,23 +1,25 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Inside the Iroquois Theatre auditorium, Chicago, December 30, 1903. The matinee performance of "Mr. Bluebeard" is underway.
+Classic American adult animation frame, vertical 9:16 composition. Iroquois Theatre corridor, Chicago, December 30, 1903.
 
-NARRATION FOR THIS IMAGE: "You're one of two thousand people — mostly women and children — packed into a holiday matinee."
+NARRATION FOR THIS IMAGE: "You notice the exit doors have no handles on the inside."
 
-SHOT TYPE: Medium shot. CAMERA ANGLE: Eye-level, from within the audience. CHARACTER POSITION: left-third. The figure sits in a crowded row of seats, surrounded on all sides by Edwardian-era theatergoers. The figure is wedged between a woman in a large feathered hat and a child sitting on a mother's lap. The figure's orb-like eyes look forward toward the stage with mild interest, skeletal hands resting on the armrests.
+SHOT TYPE: Close-up. CAMERA ANGLE: Eye-level, slightly over-shoulder from behind the figure. CHARACTER POSITION: left-third.
 
-2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Seated, upright posture, looking forward. Expression: calm, engaged, unsuspecting. Hands rest on velvet armrests.
+The figure stands facing a heavy wooden double door set into the theatre wall. The figure's translucent hand reaches toward the door — but there is NO handle, NO push bar, nothing. Just a flat smooth wooden surface with a heavy iron bolt visible at the top, clearly locked from the outside. The figure's posture shows dawning alarm — shoulders tensing, head pulling back slightly.
 
-Foreground: The back of a large feathered hat belonging to the woman in the row ahead — dark plum-colored with peacock feathers. A child's small hand holding a peppermint stick visible at the bottom of frame.
+2D cel-shaded animation. A humanoid figure with translucent, ghostly pale skin through which a complete skeleton is clearly visible — skull with pale orb-like eyes in the sockets, ribcage, spine, pelvis, and limb bones all defined beneath the semi-transparent surface. Medium build, no hair, no clothing. Thick black outlines. Rendered as a flat 2D cartoon character. Standing close to the door, one hand extended toward the blank surface where a handle should be. Shoulders tense, head tilted in alarm.
 
-Midground: The figure seated among the crowd. Every seat is occupied — women in high-collared blouses and elaborate hats, children in Sunday best with bows and caps. The seats are plush burgundy velvet. The crowd is warm, festive, buzzing with holiday energy.
+Foreground: The door dominates the right two-thirds of the frame — heavy dark mahogany wood, ornate brass hinges, but absolutely no handle or push mechanism on this side. A thick iron slide-bolt visible at the top, clearly engaged.
 
-Background: The gilded balcony tiers above, also packed — faces visible peering over railings. The ornate gilded proscenium arch frames the distant stage where performers in colorful costumes are mid-scene. Flat warm amber stage area.
+Midground: The figure from behind/side, reaching toward the handleless door. The narrow corridor walls in cream plaster with burgundy wainscoting.
 
-Flat even lighting. Palette: deep burgundy seats, warm ivory skin tones on crowd, plum and dusty rose on women's clothing, tarnished gold on gilded trim, charcoal black on men's suits, peppermint white and red on candy. Warm, festive, packed.
+Background: The dim corridor stretching away behind the figure, more identical handleless doors visible along the wall receding into the distance.
 
-Period texture: Women's elaborate Edwardian hats with ostrich plumes and silk ribbons. Children wearing woolen knickerbockers and lace-collared dresses. The air of a holiday special — families dressed in their finest for a daytime theater outing.
+Flat even lighting. Enclosed palette — dark mahogany brown, flat iron grey, cream plaster, burgundy wainscoting. The door's blankness is unsettling — conspicuously missing hardware.
 
-Background activity: A child in the row behind stands on their seat to see better, mother pulling them down. Two women lean together whispering behind gloved hands. An usher squeezes sideways down a packed aisle carrying a program.
+Period texture: Ornate brass door hinges with decorative rosettes. The iron bolt is heavy industrial hardware, visibly padlocked. Scuff marks on the floor where people have pushed against the immovable doors.
+
+Background activity: A woman in a large hat glances nervously at another handleless door further down the corridor. A child tugs at her mother's skirt.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.

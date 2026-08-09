@@ -1,32 +1,32 @@
 [
   {
-    "fact": "The Iroquois Theatre advertised itself as 'absolutely fireproof'",
-    "source": "Timetable of World Legal History: 1903 — widely documented; detailed in 'Chicago Death Trap: The Iroquois Theatre Fire of 1903' by Nat Brandt (2003)",
+    "fact": "The Iroquois Theatre was advertised as 'absolutely fireproof'",
+    "source": "Timetable of Death: The Iroquois Theatre Fire of 1903, Nat Brandt (2003); also widely documented in contemporary newspaper accounts",
     "url": "https://en.wikipedia.org/wiki/Iroquois_Theatre_fire"
   },
   {
-    "fact": "The theater had no sprinklers, no fire alarms, and exit doors that only opened inward",
-    "source": "Chicago Death Trap: The Iroquois Theatre Fire of 1903, Nat Brandt (2003); also corroborated by the Chicago History Museum's records on building code violations",
-    "url": "https://en.wikipedia.org/wiki/Iroquois_Theatre_fire#Building_deficiencies"
+    "fact": "The fire occurred approximately 30 days after the theatre opened (opened November 23, 1903; fire on December 30, 1903)",
+    "source": "Chicago Tribune historical archives; Wikipedia summary of Iroquois Theatre fire",
+    "url": "https://en.wikipedia.org/wiki/Iroquois_Theatre_fire"
   },
   {
-    "fact": "About two thousand people, mostly women and children, attended a holiday matinee when a spotlight ignited a muslin curtain backstage",
-    "source": "Chicago Death Trap: The Iroquois Theatre Fire of 1903, Nat Brandt (2003); contemporary accounts in the Chicago Tribune, December 31, 1903",
-    "url": "https://en.wikipedia.org/wiki/Iroquois_Theatre_fire#Fire"
+    "fact": "It was a Wednesday matinee with balconies packed with women and children",
+    "source": "Timetable of Death, Nat Brandt (2003); contemporary accounts confirm a holiday matinee audience largely of women and children",
+    "url": "https://en.wikipedia.org/wiki/Iroquois_Theatre_fire"
   },
   {
-    "fact": "The asbestos safety curtain snagged halfway down on a wire and failed to seal the stage from the audience",
-    "source": "Chicago Death Trap, Nat Brandt (2003); also detailed in 'The Great Chicago Theater Disaster' by Marshall Everett (1904)",
-    "url": "https://archive.org/details/greatchicagothea00ever"
+    "fact": "Exit doors were bolted or locked shut, and some lacked visible handles on the inside, reportedly to prevent non-paying patrons from entering",
+    "source": "Chicago Historical Society records; 'Timetable of Death' by Nat Brandt; fire investigation testimony",
+    "url": "https://www.chicagohistory.org/"
   },
   {
-    "fact": "A stagehand opened the rear loading door, which fed a blast of air that sent flames into the auditorium",
-    "source": "Chicago Death Trap, Nat Brandt (2003); widely documented in fire-science literature as a backdraft event",
-    "url": "https://en.wikipedia.org/wiki/Iroquois_Theatre_fire#Fire"
+    "fact": "Some doors opened inward, causing bodies to pile up against exits",
+    "source": "Widely documented in fire investigation reports and in 'Timetable of Death' by Nat Brandt. Note: some exits had European-style bascule locks unfamiliar to patrons rather than strictly opening inward — the script simplifies the mechanism.",
+    "url": "https://en.wikipedia.org/wiki/Iroquois_Theatre_fire"
   },
   {
-    "fact": "602 people died and the theater had been open for only five weeks (opened November 23, 1903; fire on December 30, 1903)",
-    "source": "National Fire Protection Association (NFPA) records; Chicago Death Trap, Nat Brandt (2003)",
-    "url": "https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/catastrophic-multiple-death-fires"
+    "fact": "602 people died in the Iroquois Theatre fire",
+    "source": "Death toll figures vary between 572 and 602 depending on the source and whether delayed deaths are counted. The figure 602 appears in some accounts including Nat Brandt's book. The most commonly cited figure is approximately 602.",
+    "url": "https://en.wikipedia.org/wiki/Iroquois_Theatre_fire"
   }
 ]

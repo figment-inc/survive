@@ -1,21 +1,23 @@
 MANDATORY STYLE — AMERICAN ADULT ANIMATION: Classic American adult animation style. Flat cel-shaded coloring with ZERO gradients. Thick uniform black outlines on ALL elements — characters, objects, backgrounds. Simplified features. Clean flat colors, no shading variation, no lighting effects, no 3D rendering, no photorealistic elements. Match the EXACT art style of the attached character reference sheet.
 
-Classic American adult animation frame, vertical 9:16 composition. Backstage of the Iroquois Theatre, Chicago, December 30, 1903.
+Classic American adult animation frame, vertical 9:16 composition. Iroquois Theatre exit door exterior, Chicago, December 30, 1903.
 
-NARRATION FOR THIS IMAGE: "A spotlight ignites a muslin curtain backstage, and the fire begins to climb."
+NARRATION FOR THIS IMAGE: "Management bolted them shut to stop people sneaking in free."
 
-SHOT TYPE: Medium close-up. CAMERA ANGLE: Low-angle, looking upward. CHARACTER POSITION: absent. A view from backstage floor level looking up at the fly gallery and hanging scenery. A carbon-arc spotlight fixture — a large cylindrical metal housing on a swivel mount — sits at the left of frame, its front aimed at a hanging panel of thin white muslin fabric. The muslin has caught — flat orange and bright yellow flame shapes crawl upward along the fabric, the fire climbing the drape toward the wooden fly rigging above. The muslin curls and blackens at the edges.
+SHOT TYPE: Extreme close-up. CAMERA ANGLE: Eye-level, straight on. CHARACTER POSITION: absent.
 
-Foreground: Coiled hemp ropes on the wooden stage floor. A tin bucket and a wooden stool — the absent stagehand's station. The base of the spotlight fixture, its heavy iron tripod.
+An extreme close-up of the door's locking mechanism from the outside — a heavy iron padlock chained through an iron hasp, a thick slide-bolt driven home, and a secondary crossbar of iron bracing the door shut. The door itself is heavy dark wood. The multiple redundant locks make it clear: this door was NEVER meant to open from the inside.
 
-Midground: The burning muslin curtain panel, flames climbing in flat orange and yellow shapes with thick black outlines. The carbon-arc spotlight housing. Wooden battens and sandbag counterweights hanging from the fly system. Other muslin and canvas scenery drops hanging nearby, dangerously close to the burning panel.
+Foreground: The iron padlock and chain fill the center of the frame — heavy, industrial, rusted at the edges. Flat iron grey and dull rust-brown. The chain links are thick and taut.
 
-Background: The wooden fly gallery above — a maze of hemp ropes, wooden pulleys, and painted canvas flats stacked vertically. The wooden grid structure of the stage rigging, all of it made of bare timber. Beyond, the upper edge of the proscenium arch is visible, with the auditorium's gilded ceiling beyond.
+Midground: The full door surface visible around the lock — dark mahogany with brass hinges. A second bolt visible lower on the door. The exterior alley wall in flat dirty brick.
 
-Flat even lighting. Palette: flat orange and bright yellow flame shapes against charcoal backstage darkness, warm brown exposed timber, ivory-white muslin turning to black char, tarnished gold on distant gilded trim. The flat orange fire area contrasts sharply with the dark backstage.
+Background: The narrow alley behind the theatre — dirty brick walls, a dusting of flat white snow on the ground, a dumpster-like waste bin. The alley is cramped and dark in flat charcoal tones.
 
-Period texture: The carbon-arc spotlight is an early 1900s model — a large cylindrical housing with a manual focusing mechanism and bare electrical cables running to it. The muslin scenery is cheaply painted, thin as cheesecloth. The fly rigging is entirely hemp rope and bare wood — no fireproofing.
+Flat even lighting. Cold exterior palette — flat iron grey, rust brown, dirty brick red, charcoal, flat white snow. Industrial and institutional. The locks are the visual focus — excessive, paranoid security.
 
-Background activity: Two stagehands in the distance — one pointing upward at the fire, the other running with an outstretched hand. A chorus girl in a sequined costume peeks from behind a flat, hand to mouth.
+Period texture: A heavy chain with links as thick as a man's thumb. The padlock is a massive brass-and-iron Corbin model circa 1900. Frost on the iron surfaces.
+
+Background activity: None — this is a cold, empty alley. A stray cat sits on a crate. Footprints in the thin snow suggest occasional foot traffic.
 
 No text, no watermarks, no logos, no captions, no overlays. No photorealistic rendering. No depth-of-field blur. No 3D shading or gradients.
